@@ -1,0 +1,774 @@
+﻿[2016.06.01-12.54.25:881][  0]Log file open, 06/01/16 13:54:25
+[2016.06.01-12.54.25:881][  0]LogInit:Display: Running engine for game: Escapig1
+[2016.06.01-12.54.25:881][  0]LogInit:Display: RandInit(1804920287) SRandInit(1804920287).
+[2016.06.01-12.54.25:881][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.06.01-12.54.25:881][  0]LogStats: Stats thread started at 0.069343
+[2016.06.01-12.54.25:881][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.06.01-12.54.25:881][  0]LogInit: API Version: 2672455
+[2016.06.01-12.54.25:881][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.06.01-12.54.25:881][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.06.01-12.54.25:881][  0]LogInit: Build Configuration: Development
+[2016.06.01-12.54.25:881][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.06.01-12.54.25:881][  0]LogInit: Command line: 
+[2016.06.01-12.54.25:881][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.06.01-12.54.25:881][  0]LogInit: Rocket: 1
+[2016.06.01-12.54.25:889][  0]LogInit: Using libcurl 7.41.0
+[2016.06.01-12.54.25:890][  0]LogInit:  - built for x86_64-pc-win32
+[2016.06.01-12.54.25:890][  0]LogInit:  - supports SSL with WinSSL
+[2016.06.01-12.54.25:890][  0]LogInit:  - other features:
+[2016.06.01-12.54.25:890][  0]LogInit:      CURL_VERSION_SSL
+[2016.06.01-12.54.25:890][  0]LogInit:      CURL_VERSION_IPV6
+[2016.06.01-12.54.25:890][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.06.01-12.54.25:890][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.06.01-12.54.25:890][  0]LogInit:      CURL_VERSION_IDN
+[2016.06.01-12.54.25:890][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.06.01-12.54.25:890][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.06.01-12.54.25:890][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.06.01-12.54.25:890][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.06.01-12.54.25:890][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.06.01-12.54.25:900][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.06.01-12.54.25:909][  0]LogInit: Object subsystem initialized
+[2016.06.01-12.54.25:911][  0]LogInit: Selected Device Profile: [Windows]
+[2016.06.01-12.54.25:911][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.06.01-12.54.25:923][  0]LogInit: Computer: CE215-19
+[2016.06.01-12.54.25:923][  0]LogInit: User: u1353996
+[2016.06.01-12.54.25:923][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.06.01-12.54.25:923][  0]LogInit: High frequency timer resolution =3.507695 MHz
+[2016.06.01-12.54.25:923][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2016.06.01-12.54.25:923][  0]LogMemory: Platform Memory Stats for Windows
+[2016.06.01-12.54.25:923][  0]LogMemory: Process Physical Memory: 54.43 MB used, 54.43 MB peak
+[2016.06.01-12.54.25:923][  0]LogMemory: Process Virtual Memory: 59.24 MB used, 59.24 MB peak
+[2016.06.01-12.54.25:923][  0]LogMemory: Physical Memory: 7066.70 MB used, 16221.48 MB total
+[2016.06.01-12.54.25:923][  0]LogMemory: Virtual Memory: 339.39 MB used, 8388608.00 MB total
+[2016.06.01-12.54.25:970][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.06.01-12.54.26:712][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.06.01-12.54.26:712][  0]LogD3D11RHI: Adapter has 4008MB of dedicated video memory, 0MB of dedicated system memory, and 7854MB of shared system memory, 1 output[s]
+[2016.06.01-12.54.26:720][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2016.06.01-12.54.26:720][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 0 output[s]
+[2016.06.01-12.54.26:720][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.06.01-12.54.26:728][  0]LogD3D11RHI: !Direct3DDevice
+[2016.06.01-12.54.26:728][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.06.01-12.54.26:735][  0]LogD3D11RHI: Async texture creation enabled
+[2016.06.01-12.54.26:748][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (G:/Escapig.git/Escapig1/Intermediate/Shaders/WorkingDirectory/9664/).
+[2016.06.01-12.54.26:748][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'G:/Escapig.git/Escapig1/Intermediate/Shaders/tmp/CD77C7954E4A3561FC582EAEB7B1EDD6/'.
+[2016.06.01-12.54.26:748][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.06.01-12.54.27:730][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.06.01-12.54.27:734][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.06.01-12.54.27:739][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.06.01-12.54.27:743][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.06.01-12.54.27:748][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.06.01-12.54.27:751][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.06.01-12.54.27:754][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.06.01-12.54.27:757][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.06.01-12.54.27:760][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.06.01-12.54.27:763][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.06.01-12.54.27:766][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.06.01-12.54.27:769][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.06.01-12.54.27:770][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.06.01-12.54.27:785][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.06.01-12.54.27:788][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.06.01-12.54.27:790][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.06.01-12.54.27:793][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.06.01-12.54.27:793][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.06.01-12.54.27:878][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.06.01-12.54.27:925][  0]LogDerivedDataCache: Loaded boot cache 0.05s 41MB D:/Users/u1353996/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.06.01-12.54.27:925][  0]LogDerivedDataCache:Display: Loaded Boot cache: D:/Users/u1353996/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.06.01-12.54.27:925][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file G:/Escapig.git/Escapig1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.06.01-12.54.27:925][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.06.01-12.54.27:925][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file G:/Escapig.git/Escapig1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.06.01-12.54.27:925][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.06.01-12.54.28:058][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.06.01-12.54.28:070][  0]LogDerivedDataCache: Using Local data cache path D:/Users/u1353996/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.06.01-12.54.28:266][  0]LogInit: Selected Device Profile: [Windows]
+[2016.06.01-12.54.28:266][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.06.01-12.54.28:287][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.06.01-12.54.28:287][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.06.01-12.54.28:596][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.06.01-12.54.29:282][  0]LogAssetRegistry: FAssetRegistry took 0.0095 seconds to start up
+[2016.06.01-12.54.29:298][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.06.01-12.54.29:867][  0]SourceControl: Info Source control is disabled
+[2016.06.01-12.54.29:875][  0]SourceControl: Info Source control is disabled
+[2016.06.01-12.54.29:886][  0]SourceControl: Info Source control is disabled
+[2016.06.01-12.54.29:897][  0]SourceControl: Info Source control is disabled
+[2016.06.01-12.54.30:042][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.06.01-12.54.30:134][  0]LogObj: 28528 objects as part of root set at end of initial load.
+[2016.06.01-12.54.30:134][  0]LogUObjectAllocator: 6068456 out of 0 bytes used by permanent object pool.
+[2016.06.01-12.54.30:185][  0]LogEngine: Initializing Engine...
+[2016.06.01-12.54.30:186][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.06.01-12.54.30:187][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.06.01-12.54.30:304][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.06.01-12.54.30:307][  0]LogInit: No audio devices found!
+[2016.06.01-12.54.30:327][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB D:/Users/u1353996/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.06.01-12.54.30:330][  0]LogInit: Texture streaming: Enabled
+[2016.06.01-12.54.30:336][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.06.01-12.54.30:336][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.06.01-12.54.30:336][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 07f72a4143ebf5cf58321894569ec11f|1585fa4d5cad45089f41d7213611afa3|263ddada-e86c-4762-9316-7c3167d662aa
+[2016.06.01-12.54.30:336][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.06.01-12.54.30:354][  0]LogInit: Transaction tracking system initialized
+[2016.06.01-12.54.30:377][  0]BlueprintLog: New page: Editor Load
+[2016.06.01-12.54.30:737][  0]LocalizationService: Info Localization service is disabled
+[2016.06.01-12.54.30:820][  0]LogConsoleResponse:Display: 
+[2016.06.01-12.54.30:933][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.06.01-12.54.30:991][  0]LogFileCache: Scanning file cache for directory 'G:/Escapig.git/Escapig1/Content/' took 0.01s
+[2016.06.01-12.54.30:991][  0]SourceControl: Info Source control is disabled
+[2016.06.01-12.54.30:991][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.06.01-12.54.30:992][  0]LightingResults: New page: Lighting Build
+[2016.06.01-12.54.30:996][  0]MapCheck: New page: Map Check
+[2016.06.01-12.54.30:996][  0]LightingResults: New page: Lighting Build
+[2016.06.01-12.54.31:008][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001749B6A0
+[2016.06.01-12.54.31:244][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2016.06.01-12.54.31:249][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.06.01-12.54.31:254][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.06.01-12.54.31:309][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 54.272ms to complete.
+[2016.06.01-12.54.31:309][  0]LogFileHelpers: Loading map 'Template_Default' took 0.317
+[2016.06.01-12.54.31:405][  0]LogCollectionManager: Loaded 0 collections in 0.001713 seconds
+[2016.06.01-12.54.31:443][  0]LogFileCache: Scanning file cache for directory 'G:/Escapig.git/Escapig1/Saved/Collections/' took 0.01s
+[2016.06.01-12.54.31:443][  0]LogFileCache: Scanning file cache for directory 'G:/Escapig.git/Escapig1/Content/Developers/u1353996/Collections/' took 0.01s
+[2016.06.01-12.54.31:443][  0]LogFileCache: Scanning file cache for directory 'G:/Escapig.git/Escapig1/Content/Collections/' took 0.01s
+[2016.06.01-12.54.31:443][  0]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 1882 classes and 339 folders.
+[2016.06.01-12.54.31:450][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.06.01-12.54.31:455][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.06.01-12.54.31:508][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.06.01-12.54.31:513][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.06.01-12.54.31:532][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.06.01-12.54.31:548][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.06.01-12.54.31:568][  0]LogLoad: Full Startup: 6.21 seconds (BP compile: 0.04 seconds)
+[2016.06.01-12.54.31:641][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.06.01-12.54.31:766][  0]LogRenderer: Reallocating scene render targets to support 1616x808 (Frame:2).
+[2016.06.01-12.54.31:890][  2]LogAssetRegistry: Asset discovery search completed in 2.6176 seconds
+[2016.06.01-12.54.31:890][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.06.01-12.54.31:890][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000014 seconds (updated 0 objects)
+[2016.06.01-12.54.50:145][715]LogPlayLevel: Launcher Device ID: WindowsNoEditor@CE215-19
+[2016.06.01-12.54.50:149][715]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.01-12.54.52:846][715]CookResults:Warning: Warning Unable to find package for cooking /Temp/Untitled_1
+[2016.06.01-12.54.52:846][715]LogCook:Warning: Unable to find package for cooking /Temp/Untitled_1
+[2016.06.01-12.54.52:921][717]LogCook:Display: Cooking /Engine/MobileResources/HUD/VirtualJoystick_Thumb -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset
+[2016.06.01-12.54.52:922][717]LogSavePackage: Save=1.135504ms
+[2016.06.01-12.54.52:922][717]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset'
+[2016.06.01-12.54.52:922][717]LogSavePackage: Total save time: 1.322519ms
+[2016.06.01-12.54.52:922][717]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset
+[2016.06.01-12.54.52:931][718]LogCook:Display: Cooking /Engine/MobileResources/HUD/T_Castle_ThumbstickOutter -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/T_Castle_ThumbstickOutter.uasset
+[2016.06.01-12.54.52:941][718]LogSavePackage: Save=1.019473ms
+[2016.06.01-12.54.52:941][718]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/T_Castle_ThumbstickOutter.uasset'
+[2016.06.01-12.54.52:941][718]LogSavePackage: Total save time: 10.267995ms
+[2016.06.01-12.54.52:941][718]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/T_Castle_ThumbstickOutter.uasset
+[2016.06.01-12.54.52:951][719]LogCook:Display: Cooking /Engine/MobileResources/HUD/MobileHUDDirectionStick -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDDirectionStick.uasset
+[2016.06.01-12.54.52:961][719]LogSavePackage: Save=0.773442ms
+[2016.06.01-12.54.52:961][719]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDDirectionStick.uasset'
+[2016.06.01-12.54.52:961][719]LogSavePackage: Total save time: 10.176767ms
+[2016.06.01-12.54.52:961][719]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDDirectionStick.uasset
+[2016.06.01-12.54.52:972][720]LogCook:Display: Cooking /Engine/MobileResources/HUD/MobileHUDDirectionPad2 -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDDirectionPad2.uasset
+[2016.06.01-12.54.52:981][720]LogSavePackage: Save=0.733815ms
+[2016.06.01-12.54.52:981][720]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDDirectionPad2.uasset'
+[2016.06.01-12.54.52:982][720]LogSavePackage: Total save time: 9.876855ms
+[2016.06.01-12.54.52:982][720]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDDirectionPad2.uasset
+[2016.06.01-12.54.52:991][721]LogCook:Display: Cooking /Engine/MobileResources/HUD/MobileHUDButtonFire -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDButtonFire.uasset
+[2016.06.01-12.54.53:001][721]LogSavePackage: Save=0.761754ms
+[2016.06.01-12.54.53:001][721]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDButtonFire.uasset'
+[2016.06.01-12.54.53:001][721]LogSavePackage: Total save time: 9.559840ms
+[2016.06.01-12.54.53:001][721]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDButtonFire.uasset
+[2016.06.01-12.54.53:011][722]LogCook:Display: Cooking /Engine/MobileResources/HUD/MobileHUDButton2_on -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDButton2_on.uasset
+[2016.06.01-12.54.53:021][722]LogSavePackage: Save=1.106710ms
+[2016.06.01-12.54.53:021][722]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDButton2_on.uasset'
+[2016.06.01-12.54.53:021][722]LogSavePackage: Total save time: 10.683369ms
+[2016.06.01-12.54.53:021][722]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDButton2_on.uasset
+[2016.06.01-12.54.53:029][723]LogCook:Display: Cooking /Engine/MobileResources/HUD/MobileHUDButton1_on -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDButton1_on.uasset
+[2016.06.01-12.54.53:040][723]LogSavePackage: Save=1.152324ms
+[2016.06.01-12.54.53:040][723]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDButton1_on.uasset'
+[2016.06.01-12.54.53:040][723]LogSavePackage: Total save time: 10.764334ms
+[2016.06.01-12.54.53:040][723]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDButton1_on.uasset
+[2016.06.01-12.54.53:045][723]LogCook:Display: Cooking /Engine/MobileResources/HUD/LeftVirtualJoystickOnly -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/LeftVirtualJoystickOnly.uasset
+[2016.06.01-12.54.53:047][723]LogSavePackage: Save=0.720131ms
+[2016.06.01-12.54.53:047][723]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/LeftVirtualJoystickOnly.uasset'
+[2016.06.01-12.54.53:047][723]LogSavePackage: Total save time: 1.719076ms
+[2016.06.01-12.54.53:047][723]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/LeftVirtualJoystickOnly.uasset
+[2016.06.01-12.54.53:049][723]LogCook:Display: Cooking /Engine/MobileResources/HUD/DefaultVirtualJoysticks -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset
+[2016.06.01-12.54.53:049][723]LogSavePackage: Save=0.527127ms
+[2016.06.01-12.54.53:049][723]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset'
+[2016.06.01-12.54.53:049][723]LogSavePackage: Total save time: 0.654563ms
+[2016.06.01-12.54.53:049][723]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset
+[2016.06.01-12.54.53:052][723]LogCook:Display: Cooking /Engine/MobileResources/HUD/AnalogHat -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/AnalogHat.uasset
+[2016.06.01-12.54.53:052][723]LogSavePackage: Save=0.766600ms
+[2016.06.01-12.54.53:052][723]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/AnalogHat.uasset'
+[2016.06.01-12.54.53:053][723]LogSavePackage: Total save time: 0.969011ms
+[2016.06.01-12.54.53:053][723]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/AnalogHat.uasset
+[2016.06.01-12.54.53:061][724]LogCook:Display: Cooking /Engine/MobileResources/T_MobileMenu2 -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/T_MobileMenu2.uasset
+[2016.06.01-12.54.53:070][724]LogSavePackage: Save=0.801666ms
+[2016.06.01-12.54.53:070][724]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/T_MobileMenu2.uasset'
+[2016.06.01-12.54.53:071][724]LogSavePackage: Total save time: 9.632539ms
+[2016.06.01-12.54.53:071][724]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/T_MobileMenu2.uasset
+[2016.06.01-12.54.53:086][724]LogAIModule: Creating AISystem for world Entry
+[2016.06.01-12.54.53:088][724]LogCook:Display: Cooking /Engine/Maps/Entry -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/Maps/Entry.umap
+[2016.06.01-12.54.53:103][724]LogSavePackage: Save=5.172058ms
+[2016.06.01-12.54.53:103][724]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/Maps/Entry.umap'
+[2016.06.01-12.54.53:103][724]LogSavePackage: Total save time: 5.338833ms
+[2016.06.01-12.54.53:103][724]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/Maps/Entry.umap
+[2016.06.01-12.54.53:109][725]LogCook:Display: Cooking /Engine/MobileResources/HUD/VirtualJoystick_Background -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset
+[2016.06.01-12.54.53:121][725]LogSavePackage: Save=1.307981ms
+[2016.06.01-12.54.53:121][725]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset'
+[2016.06.01-12.54.53:121][725]LogSavePackage: Total save time: 12.600295ms
+[2016.06.01-12.54.53:121][725]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset
+[2016.06.01-12.54.53:127][726]LogCook:Display: Cooking /Engine/EditorResources/S_Emitter -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_Emitter.uasset
+[2016.06.01-12.54.53:141][726]LogSavePackage: Save=1.513530ms
+[2016.06.01-12.54.53:141][726]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_Emitter.uasset'
+[2016.06.01-12.54.53:142][726]LogSavePackage: Total save time: 14.811721ms
+[2016.06.01-12.54.53:142][726]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_Emitter.uasset
+[2016.06.01-12.54.53:147][727]LogCook:Display: Cooking /Engine/EditorResources/Bkgnd -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/Bkgnd.uasset
+[2016.06.01-12.54.53:160][727]LogSavePackage: Save=0.966732ms
+[2016.06.01-12.54.53:160][727]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/Bkgnd.uasset'
+[2016.06.01-12.54.53:160][727]LogSavePackage: Total save time: 12.440648ms
+[2016.06.01-12.54.53:160][727]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/Bkgnd.uasset
+[2016.06.01-12.54.53:160][727]LogCook:Display: Cooking /Engine/EditorMeshes/EditorCube -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/EditorCube.uasset
+[2016.06.01-12.54.53:161][727]LogSavePackage: Save=1.361863ms
+[2016.06.01-12.54.53:162][727]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/EditorCube.uasset'
+[2016.06.01-12.54.53:162][727]LogSavePackage: Total save time: 1.503550ms
+[2016.06.01-12.54.53:162][727]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/EditorCube.uasset
+[2016.06.01-12.54.53:162][727]LogCook:Display: Cooking /Engine/EditorMeshes/EditorSphere -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/EditorSphere.uasset
+[2016.06.01-12.54.53:163][727]LogSavePackage: Save=1.058530ms
+[2016.06.01-12.54.53:163][727]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/EditorSphere.uasset'
+[2016.06.01-12.54.53:164][727]LogSavePackage: Total save time: 1.995042ms
+[2016.06.01-12.54.53:164][727]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/EditorSphere.uasset
+[2016.06.01-12.54.53:164][727]LogCook:Display: Cooking /Engine/EditorMeshes/EditorPlane -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/EditorPlane.uasset
+[2016.06.01-12.54.53:165][727]LogSavePackage: Save=1.227872ms
+[2016.06.01-12.54.53:165][727]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/EditorPlane.uasset'
+[2016.06.01-12.54.53:165][727]LogSavePackage: Total save time: 1.386952ms
+[2016.06.01-12.54.53:165][727]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/EditorPlane.uasset
+[2016.06.01-12.54.53:166][727]LogCook:Display: Cooking /Engine/EditorMeshes/EditorCylinder -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/EditorCylinder.uasset
+[2016.06.01-12.54.53:167][727]LogSavePackage: Save=1.050547ms
+[2016.06.01-12.54.53:167][727]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/EditorCylinder.uasset'
+[2016.06.01-12.54.53:167][727]LogSavePackage: Total save time: 1.168005ms
+[2016.06.01-12.54.53:167][727]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/EditorCylinder.uasset
+[2016.06.01-12.54.53:167][727]LogCook:Display: Cooking /Engine/EngineFonts/Roboto -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Roboto.uasset
+[2016.06.01-12.54.53:213][727]LogSavePackage: Save=46.078979ms
+[2016.06.01-12.54.53:213][727]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Roboto.uasset'
+[2016.06.01-12.54.53:213][727]LogSavePackage: Total save time: 46.339262ms
+[2016.06.01-12.54.53:213][727]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Roboto.uasset
+[2016.06.01-12.54.53:218][728]LogCook:Display: Cooking /Engine/Maps/Templates/Thumbnails/Default -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/Maps/Templates/Thumbnails/Default.uasset
+[2016.06.01-12.54.53:231][728]LogSavePackage: Save=1.181973ms
+[2016.06.01-12.54.53:231][728]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/Maps/Templates/Thumbnails/Default.uasset'
+[2016.06.01-12.54.53:231][728]LogSavePackage: Total save time: 13.060141ms
+[2016.06.01-12.54.53:231][728]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/Maps/Templates/Thumbnails/Default.uasset
+[2016.06.01-12.54.53:238][728]LogCook:Display: Cooking /Engine/EditorMaterials/Thumbnails/SkySphereMaterial -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset
+[2016.06.01-12.54.53:240][728]LogSavePackage: Save=2.491095ms
+[2016.06.01-12.54.53:240][728]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset'
+[2016.06.01-12.54.53:241][728]LogSavePackage: Total save time: 2.887934ms
+[2016.06.01-12.54.53:241][728]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset
+[2016.06.01-12.54.53:241][728]LogCook:Display: Cooking /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset
+[2016.06.01-12.54.53:243][728]LogSavePackage: Save=1.909231ms
+[2016.06.01-12.54.53:243][728]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset'
+[2016.06.01-12.54.53:243][728]LogSavePackage: Total save time: 2.134737ms
+[2016.06.01-12.54.53:243][728]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset
+[2016.06.01-12.54.53:243][728]LogCook:Display: Cooking /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset
+[2016.06.01-12.54.53:247][728]LogSavePackage: Save=3.144515ms
+[2016.06.01-12.54.53:247][728]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset'
+[2016.06.01-12.54.53:247][728]LogSavePackage: Total save time: 3.326971ms
+[2016.06.01-12.54.53:247][728]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset
+[2016.06.01-12.54.53:271][728]LogCook:Display: Cooking /Engine/EngineMaterials/WorldGridMaterial -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/WorldGridMaterial.uasset
+[2016.06.01-12.54.53:324][728]LogSavePackage: Save=52.674191ms
+[2016.06.01-12.54.53:324][728]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/WorldGridMaterial.uasset'
+[2016.06.01-12.54.53:327][728]LogSavePackage: Total save time: 55.880859ms
+[2016.06.01-12.54.53:327][728]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/WorldGridMaterial.uasset
+[2016.06.01-12.54.53:332][729]LogCook:Display: Cooking /Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset
+[2016.06.01-12.54.53:347][729]LogSavePackage: Save=2.883090ms
+[2016.06.01-12.54.53:348][729]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset'
+[2016.06.01-12.54.53:348][729]LogSavePackage: Total save time: 15.538696ms
+[2016.06.01-12.54.53:348][729]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset
+[2016.06.01-12.54.53:354][730]LogCook:Display: Cooking /Engine/EngineMaterials/T_Default_Material_Grid_M -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/T_Default_Material_Grid_M.uasset
+[2016.06.01-12.54.53:366][730]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FLauncherTask///Thread_76c_0///####STATCAT_Advanced#### old //STATGROUP_Threads//FLauncherTask///Thread_186c_0///####STATCAT_Advanced####
+[2016.06.01-12.54.53:366][730]LogSavePackage: Save=1.075065ms
+[2016.06.01-12.54.53:366][730]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/T_Default_Material_Grid_M.uasset'
+[2016.06.01-12.54.53:366][730]LogSavePackage: Total save time: 11.354752ms
+[2016.06.01-12.54.53:366][730]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/T_Default_Material_Grid_M.uasset
+[2016.06.01-12.54.53:371][730]LogCook:Display: Cooking /Engine/EngineMaterials/DefaultDeferredDecalMaterial -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset
+[2016.06.01-12.54.53:373][730]LogSavePackage: Save=2.073726ms
+[2016.06.01-12.54.53:373][730]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset'
+[2016.06.01-12.54.53:435][730]LogSavePackage: Total save time: 64.064294ms
+[2016.06.01-12.54.53:435][730]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset
+[2016.06.01-12.54.53:798][757]LogCook:Display: Cooking /Engine/EngineMaterials/DefaultDiffuse -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultDiffuse.uasset
+[2016.06.01-12.54.53:821][757]LogSavePackage: Save=8.481353ms
+[2016.06.01-12.54.53:821][757]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultDiffuse.uasset'
+[2016.06.01-12.54.53:821][757]LogSavePackage: Total save time: 23.198709ms
+[2016.06.01-12.54.53:821][757]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultDiffuse.uasset
+[2016.06.01-12.54.53:828][757]LogCook:Display: Cooking /Engine/EditorMaterials/MatineeCam_mat -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeCam_mat.uasset
+[2016.06.01-12.54.53:831][757]LogSavePackage: Save=2.134450ms
+[2016.06.01-12.54.53:831][757]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeCam_mat.uasset'
+[2016.06.01-12.54.53:831][757]LogSavePackage: Total save time: 2.305787ms
+[2016.06.01-12.54.53:831][757]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeCam_mat.uasset
+[2016.06.01-12.54.53:835][758]LogCook:Display: Cooking /Engine/EditorResources/MatineeCam_D -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/MatineeCam_D.uasset
+[2016.06.01-12.54.53:849][758]LogSavePackage: Save=0.728684ms
+[2016.06.01-12.54.53:849][758]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/MatineeCam_D.uasset'
+[2016.06.01-12.54.53:849][758]LogSavePackage: Total save time: 13.675932ms
+[2016.06.01-12.54.53:849][758]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/MatineeCam_D.uasset
+[2016.06.01-12.54.53:849][758]LogCook:Display: Cooking /Engine/Functions/Engine_MaterialFunctions02/Texturing/FlipBook -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset
+[2016.06.01-12.54.53:853][758]LogSavePackage: Save=4.368681ms
+[2016.06.01-12.54.53:853][758]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset'
+[2016.06.01-12.54.53:854][758]LogSavePackage: Total save time: 4.526906ms
+[2016.06.01-12.54.53:854][758]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset
+[2016.06.01-12.54.53:854][758]LogCook:Display: Cooking /Engine/Functions/Engine_MaterialFunctions02/Utility/Round -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/Round.uasset
+[2016.06.01-12.54.53:855][758]LogSavePackage: Save=1.504977ms
+[2016.06.01-12.54.53:855][758]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/Round.uasset'
+[2016.06.01-12.54.53:855][758]LogSavePackage: Total save time: 1.622435ms
+[2016.06.01-12.54.53:855][758]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/Round.uasset
+[2016.06.01-12.54.53:856][758]LogCook:Display: Cooking /Engine/Functions/Engine_MaterialFunctions02/Utility/Sign -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/Sign.uasset
+[2016.06.01-12.54.53:857][758]LogSavePackage: Save=0.962455ms
+[2016.06.01-12.54.53:857][758]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/Sign.uasset'
+[2016.06.01-12.54.53:857][758]LogSavePackage: Total save time: 1.067366ms
+[2016.06.01-12.54.53:857][758]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/Sign.uasset
+[2016.06.01-12.54.53:899][761]LogCook:Display: Cooking /Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset
+[2016.06.01-12.54.53:913][761]LogSavePackage: Save=1.059385ms
+[2016.06.01-12.54.53:913][761]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset'
+[2016.06.01-12.54.53:913][761]LogSavePackage: Total save time: 13.346370ms
+[2016.06.01-12.54.53:913][761]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset
+[2016.06.01-12.54.53:921][762]LogCook:Display: Cooking /Engine/EditorResources/S_Player -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_Player.uasset
+[2016.06.01-12.54.53:933][762]LogSavePackage: Save=0.850701ms
+[2016.06.01-12.54.53:933][762]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_Player.uasset'
+[2016.06.01-12.54.53:933][762]LogSavePackage: Total save time: 12.685537ms
+[2016.06.01-12.54.53:933][762]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_Player.uasset
+[2016.06.01-12.54.53:940][763]LogCook:Display: Cooking /Engine/EditorResources/S_WindDirectional -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_WindDirectional.uasset
+[2016.06.01-12.54.53:953][763]LogSavePackage: Save=0.933091ms
+[2016.06.01-12.54.53:953][763]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_WindDirectional.uasset'
+[2016.06.01-12.54.53:954][763]LogSavePackage: Total save time: 13.979550ms
+[2016.06.01-12.54.53:954][763]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_WindDirectional.uasset
+[2016.06.01-12.54.53:959][764]LogCook:Display: Cooking /Engine/EditorResources/LightIcons/S_LightDirectional -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/LightIcons/S_LightDirectional.uasset
+[2016.06.01-12.54.53:971][764]LogSavePackage: Save=0.820767ms
+[2016.06.01-12.54.53:971][764]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/LightIcons/S_LightDirectional.uasset'
+[2016.06.01-12.54.53:971][764]LogSavePackage: Total save time: 11.946592ms
+[2016.06.01-12.54.53:971][764]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/LightIcons/S_LightDirectional.uasset
+[2016.06.01-12.54.53:976][765]LogCook:Display: Cooking /Engine/EditorResources/LightIcons/S_LightPoint -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/LightIcons/S_LightPoint.uasset
+[2016.06.01-12.54.53:988][765]LogSavePackage: Save=0.729824ms
+[2016.06.01-12.54.53:988][765]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/LightIcons/S_LightPoint.uasset'
+[2016.06.01-12.54.53:988][765]LogSavePackage: Total save time: 12.042381ms
+[2016.06.01-12.54.53:988][765]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/LightIcons/S_LightPoint.uasset
+[2016.06.01-12.54.53:995][766]LogCook:Display: Cooking /Engine/EditorResources/LightIcons/S_LightSpot -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/LightIcons/S_LightSpot.uasset
+[2016.06.01-12.54.54:007][766]LogSavePackage: Save=0.849276ms
+[2016.06.01-12.54.54:007][766]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/LightIcons/S_LightSpot.uasset'
+[2016.06.01-12.54.54:007][766]LogSavePackage: Total save time: 12.925584ms
+[2016.06.01-12.54.54:007][766]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/LightIcons/S_LightSpot.uasset
+[2016.06.01-12.54.54:014][767]LogCook:Display: Cooking /Engine/EditorResources/MatInstActSprite -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/MatInstActSprite.uasset
+[2016.06.01-12.54.54:026][767]LogSavePackage: Save=0.933662ms
+[2016.06.01-12.54.54:026][767]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/MatInstActSprite.uasset'
+[2016.06.01-12.54.54:026][767]LogSavePackage: Total save time: 11.904970ms
+[2016.06.01-12.54.54:026][767]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/MatInstActSprite.uasset
+[2016.06.01-12.54.54:031][768]LogCook:Display: Cooking /Engine/EditorResources/AI/S_NavLink -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/AI/S_NavLink.uasset
+[2016.06.01-12.54.54:044][768]LogSavePackage: Save=0.999802ms
+[2016.06.01-12.54.54:044][768]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/AI/S_NavLink.uasset'
+[2016.06.01-12.54.54:044][768]LogSavePackage: Total save time: 12.494814ms
+[2016.06.01-12.54.54:044][768]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/AI/S_NavLink.uasset
+[2016.06.01-12.54.54:044][768]LogCook:Display: Cooking /Engine/EngineMeshes/Sphere -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMeshes/Sphere.uasset
+[2016.06.01-12.54.54:045][768]LogSavePackage: Save=1.215613ms
+[2016.06.01-12.54.54:045][768]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMeshes/Sphere.uasset'
+[2016.06.01-12.54.54:046][768]LogSavePackage: Total save time: 1.354448ms
+[2016.06.01-12.54.54:046][768]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMeshes/Sphere.uasset
+[2016.06.01-12.54.54:051][769]LogCook:Display: Cooking /Engine/EditorResources/S_ReflActorIcon -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_ReflActorIcon.uasset
+[2016.06.01-12.54.54:064][769]LogSavePackage: Save=1.006644ms
+[2016.06.01-12.54.54:064][769]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_ReflActorIcon.uasset'
+[2016.06.01-12.54.54:064][769]LogSavePackage: Total save time: 12.872554ms
+[2016.06.01-12.54.54:064][769]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_ReflActorIcon.uasset
+[2016.06.01-12.54.54:070][770]LogCook:Display: Cooking /Engine/EditorResources/S_RadForce -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_RadForce.uasset
+[2016.06.01-12.54.54:083][770]LogSavePackage: Save=1.871029ms
+[2016.06.01-12.54.54:083][770]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_RadForce.uasset'
+[2016.06.01-12.54.54:083][770]LogSavePackage: Total save time: 13.409089ms
+[2016.06.01-12.54.54:083][770]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_RadForce.uasset
+[2016.06.01-12.54.54:091][771]LogCook:Display: Cooking /Engine/EngineFonts/RobotoDistanceField -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/RobotoDistanceField.uasset
+[2016.06.01-12.54.54:102][771]LogSavePackage: Save=1.148618ms
+[2016.06.01-12.54.54:102][771]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/RobotoDistanceField.uasset'
+[2016.06.01-12.54.54:102][771]LogSavePackage: Total save time: 11.626724ms
+[2016.06.01-12.54.54:102][771]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/RobotoDistanceField.uasset
+[2016.06.01-12.54.54:108][772]LogCook:Display: Cooking /Engine/EditorResources/S_TextRenderActorIcon -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_TextRenderActorIcon.uasset
+[2016.06.01-12.54.54:120][772]LogSavePackage: Save=1.007784ms
+[2016.06.01-12.54.54:120][772]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_TextRenderActorIcon.uasset'
+[2016.06.01-12.54.54:120][772]LogSavePackage: Total save time: 12.338016ms
+[2016.06.01-12.54.54:120][772]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_TextRenderActorIcon.uasset
+[2016.06.01-12.54.54:127][773]LogCook:Display: Cooking /Engine/EditorResources/S_VectorFieldVol -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_VectorFieldVol.uasset
+[2016.06.01-12.54.54:138][773]LogSavePackage: Save=0.916556ms
+[2016.06.01-12.54.54:138][773]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_VectorFieldVol.uasset'
+[2016.06.01-12.54.54:139][773]LogSavePackage: Total save time: 11.186264ms
+[2016.06.01-12.54.54:139][773]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_VectorFieldVol.uasset
+[2016.06.01-12.54.54:145][774]LogCook:Display: Cooking /Engine/EngineResources/Black -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/Black.uasset
+[2016.06.01-12.54.54:155][774]LogSavePackage: Save=0.734956ms
+[2016.06.01-12.54.54:156][774]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/Black.uasset'
+[2016.06.01-12.54.54:156][774]LogSavePackage: Total save time: 10.699619ms
+[2016.06.01-12.54.54:156][774]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/Black.uasset
+[2016.06.01-12.54.54:162][775]LogCook:Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Director -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Director.uasset
+[2016.06.01-12.54.54:175][775]LogSavePackage: Save=0.790833ms
+[2016.06.01-12.54.54:175][775]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Director.uasset'
+[2016.06.01-12.54.54:175][775]LogSavePackage: Total save time: 12.994576ms
+[2016.06.01-12.54.54:175][775]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Director.uasset
+[2016.06.01-12.54.54:182][776]LogCook:Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Anim -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Anim.uasset
+[2016.06.01-12.54.54:192][776]LogSavePackage: Save=0.750920ms
+[2016.06.01-12.54.54:192][776]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Anim.uasset'
+[2016.06.01-12.54.54:192][776]LogSavePackage: Total save time: 10.380607ms
+[2016.06.01-12.54.54:192][776]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Anim.uasset
+[2016.06.01-12.54.54:198][777]LogCook:Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Move -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Move.uasset
+[2016.06.01-12.54.54:210][777]LogSavePackage: Save=0.729254ms
+[2016.06.01-12.54.54:210][777]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Move.uasset'
+[2016.06.01-12.54.54:210][777]LogSavePackage: Total save time: 11.899836ms
+[2016.06.01-12.54.54:210][777]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Move.uasset
+[2016.06.01-12.54.54:215][778]LogCook:Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_ColorTrack -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset
+[2016.06.01-12.54.54:227][778]LogSavePackage: Save=0.720701ms
+[2016.06.01-12.54.54:227][778]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset'
+[2016.06.01-12.54.54:227][778]LogSavePackage: Total save time: 11.936329ms
+[2016.06.01-12.54.54:227][778]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset
+[2016.06.01-12.54.54:234][779]LogCook:Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster.uasset
+[2016.06.01-12.54.54:247][779]LogSavePackage: Save=1.106710ms
+[2016.06.01-12.54.54:247][779]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster.uasset'
+[2016.06.01-12.54.54:247][779]LogSavePackage: Total save time: 13.627466ms
+[2016.06.01-12.54.54:247][779]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster.uasset
+[2016.06.01-12.54.54:252][780]LogCook:Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Vector -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Vector.uasset
+[2016.06.01-12.54.54:266][780]LogSavePackage: Save=0.773157ms
+[2016.06.01-12.54.54:266][780]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Vector.uasset'
+[2016.06.01-12.54.54:266][780]LogSavePackage: Total save time: 13.837863ms
+[2016.06.01-12.54.54:266][780]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Vector.uasset
+[2016.06.01-12.54.54:273][781]LogCook:Display: Cooking /Engine/EngineResources/DefaultTextureCube -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/DefaultTextureCube.uasset
+[2016.06.01-12.54.54:285][781]LogSavePackage: Save=1.003508ms
+[2016.06.01-12.54.54:285][781]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/DefaultTextureCube.uasset'
+[2016.06.01-12.54.54:285][781]LogSavePackage: Total save time: 12.705494ms
+[2016.06.01-12.54.54:285][781]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/DefaultTextureCube.uasset
+[2016.06.01-12.54.54:286][781]LogCook:Display: Cooking /Engine/EngineSounds/Music -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSounds/Music.uasset
+[2016.06.01-12.54.54:286][781]LogSavePackage: Save=0.399123ms
+[2016.06.01-12.54.54:286][781]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSounds/Music.uasset'
+[2016.06.01-12.54.54:286][781]LogSavePackage: Total save time: 0.569321ms
+[2016.06.01-12.54.54:286][781]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSounds/Music.uasset
+[2016.06.01-12.54.54:286][781]LogCook:Display: Cooking /Engine/EngineSounds/SFX -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSounds/SFX.uasset
+[2016.06.01-12.54.54:287][781]LogSavePackage: Save=0.328706ms
+[2016.06.01-12.54.54:287][781]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSounds/SFX.uasset'
+[2016.06.01-12.54.54:287][781]LogSavePackage: Total save time: 0.449866ms
+[2016.06.01-12.54.54:287][781]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSounds/SFX.uasset
+[2016.06.01-12.54.54:287][781]LogCook:Display: Cooking /Engine/EngineSounds/Normal_Attack -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSounds/Normal_Attack.uasset
+[2016.06.01-12.54.54:287][781]LogSavePackage: Save=0.429627ms
+[2016.06.01-12.54.54:287][781]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSounds/Normal_Attack.uasset'
+[2016.06.01-12.54.54:288][781]LogSavePackage: Total save time: 0.572458ms
+[2016.06.01-12.54.54:288][781]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSounds/Normal_Attack.uasset
+[2016.06.01-12.54.54:288][781]LogCook:Display: Cooking /Engine/EngineSounds/Special_Attack_PSM -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSounds/Special_Attack_PSM.uasset
+[2016.06.01-12.54.54:288][781]LogSavePackage: Save=0.303618ms
+[2016.06.01-12.54.54:288][781]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSounds/Special_Attack_PSM.uasset'
+[2016.06.01-12.54.54:288][781]LogSavePackage: Total save time: 0.417084ms
+[2016.06.01-12.54.54:288][781]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSounds/Special_Attack_PSM.uasset
+[2016.06.01-12.54.54:288][781]LogCook:Display: Cooking /Engine/EngineSounds/Duck_Normal_Attack_MixMod -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSounds/Duck_Normal_Attack_MixMod.uasset
+[2016.06.01-12.54.54:289][781]LogSavePackage: Save=0.285943ms
+[2016.06.01-12.54.54:289][781]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSounds/Duck_Normal_Attack_MixMod.uasset'
+[2016.06.01-12.54.54:289][781]LogSavePackage: Total save time: 0.410240ms
+[2016.06.01-12.54.54:289][781]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSounds/Duck_Normal_Attack_MixMod.uasset
+[2016.06.01-12.54.54:289][781]LogCook:Display: Cooking /Engine/EngineSounds/Voice -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSounds/Voice.uasset
+[2016.06.01-12.54.54:289][781]LogSavePackage: Save=0.617214ms
+[2016.06.01-12.54.54:289][781]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSounds/Voice.uasset'
+[2016.06.01-12.54.54:289][781]LogSavePackage: Total save time: 0.728399ms
+[2016.06.01-12.54.54:289][781]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSounds/Voice.uasset
+[2016.06.01-12.54.54:290][781]LogCook:Display: Cooking /Engine/EngineMeshes/Cylinder -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMeshes/Cylinder.uasset
+[2016.06.01-12.54.54:291][781]LogSavePackage: Save=1.003223ms
+[2016.06.01-12.54.54:291][781]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMeshes/Cylinder.uasset'
+[2016.06.01-12.54.54:291][781]LogSavePackage: Total save time: 1.169715ms
+[2016.06.01-12.54.54:291][781]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMeshes/Cylinder.uasset
+[2016.06.01-12.54.54:300][781]LogCook:Display: Cooking /Engine/EngineMaterials/DefaultMaterial -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultMaterial.uasset
+[2016.06.01-12.54.54:311][781]LogSavePackage: Save=11.328807ms
+[2016.06.01-12.54.54:312][781]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultMaterial.uasset'
+[2016.06.01-12.54.54:312][781]LogSavePackage: Total save time: 11.738479ms
+[2016.06.01-12.54.54:312][781]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultMaterial.uasset
+[2016.06.01-12.54.54:312][781]LogCook:Display: Cooking /Engine/EngineTireTypes/DefaultTireType -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineTireTypes/DefaultTireType.uasset
+[2016.06.01-12.54.54:313][781]LogSavePackage: Save=0.453004ms
+[2016.06.01-12.54.54:313][781]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineTireTypes/DefaultTireType.uasset'
+[2016.06.01-12.54.54:313][781]LogSavePackage: Total save time: 0.706449ms
+[2016.06.01-12.54.54:313][781]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineTireTypes/DefaultTireType.uasset
+[2016.06.01-12.54.54:392][788]LogCook:Display: Cooking /Engine/EditorResources/S_FTest -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_FTest.uasset
+[2016.06.01-12.54.54:405][788]LogSavePackage: Save=0.713574ms
+[2016.06.01-12.54.54:405][788]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_FTest.uasset'
+[2016.06.01-12.54.54:406][788]LogSavePackage: Total save time: 13.122007ms
+[2016.06.01-12.54.54:406][788]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_FTest.uasset
+[2016.06.01-12.54.54:406][788]LogCook:Display: Cooking /Paper2D/DummySprite -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/DummySprite.uasset
+[2016.06.01-12.54.54:406][788]LogSavePackage: Save=0.689627ms
+[2016.06.01-12.54.54:406][788]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/DummySprite.uasset'
+[2016.06.01-12.54.54:406][788]LogSavePackage: Total save time: 0.781711ms
+[2016.06.01-12.54.54:406][788]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/DummySprite.uasset
+[2016.06.01-12.54.54:407][788]LogCook:Display: Cooking /Engine/EditorSounds/Notifications/CompileStart_Cue -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileStart_Cue.uasset
+[2016.06.01-12.54.54:407][788]LogSavePackage: Save=0.727828ms
+[2016.06.01-12.54.54:407][788]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileStart_Cue.uasset'
+[2016.06.01-12.54.54:411][788]LogSavePackage: Total save time: 4.146885ms
+[2016.06.01-12.54.54:411][788]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileStart_Cue.uasset
+[2016.06.01-12.54.54:411][788]LogCook:Display: Cooking /Engine/EditorSounds/Notifications/CompileSuccess -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileSuccess.uasset
+[2016.06.01-12.54.54:411][788]LogSavePackage: Save=0.359780ms
+[2016.06.01-12.54.54:411][788]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileSuccess.uasset'
+[2016.06.01-12.54.54:412][788]LogSavePackage: Total save time: 0.901729ms
+[2016.06.01-12.54.54:412][788]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileSuccess.uasset
+[2016.06.01-12.54.54:412][788]LogCook:Display: Cooking /Engine/EditorSounds/Notifications/CompileSuccess_Cue -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileSuccess_Cue.uasset
+[2016.06.01-12.54.54:413][788]LogSavePackage: Save=0.639166ms
+[2016.06.01-12.54.54:413][788]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileSuccess_Cue.uasset'
+[2016.06.01-12.54.54:413][788]LogSavePackage: Total save time: 0.760898ms
+[2016.06.01-12.54.54:413][788]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileSuccess_Cue.uasset
+[2016.06.01-12.54.54:413][788]LogCook:Display: Cooking /Engine/EditorSounds/Notifications/CompileFailed_Cue -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileFailed_Cue.uasset
+[2016.06.01-12.54.54:413][788]LogSavePackage: Save=0.474956ms
+[2016.06.01-12.54.54:413][788]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileFailed_Cue.uasset'
+[2016.06.01-12.54.54:414][788]LogSavePackage: Total save time: 0.604101ms
+[2016.06.01-12.54.54:414][788]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileFailed_Cue.uasset
+[2016.06.01-12.54.54:414][788]LogCook:Display: Cooking /Engine/EditorSounds/Notifications/CompileFailed -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileFailed.uasset
+[2016.06.01-12.54.54:414][788]LogSavePackage: Save=0.342105ms
+[2016.06.01-12.54.54:414][788]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileFailed.uasset'
+[2016.06.01-12.54.54:414][788]LogSavePackage: Total save time: 0.472676ms
+[2016.06.01-12.54.54:414][788]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileFailed.uasset
+[2016.06.01-12.54.54:421][788]LogCook:Display: Cooking /Engine/BufferVisualization/BaseColor -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/BaseColor.uasset
+[2016.06.01-12.54.54:423][788]LogSavePackage: Save=1.485591ms
+[2016.06.01-12.54.54:423][788]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/BaseColor.uasset'
+[2016.06.01-12.54.54:423][788]LogSavePackage: Total save time: 1.629561ms
+[2016.06.01-12.54.54:423][788]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/BaseColor.uasset
+[2016.06.01-12.54.54:429][788]LogCook:Display: Cooking /Engine/BufferVisualization/CustomDepth -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/CustomDepth.uasset
+[2016.06.01-12.54.54:432][788]LogSavePackage: Save=2.259604ms
+[2016.06.01-12.54.54:432][788]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/CustomDepth.uasset'
+[2016.06.01-12.54.54:432][788]LogSavePackage: Total save time: 2.496798ms
+[2016.06.01-12.54.54:432][788]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/CustomDepth.uasset
+[2016.06.01-12.54.54:438][788]LogCook:Display: Cooking /Engine/BufferVisualization/CustomStencil -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/CustomStencil.uasset
+[2016.06.01-12.54.54:442][788]LogSavePackage: Save=4.161137ms
+[2016.06.01-12.54.54:442][788]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/CustomStencil.uasset'
+[2016.06.01-12.54.54:442][788]LogSavePackage: Total save time: 4.373528ms
+[2016.06.01-12.54.54:442][788]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/CustomStencil.uasset
+[2016.06.01-12.54.54:443][788]LogCook:Display: Cooking /Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2 -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.uasset
+[2016.06.01-12.54.54:444][788]LogSavePackage: Save=0.762609ms
+[2016.06.01-12.54.54:444][788]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.uasset'
+[2016.06.01-12.54.54:444][788]LogSavePackage: Total save time: 0.949625ms
+[2016.06.01-12.54.54:444][788]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.uasset
+[2016.06.01-12.54.54:444][788]LogCook:Display: Cooking /Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3 -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.uasset
+[2016.06.01-12.54.54:445][788]LogSavePackage: Save=1.148618ms
+[2016.06.01-12.54.54:445][788]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.uasset'
+[2016.06.01-12.54.54:445][788]LogSavePackage: Total save time: 1.283180ms
+[2016.06.01-12.54.54:445][788]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.uasset
+[2016.06.01-12.54.54:462][790]LogCook:Display: Cooking /Engine/EngineMaterials/MiniFont -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/MiniFont.uasset
+[2016.06.01-12.54.54:475][790]LogSavePackage: Save=0.793684ms
+[2016.06.01-12.54.54:475][790]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/MiniFont.uasset'
+[2016.06.01-12.54.54:475][790]LogSavePackage: Total save time: 12.652185ms
+[2016.06.01-12.54.54:475][790]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/MiniFont.uasset
+[2016.06.01-12.54.54:480][790]LogCook:Display: Cooking /Engine/BufferVisualization/LightingModel -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/LightingModel.uasset
+[2016.06.01-12.54.54:482][790]LogSavePackage: Save=1.856490ms
+[2016.06.01-12.54.54:482][790]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/LightingModel.uasset'
+[2016.06.01-12.54.54:482][790]LogSavePackage: Total save time: 2.025262ms
+[2016.06.01-12.54.54:482][790]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/LightingModel.uasset
+[2016.06.01-12.54.54:487][790]LogCook:Display: Cooking /Engine/BufferVisualization/MaterialAO -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/MaterialAO.uasset
+[2016.06.01-12.54.54:489][790]LogSavePackage: Save=1.250109ms
+[2016.06.01-12.54.54:489][790]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/MaterialAO.uasset'
+[2016.06.01-12.54.54:489][790]LogSavePackage: Total save time: 1.416314ms
+[2016.06.01-12.54.54:489][790]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/MaterialAO.uasset
+[2016.06.01-12.54.54:493][790]LogCook:Display: Cooking /Engine/BufferVisualization/Metallic -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/Metallic.uasset
+[2016.06.01-12.54.54:494][790]LogSavePackage: Save=1.197082ms
+[2016.06.01-12.54.54:494][790]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/Metallic.uasset'
+[2016.06.01-12.54.54:494][790]LogSavePackage: Total save time: 1.404911ms
+[2016.06.01-12.54.54:494][790]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/Metallic.uasset
+[2016.06.01-12.54.54:499][790]LogCook:Display: Cooking /Engine/BufferVisualization/Opacity -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/Opacity.uasset
+[2016.06.01-12.54.54:501][790]LogSavePackage: Save=1.180262ms
+[2016.06.01-12.54.54:501][790]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/Opacity.uasset'
+[2016.06.01-12.54.54:501][790]LogSavePackage: Total save time: 1.319386ms
+[2016.06.01-12.54.54:501][790]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/Opacity.uasset
+[2016.06.01-12.54.54:506][790]LogCook:Display: Cooking /Engine/BufferVisualization/Roughness -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/Roughness.uasset
+[2016.06.01-12.54.54:507][790]LogSavePackage: Save=1.262082ms
+[2016.06.01-12.54.54:507][790]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/Roughness.uasset'
+[2016.06.01-12.54.54:507][790]LogSavePackage: Total save time: 1.402058ms
+[2016.06.01-12.54.54:507][790]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/Roughness.uasset
+[2016.06.01-12.54.54:512][790]LogCook:Display: Cooking /Engine/BufferVisualization/SceneColor -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/SceneColor.uasset
+[2016.06.01-12.54.54:514][790]LogSavePackage: Save=1.810591ms
+[2016.06.01-12.54.54:514][790]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/SceneColor.uasset'
+[2016.06.01-12.54.54:514][790]LogSavePackage: Total save time: 1.991905ms
+[2016.06.01-12.54.54:514][790]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/SceneColor.uasset
+[2016.06.01-12.54.54:519][790]LogCook:Display: Cooking /Engine/BufferVisualization/SceneDepth -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/SceneDepth.uasset
+[2016.06.01-12.54.54:521][790]LogSavePackage: Save=1.972806ms
+[2016.06.01-12.54.54:521][790]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/SceneDepth.uasset'
+[2016.06.01-12.54.54:521][790]LogSavePackage: Total save time: 2.204295ms
+[2016.06.01-12.54.54:521][790]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/SceneDepth.uasset
+[2016.06.01-12.54.54:527][790]LogCook:Display: Cooking /Engine/BufferVisualization/SeparateTranslucencyRGB -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/SeparateTranslucencyRGB.uasset
+[2016.06.01-12.54.54:529][790]LogSavePackage: Save=1.914078ms
+[2016.06.01-12.54.54:529][790]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/SeparateTranslucencyRGB.uasset'
+[2016.06.01-12.54.54:529][790]LogSavePackage: Total save time: 2.083134ms
+[2016.06.01-12.54.54:529][790]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/SeparateTranslucencyRGB.uasset
+[2016.06.01-12.54.54:534][790]LogCook:Display: Cooking /Engine/BufferVisualization/SeparateTranslucencyA -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/SeparateTranslucencyA.uasset
+[2016.06.01-12.54.54:536][790]LogSavePackage: Save=1.247543ms
+[2016.06.01-12.54.54:536][790]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/SeparateTranslucencyA.uasset'
+[2016.06.01-12.54.54:536][790]LogSavePackage: Total save time: 1.406338ms
+[2016.06.01-12.54.54:536][790]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/SeparateTranslucencyA.uasset
+[2016.06.01-12.54.54:541][790]LogCook:Display: Cooking /Engine/BufferVisualization/Specular -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/Specular.uasset
+[2016.06.01-12.54.54:543][790]LogSavePackage: Save=1.557148ms
+[2016.06.01-12.54.54:543][790]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/Specular.uasset'
+[2016.06.01-12.54.54:543][790]LogSavePackage: Total save time: 1.711380ms
+[2016.06.01-12.54.54:543][790]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/Specular.uasset
+[2016.06.01-12.54.54:548][790]LogCook:Display: Cooking /Engine/BufferVisualization/SubsurfaceColor -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/SubsurfaceColor.uasset
+[2016.06.01-12.54.54:549][790]LogSavePackage: Save=1.459648ms
+[2016.06.01-12.54.54:549][790]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/SubsurfaceColor.uasset'
+[2016.06.01-12.54.54:549][790]LogSavePackage: Total save time: 1.634125ms
+[2016.06.01-12.54.54:549][790]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/SubsurfaceColor.uasset
+[2016.06.01-12.54.54:554][790]LogCook:Display: Cooking /Engine/BufferVisualization/WorldNormal -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/WorldNormal.uasset
+[2016.06.01-12.54.54:556][790]LogSavePackage: Save=1.713376ms
+[2016.06.01-12.54.54:556][790]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/WorldNormal.uasset'
+[2016.06.01-12.54.54:556][790]LogSavePackage: Total save time: 1.864757ms
+[2016.06.01-12.54.54:556][790]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/WorldNormal.uasset
+[2016.06.01-12.54.54:561][790]LogCook:Display: Cooking /Engine/BufferVisualization/AmbientOcclusion -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/AmbientOcclusion.uasset
+[2016.06.01-12.54.54:562][790]LogSavePackage: Save=1.545744ms
+[2016.06.01-12.54.54:563][790]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/AmbientOcclusion.uasset'
+[2016.06.01-12.54.54:563][790]LogSavePackage: Total save time: 1.718793ms
+[2016.06.01-12.54.54:563][790]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/AmbientOcclusion.uasset
+[2016.06.01-12.54.54:567][791]LogCook:Display: Cooking /Engine/EngineMaterials/DefaultPhysicalMaterial -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset
+[2016.06.01-12.54.54:580][791]LogSavePackage: Save=0.796534ms
+[2016.06.01-12.54.54:580][791]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset'
+[2016.06.01-12.54.54:580][791]LogSavePackage: Total save time: 12.710627ms
+[2016.06.01-12.54.54:580][791]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset
+[2016.06.01-12.54.54:585][791]LogCook:Display: Cooking /Engine/BufferVisualization/CustomDepthWorldUnits -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/CustomDepthWorldUnits.uasset
+[2016.06.01-12.54.54:587][791]LogSavePackage: Save=1.950284ms
+[2016.06.01-12.54.54:587][791]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/CustomDepthWorldUnits.uasset'
+[2016.06.01-12.54.54:587][791]LogSavePackage: Total save time: 2.088264ms
+[2016.06.01-12.54.54:587][791]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/CustomDepthWorldUnits.uasset
+[2016.06.01-12.54.54:588][791]LogCook:Display: Cooking /Engine/Functions/Engine_MaterialFunctions02/Utility/VectorLength -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.uasset
+[2016.06.01-12.54.54:589][791]LogSavePackage: Save=1.051973ms
+[2016.06.01-12.54.54:589][791]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.uasset'
+[2016.06.01-12.54.54:589][791]LogSavePackage: Total save time: 1.177981ms
+[2016.06.01-12.54.54:589][791]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.uasset
+[2016.06.01-12.54.54:593][791]LogCook:Display: Cooking /Engine/BufferVisualization/SceneDepthWorldUnits -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/SceneDepthWorldUnits.uasset
+[2016.06.01-12.54.54:594][791]LogSavePackage: Save=1.404911ms
+[2016.06.01-12.54.54:594][791]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/SceneDepthWorldUnits.uasset'
+[2016.06.01-12.54.54:595][791]LogSavePackage: Total save time: 1.595922ms
+[2016.06.01-12.54.54:595][791]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BufferVisualization/SceneDepthWorldUnits.uasset
+[2016.06.01-12.54.54:595][791]LogCook:Display: Cooking /LeapMotionController/LM_CapsuleMesh -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/LeapMotionController/Content/LM_CapsuleMesh.uasset
+[2016.06.01-12.54.54:596][791]LogSavePackage: Save=1.395503ms
+[2016.06.01-12.54.54:596][791]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/LeapMotionController/Content/LM_CapsuleMesh.uasset'
+[2016.06.01-12.54.54:596][791]LogSavePackage: Total save time: 1.567412ms
+[2016.06.01-12.54.54:596][791]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/LeapMotionController/Content/LM_CapsuleMesh.uasset
+[2016.06.01-12.54.54:597][791]LogCook:Display: Cooking /LeapMotionController/LM_TorusMesh -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/LeapMotionController/Content/LM_TorusMesh.uasset
+[2016.06.01-12.54.54:598][791]LogSavePackage: Save=1.357587ms
+[2016.06.01-12.54.54:598][791]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/LeapMotionController/Content/LM_TorusMesh.uasset'
+[2016.06.01-12.54.54:599][791]LogSavePackage: Total save time: 2.043791ms
+[2016.06.01-12.54.54:599][791]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/LeapMotionController/Content/LM_TorusMesh.uasset
+[2016.06.01-12.54.54:605][791]LogCook:Display: Cooking /LeapMotionController/LM_HandColor -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/LeapMotionController/Content/LM_HandColor.uasset
+[2016.06.01-12.54.54:607][791]LogSavePackage: Save=1.603902ms
+[2016.06.01-12.54.54:607][791]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/LeapMotionController/Content/LM_HandColor.uasset'
+[2016.06.01-12.54.54:607][791]LogSavePackage: Total save time: 1.755282ms
+[2016.06.01-12.54.54:607][791]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/LeapMotionController/Content/LM_HandColor.uasset
+[2016.06.01-12.54.54:612][791]LogCook:Display: Cooking /LeapMotionController/LM_PassthroughMaterial -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset
+[2016.06.01-12.54.54:619][791]LogSavePackage: Save=6.487451ms
+[2016.06.01-12.54.54:619][791]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset'
+[2016.06.01-12.54.54:619][791]LogSavePackage: Total save time: 6.755717ms
+[2016.06.01-12.54.54:619][791]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset
+[2016.06.01-12.54.54:625][792]LogCook:Display: Cooking /LeapMotionController/LM_SampleDistortion -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/LeapMotionController/Content/LM_SampleDistortion.uasset
+[2016.06.01-12.54.54:637][792]LogSavePackage: Save=0.786271ms
+[2016.06.01-12.54.54:637][792]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/LeapMotionController/Content/LM_SampleDistortion.uasset'
+[2016.06.01-12.54.54:637][792]LogSavePackage: Total save time: 12.704071ms
+[2016.06.01-12.54.54:637][792]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Plugins/Runtime/LeapMotionController/Content/LM_SampleDistortion.uasset
+[2016.06.01-12.54.54:638][792]LogCook:Display: Cooking /Engine/BasicShapes/Cube -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Cube.uasset
+[2016.06.01-12.54.54:639][792]LogSavePackage: Save=1.308552ms
+[2016.06.01-12.54.54:639][792]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Cube.uasset'
+[2016.06.01-12.54.54:639][792]LogSavePackage: Total save time: 1.462497ms
+[2016.06.01-12.54.54:639][792]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Cube.uasset
+[2016.06.01-12.54.54:646][792]LogCook:Display: Cooking /Engine/EngineMaterials/HighResScreenshot -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/HighResScreenshot.uasset
+[2016.06.01-12.54.54:650][792]LogSavePackage: Save=4.010326ms
+[2016.06.01-12.54.54:650][792]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/HighResScreenshot.uasset'
+[2016.06.01-12.54.54:650][792]LogSavePackage: Total save time: 4.205894ms
+[2016.06.01-12.54.54:650][792]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/HighResScreenshot.uasset
+[2016.06.01-12.54.54:650][792]LogCook:Display: Cooking /Engine/EngineMaterials/HighResolutionScreenshotMaskFunction -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/HighResolutionScreenshotMaskFunction.uasset
+[2016.06.01-12.54.54:652][792]LogSavePackage: Save=1.372696ms
+[2016.06.01-12.54.54:652][792]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/HighResolutionScreenshotMaskFunction.uasset'
+[2016.06.01-12.54.54:652][792]LogSavePackage: Total save time: 1.524080ms
+[2016.06.01-12.54.54:652][792]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/HighResolutionScreenshotMaskFunction.uasset
+[2016.06.01-12.54.54:657][792]LogCook:Display: Cooking /Engine/EngineMaterials/HighResScreenshotMask -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/HighResScreenshotMask.uasset
+[2016.06.01-12.54.54:659][792]LogSavePackage: Save=1.786928ms
+[2016.06.01-12.54.54:659][792]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/HighResScreenshotMask.uasset'
+[2016.06.01-12.54.54:659][792]LogSavePackage: Total save time: 1.938879ms
+[2016.06.01-12.54.54:659][792]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/HighResScreenshotMask.uasset
+[2016.06.01-12.54.54:664][792]LogCook:Display: Cooking /Engine/EngineMaterials/HighResScreenshotCaptureRegion -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/HighResScreenshotCaptureRegion.uasset
+[2016.06.01-12.54.54:671][792]LogSavePackage: Save=6.836398ms
+[2016.06.01-12.54.54:671][792]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/HighResScreenshotCaptureRegion.uasset'
+[2016.06.01-12.54.54:671][792]LogSavePackage: Total save time: 7.018570ms
+[2016.06.01-12.54.54:671][792]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/HighResScreenshotCaptureRegion.uasset
+[2016.06.01-12.54.54:680][792]LogCook:Display: Cooking /Engine/EngineDebugMaterials/WireframeMaterial -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/WireframeMaterial.uasset
+[2016.06.01-12.54.54:687][792]LogSavePackage: Save=6.735477ms
+[2016.06.01-12.54.54:687][792]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/WireframeMaterial.uasset'
+[2016.06.01-12.54.54:687][792]LogSavePackage: Total save time: 7.079292ms
+[2016.06.01-12.54.54:687][792]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/WireframeMaterial.uasset
+[2016.06.01-12.54.54:704][792]LogCook:Display: Cooking /Engine/EngineDebugMaterials/LevelColorationLitMaterial -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/LevelColorationLitMaterial.uasset
+[2016.06.01-12.54.54:735][792]LogSavePackage: Save=30.177937ms
+[2016.06.01-12.54.54:735][792]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/LevelColorationLitMaterial.uasset'
+[2016.06.01-12.54.54:737][792]LogSavePackage: Total save time: 32.560982ms
+[2016.06.01-12.54.54:737][792]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/LevelColorationLitMaterial.uasset
+[2016.06.01-12.54.54:749][793]LogCook:Display: Cooking /Engine/EngineDebugMaterials/LevelColorationUnlitMaterial -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/LevelColorationUnlitMaterial.uasset
+[2016.06.01-12.54.54:761][793]LogSavePackage: Save=8.000126ms
+[2016.06.01-12.54.54:761][793]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/LevelColorationUnlitMaterial.uasset'
+[2016.06.01-12.54.54:762][793]LogSavePackage: Total save time: 12.454618ms
+[2016.06.01-12.54.54:762][793]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/LevelColorationUnlitMaterial.uasset
+[2016.06.01-12.54.54:780][793]LogCook:Display: Cooking /Engine/EngineDebugMaterials/MAT_LevelColorationLitLightmapUV -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/MAT_LevelColorationLitLightmapUV.uasset
+[2016.06.01-12.54.54:810][793]LogSavePackage: Save=30.652609ms
+[2016.06.01-12.54.54:810][793]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/MAT_LevelColorationLitLightmapUV.uasset'
+[2016.06.01-12.54.54:913][793]LogSavePackage: Total save time: 132.963385ms
+[2016.06.01-12.54.54:913][793]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/MAT_LevelColorationLitLightmapUV.uasset
+[2016.06.01-12.54.55:221][815]LogCook:Display: Cooking /Engine/EngineMaterials/DefaultWhiteGrid -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultWhiteGrid.uasset
+[2016.06.01-12.54.55:223][815]LogSavePackage: Save=0.847280ms
+[2016.06.01-12.54.55:223][815]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultWhiteGrid.uasset'
+[2016.06.01-12.54.55:223][815]LogSavePackage: Total save time: 2.101667ms
+[2016.06.01-12.54.55:223][815]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultWhiteGrid.uasset
+[2016.06.01-12.54.55:353][826]LogCook:Display: Cooking /Engine/EngineMaterials/Good64x64TilingNoiseHighFreq -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset
+[2016.06.01-12.54.55:363][826]LogSavePackage: Save=0.983552ms
+[2016.06.01-12.54.55:363][826]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset'
+[2016.06.01-12.54.55:364][826]LogSavePackage: Total save time: 10.638613ms
+[2016.06.01-12.54.55:364][826]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset
+[2016.06.01-12.54.55:369][826]LogCook:Display: Cooking /Engine/EditorMaterials/PhAT_UnselectedMaterial -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/PhAT_UnselectedMaterial.uasset
+[2016.06.01-12.54.55:371][826]LogSavePackage: Save=1.773529ms
+[2016.06.01-12.54.55:371][826]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/PhAT_UnselectedMaterial.uasset'
+[2016.06.01-12.54.55:371][826]LogSavePackage: Total save time: 1.970809ms
+[2016.06.01-12.54.55:371][826]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/PhAT_UnselectedMaterial.uasset
+[2016.06.01-12.54.55:549][840]LogCook:Display: Cooking /Engine/EditorMaterials/Tick -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/Tick.uasset
+[2016.06.01-12.54.55:565][840]LogSavePackage: Save=1.095306ms
+[2016.06.01-12.54.55:565][840]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/Tick.uasset'
+[2016.06.01-12.54.55:565][840]LogSavePackage: Total save time: 16.092904ms
+[2016.06.01-12.54.55:565][840]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/Tick.uasset
+[2016.06.01-12.54.55:566][840]LogCook:Display: Cooking /Engine/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset
+[2016.06.01-12.54.55:567][840]LogSavePackage: Save=1.097872ms
+[2016.06.01-12.54.55:567][840]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset'
+[2016.06.01-12.54.55:567][840]LogSavePackage: Total save time: 1.226731ms
+[2016.06.01-12.54.55:567][840]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset
+[2016.06.01-12.54.55:567][840]LogCook:Display: Cooking /Engine/EditorMaterials/TilingAAGrid -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/TilingAAGrid.uasset
+[2016.06.01-12.54.55:569][840]LogSavePackage: Save=1.528354ms
+[2016.06.01-12.54.55:569][840]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/TilingAAGrid.uasset'
+[2016.06.01-12.54.55:569][840]LogSavePackage: Total save time: 1.653507ms
+[2016.06.01-12.54.55:569][840]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/TilingAAGrid.uasset
+[2016.06.01-12.54.55:569][840]LogCook:Display: Cooking /Engine/Functions/Engine_MaterialFunctions03/Blends/Blend_Screen -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions03/Blends/Blend_Screen.uasset
+[2016.06.01-12.54.55:571][840]LogSavePackage: Save=1.802038ms
+[2016.06.01-12.54.55:571][840]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions03/Blends/Blend_Screen.uasset'
+[2016.06.01-12.54.55:571][840]LogSavePackage: Total save time: 1.955986ms
+[2016.06.01-12.54.55:571][840]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions03/Blends/Blend_Screen.uasset
+[2016.06.01-12.54.55:588][841]LogCook:Display: Cooking /Engine/EditorMaterials/Cascade/CASC_Cross -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/Cascade/CASC_Cross.uasset
+[2016.06.01-12.54.55:589][841]LogSavePackage: Save=0.622346ms
+[2016.06.01-12.54.55:589][841]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/Cascade/CASC_Cross.uasset'
+[2016.06.01-12.54.55:589][841]LogSavePackage: Total save time: 1.348749ms
+[2016.06.01-12.54.55:589][841]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/Cascade/CASC_Cross.uasset
+[2016.06.01-12.54.55:593][842]LogCook:Display: Cooking /Engine/EditorResources/SmallFont -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/SmallFont.uasset
+[2016.06.01-12.54.55:606][842]LogSavePackage: Save=1.223310ms
+[2016.06.01-12.54.55:606][842]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/SmallFont.uasset'
+[2016.06.01-12.54.55:606][842]LogSavePackage: Total save time: 13.303321ms
+[2016.06.01-12.54.55:606][842]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/SmallFont.uasset
+[2016.06.01-12.54.55:612][843]LogCook:Display: Cooking /Engine/EditorResources/S_KHinge -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_KHinge.uasset
+[2016.06.01-12.54.55:624][843]LogSavePackage: Save=0.907434ms
+[2016.06.01-12.54.55:624][843]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_KHinge.uasset'
+[2016.06.01-12.54.55:625][843]LogSavePackage: Total save time: 12.792446ms
+[2016.06.01-12.54.55:625][843]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_KHinge.uasset
+[2016.06.01-12.54.55:630][844]LogCook:Display: Cooking /Engine/EditorResources/LightIcons/S_LightError -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/LightIcons/S_LightError.uasset
+[2016.06.01-12.54.55:640][844]LogSavePackage: Save=1.070218ms
+[2016.06.01-12.54.55:640][844]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/LightIcons/S_LightError.uasset'
+[2016.06.01-12.54.55:641][844]LogSavePackage: Total save time: 10.425366ms
+[2016.06.01-12.54.55:641][844]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/LightIcons/S_LightError.uasset
+[2016.06.01-12.54.55:646][844]LogCook:Display: Cooking /Engine/EngineMaterials/BlinkingCaret -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/BlinkingCaret.uasset
+[2016.06.01-12.54.55:648][844]LogSavePackage: Save=1.516380ms
+[2016.06.01-12.54.55:648][844]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/BlinkingCaret.uasset'
+[2016.06.01-12.54.55:648][844]LogSavePackage: Total save time: 1.651227ms
+[2016.06.01-12.54.55:648][844]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/BlinkingCaret.uasset
+[2016.06.01-12.54.55:668][846]LogCook:Display: Cooking /Engine/EngineMaterials/DefaultNormal -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultNormal.uasset
+[2016.06.01-12.54.55:686][846]LogSavePackage: Save=7.725871ms
+[2016.06.01-12.54.55:686][846]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultNormal.uasset'
+[2016.06.01-12.54.55:687][846]LogSavePackage: Total save time: 19.162443ms
+[2016.06.01-12.54.55:687][846]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultNormal.uasset
+[2016.06.01-12.54.55:693][847]LogCook:Display: Cooking /Engine/EngineMaterials/PaperDiffuse -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/PaperDiffuse.uasset
+[2016.06.01-12.54.55:704][847]LogSavePackage: Save=0.867521ms
+[2016.06.01-12.54.55:704][847]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/PaperDiffuse.uasset'
+[2016.06.01-12.54.55:704][847]LogSavePackage: Total save time: 11.339355ms
+[2016.06.01-12.54.55:704][847]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/PaperDiffuse.uasset
+[2016.06.01-12.54.55:705][847]LogCook:Display: Cooking /Engine/EngineMaterials/PhysMat_Rubber -> G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/PhysMat_Rubber.uasset
+[2016.06.01-12.54.55:705][847]LogSavePackage: Save=0.242895ms
+[2016.06.01-12.54.55:705][847]LogSavePackage: Async saving from memory to 'G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/PhysMat_Rubber.uasset'
+[2016.06.01-12.54.55:705][847]LogSavePackage: Total save time: 0.467543ms
+[2016.06.01-12.54.55:705][847]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/PhysMat_Rubber.uasset
+[2016.06.01-12.54.55:756][852]LogPlayLevel: Completed Launch On Stage: Cooking in the editor, Time: 1.900002
+[2016.06.01-12.55.11:047][140]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="G:/Escapig.git/Escapig1/Saved/Autosaves/Temp/UEDPCUntitled_1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2016.06.01-12.55.11:087][140]LogSavePackage: Save=38.982010ms
+[2016.06.01-12.55.11:087][140]LogSavePackage: Moving 'G:/Escapig.git/Escapig1/Saved/UEDPCUntitled_19E3BFB704DD12F3B58FBEB9523B08DA7.tmp' to 'G:/Escapig.git/Escapig1/Saved/Autosaves/Temp/UEDPCUntitled_1.umap'
+[2016.06.01-12.55.11:088][140]LogSavePackage: Total save time: 40.942840ms
+[2016.06.01-12.55.11:088][140]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Autosaves/Temp/UEDPCUntitled_1.umap
+[2016.06.01-12.56.41:348][939]LogAIModule: Creating AISystem for world NewMap
+[2016.06.01-12.56.41
