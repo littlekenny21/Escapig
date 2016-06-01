@@ -771,4 +771,708 @@
 [2016.06.01-12.55.11:088][140]LogSavePackage: Total save time: 40.942840ms
 [2016.06.01-12.55.11:088][140]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Autosaves/Temp/UEDPCUntitled_1.umap
 [2016.06.01-12.56.41:348][939]LogAIModule: Creating AISystem for world NewMap
-[2016.06.01-12.56.41
+[2016.06.01-12.56.41:369][939]Cmd: MAP LOAD FILE="G:/Escapig.git/Escapig1/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.06.01-12.56.41:369][939]LightingResults: New page: Lighting Build
+[2016.06.01-12.56.41:387][939]LoadErrors: New page: Loading map: NewMap.umap
+[2016.06.01-12.56.41:387][939]MapCheck: New page: Map Check
+[2016.06.01-12.56.41:387][939]LightingResults: New page: Lighting Build
+[2016.06.01-12.56.41:396][939]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000142B8A40
+[2016.06.01-12.56.41:419][939]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.06.01-12.56.41:436][939]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.06.01-12.56.41:493][939]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 57.334ms to complete.
+[2016.06.01-12.56.41:493][939]LogFileHelpers: Loading map 'NewMap' took 0.125
+[2016.06.01-12.56.43:750][139]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="G:/Escapig.git/Escapig1/Saved/Autosaves/Game/UEDPCNewMap.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2016.06.01-12.56.43:945][139]LogSavePackage: Save=56.037083ms
+[2016.06.01-12.56.43:945][139]LogSavePackage: Moving 'G:/Escapig.git/Escapig1/Saved/UEDPCNewMap583858E14F3282280F7588A1D98AACA7.tmp' to 'G:/Escapig.git/Escapig1/Saved/Autosaves/Game/UEDPCNewMap.umap'
+[2016.06.01-12.56.43:946][139]LogSavePackage: Total save time: 192.682087ms
+[2016.06.01-12.56.43:946][139]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Autosaves/Game/UEDPCNewMap.umap
+[2016.06.01-12.57.21:153][474]Cmd: MAP LOAD FILE="G:/Escapig.git/Escapig1/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.06.01-12.57.21:153][474]LightingResults: New page: Lighting Build
+[2016.06.01-12.57.21:178][474]LoadErrors: New page: Loading map: NewMap.umap
+[2016.06.01-12.57.21:178][474]MapCheck: New page: Map Check
+[2016.06.01-12.57.21:178][474]LightingResults: New page: Lighting Build
+[2016.06.01-12.57.21:194][474]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000018E128E0
+[2016.06.01-12.57.21:210][474]LogAIModule: Creating AISystem for world NewMap
+[2016.06.01-12.57.21:215][474]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.06.01-12.57.21:239][474]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.06.01-12.57.21:319][474]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 80.048ms to complete.
+[2016.06.01-12.57.21:320][474]LogFileHelpers: Loading map 'NewMap' took 0.168
+[2016.06.01-13.00.38:264][430]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 G:\Escapig\Tall_grass\Tall_Grass.fbx)
+[2016.06.01-13.00.38:278][430]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.06.01-13.00.38:278][430]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.06.01-13.00.38:278][430]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.06.01-13.00.38:278][430]LogFbx: ItemName: Geometry, ItemCount : 1
+[2016.06.01-13.00.38:278][430]LogFbx: ItemName: Material, ItemCount : 1
+[2016.06.01-13.00.38:278][430]LogFbx: ItemName: Texture, ItemCount : 2
+[2016.06.01-13.00.38:278][430]LogFbx: ItemName: Model, ItemCount : 1
+[2016.06.01-13.00.38:278][430]LogFbx: ItemName: Video, ItemCount : 2
+[2016.06.01-13.00.38:285][430]LogFbx: Loading FBX Scene from G:\Escapig\Tall_grass\Tall_Grass.fbx
+[2016.06.01-13.00.38:293][430]LogFbx: FBX Scene Loaded Succesfully
+[2016.06.01-13.00.47:778][430]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 G:\Escapig\Tall_grass\Tall_grass_Alpha.tga)
+[2016.06.01-13.00.47:802][430]LogTexture:Display: Building textures: Tall_grass_Alpha (AutoDXT)
+[2016.06.01-13.00.47:897][430]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 G:\Escapig\Tall_grass\Tall_grass_UV.tga)
+[2016.06.01-13.00.47:916][430]LogTexture:Display: Building textures: Tall_grass_UV (AutoDXT)
+[2016.06.01-13.00.48:148][430]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 G:\Escapig\Tall_grass\Wheat.fbx)
+[2016.06.01-13.03.17:153][626]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 G:\Escapig\Tall_grass\Tall_Grass.fbx)
+[2016.06.01-13.03.17:159][626]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.06.01-13.03.17:159][626]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.06.01-13.03.17:159][626]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.06.01-13.03.17:159][626]LogFbx: ItemName: Geometry, ItemCount : 1
+[2016.06.01-13.03.17:159][626]LogFbx: ItemName: Material, ItemCount : 1
+[2016.06.01-13.03.17:159][626]LogFbx: ItemName: Texture, ItemCount : 2
+[2016.06.01-13.03.17:159][626]LogFbx: ItemName: Model, ItemCount : 1
+[2016.06.01-13.03.17:159][626]LogFbx: ItemName: Video, ItemCount : 2
+[2016.06.01-13.03.17:163][626]LogFbx: Loading FBX Scene from G:\Escapig\Tall_grass\Tall_Grass.fbx
+[2016.06.01-13.03.17:168][626]LogFbx: FBX Scene Loaded Succesfully
+[2016.06.01-13.03.24:011][626]LogFbx: Loading FBX Scene from G:\Escapig\Tall_grass\Tall_Grass.fbx
+[2016.06.01-13.03.24:016][626]LogFbx: FBX Scene Loaded Succesfully
+[2016.06.01-13.03.24:021][626]LogLinker:Warning: Can't find file '/Game/Assets/Walls/grass'
+[2016.06.01-13.03.24:021][626]LogLinker:Warning: Can't find file '/Game/Assets/Walls/grass'
+[2016.06.01-13.03.24:039][626]LogTexture:Display: Building textures: Tall_grass_UV (AutoDXT)
+[2016.06.01-13.03.24:280][626]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.03.24:309][626]LogFbx:Warning: Triangulating static mesh polySurface28
+[2016.06.01-13.03.24:341][626]LogStaticMesh: Building static mesh Tall_Grass...
+[2016.06.01-13.03.24:344][626]LogStaticMesh: Built static mesh [0.002836.2s] /Game/Assets/Walls/Tall_Grass.Tall_Grass
+[2016.06.01-13.03.24:354][626]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.06.01-13.03.24:362][626]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 G:\Escapig\Tall_grass\Wheat.fbx)
+[2016.06.01-13.03.28:606][626]LogFbx: Loading FBX Scene from G:\Escapig\Tall_grass\Wheat.fbx
+[2016.06.01-13.03.28:613][626]LogFbx: FBX Scene Loaded Succesfully
+[2016.06.01-13.03.28:615][626]LogFbx:Warning: Triangulating static mesh Corn6
+[2016.06.01-13.03.28:618][626]LogStaticMesh: Building static mesh Wheat...
+[2016.06.01-13.03.28:620][626]LogStaticMesh: Built static mesh [0.002524.2s] /Game/Assets/Walls/Wheat.Wheat
+[2016.06.01-13.03.28:626][626]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.06.01-13.03.39:714][657]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.03.39:755][657]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.03.39:760][657]LogMaterial: 0.000018 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.06.01-13.03.39:783][657]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.06.01-13.03.40:570][706]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.06.01-13.03.40:570][706]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.06.01-13.03.40:570][706]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.06.01-13.03.46:968][313]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.03.46:976][313]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.03.46:981][313]LogMaterial: 0.000067 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.06.01-13.03.47:653][358]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.06.01-13.03.47:653][358]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.06.01-13.03.47:653][358]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.06.01-13.03.52:014][704]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.03.52:019][704]LogMaterial: 0.000048 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.06.01-13.03.52:020][704]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.06.01-13.03.52:045][704]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.06.01-13.03.52:048][704]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.06.01-13.03.52:722][752]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2016.06.01-13.03.52:722][752]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.06.01-13.03.52:722][752]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.06.01-13.03.53:793][844]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.03.53:810][844]LogMaterial: 0.000054 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.06.01-13.03.53:832][844]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.06.01-13.03.54:806][917]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 36 instructions
+[2016.06.01-13.03.54:806][917]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.06.01-13.03.54:806][917]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.06.01-13.04.07:251][198]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.04.07:261][198]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.04.07:269][198]LogMaterial: 0.000041 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.06.01-13.04.08:341][287]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2016.06.01-13.04.08:341][287]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.06.01-13.04.08:341][287]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.06.01-13.04.24:437][861]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.04.24:444][861]LogMaterial: 0.000096 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.06.01-13.04.24:471][861]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.06.01-13.04.25:541][930]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2016.06.01-13.04.25:541][930]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.06.01-13.04.25:541][930]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.06.01-13.04.30:519][430]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.04.30:525][430]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.04.30:528][430]LogMaterial: 0.000042 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.06.01-13.04.30:800][451]MaterialEditorStats: Info Base pass shader without light map: 21 instructions
+[2016.06.01-13.04.30:800][451]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.06.01-13.04.30:800][451]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.06.01-13.04.33:951][712]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.04.33:955][712]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.04.33:958][712]LogMaterial: 0.000016 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.06.01-13.04.34:257][728]MaterialEditorStats: Info Base pass shader without light map: 28 instructions
+[2016.06.01-13.04.34:257][728]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.06.01-13.04.34:257][728]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.06.01-13.04.41:062][416]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.04.41:065][416]LogMaterial: 0.000052 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.06.01-13.04.41:341][429]MaterialEditorStats: Info Base pass shader without light map: 28 instructions
+[2016.06.01-13.04.41:341][429]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.06.01-13.04.41:341][429]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.06.01-13.04.48:601][134]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.04.48:612][134]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.04.48:620][134]LogMaterial: 0.000072 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.06.01-13.04.49:665][215]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 43 instructions
+[2016.06.01-13.04.49:665][215]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.06.01-13.04.49:665][215]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.06.01-13.05.05:740][210]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.05.05:771][210]LogMaterial: 0.000053 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.06.01-13.05.05:791][210]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.05.05:818][210]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.05.05:856][210]LogMaterial: 0.000369 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.06.01-13.05.24:856][991]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Walls/Wheat" FILE="G:/Escapig.git/Escapig1/Content/Assets/Walls/Wheat.uasset" SILENT=true
+[2016.06.01-13.05.24:878][991]LogSavePackage: Save=14.443673ms
+[2016.06.01-13.05.24:878][991]LogSavePackage: Moving 'G:/Escapig.git/Escapig1/Saved/Wheat96DF983D434D389646C34A96D01A51A9.tmp' to 'G:/Escapig.git/Escapig1/Content/Assets/Walls/Wheat.uasset'
+[2016.06.01-13.05.24:886][991]LogSavePackage: Total save time: 23.061298ms
+[2016.06.01-13.05.24:886][991]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Content/Assets/Walls/Wheat.uasset
+[2016.06.01-13.05.34:402][953]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Walls/Tall_Grass" FILE="G:/Escapig.git/Escapig1/Content/Assets/Walls/Tall_Grass.uasset" SILENT=true
+[2016.06.01-13.05.34:424][953]LogSavePackage: Save=13.992949ms
+[2016.06.01-13.05.34:424][953]LogSavePackage: Moving 'G:/Escapig.git/Escapig1/Saved/Tall_Grass97394BCF415FB4CE9A2D8FB48D659039.tmp' to 'G:/Escapig.git/Escapig1/Content/Assets/Walls/Tall_Grass.uasset'
+[2016.06.01-13.05.34:433][953]LogSavePackage: Total save time: 23.466974ms
+[2016.06.01-13.05.34:433][953]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Content/Assets/Walls/Tall_Grass.uasset
+[2016.06.01-13.05.42:158][693]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004B863A60
+[2016.06.01-13.05.42:159][693]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000047B36A20
+[2016.06.01-13.05.42:159][693]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004D4E51C0
+[2016.06.01-13.05.43:579][693]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Walls/grass" FILE="G:/Escapig.git/Escapig1/Content/Assets/Walls/grass.uasset" SILENT=true
+[2016.06.01-13.05.43:602][693]LogSavePackage: Save=16.657948ms
+[2016.06.01-13.05.43:602][693]LogSavePackage: Moving 'G:/Escapig.git/Escapig1/Saved/grass91B5F6004D4ACF519511B8840F3F68A4.tmp' to 'G:/Escapig.git/Escapig1/Content/Assets/Walls/grass.uasset'
+[2016.06.01-13.05.43:611][693]LogSavePackage: Total save time: 25.214564ms
+[2016.06.01-13.05.43:611][693]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Content/Assets/Walls/grass.uasset
+[2016.06.01-13.05.43:618][693]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Walls/Tall_grass_Alpha" FILE="G:/Escapig.git/Escapig1/Content/Assets/Walls/Tall_grass_Alpha.uasset" SILENT=true
+[2016.06.01-13.05.43:665][693]LogSavePackage: Save=42.594925ms
+[2016.06.01-13.05.43:665][693]LogSavePackage: Moving 'G:/Escapig.git/Escapig1/Saved/Tall_grass_Alpha00AF8DE5438D3AEFEF1E3FA88038A651.tmp' to 'G:/Escapig.git/Escapig1/Content/Assets/Walls/Tall_grass_Alpha.uasset'
+[2016.06.01-13.05.43:683][693]LogSavePackage: Total save time: 60.685437ms
+[2016.06.01-13.05.43:683][693]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Content/Assets/Walls/Tall_grass_Alpha.uasset
+[2016.06.01-13.05.43:690][693]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Walls/Tall_grass_UV" FILE="G:/Escapig.git/Escapig1/Content/Assets/Walls/Tall_grass_UV.uasset" SILENT=true
+[2016.06.01-13.05.43:923][693]LogSavePackage: Save=125.448761ms
+[2016.06.01-13.05.43:923][693]LogSavePackage: Moving 'G:/Escapig.git/Escapig1/Saved/Tall_grass_UV39B10348472870D6BC2E77A320C0E369.tmp' to 'G:/Escapig.git/Escapig1/Content/Assets/Walls/Tall_grass_UV.uasset'
+[2016.06.01-13.05.43:933][693]LogSavePackage: Total save time: 136.955466ms
+[2016.06.01-13.05.43:933][693]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Content/Assets/Walls/Tall_grass_UV.uasset
+[2016.06.01-13.05.44:011][693]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="G:/Escapig.git/Escapig1/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.06.01-13.05.44:137][693]LogSavePackage: Save=70.910103ms
+[2016.06.01-13.05.44:137][693]LogSavePackage: Moving 'G:/Escapig.git/Escapig1/Saved/NewMapC876EA7C447E24EB789D6BA46D62F0CE.tmp' to 'G:/Escapig.git/Escapig1/Content/NewMap.umap'
+[2016.06.01-13.05.44:147][693]LogSavePackage: Total save time: 122.807998ms
+[2016.06.01-13.05.44:147][693]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Content/NewMap.umap
+[2016.06.01-13.05.44:167][693]LogFileHelpers: Saving map 'NewMap' took 0.235
+[2016.06.01-13.05.44:170][693]Cmd: MAP LOAD FILE="G:/Escapig.git/Escapig1/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.06.01-13.05.44:170][693]LightingResults: New page: Lighting Build
+[2016.06.01-13.05.44:186][693]LoadErrors: New page: Loading map: NewMap.umap
+[2016.06.01-13.05.44:186][693]MapCheck: New page: Map Check
+[2016.06.01-13.05.44:186][693]LightingResults: New page: Lighting Build
+[2016.06.01-13.05.44:195][693]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000027A4DB20
+[2016.06.01-13.05.44:205][693]LogAIModule: Creating AISystem for world NewMap
+[2016.06.01-13.05.44:207][693]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.06.01-13.05.44:226][693]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.06.01-13.05.44:287][693]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 61.207ms to complete.
+[2016.06.01-13.05.44:288][693]LogFileHelpers: Loading map 'NewMap' took 0.120
+[2016.06.01-13.05.48:159][ 65]LogAIModule: Creating AISystem for world Asset_Testing
+[2016.06.01-13.05.48:169][ 65]Cmd: MAP LOAD FILE="G:/Escapig.git/Escapig1/Content/Asset_Testing.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.06.01-13.05.48:170][ 65]LightingResults: New page: Lighting Build
+[2016.06.01-13.05.48:185][ 65]LoadErrors: New page: Loading map: Asset_Testing.umap
+[2016.06.01-13.05.48:185][ 65]MapCheck: New page: Map Check
+[2016.06.01-13.05.48:185][ 65]LightingResults: New page: Lighting Build
+[2016.06.01-13.05.48:194][ 65]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011B2BEC0
+[2016.06.01-13.05.48:195][ 65]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.06.01-13.05.48:215][ 65]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.06.01-13.05.48:276][ 65]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 60.943ms to complete.
+[2016.06.01-13.05.48:276][ 65]LogFileHelpers: Loading map 'Asset_Testing' took 0.108
+[2016.06.01-13.06.08:121][231]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2016.06.01-13.06.55:255][215]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2016.06.01-13.07.15:161][300]Cmd: DUPLICATE
+[2016.06.01-13.07.15:161][300]Cmd: ACTOR DUPLICATE
+[2016.06.01-13.07.20:245][886]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight)
+[2016.06.01-13.07.26:949][560]LogActorFactory: Actor Factory created Tall_Grass
+[2016.06.01-13.07.27:525][628]LogActorFactory: Actor Factory created Tall_Grass
+[2016.06.01-13.07.39:981][ 60]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2016.06.01-13.07.41:588][248]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight)
+[2016.06.01-13.07.43:947][528]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tall_Grass)
+[2016.06.01-13.07.55:609][741]LogEditorViewport: Clicking Background
+[2016.06.01-13.07.59:507][201]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tall_Grass)
+[2016.06.01-13.08.22:124][402]LogActorFactory: Actor Factory created Wheat
+[2016.06.01-13.08.23:056][513]LogActorFactory: Actor Factory created Wheat
+[2016.06.01-13.08.36:024][724]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tall_Grass)
+[2016.06.01-13.08.38:777][ 30]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wheat)
+[2016.06.01-13.08.49:791][310]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wheat)
+[2016.06.01-13.08.55:549][880]LogEditorViewport: Clicking Background
+[2016.06.01-13.08.58:775][264]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2016.06.01-13.09.12:731][712]Cmd: DELETE
+[2016.06.01-13.09.12:731][712]Cmd: ACTOR DELETE
+[2016.06.01-13.09.12:733][712]LogEditorActor: Deleted Actor: PointLight
+[2016.06.01-13.09.12:733][712]LogEditorActor: Deleted Actor: PointLight
+[2016.06.01-13.09.12:743][712]LogEditorActor: Deleted 2 Actors (0.012 secs)
+[2016.06.01-13.09.40:781][985]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tall_Grass)
+[2016.06.01-13.09.41:550][ 70]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wheat)
+[2016.06.01-13.09.43:008][194]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.09.43:063][194]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.09.43:071][194]LogMaterial: 0.000090 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.06.01-13.09.43:095][194]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.06.01-13.09.43:097][194]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.06.01-13.09.44:560][264]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 43 instructions
+[2016.06.01-13.09.44:560][264]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.06.01-13.09.44:560][264]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.06.01-13.09.48:595][672]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.09.48:606][672]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.09.48:613][672]LogMaterial: 0.000071 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.06.01-13.09.49:677][742]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
+[2016.06.01-13.09.49:677][742]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.06.01-13.09.49:677][742]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.06.01-13.09.59:886][613]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.09.59:897][613]LogMaterial: 0.000048 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.06.01-13.09.59:921][613]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.06.01-13.10.01:146][698]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 46 instructions
+[2016.06.01-13.10.01:146][698]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.06.01-13.10.01:146][698]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.06.01-13.10.04:800][987]LogEditorViewport: Clicking Background
+[2016.06.01-13.10.13:162][880]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.10.13:169][880]LogMaterial: 0.000069 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.06.01-13.10.14:499][987]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
+[2016.06.01-13.10.14:499][987]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.06.01-13.10.14:499][987]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.06.01-13.10.15:111][ 37]LogMaterialEditor: Applying material grass
+[2016.06.01-13.10.15:630][ 37]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.10.15:659][ 37]LogMaterial: 0.000073 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.06.01-13.10.15:674][ 37]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.10.15:700][ 37]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.10.15:711][ 37]LogMaterial: 0.000277 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.06.01-13.10.18:638][300]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 71 instructions
+[2016.06.01-13.10.18:638][300]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.06.01-13.10.18:638][300]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.06.01-13.10.26:705][140]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.10.26:710][140]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.10.26:713][140]LogMaterial: 0.000019 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.06.01-13.10.26:997][163]MaterialEditorStats: Info Base pass shader without light map: 28 instructions
+[2016.06.01-13.10.26:997][163]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.06.01-13.10.26:997][163]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.06.01-13.10.30:499][544]LogMaterialEditor: Applying material grass
+[2016.06.01-13.10.31:023][544]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.10.31:032][544]LogMaterial: 0.000048 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.06.01-13.10.31:048][544]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.10.31:059][544]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.10.31:064][544]LogMaterial: 0.001065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.06.01-13.10.31:992][637]MaterialEditorStats: Info Base pass shader without light map: 50 instructions
+[2016.06.01-13.10.31:992][637]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.06.01-13.10.31:992][637]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.06.01-13.10.37:415][240]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.10.37:443][240]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.10.37:450][240]LogMaterial: 0.000018 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.06.01-13.10.38:543][317]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
+[2016.06.01-13.10.38:543][317]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.06.01-13.10.38:543][317]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.06.01-13.10.46:154][109]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.10.46:161][109]LogMaterial: 0.000047 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.06.01-13.10.46:183][109]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.06.01-13.10.47:287][196]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
+[2016.06.01-13.10.47:287][196]MaterialEditorStats: Info Vertex shader: 35 instructions
+[2016.06.01-13.10.47:287][196]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.06.01-13.10.48:550][330]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.10.48:558][330]LogMaterial: 0.000053 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.06.01-13.10.49:638][418]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
+[2016.06.01-13.10.49:638][418]MaterialEditorStats: Info Vertex shader: 35 instructions
+[2016.06.01-13.10.49:638][418]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.06.01-13.10.51:640][624]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.10.51:647][624]LogMaterial: 0.000049 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.06.01-13.10.52:735][691]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
+[2016.06.01-13.10.52:735][691]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.06.01-13.10.52:735][691]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.06.01-13.10.55:088][921]LogMaterialEditor: Applying material grass
+[2016.06.01-13.10.55:613][921]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.10.55:644][921]LogMaterial: 0.000062 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.06.01-13.10.55:659][921]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.10.55:687][921]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.10.55:743][921]LogMaterial: 0.000799 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.06.01-13.10.58:499][175]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 71 instructions
+[2016.06.01-13.10.58:499][175]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.06.01-13.10.58:499][175]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.06.01-13.11.27:137][167]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.11.27:153][167]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.11.27:159][167]LogMaterial: 0.000116 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.06.01-13.11.29:150][352]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 8 instructions
+[2016.06.01-13.11.29:150][352]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 8 instructions
+[2016.06.01-13.11.29:150][352]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.06.01-13.11.29:150][352]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.06.01-13.11.33:248][771]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.11.33:253][771]LogMaterial: 0.000056 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.06.01-13.11.33:280][771]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.06.01-13.11.34:901][907]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 11 instructions
+[2016.06.01-13.11.34:901][907]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 11 instructions
+[2016.06.01-13.11.34:901][907]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.06.01-13.11.34:901][907]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.06.01-13.11.44:803][ 14]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.11.44:814][ 14]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.11.44:821][ 14]LogMaterial: 0.000034 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.06.01-13.11.46:258][136]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
+[2016.06.01-13.11.46:258][136]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.06.01-13.11.46:258][136]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.06.01-13.11.50:975][594]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.11.50:986][594]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.11.50:993][594]LogMaterial: 0.000142 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.06.01-13.11.52:245][686]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 43 instructions
+[2016.06.01-13.11.52:245][686]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.06.01-13.11.52:245][686]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.06.01-13.11.52:713][742]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.11.52:723][742]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.11.52:729][742]LogMaterial: 0.000021 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.06.01-13.11.54:593][898]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 27 instructions
+[2016.06.01-13.11.54:593][898]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 63 instructions
+[2016.06.01-13.11.54:593][898]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.06.01-13.11.54:593][898]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.06.01-13.12.02:288][712]LogMaterialEditor: Applying material grass
+[2016.06.01-13.12.02:803][712]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.12.02:825][712]LogMaterial: 0.000061 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.06.01-13.12.02:836][712]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.12.02:852][712]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.12.02:863][712]LogMaterial: 0.001660 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.06.01-13.12.07:498][181]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2016.06.01-13.12.07:498][181]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 83 instructions
+[2016.06.01-13.12.07:498][181]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.06.01-13.12.07:498][181]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.06.01-13.12.16:373][103]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.12.16:383][103]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.12.16:389][103]LogMaterial: 0.000040 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.06.01-13.12.17:389][176]LogMaterialEditor: Applying material grass
+[2016.06.01-13.12.18:026][176]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.12.18:052][176]LogMaterial: 0.000025 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.06.01-13.12.18:065][176]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.12.18:084][176]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.12.18:095][176]LogMaterial: 0.000308 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.06.01-13.12.22:626][634]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 46 instructions
+[2016.06.01-13.12.22:626][634]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 82 instructions
+[2016.06.01-13.12.22:626][634]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2016.06.01-13.12.22:626][634]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.06.01-13.12.36:160][ 50]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.12.36:186][ 50]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.12.36:193][ 50]LogMaterial: 0.000031 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.06.01-13.12.37:263][137]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 43 instructions
+[2016.06.01-13.12.37:263][137]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.06.01-13.12.37:263][137]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.06.01-13.12.43:301][674]LogMaterialEditor: Applying material grass
+[2016.06.01-13.12.43:821][674]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.12.43:852][674]LogMaterial: 0.000064 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.06.01-13.12.43:868][674]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.12.43:904][674]LogMaterial: Missing cached shader map for material grass, compiling. 
+[2016.06.01-13.12.43:921][674]LogMaterial: 0.000336 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.06.01-13.12.46:595][926]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 69 instructions
+[2016.06.01-13.12.46:595][926]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.06.01-13.12.46:595][926]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.06.01-13.13.33:488][232]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tall_Grass)
+[2016.06.01-13.13.40:314][ 33]Cmd: DUPLICATE
+[2016.06.01-13.13.40:314][ 33]Cmd: ACTOR DUPLICATE
+[2016.06.01-13.13.53:178][524]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wheat)
+[2016.06.01-13.13.55:723][822]Cmd: DUPLICATE
+[2016.06.01-13.13.55:723][822]Cmd: ACTOR DUPLICATE
+[2016.06.01-13.14.16:076][178]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tall_Grass2)
+[2016.06.01-13.14.18:062][405]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Tall_Grass)
+[2016.06.01-13.14.19:130][529]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wheat)
+[2016.06.01-13.14.19:705][594]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wheat2)
+[2016.06.01-13.14.24:450][158]Cmd: DUPLICATE
+[2016.06.01-13.14.24:450][158]Cmd: ACTOR DUPLICATE
+[2016.06.01-13.14.42:220][240]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tall_Grass2)
+[2016.06.01-13.14.47:976][925]Cmd: DUPLICATE
+[2016.06.01-13.14.47:976][925]Cmd: ACTOR DUPLICATE
+[2016.06.01-13.14.56:735][964]Cmd: DUPLICATE
+[2016.06.01-13.14.56:735][964]Cmd: ACTOR DUPLICATE
+[2016.06.01-13.15.10:798][612]Cmd: DUPLICATE
+[2016.06.01-13.15.10:798][612]Cmd: ACTOR DUPLICATE
+[2016.06.01-13.15.27:211][563]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wheat3)
+[2016.06.01-13.15.28:934][765]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tall_Grass4)
+[2016.06.01-13.15.31:393][ 40]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wheat3)
+[2016.06.01-13.15.32:658][188]Cmd: DUPLICATE
+[2016.06.01-13.15.32:658][188]Cmd: ACTOR DUPLICATE
+[2016.06.01-13.15.49:530][197]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tall_Grass7)
+[2016.06.01-13.15.54:512][789]Cmd: DUPLICATE
+[2016.06.01-13.15.54:512][789]Cmd: ACTOR DUPLICATE
+[2016.06.01-13.16.02:326][711]LogEditorViewport: Clicking Background
+[2016.06.01-13.16.12:105][882]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wheat5)
+[2016.06.01-13.16.13:298][ 21]Cmd: DUPLICATE
+[2016.06.01-13.16.13:298][ 21]Cmd: ACTOR DUPLICATE
+[2016.06.01-13.16.21:664][  3]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wheat6)
+[2016.06.01-13.16.37:918][897]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tall_Grass8)
+[2016.06.01-13.16.41:407][309]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tall_Grass7)
+[2016.06.01-13.17.06:895][339]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wheat6)
+[2016.06.01-13.17.22:668][ 58]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wheat5)
+[2016.06.01-13.17.23:743][183]Cmd: DUPLICATE
+[2016.06.01-13.17.23:743][183]Cmd: ACTOR DUPLICATE
+[2016.06.01-13.17.34:449][431]Cmd: DUPLICATE
+[2016.06.01-13.17.34:449][431]Cmd: ACTOR DUPLICATE
+[2016.06.01-13.18.13:310][ 48]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tall_Grass8)
+[2016.06.01-13.18.17:091][480]Cmd: DUPLICATE
+[2016.06.01-13.18.17:091][480]Cmd: ACTOR DUPLICATE
+[2016.06.01-13.18.24:739][381]Cmd: DUPLICATE
+[2016.06.01-13.18.24:739][381]Cmd: ACTOR DUPLICATE
+[2016.06.01-13.18.32:224][263]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tall_Grass10)
+[2016.06.01-13.18.33:668][431]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Tall_Grass9)
+[2016.06.01-13.18.35:004][587]Cmd: DUPLICATE
+[2016.06.01-13.18.35:004][587]Cmd: ACTOR DUPLICATE
+[2016.06.01-13.19.04:852][140]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wheat5)
+[2016.06.01-13.19.07:325][416]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wheat7)
+[2016.06.01-13.19.09:229][638]Cmd: TRANSACTION UNDO
+[2016.06.01-13.19.09:229][638]LogEditorTransaction: Undo Move Actors
+[2016.06.01-13.19.09:901][691]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wheat9)
+[2016.06.01-13.19.11:030][779]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Tall_Grass10)
+[2016.06.01-13.19.12:544][909]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Tall_Grass12)
+[2016.06.01-13.19.35:892][684]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tall_Grass4)
+[2016.06.01-13.19.37:345][854]Cmd: DELETE
+[2016.06.01-13.19.37:345][854]Cmd: ACTOR DELETE
+[2016.06.01-13.19.37:346][854]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.06.01-13.19.37:354][854]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000041E45E40
+[2016.06.01-13.19.37:355][854]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001D06DDA0
+[2016.06.01-13.19.37:356][854]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2016.06.01-13.19.40:186][194]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tall_Grass12)
+[2016.06.01-13.19.40:895][275]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Tall_Grass10)
+[2016.06.01-13.19.41:755][374]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wheat9)
+[2016.06.01-13.19.42:367][443]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wheat7)
+[2016.06.01-13.19.43:011][516]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wheat5)
+[2016.06.01-13.20.54:438][572]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Asset_Testing" FILE="G:/Escapig.git/Escapig1/Saved/Autosaves/Game/Asset_Testing_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.06.01-13.20.54:469][572]LogSavePackage: Save=20.186476ms
+[2016.06.01-13.20.54:469][572]LogSavePackage: Moving 'G:/Escapig.git/Escapig1/Saved/Asset_Testing_Auto18D4513BD4F1049F4D521129F7A42BB4D.tmp' to 'G:/Escapig.git/Escapig1/Saved/Autosaves/Game/Asset_Testing_Auto1.umap'
+[2016.06.01-13.20.54:471][572]LogSavePackage: Total save time: 28.825197ms
+[2016.06.01-13.20.54:471][572]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Autosaves/Game/Asset_Testing_Auto1.umap
+[2016.06.01-13.20.54:478][572]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Asset_Testing' took 0.051
+[2016.06.01-13.20.54:478][572]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.051
+[2016.06.01-13.20.54:482][572]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Walls/grass] ([1] browsable assets)...
+[2016.06.01-13.20.54:494][572]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/Walls/grass.grass]
+[2016.06.01-13.20.54:494][572]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Walls/grass]
+[2016.06.01-13.20.54:494][572]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Walls/grass" FILE="G:/Escapig.git/Escapig1/Saved/Autosaves/Game/Assets/Walls/grass_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.06.01-13.20.54:862][572]LogSavePackage: Save=37.209621ms
+[2016.06.01-13.20.54:862][572]LogSavePackage: Moving 'G:/Escapig.git/Escapig1/Saved/grass_Auto14005326A4921EA87F59938AC9648AF13.tmp' to 'G:/Escapig.git/Escapig1/Saved/Autosaves/Game/Assets/Walls/grass_Auto1.uasset'
+[2016.06.01-13.20.54:864][572]LogSavePackage: Total save time: 48.384767ms
+[2016.06.01-13.20.54:864][572]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Saved/Autosaves/Game/Assets/Walls/grass_Auto1.uasset
+[2016.06.01-13.20.54:864][572]LogFileHelpers: Auto-saving content packages took 0.384
+[2016.06.01-13.26.36:850][538]LogEditorFactories: Performing atomic reimport of [G:/Escapig/Tall_grass/Tall_Grass.fbx]
+[2016.06.01-13.26.36:850][538]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 G:/Escapig/Tall_grass/Tall_Grass.fbx)
+[2016.06.01-13.26.36:851][538]Error: Texture import failed
+[2016.06.01-13.26.36:851][538]LogEditorFactories:Warning: -- import failed
+[2016.06.01-13.26.43:473][130]LogEditorViewport: Clicking Background
+[2016.06.01-13.27.10:069][320]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wheat)
+[2016.06.01-13.27.10:755][392]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wheat2)
+[2016.06.01-13.27.26:925][194]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wheat4)
+[2016.06.01-13.27.27:658][277]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wheat3)
+[2016.06.01-13.27.33:104][906]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wheat10)
+[2016.06.01-13.27.33:680][971]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wheat8)
+[2016.06.01-13.27.34:140][ 22]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wheat6)
+[2016.06.01-13.27.38:325][499]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wheat9)
+[2016.06.01-13.27.39:577][644]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wheat7)
+[2016.06.01-13.27.40:300][726]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wheat5)
+[2016.06.01-13.28.31:455][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Asset_Testing" FILE="G:/Escapig.git/Escapig1/Content/Asset_Testing.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.06.01-13.28.31:498][787]LogSavePackage: Save=20.311344ms
+[2016.06.01-13.28.31:498][787]LogSavePackage: Moving 'G:/Escapig.git/Escapig1/Saved/Asset_Testing6E46EAA1427B5AB07995AC935A1E95A5.tmp' to 'G:/Escapig.git/Escapig1/Content/Asset_Testing.umap'
+[2016.06.01-13.28.31:508][787]LogSavePackage: Total save time: 36.887471ms
+[2016.06.01-13.28.31:508][787]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Content/Asset_Testing.umap
+[2016.06.01-13.54.30:404][449]LogEditorFactories: Performing atomic reimport of [G:/Escapig/Tall_grass/Tall_Grass.fbx]
+[2016.06.01-13.54.30:404][449]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 G:/Escapig/Tall_grass/Tall_Grass.fbx)
+[2016.06.01-13.54.30:405][449]Error: Texture import failed
+[2016.06.01-13.54.30:405][449]LogEditorFactories:Warning: -- import failed
+[2016.06.01-13.54.33:081][659]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wheat4)
+[2016.06.01-14.26.55:399][ 48]LogInit:Warning: CVar named 'r.MobileHDR' marked up in RendererSettings was not found or is set to read-only
+[2016.06.01-14.26.56:473][ 49]Cmd: CLOSE_SLATE_MAINFRAME
+[2016.06.01-14.26.57:975][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Walls/grass" FILE="G:/Escapig.git/Escapig1/Content/Assets/Walls/grass.uasset" SILENT=true
+[2016.06.01-14.26.58:108][ 49]LogSavePackage: Save=8.638721ms
+[2016.06.01-14.26.58:108][ 49]LogSavePackage: Moving 'G:/Escapig.git/Escapig1/Saved/grass04BC566749002D58C8C922BC82EB603A.tmp' to 'G:/Escapig.git/Escapig1/Content/Assets/Walls/grass.uasset'
+[2016.06.01-14.26.58:118][ 49]LogSavePackage: Total save time: 135.530882ms
+[2016.06.01-14.26.58:118][ 49]LogSavePackage:Warning: Finished SavePackage G:/Escapig.git/Escapig1/Content/Assets/Walls/grass.uasset
+[2016.06.01-14.26.58:420][ 50]Cmd: QUIT_EDITOR
+[2016.06.01-14.26.58:666][ 50]LogExit: Preparing to exit.
+[2016.06.01-14.26.59:389][ 50]LogExit: Editor shut down
+[2016.06.01-14.26.59:389][ 50]LogExit: Transaction tracking system shut down
+[2016.06.01-14.26.59:390][ 50]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000117F6840
+[2016.06.01-14.26.59:391][ 50]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011B2A7A0
+[2016.06.01-14.26.59:391][ 50]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011B2B880
+[2016.06.01-14.26.59:391][ 50]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000027A4F060
+[2016.06.01-14.26.59:512][ 50]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011B85120
+[2016.06.01-14.26.59:512][ 50]LogExit: Object subsystem successfully closed.
+[2016.06.01-14.26.59:523][ 50]LogD3D11RHI: Shutdown
+[2016.06.01-14.26.59:523][ 50]LogD3D11RHI: CleanupD3DDevice
+[2016.06.01-14.26.59:562][ 50]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.06.01-14.26.59:589][ 50]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (204)
+[2016.06.01-14.26.59:589][ 50]LogModuleManager: Shutting down and abandoning module MaterialEditor (203)
+[2016.06.01-14.26.59:589][ 50]LogModuleManager: Shutting down and abandoning module PackageDependencyInfo (202)
+[2016.06.01-14.26.59:590][ 50]LogModuleManager: Shutting down and abandoning module LauncherServices (201)
+[2016.06.01-14.26.59:590][ 50]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (200)
+[2016.06.01-14.26.59:590][ 50]LogModuleManager: Shutting down and abandoning module CrashTracker (199)
+[2016.06.01-14.26.59:590][ 50]LogModuleManager: Shutting down and abandoning module SceneOutliner (198)
+[2016.06.01-14.26.59:590][ 50]LogModuleManager: Shutting down and abandoning module SuperSearch (197)
+[2016.06.01-14.26.59:590][ 50]LogModuleManager: Shutting down and abandoning module WidgetCarousel (196)
+[2016.06.01-14.26.59:590][ 50]LogModuleManager: Shutting down and abandoning module AddContentDialog (195)
+[2016.06.01-14.26.59:592][ 50]LogModuleManager: Shutting down and abandoning module EditorWidgets (194)
+[2016.06.01-14.26.59:592][ 50]LogModuleManager: Shutting down and abandoning module CollectionManager (193)
+[2016.06.01-14.26.59:592][ 50]LogModuleManager: Shutting down and abandoning module StatsViewer (192)
+[2016.06.01-14.26.59:592][ 50]LogModuleManager: Shutting down and abandoning module FoliageEdit (191)
+[2016.06.01-14.26.59:592][ 50]LogModuleManager: Shutting down and abandoning module LandscapeEditor (190)
+[2016.06.01-14.26.59:592][ 50]LogModuleManager: Shutting down and abandoning module ActorPickerMode (189)
+[2016.06.01-14.26.59:592][ 50]LogModuleManager: Shutting down and abandoning module GeometryMode (188)
+[2016.06.01-14.26.59:592][ 50]LogModuleManager: Shutting down and abandoning module TextureAlignMode (187)
+[2016.06.01-14.26.59:592][ 50]LogModuleManager: Shutting down and abandoning module BspMode (186)
+[2016.06.01-14.26.59:592][ 50]LogModuleManager: Shutting down and abandoning module PlacementMode (185)
+[2016.06.01-14.26.59:592][ 50]LogModuleManager: Shutting down and abandoning module AutomationWorker (184)
+[2016.06.01-14.26.59:592][ 50]LogModuleManager: Shutting down and abandoning module CharacterAI (183)
+[2016.06.01-14.26.59:592][ 50]LogModuleManager: Shutting down and abandoning module SmartSnapping (182)
+[2016.06.01-14.26.59:593][ 50]LogModuleManager: Shutting down and abandoning module ViewportSnapping (181)
+[2016.06.01-14.26.59:593][ 50]LogModuleManager: Shutting down and abandoning module LogVisualizer (180)
+[2016.06.01-14.26.59:593][ 50]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (179)
+[2016.06.01-14.26.59:593][ 50]LogModuleManager: Shutting down and abandoning module IntroTutorials (178)
+[2016.06.01-14.26.59:593][ 50]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (177)
+[2016.06.01-14.26.59:593][ 50]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (176)
+[2016.06.01-14.26.59:593][ 50]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (175)
+[2016.06.01-14.26.59:593][ 50]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (174)
+[2016.06.01-14.26.59:817][ 50]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (173)
+[2016.06.01-14.26.59:817][ 50]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (172)
+[2016.06.01-14.26.59:817][ 50]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (171)
+[2016.06.01-14.26.59:817][ 50]LogModuleManager: Shutting down and abandoning module MergeActors (170)
+[2016.06.01-14.26.59:817][ 50]LogModuleManager: Shutting down and abandoning module SizeMap (169)
+[2016.06.01-14.26.59:817][ 50]LogModuleManager: Shutting down and abandoning module TreeMap (168)
+[2016.06.01-14.26.59:817][ 50]LogModuleManager: Shutting down and abandoning module ReferenceViewer (167)
+[2016.06.01-14.26.59:817][ 50]LogModuleManager: Shutting down and abandoning module LocalizationService (166)
+[2016.06.01-14.26.59:817][ 50]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (165)
+[2016.06.01-14.26.59:817][ 50]LogModuleManager: Shutting down and abandoning module HardwareTargeting (164)
+[2016.06.01-14.26.59:817][ 50]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (163)
+[2016.06.01-14.26.59:817][ 50]LogModuleManager: Shutting down and abandoning module UndoHistory (162)
+[2016.06.01-14.26.59:817][ 50]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (161)
+[2016.06.01-14.26.59:817][ 50]LogModuleManager: Shutting down and abandoning module UserFeedback (160)
+[2016.06.01-14.26.59:817][ 50]LogModuleManager: Shutting down and abandoning module XmlParser (159)
+[2016.06.01-14.26.59:817][ 50]LogModuleManager: Shutting down and abandoning module Blutility (158)
+[2016.06.01-14.26.59:817][ 50]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (157)
+[2016.06.01-14.26.59:817][ 50]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (156)
+[2016.06.01-14.26.59:817][ 50]LogModuleManager: Shutting down and abandoning module InputBindingEditor (155)
+[2016.06.01-14.26.59:817][ 50]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (154)
+[2016.06.01-14.26.59:818][ 50]LogModuleManager: Shutting down and abandoning module SettingsEditor (153)
+[2016.06.01-14.26.59:818][ 50]LogModuleManager: Shutting down and abandoning module ProjectLauncher (152)
+[2016.06.01-14.26.59:818][ 50]LogModuleManager: Shutting down and abandoning module SessionFrontend (151)
+[2016.06.01-14.26.59:818][ 50]LogModuleManager: Shutting down and abandoning module ProfilerClient (150)
+[2016.06.01-14.26.59:818][ 50]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (149)
+[2016.06.01-14.26.59:818][ 50]LogModuleManager: Shutting down and abandoning module DeviceManager (148)
+[2016.06.01-14.26.59:818][ 50]LogModuleManager: Shutting down and abandoning module AutomationController (147)
+[2016.06.01-14.26.59:818][ 50]LogModuleManager: Shutting down and abandoning module AutomationWindow (146)
+[2016.06.01-14.26.59:818][ 50]LogModuleManager: Shutting down and abandoning module Layers (145)
+[2016.06.01-14.26.59:818][ 50]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (144)
+[2016.06.01-14.26.59:818][ 50]LogModuleManager: Shutting down and abandoning module DetailCustomizations (143)
+[2016.06.01-14.26.59:818][ 50]LogModuleManager: Shutting down and abandoning module PackagesDialog (142)
+[2016.06.01-14.26.59:818][ 50]LogModuleManager: Shutting down and abandoning module Persona (141)
+[2016.06.01-14.26.59:818][ 50]LogModuleManager: Shutting down and abandoning module Kismet (140)
+[2016.06.01-14.26.59:818][ 50]LogModuleManager: Shutting down and abandoning module GraphEditor (139)
+[2016.06.01-14.26.59:818][ 50]LogModuleManager: Shutting down and abandoning module ClassViewer (138)
+[2016.06.01-14.26.59:818][ 50]LogModuleManager: Shutting down and abandoning module Toolbox (137)
+[2016.06.01-14.26.59:818][ 50]LogModuleManager: Shutting down and abandoning module ModuleUI (136)
+[2016.06.01-14.26.59:818][ 50]LogModuleManager: Shutting down and abandoning module MovieSceneTools (135)
+[2016.06.01-14.26.59:818][ 50]LogModuleManager: Shutting down and abandoning module OutputLog (134)
+[2016.06.01-14.26.59:818][ 50]LogModuleManager: Shutting down and abandoning module GammaUI (133)
+[2016.06.01-14.26.59:818][ 50]LogModuleManager: Shutting down and abandoning module Documentation (132)
+[2016.06.01-14.26.59:818][ 50]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (131)
+[2016.06.01-14.26.59:818][ 50]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (130)
+[2016.06.01-14.26.59:818][ 50]LogModuleManager: Shutting down and abandoning module AnalyticsET (129)
+[2016.06.01-14.26.59:818][ 50]LogModuleManager: Shutting down and abandoning module Analytics (128)
+[2016.06.01-14.26.59:818][ 50]LogModuleManager: Shutting down and abandoning module AITestSuite (127)
+[2016.06.01-14.26.59:818][ 50]LogModuleManager: Shutting down and abandoning module GameplayDebugger (126)
+[2016.06.01-14.26.59:818][ 50]LogModuleManager: Shutting down and abandoning module AIModule (125)
+[2016.06.01-14.26.59:818][ 50]LogModuleManager: Shutting down and abandoning module ProfilerService (124)
+[2016.06.01-14.26.59:852][ 50]LogModuleManager: Shutting down and abandoning module TaskGraph (123)
+[2016.06.01-14.26.59:852][ 50]LogModuleManager: Shutting down and abandoning module SubstanceEditor (122)
+[2016.06.01-14.26.59:852][ 50]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.06.01-14.26.59:852][ 50]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.06.01-14.26.59:852][ 50]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.06.01-14.26.59:852][ 50]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.06.01-14.26.59:852][ 50]LogModuleManager: Shutting down and abandoning module OculusRift (117)
+[2016.06.01-14.26.59:852][ 50]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
+[2016.06.01-14.26.59:852][ 50]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.06.01-14.26.59:867][ 50]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.06.01-14.26.59:867][ 50]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.06.01-14.26.59:867][ 50]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.06.01-14.26.59:867][ 50]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.06.01-14.26.59:867][ 50]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.06.01-14.26.59:867][ 50]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.06.01-14.26.59:867][ 50]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.06.01-14.26.59:867][ 50]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.06.01-14.26.59:867][ 50]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.06.01-14.26.59:867][ 50]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.06.01-14.26.59:867][ 50]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.06.01-14.26.59:867][ 50]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.06.01-14.26.59:867][ 50]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.06.01-14.26.59:867][ 50]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.06.01-14.26.59:867][ 50]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.06.01-14.26.59:867][ 50]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.06.01-14.26.59:868][ 50]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.06.01-14.26.59:868][ 50]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.06.01-14.26.59:868][ 50]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.06.01-14.26.59:868][ 50]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.06.01-14.26.59:868][ 50]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.06.01-14.26.59:868][ 50]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.06.01-14.26.59:868][ 50]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.06.01-14.26.59:868][ 50]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.06.01-14.26.59:869][ 50]LogModuleManager: Shutting down and abandoning module ContentBrowser (90)
+[2016.06.01-14.26.59:870][ 50]LogModuleManager: Shutting down and abandoning module Paper2DEditor (89)
+[2016.06.01-14.26.59:870][ 50]LogModuleManager: Shutting down and abandoning module UdpMessaging (88)
+[2016.06.01-14.26.59:970][ 50]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2016.06.01-14.26.59:971][ 50]LogModuleManager: Shutting down and abandoning module AssetRegistry (86)
+[2016.06.01-14.27.00:494][ 50]LogModuleManager: Shutting down and abandoning module SubstanceCore (85)
+[2016.06.01-14.27.00:494][ 50]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2016.06.01-14.27.00:494][ 50]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2016.06.01-14.27.00:494][ 50]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2016.06.01-14.27.00:497][ 50]LogModuleManager: Shutting down and abandoning module Media (81)
+[2016.06.01-14.27.00:497][ 50]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2016.06.01-14.27.00:497][ 50]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2016.06.01-14.27.00:497][ 50]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2016.06.01-14.27.00:498][ 50]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2016.06.01-14.27.00:498][ 50]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2016.06.01-14.27.00:498][ 50]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2016.06.01-14.27.00:498][ 50]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2016.06.01-14.27.00:498][ 50]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2016.06.01-14.27.00:498][ 50]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2016.06.01-14.27.00:498][ 50]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2016.06.01-14.27.00:498][ 50]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2016.06.01-14.27.00:498][ 50]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2016.06.01-14.27.00:498][ 50]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2016.06.01-14.27.00:498][ 50]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2016.06.01-14.27.00:498][ 50]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2016.06.01-14.27.00:500][ 50]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2016.06.01-14.27.00:500][ 50]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2016.06.01-14.27.00:500][ 50]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2016.06.01-14.27.00:500][ 50]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2016.06.01-14.27.00:500][ 50]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2016.06.01-14.27.00:500][ 50]LogModuleManager: Shutting down and abandoning module Core (59)
+[2016.06.01-14.27.00:500][ 50]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2016.06.01-14.27.00:500][ 50]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2016.06.01-14.27.00:500][ 50]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2016.06.01-14.27.00:500][ 50]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2016.06.01-14.27.00:502][ 50]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2016.06.01-14.27.00:513][ 50]LogDerivedDataCache: Shutdown
+[2016.06.01-14.27.00:513][ 50]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2016.06.01-14.27.00:513][ 50]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2016.06.01-14.27.00:513][ 50]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2016.06.01-14.27.00:513][ 50]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2016.06.01-14.27.00:513][ 50]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2016.06.01-14.27.00:513][ 50]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2016.06.01-14.27.00:513][ 50]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2016.06.01-14.27.00:513][ 50]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2016.06.01-14.27.00:513][ 50]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2016.06.01-14.27.00:513][ 50]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2016.06.01-14.27.00:513][ 50]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2016.06.01-14.27.00:513][ 50]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2016.06.01-14.27.00:513][ 50]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2016.06.01-14.27.00:513][ 50]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2016.06.01-14.27.00:513][ 50]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2016.06.01-14.27.00:513][ 50]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2016.06.01-14.27.00:513][ 50]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2016.06.01-14.27.00:513][ 50]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2016.06.01-14.27.00:513][ 50]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2016.06.01-14.27.00:513][ 50]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2016.06.01-14.27.00:513][ 50]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2016.06.01-14.27.00:513][ 50]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2016.06.01-14.27.00:513][ 50]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2016.06.01-14.27.00:513][ 50]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2016.06.01-14.27.00:513][ 50]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2016.06.01-14.27.00:513][ 50]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2016.06.01-14.27.00:513][ 50]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2016.06.01-14.27.00:513][ 50]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2016.06.01-14.27.00:513][ 50]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2016.06.01-14.27.00:513][ 50]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2016.06.01-14.27.00:513][ 50]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2016.06.01-14.27.00:513][ 50]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2016.06.01-14.27.00:513][ 50]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2016.06.01-14.27.00:513][ 50]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2016.06.01-14.27.00:513][ 50]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.06.01-14.27.00:513][ 50]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2016.06.01-14.27.01:514][ 50]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2016.06.01-14.27.01:514][ 50]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.06.01-14.27.01:514][ 50]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.06.01-14.27.01:514][ 50]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.06.01-14.27.01:514][ 50]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.06.01-14.27.01:514][ 50]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.06.01-14.27.01:516][ 50]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.06.01-14.27.01:516][ 50]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.06.01-14.27.01:516][ 50]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.06.01-14.27.01:516][ 50]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.06.01-14.27.01:516][ 50]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.06.01-14.27.01:516][ 50]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.06.01-14.27.01:516][ 50]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.06.01-14.27.01:516][ 50]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.06.01-14.27.01:516][ 50]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.06.01-14.27.01:516][ 50]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.06.01-14.27.01:516][ 50]LogExit: Exiting.
+[2016.06.01-14.27.01:532][ 50]Log file closed, 06/01/16 15:27:01
