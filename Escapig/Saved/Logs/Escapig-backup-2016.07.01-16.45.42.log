@@ -1,0 +1,238 @@
+﻿[2016.07.01-14.56.06:464][  0]Log file open, 07/01/16 15:56:06
+[2016.07.01-14.56.06:464][  0]LogInit:Display: Running engine for game: Escapig
+[2016.07.01-14.56.06:464][  0]LogInit:Display: RandInit(-2146794442) SRandInit(-2146794442).
+[2016.07.01-14.56.06:464][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.07.01-14.56.06:464][  0]LogStats: Stats thread started at 0.072934
+[2016.07.01-14.56.06:464][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.07.01-14.56.06:464][  0]LogInit: API Version: 2672455
+[2016.07.01-14.56.06:464][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.07.01-14.56.06:464][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.07.01-14.56.06:464][  0]LogInit: Build Configuration: Development
+[2016.07.01-14.56.06:464][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.07.01-14.56.06:464][  0]LogInit: Command line:  /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -featureleveles2 -faketouches 
+[2016.07.01-14.56.06:464][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.07.01-14.56.06:464][  0]LogInit: Rocket: 1
+[2016.07.01-14.56.06:473][  0]LogInit: Using libcurl 7.41.0
+[2016.07.01-14.56.06:473][  0]LogInit:  - built for x86_64-pc-win32
+[2016.07.01-14.56.06:473][  0]LogInit:  - supports SSL with WinSSL
+[2016.07.01-14.56.06:473][  0]LogInit:  - other features:
+[2016.07.01-14.56.06:473][  0]LogInit:      CURL_VERSION_SSL
+[2016.07.01-14.56.06:473][  0]LogInit:      CURL_VERSION_IPV6
+[2016.07.01-14.56.06:473][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.07.01-14.56.06:473][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.07.01-14.56.06:473][  0]LogInit:      CURL_VERSION_IDN
+[2016.07.01-14.56.06:473][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.07.01-14.56.06:473][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.07.01-14.56.06:473][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.07.01-14.56.06:473][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.07.01-14.56.06:473][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.07.01-14.56.06:482][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.07.01-14.56.06:487][  0]LogInit: Object subsystem initialized
+[2016.07.01-14.56.06:489][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.01-14.56.06:489][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.07.01-14.56.06:492][  0]LogInit: Computer: CE215-01
+[2016.07.01-14.56.06:492][  0]LogInit: User: U1355824
+[2016.07.01-14.56.06:492][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.07.01-14.56.06:492][  0]LogInit: High frequency timer resolution =3.507539 MHz
+[2016.07.01-14.56.06:492][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2016.07.01-14.56.06:492][  0]LogMemory: Platform Memory Stats for Windows
+[2016.07.01-14.56.06:492][  0]LogMemory: Process Physical Memory: 54.58 MB used, 54.58 MB peak
+[2016.07.01-14.56.06:492][  0]LogMemory: Process Virtual Memory: 59.34 MB used, 59.34 MB peak
+[2016.07.01-14.56.06:492][  0]LogMemory: Physical Memory: 5026.96 MB used, 16222.63 MB total
+[2016.07.01-14.56.06:492][  0]LogMemory: Virtual Memory: 339.64 MB used, 8388608.00 MB total
+[2016.07.01-14.56.06:542][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.07.01-14.56.07:072][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.07.01-14.56.07:072][  0]LogD3D11RHI: Adapter has 4008MB of dedicated video memory, 0MB of dedicated system memory, and 7855MB of shared system memory, 1 output[s]
+[2016.07.01-14.56.07:079][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2016.07.01-14.56.07:079][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 0 output[s]
+[2016.07.01-14.56.07:079][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.07.01-14.56.07:084][  0]LogD3D11RHI: !Direct3DDevice
+[2016.07.01-14.56.07:085][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.07.01-14.56.07:091][  0]LogD3D11RHI: Async texture creation enabled
+[2016.07.01-14.56.07:104][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (D:/Users/u1355824/Documents/escapig/Escapig/Intermediate/Shaders/WorkingDirectory/1212/).
+[2016.07.01-14.56.07:104][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'D:/Users/u1355824/Documents/escapig/Escapig/Intermediate/Shaders/tmp/53442E74450DA79990F4B98568616B62/'.
+[2016.07.01-14.56.07:104][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.07.01-14.56.08:028][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.07.01-14.56.08:032][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.07.01-14.56.08:036][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.07.01-14.56.08:041][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.07.01-14.56.08:045][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.07.01-14.56.08:048][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.07.01-14.56.08:051][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.07.01-14.56.08:055][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.07.01-14.56.08:058][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.07.01-14.56.08:061][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.07.01-14.56.08:064][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.07.01-14.56.08:067][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.07.01-14.56.08:067][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.07.01-14.56.08:083][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.07.01-14.56.08:085][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.07.01-14.56.08:088][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.07.01-14.56.08:091][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.07.01-14.56.08:091][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.07.01-14.56.08:156][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.07.01-14.56.08:198][  0]LogDerivedDataCache: Loaded boot cache 0.04s 57MB D:/Users/u1355824/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.07.01-14.56.08:198][  0]LogDerivedDataCache:Display: Loaded Boot cache: D:/Users/u1355824/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.07.01-14.56.08:198][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Users/u1355824/Documents/escapig/Escapig/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.07.01-14.56.08:198][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.07.01-14.56.08:198][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Users/u1355824/Documents/escapig/Escapig/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.07.01-14.56.08:198][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.07.01-14.56.08:315][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.07.01-14.56.08:326][  0]LogDerivedDataCache: Using Local data cache path D:/Users/u1355824/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.07.01-14.56.08:712][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.01-14.56.08:713][  0]LogContentStreaming: Texture pool size is 1000.000000MB
+[2016.07.01-14.56.08:736][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.07.01-14.56.08:736][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.07.01-14.56.08:831][  0]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2016.07.01-14.56.28:850][  0]LogMaterial: Missing cached shader map for material DefaultDeferredDecalMaterial, compiling. 
+[2016.07.01-14.56.29:256][  0]LogMaterial: Missing cached shader map for material DefaultLightFunctionMaterial, compiling. 
+[2016.07.01-14.56.29:380][  0]LogMaterial: Missing cached shader map for material DefaultPostProcessMaterial, compiling. 
+[2016.07.01-14.56.29:746][  0]LogMaterial: Missing cached shader map for material SkySphereMaterial, compiling. 
+[2016.07.01-14.56.29:752][  0]LogMaterial: Missing cached shader map for material FloorPlaneMaterial, compiling. 
+[2016.07.01-14.56.29:815][  0]LogMaterial: Missing cached shader map for material LandscapeGizmo_Mat, compiling. 
+[2016.07.01-14.56.29:830][  0]LogMaterial: Missing cached shader map for material LandscapeGizmoHeight_Mat, compiling. 
+[2016.07.01-14.56.29:849][  0]LogMaterial: Missing cached shader map for material SplineEditorMeshMat, compiling. 
+[2016.07.01-14.56.29:864][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2016.07.01-14.56.29:872][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2016.07.01-14.56.29:879][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2016.07.01-14.56.29:885][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2016.07.01-14.56.29:891][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2016.07.01-14.56.29:898][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2016.07.01-14.56.29:910][  0]LogMaterial: Missing cached shader map for material MatineeCam_mat, compiling. 
+[2016.07.01-14.56.29:935][  0]LogMaterial: Missing cached shader map for material HelpActorMaterial, compiling. 
+[2016.07.01-14.56.29:969][  0]LogMaterial: Missing cached shader map for material DefaultTextMaterialOpaque, compiling. 
+[2016.07.01-14.56.30:026][  0]LogMaterial: Missing cached shader map for material DefaultMaterial, compiling. 
+[2016.07.01-14.56.30:073][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.07.01-14.56.30:351][  0]LogWindowsMoviePlayer: Unable to load movie: D:/Users/u1355824/Documents/escapig/Escapig/Content/Movies/Default_Startup.mp4
+[2016.07.01-14.56.30:405][  0]LogMaterial: Missing cached shader map for material DefaultSpriteMaterial, compiling. 
+[2016.07.01-14.56.30:412][  0]LogMaterial: Missing cached shader map for material DefaultSpriteMaterial, compiling. 
+[2016.07.01-14.56.30:474][  0]LogAssetRegistry: FAssetRegistry took 0.0002 seconds to start up
+[2016.07.01-14.56.30:511][  0]SourceControl: Info Source control is disabled
+[2016.07.01-14.56.30:511][  0]SourceControl: Info Source control is disabled
+[2016.07.01-14.56.30:528][  0]SourceControl: Info Source control is disabled
+[2016.07.01-14.56.30:661][  0]LogMaterial: Missing cached shader map for material LM_HandColor, compiling. 
+[2016.07.01-14.56.30:672][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.07.01-14.56.30:680][  0]LogMaterial: Missing cached shader map for material LM_PassthroughMaterial, compiling. 
+[2016.07.01-14.56.30:802][  0]LogObj: 27801 objects as part of root set at end of initial load.
+[2016.07.01-14.56.30:802][  0]LogUObjectAllocator: 5798192 out of 0 bytes used by permanent object pool.
+[2016.07.01-14.56.30:828][  0]LogMaterial: Missing cached shader map for material HighResScreenshot, compiling. 
+[2016.07.01-14.56.30:834][  0]LogMaterial: Missing cached shader map for material HighResScreenshotMask, compiling. 
+[2016.07.01-14.56.30:844][  0]LogMaterial: Missing cached shader map for material HighResScreenshotCaptureRegion, compiling. 
+[2016.07.01-14.56.30:874][  0]LogEngine: Initializing Engine...
+[2016.07.01-14.56.30:877][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.07.01-14.56.30:878][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.07.01-14.56.30:892][  0]LogMaterial: Missing cached shader map for material WireframeMaterial, compiling. Is special engine material.
+[2016.07.01-14.56.30:916][  0]LogMaterial: Missing cached shader map for material LevelColorationLitMaterial, compiling. Is special engine material.
+[2016.07.01-14.56.31:008][  0]LogMaterial: Missing cached shader map for material LevelColorationUnlitMaterial, compiling. Is special engine material.
+[2016.07.01-14.56.31:033][  0]LogMaterial: Missing cached shader map for material MAT_LevelColorationLitLightmapUV, compiling. Is special engine material.
+[2016.07.01-14.56.31:033][  0]LogMaterial:Warning: Failed to compile Material /Engine/EngineDebugMaterials/MAT_LevelColorationLitLightmapUV.MAT_LevelColorationLitLightmapUV for platform PCD3D_ES2, Default Material will be used in game.
+[2016.07.01-14.56.31:033][  0]LogMaterial:Warning: 	(Node LightmapUVs) Node not supported in feature level ES2
+[2016.07.01-14.56.31:039][  0]LogMaterial: Missing cached shader map for material ShadedLevelColorationLitMaterial, compiling. Is special engine material.
+[2016.07.01-14.56.31:131][  0]LogMaterial: Missing cached shader map for material ShadedLevelColorationUnlitMateri, compiling. Is special engine material.
+[2016.07.01-14.56.31:152][  0]LogMaterial: Missing cached shader map for material VertexColorMaterial, compiling. 
+[2016.07.01-14.56.31:172][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_ColorOnly, compiling. 
+[2016.07.01-14.56.31:179][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_AlphaAsColor, compiling. 
+[2016.07.01-14.56.31:186][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_RedOnly, compiling. 
+[2016.07.01-14.56.31:193][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_GreenOnly, compiling. 
+[2016.07.01-14.56.31:200][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_BlueOnly, compiling. 
+[2016.07.01-14.56.31:207][  0]LogMaterial: Missing cached shader map for material RemoveSurfaceMaterial, compiling. 
+[2016.07.01-14.56.31:212][  0]LogMaterial: Missing cached shader map for material DebugMeshMaterial, compiling. 
+[2016.07.01-14.56.31:220][  0]LogMaterial: Missing cached shader map for material M_InvalidLightmapSettings, compiling. 
+[2016.07.01-14.56.31:234][  0]LogMaterial: Missing cached shader map for material GizmoMaterial, compiling. 
+[2016.07.01-14.56.31:251][  0]LogInit: XAudio2 using 'BenQ BL3200-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.01-14.56.31:259][  0]LogInit: FAudioDevice initialized.
+[2016.07.01-14.56.31:262][  0]LogInit: Texture streaming: Enabled
+[2016.07.01-14.56.31:264][  0]LogMaterial: Missing cached shader map for material BaseColor, compiling. 
+[2016.07.01-14.56.31:269][  0]LogMaterial: Missing cached shader map for material CustomDepth, compiling. 
+[2016.07.01-14.56.31:279][  0]LogMaterial: Missing cached shader map for material CustomStencil, compiling. 
+[2016.07.01-14.56.31:279][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/CustomStencil.CustomStencil for platform PCD3D_ES2, Default Material will be used in game.
+[2016.07.01-14.56.31:279][  0]LogMaterial:Warning: 	(Node SceneTexture) Node not supported in feature level ES2
+[2016.07.01-14.56.31:282][  0]LogMaterial: Missing cached shader map for material DecalMask, compiling. 
+[2016.07.01-14.56.31:287][  0]LogMaterial: Missing cached shader map for material FinalImage, compiling. 
+[2016.07.01-14.56.31:292][  0]LogMaterial: Missing cached shader map for material LightingModel, compiling. 
+[2016.07.01-14.56.31:297][  0]LogMaterial: Missing cached shader map for material MaterialAO, compiling. 
+[2016.07.01-14.56.31:302][  0]LogMaterial: Missing cached shader map for material Metallic, compiling. 
+[2016.07.01-14.56.31:307][  0]LogMaterial: Missing cached shader map for material Opacity, compiling. 
+[2016.07.01-14.56.31:312][  0]LogMaterial: Missing cached shader map for material Roughness, compiling. 
+[2016.07.01-14.56.31:317][  0]LogMaterial: Missing cached shader map for material SceneColor, compiling. 
+[2016.07.01-14.56.31:322][  0]LogMaterial: Missing cached shader map for material SceneDepth, compiling. 
+[2016.07.01-14.56.31:327][  0]LogMaterial: Missing cached shader map for material SeparateTranslucencyRGB, compiling. 
+[2016.07.01-14.56.31:333][  0]LogMaterial: Missing cached shader map for material SeparateTranslucencyA, compiling. 
+[2016.07.01-14.56.31:338][  0]LogMaterial: Missing cached shader map for material Specular, compiling. 
+[2016.07.01-14.56.31:344][  0]LogMaterial: Missing cached shader map for material SubsurfaceColor, compiling. 
+[2016.07.01-14.56.31:349][  0]LogMaterial: Missing cached shader map for material WorldNormal, compiling. 
+[2016.07.01-14.56.31:354][  0]LogMaterial: Missing cached shader map for material AmbientOcclusion, compiling. 
+[2016.07.01-14.56.31:361][  0]LogMaterial: Missing cached shader map for material CustomDepthWorldUnits, compiling. 
+[2016.07.01-14.56.31:367][  0]LogMaterial: Missing cached shader map for material SceneDepthWorldUnits, compiling. 
+[2016.07.01-14.56.31:382][  0]LogNet: Browse: /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level?Name=Player
+[2016.07.01-14.56.31:382][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level?Name=Player
+[2016.07.01-14.56.31:397][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000010B17F60
+[2016.07.01-14.56.31:410][  0]LogMemory: Platform Memory Stats for Windows
+[2016.07.01-14.56.31:410][  0]LogMemory: Process Physical Memory: 464.39 MB used, 464.39 MB peak
+[2016.07.01-14.56.31:410][  0]LogMemory: Process Virtual Memory: 498.11 MB used, 498.11 MB peak
+[2016.07.01-14.56.31:410][  0]LogMemory: Physical Memory: 5555.97 MB used, 16222.63 MB total
+[2016.07.01-14.56.31:410][  0]LogMemory: Virtual Memory: 991.43 MB used, 8388608.00 MB total
+[2016.07.01-14.56.31:410][  0]LogMemory: 
+[2016.07.01-14.56.31:410][  0]Allocator Stats for TBB: (not implemented)
+[2016.07.01-14.56.31:682][  0]LogMaterial: Missing cached shader map for material M_Sky_Panning_Clouds2, compiling. 
+[2016.07.01-14.56.31:689][  0]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2016.07.01-14.56.31:715][  0]LogAIModule: Creating AISystem for world Escapig_Level
+[2016.07.01-14.56.32:032][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BP_Grass-Corner-R_C_28' (it may have been removed)
+[2016.07.01-14.56.32:036][  0]LogBlueprint:Error: [compiler BP_Grass-Corner-R] Error Could not find a function named "Death" in 'PigChar_C'.
+Make sure 'PigChar_C' has been compiled for  Death 
+[2016.07.01-14.56.32:037][  0]LogBlueprint:Error: [compiler BP_Grass-Corner-R] Error Could not find a function named "Death" in 'PigChar_C'.
+Make sure 'PigChar_C' has been compiled for  Death 
+[2016.07.01-14.56.32:047][  0]LogBlueprint:Warning: [compiler BP_Grass-Corner-R] Warning [0025.92] Compile of BP_Grass-Corner-R failed. 2 Fatal Issue(s) 0 Warning(s) [in 15 ms]
+[2016.07.01-14.56.32:047][  0]LogBlueprint:Warning: [compiler BP_Grass-Corner-R] Warning [0025.92] Compile of BP_Grass-Corner-R failed. 2 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2016.07.01-14.56.32:047][  0]LogBlueprint:Warning: [compiler BP_Grass-Corner-R] Warning [0025.92] Compile of BP_Grass-Corner-R failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2016.07.01-14.56.32:072][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BP_Grass-Corner-L_C_36' (it may have been removed)
+[2016.07.01-14.56.32:077][  0]LogBlueprint:Error: [compiler BP_Grass-Corner-L] Error Could not find a function named "Death" in 'PigChar_C'.
+Make sure 'PigChar_C' has been compiled for  Death 
+[2016.07.01-14.56.32:077][  0]LogBlueprint:Error: [compiler BP_Grass-Corner-L] Error Could not find a function named "Death" in 'PigChar_C'.
+Make sure 'PigChar_C' has been compiled for  Death 
+[2016.07.01-14.56.32:087][  0]LogBlueprint:Warning: [compiler BP_Grass-Corner-L] Warning [0025.96] Compile of BP_Grass-Corner-L failed. 2 Fatal Issue(s) 0 Warning(s) [in 14 ms]
+[2016.07.01-14.56.32:087][  0]LogBlueprint:Warning: [compiler BP_Grass-Corner-L] Warning [0025.96] Compile of BP_Grass-Corner-L failed. 2 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2016.07.01-14.56.32:087][  0]LogBlueprint:Warning: [compiler BP_Grass-Corner-L] Warning [0025.96] Compile of BP_Grass-Corner-L failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2016.07.01-14.56.32:094][  0]LogBlueprint:Error: [compiler PB_Blocker] Error Could not find a function named "Death" in 'PigChar_C'.
+Make sure 'PigChar_C' has been compiled for  Death 
+[2016.07.01-14.56.32:096][  0]LogBlueprint:Warning: [compiler PB_Blocker] Warning [0025.97] Compile of PB_Blocker failed. 1 Fatal Issue(s) 0 Warning(s) [in 3 ms]
+[2016.07.01-14.56.32:096][  0]LogBlueprint:Warning: [compiler PB_Blocker] Warning [0025.97] Compile of PB_Blocker failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2016.07.01-14.56.32:097][  0]LogBlueprint:Warning: [compiler PB_Blocker] Warning [0025.97] Compile of PB_Blocker failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2016.07.01-14.56.32:421][  0]LogMaterial: Missing cached shader map for material Floor_mat, compiling. 
+[2016.07.01-14.56.32:469][  0]LogMaterial: Missing cached shader map for material CubeMaterial, compiling. 
+[2016.07.01-14.56.32:480][  0]LogMaterial: Missing cached shader map for material RampMaterial, compiling. 
+[2016.07.01-14.56.32:494][  0]LogMaterial: Missing cached shader map for material Grass_wheat_mat, compiling. 
+[2016.07.01-14.56.32:506][  0]LogWorld: Game class is 'Escapig_Mode_C'
+[2016.07.01-14.56.32:509][  0]LogWorld: Bringing World /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.Escapig_Level up for play (max tick rate 0) at 2016.07.01-15.56.32
+[2016.07.01-14.56.32:509][  0]LogWorld: Bringing up level for play took: 0.002078
+[2016.07.01-14.56.32:551][  0]LogScript:Warning: Accessed None 'Attach_Point'
+	BP_Grass-Corner-L_C /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.Escapig_Level:PersistentLevel.BP_Grass-Corner-L_C_0
+	Function /Game/Blueprints/Blueprints/BP_Floor-Tile.BP_Floor-Tile_C:Get_Attach_Transform:001C
+[2016.07.01-14.56.32:551][  0]LogScript:Warning: Accessed None 'MidPoint'
+	BP_Grass-Corner-L_C /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.Escapig_Level:PersistentLevel.BP_Grass-Corner-L_C_0
+	Function /Game/Blueprints/Blueprints/BP_Floor-Tile.BP_Floor-Tile_C:Get_Mid_Point:001C
+[2016.07.01-14.56.32:555][  0]LogInit:Display: Game Engine Initialized.
+[2016.07.01-14.56.32:814][  0]LogLoad: Full Startup: 26.69 seconds (BP compile: 0.36 seconds)
+[2016.07.01-14.56.32:923][  1]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:2).
+[2016.07.01-14.56.35:323][143]LogScript:Warning: Accessed None 'Attach_Point'
+	BP_Grass-Corner-L_C /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.Escapig_Level:PersistentLevel.BP_Grass-Corner-L_C_1
+	Function /Game/Blueprints/Blueprints/BP_Floor-Tile.BP_Floor-Tile_C:Get_Attach_Transform:001C
+[2016.07.01-14.56.35:323][143]LogScript:Warning: Accessed None 'MidPoint'
+	BP_Grass-Corner-L_C /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.Escapig_Level:PersistentLevel.BP_Grass-Corner-L_C_1
+	Function /Game/Blueprints/Blueprints/BP_Floor-Tile.BP_Floor-Tile_C:Get_Mid_Point:001C
+[2016.07.01-14.56.39:322][342]LogScriptCore: Script call stack:
+	Function /Game/Blueprints/Blueprints/BP_Floor-Grass.BP_Floor-Grass_C:UserConstructionScript
+
+[2016.07.01-14.56.39:322][342]LogScript:Warning: Infinite script recursion (250 calls) detected
+	BP_Floor-Grass_C /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.Escapig_Level:PersistentLevel.BP_Floor-Grass_C_56
+	Function /Game/Blueprints/Blueprints/BP_Floor-Grass.BP_Floor-Grass_C:UserConstructionScript:0000
+[2016.07.01-14.56.40:314][342]LogWindows: === Critical error: ===
+Fatal error!
+
+
+
+[2016.07.01-14.56.40:485][342]LogExit: Executing StaticShutdownAfterError
+[2016.07.01-14.56.40:496][342]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.07.01-14.56.40:496][342]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.07.01-14.56.40:496][342]LogWindows: FPlatformMisc::RequestExit(1)
+[2016.07.01-14.56.40:496][342]Log file closed, 07/01/16 15:56:40

@@ -1,0 +1,1351 @@
+﻿[2016.07.06-14.06.25:320][  0]Log file open, 07/06/16 15:06:25
+[2016.07.06-14.06.25:320][  0]LogInit:Display: Running engine for game: Escapig
+[2016.07.06-14.06.25:320][  0]LogInit:Display: RandInit(-209136196) SRandInit(-209136196).
+[2016.07.06-14.06.25:320][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.07.06-14.06.25:320][  0]LogStats: Stats thread started at 0.078769
+[2016.07.06-14.06.25:320][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.07.06-14.06.25:320][  0]LogInit: API Version: 2672455
+[2016.07.06-14.06.25:320][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.07.06-14.06.25:320][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.07.06-14.06.25:320][  0]LogInit: Build Configuration: Development
+[2016.07.06-14.06.25:320][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.07.06-14.06.25:320][  0]LogInit: Command line: -HTTP=WinInet
+[2016.07.06-14.06.25:320][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.07.06-14.06.25:320][  0]LogInit: Rocket: 1
+[2016.07.06-14.06.25:337][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.07.06-14.06.25:342][  0]LogInit: Object subsystem initialized
+[2016.07.06-14.06.25:344][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.06-14.06.25:344][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.07.06-14.06.25:350][  0]LogInit: Computer: CE215-02
+[2016.07.06-14.06.25:350][  0]LogInit: User: U1355824
+[2016.07.06-14.06.25:350][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.07.06-14.06.25:350][  0]LogInit: High frequency timer resolution =3.507695 MHz
+[2016.07.06-14.06.25:350][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2016.07.06-14.06.25:350][  0]LogMemory: Platform Memory Stats for Windows
+[2016.07.06-14.06.25:350][  0]LogMemory: Process Physical Memory: 54.77 MB used, 54.77 MB peak
+[2016.07.06-14.06.25:350][  0]LogMemory: Process Virtual Memory: 57.38 MB used, 57.38 MB peak
+[2016.07.06-14.06.25:350][  0]LogMemory: Physical Memory: 4421.24 MB used, 16222.73 MB total
+[2016.07.06-14.06.25:350][  0]LogMemory: Virtual Memory: 337.66 MB used, 8388608.00 MB total
+[2016.07.06-14.06.25:389][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.07.06-14.06.25:980][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.07.06-14.06.25:980][  0]LogD3D11RHI: Adapter has 4008MB of dedicated video memory, 0MB of dedicated system memory, and 7855MB of shared system memory, 1 output[s]
+[2016.07.06-14.06.25:987][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2016.07.06-14.06.25:987][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 0 output[s]
+[2016.07.06-14.06.25:987][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.07.06-14.06.25:992][  0]LogD3D11RHI: !Direct3DDevice
+[2016.07.06-14.06.25:993][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.07.06-14.06.25:999][  0]LogD3D11RHI: Async texture creation enabled
+[2016.07.06-14.06.26:012][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Intermediate/Shaders/WorkingDirectory/6988/).
+[2016.07.06-14.06.26:012][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Intermediate/Shaders/tmp/60B2375943D9B062EE7D1AAC836AB18A/'.
+[2016.07.06-14.06.26:012][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.07.06-14.06.26:971][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.07.06-14.06.26:975][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.07.06-14.06.26:979][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.07.06-14.06.26:984][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.07.06-14.06.26:988][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.07.06-14.06.26:991][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.07.06-14.06.26:994][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.07.06-14.06.26:996][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.07.06-14.06.26:999][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.07.06-14.06.27:002][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.07.06-14.06.27:005][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.07.06-14.06.27:008][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.07.06-14.06.27:009][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.07.06-14.06.27:024][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.07.06-14.06.27:026][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.07.06-14.06.27:029][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.07.06-14.06.27:032][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.07.06-14.06.27:032][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.07.06-14.06.27:103][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.07.06-14.06.27:150][  0]LogDerivedDataCache: Loaded boot cache 0.05s 57MB D:/Users/u1355824.AD/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.07.06-14.06.27:150][  0]LogDerivedDataCache:Display: Loaded Boot cache: D:/Users/u1355824.AD/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.07.06-14.06.27:150][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.07.06-14.06.27:150][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.07.06-14.06.27:150][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.07.06-14.06.27:150][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.07.06-14.06.27:266][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.07.06-14.06.27:277][  0]LogDerivedDataCache: Using Local data cache path D:/Users/u1355824.AD/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.07.06-14.06.27:425][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.06-14.06.27:426][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.07.06-14.06.27:449][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.07.06-14.06.27:450][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.07.06-14.06.27:745][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.07.06-14.06.28:404][  0]LogAssetRegistry: FAssetRegistry took 0.0099 seconds to start up
+[2016.07.06-14.06.28:417][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.07.06-14.06.28:635][  0]SourceControl: Info Source control is disabled
+[2016.07.06-14.06.28:646][  0]SourceControl: Info Source control is disabled
+[2016.07.06-14.06.28:656][  0]SourceControl: Info Source control is disabled
+[2016.07.06-14.06.28:665][  0]SourceControl: Info Source control is disabled
+[2016.07.06-14.06.28:802][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.07.06-14.06.28:883][  0]LogObj: 28528 objects as part of root set at end of initial load.
+[2016.07.06-14.06.28:883][  0]LogUObjectAllocator: 6068456 out of 0 bytes used by permanent object pool.
+[2016.07.06-14.06.28:931][  0]LogEngine: Initializing Engine...
+[2016.07.06-14.06.28:933][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.07.06-14.06.28:933][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.07.06-14.06.29:033][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.07.06-14.06.29:036][  0]LogInit: XAudio2 using 'BenQ BL3200-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.06-14.06.29:056][  0]LogInit: FAudioDevice initialized.
+[2016.07.06-14.06.29:081][  0]LogDerivedDataCache: Saved boot cache 0.02s 57MB D:/Users/u1355824.AD/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.07.06-14.06.29:084][  0]LogInit: Texture streaming: Enabled
+[2016.07.06-14.06.29:088][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.07.06-14.06.29:088][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.07.06-14.06.29:088][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 28d0fdd04f70ca41a2b6b79539848d44|b58a2ca1649743a9a1927d5a89cf58c5|13f0a773-d57e-457b-9383-9e01db0ffe3b
+[2016.07.06-14.06.29:088][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.07.06-14.06.29:103][  0]LogInit: Transaction tracking system initialized
+[2016.07.06-14.06.29:132][  0]BlueprintLog: New page: Editor Load
+[2016.07.06-14.06.29:206][  0]LocalizationService: Info Localization service is disabled
+[2016.07.06-14.06.29:272][  0]LogConsoleResponse:Display: 
+[2016.07.06-14.06.29:399][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.07.06-14.06.29:448][  0]LogFileCache: Scanning file cache for directory 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/' took 0.01s
+[2016.07.06-14.06.29:448][  0]SourceControl: Info Source control is disabled
+[2016.07.06-14.06.29:448][  0]Cmd: MAP LOAD FILE="D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Maps/Escapig_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.07.06-14.06.29:448][  0]LightingResults: New page: Lighting Build
+[2016.07.06-14.06.29:451][  0]MapCheck: New page: Map Check
+[2016.07.06-14.06.29:451][  0]LightingResults: New page: Lighting Build
+[2016.07.06-14.06.29:460][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023DD1620
+[2016.07.06-14.06.29:886][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BP_Grass-Corner-R_C_27' (it may have been removed)
+[2016.07.06-14.06.29:938][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BP_Grass-Corner-L_C_35' (it may have been removed)
+[2016.07.06-14.06.29:968][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Blueprints/BP_Floor-Grass.BP_Floor-Grass_C:UserConstructionScript; removing parent information, but keeping function
+[2016.07.06-14.06.29:975][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Blueprints/BP_Floor-Grass_V-2.BP_Floor-Grass_V-2_C:UserConstructionScript; removing parent information, but keeping function
+[2016.07.06-14.06.32:371][  0]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: ToPin->LinkedTo.Contains(this) [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.9\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 157]
+UEdGraphPin::BreakLinkTo Pin 'HitActor' on node 'Break Hit Result' not reciprocally linked with pin 'Object' on node 'Cast To BP_Floor-Grass_V-2'
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:175]
+UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\core\private\misc\outputdevice.cpp:258]
+UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\core\private\misc\outputdevice.cpp:368]
+UE4Editor-Engine.dll!UEdGraphPin::BreakLinkTo() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\engine\private\edgraph\edgraphpin.cpp:157]
+UE4Editor-Engine.dll!UEdGraphPin::BreakAllPinLinks() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\engine\private\edgraph\edgraphpin.cpp:172]
+UE4Editor-Engine.dll!UEdGraphNode::BreakAllNodeLinks() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\engine\private\edgraph\edgraphnode.cpp:144]
+UE4Editor-KismetCompiler.dll!FKismetCompilerContext::PruneIsolatedNodes() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\editor\kismetcompiler\private\kismetcompiler.cpp:1067]
+UE4Editor-KismetCompiler.dll!FKismetCompilerContext::PrecompileFunction() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\editor\kismetcompiler\private\kismetcompiler.cpp:1158]
+UE4Editor-KismetCompiler.dll!FKismetCompilerContext::Compile() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\editor\kismetcompiler\private\kismetcompiler.cpp:3392]
+UE4Editor-KismetCompiler.dll!FKismet2CompilerModule::CompileBlueprintInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\editor\kismetcompiler\private\kismetcompilermodule.cpp:99]
+UE4Editor-KismetCompiler.dll!FKismet2CompilerModule::CompileBlueprint() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\editor\kismetcompiler\private\kismetcompilermodule.cpp:160]
+UE4Editor-UnrealEd.dll!FKismetEditorUtilities::GenerateBlueprintSkeleton() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\editor\unrealed\private\kismet2\kismet2.cpp:904]
+UE4Editor-UnrealEd.dll!FBlueprintEditorUtils::RegenerateBlueprintClass() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\editor\unrealed\private\kismet2\blueprinteditorutils.cpp:1504]
+UE4Editor-CoreUObject.dll!FLinkerLoad::RegenerateBlueprintClass() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\blueprint\blueprintsupport.cpp:311]
+UE4Editor-CoreUObject.dll!FLinkerLoad::FinalizeBlueprint() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\blueprint\blueprintsupport.cpp:1153]
+UE4Editor-CoreUObject.dll!FLinkerLoad::Preload() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3190]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateExport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3792]
+UE4Editor-CoreUObject.dll!FLinkerLoad::IndexToObject() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3982]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateExport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3505]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateExportAndPreload() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2661]
+UE4Editor-CoreUObject.dll!FLinkerLoad::LoadAllObjects() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2769]
+UE4Editor-CoreUObject.dll!LoadPackageInternal() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:1032]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2354]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2402]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::Verify() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:1905]
+UE4Editor-CoreUObject.dll!FLinkerLoad::FinalizeCreation() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:1815]
+UE4Editor-CoreUObject.dll!FLinkerLoad::Tick() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:666]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateLinker() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:404]
+UE4Editor-CoreUObject.dll!GetPackageLinker() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linker.cpp:570]
+UE4Editor-CoreUObject.dll!LoadPackageInternal() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:936]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2354]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2402]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3926]
+UE4Editor-CoreUObject.dll!FLinkerLoad::IndexToObject() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3976]
+UE4Editor-CoreUObject.dll!FLinkerLoad::operator<<() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:4165]
+UE4Editor-CoreUObject.dll!UObjectProperty::SerializeItem() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\propertyobject.cpp:32]
+UE4Editor-CoreUObject.dll!FPropertyTag::SerializeTaggedProperty() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\public\uobject\propertytag.h:145]
+UE4Editor-CoreUObject.dll!UStruct::SerializeTaggedProperties() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\class.cpp:1320]
+UE4Editor-CoreUObject.dll!UObject::SerializeScriptProperties() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\obj.cpp:984]
+UE4Editor-CoreUObject.dll!UObject::Serialize() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\obj.cpp:926]
+UE4Editor-Engine.dll!USceneComponent::Serialize() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\engine\private\components\scenecomponent.cpp:1549]
+UE4Editor-CoreUObject.dll!FLinkerLoad::Preload() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3143]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateExportAndPreload() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2667]
+UE4Editor-CoreUObject.dll!FLinkerLoad::LoadAllObjects() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2769]
+UE4Editor-CoreUObject.dll!LoadPackageInternal() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:1032]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2354]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2402]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3926]
+UE4Editor-CoreUObject.dll!FLinkerLoad::ResolveDependencyPlaceholder() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\blueprint\blueprintsupport.cpp:915]
+UE4Editor-CoreUObject.dll!FLinkerLoad::ResolveDeferredDependencies() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\blueprint\blueprintsupport.cpp:800]
+UE4Editor-CoreUObject.dll!FLinkerLoad::Preload() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3190]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateExport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3792]
+UE4Editor-CoreUObject.dll!FLinkerLoad::IndexToObject() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3982]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateExport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3505]
+UE4Editor-CoreUObject.dll!FLinkerLoad::IndexToObject() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3982]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateExport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3505]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateExportAndPreload() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2661]
+UE4Editor-CoreUObject.dll!FLinkerLoad::LoadAllObjects() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2769]
+UE4Editor-CoreUObject.dll!LoadPackageInternal() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:1032]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2354]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2402]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3926]
+UE4Editor-CoreUObject.dll!FLinkerLoad::ResolveDependencyPlaceholder() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\blueprint\blueprintsupport.cpp:915]
+UE4Editor-CoreUObject.dll!FLinkerLoad::ResolveDeferredDependencies() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\blueprint\blueprintsupport.cpp:800]
+UE4Editor-CoreUObject.dll!FLinkerLoad::Preload() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3190]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateExport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3792]
+UE4Editor-CoreUObject.dll!FLinkerLoad::IndexToObject() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3982]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateExport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3505]
+UE4Editor-CoreUObject.dll!FLinkerLoad::IndexToObject() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3982]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateExport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3505]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateExportAndPreload() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2661]
+UE4Editor-CoreUObject.dll!FLinkerLoad::LoadAllObjects() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2769]
+UE4Editor-CoreUObject.dll!LoadPackageInternal() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:1032]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2354]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2402]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::Verify() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:1905]
+UE4Editor-CoreUObject.dll!FLinkerLoad::FinalizeCreation() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:1815]
+UE4Editor-CoreUObject.dll!FLinkerLoad::Tick() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:666]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateLinker() [d:\buildfarm\buildmachine_++depot+ue4-releas
+[2016.07.06-14.06.32:616][  0]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/Blueprints/Blueprints/PigChar.PigChar:EventGraph.K2Node_DynamicCast_3197 keeps removed/invalid pin: EdGraphPin /Game/Blueprints/Blueprints/PigChar.PigChar:EventGraph.K2Node_DynamicCast_3197.EdGraphPin_40140. Try refresh all nodes.
+[2016.07.06-14.06.32:617][  0]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/Blueprints/Blueprints/PigChar.PigChar:EventGraph.K2Node_DynamicCast_3295 keeps removed/invalid pin: EdGraphPin /Game/Blueprints/Blueprints/PigChar.PigChar:EventGraph.K2Node_DynamicCast_3295.EdGraphPin_39691. Try refresh all nodes.
+[2016.07.06-14.06.32:673][  0]LogBlueprint:Error: [compiler PigChar] Error The type of  Object  is undetermined.  Connect something to  Cast To BP_Grass-Corner-R  to imply a specific type.
+[2016.07.06-14.06.32:673][  0]LogBlueprint:Error: [compiler PigChar] Error The type of  Object  is undetermined.  Connect something to  Cast To BP_Grass-Corner-L  to imply a specific type.
+[2016.07.06-14.06.32:676][  0]LogBlueprint:Error: [compiler PigChar] Error The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2016.07.06-14.06.32:676][  0]LogBlueprint:Error: [compiler PigChar] Error The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2016.07.06-14.06.32:726][  0]LogBlueprint:Warning: [compiler PigChar] Warning [0007.87] Compile of PigChar failed. 4 Fatal Issue(s) 0 Warning(s) [in 104 ms]
+[2016.07.06-14.06.32:727][  0]LogBlueprint:Warning: [compiler PigChar] Warning [0007.88] Compile of PigChar failed. 4 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2016.07.06-14.06.32:727][  0]LogBlueprint:Warning: [compiler PigChar] Warning [0007.88] Compile of PigChar failed. 4 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2016.07.06-14.06.32:776][  0]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/Blueprints/Blueprints/PigChar.PigChar:EventGraph.K2Node_DynamicCast_3197 keeps removed/invalid pin: EdGraphPin /Game/Blueprints/Blueprints/PigChar.PigChar:EventGraph.K2Node_DynamicCast_3197.EdGraphPin_40140. Try refresh all nodes.
+[2016.07.06-14.06.32:776][  0]LogBlueprint:Error: Broken Node: K2Node_DynamicCast /Game/Blueprints/Blueprints/PigChar.PigChar:EventGraph.K2Node_DynamicCast_3295 keeps removed/invalid pin: EdGraphPin /Game/Blueprints/Blueprints/PigChar.PigChar:EventGraph.K2Node_DynamicCast_3295.EdGraphPin_39691. Try refresh all nodes.
+[2016.07.06-14.06.33:130][  0]LogAIModule: Creating AISystem for world Escapig_Level
+[2016.07.06-14.06.33:134][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.07.06-14.06.33:134][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.07.06-14.06.33:211][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 76.92ms to complete.
+[2016.07.06-14.06.33:211][  0]LogFileHelpers: Loading map 'Escapig_Level' took 3.764
+[2016.07.06-14.06.33:316][  0]LogCollectionManager: Loaded 0 collections in 0.002757 seconds
+[2016.07.06-14.06.33:358][  0]LogFileCache: Scanning file cache for directory 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Collections/' took 0.01s
+[2016.07.06-14.06.33:358][  0]LogFileCache: Scanning file cache for directory 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Developers/U1355824/Collections/' took 0.01s
+[2016.07.06-14.06.33:358][  0]LogFileCache: Scanning file cache for directory 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Collections/' took 0.01s
+[2016.07.06-14.06.33:358][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 1882 classes and 339 folders.
+[2016.07.06-14.06.33:364][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.07.06-14.06.33:369][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.07.06-14.06.33:412][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.07.06-14.06.33:416][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.07.06-14.06.33:443][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.07.06-14.06.33:447][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.07.06-14.06.33:473][  0]LogLoad: Full Startup: 8.62 seconds (BP compile: 2.94 seconds)
+[2016.07.06-14.06.33:548][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.07.06-14.06.33:682][  0]LogRenderer: Reallocating scene render targets to support 1616x808 (Frame:2).
+[2016.07.06-14.06.33:958][  7]LogAssetRegistry: Asset discovery search completed in 5.5644 seconds
+[2016.07.06-14.06.33:958][  7]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.07.06-14.06.33:958][  7]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000022 seconds (updated 0 objects)
+[2016.07.06-14.06.46:503][484]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-14.06.46:503][484]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.07.06-14.06.46:503][484]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.07.06-14.06.46:622][484]LogSavePackage: Save=43.452465ms
+[2016.07.06-14.06.46:622][484]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/UEDPCEscapig_Level5F07B00541D4CE848F4D7C8FA7A096C1.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap'
+[2016.07.06-14.06.46:627][484]LogSavePackage: Total save time: 60.987055ms
+[2016.07.06-14.06.46:627][484]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap
+[2016.07.06-14.06.59:413][767]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level' with GeneratedClass '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level'
+[2016.07.06-14.06.59:413][767]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.06-14.07.08:378][177]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.07.06-14.07.08:769][177]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 107 classes and 0 folders.
+[2016.07.06-14.07.23:617][274]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-14.07.23:617][274]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.07.06-14.07.23:617][274]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.07.06-14.07.23:665][274]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.07.06-14.07.24:011][274]LogSavePackage: Save=327.788177ms
+[2016.07.06-14.07.24:011][274]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/PigChar5440680542A775B4F685728C139B9DFC.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.07.06-14.07.24:016][274]LogSavePackage: Total save time: 349.650983ms
+[2016.07.06-14.07.24:016][274]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.07.06-14.07.24:826][351]BlueprintLog: New page: Compile PigChar
+[2016.07.06-14.07.25:105][351]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-14.07.25:140][351]BlueprintEditorCompileResults: Info [0060.29] Compile of PigChar successful! [in 313 ms]
+[2016.07.06-14.07.29:680][791]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-14.07.29:800][791]LogSavePackage: Save=54.060574ms
+[2016.07.06-14.07.29:800][791]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/UEDPCEscapig_Level35796CF64C6978842A2BF0B074B84BB6.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap'
+[2016.07.06-14.07.29:804][791]LogSavePackage: Total save time: 71.429241ms
+[2016.07.06-14.07.29:804][791]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap
+[2016.07.06-14.07.30:922][891]LogSavePackage: Save=49.707573ms
+[2016.07.06-14.07.30:922][891]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/UEDPCEscapig_LevelAF4CC59E43C7FD4C91F8DC905292D8E7.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap'
+[2016.07.06-14.07.30:925][891]LogSavePackage: Total save time: 66.050213ms
+[2016.07.06-14.07.30:925][891]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap
+[2016.07.06-14.27.26:792][133]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-14.27.26:792][133]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.07.06-14.27.26:792][133]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.07.06-14.27.26:921][133]LogSavePackage: Save=50.294281ms
+[2016.07.06-14.27.26:921][133]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/UEDPCEscapig_Level9643B1DA41DA6678F04A52A49166727D.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap'
+[2016.07.06-14.27.26:924][133]LogSavePackage: Total save time: 69.732115ms
+[2016.07.06-14.27.26:924][133]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap
+[2016.07.06-14.30.45:210][111]LogSavePackage: Save=50.481583ms
+[2016.07.06-14.30.45:210][111]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/UEDPCEscapig_Level02C0DBA74F8932B400A27582010AF96E.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap'
+[2016.07.06-14.30.45:213][111]LogSavePackage: Total save time: 67.327973ms
+[2016.07.06-14.30.45:213][111]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap
+[2016.07.06-14.32.16:567][103]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.07.06-14.34.07:691][716]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-14.34.07:691][716]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2016.07.06-14.34.07:691][716]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.07.06-14.34.07:713][716]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F68CFE0
+[2016.07.06-14.34.07:714][716]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000112A1DA0
+[2016.07.06-14.34.07:731][716]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/RunHud" FILE="D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/RunHud.uasset" SILENT=true
+[2016.07.06-14.34.07:758][716]LogSavePackage: Save=12.873126ms
+[2016.07.06-14.34.07:758][716]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/RunHud75707E7546A524C454845C9383EC2006.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/RunHud.uasset'
+[2016.07.06-14.34.07:762][716]LogSavePackage: Total save time: 30.853882ms
+[2016.07.06-14.34.07:762][716]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/RunHud.uasset
+[2016.07.06-14.37.03:573][389]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/RunHud" FILE="D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/RunHud.uasset" SILENT=true
+[2016.07.06-14.37.03:602][389]LogSavePackage: Save=14.892401ms
+[2016.07.06-14.37.03:602][389]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/RunHudCDD6FDA84C01560E74C7318E232CF992.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/RunHud.uasset'
+[2016.07.06-14.37.03:607][389]LogSavePackage: Total save time: 32.444101ms
+[2016.07.06-14.37.03:607][389]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/RunHud.uasset
+[2016.07.06-14.38.10:463][483]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/RunHud" FILE="D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/RunHud.uasset" SILENT=true
+[2016.07.06-14.38.10:493][483]LogSavePackage: Save=16.113430ms
+[2016.07.06-14.38.10:493][483]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/RunHud33098F344EAEAA0BDB3E789B77C6F29F.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/RunHud.uasset'
+[2016.07.06-14.38.10:497][483]LogSavePackage: Total save time: 33.150829ms
+[2016.07.06-14.38.10:497][483]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/RunHud.uasset
+[2016.07.06-14.38.26:305][220]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/RunHud" FILE="D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/RunHud.uasset" SILENT=true
+[2016.07.06-14.38.26:335][220]LogSavePackage: Save=16.511414ms
+[2016.07.06-14.38.26:335][220]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/RunHudFA51339940E66F155246E0B772EB4DEA.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/RunHud.uasset'
+[2016.07.06-14.38.26:339][220]LogSavePackage: Total save time: 33.469845ms
+[2016.07.06-14.38.26:339][220]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/RunHud.uasset
+[2016.07.06-14.38.51:192][738]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/RunHud" FILE="D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/RunHud.uasset" SILENT=true
+[2016.07.06-14.38.51:223][738]LogSavePackage: Save=17.139746ms
+[2016.07.06-14.38.51:223][738]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/RunHudF3C56407417E15A0DC7E4FA35A2BFDA1.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/RunHud.uasset'
+[2016.07.06-14.38.51:227][738]LogSavePackage: Total save time: 34.259535ms
+[2016.07.06-14.38.51:227][738]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/RunHud.uasset
+[2016.07.06-14.38.52:908][926]BlueprintLog: New page: Compile RunHud
+[2016.07.06-14.38.53:005][926]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.07.06-14.38.53:005][926]BlueprintEditorCompileResults: Info [1948.16] Compile of RunHud successful! [in 96 ms]
+[2016.07.06-14.40.49:239][353]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 D:\Users\u1355824.AD\Downloads\Pig_UI_BUTTON.png)
+[2016.07.06-14.40.49:242][353]LogTexture:Display: Building textures: Pig_UI_BUTTON (AutoDXT)
+[2016.07.06-14.40.49:272][353]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 D:\Users\u1355824.AD\Downloads\Pig_UI_BUTTON_G.png)
+[2016.07.06-14.40.49:274][353]LogTexture:Display: Building textures: Pig_UI_BUTTON_G (AutoDXT)
+[2016.07.06-14.40.49:303][353]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 D:\Users\u1355824.AD\Downloads\Pig_UI_BUTTON_R.png)
+[2016.07.06-14.40.49:306][353]LogTexture:Display: Building textures: Pig_UI_BUTTON_R (AutoDXT)
+[2016.07.06-14.40.49:333][353]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 D:\Users\u1355824.AD\Downloads\Pig_UI_MENU_BUTTON.png)
+[2016.07.06-14.40.49:336][353]LogTexture:Display: Building textures: Pig_UI_MENU_BUTTON (BGRA8)
+[2016.07.06-14.40.49:344][353]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 D:\Users\u1355824.AD\Downloads\Pig_UI_SCORE.png)
+[2016.07.06-14.40.49:348][353]LogTexture:Display: Building textures: Pig_UI_SCORE (BGRA8)
+[2016.07.06-14.40.49:356][353]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 D:\Users\u1355824.AD\Downloads\Truffel_Icon.png)
+[2016.07.06-14.40.49:358][353]LogTexture:Display: Building textures: Truffel_Icon (AutoDXT)
+[2016.07.06-14.40.49:379][353]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 D:\Users\u1355824.AD\Downloads\Pig_UI_BAR.png)
+[2016.07.06-14.40.49:389][353]LogTexture:Display: Building textures: Pig_UI_BAR (BGRA8)
+[2016.07.06-14.40.51:422][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD_Assets/Pig_UI_BUTTON" FILE="D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/HUD_Assets/Pig_UI_BUTTON.uasset" SILENT=true
+[2016.07.06-14.40.51:431][417]LogSavePackage: Save=7.604139ms
+[2016.07.06-14.40.51:431][417]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Pig_UI_BUTTONED43392F42EF1D5CE1E48C88A30B412F.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/HUD_Assets/Pig_UI_BUTTON.uasset'
+[2016.07.06-14.40.51:435][417]LogSavePackage: Total save time: 11.625014ms
+[2016.07.06-14.40.51:435][417]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/HUD_Assets/Pig_UI_BUTTON.uasset
+[2016.07.06-14.40.51:446][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD_Assets/Pig_UI_BUTTON_G" FILE="D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/HUD_Assets/Pig_UI_BUTTON_G.uasset" SILENT=true
+[2016.07.06-14.40.51:454][417]LogSavePackage: Save=7.203021ms
+[2016.07.06-14.40.51:454][417]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Pig_UI_BUTTON_G685A093641DCA60D2140E59DC87337F2.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/HUD_Assets/Pig_UI_BUTTON_G.uasset'
+[2016.07.06-14.40.51:457][417]LogSavePackage: Total save time: 10.907732ms
+[2016.07.06-14.40.51:457][417]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/HUD_Assets/Pig_UI_BUTTON_G.uasset
+[2016.07.06-14.40.51:469][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD_Assets/Pig_UI_BUTTON_R" FILE="D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/HUD_Assets/Pig_UI_BUTTON_R.uasset" SILENT=true
+[2016.07.06-14.40.51:478][417]LogSavePackage: Save=7.534863ms
+[2016.07.06-14.40.51:478][417]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Pig_UI_BUTTON_R9872F859471111EBEAC57DBAFD9191B4.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/HUD_Assets/Pig_UI_BUTTON_R.uasset'
+[2016.07.06-14.40.51:481][417]LogSavePackage: Total save time: 11.431724ms
+[2016.07.06-14.40.51:481][417]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/HUD_Assets/Pig_UI_BUTTON_R.uasset
+[2016.07.06-14.40.51:501][417]LogSavePackage: Save=8.680914ms
+[2016.07.06-14.40.51:501][417]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Pig_UI_MENU_BUTTOND6B348804E454842A87C77A5F73D7207.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/HUD_Assets/Pig_UI_MENU_BUTTON.uasset'
+[2016.07.06-14.40.51:504][417]LogSavePackage: Total save time: 12.631655ms
+[2016.07.06-14.40.51:504][417]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/HUD_Assets/Pig_UI_MENU_BUTTON.uasset
+[2016.07.06-14.40.51:512][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD_Assets/Pig_UI_SCORE" FILE="D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/HUD_Assets/Pig_UI_SCORE.uasset" SILENT=true
+[2016.07.06-14.40.51:522][417]LogSavePackage: Save=9.188940ms
+[2016.07.06-14.40.51:522][417]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Pig_UI_SCORE4FADD76F419435D3FC3B4BAD82806AAC.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/HUD_Assets/Pig_UI_SCORE.uasset'
+[2016.07.06-14.40.51:526][417]LogSavePackage: Total save time: 13.231765ms
+[2016.07.06-14.40.51:526][417]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/HUD_Assets/Pig_UI_SCORE.uasset
+[2016.07.06-14.40.51:533][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD_Assets/Truffel_Icon" FILE="D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/HUD_Assets/Truffel_Icon.uasset" SILENT=true
+[2016.07.06-14.40.51:538][417]LogSavePackage: Save=4.101839ms
+[2016.07.06-14.40.51:538][417]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Truffel_IconACE757FF488A2E2D0ED8EFA14B6D34DA.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/HUD_Assets/Truffel_Icon.uasset'
+[2016.07.06-14.40.51:542][417]LogSavePackage: Total save time: 8.058000ms
+[2016.07.06-14.40.51:542][417]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/HUD_Assets/Truffel_Icon.uasset
+[2016.07.06-14.40.51:549][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD_Assets/Pig_UI_BAR" FILE="D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/HUD_Assets/Pig_UI_BAR.uasset" SILENT=true
+[2016.07.06-14.40.51:570][417]LogSavePackage: Save=20.390028ms
+[2016.07.06-14.40.51:570][417]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Pig_UI_BARA6FCD37B46F256E3A64A2B9A4B0C0FD9.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/HUD_Assets/Pig_UI_BAR.uasset'
+[2016.07.06-14.40.51:574][417]LogSavePackage: Total save time: 24.315398ms
+[2016.07.06-14.40.51:574][417]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/HUD_Assets/Pig_UI_BAR.uasset
+[2016.07.06-14.43.06:399][229]LogEditorTransaction: Undo Move Widget
+[2016.07.06-14.43.42:391][120]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/RunHud" FILE="D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/RunHud.uasset" SILENT=true
+[2016.07.06-14.43.42:423][120]LogSavePackage: Save=16.753452ms
+[2016.07.06-14.43.42:423][120]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/RunHud1429C2E949B1D83C18F435BFEFF84EE6.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/RunHud.uasset'
+[2016.07.06-14.43.42:427][120]LogSavePackage: Total save time: 34.777254ms
+[2016.07.06-14.43.42:427][120]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/RunHud.uasset
+[2016.07.06-14.44.00:523][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/RunHud" FILE="D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/RunHud.uasset" SILENT=true
+[2016.07.06-14.44.00:554][203]LogSavePackage: Save=17.298540ms
+[2016.07.06-14.44.00:554][203]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/RunHudBE487F3C4CEC67CF04D2EABBA45428D1.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/RunHud.uasset'
+[2016.07.06-14.44.00:558][203]LogSavePackage: Total save time: 34.184560ms
+[2016.07.06-14.44.00:558][203]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/RunHud.uasset
+[2016.07.06-14.44.03:980][572]BlueprintLog: New page: Compile RunHud
+[2016.07.06-14.44.04:060][572]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.07.06-14.44.04:060][572]BlueprintEditorCompileResults: Info [2259.21] Compile of RunHud successful! [in 80 ms]
+[2016.07.06-14.44.07:183][866]LogSavePackage: Save=50.985332ms
+[2016.07.06-14.44.07:183][866]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/UEDPCEscapig_Level9A90DD464F0A3E9300F5E19D1A3D58B2.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap'
+[2016.07.06-14.44.07:186][866]LogSavePackage: Total save time: 68.250805ms
+[2016.07.06-14.44.07:186][866]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap
+[2016.07.06-14.45.40:645][ 10]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.45.41:204][ 66]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.45.41:907][139]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.45.41:915][140]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.45.51:494][179]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.45.52:018][231]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.45.52:925][324]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.45.52:932][325]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.45.57:843][833]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.46.03:583][516]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.46.14:968][759]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.46.14:984][759]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.46.33:274][657]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.46.36:098][934]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.46.40:988][483]LogEditorTransaction: Undo Move Node
+[2016.07.06-14.47.35:652][372]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3433.EdGraphPin_38276''
+[2016.07.06-14.47.35:652][372]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3435.EdGraphPin_38287''
+[2016.07.06-14.47.35:652][372]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3434.EdGraphPin_38279''
+[2016.07.06-14.47.35:652][372]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3435.EdGraphPin_38285''
+[2016.07.06-14.47.42:473][ 50]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-14.47.42:474][ 50]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2016.07.06-14.47.42:474][ 50]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.07.06-14.47.42:494][ 50]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000AF16C720
+[2016.07.06-14.47.42:507][ 50]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/RunHud" FILE="D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/RunHud.uasset" SILENT=true
+[2016.07.06-14.47.42:553][ 50]LogSavePackage: Save=31.003551ms
+[2016.07.06-14.47.42:553][ 50]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/RunHudA3AC8F3F4BD8F7CF5A4EC2991748E138.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/RunHud.uasset'
+[2016.07.06-14.47.42:557][ 50]LogSavePackage: Total save time: 48.717748ms
+[2016.07.06-14.47.42:557][ 50]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/RunHud.uasset
+[2016.07.06-14.48.12:474][507]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.48.49:073][451]LogEditorTransaction: Undo Move Node
+[2016.07.06-14.49.17:258][378]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.49.20:667][784]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.49.21:830][922]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.49.21:843][922]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.49.23:867][162]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.49.26:527][430]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.49.26:535][430]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.49.26:543][430]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.49.26:555][430]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.49.27:318][507]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.49.29:684][747]BlueprintLog: New page: Compile RunHud
+[2016.07.06-14.49.29:787][747]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.49.29:789][747]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.07.06-14.49.29:789][747]BlueprintEditorCompileResults: Info [2584.94] Compile of RunHud successful! [in 104 ms]
+[2016.07.06-14.49.29:800][747]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.49.32:737][ 44]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.49.35:615][345]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.49.36:770][457]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/RunHud" FILE="D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/RunHud.uasset" SILENT=true
+[2016.07.06-14.49.36:821][457]LogSavePackage: Save=35.208305ms
+[2016.07.06-14.49.36:821][457]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/RunHud6105C9B74025C566CC73E58F16F3F9E2.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/RunHud.uasset'
+[2016.07.06-14.49.36:825][457]LogSavePackage: Total save time: 53.350993ms
+[2016.07.06-14.49.36:825][457]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/RunHud.uasset
+[2016.07.06-14.49.38:380][623]BlueprintLog: New page: Compile RunHud
+[2016.07.06-14.49.38:456][623]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.49.38:459][623]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.07.06-14.49.38:459][623]BlueprintEditorCompileResults: Info [2593.61] Compile of RunHud successful! [in 78 ms]
+[2016.07.06-14.49.38:470][623]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.49.39:269][714]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.49.50:253][929]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.50.00:481][ 15]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.50.00:968][ 62]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.50.01:587][116]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.50.01:595][117]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.50.14:648][479]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.51.11:248][414]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.51.11:915][478]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.51.12:682][549]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.51.12:690][550]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.51.22:637][605]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.51.45:658][983]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.51.57:005][ 47]BlueprintLog: New page: Compile RunHud
+[2016.07.06-14.51.57:089][ 47]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.51.57:091][ 47]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.07.06-14.51.57:091][ 47]BlueprintEditorCompileResults: Info [2732.25] Compile of RunHud successful! [in 85 ms]
+[2016.07.06-14.51.57:101][ 47]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RunHud', cached variable property's owner is '/Game/UMG/RunHud.SKEL_RunHud_C'
+[2016.07.06-14.52.01:001][475]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/RunHud" FILE="D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/RunHud.uasset" SILENT=true
+[2016.07.06-14.52.01:061][475]LogSavePackage: Save=45.534744ms
+[2016.07.06-14.52.01:061][475]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/RunHudE4427AEE445B93C25105EF9631E6EDFB.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/RunHud.uasset'
+[2016.07.06-14.52.01:065][475]LogSavePackage: Total save time: 63.990168ms
+[2016.07.06-14.52.01:065][475]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/UMG/RunHud.uasset
+[2016.07.06-14.52.03:401][670]LogSavePackage: Save=52.565575ms
+[2016.07.06-14.52.03:401][670]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/UEDPCEscapig_Level3A4697E442FE6A1C5754AABC9076D2DB.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap'
+[2016.07.06-14.52.03:404][670]LogSavePackage: Total save time: 69.498058ms
+[2016.07.06-14.52.03:404][670]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap
+[2016.07.06-14.53.09:488][159]LogEditorTransaction: Undo Move Node
+[2016.07.06-14.53.09:526][159]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-14.53.09:526][159]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2016.07.06-14.53.09:526][159]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.07.06-14.53.10:679][246]LogEditorTransaction: Undo Create Pin Link
+[2016.07.06-14.53.12:030][380]LogEditorTransaction: Undo Delete current selection
+[2016.07.06-14.53.12:072][380]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2016.07.06-14.53.29:878][683]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1343.EdGraphPin_13920''
+[2016.07.06-14.53.29:878][683]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_12285.EdGraphPin_13926''
+[2016.07.06-14.53.29:879][683]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_12286.EdGraphPin_13938''
+[2016.07.06-14.53.29:879][683]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_1887.EdGraphPin_9960''
+[2016.07.06-14.53.29:879][683]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_1886.EdGraphPin_9606''
+[2016.07.06-14.53.29:880][683]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_1887.EdGraphPin_9959''
+[2016.07.06-14.53.29:880][683]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_1.EdGraphPin_12278''
+[2016.07.06-14.53.29:880][683]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_136.EdGraphPin_12266''
+[2016.07.06-14.53.29:880][683]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_12288.EdGraphPin_9992''
+[2016.07.06-14.53.29:881][683]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_8529.EdGraphPin_12062''
+[2016.07.06-14.54.01:346][527]LogEditorTransaction: Undo Move Node
+[2016.07.06-14.54.01:390][527]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2016.07.06-14.54.20:429][403]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2016.07.06-14.54.20:612][403]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.07.06-14.55.01:314][976]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.07.06-14.55.18:552][714]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2016.07.06-14.55.18:553][714]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2016.07.06-14.55.18:553][714]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_0) Not registered. Aborting.
+[2016.07.06-14.55.18:577][714]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.07.06-14.55.18:623][714]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.07.06-14.55.18:670][714]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.07.06-14.55.18:805][714]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.07.06-14.55.38:569][ 21]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.07.06-14.55.38:701][ 21]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.07.06-14.55.42:056][376]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.07.06-14.55.42:971][455]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.07.06-14.56.01:669][402]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.07.06-14.56.02:300][452]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.07.06-14.56.03:215][529]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.07.06-14.56.06:335][803]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.07.06-14.56.31:954][584]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/UMG/RunHud.RunHud_C'
+[2016.07.06-14.58.05:798][975]LogEditorTransaction: Undo Move Node
+[2016.07.06-14.58.48:813][903]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E553F60
+[2016.07.06-14.58.48:814][903]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000B6505940
+[2016.07.06-14.58.48:814][903]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000B6504220
+[2016.07.06-14.58.48:848][903]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.07.06-14.58.49:232][903]LogSavePackage: Save=366.542419ms
+[2016.07.06-14.58.49:233][903]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/PigChar3EB337F84C7CCB14215D3EB034C0E9EE.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.07.06-14.58.49:237][903]LogSavePackage: Total save time: 387.750644ms
+[2016.07.06-14.58.49:237][903]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.07.06-14.59.07:347][808]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.07.06-14.59.08:024][856]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.07.06-14.59.08:684][905]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.07.06-14.59.18:010][562]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.07.06-14.59.39:657][385]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.07.06-14.59.40:284][427]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.07.06-14.59.41:001][492]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.07.06-14.59.51:715][228]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.07.06-14.59.58:249][877]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-14.59.58:296][877]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.07.06-14.59.58:687][877]LogSavePackage: Save=377.118011ms
+[2016.07.06-14.59.58:687][877]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/PigCharE25075FA44A68AD8CBA42385E856F917.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.07.06-14.59.58:692][877]LogSavePackage: Total save time: 395.288073ms
+[2016.07.06-14.59.58:692][877]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.07.06-14.59.59:036][901]BlueprintLog: New page: Compile PigChar
+[2016.07.06-14.59.59:350][901]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-14.59.59:399][901]BlueprintEditorCompileResults: Info [3214.55] Compile of PigChar successful! [in 362 ms]
+[2016.07.06-15.00.01:419][ 62]LogSavePackage: Save=58.910194ms
+[2016.07.06-15.00.01:419][ 62]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/UEDPCEscapig_LevelC9CE2AF0447EB3C3D8E671B73A4DA52C.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap'
+[2016.07.06-15.00.01:423][ 62]LogSavePackage: Total save time: 76.067332ms
+[2016.07.06-15.00.01:423][ 62]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap
+[2016.07.06-15.00.18:545][139]LogSavePackage: Save=60.345898ms
+[2016.07.06-15.00.18:545][139]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/UEDPCEscapig_Level365B385044E2CB8C72B29BB625D41B11.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap'
+[2016.07.06-15.00.18:548][139]LogSavePackage: Total save time: 76.816257ms
+[2016.07.06-15.00.18:548][139]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap
+[2016.07.06-15.00.42:889][385]LogSavePackage: Save=59.138550ms
+[2016.07.06-15.00.42:889][385]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/UEDPCEscapig_LevelB0FDB49A4B646AFB654359BB64B6AD0A.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap'
+[2016.07.06-15.00.42:892][385]LogSavePackage: Total save time: 75.355753ms
+[2016.07.06-15.00.42:892][385]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap
+[2016.07.06-15.01.05:289][783]LogSavePackage: Save=58.719189ms
+[2016.07.06-15.01.05:289][783]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/UEDPCEscapig_LevelCB95B3164BEFEE9995D359B09BB255BB.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap'
+[2016.07.06-15.01.05:292][783]LogSavePackage: Total save time: 75.165313ms
+[2016.07.06-15.01.05:292][783]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap
+[2016.07.06-15.01.18:064][924]LogSavePackage: Save=58.534451ms
+[2016.07.06-15.01.18:064][924]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/UEDPCEscapig_Level31921C844EA7A8D670C323987C16E9EE.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap'
+[2016.07.06-15.01.18:067][924]LogSavePackage: Total save time: 74.900754ms
+[2016.07.06-15.01.18:067][924]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap
+[2016.07.06-15.01.28:031][ 51]LogSavePackage: Save=59.888615ms
+[2016.07.06-15.01.28:031][ 51]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/UEDPCEscapig_Level709B9D464808D3EFE3E61AA6263025CA.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap'
+[2016.07.06-15.01.28:034][ 51]LogSavePackage: Total save time: 75.884309ms
+[2016.07.06-15.01.28:034][ 51]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap
+[2016.07.06-15.01.43:433][143]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Blueprints/Maps/Escapig_Level' took 0.026
+[2016.07.06-15.01.49:330][201]LogSavePackage: Save=58.805000ms
+[2016.07.06-15.01.49:330][201]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/UEDPCEscapig_Level2F3911D341F1936BC8AADAB35F81AF0C.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap'
+[2016.07.06-15.01.49:334][201]LogSavePackage: Total save time: 75.189263ms
+[2016.07.06-15.01.49:334][201]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap
+[2016.07.06-15.02.00:155][326]LogSavePackage: Save=58.706074ms
+[2016.07.06-15.02.00:155][326]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/UEDPCEscapig_LevelAF13BBCC478BAE32373DCC950534BA96.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap'
+[2016.07.06-15.02.00:158][326]LogSavePackage: Total save time: 74.988276ms
+[2016.07.06-15.02.00:158][326]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap
+[2016.07.06-15.03.05:426][366]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.07.06-15.03.05:800][366]LogSavePackage: Save=359.694611ms
+[2016.07.06-15.03.05:800][366]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/PigChar80E08A09405CE983D8F29DA3A1F423C9.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.07.06-15.03.05:805][366]LogSavePackage: Total save time: 377.630040ms
+[2016.07.06-15.03.05:805][366]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.07.06-15.03.06:517][401]BlueprintLog: New page: Compile PigChar
+[2016.07.06-15.03.06:828][401]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-15.03.06:884][401]BlueprintEditorCompileResults: Info [3402.04] Compile of PigChar successful! [in 366 ms]
+[2016.07.06-15.04.27:167][995]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000DD158720
+[2016.07.06-15.04.27:189][996]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000DD1580E0
+[2016.07.06-15.04.35:871][429]LogSavePackage: Save=59.393990ms
+[2016.07.06-15.04.35:871][429]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/UEDPCEscapig_Level6E22E59F481E1DCDCC79C7B8A46A3405.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap'
+[2016.07.06-15.04.35:875][429]LogSavePackage: Total save time: 75.872332ms
+[2016.07.06-15.04.35:875][429]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap
+[2016.07.06-15.04.37:385][498]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level' with GeneratedClass '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level'
+[2016.07.06-15.04.37:385][498]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.06-15.04.37:386][498]PIE: New page: PIE session: Escapig_Level (Jul 6, 2016, 5:04:37 PM)
+[2016.07.06-15.04.37:386][498]LogPlayLevel: Creating play world package: /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level
+[2016.07.06-15.04.37:389][498]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002820s)
+[2016.07.06-15.04.37:390][498]LogAIModule: Creating AISystem for world Escapig_Level
+[2016.07.06-15.04.37:390][498]LogPlayLevel: PIE: World Init took: (0.001767s)
+[2016.07.06-15.04.37:391][498]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Maps/Escapig_Level.Escapig_Level to /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level.Escapig_Level (0.004830s)
+[2016.07.06-15.04.37:424][498]LogInit: XAudio2 using 'BenQ BL3200-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.06-15.04.37:428][498]LogInit: FAudioDevice initialized.
+[2016.07.06-15.04.37:482][498]LogWorld: Game class is 'Escapig_Mode_C'
+[2016.07.06-15.04.37:484][498]LogWorld: Bringing World /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level.Escapig_Level up for play (max tick rate 0) at 2016.07.06-16.04.37
+[2016.07.06-15.04.37:484][498]LogActor:Warning: GameSession /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level.Escapig_Level:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.06-15.04.37:484][498]LogActor:Warning: GameNetworkManager /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level.Escapig_Level:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.06-15.04.37:484][498]LogWorld: Bringing up level for play took: 0.001655
+[2016.07.06-15.04.37:536][498]PIE: Info Play in editor start time for /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level -0.122
+[2016.07.06-15.04.37:536][498]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level' with GeneratedClass '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level'
+[2016.07.06-15.04.38:851][544]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level' with GeneratedClass '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level'
+[2016.07.06-15.04.38:899][544]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level' with GeneratedClass '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level'
+[2016.07.06-15.04.38:924][544]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000F0798B80
+[2016.07.06-15.04.41:779][811]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level' with GeneratedClass '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level'
+[2016.07.06-15.04.41:779][811]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.06-15.04.41:780][811]PIE: New page: PIE session: Escapig_Level (Jul 6, 2016, 5:04:41 PM)
+[2016.07.06-15.04.41:780][811]LogPlayLevel: Creating play world package: /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level
+[2016.07.06-15.04.41:782][811]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002146s)
+[2016.07.06-15.04.41:782][811]LogAIModule: Creating AISystem for world Escapig_Level
+[2016.07.06-15.04.41:783][811]LogPlayLevel: PIE: World Init took: (0.001452s)
+[2016.07.06-15.04.41:783][811]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Maps/Escapig_Level.Escapig_Level to /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level.Escapig_Level (0.003769s)
+[2016.07.06-15.04.41:810][811]LogInit: XAudio2 using 'BenQ BL3200-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.06-15.04.41:815][811]LogInit: FAudioDevice initialized.
+[2016.07.06-15.04.41:848][811]LogWorld: Game class is 'Escapig_Mode_C'
+[2016.07.06-15.04.41:851][811]LogWorld: Bringing World /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level.Escapig_Level up for play (max tick rate 0) at 2016.07.06-16.04.41
+[2016.07.06-15.04.41:851][811]LogActor:Warning: GameSession /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level.Escapig_Level:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.06-15.04.41:851][811]LogActor:Warning: GameNetworkManager /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level.Escapig_Level:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.06-15.04.41:851][811]LogWorld: Bringing up level for play took: 0.001531
+[2016.07.06-15.04.41:856][811]PIE: Info Play in editor start time for /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level 0.198
+[2016.07.06-15.04.41:856][811]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level' with GeneratedClass '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level'
+[2016.07.06-15.04.43:859][ 42]LogBlueprintUserMessages: [PigChar_C_22] 3
+[2016.07.06-15.04.48:751][629]LogCharacterMovement: PigChar_C_22 is stuck and failed to move!
+[2016.07.06-15.04.48:759][630]LogCharacterMovement: PigChar_C_22 is stuck and failed to move!
+[2016.07.06-15.04.48:768][631]LogCharacterMovement: PigChar_C_22 is stuck and failed to move!
+[2016.07.06-15.04.48:784][633]LogCharacterMovement: PigChar_C_22 is stuck and failed to move!
+[2016.07.06-15.04.48:793][634]LogCharacterMovement: PigChar_C_22 is stuck and failed to move!
+[2016.07.06-15.04.48:801][635]LogCharacterMovement: PigChar_C_22 is stuck and failed to move!
+[2016.07.06-15.04.48:818][637]LogCharacterMovement: PigChar_C_22 is stuck and failed to move!
+[2016.07.06-15.04.48:826][638]LogCharacterMovement: PigChar_C_22 is stuck and failed to move!
+[2016.07.06-15.04.48:843][640]LogCharacterMovement: PigChar_C_22 is stuck and failed to move!
+[2016.07.06-15.04.48:868][643]LogCharacterMovement: PigChar_C_22 is stuck and failed to move!
+[2016.07.06-15.04.48:876][644]LogCharacterMovement: PigChar_C_22 is stuck and failed to move!
+[2016.07.06-15.04.48:884][645]LogCharacterMovement: PigChar_C_22 is stuck and failed to move!
+[2016.07.06-15.04.48:893][646]LogCharacterMovement: PigChar_C_22 is stuck and failed to move!
+[2016.07.06-15.04.50:997][866]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level' with GeneratedClass '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level'
+[2016.07.06-15.04.51:037][866]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level' with GeneratedClass '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level'
+[2016.07.06-15.04.51:078][867]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000E9F14CC0
+[2016.07.06-15.04.51:835][944]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level' with GeneratedClass '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level'
+[2016.07.06-15.04.51:835][944]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.06-15.04.51:835][944]PIE: New page: PIE session: Escapig_Level (Jul 6, 2016, 5:04:51 PM)
+[2016.07.06-15.04.51:835][944]LogPlayLevel: Creating play world package: /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level
+[2016.07.06-15.04.51:838][944]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002371s)
+[2016.07.06-15.04.51:838][944]LogAIModule: Creating AISystem for world Escapig_Level
+[2016.07.06-15.04.51:838][944]LogPlayLevel: PIE: World Init took: (0.000512s)
+[2016.07.06-15.04.51:839][944]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Maps/Escapig_Level.Escapig_Level to /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level.Escapig_Level (0.003107s)
+[2016.07.06-15.04.51:871][944]LogInit: XAudio2 using 'BenQ BL3200-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.06-15.04.51:874][944]LogInit: FAudioDevice initialized.
+[2016.07.06-15.04.51:903][944]LogWorld: Game class is 'Escapig_Mode_C'
+[2016.07.06-15.04.51:905][944]LogWorld: Bringing World /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level.Escapig_Level up for play (max tick rate 0) at 2016.07.06-16.04.51
+[2016.07.06-15.04.51:905][944]LogActor:Warning: GameSession /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level.Escapig_Level:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.06-15.04.51:905][944]LogActor:Warning: GameNetworkManager /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level.Escapig_Level:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.06-15.04.51:906][944]LogWorld: Bringing up level for play took: 0.001663
+[2016.07.06-15.04.51:908][944]PIE: Info Play in editor start time for /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level 0.25
+[2016.07.06-15.04.51:908][944]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level' with GeneratedClass '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level'
+[2016.07.06-15.04.54:447][143]LogBlueprintUserMessages: [PigChar_C_23] 3
+[2016.07.06-15.04.55:741][264]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level' with GeneratedClass '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level'
+[2016.07.06-15.04.55:774][264]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level' with GeneratedClass '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level'
+[2016.07.06-15.04.55:812][265]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000AC9D1B20
+[2016.07.06-15.05.38:839][747]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.07.06-15.05.39:228][747]LogSavePackage: Save=372.183716ms
+[2016.07.06-15.05.39:228][747]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/PigChar50E1FA5B43C68C9025E90DB985B0F281.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.07.06-15.05.39:233][747]LogSavePackage: Total save time: 393.233161ms
+[2016.07.06-15.05.39:233][747]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.07.06-15.05.39:881][802]BlueprintLog: New page: Compile PigChar
+[2016.07.06-15.05.40:201][802]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-15.05.40:251][802]BlueprintEditorCompileResults: Info [3555.41] Compile of PigChar successful! [in 369 ms]
+[2016.07.06-15.05.41:279][876]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level' with GeneratedClass '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level'
+[2016.07.06-15.05.41:279][876]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.06-15.05.41:279][876]PIE: New page: PIE session: Escapig_Level (Jul 6, 2016, 5:05:41 PM)
+[2016.07.06-15.05.41:279][876]LogPlayLevel: Creating play world package: /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level
+[2016.07.06-15.05.41:281][876]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002142s)
+[2016.07.06-15.05.41:282][876]LogAIModule: Creating AISystem for world Escapig_Level
+[2016.07.06-15.05.41:282][876]LogPlayLevel: PIE: World Init took: (0.000462s)
+[2016.07.06-15.05.41:282][876]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Maps/Escapig_Level.Escapig_Level to /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level.Escapig_Level (0.002837s)
+[2016.07.06-15.05.41:310][876]LogInit: XAudio2 using 'BenQ BL3200-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.06-15.05.41:314][876]LogInit: FAudioDevice initialized.
+[2016.07.06-15.05.41:357][876]LogWorld: Game class is 'Escapig_Mode_C'
+[2016.07.06-15.05.41:359][876]LogWorld: Bringing World /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level.Escapig_Level up for play (max tick rate 0) at 2016.07.06-16.05.41
+[2016.07.06-15.05.41:359][876]LogActor:Warning: GameSession /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level.Escapig_Level:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.06-15.05.41:360][876]LogActor:Warning: GameNetworkManager /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level.Escapig_Level:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.06-15.05.41:360][876]LogWorld: Bringing up level for play took: 0.001600
+[2016.07.06-15.05.41:433][876]PIE: Info Play in editor start time for /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level -0.225
+[2016.07.06-15.05.41:433][876]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level' with GeneratedClass '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level'
+[2016.07.06-15.05.45:372][115]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level' with GeneratedClass '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level'
+[2016.07.06-15.05.45:416][115]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level' with GeneratedClass '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level'
+[2016.07.06-15.05.45:442][115]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000E995E980
+[2016.07.06-15.05.48:169][379]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.07.06-15.05.48:548][379]LogSavePackage: Save=364.909149ms
+[2016.07.06-15.05.48:548][379]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/PigChar22FAC7BD4C4F58D0B86E2885446D2FBA.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.07.06-15.05.48:553][379]LogSavePackage: Total save time: 382.607382ms
+[2016.07.06-15.05.48:553][379]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.07.06-15.05.48:689][395]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-15.05.49:965][512]BlueprintLog: New page: Compile PigChar
+[2016.07.06-15.05.50:322][512]BlueprintEditorCompileResults: Info [3565.48] Compile of PigChar successful! [in 356 ms]
+[2016.07.06-15.06.10:237][436]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.07.06-15.06.10:624][436]LogSavePackage: Save=373.541870ms
+[2016.07.06-15.06.10:624][436]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/PigChar1D2DA5524A18DD834F51ED9FF260AEA1.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.07.06-15.06.10:629][436]LogSavePackage: Total save time: 391.099855ms
+[2016.07.06-15.06.10:629][436]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.07.06-15.06.10:822][459]BlueprintLog: New page: Compile PigChar
+[2016.07.06-15.06.11:126][459]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-15.06.11:175][459]BlueprintEditorCompileResults: Info [3586.33] Compile of PigChar successful! [in 352 ms]
+[2016.07.06-15.06.12:496][565]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level' with GeneratedClass '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level'
+[2016.07.06-15.06.12:496][565]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.06-15.06.12:496][565]PIE: New page: PIE session: Escapig_Level (Jul 6, 2016, 5:06:12 PM)
+[2016.07.06-15.06.12:496][565]LogPlayLevel: Creating play world package: /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level
+[2016.07.06-15.06.12:498][565]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002246s)
+[2016.07.06-15.06.12:499][565]LogAIModule: Creating AISystem for world Escapig_Level
+[2016.07.06-15.06.12:499][565]LogPlayLevel: PIE: World Init took: (0.000542s)
+[2016.07.06-15.06.12:499][565]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Maps/Escapig_Level.Escapig_Level to /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level.Escapig_Level (0.002978s)
+[2016.07.06-15.06.12:526][565]LogInit: XAudio2 using 'BenQ BL3200-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.06-15.06.12:530][565]LogInit: FAudioDevice initialized.
+[2016.07.06-15.06.12:576][565]LogWorld: Game class is 'Escapig_Mode_C'
+[2016.07.06-15.06.12:578][565]LogWorld: Bringing World /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level.Escapig_Level up for play (max tick rate 0) at 2016.07.06-16.06.12
+[2016.07.06-15.06.12:578][565]LogActor:Warning: GameSession /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level.Escapig_Level:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.06-15.06.12:578][565]LogActor:Warning: GameNetworkManager /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level.Escapig_Level:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.06-15.06.12:579][565]LogWorld: Bringing up level for play took: 0.001573
+[2016.07.06-15.06.12:652][565]PIE: Info Play in editor start time for /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level 0.995
+[2016.07.06-15.06.12:653][565]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level' with GeneratedClass '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level'
+[2016.07.06-15.06.13:167][597]LogBlueprintUserMessages: [PigChar_C_21] Hello
+[2016.07.06-15.06.13:500][617]LogBlueprintUserMessages: [PigChar_C_21] Hello
+[2016.07.06-15.06.13:731][631]LogBlueprintUserMessages: [PigChar_C_21] Hello
+[2016.07.06-15.06.13:930][643]LogBlueprintUserMessages: [PigChar_C_21] Hello
+[2016.07.06-15.06.14:133][655]LogBlueprintUserMessages: [PigChar_C_21] Hello
+[2016.07.06-15.06.14:300][665]LogBlueprintUserMessages: [PigChar_C_21] Hello
+[2016.07.06-15.06.14:468][675]LogBlueprintUserMessages: [PigChar_C_21] Hello
+[2016.07.06-15.06.14:619][684]LogBlueprintUserMessages: [PigChar_C_21] Hello
+[2016.07.06-15.06.14:789][694]LogBlueprintUserMessages: [PigChar_C_21] Hello
+[2016.07.06-15.06.14:971][705]LogBlueprintUserMessages: [PigChar_C_21] Hello
+[2016.07.06-15.06.15:172][717]LogBlueprintUserMessages: [PigChar_C_21] Hello
+[2016.07.06-15.06.15:342][731]LogBlueprintUserMessages: [PigChar_C_21] Hello
+[2016.07.06-15.06.15:444][742]LogBlueprintUserMessages: [PigChar_C_21] 3
+[2016.07.06-15.06.15:708][768]LogBlueprintUserMessages: [PigChar_C_21] Hello
+[2016.07.06-15.06.16:556][854]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level' with GeneratedClass '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level'
+[2016.07.06-15.06.16:584][854]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level' with GeneratedClass '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level'
+[2016.07.06-15.06.16:611][854]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000C4C1DF80
+[2016.07.06-15.06.24:176][533]LogEditorTransaction: Undo Move Node
+[2016.07.06-15.06.30:322][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.07.06-15.06.30:707][119]LogSavePackage: Save=370.363159ms
+[2016.07.06-15.06.30:707][119]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/PigChar5C9F929849029692F4D0C2A592C598BF.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.07.06-15.06.30:712][119]LogSavePackage: Total save time: 388.360735ms
+[2016.07.06-15.06.30:712][119]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.07.06-15.06.31:146][171]BlueprintLog: New page: Compile PigChar
+[2016.07.06-15.06.31:448][171]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-15.06.31:496][171]BlueprintEditorCompileResults: Info [3606.65] Compile of PigChar successful! [in 349 ms]
+[2016.07.06-15.06.38:801][820]LogActor:Warning: GameNetworkManager /Engine/Transient.World_14:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.06-15.06.51:636][243]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Escapig_Mode', cached variable property's owner is '/Game/Blueprints/Blueprints/Escapig_Mode.SKEL_Escapig_Mode_C'
+[2016.07.06-15.07.14:787][720]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.07.06-15.07.24:339][743]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-15.07.24:340][743]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2016.07.06-15.07.24:340][743]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.07.06-15.07.24:367][743]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.07.06-15.07.24:505][743]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.07.06-15.07.26:400][928]BlueprintLog: New page: Compile PigChar
+[2016.07.06-15.07.26:697][928]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2016.07.06-15.07.26:700][928]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.07.06-15.07.26:734][928]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000E792B740
+[2016.07.06-15.07.26:751][928]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.07.06-15.07.26:752][928]BlueprintEditorCompileResults: Info [3661.91] Compile of PigChar successful! [in 351 ms]
+[2016.07.06-15.07.26:888][928]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.07.06-15.07.27:214][946]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.07.06-15.07.27:585][946]LogSavePackage: Save=356.816071ms
+[2016.07.06-15.07.27:585][946]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/PigCharB8EDEA44428F2B5CE706ACBFC0447E2C.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.07.06-15.07.27:589][946]LogSavePackage: Total save time: 374.213550ms
+[2016.07.06-15.07.27:590][946]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.07.06-15.07.46:980][845]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-15.07.47:010][845]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.07.06-15.07.47:150][845]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.07.06-15.07.49:189][ 55]BlueprintLog: New page: Compile PigChar
+[2016.07.06-15.07.49:490][ 55]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2016.07.06-15.07.49:493][ 55]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.07.06-15.07.49:542][ 55]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.07.06-15.07.49:542][ 55]BlueprintEditorCompileResults: Info [3684.70] Compile of PigChar successful! [in 352 ms]
+[2016.07.06-15.07.49:675][ 55]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.07.06-15.07.50:036][ 79]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.07.06-15.07.50:419][ 79]LogSavePackage: Save=368.675446ms
+[2016.07.06-15.07.50:419][ 79]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/PigChar7678192A4EC8CADC5B8EE0A6DE296944.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.07.06-15.07.50:424][ 79]LogSavePackage: Total save time: 386.594616ms
+[2016.07.06-15.07.50:424][ 79]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.07.06-15.07.51:126][157]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.07.06-15.08.09:337][866]BlueprintLog: New page: Compile PigChar
+[2016.07.06-15.08.09:640][866]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-15.08.09:700][866]BlueprintEditorCompileResults: Info [3704.86] Compile of PigChar successful! [in 362 ms]
+[2016.07.06-15.08.10:212][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.07.06-15.08.10:600][892]LogSavePackage: Save=373.373688ms
+[2016.07.06-15.08.10:600][892]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/PigChar9C813EEA4BDD4D34F145E4BF59652E50.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.07.06-15.08.10:604][892]LogSavePackage: Total save time: 390.854392ms
+[2016.07.06-15.08.10:604][892]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.07.06-15.08.12:053][ 34]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level' with GeneratedClass '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level'
+[2016.07.06-15.08.12:053][ 34]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.06-15.08.12:054][ 34]PIE: New page: PIE session: Escapig_Level (Jul 6, 2016, 5:08:12 PM)
+[2016.07.06-15.08.12:054][ 34]LogPlayLevel: Creating play world package: /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level
+[2016.07.06-15.08.12:056][ 34]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002272s)
+[2016.07.06-15.08.12:056][ 34]LogAIModule: Creating AISystem for world Escapig_Level
+[2016.07.06-15.08.12:056][ 34]LogPlayLevel: PIE: World Init took: (0.000553s)
+[2016.07.06-15.08.12:057][ 34]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Maps/Escapig_Level.Escapig_Level to /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level.Escapig_Level (0.002992s)
+[2016.07.06-15.08.12:057][ 34]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-15.08.12:083][ 34]LogInit: XAudio2 using 'BenQ BL3200-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.06-15.08.12:087][ 34]LogInit: FAudioDevice initialized.
+[2016.07.06-15.08.12:117][ 34]LogWorld: Game class is 'Escapig_Mode_C'
+[2016.07.06-15.08.12:119][ 34]LogWorld: Bringing World /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level.Escapig_Level up for play (max tick rate 0) at 2016.07.06-16.08.12
+[2016.07.06-15.08.12:119][ 34]LogActor:Warning: GameSession /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level.Escapig_Level:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.06-15.08.12:119][ 34]LogActor:Warning: GameNetworkManager /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level.Escapig_Level:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.06-15.08.12:119][ 34]LogWorld: Bringing up level for play took: 0.001514
+[2016.07.06-15.08.12:122][ 34]PIE: Info Play in editor start time for /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level 0.464
+[2016.07.06-15.08.12:122][ 34]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level' with GeneratedClass '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level'
+[2016.07.06-15.08.14:146][275]LogBlueprintUserMessages: [PigChar_C_21] 3
+[2016.07.06-15.08.14:996][377]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level' with GeneratedClass '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level'
+[2016.07.06-15.08.15:026][377]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level' with GeneratedClass '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level'
+[2016.07.06-15.08.15:051][377]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000DCF819E0
+[2016.07.06-15.08.49:141][805]BlueprintLog: New page: Compile PigChar
+[2016.07.06-15.08.49:444][805]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-15.08.49:493][805]BlueprintEditorCompileResults: Info [3744.65] Compile of PigChar successful! [in 352 ms]
+[2016.07.06-15.08.50:015][830]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.07.06-15.08.50:409][830]LogSavePackage: Save=379.133881ms
+[2016.07.06-15.08.50:409][830]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/PigChar39BF8E5C4A149362491BB7B98997A8A4.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.07.06-15.08.50:413][830]LogSavePackage: Total save time: 397.164520ms
+[2016.07.06-15.08.50:413][830]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.07.06-15.08.51:755][969]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level' with GeneratedClass '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level'
+[2016.07.06-15.08.51:755][969]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.06-15.08.51:755][969]PIE: New page: PIE session: Escapig_Level (Jul 6, 2016, 5:08:51 PM)
+[2016.07.06-15.08.51:755][969]LogPlayLevel: Creating play world package: /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level
+[2016.07.06-15.08.51:757][969]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002118s)
+[2016.07.06-15.08.51:758][969]LogAIModule: Creating AISystem for world Escapig_Level
+[2016.07.06-15.08.51:758][969]LogPlayLevel: PIE: World Init took: (0.000474s)
+[2016.07.06-15.08.51:758][969]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Maps/Escapig_Level.Escapig_Level to /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level.Escapig_Level (0.002785s)
+[2016.07.06-15.08.51:758][969]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-15.08.51:784][969]LogInit: XAudio2 using 'BenQ BL3200-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.06-15.08.51:788][969]LogInit: FAudioDevice initialized.
+[2016.07.06-15.08.51:818][969]LogWorld: Game class is 'Escapig_Mode_C'
+[2016.07.06-15.08.51:820][969]LogWorld: Bringing World /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level.Escapig_Level up for play (max tick rate 0) at 2016.07.06-16.08.51
+[2016.07.06-15.08.51:820][969]LogActor:Warning: GameSession /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level.Escapig_Level:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.06-15.08.51:820][969]LogActor:Warning: GameNetworkManager /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level.Escapig_Level:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.06-15.08.51:820][969]LogWorld: Bringing up level for play took: 0.001527
+[2016.07.06-15.08.51:822][969]PIE: Info Play in editor start time for /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level 0.165
+[2016.07.06-15.08.51:822][969]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level' with GeneratedClass '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level'
+[2016.07.06-15.08.52:572][ 24]LogBlueprintUserMessages: [PigChar_C_21] Fail
+[2016.07.06-15.08.52:960][ 56]LogBlueprintUserMessages: [PigChar_C_21] Fail
+[2016.07.06-15.08.53:272][ 80]LogBlueprintUserMessages: [PigChar_C_21] Fail
+[2016.07.06-15.08.53:442][ 93]LogBlueprintUserMessages: [PigChar_C_21] Fail
+[2016.07.06-15.08.53:612][106]LogBlueprintUserMessages: [PigChar_C_21] Fail
+[2016.07.06-15.08.53:769][118]LogBlueprintUserMessages: [PigChar_C_21] Fail
+[2016.07.06-15.08.53:913][129]LogBlueprintUserMessages: [PigChar_C_21] Fail
+[2016.07.06-15.08.54:070][141]LogBlueprintUserMessages: [PigChar_C_21] Fail
+[2016.07.06-15.08.54:237][154]LogBlueprintUserMessages: [PigChar_C_21] Fail
+[2016.07.06-15.08.54:393][166]LogBlueprintUserMessages: [PigChar_C_21] Fail
+[2016.07.06-15.08.54:532][177]LogBlueprintUserMessages: [PigChar_C_21] Fail
+[2016.07.06-15.08.54:843][201]LogBlueprintUserMessages: [PigChar_C_21] 3
+[2016.07.06-15.08.55:689][270]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level' with GeneratedClass '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level'
+[2016.07.06-15.08.55:724][270]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level' with GeneratedClass '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level'
+[2016.07.06-15.08.55:749][270]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000DC954EA0
+[2016.07.06-15.09.05:631][333]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level' with GeneratedClass '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level'
+[2016.07.06-15.09.05:631][333]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.06-15.09.05:631][333]PIE: New page: PIE session: Escapig_Level (Jul 6, 2016, 5:09:05 PM)
+[2016.07.06-15.09.05:631][333]LogPlayLevel: Creating play world package: /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level
+[2016.07.06-15.09.05:633][333]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002240s)
+[2016.07.06-15.09.05:634][333]LogAIModule: Creating AISystem for world Escapig_Level
+[2016.07.06-15.09.05:634][333]LogPlayLevel: PIE: World Init took: (0.000470s)
+[2016.07.06-15.09.05:634][333]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Maps/Escapig_Level.Escapig_Level to /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level.Escapig_Level (0.002871s)
+[2016.07.06-15.09.05:660][333]LogInit: XAudio2 using 'BenQ BL3200-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.06-15.09.05:664][333]LogInit: FAudioDevice initialized.
+[2016.07.06-15.09.05:693][333]LogWorld: Game class is 'Escapig_Mode_C'
+[2016.07.06-15.09.05:695][333]LogWorld: Bringing World /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level.Escapig_Level up for play (max tick rate 0) at 2016.07.06-16.09.05
+[2016.07.06-15.09.05:695][333]LogActor:Warning: GameSession /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level.Escapig_Level:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.06-15.09.05:695][333]LogActor:Warning: GameNetworkManager /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level.Escapig_Level:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.06-15.09.05:696][333]LogWorld: Bringing up level for play took: 0.002109
+[2016.07.06-15.09.05:699][333]PIE: Info Play in editor start time for /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level 0.042
+[2016.07.06-15.09.05:699][333]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level' with GeneratedClass '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level'
+[2016.07.06-15.09.06:503][427]LogBlueprintUserMessages: [PigChar_C_22] Fail
+[2016.07.06-15.09.06:695][450]LogBlueprintUserMessages: [PigChar_C_22] Fail
+[2016.07.06-15.09.06:870][471]LogBlueprintUserMessages: [PigChar_C_22] Fail
+[2016.07.06-15.09.07:045][492]LogBlueprintUserMessages: [PigChar_C_22] Fail
+[2016.07.06-15.09.07:211][512]LogBlueprintUserMessages: [PigChar_C_22] Fail
+[2016.07.06-15.09.07:378][532]LogBlueprintUserMessages: [PigChar_C_22] Fail
+[2016.07.06-15.09.07:553][553]LogBlueprintUserMessages: [PigChar_C_22] Fail
+[2016.07.06-15.09.07:670][567]LogBlueprintUserMessages: [PigChar_C_22] 3
+[2016.07.06-15.09.07:903][595]LogBlueprintUserMessages: [PigChar_C_22] Fail
+[2016.07.06-15.09.08:095][618]LogBlueprintUserMessages: [PigChar_C_22] Fail
+[2016.07.06-15.09.08:278][640]LogBlueprintUserMessages: [PigChar_C_22] Fail
+[2016.07.06-15.09.08:445][660]LogBlueprintUserMessages: [PigChar_C_22] Fail
+[2016.07.06-15.09.08:620][681]LogBlueprintUserMessages: [PigChar_C_22] Fail
+[2016.07.06-15.09.08:795][702]LogBlueprintUserMessages: [PigChar_C_22] Fail
+[2016.07.06-15.09.08:970][723]LogBlueprintUserMessages: [PigChar_C_22] Fail
+[2016.07.06-15.09.09:153][745]LogBlueprintUserMessages: [PigChar_C_22] Fail
+[2016.07.06-15.09.10:686][929]LogBlueprintUserMessages: [PigChar_C_22] Fail
+[2016.07.06-15.09.10:853][949]LogBlueprintUserMessages: [PigChar_C_22] Fail
+[2016.07.06-15.09.11:028][970]LogBlueprintUserMessages: [PigChar_C_22] Fail
+[2016.07.06-15.09.11:203][991]LogBlueprintUserMessages: [PigChar_C_22] Fail
+[2016.07.06-15.09.11:370][ 11]LogBlueprintUserMessages: [PigChar_C_22] Fail
+[2016.07.06-15.09.11:536][ 31]LogBlueprintUserMessages: [PigChar_C_22] Fail
+[2016.07.06-15.09.11:703][ 51]LogBlueprintUserMessages: [PigChar_C_22] Fail
+[2016.07.06-15.09.11:861][ 70]LogBlueprintUserMessages: [PigChar_C_22] Fail
+[2016.07.06-15.09.12:020][ 89]LogBlueprintUserMessages: [PigChar_C_22] Fail
+[2016.07.06-15.09.12:236][115]LogBlueprintUserMessages: [PigChar_C_22] 2
+[2016.07.06-15.09.12:270][119]LogBlueprintUserMessages: [PigChar_C_22] 1
+[2016.07.06-15.09.12:270][119]LogBlueprintUserMessages: [PigChar_C_22] 0
+[2016.07.06-15.09.12:286][121]LogBlueprintUserMessages: [PigChar_C_22] -1
+[2016.07.06-15.09.12:329][126]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level' with GeneratedClass '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level'
+[2016.07.06-15.09.12:358][126]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level' with GeneratedClass '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level'
+[2016.07.06-15.09.12:396][127]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000E35807C0
+[2016.07.06-15.09.41:878][376]BlueprintLog: New page: Compile PigChar
+[2016.07.06-15.09.42:182][376]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-15.09.42:231][376]BlueprintEditorCompileResults: Info [3797.39] Compile of PigChar successful! [in 352 ms]
+[2016.07.06-15.09.42:802][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.07.06-15.09.43:198][406]LogSavePackage: Save=381.566528ms
+[2016.07.06-15.09.43:198][406]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/PigCharC475C480428E1FB9610557A749461E85.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.07.06-15.09.43:203][406]LogSavePackage: Total save time: 399.389058ms
+[2016.07.06-15.09.43:203][406]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.07.06-15.09.44:628][554]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level' with GeneratedClass '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level'
+[2016.07.06-15.09.44:628][554]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.06-15.09.44:629][554]PIE: New page: PIE session: Escapig_Level (Jul 6, 2016, 5:09:44 PM)
+[2016.07.06-15.09.44:629][554]LogPlayLevel: Creating play world package: /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level
+[2016.07.06-15.09.44:631][554]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002176s)
+[2016.07.06-15.09.44:631][554]LogAIModule: Creating AISystem for world Escapig_Level
+[2016.07.06-15.09.44:631][554]LogPlayLevel: PIE: World Init took: (0.000500s)
+[2016.07.06-15.09.44:631][554]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Maps/Escapig_Level.Escapig_Level to /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level.Escapig_Level (0.002864s)
+[2016.07.06-15.09.44:631][554]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-15.09.44:660][554]LogInit: XAudio2 using 'BenQ BL3200-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.06-15.09.44:664][554]LogInit: FAudioDevice initialized.
+[2016.07.06-15.09.44:693][554]LogWorld: Game class is 'Escapig_Mode_C'
+[2016.07.06-15.09.44:695][554]LogWorld: Bringing World /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level.Escapig_Level up for play (max tick rate 0) at 2016.07.06-16.09.44
+[2016.07.06-15.09.44:695][554]LogActor:Warning: GameSession /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level.Escapig_Level:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.06-15.09.44:695][554]LogActor:Warning: GameNetworkManager /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level.Escapig_Level:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.06-15.09.44:695][554]LogWorld: Bringing up level for play took: 0.001521
+[2016.07.06-15.09.44:697][554]PIE: Info Play in editor start time for /Game/Blueprints/Maps/UEDPIE_0_Escapig_Level 1.04
+[2016.07.06-15.09.44:698][554]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level' with GeneratedClass '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level'
+[2016.07.06-15.09.45:165][604]LogBlueprintUserMessages: [PigChar_C_21] Fail
+[2016.07.06-15.09.45:948][698]LogBlueprintUserMessages: [PigChar_C_21] Fail
+[2016.07.06-15.09.46:257][735]LogBlueprintUserMessages: [PigChar_C_21] Boost
+[2016.07.06-15.09.46:557][771]LogBlueprintUserMessages: [PigChar_C_21] Fail
+[2016.07.06-15.09.46:965][820]LogBlueprintUserMessages: [PigChar_C_21] Boost
+[2016.07.06-15.09.47:349][866]LogBlueprintUserMessages: [PigChar_C_21] Fail
+[2016.07.06-15.09.47:566][892]LogBlueprintUserMessages: [PigChar_C_21] Fail
+[2016.07.06-15.09.47:591][895]LogBlueprintUserMessages: [PigChar_C_21] 3
+[2016.07.06-15.09.47:599][896]LogBlueprintUserMessages: [PigChar_C_21] 2
+[2016.07.06-15.09.47:699][908]LogBlueprintUserMessages: [PigChar_C_21] 1
+[2016.07.06-15.09.47:792][919]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level' with GeneratedClass '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level'
+[2016.07.06-15.09.47:825][919]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level' with GeneratedClass '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level_C' with ClassGeneratedBy '/Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.Escapig_Level'
+[2016.07.06-15.09.47:851][919]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012DAEAC0
+[2016.07.06-15.09.56:247][899]LogSavePackage: Save=60.957695ms
+[2016.07.06-15.09.56:247][899]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Escapig_Mode05E2069C4618C92C106318A18CCD6ECE.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/Escapig_Mode.uasset'
+[2016.07.06-15.09.56:251][899]LogSavePackage: Total save time: 79.403996ms
+[2016.07.06-15.09.56:251][899]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/Escapig_Mode.uasset
+[2016.07.06-15.10.00:996][342]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-15.10.01:048][342]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.07.06-15.10.01:241][342]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-15.10.01:459][342]LogSavePackage: Save=397.088684ms
+[2016.07.06-15.10.01:459][342]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/PigCharF2D316964319FD3D359923B5355ABFE7.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.07.06-15.10.01:464][342]LogSavePackage: Total save time: 414.473038ms
+[2016.07.06-15.10.01:464][342]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.07.06-15.10.02:046][394]BlueprintLog: New page: Compile PigChar
+[2016.07.06-15.10.02:405][394]BlueprintEditorCompileResults: Info [3817.56] Compile of PigChar successful! [in 359 ms]
+[2016.07.06-15.10.04:357][555]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-15.10.04:491][555]LogSavePackage: Save=59.524273ms
+[2016.07.06-15.10.04:491][555]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/UEDPCEscapig_Level2524B7AE4BB2873FFF05CA83CD32A6C6.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap'
+[2016.07.06-15.10.04:494][555]LogSavePackage: Total save time: 76.406874ms
+[2016.07.06-15.10.04:495][555]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap
+[2016.07.06-15.10.10:172][143]LogSavePackage: Save=59.439320ms
+[2016.07.06-15.10.10:172][143]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/UEDPCEscapig_LevelC8A81F0E42248362093CB28FE1F4D78C.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap'
+[2016.07.06-15.10.10:175][143]LogSavePackage: Total save time: 75.393099ms
+[2016.07.06-15.10.10:175][143]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap
+[2016.07.06-15.10.21:147][370]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.07.06-15.10.30:628][446]LogSavePackage: Save=59.427345ms
+[2016.07.06-15.10.30:628][446]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/UEDPCEscapig_LevelCCD70CB743CEBA33621D12BDC0C327CF.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap'
+[2016.07.06-15.10.30:632][446]LogSavePackage: Total save time: 75.598080ms
+[2016.07.06-15.10.30:632][446]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap
+[2016.07.06-15.10.51:480][135]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-15.10.51:481][135]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2016.07.06-15.10.51:481][135]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.07.06-15.10.51:528][135]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/Bar" FILE="D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/Bar.uasset" SILENT=true
+[2016.07.06-15.10.51:592][135]LogSavePackage: Save=48.576916ms
+[2016.07.06-15.10.51:592][135]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Bar36C901EC4358244641E911B2DBEC53AF.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/Bar.uasset'
+[2016.07.06-15.10.51:596][135]LogSavePackage: Total save time: 67.426044ms
+[2016.07.06-15.10.51:596][135]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/Bar.uasset
+[2016.07.06-15.10.52:543][221]BlueprintLog: New page: Compile Bar
+[2016.07.06-15.10.52:634][221]BlueprintEditorCompileResults: Info [3867.79] Compile of Bar successful! [in 90 ms]
+[2016.07.06-15.10.53:593][301]LogSavePackage: Save=58.790173ms
+[2016.07.06-15.10.53:593][301]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Escapig_Level2A012FAF48E6930A89C4D6906303CAF0.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Maps/Escapig_Level.umap'
+[2016.07.06-15.10.53:597][301]LogSavePackage: Total save time: 77.136125ms
+[2016.07.06-15.10.53:597][301]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Maps/Escapig_Level.umap
+[2016.07.06-15.10.53:625][301]LogFileHelpers: Saving map 'Escapig_Level' took 0.206
+[2016.07.06-15.10.55:529][482]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000B67DCEA0
+[2016.07.06-15.10.55:530][482]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E5505E0
+[2016.07.06-15.10.55:638][482]LogSavePackage: Save=49.968712ms
+[2016.07.06-15.10.55:638][482]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/UEDPCEscapig_Level2AC749104E963C28315F8D91E9BB3366.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap'
+[2016.07.06-15.10.55:641][482]LogSavePackage: Total save time: 66.303942ms
+[2016.07.06-15.10.55:641][482]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap
+[2016.07.06-15.11.31:851][259]LogActor:Warning: GameNetworkManager /Engine/Transient.World_16:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.06-15.11.49:135][120]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Escapig_Mode', cached variable property's owner is '/Game/Blueprints/Blueprints/Escapig_Mode.SKEL_Escapig_Mode_C'
+[2016.07.06-15.11.55:211][748]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.07.06-15.12.12:829][578]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-15.12.12:829][578]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2016.07.06-15.12.12:829][578]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.07.06-15.12.12:851][578]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000B3206AC0
+[2016.07.06-15.12.12:876][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.07.06-15.12.13:254][578]LogSavePackage: Save=360.105438ms
+[2016.07.06-15.12.13:254][578]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/PigChar914058884FFDA86287F73CA100CE2069.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.07.06-15.12.13:259][578]LogSavePackage: Total save time: 381.073326ms
+[2016.07.06-15.12.13:259][578]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.07.06-15.12.20:394][299]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-15.12.20:413][299]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012A3F740
+[2016.07.06-15.12.20:512][299]LogSavePackage: Save=52.567570ms
+[2016.07.06-15.12.20:512][299]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/UEDPCEscapig_LevelB11999FF4B7E06CB625B49BEDD3DC1E9.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap'
+[2016.07.06-15.12.20:516][299]LogSavePackage: Total save time: 69.279399ms
+[2016.07.06-15.12.20:516][299]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap
+[2016.07.06-15.12.57:824][688]LogRenderer: Reallocating scene render targets to support 1616x1260 (Frame:31554).
+[2016.07.06-15.13.18:825][ 47]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-15.13.18:826][ 47]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2016.07.06-15.13.18:826][ 47]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.07.06-15.13.18:850][ 47]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000E45C71A0
+[2016.07.06-15.13.38:896][372]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.07.06-15.13.51:180][690]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-15.13.51:180][690]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2016.07.06-15.13.51:180][690]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.07.06-15.13.51:287][690]LogSavePackage: Save=59.623486ms
+[2016.07.06-15.13.51:287][690]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Escapig_ModeB93E416C4B146151B0F917BFF99C856E.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/Escapig_Mode.uasset'
+[2016.07.06-15.13.51:291][690]LogSavePackage: Total save time: 77.190008ms
+[2016.07.06-15.13.51:291][690]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/Escapig_Mode.uasset
+[2016.07.06-15.13.51:702][726]BlueprintLog: New page: Compile Escapig_Mode
+[2016.07.06-15.13.51:786][726]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Escapig_Mode', cached variable property's owner is '/Game/Blueprints/Blueprints/Escapig_Mode.SKEL_Escapig_Mode_C'
+[2016.07.06-15.13.51:787][726]BlueprintEditorCompileResults: Info [4046.95] Compile of Escapig_Mode successful! [in 85 ms]
+[2016.07.06-15.13.51:801][726]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Escapig_Mode', cached variable property's owner is '/Game/Blueprints/Blueprints/Escapig_Mode.SKEL_Escapig_Mode_C'
+[2016.07.06-15.13.58:483][477]LogSavePackage: Save=60.124382ms
+[2016.07.06-15.13.58:483][477]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Escapig_Mode2201E9C2461F25591F4DEDB20665EACC.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/Escapig_Mode.uasset'
+[2016.07.06-15.13.58:488][477]LogSavePackage: Total save time: 78.627419ms
+[2016.07.06-15.13.58:488][477]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/Escapig_Mode.uasset
+[2016.07.06-15.13.59:323][571]BlueprintLog: New page: Compile Escapig_Mode
+[2016.07.06-15.13.59:408][571]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Escapig_Mode', cached variable property's owner is '/Game/Blueprints/Blueprints/Escapig_Mode.SKEL_Escapig_Mode_C'
+[2016.07.06-15.13.59:409][571]BlueprintEditorCompileResults: Info [4054.57] Compile of Escapig_Mode successful! [in 86 ms]
+[2016.07.06-15.13.59:423][571]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Escapig_Mode', cached variable property's owner is '/Game/Blueprints/Blueprints/Escapig_Mode.SKEL_Escapig_Mode_C'
+[2016.07.06-15.14.20:068][513]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-15.14.20:069][513]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2016.07.06-15.14.20:069][513]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.07.06-15.14.20:115][513]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.07.06-15.14.20:530][513]LogSavePackage: Save=400.547089ms
+[2016.07.06-15.14.20:530][513]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/PigCharD6E5F2694A9820B9291A7DBF853A5262.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.07.06-15.14.20:535][513]LogSavePackage: Total save time: 419.133648ms
+[2016.07.06-15.14.20:535][513]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.07.06-15.14.20:989][553]BlueprintLog: New page: Compile PigChar
+[2016.07.06-15.14.21:335][553]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-15.14.21:347][553]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Escapig_Mode', cached variable property's owner is '/Game/Blueprints/Blueprints/Escapig_Mode.SKEL_Escapig_Mode_C'
+[2016.07.06-15.14.21:394][553]BlueprintEditorCompileResults: Info [4076.55] Compile of PigChar successful! [in 404 ms]
+[2016.07.06-15.14.24:479][810]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-15.14.24:480][810]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2016.07.06-15.14.24:480][810]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.07.06-15.15.03:865][968]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Escapig_Mode', cached variable property's owner is '/Game/Blueprints/Blueprints/Escapig_Mode.SKEL_Escapig_Mode_C'
+[2016.07.06-15.15.08:478][344]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-15.15.08:478][344]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2016.07.06-15.15.08:479][344]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.07.06-15.16.46:190][622]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-15.16.46:191][622]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2016.07.06-15.16.46:191][622]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.07.06-15.16.48:740][622]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.07.06-15.16.48:984][622]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_BP_Floor-Grass_V-2_C_0' or package '/Engine/Transient'.
+[2016.07.06-15.16.48:984][622]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_BP_Floor-Grass_V-2_C_1' or package '/Engine/Transient'.
+[2016.07.06-15.16.48:984][622]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_BP_Floor-Grass_V-2_C_499' or package '/Engine/Transient'.
+[2016.07.06-15.16.48:984][622]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_BP_Floor-Grass_V-2_C_498' or package '/Engine/Transient'.
+[2016.07.06-15.16.49:098][622]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000E7B684A0
+[2016.07.06-15.16.49:098][622]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000DD158680
+[2016.07.06-15.16.51:974][861]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-15.16.51:975][861]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2016.07.06-15.16.51:975][861]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.07.06-15.16.52:076][861]LogSavePackage: Save=55.512238ms
+[2016.07.06-15.16.52:076][861]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Escapig_Level0F1E15324C60F4EBFAD8A9AE2C8160C4.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Maps/Escapig_Level.umap'
+[2016.07.06-15.16.52:079][861]LogSavePackage: Total save time: 80.339938ms
+[2016.07.06-15.16.52:079][861]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Maps/Escapig_Level.umap
+[2016.07.06-15.16.57:200][970]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.07.06-15.16.57:622][970]LogSavePackage: Save=405.383026ms
+[2016.07.06-15.16.57:622][970]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/PigChar29FC60BF42CE8293D25169BE87DF02C8.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.07.06-15.16.57:627][970]LogSavePackage: Total save time: 426.299892ms
+[2016.07.06-15.16.57:627][970]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.07.06-15.16.57:629][970]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-15.16.57:731][970]LogSavePackage: Save=51.893337ms
+[2016.07.06-15.16.57:731][970]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/UEDPCEscapig_LevelEEAA75974B218AF7ADED1886C9E7B77B.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap'
+[2016.07.06-15.16.57:736][970]LogSavePackage: Total save time: 72.035912ms
+[2016.07.06-15.16.57:736][970]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap
+[2016.07.06-15.17.15:601][462]LogSavePackage: Save=52.036449ms
+[2016.07.06-15.17.15:601][462]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/UEDPCEscapig_Level0E9B37C0442EB5E53028A9AD39832DCD.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap'
+[2016.07.06-15.17.15:605][462]LogSavePackage: Total save time: 69.059029ms
+[2016.07.06-15.17.15:605][462]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap
+[2016.07.06-15.17.29:555][ 75]LogSavePackage: Save=72.028214ms
+[2016.07.06-15.17.29:555][ 75]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/UEDPCEscapig_Level55E4C1014C1E8A499D1741AF671FD059.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap'
+[2016.07.06-15.17.29:559][ 75]LogSavePackage: Total save time: 89.487541ms
+[2016.07.06-15.17.29:559][ 75]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap
+[2016.07.06-15.20.08:563][847]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-15.20.08:564][847]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
+[2016.07.06-15.20.08:564][847]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.07.06-15.20.10:296][990]BlueprintLog: New page: Compile BP_Floor-Grass_V-2
+[2016.07.06-15.20.10:363][990]BlueprintEditorCompileResults: Info [4425.52] Compile of BP_Floor-Grass_V-2 successful! [in 66 ms]
+[2016.07.06-15.20.11:389][ 46]LogSavePackage: Save=15.489089ms
+[2016.07.06-15.20.11:389][ 46]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/BP_Floor-Grass_V-2BAC445CA4CDA57B03854F081ACD11DC3.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/BP_Floor-Grass_V-2.uasset'
+[2016.07.06-15.20.11:393][ 46]LogSavePackage: Total save time: 19.712374ms
+[2016.07.06-15.20.11:393][ 46]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/BP_Floor-Grass_V-2.uasset
+[2016.07.06-15.20.28:165][694]LogActor:Warning: GameNetworkManager /Engine/Transient.World_21:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.06-15.20.36:752][653]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.07.06-15.20.46:662][715]BlueprintLog: New page: Compile Escapig_Mode
+[2016.07.06-15.20.46:724][715]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-15.20.46:725][715]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_24) Not registered. Aborting.
+[2016.07.06-15.20.46:725][715]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.07.06-15.20.46:762][715]BlueprintEditorCompileResults: Info [4461.92] Compile of Escapig_Mode successful! [in 99 ms]
+[2016.07.06-15.21.25:499][927]BlueprintLog: New page: Compile PigChar
+[2016.07.06-15.21.25:798][927]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-15.21.25:798][927]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_25) Not registered. Aborting.
+[2016.07.06-15.21.25:798][927]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.07.06-15.21.25:847][927]BlueprintEditorCompileResults: Info [4501.01] Compile of PigChar successful! [in 347 ms]
+[2016.07.06-15.21.27:803][104]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-15.21.35:383][250]LogSavePackage: Save=60.931183ms
+[2016.07.06-15.21.35:383][250]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Escapig_ModeAC06719941471F48A9D042BDC1BF9236.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/Escapig_Mode.uasset'
+[2016.07.06-15.21.35:387][250]LogSavePackage: Total save time: 78.940727ms
+[2016.07.06-15.21.35:387][250]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/Escapig_Mode.uasset
+[2016.07.06-15.21.35:404][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.07.06-15.21.35:853][250]LogSavePackage: Save=431.691193ms
+[2016.07.06-15.21.35:853][250]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/PigCharE877353E46EBBB1812287AA8F829ED75.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.07.06-15.21.35:859][250]LogSavePackage: Total save time: 453.585617ms
+[2016.07.06-15.21.35:859][250]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.07.06-15.21.35:861][250]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-15.21.35:965][250]LogSavePackage: Save=50.906933ms
+[2016.07.06-15.21.35:965][250]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/UEDPCEscapig_Level80E210484CB6F8E1F58EBD9B87D3BFD4.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap'
+[2016.07.06-15.21.35:969][250]LogSavePackage: Total save time: 68.181526ms
+[2016.07.06-15.21.35:969][250]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap
+[2016.07.06-15.22.10:392][204]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.07.06-15.22.21:568][277]BlueprintLog: New page: Compile PigChar
+[2016.07.06-15.22.21:889][277]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-15.22.21:952][277]BlueprintEditorCompileResults: Info [4557.11] Compile of PigChar successful! [in 383 ms]
+[2016.07.06-15.22.25:027][538]BlueprintLog: New page: Compile Escapig_Mode
+[2016.07.06-15.22.25:086][538]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-15.22.25:114][538]BlueprintEditorCompileResults: Info [4560.27] Compile of Escapig_Mode successful! [in 86 ms]
+[2016.07.06-15.22.27:979][648]LogSavePackage: Save=58.699516ms
+[2016.07.06-15.22.27:979][648]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Escapig_ModeE8C9BDD8462E001B2E2AE7BAEEAEF336.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/Escapig_Mode.uasset'
+[2016.07.06-15.22.27:984][648]LogSavePackage: Total save time: 76.650336ms
+[2016.07.06-15.22.27:984][648]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/Escapig_Mode.uasset
+[2016.07.06-15.22.28:002][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.07.06-15.22.28:378][648]LogSavePackage: Save=362.496735ms
+[2016.07.06-15.22.28:378][648]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/PigChar9136B677470D62C5F7ECDB8F61075D72.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.07.06-15.22.28:383][648]LogSavePackage: Total save time: 379.698634ms
+[2016.07.06-15.22.28:383][648]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.07.06-15.22.28:385][648]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.06-15.22.28:481][648]LogSavePackage: Save=50.553425ms
+[2016.07.06-15.22.28:481][648]LogSavePackage: Moving 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/UEDPCEscapig_Level44D87FBF4BD94B232ECEF897695C8079.tmp' to 'D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap'
+[2016.07.06-15.22.28:484][648]LogSavePackage: Total save time: 67.821462ms
+[2016.07.06-15.22.28:484][648]LogSavePackage:Warning: Finished SavePackage D:/Users/u1355824.AD/Desktop/New folder/Menu/Escapig-menu-lives/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap
+[2016.07.06-15.22.43:783][ 10]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.07.06-15.22.44:066][ 11]Cmd: QUIT_EDITOR
+[2016.07.06-15.22.44:295][ 11]LogExit: Preparing to exit.
+[2016.07.06-15.22.44:706][ 11]LogExit: Editor shut down
+[2016.07.06-15.22.44:707][ 11]LogExit: Transaction tracking system shut down
+[2016.07.06-15.22.44:712][ 11]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F714900
+[2016.07.06-15.22.44:712][ 11]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000008C3F0A40
+[2016.07.06-15.22.44:712][ 11]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000008C1E59E0
+[2016.07.06-15.22.44:712][ 11]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011D66840
+[2016.07.06-15.22.44:713][ 11]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000B65063E0
+[2016.07.06-15.22.44:714][ 11]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000EF753380
+[2016.07.06-15.22.44:714][ 11]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FAE0540
+[2016.07.06-15.22.44:715][ 11]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000008D6CA8E0
+[2016.07.06-15.22.44:867][ 11]LogExit: Object subsystem successfully closed.
+[2016.07.06-15.22.44:883][ 11]LogD3D11RHI: Shutdown
+[2016.07.06-15.22.44:883][ 11]LogD3D11RHI: CleanupD3DDevice
+[2016.07.06-15.22.44:926][ 11]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.07.06-15.22.44:945][ 11]LogModuleManager: Shutting down and abandoning module SequencerWidgets (202)
+[2016.07.06-15.22.44:945][ 11]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (201)
+[2016.07.06-15.22.44:945][ 11]LogModuleManager: Shutting down and abandoning module BlueprintGraph (200)
+[2016.07.06-15.22.44:945][ 11]LogModuleManager: Shutting down and abandoning module CrashTracker (199)
+[2016.07.06-15.22.44:945][ 11]LogModuleManager: Shutting down and abandoning module SceneOutliner (198)
+[2016.07.06-15.22.44:945][ 11]LogModuleManager: Shutting down and abandoning module SuperSearch (197)
+[2016.07.06-15.22.44:945][ 11]LogModuleManager: Shutting down and abandoning module WidgetCarousel (196)
+[2016.07.06-15.22.44:945][ 11]LogModuleManager: Shutting down and abandoning module AddContentDialog (195)
+[2016.07.06-15.22.44:949][ 11]LogModuleManager: Shutting down and abandoning module EditorWidgets (194)
+[2016.07.06-15.22.44:949][ 11]LogModuleManager: Shutting down and abandoning module CollectionManager (193)
+[2016.07.06-15.22.44:950][ 11]LogModuleManager: Shutting down and abandoning module StatsViewer (192)
+[2016.07.06-15.22.44:950][ 11]LogModuleManager: Shutting down and abandoning module FoliageEdit (191)
+[2016.07.06-15.22.44:950][ 11]LogModuleManager: Shutting down and abandoning module LandscapeEditor (190)
+[2016.07.06-15.22.44:950][ 11]LogModuleManager: Shutting down and abandoning module ActorPickerMode (189)
+[2016.07.06-15.22.44:950][ 11]LogModuleManager: Shutting down and abandoning module GeometryMode (188)
+[2016.07.06-15.22.44:950][ 11]LogModuleManager: Shutting down and abandoning module TextureAlignMode (187)
+[2016.07.06-15.22.44:950][ 11]LogModuleManager: Shutting down and abandoning module BspMode (186)
+[2016.07.06-15.22.44:950][ 11]LogModuleManager: Shutting down and abandoning module PlacementMode (185)
+[2016.07.06-15.22.44:950][ 11]LogModuleManager: Shutting down and abandoning module AutomationWorker (184)
+[2016.07.06-15.22.44:950][ 11]LogModuleManager: Shutting down and abandoning module CharacterAI (183)
+[2016.07.06-15.22.44:950][ 11]LogModuleManager: Shutting down and abandoning module SmartSnapping (182)
+[2016.07.06-15.22.44:950][ 11]LogModuleManager: Shutting down and abandoning module ViewportSnapping (181)
+[2016.07.06-15.22.44:950][ 11]LogModuleManager: Shutting down and abandoning module LogVisualizer (180)
+[2016.07.06-15.22.44:950][ 11]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (179)
+[2016.07.06-15.22.44:950][ 11]LogModuleManager: Shutting down and abandoning module IntroTutorials (178)
+[2016.07.06-15.22.44:950][ 11]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (177)
+[2016.07.06-15.22.44:950][ 11]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (176)
+[2016.07.06-15.22.44:950][ 11]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (175)
+[2016.07.06-15.22.44:950][ 11]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (174)
+[2016.07.06-15.22.45:265][ 11]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (173)
+[2016.07.06-15.22.45:265][ 11]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (172)
+[2016.07.06-15.22.45:265][ 11]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (171)
+[2016.07.06-15.22.45:265][ 11]LogModuleManager: Shutting down and abandoning module MergeActors (170)
+[2016.07.06-15.22.45:265][ 11]LogModuleManager: Shutting down and abandoning module SizeMap (169)
+[2016.07.06-15.22.45:265][ 11]LogModuleManager: Shutting down and abandoning module TreeMap (168)
+[2016.07.06-15.22.45:265][ 11]LogModuleManager: Shutting down and abandoning module ReferenceViewer (167)
+[2016.07.06-15.22.45:265][ 11]LogModuleManager: Shutting down and abandoning module LocalizationService (166)
+[2016.07.06-15.22.45:265][ 11]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (165)
+[2016.07.06-15.22.45:265][ 11]LogModuleManager: Shutting down and abandoning module HardwareTargeting (164)
+[2016.07.06-15.22.45:265][ 11]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (163)
+[2016.07.06-15.22.45:265][ 11]LogModuleManager: Shutting down and abandoning module UndoHistory (162)
+[2016.07.06-15.22.45:265][ 11]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (161)
+[2016.07.06-15.22.45:265][ 11]LogModuleManager: Shutting down and abandoning module UserFeedback (160)
+[2016.07.06-15.22.45:265][ 11]LogModuleManager: Shutting down and abandoning module XmlParser (159)
+[2016.07.06-15.22.45:265][ 11]LogModuleManager: Shutting down and abandoning module Blutility (158)
+[2016.07.06-15.22.45:265][ 11]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (157)
+[2016.07.06-15.22.45:265][ 11]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (156)
+[2016.07.06-15.22.45:265][ 11]LogModuleManager: Shutting down and abandoning module InputBindingEditor (155)
+[2016.07.06-15.22.45:265][ 11]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (154)
+[2016.07.06-15.22.45:265][ 11]LogModuleManager: Shutting down and abandoning module SettingsEditor (153)
+[2016.07.06-15.22.45:265][ 11]LogModuleManager: Shutting down and abandoning module ProjectLauncher (152)
+[2016.07.06-15.22.45:265][ 11]LogModuleManager: Shutting down and abandoning module SessionFrontend (151)
+[2016.07.06-15.22.45:265][ 11]LogModuleManager: Shutting down and abandoning module ProfilerClient (150)
+[2016.07.06-15.22.45:265][ 11]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (149)
+[2016.07.06-15.22.45:265][ 11]LogModuleManager: Shutting down and abandoning module DeviceManager (148)
+[2016.07.06-15.22.45:265][ 11]LogModuleManager: Shutting down and abandoning module AutomationController (147)
+[2016.07.06-15.22.45:266][ 11]LogModuleManager: Shutting down and abandoning module AutomationWindow (146)
+[2016.07.06-15.22.45:266][ 11]LogModuleManager: Shutting down and abandoning module Layers (145)
+[2016.07.06-15.22.45:266][ 11]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (144)
+[2016.07.06-15.22.45:266][ 11]LogModuleManager: Shutting down and abandoning module DetailCustomizations (143)
+[2016.07.06-15.22.45:266][ 11]LogModuleManager: Shutting down and abandoning module PackagesDialog (142)
+[2016.07.06-15.22.45:266][ 11]LogModuleManager: Shutting down and abandoning module Persona (141)
+[2016.07.06-15.22.45:266][ 11]LogModuleManager: Shutting down and abandoning module Kismet (140)
+[2016.07.06-15.22.45:266][ 11]LogModuleManager: Shutting down and abandoning module GraphEditor (139)
+[2016.07.06-15.22.45:266][ 11]LogModuleManager: Shutting down and abandoning module ClassViewer (138)
+[2016.07.06-15.22.45:267][ 11]LogModuleManager: Shutting down and abandoning module Toolbox (137)
+[2016.07.06-15.22.45:267][ 11]LogModuleManager: Shutting down and abandoning module ModuleUI (136)
+[2016.07.06-15.22.45:267][ 11]LogModuleManager: Shutting down and abandoning module MovieSceneTools (135)
+[2016.07.06-15.22.45:267][ 11]LogModuleManager: Shutting down and abandoning module OutputLog (134)
+[2016.07.06-15.22.45:267][ 11]LogModuleManager: Shutting down and abandoning module GammaUI (133)
+[2016.07.06-15.22.45:267][ 11]LogModuleManager: Shutting down and abandoning module Documentation (132)
+[2016.07.06-15.22.45:267][ 11]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (131)
+[2016.07.06-15.22.45:267][ 11]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (130)
+[2016.07.06-15.22.45:267][ 11]LogModuleManager: Shutting down and abandoning module AnalyticsET (129)
+[2016.07.06-15.22.45:267][ 11]LogModuleManager: Shutting down and abandoning module Analytics (128)
+[2016.07.06-15.22.45:267][ 11]LogModuleManager: Shutting down and abandoning module AITestSuite (127)
+[2016.07.06-15.22.45:267][ 11]LogModuleManager: Shutting down and abandoning module GameplayDebugger (126)
+[2016.07.06-15.22.45:267][ 11]LogModuleManager: Shutting down and abandoning module AIModule (125)
+[2016.07.06-15.22.45:267][ 11]LogModuleManager: Shutting down and abandoning module ProfilerService (124)
+[2016.07.06-15.22.45:453][ 11]LogModuleManager: Shutting down and abandoning module TaskGraph (123)
+[2016.07.06-15.22.45:453][ 11]LogModuleManager: Shutting down and abandoning module SubstanceEditor (122)
+[2016.07.06-15.22.45:453][ 11]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.07.06-15.22.45:453][ 11]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.07.06-15.22.45:453][ 11]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.07.06-15.22.45:453][ 11]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.07.06-15.22.45:453][ 11]LogModuleManager: Shutting down and abandoning module OculusRift (117)
+[2016.07.06-15.22.45:453][ 11]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
+[2016.07.06-15.22.45:453][ 11]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.07.06-15.22.45:462][ 11]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.07.06-15.22.45:462][ 11]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.07.06-15.22.45:462][ 11]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.07.06-15.22.45:462][ 11]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.07.06-15.22.45:462][ 11]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.07.06-15.22.45:462][ 11]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.07.06-15.22.45:462][ 11]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.07.06-15.22.45:462][ 11]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.07.06-15.22.45:462][ 11]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.07.06-15.22.45:462][ 11]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.07.06-15.22.45:462][ 11]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.07.06-15.22.45:462][ 11]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.07.06-15.22.45:462][ 11]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.07.06-15.22.45:462][ 11]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.07.06-15.22.45:462][ 11]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.07.06-15.22.45:462][ 11]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.07.06-15.22.45:462][ 11]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.07.06-15.22.45:462][ 11]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.07.06-15.22.45:462][ 11]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.07.06-15.22.45:462][ 11]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.07.06-15.22.45:462][ 11]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.07.06-15.22.45:462][ 11]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.07.06-15.22.45:462][ 11]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.07.06-15.22.45:462][ 11]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.07.06-15.22.45:463][ 11]LogModuleManager: Shutting down and abandoning module ContentBrowser (90)
+[2016.07.06-15.22.45:464][ 11]LogModuleManager: Shutting down and abandoning module Paper2DEditor (89)
+[2016.07.06-15.22.45:464][ 11]LogModuleManager: Shutting down and abandoning module UdpMessaging (88)
+[2016.07.06-15.22.45:564][ 11]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2016.07.06-15.22.45:565][ 11]LogModuleManager: Shutting down and abandoning module AssetRegistry (86)
+[2016.07.06-15.22.45:649][ 11]LogModuleManager: Shutting down and abandoning module SubstanceCore (85)
+[2016.07.06-15.22.45:650][ 11]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2016.07.06-15.22.45:650][ 11]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2016.07.06-15.22.45:650][ 11]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2016.07.06-15.22.45:652][ 11]LogModuleManager: Shutting down and abandoning module Media (81)
+[2016.07.06-15.22.45:652][ 11]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2016.07.06-15.22.45:652][ 11]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2016.07.06-15.22.45:652][ 11]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2016.07.06-15.22.45:652][ 11]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2016.07.06-15.22.45:652][ 11]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2016.07.06-15.22.45:652][ 11]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2016.07.06-15.22.45:652][ 11]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2016.07.06-15.22.45:652][ 11]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2016.07.06-15.22.45:652][ 11]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2016.07.06-15.22.45:652][ 11]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2016.07.06-15.22.45:652][ 11]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2016.07.06-15.22.45:652][ 11]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2016.07.06-15.22.45:652][ 11]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2016.07.06-15.22.45:652][ 11]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2016.07.06-15.22.45:652][ 11]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2016.07.06-15.22.45:654][ 11]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2016.07.06-15.22.45:654][ 11]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2016.07.06-15.22.45:655][ 11]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2016.07.06-15.22.45:655][ 11]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2016.07.06-15.22.45:655][ 11]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2016.07.06-15.22.45:655][ 11]LogModuleManager: Shutting down and abandoning module Core (59)
+[2016.07.06-15.22.45:655][ 11]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2016.07.06-15.22.45:655][ 11]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2016.07.06-15.22.45:655][ 11]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2016.07.06-15.22.45:655][ 11]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2016.07.06-15.22.45:656][ 11]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2016.07.06-15.22.45:669][ 11]LogDerivedDataCache: Shutdown
+[2016.07.06-15.22.45:669][ 11]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2016.07.06-15.22.45:669][ 11]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2016.07.06-15.22.45:669][ 11]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2016.07.06-15.22.45:669][ 11]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2016.07.06-15.22.45:669][ 11]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2016.07.06-15.22.45:669][ 11]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2016.07.06-15.22.45:669][ 11]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2016.07.06-15.22.45:669][ 11]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2016.07.06-15.22.45:669][ 11]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2016.07.06-15.22.45:669][ 11]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2016.07.06-15.22.45:669][ 11]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2016.07.06-15.22.45:669][ 11]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2016.07.06-15.22.45:669][ 11]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2016.07.06-15.22.45:669][ 11]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2016.07.06-15.22.45:669][ 11]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2016.07.06-15.22.45:669][ 11]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2016.07.06-15.22.45:669][ 11]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2016.07.06-15.22.45:669][ 11]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2016.07.06-15.22.45:669][ 11]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2016.07.06-15.22.45:669][ 11]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2016.07.06-15.22.45:669][ 11]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2016.07.06-15.22.45:669][ 11]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2016.07.06-15.22.45:669][ 11]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2016.07.06-15.22.45:669][ 11]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2016.07.06-15.22.45:669][ 11]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2016.07.06-15.22.45:669][ 11]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2016.07.06-15.22.45:669][ 11]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2016.07.06-15.22.45:669][ 11]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2016.07.06-15.22.45:669][ 11]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2016.07.06-15.22.45:669][ 11]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2016.07.06-15.22.45:669][ 11]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2016.07.06-15.22.45:669][ 11]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2016.07.06-15.22.45:669][ 11]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2016.07.06-15.22.45:669][ 11]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2016.07.06-15.22.45:669][ 11]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.07.06-15.22.45:669][ 11]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2016.07.06-15.22.46:169][ 11]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2016.07.06-15.22.46:169][ 11]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.07.06-15.22.46:169][ 11]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.07.06-15.22.46:169][ 11]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.07.06-15.22.46:169][ 11]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.07.06-15.22.46:169][ 11]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.07.06-15.22.46:174][ 11]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.07.06-15.22.46:174][ 11]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.07.06-15.22.46:174][ 11]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.07.06-15.22.46:174][ 11]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.07.06-15.22.46:174][ 11]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.07.06-15.22.46:174][ 11]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.07.06-15.22.46:174][ 11]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.07.06-15.22.46:174][ 11]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.07.06-15.22.46:174][ 11]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.07.06-15.22.46:174][ 11]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.07.06-15.22.46:174][ 11]LogExit: Exiting.
+[2016.07.06-15.22.46:187][ 11]Log file closed, 07/06/16 16:22:46
