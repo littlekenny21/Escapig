@@ -1,0 +1,556 @@
+﻿[2016.07.08-15.06.49:714][  0]Log file open, 07/08/16 16:06:49
+[2016.07.08-15.06.49:714][  0]LogInit:Display: Running engine for game: Escapig
+[2016.07.08-15.06.49:714][  0]LogInit:Display: RandInit(39457156) SRandInit(39457157).
+[2016.07.08-15.06.49:714][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.07.08-15.06.49:714][  0]LogStats: Stats thread started at 0.076279
+[2016.07.08-15.06.49:714][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.07.08-15.06.49:714][  0]LogInit: API Version: 2672455
+[2016.07.08-15.06.49:714][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.07.08-15.06.49:714][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.07.08-15.06.49:714][  0]LogInit: Build Configuration: Development
+[2016.07.08-15.06.49:714][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.07.08-15.06.49:714][  0]LogInit: Command line:  /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level -game -PIEVIACONSOLE -ResX=720 -ResY=1280  -Multiprocess -featureleveles2 -faketouches 
+[2016.07.08-15.06.49:714][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.07.08-15.06.49:714][  0]LogInit: Rocket: 1
+[2016.07.08-15.06.49:729][  0]LogInit: Using libcurl 7.41.0
+[2016.07.08-15.06.49:729][  0]LogInit:  - built for x86_64-pc-win32
+[2016.07.08-15.06.49:729][  0]LogInit:  - supports SSL with WinSSL
+[2016.07.08-15.06.49:729][  0]LogInit:  - other features:
+[2016.07.08-15.06.49:729][  0]LogInit:      CURL_VERSION_SSL
+[2016.07.08-15.06.49:729][  0]LogInit:      CURL_VERSION_IPV6
+[2016.07.08-15.06.49:729][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.07.08-15.06.49:729][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.07.08-15.06.49:729][  0]LogInit:      CURL_VERSION_IDN
+[2016.07.08-15.06.49:729][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.07.08-15.06.49:729][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.07.08-15.06.49:729][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.07.08-15.06.49:729][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.07.08-15.06.49:729][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.07.08-15.06.49:735][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.07.08-15.06.49:741][  0]LogInit: Object subsystem initialized
+[2016.07.08-15.06.49:742][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.08-15.06.49:742][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.07.08-15.06.49:746][  0]LogInit: Computer: CE215-01
+[2016.07.08-15.06.49:746][  0]LogInit: User: u1355345
+[2016.07.08-15.06.49:746][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.07.08-15.06.49:746][  0]LogInit: High frequency timer resolution =3.507714 MHz
+[2016.07.08-15.06.49:746][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2016.07.08-15.06.49:746][  0]LogMemory: Platform Memory Stats for Windows
+[2016.07.08-15.06.49:746][  0]LogMemory: Process Physical Memory: 54.65 MB used, 54.65 MB peak
+[2016.07.08-15.06.49:746][  0]LogMemory: Process Virtual Memory: 57.36 MB used, 57.36 MB peak
+[2016.07.08-15.06.49:746][  0]LogMemory: Physical Memory: 4524.68 MB used, 16222.63 MB total
+[2016.07.08-15.06.49:746][  0]LogMemory: Virtual Memory: 337.70 MB used, 8388608.00 MB total
+[2016.07.08-15.06.49:791][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.07.08-15.06.50:422][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.07.08-15.06.50:422][  0]LogD3D11RHI: Adapter has 4008MB of dedicated video memory, 0MB of dedicated system memory, and 7855MB of shared system memory, 1 output[s]
+[2016.07.08-15.06.50:428][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2016.07.08-15.06.50:428][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 0 output[s]
+[2016.07.08-15.06.50:429][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.07.08-15.06.50:434][  0]LogD3D11RHI: !Direct3DDevice
+[2016.07.08-15.06.50:434][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.07.08-15.06.50:440][  0]LogD3D11RHI: Async texture creation enabled
+[2016.07.08-15.06.50:453][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (G:/Escapig/Escapig/Intermediate/Shaders/WorkingDirectory/6524/).
+[2016.07.08-15.06.50:453][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'G:/Escapig/Escapig/Intermediate/Shaders/tmp/DDB5464F4FB0915FBCB994AD11A8D20D/'.
+[2016.07.08-15.06.50:453][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.07.08-15.06.51:350][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.07.08-15.06.51:354][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.07.08-15.06.51:358][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.07.08-15.06.51:362][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.07.08-15.06.51:366][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.07.08-15.06.51:368][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.07.08-15.06.51:371][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.07.08-15.06.51:374][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.07.08-15.06.51:376][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.07.08-15.06.51:379][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.07.08-15.06.51:382][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.07.08-15.06.51:385][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.07.08-15.06.51:385][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.07.08-15.06.51:401][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.07.08-15.06.51:403][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.07.08-15.06.51:406][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.07.08-15.06.51:410][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.07.08-15.06.51:410][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.07.08-15.06.51:479][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.07.08-15.06.51:525][  0]LogDerivedDataCache: Loaded boot cache 0.05s 57MB D:/Users/u1355345.AD/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.07.08-15.06.51:525][  0]LogDerivedDataCache:Display: Loaded Boot cache: D:/Users/u1355345.AD/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.07.08-15.06.51:525][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file G:/Escapig/Escapig/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.07.08-15.06.51:525][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.07.08-15.06.51:525][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file G:/Escapig/Escapig/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.07.08-15.06.51:525][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.07.08-15.06.51:644][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.07.08-15.06.51:655][  0]LogDerivedDataCache: Using Local data cache path D:/Users/u1355345.AD/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.07.08-15.06.51:806][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.08-15.06.51:806][  0]LogContentStreaming: Texture pool size is 1000.000000MB
+[2016.07.08-15.06.51:820][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.07.08-15.06.51:820][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.07.08-15.06.52:045][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.07.08-15.06.52:207][  0]LogWindowsMoviePlayer: Unable to load movie: G:/Escapig/Escapig/Content/Movies/Default_Startup.mp4
+[2016.07.08-15.06.52:280][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
+[2016.07.08-15.06.52:313][  0]SourceControl: Info Source control is disabled
+[2016.07.08-15.06.52:313][  0]SourceControl: Info Source control is disabled
+[2016.07.08-15.06.52:323][  0]SourceControl: Info Source control is disabled
+[2016.07.08-15.06.52:441][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.07.08-15.06.52:513][  0]LogObj: 27801 objects as part of root set at end of initial load.
+[2016.07.08-15.06.52:513][  0]LogUObjectAllocator: 5798192 out of 0 bytes used by permanent object pool.
+[2016.07.08-15.06.52:563][  0]LogEngine: Initializing Engine...
+[2016.07.08-15.06.52:565][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.07.08-15.06.52:565][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.07.08-15.06.52:591][  0]LogMaterial: Missing cached shader map for material MAT_LevelColorationLitLightmapUV, compiling. Is special engine material.
+[2016.07.08-15.06.52:592][  0]LogMaterial:Warning: Failed to compile Material /Engine/EngineDebugMaterials/MAT_LevelColorationLitLightmapUV.MAT_LevelColorationLitLightmapUV for platform PCD3D_ES2, Default Material will be used in game.
+[2016.07.08-15.06.52:592][  0]LogMaterial:Warning: 	(Node LightmapUVs) Node not supported in feature level ES2
+[2016.07.08-15.06.52:634][  0]LogInit: XAudio2 using 'BenQ BL3200-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.08-15.06.52:640][  0]LogInit: FAudioDevice initialized.
+[2016.07.08-15.06.52:643][  0]LogInit: Texture streaming: Enabled
+[2016.07.08-15.06.52:652][  0]LogMaterial: Missing cached shader map for material CustomStencil, compiling. 
+[2016.07.08-15.06.52:653][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/CustomStencil.CustomStencil for platform PCD3D_ES2, Default Material will be used in game.
+[2016.07.08-15.06.52:653][  0]LogMaterial:Warning: 	(Node SceneTexture) Node not supported in feature level ES2
+[2016.07.08-15.06.52:703][  0]LogNet: Browse: /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level?Name=Player
+[2016.07.08-15.06.52:704][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level?Name=Player
+[2016.07.08-15.06.52:711][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016E06DE0
+[2016.07.08-15.06.52:717][  0]LogMemory: Platform Memory Stats for Windows
+[2016.07.08-15.06.52:717][  0]LogMemory: Process Physical Memory: 379.78 MB used, 391.85 MB peak
+[2016.07.08-15.06.52:717][  0]LogMemory: Process Virtual Memory: 402.72 MB used, 408.73 MB peak
+[2016.07.08-15.06.52:717][  0]LogMemory: Physical Memory: 4817.29 MB used, 16222.63 MB total
+[2016.07.08-15.06.52:717][  0]LogMemory: Virtual Memory: 896.86 MB used, 8388608.00 MB total
+[2016.07.08-15.06.52:717][  0]LogMemory: 
+[2016.07.08-15.06.52:717][  0]Allocator Stats for TBB: (not implemented)
+[2016.07.08-15.06.53:038][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BP_Grass-Corner-R_C_24' (it may have been removed)
+[2016.07.08-15.06.53:058][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BP_Grass-Corner-L_C_30' (it may have been removed)
+[2016.07.08-15.06.53:069][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'StaticMesh13' in BlueprintGeneratedClass 'REINST_BP_Floor-Grass_V-2_C_36' (it may have been removed)
+[2016.07.08-15.06.53:069][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'StaticMesh14' in BlueprintGeneratedClass 'REINST_BP_Floor-Grass_V-2_C_36' (it may have been removed)
+[2016.07.08-15.06.53:474][  0]LogAIModule: Creating AISystem for world Escapig_Level
+[2016.07.08-15.06.53:475][  0]LogWorld: Game class is 'Escapig_Mode_C'
+[2016.07.08-15.06.53:477][  0]LogWorld: Bringing World /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.Escapig_Level up for play (max tick rate 0) at 2016.07.08-16.06.53
+[2016.07.08-15.06.53:477][  0]LogWorld: Bringing up level for play took: 0.001772
+[2016.07.08-15.06.53:482][  0]LogInit:Display: Game Engine Initialized.
+[2016.07.08-15.06.53:699][  0]LogLoad: Full Startup: 4.30 seconds (BP compile: 0.25 seconds)
+[2016.07.08-15.06.53:751][  1]LogRenderer: Reallocating scene render targets to support 720x1280 (Frame:2).
+[2016.07.08-15.06.53:752][  1]LogBlueprintUserMessages: [PigChar_C_0] 0
+[2016.07.08-15.06.53:768][  2]LogBlueprintUserMessages: [PigChar_C_0] 0
+[2016.07.08-15.06.53:784][  3]LogBlueprintUserMessages: [PigChar_C_0] 0
+[2016.07.08-15.06.53:800][  4]LogBlueprintUserMessages: [PigChar_C_0] 0
+[2016.07.08-15.06.53:816][  5]LogBlueprintUserMessages: [PigChar_C_0] 0
+[2016.07.08-15.06.53:832][  6]LogBlueprintUserMessages: [PigChar_C_0] 0
+[2016.07.08-15.06.53:848][  7]LogBlueprintUserMessages: [PigChar_C_0] 0
+[2016.07.08-15.06.53:864][  8]LogBlueprintUserMessages: [PigChar_C_0] 0
+[2016.07.08-15.06.53:880][  9]LogBlueprintUserMessages: [PigChar_C_0] 0
+[2016.07.08-15.06.53:896][ 10]LogBlueprintUserMessages: [PigChar_C_0] 0
+[2016.07.08-15.06.53:933][ 11]LogBlueprintUserMessages: [PigChar_C_0] 0
+[2016.07.08-15.06.53:936][ 12]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.53:952][ 13]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.53:968][ 14]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.53:985][ 15]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:001][ 16]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:017][ 17]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:033][ 18]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:049][ 19]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:065][ 20]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:081][ 21]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:097][ 22]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:114][ 23]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:130][ 24]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:146][ 25]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:162][ 26]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:178][ 27]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:194][ 28]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:210][ 29]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:227][ 30]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:243][ 31]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:259][ 32]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:275][ 33]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:291][ 34]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:307][ 35]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:323][ 36]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:339][ 37]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:356][ 38]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:372][ 39]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:388][ 40]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:404][ 41]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:420][ 42]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:436][ 43]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:455][ 44]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:468][ 45]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:485][ 46]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:501][ 47]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:517][ 48]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:533][ 49]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:549][ 50]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:565][ 51]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:581][ 52]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:597][ 53]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:614][ 54]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:630][ 55]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:646][ 56]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:662][ 57]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:678][ 58]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:694][ 59]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:710][ 60]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:727][ 61]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:743][ 62]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:759][ 63]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:775][ 64]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:791][ 65]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:807][ 66]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:823][ 67]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:839][ 68]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:856][ 69]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:872][ 70]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:888][ 71]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:904][ 72]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:921][ 73]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:936][ 74]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:952][ 75]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:968][ 76]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.54:985][ 77]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:003][ 78]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:017][ 79]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:033][ 80]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:049][ 81]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:065][ 82]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:081][ 83]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:098][ 84]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:114][ 85]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:130][ 86]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:146][ 87]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:162][ 88]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:178][ 89]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:194][ 90]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:210][ 91]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:227][ 92]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:243][ 93]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:259][ 94]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:275][ 95]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:291][ 96]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:307][ 97]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:323][ 98]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:339][ 99]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:356][100]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:372][101]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:388][102]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:404][103]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:420][104]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:436][105]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:452][106]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:468][107]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:485][108]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:501][109]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:517][110]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:533][111]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:549][112]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:565][113]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:584][114]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:598][115]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:614][116]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:630][117]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:646][118]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:662][119]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:678][120]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:694][121]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:710][122]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:727][123]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:743][124]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:759][125]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:775][126]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:791][127]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:807][128]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:823][129]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:840][130]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:856][131]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:872][132]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:888][133]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:904][134]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:920][135]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:936][136]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:952][137]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:969][138]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.55:985][139]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:001][140]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:017][141]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:033][142]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:049][143]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:065][144]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:081][145]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:098][146]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:114][147]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:130][148]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:146][149]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:162][150]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:178][151]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:194][152]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:213][153]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:227][154]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:243][155]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:259][156]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:275][157]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:291][158]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:307][159]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:323][160]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:340][161]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:356][162]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:372][163]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:388][164]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:404][165]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:420][166]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:436][167]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:453][168]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:469][169]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:485][170]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:501][171]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:517][172]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:533][173]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:549][174]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:565][175]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:582][176]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:598][177]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:614][178]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:630][179]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:646][180]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:662][181]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:678][182]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:695][183]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:711][184]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:727][185]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:743][186]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:759][187]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:775][188]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:791][189]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:807][190]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:824][191]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:840][192]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:856][193]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:872][194]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:888][195]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:906][196]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:920][197]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:937][198]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:953][199]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:969][200]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.56:985][201]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:001][202]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:017][203]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:033][204]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:049][205]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:066][206]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:082][207]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:098][208]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:114][209]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:130][210]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:146][211]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:162][212]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:178][213]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:195][214]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:211][215]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:227][216]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:243][217]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:259][218]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:275][219]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:291][220]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:307][221]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:324][222]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:340][223]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:356][224]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:372][225]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:388][226]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:404][227]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:420][228]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:436][229]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:453][230]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:469][231]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:485][232]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:501][233]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:517][234]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:533][235]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:549][236]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:566][237]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:582][238]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:598][239]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:614][240]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:630][241]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:646][242]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:665][243]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:678][244]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:694][245]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:711][246]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:727][247]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:743][248]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:759][249]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:775][250]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:791][251]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:807][252]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:823][253]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:840][254]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:856][255]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:872][256]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:888][257]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:904][258]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:920][259]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:936][260]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:953][261]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:969][262]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.57:985][263]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:001][264]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:017][265]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:033][266]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:049][267]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:066][268]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:082][269]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:098][270]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:114][271]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:130][272]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:146][273]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:162][274]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:178][275]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:194][276]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:211][277]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:227][278]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:243][279]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:259][280]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:275][281]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:291][282]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:307][283]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:324][284]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:340][285]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:356][286]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:372][287]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:388][288]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:404][289]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:420][290]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:437][291]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:453][292]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:469][293]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:485][294]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:501][295]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:519][296]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:533][297]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:549][298]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:566][299]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:582][300]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:598][301]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:614][302]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:630][303]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:646][304]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:662][305]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:678][306]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:695][307]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:711][308]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:727][309]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:743][310]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:759][311]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:775][312]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:791][313]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:808][314]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:824][315]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:840][316]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:856][317]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:872][318]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:888][319]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:904][320]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:920][321]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:937][322]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:953][323]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:969][324]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.58:985][325]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:001][326]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:017][327]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:033][328]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:049][329]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:066][330]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:082][331]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:098][332]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:114][333]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:130][334]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:146][335]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:162][336]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:179][337]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:194][338]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:211][339]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:227][340]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:243][341]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:259][342]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:275][343]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:291][344]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:308][345]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:324][346]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:340][347]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:356][348]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:372][349]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:388][350]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:404][351]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:420][352]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:437][353]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:453][354]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:469][355]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:485][356]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:501][357]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:517][358]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:533][359]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:551][360]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:566][361]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:582][362]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:598][363]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:614][364]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:630][365]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:646][366]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:662][367]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:678][368]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:695][369]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:711][370]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:727][371]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:743][372]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:759][373]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:775][374]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:791][375]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:808][376]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:824][377]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:840][378]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:856][379]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:872][380]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:888][381]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:904][382]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:920][383]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:937][384]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:953][385]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:969][386]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.06.59:985][387]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.07.00:001][388]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.07.00:017][389]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.07.00:033][390]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.07.00:049][391]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.07.00:066][392]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.07.00:082][393]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.07.00:098][394]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.07.00:114][395]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.07.00:130][396]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.07.00:146][397]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.07.00:162][398]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.07.00:179][399]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.07.00:195][400]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.07.00:211][401]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.07.00:227][402]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.07.00:243][403]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.07.00:259][404]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.07.00:275][405]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.07.00:291][406]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.07.00:308][407]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.07.00:324][408]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.07.00:340][409]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.07.00:356][410]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.07.00:372][411]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.07.00:388][412]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.07.00:404][413]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.07.00:421][414]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.07.00:437][415]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.07.00:453][416]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.07.00:469][417]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.07.00:485][418]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.07.00:501][419]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.07.00:517][420]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.07.00:533][421]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.07.00:549][422]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.07.00:566][423]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.07.00:582][424]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.07.00:598][425]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.07.00:614][426]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.07.00:630][427]LogBlueprintUserMessages: [PigChar_C_0] 61
+[2016.07.08-15.07.00:646][428]LogBlueprintUserMessages: [PigChar_C_0] 61
+[20
