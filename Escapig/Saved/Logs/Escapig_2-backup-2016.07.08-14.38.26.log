@@ -1,0 +1,1470 @@
+﻿[2016.07.08-13.38.00:847][  0]Log file open, 07/08/16 14:38:00
+[2016.07.08-13.38.00:847][  0]LogInit:Display: Running engine for game: Escapig
+[2016.07.08-13.38.00:847][  0]LogInit:Display: RandInit(-1472814735) SRandInit(-1472814734).
+[2016.07.08-13.38.00:847][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.07.08-13.38.00:847][  0]LogStats: Stats thread started at 0.077234
+[2016.07.08-13.38.00:847][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.07.08-13.38.00:847][  0]LogInit: API Version: 2672455
+[2016.07.08-13.38.00:847][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.07.08-13.38.00:847][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.07.08-13.38.00:847][  0]LogInit: Build Configuration: Development
+[2016.07.08-13.38.00:847][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.07.08-13.38.00:847][  0]LogInit: Command line:  /Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu -game -PIEVIACONSOLE -ResX=720 -ResY=1280  -Multiprocess -featureleveles2 -faketouches 
+[2016.07.08-13.38.00:847][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.07.08-13.38.00:847][  0]LogInit: Rocket: 1
+[2016.07.08-13.38.00:867][  0]LogInit: Using libcurl 7.41.0
+[2016.07.08-13.38.00:867][  0]LogInit:  - built for x86_64-pc-win32
+[2016.07.08-13.38.00:867][  0]LogInit:  - supports SSL with WinSSL
+[2016.07.08-13.38.00:867][  0]LogInit:  - other features:
+[2016.07.08-13.38.00:867][  0]LogInit:      CURL_VERSION_SSL
+[2016.07.08-13.38.00:867][  0]LogInit:      CURL_VERSION_IPV6
+[2016.07.08-13.38.00:867][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.07.08-13.38.00:867][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.07.08-13.38.00:867][  0]LogInit:      CURL_VERSION_IDN
+[2016.07.08-13.38.00:867][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.07.08-13.38.00:867][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.07.08-13.38.00:867][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.07.08-13.38.00:867][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.07.08-13.38.00:867][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.07.08-13.38.00:874][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.07.08-13.38.00:880][  0]LogInit: Object subsystem initialized
+[2016.07.08-13.38.00:881][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.08-13.38.00:881][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.07.08-13.38.00:884][  0]LogInit: Computer: CE215-01
+[2016.07.08-13.38.00:884][  0]LogInit: User: u1355345
+[2016.07.08-13.38.00:884][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.07.08-13.38.00:884][  0]LogInit: High frequency timer resolution =3.507714 MHz
+[2016.07.08-13.38.00:884][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2016.07.08-13.38.00:884][  0]LogMemory: Platform Memory Stats for Windows
+[2016.07.08-13.38.00:884][  0]LogMemory: Process Physical Memory: 54.54 MB used, 54.54 MB peak
+[2016.07.08-13.38.00:884][  0]LogMemory: Process Virtual Memory: 57.34 MB used, 57.34 MB peak
+[2016.07.08-13.38.00:884][  0]LogMemory: Physical Memory: 4613.73 MB used, 16222.63 MB total
+[2016.07.08-13.38.00:884][  0]LogMemory: Virtual Memory: 337.70 MB used, 8388608.00 MB total
+[2016.07.08-13.38.00:930][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.07.08-13.38.01:526][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.07.08-13.38.01:526][  0]LogD3D11RHI: Adapter has 4008MB of dedicated video memory, 0MB of dedicated system memory, and 7855MB of shared system memory, 1 output[s]
+[2016.07.08-13.38.01:533][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2016.07.08-13.38.01:533][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 0 output[s]
+[2016.07.08-13.38.01:533][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.07.08-13.38.01:539][  0]LogD3D11RHI: !Direct3DDevice
+[2016.07.08-13.38.01:540][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.07.08-13.38.01:546][  0]LogD3D11RHI: Async texture creation enabled
+[2016.07.08-13.38.01:558][  0]LogShaderCompilers: Guid format shader working directory is 16 characters bigger than the processId version (G:/Escapig/Escapig/Intermediate/Shaders/WorkingDirectory/276/).
+[2016.07.08-13.38.01:558][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'G:/Escapig/Escapig/Intermediate/Shaders/tmp/11D3332444D01BB8D5971C8F043C2181/'.
+[2016.07.08-13.38.01:558][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.07.08-13.38.02:520][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.07.08-13.38.02:525][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.07.08-13.38.02:529][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.07.08-13.38.02:533][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.07.08-13.38.02:537][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.07.08-13.38.02:540][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.07.08-13.38.02:543][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.07.08-13.38.02:546][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.07.08-13.38.02:548][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.07.08-13.38.02:551][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.07.08-13.38.02:554][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.07.08-13.38.02:557][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.07.08-13.38.02:557][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.07.08-13.38.02:573][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.07.08-13.38.02:575][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.07.08-13.38.02:578][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.07.08-13.38.02:581][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.07.08-13.38.02:581][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.07.08-13.38.02:648][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.07.08-13.38.02:685][  0]LogDerivedDataCache: Loaded boot cache 0.04s 44MB D:/Users/u1355345.AD/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.07.08-13.38.02:685][  0]LogDerivedDataCache:Display: Loaded Boot cache: D:/Users/u1355345.AD/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.07.08-13.38.02:686][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file G:/Escapig/Escapig/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.07.08-13.38.02:686][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.07.08-13.38.02:686][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file G:/Escapig/Escapig/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.07.08-13.38.02:686][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.07.08-13.38.02:804][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.07.08-13.38.02:815][  0]LogDerivedDataCache: Using Local data cache path D:/Users/u1355345.AD/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.07.08-13.38.03:016][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.08-13.38.03:017][  0]LogContentStreaming: Texture pool size is 1000.000000MB
+[2016.07.08-13.38.03:030][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.07.08-13.38.03:030][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.07.08-13.38.03:263][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.07.08-13.38.03:429][  0]LogWindowsMoviePlayer: Unable to load movie: G:/Escapig/Escapig/Content/Movies/Default_Startup.mp4
+[2016.07.08-13.38.03:509][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
+[2016.07.08-13.38.03:585][  0]SourceControl: Info Source control is disabled
+[2016.07.08-13.38.03:585][  0]SourceControl: Info Source control is disabled
+[2016.07.08-13.38.03:599][  0]SourceControl: Info Source control is disabled
+[2016.07.08-13.38.03:684][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.07.08-13.38.03:763][  0]LogObj: 27801 objects as part of root set at end of initial load.
+[2016.07.08-13.38.03:763][  0]LogUObjectAllocator: 5798200 out of 0 bytes used by permanent object pool.
+[2016.07.08-13.38.03:810][  0]LogEngine: Initializing Engine...
+[2016.07.08-13.38.03:811][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.07.08-13.38.03:812][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.07.08-13.38.03:838][  0]LogMaterial: Missing cached shader map for material MAT_LevelColorationLitLightmapUV, compiling. Is special engine material.
+[2016.07.08-13.38.03:838][  0]LogMaterial:Warning: Failed to compile Material /Engine/EngineDebugMaterials/MAT_LevelColorationLitLightmapUV.MAT_LevelColorationLitLightmapUV for platform PCD3D_ES2, Default Material will be used in game.
+[2016.07.08-13.38.03:838][  0]LogMaterial:Warning: 	(Node LightmapUVs) Node not supported in feature level ES2
+[2016.07.08-13.38.03:885][  0]LogInit: XAudio2 using 'BenQ BL3200-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.08-13.38.03:890][  0]LogInit: FAudioDevice initialized.
+[2016.07.08-13.38.03:893][  0]LogInit: Texture streaming: Enabled
+[2016.07.08-13.38.03:903][  0]LogMaterial: Missing cached shader map for material CustomStencil, compiling. 
+[2016.07.08-13.38.03:903][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/CustomStencil.CustomStencil for platform PCD3D_ES2, Default Material will be used in game.
+[2016.07.08-13.38.03:903][  0]LogMaterial:Warning: 	(Node SceneTexture) Node not supported in feature level ES2
+[2016.07.08-13.38.03:954][  0]LogNet: Browse: /Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu?Name=Player
+[2016.07.08-13.38.03:955][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu?Name=Player
+[2016.07.08-13.38.03:962][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000008246DE0
+[2016.07.08-13.38.03:969][  0]LogMemory: Platform Memory Stats for Windows
+[2016.07.08-13.38.03:969][  0]LogMemory: Process Physical Memory: 362.38 MB used, 364.14 MB peak
+[2016.07.08-13.38.03:969][  0]LogMemory: Process Virtual Memory: 386.89 MB used, 392.93 MB peak
+[2016.07.08-13.38.03:969][  0]LogMemory: Physical Memory: 4888.68 MB used, 16222.63 MB total
+[2016.07.08-13.38.03:969][  0]LogMemory: Virtual Memory: 880.45 MB used, 8388608.00 MB total
+[2016.07.08-13.38.03:969][  0]LogMemory: 
+[2016.07.08-13.38.03:969][  0]Allocator Stats for TBB: (not implemented)
+[2016.07.08-13.38.04:228][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BP_Grass-Corner-R_C_21' (it may have been removed)
+[2016.07.08-13.38.04:248][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BP_Grass-Corner-L_C_27' (it may have been removed)
+[2016.07.08-13.38.04:259][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'StaticMesh13' in BlueprintGeneratedClass 'REINST_BP_Floor-Grass_V-2_C_33' (it may have been removed)
+[2016.07.08-13.38.04:259][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'StaticMesh14' in BlueprintGeneratedClass 'REINST_BP_Floor-Grass_V-2_C_33' (it may have been removed)
+[2016.07.08-13.38.04:575][  0]LogAIModule: Creating AISystem for world Menu
+[2016.07.08-13.38.04:575][  0]LogWorld: Game class is 'Escapig_Mode_C'
+[2016.07.08-13.38.04:576][  0]LogWorld: Bringing World /Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu up for play (max tick rate 0) at 2016.07.08-14.38.04
+[2016.07.08-13.38.04:576][  0]LogWorld: Bringing up level for play took: 0.000424
+[2016.07.08-13.38.04:581][  0]LogInit:Display: Game Engine Initialized.
+[2016.07.08-13.38.04:795][  0]LogLoad: Full Startup: 4.28 seconds (BP compile: 0.20 seconds)
+[2016.07.08-13.38.04:847][  1]LogRenderer: Reallocating scene render targets to support 720x1280 (Frame:2).
+[2016.07.08-13.38.04:848][  1]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.04:864][  2]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.04:881][  3]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.04:896][  4]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.04:912][  5]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.04:928][  6]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.04:945][  7]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.04:960][  8]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.04:977][  9]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.04:993][ 10]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:009][ 11]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:025][ 12]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:041][ 13]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:057][ 14]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:073][ 15]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:089][ 16]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:106][ 17]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:122][ 18]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:138][ 19]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:154][ 20]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:170][ 21]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:186][ 22]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:202][ 23]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:218][ 24]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:234][ 25]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:251][ 26]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:267][ 27]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:283][ 28]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:299][ 29]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:315][ 30]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:331][ 31]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:347][ 32]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:364][ 33]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:380][ 34]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:396][ 35]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:412][ 36]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:428][ 37]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:444][ 38]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:460][ 39]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:476][ 40]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:493][ 41]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:509][ 42]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:525][ 43]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:541][ 44]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:557][ 45]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:573][ 46]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:589][ 47]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:605][ 48]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:622][ 49]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:638][ 50]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:654][ 51]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:670][ 52]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:686][ 53]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:702][ 54]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:718][ 55]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:735][ 56]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:751][ 57]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:767][ 58]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:783][ 59]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:799][ 60]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:815][ 61]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:831][ 62]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:848][ 63]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:864][ 64]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:880][ 65]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:896][ 66]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:912][ 67]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:928][ 68]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:944][ 69]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:960][ 70]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:977][ 71]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.05:993][ 72]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:009][ 73]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:025][ 74]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:041][ 75]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:057][ 76]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:073][ 77]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:089][ 78]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:106][ 79]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:122][ 80]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:138][ 81]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:154][ 82]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:170][ 83]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:186][ 84]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:202][ 85]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:218][ 86]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:235][ 87]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:251][ 88]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:267][ 89]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:283][ 90]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:299][ 91]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:315][ 92]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:331][ 93]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:348][ 94]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:364][ 95]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:380][ 96]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:396][ 97]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:412][ 98]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:428][ 99]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:444][100]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:460][101]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:477][102]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:493][103]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:509][104]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:525][105]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:541][106]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:557][107]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:573][108]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:589][109]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:606][110]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:622][111]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:638][112]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:654][113]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:670][114]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:686][115]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:702][116]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:718][117]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:735][118]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:751][119]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:767][120]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:783][121]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:799][122]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:815][123]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:831][124]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:847][125]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:864][126]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:880][127]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:896][128]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:912][129]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:928][130]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:944][131]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:960][132]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:977][133]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.06:993][134]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:009][135]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:025][136]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:041][137]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:057][138]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:073][139]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:089][140]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:106][141]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:122][142]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:138][143]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:154][144]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:170][145]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:186][146]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:202][147]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:218][148]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:235][149]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:251][150]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:267][151]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:283][152]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:299][153]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:315][154]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:331][155]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:348][156]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:364][157]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:380][158]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:396][159]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:412][160]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:428][161]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:444][162]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:460][163]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:477][164]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:493][165]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:509][166]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:525][167]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:541][168]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:557][169]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:573][170]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:589][171]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:606][172]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:622][173]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:638][174]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:654][175]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:670][176]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:686][177]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:702][178]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:719][179]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:735][180]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:751][181]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:767][182]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:783][183]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:799][184]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:815][185]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:831][186]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:848][187]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:864][188]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:880][189]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:896][190]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:912][191]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:928][192]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:944][193]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:960][194]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:977][195]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.07:993][196]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:009][197]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:025][198]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:041][199]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:057][200]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:073][201]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:089][202]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:106][203]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:122][204]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:138][205]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:154][206]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:170][207]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:186][208]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:202][209]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:219][210]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:235][211]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:251][212]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:267][213]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:283][214]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:299][215]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:315][216]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:331][217]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:348][218]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:364][219]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:380][220]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:396][221]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:412][222]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:428][223]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:444][224]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:460][225]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:477][226]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:493][227]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:509][228]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:525][229]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:541][230]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:557][231]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:573][232]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:589][233]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:606][234]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:622][235]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:638][236]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:654][237]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:670][238]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:686][239]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:702][240]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:719][241]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:735][242]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:751][243]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:767][244]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:783][245]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:799][246]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:815][247]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:832][248]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:848][249]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:864][250]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:880][251]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:896][252]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:912][253]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:928][254]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:944][255]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:960][256]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:977][257]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.08:993][258]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:009][259]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:025][260]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:041][261]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:057][262]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:073][263]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:090][264]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:106][265]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:122][266]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:138][267]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:154][268]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:170][269]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:186][270]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:202][271]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:219][272]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:235][273]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:251][274]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:267][275]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:283][276]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:299][277]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:315][278]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:331][279]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:348][280]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:364][281]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:380][282]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:396][283]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:412][284]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:428][285]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:444][286]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:460][287]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:477][288]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:493][289]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:509][290]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:525][291]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:541][292]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:557][293]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:573][294]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:589][295]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:606][296]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:622][297]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:638][298]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:654][299]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:670][300]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:686][301]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:702][302]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:719][303]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:735][304]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:751][305]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:767][306]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:783][307]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:799][308]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:815][309]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:831][310]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:848][311]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:864][312]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:880][313]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:896][314]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:912][315]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:928][316]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:944][317]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:961][318]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:977][319]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.09:993][320]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:009][321]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:025][322]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:041][323]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:057][324]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:073][325]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:090][326]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:106][327]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:122][328]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:138][329]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:154][330]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:170][331]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:186][332]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:203][333]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:219][334]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:235][335]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:251][336]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:267][337]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:283][338]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:299][339]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:315][340]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:331][341]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:348][342]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:364][343]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:380][344]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:396][345]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:412][346]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:428][347]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:444][348]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:460][349]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:477][350]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:493][351]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:509][352]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:525][353]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:541][354]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:557][355]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:573][356]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:590][357]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:606][358]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:622][359]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:638][360]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:654][361]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:670][362]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:686][363]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:702][364]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:719][365]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:735][366]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:751][367]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:767][368]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:783][369]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:799][370]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:815][371]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:831][372]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:848][373]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:864][374]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:880][375]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:896][376]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:912][377]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:928][378]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:944][379]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:961][380]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:977][381]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.10:993][382]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:009][383]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:025][384]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:041][385]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:057][386]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:073][387]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:090][388]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:106][389]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:122][390]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:138][391]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:154][392]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:170][393]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:186][394]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:203][395]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:219][396]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:235][397]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:251][398]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:267][399]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:283][400]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:299][401]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:315][402]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:332][403]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:348][404]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:364][405]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:380][406]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:396][407]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:412][408]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:428][409]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:444][410]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:460][411]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:477][412]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:493][413]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:509][414]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:525][415]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:541][416]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:557][417]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:573][418]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:590][419]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:606][420]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:622][421]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:638][422]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:654][423]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:670][424]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:686][425]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:702][426]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:719][427]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:735][428]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:751][429]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:767][430]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:783][431]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:799][432]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:815][433]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:832][434]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:848][435]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:864][436]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:880][437]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:896][438]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:912][439]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:928][440]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:944][441]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:961][442]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:977][443]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.11:993][444]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.12:009][445]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.12:025][446]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.12:041][447]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.12:057][448]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.12:074][449]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.12:090][450]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.12:106][451]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.12:122][452]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.12:138][453]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.12:154][454]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.12:170][455]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.12:186][456]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.12:203][457]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.12:219][458]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.12:235][459]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.12:251][460]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.12:267][461]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.12:283][462]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.12:299][463]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.12:315][464]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.12:331][465]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.12:348][466]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.12:364][467]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.12:380][468]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.12:396][469]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.12:412][470]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.12:428][471]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.12:444][472]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.12:461][473]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.12:477][474]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.12:493][475]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.12:509][476]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.12:525][477]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.12:541][478]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.12:557][479]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.12:573][480]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.12:590][481]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.12:659][482]LogPackageName: SearchForPackageOnDisk took   0.053s to resolve Escapig_Level.umap.
+[2016.07.08-13.38.12:710][482]LogPackageName: SearchForPackageOnDisk took   0.051s to resolve Escapig_Level.umap.
+[2016.07.08-13.38.12:710][482]LogNet: Browse: /Game/Blueprints/Maps/Escapig_Level
+[2016.07.08-13.38.12:710][482]LogLoad: LoadMap: /Game/Blueprints/Maps/Escapig_Level
+[2016.07.08-13.38.12:740][482]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000EAA2A20
+[2016.07.08-13.38.12:763][482]LogMemory: Platform Memory Stats for Windows
+[2016.07.08-13.38.12:763][482]LogMemory: Process Physical Memory: 380.23 MB used, 380.23 MB peak
+[2016.07.08-13.38.12:763][482]LogMemory: Process Virtual Memory: 407.64 MB used, 409.12 MB peak
+[2016.07.08-13.38.12:763][482]LogMemory: Physical Memory: 4898.80 MB used, 16222.63 MB total
+[2016.07.08-13.38.12:763][482]LogMemory: Virtual Memory: 901.64 MB used, 8388608.00 MB total
+[2016.07.08-13.38.12:763][482]LogMemory: 
+[2016.07.08-13.38.12:763][482]Allocator Stats for TBB: (not implemented)
+[2016.07.08-13.38.13:018][482]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BP_Grass-Corner-R_C_93' (it may have been removed)
+[2016.07.08-13.38.13:037][482]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BP_Grass-Corner-L_C_99' (it may have been removed)
+[2016.07.08-13.38.13:047][482]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'StaticMesh13' in BlueprintGeneratedClass 'REINST_BP_Floor-Grass_V-2_C_105' (it may have been removed)
+[2016.07.08-13.38.13:047][482]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'StaticMesh14' in BlueprintGeneratedClass 'REINST_BP_Floor-Grass_V-2_C_105' (it may have been removed)
+[2016.07.08-13.38.13:429][482]LogAIModule: Creating AISystem for world Escapig_Level
+[2016.07.08-13.38.13:429][482]LogWorld: Game class is 'Escapig_Mode_C'
+[2016.07.08-13.38.13:431][482]LogWorld: Bringing World /Game/Blueprints/Maps/Escapig_Level.Escapig_Level up for play (max tick rate 0) at 2016.07.08-14.38.13
+[2016.07.08-13.38.13:431][482]LogWorld: Bringing up level for play took: 0.000912
+[2016.07.08-13.38.13:435][482]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.13:456][483]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.13:458][484]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.13:474][485]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.13:474][485]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.13:490][486]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.13:490][486]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.13:506][487]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.13:506][487]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.13:522][488]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.13:522][488]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.13:538][489]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.13:538][489]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.13:554][490]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.13:554][490]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.13:570][491]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.13:571][491]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.13:586][492]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.13:587][492]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.13:603][493]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.13:603][493]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.13:619][494]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.13:619][494]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.13:635][495]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.13:635][495]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.13:651][496]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.13:651][496]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.13:667][497]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.13:667][497]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.13:683][498]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.13:683][498]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.13:699][499]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.13:700][499]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.13:716][500]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.13:716][500]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.13:732][501]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.13:732][501]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.13:748][502]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.13:748][502]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.13:764][503]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.13:764][503]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.13:780][504]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.13:780][504]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.13:796][505]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.13:796][505]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.13:812][506]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.13:812][506]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.13:828][507]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.13:829][507]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.13:845][508]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.13:845][508]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.13:861][509]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.13:861][509]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.13:877][510]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.13:877][510]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.13:893][511]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.13:893][511]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.13:909][512]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.13:909][512]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.13:925][513]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.13:925][513]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.13:941][514]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.13:941][514]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.13:957][515]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.13:958][515]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.13:974][516]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.13:974][516]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.13:990][517]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.13:990][517]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:006][518]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:006][518]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:022][519]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:022][519]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:038][520]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:038][520]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:054][521]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:054][521]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:070][522]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:071][522]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:086][523]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:087][523]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:103][524]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:103][524]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:119][525]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:119][525]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:135][526]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:135][526]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:151][527]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:151][527]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:167][528]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:167][528]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:183][529]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:183][529]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:199][530]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:199][530]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:215][531]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:216][531]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:232][532]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:232][532]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:248][533]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:248][533]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:264][534]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:264][534]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:280][535]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:280][535]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:296][536]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:296][536]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:312][537]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:312][537]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:328][538]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:329][538]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:345][539]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:345][539]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:361][540]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:361][540]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:377][541]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:377][541]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:393][542]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:393][542]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:409][543]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:409][543]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:425][544]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:425][544]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:441][545]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:442][545]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:457][546]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:458][546]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:474][547]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:474][547]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:490][548]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:490][548]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:506][549]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:506][549]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:522][550]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:522][550]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:538][551]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:538][551]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:554][552]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:554][552]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:570][553]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:570][553]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:586][554]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:587][554]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:603][555]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:603][555]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:619][556]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:619][556]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:635][557]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:635][557]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:651][558]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:651][558]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:667][559]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:667][559]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:683][560]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:683][560]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:699][561]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:700][561]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:715][562]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:716][562]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:732][563]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:732][563]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:748][564]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:748][564]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:764][565]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:764][565]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:780][566]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:780][566]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:796][567]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:796][567]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:812][568]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:812][568]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:828][569]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:829][569]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:845][570]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:845][570]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:861][571]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:861][571]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:877][572]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:877][572]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:893][573]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:893][573]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:909][574]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:909][574]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:925][575]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:925][575]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:941][576]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:941][576]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:957][577]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:958][577]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:961][577]LogBlueprintUserMessages: [PigChar_C_0] 3
+[2016.07.08-13.38.14:974][578]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:974][578]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.14:990][579]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.14:990][579]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:006][580]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:006][580]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:022][581]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:022][581]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:038][582]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:038][582]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:054][583]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:054][583]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:070][584]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:070][584]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:086][585]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:087][585]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:102][586]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:103][586]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:119][587]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:119][587]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:135][588]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:135][588]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:151][589]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:151][589]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:167][590]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:167][590]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:183][591]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:183][591]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:199][592]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:199][592]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:215][593]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:216][593]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:232][594]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:232][594]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:248][595]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:248][595]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:264][596]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:264][596]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:280][597]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:280][597]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:296][598]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:296][598]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:312][599]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:312][599]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:328][600]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:329][600]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:344][601]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:345][601]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:361][602]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:361][602]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:377][603]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:377][603]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:393][604]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:393][604]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:409][605]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:409][605]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:425][606]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:425][606]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:441][607]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:441][607]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:457][608]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:458][608]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:473][609]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:474][609]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:490][610]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:490][610]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:506][611]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:506][611]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:522][612]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:522][612]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:538][613]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:538][613]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:554][614]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:554][614]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:570][615]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:570][615]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:586][616]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:587][616]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:603][617]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:603][617]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:619][618]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:619][618]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:635][619]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:635][619]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:651][620]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:651][620]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:667][621]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:667][621]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:683][622]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:683][622]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:699][623]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:699][623]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:715][624]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:716][624]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:732][625]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:732][625]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:748][626]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:748][626]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:764][627]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:764][627]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:780][628]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:780][628]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:796][629]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:796][629]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:812][630]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:812][630]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:828][631]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:829][631]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:844][632]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:845][632]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:861][633]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:861][633]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:877][634]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:877][634]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:893][635]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:893][635]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:909][636]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:909][636]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:925][637]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:925][637]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:941][638]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:941][638]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:958][639]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:958][639]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:974][640]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:974][640]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.15:990][641]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.15:990][641]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:006][642]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:006][642]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:022][643]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:022][643]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:038][644]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:038][644]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:054][645]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:054][645]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:070][646]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:071][646]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:086][647]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:087][647]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:103][648]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:103][648]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:119][649]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:119][649]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:135][650]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:135][650]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:151][651]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:151][651]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:167][652]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:167][652]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:183][653]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:183][653]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:199][654]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:199][654]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:215][655]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:216][655]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:232][656]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:232][656]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:248][657]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:248][657]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:264][658]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:264][658]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:280][659]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:280][659]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:296][660]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:296][660]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:312][661]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:312][661]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:328][662]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:329][662]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:345][663]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:345][663]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:361][664]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:361][664]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:377][665]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:377][665]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:393][666]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:393][666]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:409][667]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:409][667]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:425][668]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:425][668]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:441][669]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:441][669]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:457][670]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:458][670]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:474][671]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:474][671]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:490][672]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:490][672]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:506][673]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:506][673]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:522][674]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:522][674]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:538][675]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:538][675]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:554][676]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:554][676]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:570][677]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:571][677]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:586][678]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:587][678]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:603][679]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:603][679]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:619][680]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:619][680]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:635][681]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:635][681]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:651][682]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:651][682]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:667][683]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:667][683]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:683][684]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:683][684]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:699][685]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:700][685]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:715][686]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:716][686]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:732][687]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:732][687]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:748][688]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:748][688]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:764][689]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:764][689]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:780][690]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:780][690]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:796][691]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:796][691]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:812][692]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:812][692]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:828][693]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:829][693]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:845][694]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:845][694]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:861][695]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:861][695]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:877][696]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:877][696]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:893][697]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:893][697]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:909][698]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:909][698]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:925][699]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:925][699]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:941][700]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:941][700]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:957][701]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:958][701]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:974][702]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:974][702]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.16:990][703]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.16:990][703]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:006][704]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:006][704]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:022][705]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:022][705]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:038][706]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:038][706]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:054][707]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:054][707]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:070][708]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:071][708]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:087][709]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:087][709]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:103][710]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:103][710]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:119][711]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:119][711]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:135][712]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:135][712]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:151][713]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:151][713]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:167][714]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:167][714]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:183][715]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:183][715]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:199][716]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:200][716]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:216][717]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:216][717]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:232][718]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:232][718]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:248][719]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:248][719]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:264][720]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:264][720]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:280][721]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:280][721]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:296][722]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:296][722]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:312][723]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:313][723]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:328][724]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:329][724]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:345][725]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:345][725]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:361][726]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:361][726]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:377][727]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:377][727]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:393][728]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:393][728]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:409][729]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:409][729]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:425][730]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:425][730]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:441][731]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:441][731]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:457][732]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:458][732]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:474][733]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:474][733]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:490][734]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:490][734]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:506][735]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:506][735]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:522][736]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:522][736]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:538][737]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:538][737]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:554][738]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:554][738]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:570][739]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:571][739]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:587][740]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:587][740]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:603][741]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:603][741]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:619][742]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:619][742]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:635][743]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:635][743]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:651][744]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:651][744]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:667][745]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:667][745]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:683][746]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:684][746]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:699][747]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:700][747]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:716][748]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:716][748]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:732][749]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:732][749]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:748][750]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:748][750]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:764][751]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:764][751]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:780][752]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:780][752]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:796][753]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:796][753]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:812][754]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:813][754]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:831][755]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:831][755]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:845][756]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:845][756]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:861][757]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:861][757]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:877][758]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:877][758]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:893][759]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:893][759]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:909][760]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:909][760]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:925][761]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:925][761]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:941][762]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:941][762]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:958][763]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:958][763]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:974][764]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:974][764]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.17:990][765]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.17:990][765]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:006][766]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:006][766]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:022][767]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:022][767]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:038][768]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:038][768]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:054][769]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:054][769]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:070][770]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:071][770]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:087][771]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:087][771]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:103][772]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:103][772]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:119][773]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:119][773]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:135][774]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:135][774]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:151][775]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:151][775]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:167][776]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:167][776]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:183][777]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:184][777]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:199][778]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:200][778]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:216][779]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:216][779]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:232][780]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:232][780]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:248][781]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:248][781]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:264][782]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:264][782]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:280][783]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:280][783]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:296][784]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:297][784]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:312][785]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:313][785]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:329][786]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:329][786]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:345][787]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:345][787]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:361][788]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:361][788]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:377][789]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:377][789]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:393][790]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:393][790]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:409][791]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:409][791]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:425][792]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:426][792]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:441][793]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:442][793]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:458][794]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:458][794]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:474][795]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:474][795]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:490][796]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:490][796]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:506][797]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:506][797]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:522][798]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:522][798]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:538][799]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:538][799]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:554][800]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:555][800]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:571][801]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:571][801]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:587][802]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:587][802]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:603][803]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:603][803]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:619][804]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:619][804]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:635][805]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:635][805]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:651][806]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:651][806]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:667][807]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:667][807]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:683][808]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:684][808]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:687][808]LogBlueprintUserMessages: [PigChar_C_0] 2
+[2016.07.08-13.38.18:700][809]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:700][809]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:716][810]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:716][810]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:732][811]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:732][811]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:748][812]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:748][812]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:764][813]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:764][813]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:780][814]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:780][814]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:796][815]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:796][815]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:812][816]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:813][816]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:829][817]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:829][817]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:845][818]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:845][818]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:861][819]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:861][819]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:877][820]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:877][820]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:893][821]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:893][821]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:909][822]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:909][822]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:925][823]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:926][823]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:941][824]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:942][824]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:958][825]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:958][825]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:974][826]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:974][826]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.18:990][827]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.18:990][827]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.19:006][828]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.19:006][828]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.19:022][829]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.19:022][829]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.19:038][830]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.19:038][830]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.19:054][831]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.19:055][831]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.19:071][832]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.19:071][832]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.19:087][833]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.19:087][833]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.19:103][834]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.19:103][834]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.19:119][835]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.19:119][835]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.19:135][836]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.19:135][836]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.19:151][837]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.19:152][837]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.19:167][838]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.19:167][838]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.19:183][839]LogCharacterMovement: PigChar_C_0 is stuck and failed to move!
+[2016.07.08-13.38.19:184][839]LogBlueprintUserMessages: [PigChar_C_0] 44
+[2016.07.08-13.38.19:384][840]LogEngine: All Windows Closed
+[2016.07.08-13.38.19:384][840]LogWindows: FPlatformMisc::RequestExit(0)
+[2016.07.08-13.38.19:814][841]LogExit: Preparing to exit.
+[2016.07.08-13.38.19:918][841]LogExit: Game engine shut down
+[2016.07.08-13.38.19:922][841]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000020FE3BA0
+[2016.07.08-13.38.20:041][841]LogExit: Object subsystem successfully closed.
+[2016.07.08-13.38.20:055][841]LogD3D11RHI: Shutdown
+[2016.07.08-13.38.20:055][841]LogD3D11RHI: CleanupD3DDevice
+[2016.07.08-13.38.20:078][841]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.07.08-13.38.20:090][841]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (117)
+[2016.07.08-13.38.20:801][841]LogModuleManager: Shutting down and abandoning module AutomationController (116)
+[2016.07.08-13.38.20:801][841]LogModuleManager: Shutting down and abandoning module AutomationWorker (115)
+[2016.07.08-13.38.20:801][841]LogModuleManager: Shutting down and abandoning module CharacterAI (114)
+[2016.07.08-13.38.20:801][841]LogModuleManager: Shutting down and abandoning module AITestSuite (113)
+[2016.07.08-13.38.20:801][841]LogModuleManager: Shutting down and abandoning module GameplayDebugger (112)
+[2016.07.08-13.38.20:801][841]LogModuleManager: Shutting down and abandoning module AIModule (111)
+[2016.07.08-13.38.20:801][841]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (110)
+[2016.07.08-13.38.20:801][841]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (109)
+[2016.07.08-13.38.20:801][841]LogModuleManager: Shutting down and abandoning module ProfilerService (108)
+[2016.07.08-13.38.21:020][841]LogModuleManager: Shutting down and abandoning module TaskGraph (107)
+[2016.07.08-13.38.21:020][841]LogModuleManager: Shutting down and abandoning module SlateRemote (106)
+[2016.07.08-13.38.21:020][841]LogModuleManager: Shutting down and abandoning module SteamVRController (105)
+[2016.07.08-13.38.21:020][841]LogModuleManager: Shutting down and abandoning module SteamVR (104)
+[2016.07.08-13.38.21:020][841]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (103)
+[2016.07.08-13.38.21:020][841]LogModuleManager: Shutting down and abandoning module OculusRift (102)
+[2016.07.08-13.38.21:020][841]LogModuleManager: Shutting down and abandoning module OculusLibrary (101)
+[2016.07.08-13.38.21:020][841]LogModuleManager: Shutting down and abandoning module LeapMotionController (100)
+[2016.07.08-13.38.21:033][841]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (99)
+[2016.07.08-13.38.21:033][841]LogModuleManager: Shutting down and abandoning module CableComponent (98)
+[2016.07.08-13.38.21:033][841]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (97)
+[2016.07.08-13.38.21:033][841]LogModuleManager: Shutting down and abandoning module HTML5Networking (96)
+[2016.07.08-13.38.21:033][841]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
+[2016.07.08-13.38.21:033][841]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (94)
+[2016.07.08-13.38.21:033][841]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.07.08-13.38.21:033][841]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (92)
+[2016.07.08-13.38.21:033][841]LogModuleManager: Shutting down and abandoning module UObjectPlugin (91)
+[2016.07.08-13.38.21:033][841]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (90)
+[2016.07.08-13.38.21:033][841]LogModuleManager: Shutting down and abandoning module SourceControl (89)
+[2016.07.08-13.38.21:033][841]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2016.07.08-13.38.21:033][841]LogModuleManager: Shutting down and abandoning module UdpMessaging (87)
+[2016.07.08-13.38.21:033][841]LogModuleManager: Shutting down and abandoning module AssetRegistry (86)
+[2016.07.08-13.38.21:033][841]LogModuleManager: Shutting down and abandoning module SubstanceCore (85)
+[2016.07.08-13.38.21:033][841]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2016.07.08-13.38.21:033][841]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2016.07.08-13.38.21:033][841]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2016.07.08-13.38.21:034][841]LogModuleManager: Shutting down and abandoning module Media (81)
+[2016.07.08-13.38.21:034][841]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2016.07.08-13.38.21:035][841]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2016.07.08-13.38.21:036][841]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2016.07.08-13.38.21:036][841]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2016.07.08-13.38.21:036][841]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2016.07.08-13.38.21:036][841]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2016.07.08-13.38.21:036][841]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2016.07.08-13.38.21:036][841]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2016.07.08-13.38.21:036][841]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2016.07.08-13.38.21:036][841]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2016.07.08-13.38.21:036][841]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2016.07.08-13.38.21:036][841]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2016.07.08-13.38.21:036][841]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2016.07.08-13.38.21:036][841]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2016.07.08-13.38.21:036][841]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2016.07.08-13.38.21:037][841]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2016.07.08-13.38.21:037][841]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2016.07.08-13.38.21:038][841]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2016.07.08-13.38.21:038][841]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2016.07.08-13.38.21:038][841]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2016.07.08-13.38.21:038][841]LogModuleManager: Shutting down and abandoning module Core (59)
+[2016.07.08-13.38.21:038][841]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2016.07.08-13.38.21:038][841]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2016.07.08-13.38.21:038][841]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2016.07.08-13.38.21:038][841]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2016.07.08-13.38.21:038][841]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2016.07.08-13.38.21:305][841]LogDerivedDataCache: Shutdown
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.07.08-13.38.21:305][841]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.07.08-13.38.21:306][841]LogExit: Exiting.
+[2016.07.08-13.38.21:307][841]Log file closed, 07/08/16 14:38:21
