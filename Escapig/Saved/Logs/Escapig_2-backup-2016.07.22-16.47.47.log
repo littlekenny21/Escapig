@@ -1,0 +1,218 @@
+﻿[2016.07.22-15.47.34:781][  0]Log file open, 07/22/16 16:47:34
+[2016.07.22-15.47.34:781][  0]LogInit:Display: Running engine for game: Escapig
+[2016.07.22-15.47.34:781][  0]LogInit:Display: RandInit(622227704) SRandInit(622227704).
+[2016.07.22-15.47.34:781][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.07.22-15.47.34:781][  0]LogStats: Stats thread started at 0.082398
+[2016.07.22-15.47.34:781][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.07.22-15.47.34:781][  0]LogInit: API Version: 2672455
+[2016.07.22-15.47.34:781][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.07.22-15.47.34:781][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.07.22-15.47.34:781][  0]LogInit: Build Configuration: Development
+[2016.07.22-15.47.34:781][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.07.22-15.47.34:781][  0]LogInit: Command line:  /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level -game -PIEVIACONSOLE -ResX=480 -ResY=720  -Multiprocess -featureleveles2 -faketouches 
+[2016.07.22-15.47.34:781][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.07.22-15.47.34:781][  0]LogInit: Rocket: 1
+[2016.07.22-15.47.34:793][  0]LogInit: Using libcurl 7.41.0
+[2016.07.22-15.47.34:793][  0]LogInit:  - built for x86_64-pc-win32
+[2016.07.22-15.47.34:793][  0]LogInit:  - supports SSL with WinSSL
+[2016.07.22-15.47.34:793][  0]LogInit:  - other features:
+[2016.07.22-15.47.34:793][  0]LogInit:      CURL_VERSION_SSL
+[2016.07.22-15.47.34:793][  0]LogInit:      CURL_VERSION_IPV6
+[2016.07.22-15.47.34:793][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.07.22-15.47.34:793][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.07.22-15.47.34:793][  0]LogInit:      CURL_VERSION_IDN
+[2016.07.22-15.47.34:793][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.07.22-15.47.34:793][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.07.22-15.47.34:793][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.07.22-15.47.34:793][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.07.22-15.47.34:793][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.07.22-15.47.34:801][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.07.22-15.47.34:808][  0]LogInit: Object subsystem initialized
+[2016.07.22-15.47.34:809][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.22-15.47.34:809][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.07.22-15.47.34:813][  0]LogInit: Computer: CE215-03
+[2016.07.22-15.47.34:814][  0]LogInit: User: Administrator
+[2016.07.22-15.47.34:814][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.07.22-15.47.34:814][  0]LogInit: High frequency timer resolution =3.507675 MHz
+[2016.07.22-15.47.34:814][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2016.07.22-15.47.34:814][  0]LogMemory: Platform Memory Stats for Windows
+[2016.07.22-15.47.34:814][  0]LogMemory: Process Physical Memory: 54.49 MB used, 54.49 MB peak
+[2016.07.22-15.47.34:814][  0]LogMemory: Process Virtual Memory: 59.25 MB used, 59.25 MB peak
+[2016.07.22-15.47.34:814][  0]LogMemory: Physical Memory: 4848.79 MB used, 16221.48 MB total
+[2016.07.22-15.47.34:814][  0]LogMemory: Virtual Memory: 339.64 MB used, 8388608.00 MB total
+[2016.07.22-15.47.34:859][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.07.22-15.47.35:450][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.07.22-15.47.35:450][  0]LogD3D11RHI: Adapter has 4008MB of dedicated video memory, 0MB of dedicated system memory, and 7854MB of shared system memory, 1 output[s]
+[2016.07.22-15.47.35:456][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2016.07.22-15.47.35:456][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 0 output[s]
+[2016.07.22-15.47.35:457][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.07.22-15.47.35:462][  0]LogD3D11RHI: !Direct3DDevice
+[2016.07.22-15.47.35:462][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.07.22-15.47.35:468][  0]LogD3D11RHI: Async texture creation enabled
+[2016.07.22-15.47.35:481][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (H:/Escapig/Escapig/Intermediate/Shaders/WorkingDirectory/7756/).
+[2016.07.22-15.47.35:481][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'H:/Escapig/Escapig/Intermediate/Shaders/tmp/0E11BCC748FFC9EA3F66F09BEF394F98/'.
+[2016.07.22-15.47.35:481][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.07.22-15.47.36:408][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.07.22-15.47.36:412][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.07.22-15.47.36:417][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.07.22-15.47.36:423][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.07.22-15.47.36:430][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.07.22-15.47.36:434][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.07.22-15.47.36:436][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.07.22-15.47.36:439][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.07.22-15.47.36:443][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.07.22-15.47.36:448][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.07.22-15.47.36:452][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.07.22-15.47.36:457][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.07.22-15.47.36:457][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.07.22-15.47.36:474][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.07.22-15.47.36:476][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.07.22-15.47.36:479][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.07.22-15.47.36:482][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.07.22-15.47.36:482][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.07.22-15.47.36:548][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.07.22-15.47.36:588][  0]LogDerivedDataCache: Loaded boot cache 0.04s 44MB D:/Users/Administrator/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.07.22-15.47.36:588][  0]LogDerivedDataCache:Display: Loaded Boot cache: D:/Users/Administrator/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.07.22-15.47.36:588][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file H:/Escapig/Escapig/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.07.22-15.47.36:588][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.07.22-15.47.36:588][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file H:/Escapig/Escapig/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.07.22-15.47.36:588][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.07.22-15.47.36:721][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.07.22-15.47.36:732][  0]LogDerivedDataCache: Using Local data cache path D:/Users/Administrator/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.07.22-15.47.36:897][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.22-15.47.36:898][  0]LogContentStreaming: Texture pool size is 1000.000000MB
+[2016.07.22-15.47.36:911][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.07.22-15.47.36:911][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.07.22-15.47.37:154][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.07.22-15.47.37:316][  0]LogWindowsMoviePlayer: Unable to load movie: H:/Escapig/Escapig/Content/Movies/Default_Startup.mp4
+[2016.07.22-15.47.37:423][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
+[2016.07.22-15.47.37:445][  0]SourceControl: Info Source control is disabled
+[2016.07.22-15.47.37:445][  0]SourceControl: Info Source control is disabled
+[2016.07.22-15.47.37:454][  0]SourceControl: Info Source control is disabled
+[2016.07.22-15.47.37:535][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.07.22-15.47.37:618][  0]LogObj: 27801 objects as part of root set at end of initial load.
+[2016.07.22-15.47.37:618][  0]LogUObjectAllocator: 5798192 out of 0 bytes used by permanent object pool.
+[2016.07.22-15.47.37:669][  0]LogEngine: Initializing Engine...
+[2016.07.22-15.47.37:672][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.07.22-15.47.37:672][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.07.22-15.47.37:698][  0]LogMaterial: Missing cached shader map for material MAT_LevelColorationLitLightmapUV, compiling. Is special engine material.
+[2016.07.22-15.47.37:698][  0]LogMaterial:Warning: Failed to compile Material /Engine/EngineDebugMaterials/MAT_LevelColorationLitLightmapUV.MAT_LevelColorationLitLightmapUV for platform PCD3D_ES2, Default Material will be used in game.
+[2016.07.22-15.47.37:698][  0]LogMaterial:Warning: 	(Node LightmapUVs) Node not supported in feature level ES2
+[2016.07.22-15.47.37:741][  0]LogInit: No audio devices found!
+[2016.07.22-15.47.37:744][  0]LogInit: Texture streaming: Enabled
+[2016.07.22-15.47.37:756][  0]LogMaterial: Missing cached shader map for material CustomStencil, compiling. 
+[2016.07.22-15.47.37:757][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/CustomStencil.CustomStencil for platform PCD3D_ES2, Default Material will be used in game.
+[2016.07.22-15.47.37:757][  0]LogMaterial:Warning: 	(Node SceneTexture) Node not supported in feature level ES2
+[2016.07.22-15.47.37:802][  0]LogMaterial: Missing cached shader map for material AmbientOcclusion, compiling. 
+[2016.07.22-15.47.37:808][  0]LogMaterial: Missing cached shader map for material CustomDepthWorldUnits, compiling. 
+[2016.07.22-15.47.37:811][  0]LogMaterial: Missing cached shader map for material SceneDepthWorldUnits, compiling. 
+[2016.07.22-15.47.37:820][  0]LogNet: Browse: /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level?Name=Player
+[2016.07.22-15.47.37:820][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level?Name=Player
+[2016.07.22-15.47.37:831][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F955DA0
+[2016.07.22-15.47.37:842][  0]LogMemory: Platform Memory Stats for Windows
+[2016.07.22-15.47.37:842][  0]LogMemory: Process Physical Memory: 362.68 MB used, 362.68 MB peak
+[2016.07.22-15.47.37:842][  0]LogMemory: Process Virtual Memory: 376.59 MB used, 382.31 MB peak
+[2016.07.22-15.47.37:842][  0]LogMemory: Physical Memory: 5136.01 MB used, 16221.48 MB total
+[2016.07.22-15.47.37:842][  0]LogMemory: Virtual Memory: 860.06 MB used, 8388608.00 MB total
+[2016.07.22-15.47.37:842][  0]LogMemory: 
+[2016.07.22-15.47.37:842][  0]Allocator Stats for TBB: (not implemented)
+[2016.07.22-15.47.38:304][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BP_Village-Corner-R_C_22' (it may have been removed)
+[2016.07.22-15.47.38:317][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BP_Village-Corner-L_C_25' (it may have been removed)
+[2016.07.22-15.47.38:412][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BP_Grass-Corner-R_C_36' (it may have been removed)
+[2016.07.22-15.47.38:437][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BP_Grass-Corner-L_C_42' (it may have been removed)
+[2016.07.22-15.47.38:942][  0]LogMaterial: Missing cached shader map for material M_Sky_Panning_Clouds2, compiling. 
+[2016.07.22-15.47.38:953][  0]LogMaterial: Missing cached shader map for material Rock_mat, compiling. 
+[2016.07.22-15.47.38:992][  0]LogMaterial: Missing cached shader map for material Truffle_mat, compiling. 
+[2016.07.22-15.47.38:999][  0]LogMaterial: Missing cached shader map for material CubeMaterial, compiling. 
+[2016.07.22-15.47.39:023][  0]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2016.07.22-15.47.39:249][  0]LogMaterial: Missing cached shader map for material Pig_mat, compiling. 
+[2016.07.22-15.47.39:263][  0]LogMaterial: Missing cached shader map for material Floor_mat, compiling. 
+[2016.07.22-15.47.39:272][  0]LogMaterial: Missing cached shader map for material Grass_wheat_mat, compiling. 
+[2016.07.22-15.47.39:295][  0]LogAIModule: Creating AISystem for world Escapig_Level
+[2016.07.22-15.47.39:295][  0]LogWorld: Game class is 'Escapig_Mode_C'
+[2016.07.22-15.47.39:297][  0]LogWorld: Bringing World /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.Escapig_Level up for play (max tick rate 0) at 2016.07.22-16.47.39
+[2016.07.22-15.47.39:298][  0]LogWorld: Bringing up level for play took: 0.001654
+[2016.07.22-15.47.39:308][  0]LogInit:Display: Game Engine Initialized.
+[2016.07.22-15.47.39:565][  0]LogLoad: Full Startup: 5.13 seconds (BP compile: 0.39 seconds)
+[2016.07.22-15.47.39:622][  1]LogRenderer: Reallocating scene render targets to support 480x720 (Frame:2).
+[2016.07.22-15.47.45:023][256]LogScript:Warning: Attempted to get an item from array HarvesterPath out of bounds [0/0]!
+[2016.07.22-15.47.45:023][256]LogScript:Warning: Attempted to remove an item from an invalid index from array HarvesterPath [0/0]!
+[2016.07.22-15.47.45:362][277]LogScript:Warning: Attempted to get an item from array HarvesterPath out of bounds [0/0]!
+[2016.07.22-15.47.45:362][277]LogScript:Warning: Attempted to remove an item from an invalid index from array HarvesterPath [0/0]!
+[2016.07.22-15.47.45:378][278]LogScript:Warning: Attempted to get an item from array HarvesterPath out of bounds [0/0]!
+[2016.07.22-15.47.45:378][278]LogScript:Warning: Attempted to remove an item from an invalid index from array HarvesterPath [0/0]!
+[2016.07.22-15.47.45:394][279]LogScript:Warning: Attempted to get an item from array HarvesterPath out of bounds [0/0]!
+[2016.07.22-15.47.45:394][279]LogScript:Warning: Attempted to remove an item from an invalid index from array HarvesterPath [0/0]!
+[2016.07.22-15.47.45:410][280]LogScript:Warning: Attempted to get an item from array HarvesterPath out of bounds [0/0]!
+[2016.07.22-15.47.45:410][280]LogScript:Warning: Attempted to remove an item from an invalid index from array HarvesterPath [0/0]!
+[2016.07.22-15.47.45:426][281]LogScript:Warning: Attempted to get an item from array HarvesterPath out of bounds [0/0]!
+[2016.07.22-15.47.45:426][281]LogScript:Warning: Attempted to remove an item from an invalid index from array HarvesterPath [0/0]!
+[2016.07.22-15.47.45:442][282]LogScript:Warning: Attempted to get an item from array HarvesterPath out of bounds [0/0]!
+[2016.07.22-15.47.45:443][282]LogScript:Warning: Attempted to remove an item from an invalid index from array HarvesterPath [0/0]!
+[2016.07.22-15.47.45:459][283]LogScript:Warning: Attempted to get an item from array HarvesterPath out of bounds [0/0]!
+[2016.07.22-15.47.45:459][283]LogScript:Warning: Attempted to remove an item from an invalid index from array HarvesterPath [0/0]!
+[2016.07.22-15.47.45:475][284]LogScript:Warning: Attempted to get an item from array HarvesterPath out of bounds [0/0]!
+[2016.07.22-15.47.45:475][284]LogScript:Warning: Attempted to remove an item from an invalid index from array HarvesterPath [0/0]!
+[2016.07.22-15.47.45:491][285]LogScript:Warning: Attempted to get an item from array HarvesterPath out of bounds [0/0]!
+[2016.07.22-15.47.45:491][285]LogScript:Warning: Attempted to remove an item from an invalid index from array HarvesterPath [0/0]!
+[2016.07.22-15.47.45:507][286]LogScript:Warning: Attempted to get an item from array HarvesterPath out of bounds [0/0]!
+[2016.07.22-15.47.45:507][286]LogScript:Warning: Attempted to remove an item from an invalid index from array HarvesterPath [0/0]!
+[2016.07.22-15.47.45:523][287]LogScript:Warning: Attempted to get an item from array HarvesterPath out of bounds [0/0]!
+[2016.07.22-15.47.45:523][287]LogScript:Warning: Attempted to remove an item from an invalid index from array HarvesterPath [0/0]!
+[2016.07.22-15.47.45:539][288]LogScript:Warning: Attempted to get an item from array HarvesterPath out of bounds [0/0]!
+[2016.07.22-15.47.45:539][288]LogScript:Warning: Attempted to remove an item from an invalid index from array HarvesterPath [0/0]!
+[2016.07.22-15.47.45:555][289]LogScript:Warning: Attempted to get an item from array HarvesterPath out of bounds [0/0]!
+[2016.07.22-15.47.45:555][289]LogScript:Warning: Attempted to remove an item from an invalid index from array HarvesterPath [0/0]!
+[2016.07.22-15.47.45:572][290]LogScript:Warning: Attempted to get an item from array HarvesterPath out of bounds [0/0]!
+[2016.07.22-15.47.45:572][290]LogScript:Warning: Attempted to remove an item from an invalid index from array HarvesterPath [0/0]!
+[2016.07.22-15.47.45:588][291]LogScript:Warning: Attempted to get an item from array HarvesterPath out of bounds [0/0]!
+[2016.07.22-15.47.45:588][291]LogScript:Warning: Attempted to remove an item from an invalid index from array HarvesterPath [0/0]!
+[2016.07.22-15.47.45:604][292]LogScript:Warning: Attempted to get an item from array HarvesterPath out of bounds [0/0]!
+[2016.07.22-15.47.45:604][292]LogScript:Warning: Attempted to remove an item from an invalid index from array HarvesterPath [0/0]!
+[2016.07.22-15.47.45:620][293]LogScript:Warning: Attempted to get an item from array HarvesterPath out of bounds [0/0]!
+[2016.07.22-15.47.45:620][293]LogScript:Warning: Attempted to remove an item from an invalid index from array HarvesterPath [0/0]!
+[2016.07.22-15.47.45:636][294]LogScript:Warning: Attempted to get an item from array HarvesterPath out of bounds [0/0]!
+[2016.07.22-15.47.45:636][294]LogScript:Warning: Attempted to remove an item from an invalid index from array HarvesterPath [0/0]!
+[2016.07.22-15.47.45:652][295]LogScript:Warning: Attempted to get an item from array HarvesterPath out of bounds [0/0]!
+[2016.07.22-15.47.45:652][295]LogScript:Warning: Attempted to remove an item from an invalid index from array HarvesterPath [0/0]!
+[2016.07.22-15.47.45:668][296]LogScript:Warning: Attempted to get an item from array HarvesterPath out of bounds [0/0]!
+[2016.07.22-15.47.45:668][296]LogScript:Warning: Attempted to remove an item from an invalid index from array HarvesterPath [0/0]!
+[2016.07.22-15.47.45:684][297]LogScript:Warning: Attempted to get an item from array HarvesterPath out of bounds [0/0]!
+[2016.07.22-15.47.45:684][297]LogScript:Warning: Attempted to remove an item from an invalid index from array HarvesterPath [0/0]!
+[2016.07.22-15.47.45:701][298]LogScript:Warning: Attempted to get an item from array HarvesterPath out of bounds [0/0]!
+[2016.07.22-15.47.45:701][298]LogScript:Warning: Attempted to remove an item from an invalid index from array HarvesterPath [0/0]!
+[2016.07.22-15.47.45:717][299]LogScript:Warning: Attempted to get an item from array HarvesterPath out of bounds [0/0]!
+[2016.07.22-15.47.45:717][299]LogScript:Warning: Attempted to remove an item from an invalid index from array HarvesterPath [0/0]!
+[2016.07.22-15.47.45:733][300]LogScript:Warning: Attempted to get an item from array HarvesterPath out of bounds [0/0]!
+[2016.07.22-15.47.45:733][300]LogScript:Warning: Attempted to remove an item from an invalid index from array HarvesterPath [0/0]!
+[2016.07.22-15.47.45:749][301]LogScript:Warning: Attempted to get an item from array HarvesterPath out of bounds [0/0]!
+[2016.07.22-15.47.45:749][301]LogScript:Warning: Attempted to remove an item from an invalid index from array HarvesterPath [0/0]!
+[2016.07.22-15.47.45:765][302]LogScript:Warning: Attempted to get an item from array HarvesterPath out of bounds [0/0]!
+[2016.07.22-15.47.45:765][302]LogScript:Warning: Attempted to remove an item from an invalid index from array HarvesterPath [0/0]!
+[2016.07.22-15.47.45:781][303]LogScript:Warning: Attempted to get an item from array HarvesterPath out of bounds [0/0]!
+[2016.07.22-15.47.45:781][303]LogScript:Warning: Attempted to remove an item from an invalid index from array HarvesterPath [0/0]!
+[2016.07.22-15.47.45:797][304]LogScript:Warning: Attempted to get an item from array HarvesterPath out of bounds [0/0]!
+[2016.07.22-15.47.45:797][304]LogScript:Warning: Attempted to remove an item from an invalid index from array HarvesterPath [0/0]!
+[2016.07.22-15.47.45:813][305]LogScript:Warning: Attempted to get an item from array HarvesterPath out of bounds [0/0]!
+[2016.07.22-15.47.45:814][305]LogScript:Warning: Attempted to remove an item from an invalid index from array HarvesterPath [0/0]!
+[2016.07.22-15.47.45:830][306]LogScript:Warning: Attempted to get an item from array HarvesterPath out of bounds [0/0]!
+[2016.07.22-15.47.45:830][306]LogScript:Warning: Attempted to remove an item from an invalid index from array HarvesterPath [0/0]!
+[2016.07.22-15.47.45:846][307]LogScript:Warning: Attempted to get an item from array HarvesterPath out of bounds [0/0]!
+[2016.07.22-15.47.45:846][307]LogScript:Warning: Attempted to remove an item from an invalid index from array HarvesterPath [0/0]!
+[2016.07.22-15.47.45:862][308]LogScript:Warning: Attempted to get an item from array HarvesterPath out of bounds [0/0]!
+[2016.07.22-15.47.45:862][308]LogScript:Warning: Attempted to remove an item from an invalid index from array HarvesterPath [0/0]!
+[2016.07.22-15.47.45:878][309]LogScript:Warning: Attempted to get an item from array HarvesterPath out of bounds [0/0]!
+[2016.07.22-15.47.45:878][309]LogScript:Warning: Attempted to remove an item from an invalid index from array HarvesterPath [0/0]!
+[2016.07.22-15.47.45:894][310]LogScript:Warning: Attempted to get an item from array HarvesterPath out of bounds [0/0]!
+[2016.07.22-15.47.45:894][310]LogScript:Warning: Attempted to remove an item from an invalid index from array HarvesterPath [0/0]!
+[2016.07.22-15.47.45:910][311]LogScript:Warning: Attempted to get an item from array HarvesterPath out of bounds [0/0]!
+[2016.07.22-15.47.45:910][311]LogScript:Warning: Attempted to remove an item from an invalid index from array HarvesterPath [0/0]!
+[2016.07.22-15.47.45:926][312]LogScript:Warning: Attempted to get an item from array HarvesterPath out of bounds [0/0]!
+[2016.07.22-15.47.45:926][312]LogScript:Warning: Attempted to remove an item from an invalid index from array HarvesterPath [0/0]!
+[2016.07.22-15.47.45:943][313]LogScript:Warning: Attempted to get an item from array HarvesterPath out of bounds [0/0]!
+[2016.07.22-15.47.45:943][313]LogScript:Warning: Attempted to remove an item from an invalid index from array HarvesterPath [0/0]!
+[2016.07.22-15.47.45:959][314]LogScript:Warning: Attempted to get an item from array HarvesterPath out of bounds [0/0]!
+[2016.07.22-15.47.45:959][314]LogScript:Warning: Attempted to remove an item from an invalid index from array HarvesterPath [0/0]!
+[2016.07.22-15.47.45:975][315]LogScript:Warning: Attempted to get an item from array HarvesterPath out of bounds [0/0]!
+[2016.07.22-15.47.45:975][315]LogScript:Warning: Attempted to remove an item from an invalid index from array HarvesterPath [0/0]!
+[201

@@ -1,0 +1,119 @@
+﻿[2016.07.22-15.49.15:496][  0]Log file open, 07/22/16 16:49:15
+[2016.07.22-15.49.15:496][  0]LogInit:Display: Running engine for game: Escapig
+[2016.07.22-15.49.15:496][  0]LogInit:Display: RandInit(975424475) SRandInit(975424476).
+[2016.07.22-15.49.15:496][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.07.22-15.49.15:496][  0]LogStats: Stats thread started at 0.073963
+[2016.07.22-15.49.15:496][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.07.22-15.49.15:496][  0]LogInit: API Version: 2672455
+[2016.07.22-15.49.15:496][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.07.22-15.49.15:496][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.07.22-15.49.15:496][  0]LogInit: Build Configuration: Development
+[2016.07.22-15.49.15:496][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.07.22-15.49.15:496][  0]LogInit: Command line:  /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level -game -PIEVIACONSOLE -ResX=480 -ResY=720  -Multiprocess -featureleveles2 -faketouches 
+[2016.07.22-15.49.15:496][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.07.22-15.49.15:496][  0]LogInit: Rocket: 1
+[2016.07.22-15.49.15:516][  0]LogInit: Using libcurl 7.41.0
+[2016.07.22-15.49.15:516][  0]LogInit:  - built for x86_64-pc-win32
+[2016.07.22-15.49.15:516][  0]LogInit:  - supports SSL with WinSSL
+[2016.07.22-15.49.15:516][  0]LogInit:  - other features:
+[2016.07.22-15.49.15:516][  0]LogInit:      CURL_VERSION_SSL
+[2016.07.22-15.49.15:516][  0]LogInit:      CURL_VERSION_IPV6
+[2016.07.22-15.49.15:516][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.07.22-15.49.15:516][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.07.22-15.49.15:516][  0]LogInit:      CURL_VERSION_IDN
+[2016.07.22-15.49.15:516][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.07.22-15.49.15:516][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.07.22-15.49.15:516][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.07.22-15.49.15:516][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.07.22-15.49.15:516][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.07.22-15.49.15:527][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.07.22-15.49.15:534][  0]LogInit: Object subsystem initialized
+[2016.07.22-15.49.15:536][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.22-15.49.15:536][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.07.22-15.49.15:539][  0]LogInit: Computer: CE215-03
+[2016.07.22-15.49.15:539][  0]LogInit: User: Administrator
+[2016.07.22-15.49.15:539][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.07.22-15.49.15:539][  0]LogInit: High frequency timer resolution =3.507675 MHz
+[2016.07.22-15.49.15:539][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2016.07.22-15.49.15:539][  0]LogMemory: Platform Memory Stats for Windows
+[2016.07.22-15.49.15:539][  0]LogMemory: Process Physical Memory: 54.55 MB used, 54.55 MB peak
+[2016.07.22-15.49.15:539][  0]LogMemory: Process Virtual Memory: 59.30 MB used, 59.30 MB peak
+[2016.07.22-15.49.15:539][  0]LogMemory: Physical Memory: 4851.27 MB used, 16221.48 MB total
+[2016.07.22-15.49.15:539][  0]LogMemory: Virtual Memory: 339.64 MB used, 8388608.00 MB total
+[2016.07.22-15.49.15:606][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.07.22-15.49.16:273][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.07.22-15.49.16:273][  0]LogD3D11RHI: Adapter has 4008MB of dedicated video memory, 0MB of dedicated system memory, and 7854MB of shared system memory, 1 output[s]
+[2016.07.22-15.49.16:280][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2016.07.22-15.49.16:280][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 0 output[s]
+[2016.07.22-15.49.16:280][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.07.22-15.49.16:286][  0]LogD3D11RHI: !Direct3DDevice
+[2016.07.22-15.49.16:286][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.07.22-15.49.16:292][  0]LogD3D11RHI: Async texture creation enabled
+[2016.07.22-15.49.16:305][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (H:/Escapig/Escapig/Intermediate/Shaders/WorkingDirectory/9212/).
+[2016.07.22-15.49.16:305][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'H:/Escapig/Escapig/Intermediate/Shaders/tmp/AE6E958F4BBC4D1A448DA1895A380D3C/'.
+[2016.07.22-15.49.16:305][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.07.22-15.49.17:241][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.07.22-15.49.17:245][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.07.22-15.49.17:249][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.07.22-15.49.17:254][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.07.22-15.49.17:258][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.07.22-15.49.17:260][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.07.22-15.49.17:263][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.07.22-15.49.17:266][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.07.22-15.49.17:269][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.07.22-15.49.17:272][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.07.22-15.49.17:275][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.07.22-15.49.17:278][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.07.22-15.49.17:279][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.07.22-15.49.17:297][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.07.22-15.49.17:299][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.07.22-15.49.17:302][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.07.22-15.49.17:305][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.07.22-15.49.17:305][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.07.22-15.49.17:373][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.07.22-15.49.17:415][  0]LogDerivedDataCache: Loaded boot cache 0.04s 44MB D:/Users/Administrator/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.07.22-15.49.17:415][  0]LogDerivedDataCache:Display: Loaded Boot cache: D:/Users/Administrator/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.07.22-15.49.17:415][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file H:/Escapig/Escapig/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.07.22-15.49.17:415][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.07.22-15.49.17:415][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file H:/Escapig/Escapig/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.07.22-15.49.17:415][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.07.22-15.49.17:541][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.07.22-15.49.17:552][  0]LogDerivedDataCache: Using Local data cache path D:/Users/Administrator/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.07.22-15.49.17:726][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.22-15.49.17:727][  0]LogContentStreaming: Texture pool size is 1000.000000MB
+[2016.07.22-15.49.17:740][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.07.22-15.49.17:740][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.07.22-15.49.17:975][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.07.22-15.49.18:152][  0]LogWindowsMoviePlayer: Unable to load movie: H:/Escapig/Escapig/Content/Movies/Default_Startup.mp4
+[2016.07.22-15.49.18:245][  0]LogAssetRegistry: FAssetRegistry took 0.0002 seconds to start up
+[2016.07.22-15.49.18:272][  0]SourceControl: Info Source control is disabled
+[2016.07.22-15.49.18:272][  0]SourceControl: Info Source control is disabled
+[2016.07.22-15.49.18:284][  0]SourceControl: Info Source control is disabled
+[2016.07.22-15.49.18:382][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.07.22-15.49.18:459][  0]LogObj: 27801 objects as part of root set at end of initial load.
+[2016.07.22-15.49.18:459][  0]LogUObjectAllocator: 5798192 out of 0 bytes used by permanent object pool.
+[2016.07.22-15.49.18:514][  0]LogEngine: Initializing Engine...
+[2016.07.22-15.49.18:516][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.07.22-15.49.18:516][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.07.22-15.49.18:546][  0]LogMaterial: Missing cached shader map for material MAT_LevelColorationLitLightmapUV, compiling. Is special engine material.
+[2016.07.22-15.49.18:546][  0]LogMaterial:Warning: Failed to compile Material /Engine/EngineDebugMaterials/MAT_LevelColorationLitLightmapUV.MAT_LevelColorationLitLightmapUV for platform PCD3D_ES2, Default Material will be used in game.
+[2016.07.22-15.49.18:546][  0]LogMaterial:Warning: 	(Node LightmapUVs) Node not supported in feature level ES2
+[2016.07.22-15.49.18:588][  0]LogInit: No audio devices found!
+[2016.07.22-15.49.18:590][  0]LogInit: Texture streaming: Enabled
+[2016.07.22-15.49.18:600][  0]LogMaterial: Missing cached shader map for material CustomStencil, compiling. 
+[2016.07.22-15.49.18:600][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/CustomStencil.CustomStencil for platform PCD3D_ES2, Default Material will be used in game.
+[2016.07.22-15.49.18:600][  0]LogMaterial:Warning: 	(Node SceneTexture) Node not supported in feature level ES2
+[2016.07.22-15.49.18:649][  0]LogNet: Browse: /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level?Name=Player
+[2016.07.22-15.49.18:649][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level?Name=Player
+[2016.07.22-15.49.18:656][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015A7AFC0
+[2016.07.22-15.49.18:663][  0]LogMemory: Platform Memory Stats for Windows
+[2016.07.22-15.49.18:663][  0]LogMemory: Process Physical Memory: 362.61 MB used, 362.73 MB peak
+[2016.07.22-15.49.18:663][  0]LogMemory: Process Virtual Memory: 376.57 MB used, 382.32 MB peak
+[2016.07.22-15.49.18:663][  0]LogMemory: Physical Memory: 5129.79 MB used, 16221.48 MB total
+[2016.07.22-15.49.18:663][  0]LogMemory: Virtual Memory: 860.31 MB used, 8388608.00 MB total
+[2016.07.22-15.49.18:663][  0]LogMemory: 
+[2016.07.22-15.49.18:663][  0]Allocator Stats for TBB: (not implemented)
+[2016.07.22-15.49.19:081][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BP_Village-Corner-R_C_22' (it may have been removed)
+[2016.07.22-15.49.19:093][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BP_Village-Corner-L_C_25' (it may have been removed)
+[2016.07.22-15.49.19:191][  0]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'TurnZone' in BlueprintGeneratedClass 'REINST_BP_Grass-Corner-R_C_36' (it may have been removed)
+[2016.07.22-15.49.19:210][  0]L
