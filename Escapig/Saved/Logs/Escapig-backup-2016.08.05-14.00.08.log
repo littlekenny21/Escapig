@@ -1,0 +1,900 @@
+﻿[2016.08.05-12.30.36:207][  0]Log file open, 08/05/16 13:30:36
+[2016.08.05-12.30.36:207][  0]LogInit:Display: Running engine for game: Escapig
+[2016.08.05-12.30.36:207][  0]LogInit:Display: RandInit(464068635) SRandInit(464068635).
+[2016.08.05-12.30.36:208][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.08.05-12.30.36:208][  0]LogStats: Stats thread started at 0.075124
+[2016.08.05-12.30.36:208][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.08.05-12.30.36:208][  0]LogInit: API Version: 2672455
+[2016.08.05-12.30.36:208][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.08.05-12.30.36:208][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.08.05-12.30.36:208][  0]LogInit: Build Configuration: Development
+[2016.08.05-12.30.36:208][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.08.05-12.30.36:208][  0]LogInit: Command line: -HTTP=WinInet
+[2016.08.05-12.30.36:208][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.08.05-12.30.36:208][  0]LogInit: Rocket: 1
+[2016.08.05-12.30.36:233][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.08.05-12.30.36:239][  0]LogInit: Object subsystem initialized
+[2016.08.05-12.30.36:240][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.05-12.30.36:240][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.08.05-12.30.36:248][  0]LogInit: Computer: CW304-45
+[2016.08.05-12.30.36:248][  0]LogInit: User: u1355345
+[2016.08.05-12.30.36:248][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.08.05-12.30.36:248][  0]LogInit: High frequency timer resolution =3.507656 MHz
+[2016.08.05-12.30.36:248][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2016.08.05-12.30.36:248][  0]LogMemory: Platform Memory Stats for Windows
+[2016.08.05-12.30.36:248][  0]LogMemory: Process Physical Memory: 54.88 MB used, 54.88 MB peak
+[2016.08.05-12.30.36:248][  0]LogMemory: Process Virtual Memory: 57.36 MB used, 57.36 MB peak
+[2016.08.05-12.30.36:248][  0]LogMemory: Physical Memory: 4922.34 MB used, 16222.36 MB total
+[2016.08.05-12.30.36:248][  0]LogMemory: Virtual Memory: 338.84 MB used, 8388608.00 MB total
+[2016.08.05-12.30.36:282][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.08.05-12.30.36:980][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.08.05-12.30.36:980][  0]LogD3D11RHI: Adapter has 4007MB of dedicated video memory, 0MB of dedicated system memory, and 7855MB of shared system memory, 2 output[s]
+[2016.08.05-12.30.37:003][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2016.08.05-12.30.37:003][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 0 output[s]
+[2016.08.05-12.30.37:003][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.08.05-12.30.37:009][  0]LogD3D11RHI: !Direct3DDevice
+[2016.08.05-12.30.37:010][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.08.05-12.30.37:020][  0]LogD3D11RHI: Async texture creation enabled
+[2016.08.05-12.30.37:034][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (F:/Escapig/Escapig/Intermediate/Shaders/WorkingDirectory/8232/).
+[2016.08.05-12.30.37:034][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'F:/Escapig/Escapig/Intermediate/Shaders/tmp/058AB66D446BB9339598D2B85FE170EF/'.
+[2016.08.05-12.30.37:034][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.08.05-12.30.38:044][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.08.05-12.30.38:049][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.08.05-12.30.38:054][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.08.05-12.30.38:059][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.08.05-12.30.38:064][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.08.05-12.30.38:067][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.08.05-12.30.38:070][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.08.05-12.30.38:073][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.08.05-12.30.38:076][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.08.05-12.30.38:079][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.08.05-12.30.38:083][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.08.05-12.30.38:086][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.08.05-12.30.38:087][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.08.05-12.30.38:103][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.08.05-12.30.38:106][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.08.05-12.30.38:108][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.08.05-12.30.38:112][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.08.05-12.30.38:112][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.08.05-12.30.38:203][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.08.05-12.30.38:265][  0]LogDerivedDataCache: Loaded boot cache 0.06s 44MB D:/Users/u1355345/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.08.05-12.30.38:265][  0]LogDerivedDataCache:Display: Loaded Boot cache: D:/Users/u1355345/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.08.05-12.30.38:265][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/Escapig/Escapig/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.08.05-12.30.38:265][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.08.05-12.30.38:265][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/Escapig/Escapig/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.08.05-12.30.38:265][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.08.05-12.30.38:399][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.08.05-12.30.38:411][  0]LogDerivedDataCache: Using Local data cache path D:/Users/u1355345/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.08.05-12.30.38:614][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.05-12.30.38:615][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.08.05-12.30.38:639][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.08.05-12.30.38:639][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.08.05-12.30.38:983][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.08.05-12.30.39:720][  0]LogAssetRegistry: FAssetRegistry took 0.0102 seconds to start up
+[2016.08.05-12.30.39:734][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.08.05-12.30.40:024][  0]SourceControl: Info Source control is disabled
+[2016.08.05-12.30.40:039][  0]SourceControl: Info Source control is disabled
+[2016.08.05-12.30.40:050][  0]SourceControl: Info Source control is disabled
+[2016.08.05-12.30.40:064][  0]SourceControl: Info Source control is disabled
+[2016.08.05-12.30.40:224][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.05-12.30.40:339][  0]LogObj: 28528 objects as part of root set at end of initial load.
+[2016.08.05-12.30.40:339][  0]LogUObjectAllocator: 6068456 out of 0 bytes used by permanent object pool.
+[2016.08.05-12.30.40:397][  0]LogEngine: Initializing Engine...
+[2016.08.05-12.30.40:400][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.08.05-12.30.40:401][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.08.05-12.30.40:541][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.08.05-12.30.40:546][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.05-12.30.40:570][  0]LogInit: FAudioDevice initialized.
+[2016.08.05-12.30.40:603][  0]LogDerivedDataCache: Saved boot cache 0.03s 57MB D:/Users/u1355345/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.08.05-12.30.40:608][  0]LogInit: Texture streaming: Enabled
+[2016.08.05-12.30.40:616][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.08.05-12.30.40:616][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.08.05-12.30.40:616][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 8ca410e94349aeb431fa82a2e9cc4f8f|00701ac0a72a49eb8431b8c5d052984e|70ca8c48-dee3-4e5d-bf6f-cceffcc3b4db
+[2016.08.05-12.30.40:616][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.08.05-12.30.40:650][  0]LogInit: Transaction tracking system initialized
+[2016.08.05-12.30.40:687][  0]BlueprintLog: New page: Editor Load
+[2016.08.05-12.30.41:046][  0]LocalizationService: Info Localization service is disabled
+[2016.08.05-12.30.41:123][  0]LogConsoleResponse:Display: 
+[2016.08.05-12.30.41:270][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.08.05-12.30.41:334][  0]LogFileCache: Scanning file cache for directory 'F:/Escapig/Escapig/Content/' took 0.03s
+[2016.08.05-12.30.41:334][  0]SourceControl: Info Source control is disabled
+[2016.08.05-12.30.41:334][  0]Cmd: MAP LOAD FILE="F:/Escapig/Escapig/Content/Blueprints/Maps/Escapig_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.08.05-12.30.41:336][  0]LightingResults: New page: Lighting Build
+[2016.08.05-12.30.41:339][  0]MapCheck: New page: Map Check
+[2016.08.05-12.30.41:339][  0]LightingResults: New page: Lighting Build
+[2016.08.05-12.30.41:352][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000025EFB740
+[2016.08.05-12.30.42:630][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Blueprints/BP_Wheat_Tile.BP_Wheat_Tile_C:UserConstructionScript; removing parent information, but keeping function
+[2016.08.05-12.30.43:421][  0]LogAIModule: Creating AISystem for world Escapig_Level
+[2016.08.05-12.30.43:427][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.08.05-12.30.43:429][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.08.05-12.30.43:504][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 74.838ms to complete.
+[2016.08.05-12.30.43:504][  0]LogFileHelpers: Loading map 'Escapig_Level' took 2.170
+[2016.08.05-12.30.43:616][  0]LogCollectionManager: Loaded 0 collections in 0.002001 seconds
+[2016.08.05-12.30.43:657][  0]LogFileCache: Scanning file cache for directory 'F:/Escapig/Escapig/Saved/Collections/' took 0.01s
+[2016.08.05-12.30.43:657][  0]LogFileCache: Scanning file cache for directory 'F:/Escapig/Escapig/Content/Developers/u1355345/Collections/' took 0.01s
+[2016.08.05-12.30.43:658][  0]LogFileCache: Scanning file cache for directory 'F:/Escapig/Escapig/Content/Collections/' took 0.01s
+[2016.08.05-12.30.43:658][  0]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 1882 classes and 339 folders.
+[2016.08.05-12.30.43:666][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.08.05-12.30.43:673][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.08.05-12.30.43:748][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.08.05-12.30.43:751][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.08.05-12.30.43:778][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.08.05-12.30.43:781][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.08.05-12.30.43:806][  0]LogLoad: Full Startup: 8.11 seconds (BP compile: 0.80 seconds)
+[2016.08.05-12.30.43:865][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.08.05-12.30.43:991][  0]LogRenderer: Reallocating scene render targets to support 1208x652 (Frame:2).
+[2016.08.05-12.30.44:379][ 10]LogAssetRegistry: Asset discovery search completed in 4.6697 seconds
+[2016.08.05-12.30.44:379][ 10]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.08.05-12.30.44:379][ 10]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000017 seconds (updated 0 objects)
+[2016.08.05-12.30.52:867][ 78]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.30.52:867][ 78]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.08.05-12.30.52:867][ 78]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.08.05-12.30.52:956][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Maps/Escapig_Level" FILE="F:/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2016.08.05-12.30.53:031][ 78]LogSavePackage: Save=58.186436ms
+[2016.08.05-12.30.53:031][ 78]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/UEDPCEscapig_LevelC5B7AD0845EDF199A0EF48A5693A1566.tmp' to 'F:/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap'
+[2016.08.05-12.30.53:033][ 78]LogSavePackage: Total save time: 73.436506ms
+[2016.08.05-12.30.53:033][ 78]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap
+[2016.08.05-12.31.45:203][459]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Maps/Escapig_Level" FILE="F:/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2016.08.05-12.31.45:274][459]LogSavePackage: Save=54.482254ms
+[2016.08.05-12.31.45:274][459]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/UEDPCEscapig_LevelB1C25E4C4C78B993517882A7B5F115FA.tmp' to 'F:/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap'
+[2016.08.05-12.31.45:276][459]LogSavePackage: Total save time: 70.291672ms
+[2016.08.05-12.31.45:276][459]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap
+[2016.08.05-12.33.20:668][843]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.33.20:669][843]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.08.05-12.33.20:669][843]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.08.05-12.33.20:707][843]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Maps/Escapig_Level" FILE="F:/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2016.08.05-12.33.20:781][843]LogSavePackage: Save=53.335331ms
+[2016.08.05-12.33.20:781][843]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/UEDPCEscapig_LevelC8E874774791832FD1D672BCA3FDD21C.tmp' to 'F:/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap'
+[2016.08.05-12.33.20:783][843]LogSavePackage: Total save time: 69.473173ms
+[2016.08.05-12.33.20:783][843]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap
+[2016.08.05-12.33.58:716][302]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.05-12.33.59:133][302]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 107 classes and 0 folders.
+[2016.08.05-12.34.09:274][461]LogEditorTransaction: Undo Resize Widget
+[2016.08.05-12.34.22:045][829]LogEditorTransaction: Undo Resize Widget
+[2016.08.05-12.34.24:842][ 32]LogEditorTransaction: Undo Resize Widget
+[2016.08.05-12.34.49:129][762]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.34.49:130][762]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.08.05-12.34.49:130][762]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.08.05-12.34.49:174][762]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/RunHud" FILE="F:/Escapig/Escapig/Content/UMG/RunHud.uasset" SILENT=true
+[2016.08.05-12.34.49:302][762]LogSavePackage: Save=111.392052ms
+[2016.08.05-12.34.49:302][762]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/RunHudF9681EB24949D86C3A271FABF8186DA3.tmp' to 'F:/Escapig/Escapig/Content/UMG/RunHud.uasset'
+[2016.08.05-12.34.49:310][762]LogSavePackage: Total save time: 132.990520ms
+[2016.08.05-12.34.49:310][762]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/UMG/RunHud.uasset
+[2016.08.05-12.35.01:890][254]BlueprintLog: New page: Compile RunHud
+[2016.08.05-12.35.02:040][254]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.08.05-12.35.02:040][254]BlueprintEditorCompileResults: Info [0266.35] Compile of RunHud successful! [in 149 ms]
+[2016.08.05-12.36.47:358][381]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.36.47:358][381]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2016.08.05-12.36.47:358][381]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.08.05-12.36.50:144][578]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2016.08.05-12.37.04:921][905]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2016.08.05-12.37.07:783][156]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2016.08.05-12.37.08:061][156]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.37.14:633][928]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2016.08.05-12.37.14:856][928]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.37.23:670][843]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2016.08.05-12.37.23:702][843]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.37.23:766][843]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.37.23:832][843]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.37.24:026][843]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.37.26:397][104]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2016.08.05-12.37.26:432][104]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.37.26:499][104]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.37.26:563][104]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.37.26:760][104]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.37.27:588][194]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2016.08.05-12.37.27:619][194]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011FA1260
+[2016.08.05-12.37.27:659][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.08.05-12.37.28:600][194]LogSavePackage: Save=542.212830ms
+[2016.08.05-12.37.28:600][194]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/PigChar743FB2504E552D5CEA91C48C04CC089A.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.08.05-12.37.28:609][194]LogSavePackage: Total save time: 946.219642ms
+[2016.08.05-12.37.28:609][194]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.08.05-12.37.29:415][249]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.37.31:176][399]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.37.31:521][424]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.37.32:058][474]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.37.34:515][665]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.37.34:518][665]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.37.34:735][665]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.37.38:830][962]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.37.39:358][997]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2016.08.05-12.37.39:427][997]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.08.05-12.37.40:047][997]LogSavePackage: Save=602.681091ms
+[2016.08.05-12.37.40:047][997]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/PigChar91268C8542717C8E1CD32D9E29E4ED19.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.08.05-12.37.40:057][997]LogSavePackage: Total save time: 626.596794ms
+[2016.08.05-12.37.40:057][997]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.08.05-12.37.50:559][170]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.37.51:595][252]BlueprintLog: New page: Compile PigChar
+[2016.08.05-12.37.52:190][252]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.37.52:243][252]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.37.52:247][252]BlueprintEditorCompileResults: Info [0436.56] Compile of PigChar successful! [in 651 ms]
+[2016.08.05-12.37.52:444][252]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.37.59:517][  5]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.37.59:580][  5]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.08.05-12.38.00:148][  5]LogSavePackage: Save=551.972046ms
+[2016.08.05-12.38.00:148][  5]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/PigChar2408B7574A19780FD7E38DB03387415A.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.08.05-12.38.00:157][  5]LogSavePackage: Total save time: 574.334256ms
+[2016.08.05-12.38.00:157][  5]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.08.05-12.38.02:971][330]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.38.14:101][622]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2016.08.05-12.38.14:181][622]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.08.05-12.38.14:835][622]LogSavePackage: Save=634.480103ms
+[2016.08.05-12.38.14:835][622]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/PigChar77830554495DA411E23BE880A1AF0AEE.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.08.05-12.38.14:844][622]LogSavePackage: Total save time: 659.213163ms
+[2016.08.05-12.38.14:844][622]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.08.05-12.38.19:599][158]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.38.23:680][606]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2016.08.05-12.38.26:957][866]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2016.08.05-12.38.27:232][866]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.38.28:739][ 36]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2016.08.05-12.38.28:971][ 36]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.38.30:575][170]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2016.08.05-12.38.30:611][170]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.38.30:682][170]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.38.30:753][170]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.38.30:970][170]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.38.32:724][306]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2016.08.05-12.38.32:762][306]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.38.32:837][306]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.38.32:904][306]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.38.33:104][306]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.38.35:485][539]BlueprintLog: New page: Compile PigChar
+[2016.08.05-12.38.36:034][539]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2016.08.05-12.38.36:037][539]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.38.36:122][539]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.38.36:125][539]BlueprintEditorCompileResults: Info [0480.44] Compile of PigChar successful! [in 640 ms]
+[2016.08.05-12.38.36:314][539]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.38.37:489][663]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.38.37:567][663]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.08.05-12.38.38:134][663]LogSavePackage: Save=550.709961ms
+[2016.08.05-12.38.38:134][663]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/PigChar6D1B4210467165AEB9CDB2847790D0C0.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.08.05-12.38.38:142][663]LogSavePackage: Total save time: 572.442964ms
+[2016.08.05-12.38.38:142][663]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.08.05-12.38.38:966][730]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.08.05-12.38.39:686][730]LogSavePackage: Save=702.283508ms
+[2016.08.05-12.38.39:686][730]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/PigChar98EC68AE46B2604C96A1FB944784316A.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.08.05-12.38.39:689][730]LogSavePackage: Total save time: 719.529226ms
+[2016.08.05-12.38.39:689][730]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.08.05-12.38.39:979][751]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.38.45:014][194]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.38.51:404][718]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.38.51:492][718]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.08.05-12.38.52:081][718]LogSavePackage: Save=571.449402ms
+[2016.08.05-12.38.52:081][718]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/PigCharA1546069436E4A416E80D4B2266F7CD8.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.08.05-12.38.52:090][718]LogSavePackage: Total save time: 595.000193ms
+[2016.08.05-12.38.52:090][718]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.08.05-12.38.55:655][ 17]LogRenderer: Reallocating scene render targets to support 1208x1020 (Frame:10113).
+[2016.08.05-12.39.00:082][403]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.39.09:760][233]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2016.08.05-12.39.23:316][662]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2016.08.05-12.39.24:285][734]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2016.08.05-12.39.24:368][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.08.05-12.39.24:967][734]LogSavePackage: Save=581.285339ms
+[2016.08.05-12.39.24:967][734]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/PigChar5F9344A8407E16782447AAAA42B66DE8.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.08.05-12.39.24:976][734]LogSavePackage: Total save time: 604.876876ms
+[2016.08.05-12.39.24:976][734]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.08.05-12.39.29:902][196]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.39.31:288][352]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2016.08.05-12.39.31:578][386]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
+[2016.08.05-12.39.31:859][419]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_24) Not registered. Aborting.
+[2016.08.05-12.39.33:175][576]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_25) Not registered. Aborting.
+[2016.08.05-12.39.33:439][607]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_26) Not registered. Aborting.
+[2016.08.05-12.39.33:695][637]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_27) Not registered. Aborting.
+[2016.08.05-12.39.33:958][668]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_28) Not registered. Aborting.
+[2016.08.05-12.39.35:774][853]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_29) Not registered. Aborting.
+[2016.08.05-12.39.36:274][911]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_30) Not registered. Aborting.
+[2016.08.05-12.39.36:366][911]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.08.05-12.39.37:344][911]LogSavePackage: Save=610.392212ms
+[2016.08.05-12.39.37:344][911]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/PigChar6B170B1F43B309F22A5B30A9D55D1F85.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.08.05-12.39.37:352][911]LogSavePackage: Total save time: 632.863086ms
+[2016.08.05-12.39.37:352][911]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.08.05-12.39.37:665][931]BlueprintLog: New page: Compile PigChar
+[2016.08.05-12.39.38:298][931]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.39.38:387][931]BlueprintEditorCompileResults: Info [0542.70] Compile of PigChar successful! [in 721 ms]
+[2016.08.05-12.39.38:799][944]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.08.05-12.39.39:467][944]LogSavePackage: Save=652.533508ms
+[2016.08.05-12.39.39:468][944]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/PigChar5363CE8D42F2332741728F863482626B.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.08.05-12.39.39:470][944]LogSavePackage: Total save time: 668.609750ms
+[2016.08.05-12.39.39:470][944]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.08.05-12.39.52:841][194]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.40.02:292][131]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.40.02:529][131]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.40.08:751][862]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_31) Not registered. Aborting.
+[2016.08.05-12.40.09:014][862]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.40.11:308][ 33]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_32) Not registered. Aborting.
+[2016.08.05-12.40.11:343][ 33]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.40.11:422][ 33]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.40.11:513][ 33]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.40.11:724][ 33]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.40.13:120][146]BlueprintLog: New page: Compile PigChar
+[2016.08.05-12.40.13:809][146]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_33) Not registered. Aborting.
+[2016.08.05-12.40.13:813][146]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.40.13:906][146]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.40.13:910][146]BlueprintEditorCompileResults: Info [0578.22] Compile of PigChar successful! [in 789 ms]
+[2016.08.05-12.40.14:117][146]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.40.15:633][291]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.40.17:142][472]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_34) Not registered. Aborting.
+[2016.08.05-12.40.17:223][472]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.08.05-12.40.17:795][472]LogSavePackage: Save=555.714111ms
+[2016.08.05-12.40.17:795][472]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/PigCharD7D1E47746A5A406B40E79BDC6B545FC.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.08.05-12.40.17:804][472]LogSavePackage: Total save time: 578.252830ms
+[2016.08.05-12.40.17:804][472]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.08.05-12.40.20:468][720]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.40.31:894][ 36]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.40.47:203][512]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.40.50:763][790]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.40.50:844][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.08.05-12.40.51:414][790]LogSavePackage: Save=554.530457ms
+[2016.08.05-12.40.51:414][790]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/PigCharF901355A4EC1B571C8B2108001818868.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.08.05-12.40.51:523][790]LogSavePackage: Total save time: 676.574614ms
+[2016.08.05-12.40.51:523][790]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.08.05-12.41.11:435][462]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.41.24:072][765]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_35) Not registered. Aborting.
+[2016.08.05-12.41.34:919][689]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.41.35:237][710]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.41.35:857][771]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.41.40:062][ 83]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.41.43:469][367]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.41.44:197][434]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_36) Not registered. Aborting.
+[2016.08.05-12.41.44:290][434]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.08.05-12.41.44:906][434]LogSavePackage: Save=598.068909ms
+[2016.08.05-12.41.44:906][434]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/PigCharFC001E8C4308636120ECD98EF566F10E.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.08.05-12.41.45:021][434]LogSavePackage: Total save time: 727.713894ms
+[2016.08.05-12.41.45:021][434]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.08.05-12.42.05:134][147]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.42.05:643][187]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.42.06:256][238]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.42.08:909][425]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.42.08:996][425]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.08.05-12.42.09:616][425]LogSavePackage: Save=603.605652ms
+[2016.08.05-12.42.09:616][425]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/PigCharCB5E1AA548EA0F17BDEE90BBAA427B53.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.08.05-12.42.09:624][425]LogSavePackage: Total save time: 625.612944ms
+[2016.08.05-12.42.09:624][425]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.08.05-12.42.20:066][371]LogEditorTransaction: Undo Move Node
+[2016.08.05-12.42.20:124][371]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.42.31:756][516]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_37) Not registered. Aborting.
+[2016.08.05-12.42.31:847][516]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.08.05-12.42.32:574][516]LogSavePackage: Save=652.686584ms
+[2016.08.05-12.42.32:574][516]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/PigCharD8507079465ED699368CCCB87CC47E6D.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.08.05-12.42.32:583][516]LogSavePackage: Total save time: 732.768264ms
+[2016.08.05-12.42.32:583][516]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.08.05-12.42.34:781][732]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.42.45:367][682]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_38) Not registered. Aborting.
+[2016.08.05-12.42.45:456][682]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.08.05-12.42.46:125][682]LogSavePackage: Save=652.240417ms
+[2016.08.05-12.42.46:125][682]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/PigCharAE31D9594DE364D5E5953EB6A42EC37F.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.08.05-12.42.46:135][682]LogSavePackage: Total save time: 675.218437ms
+[2016.08.05-12.42.46:135][682]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.08.05-12.42.48:241][877]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.42.48:307][877]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.08.05-12.42.48:946][877]LogSavePackage: Save=623.628723ms
+[2016.08.05-12.42.48:946][877]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/PigCharDA56D93946133447F84D67ADDD8EADD8.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.08.05-12.42.48:955][877]LogSavePackage: Total save time: 645.469509ms
+[2016.08.05-12.42.48:955][877]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.08.05-12.42.57:427][464]BlueprintLog: New page: Compile PigChar
+[2016.08.05-12.42.58:108][464]BlueprintEditorCompileResults: Info [0742.42] Compile of PigChar successful! [in 681 ms]
+[2016.08.05-12.43.21:788][499]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.43.21:788][499]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_39) Not registered. Aborting.
+[2016.08.05-12.43.21:788][499]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.08.05-12.43.30:201][426]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_40) Not registered. Aborting.
+[2016.08.05-12.43.31:740][607]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_41) Not registered. Aborting.
+[2016.08.05-12.43.31:787][607]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C3CE660
+[2016.08.05-12.43.31:824][607]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.08.05-12.43.32:445][607]LogSavePackage: Save=604.117371ms
+[2016.08.05-12.43.32:445][607]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/PigCharFE5D59084EE4DAA8AE529C95FE94CCB8.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.08.05-12.43.32:454][607]LogSavePackage: Total save time: 626.980241ms
+[2016.08.05-12.43.32:454][607]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.08.05-12.43.32:755][643]BlueprintLog: New page: Compile PigChar
+[2016.08.05-12.43.33:335][643]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.43.33:437][643]BlueprintEditorCompileResults: Info [0777.75] Compile of PigChar successful! [in 681 ms]
+[2016.08.05-12.44.02:551][390]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.44.02:552][390]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.08.05-12.44.02:631][390]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/BP_Truffel" FILE="F:/Escapig/Escapig/Content/Blueprints/Blueprints/BP_Truffel.uasset" SILENT=true
+[2016.08.05-12.44.02:687][390]LogSavePackage: Save=31.470875ms
+[2016.08.05-12.44.02:687][390]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/BP_Truffel6C1460AD4F92A6C63C74008B3ED0693B.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Blueprints/BP_Truffel.uasset'
+[2016.08.05-12.44.02:695][390]LogSavePackage: Total save time: 61.392281ms
+[2016.08.05-12.44.02:695][390]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Blueprints/BP_Truffel.uasset
+[2016.08.05-12.44.03:388][447]BlueprintLog: New page: Compile BP_Truffel
+[2016.08.05-12.44.03:474][447]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.08.05-12.44.03:531][447]BlueprintEditorCompileResults: Info [0807.85] Compile of BP_Truffel successful! [in 143 ms]
+[2016.08.05-12.44.04:034][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/BP_Truffel" FILE="F:/Escapig/Escapig/Content/Blueprints/Blueprints/BP_Truffel.uasset" SILENT=true
+[2016.08.05-12.44.04:081][481]LogSavePackage: Save=31.236814ms
+[2016.08.05-12.44.04:081][481]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/BP_TruffelCFF7E0D64909E6258E9BBAAEA7CA4941.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Blueprints/BP_Truffel.uasset'
+[2016.08.05-12.44.04:084][481]LogSavePackage: Total save time: 46.202648ms
+[2016.08.05-12.44.04:084][481]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Blueprints/BP_Truffel.uasset
+[2016.08.05-12.44.08:840][ 23]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.08.05-12.44.08:840][ 23]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.44.13:473][575]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_0) Not registered. Aborting.
+[2016.08.05-12.44.15:248][743]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_1) Not registered. Aborting.
+[2016.08.05-12.44.40:336][466]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_2) Not registered. Aborting.
+[2016.08.05-12.44.42:844][732]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_3) Not registered. Aborting.
+[2016.08.05-12.45.01:406][339]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_4) Not registered. Aborting.
+[2016.08.05-12.45.01:494][339]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/BP_Truffel" FILE="F:/Escapig/Escapig/Content/Blueprints/Blueprints/BP_Truffel.uasset" SILENT=true
+[2016.08.05-12.45.01:546][339]LogSavePackage: Save=35.764626ms
+[2016.08.05-12.45.01:546][339]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/BP_Truffel51839CE64E378FFF1B4B99937CBBF11A.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Blueprints/BP_Truffel.uasset'
+[2016.08.05-12.45.01:553][339]LogSavePackage: Total save time: 55.803645ms
+[2016.08.05-12.45.01:553][339]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Blueprints/BP_Truffel.uasset
+[2016.08.05-12.45.04:299][626]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.08.05-12.45.21:448][674]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_5) Not registered. Aborting.
+[2016.08.05-12.45.21:527][674]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/BP_Truffel" FILE="F:/Escapig/Escapig/Content/Blueprints/Blueprints/BP_Truffel.uasset" SILENT=true
+[2016.08.05-12.45.21:580][674]LogSavePackage: Save=36.836849ms
+[2016.08.05-12.45.21:580][674]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/BP_Truffel422D00A348833DF591A19CA2240AB5AA.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Blueprints/BP_Truffel.uasset'
+[2016.08.05-12.45.21:588][674]LogSavePackage: Total save time: 57.787023ms
+[2016.08.05-12.45.21:588][674]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Blueprints/BP_Truffel.uasset
+[2016.08.05-12.45.22:075][718]BlueprintLog: New page: Compile BP_Truffel
+[2016.08.05-12.45.22:318][718]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.08.05-12.45.22:392][718]BlueprintEditorCompileResults: Info [0886.71] Compile of BP_Truffel successful! [in 316 ms]
+[2016.08.05-12.45.50:326][ 54]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.45.57:680][656]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.08.05-12.45.57:680][656]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.45.57:769][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.08.05-12.45.58:366][656]LogSavePackage: Save=581.158203ms
+[2016.08.05-12.45.58:366][656]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/PigChar21386956490A53985175078A758656BE.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.08.05-12.45.58:391][656]LogSavePackage: Total save time: 619.442441ms
+[2016.08.05-12.45.58:391][656]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.08.05-12.45.59:182][723]BlueprintLog: New page: Compile PigChar
+[2016.08.05-12.45.59:762][723]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.45.59:862][723]BlueprintEditorCompileResults: Info [0924.18] Compile of PigChar successful! [in 680 ms]
+[2016.08.05-12.46.00:510][747]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.08.05-12.46.01:097][747]LogSavePackage: Save=569.530457ms
+[2016.08.05-12.46.01:097][747]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/PigChar59CB3E834E9146478B5AB9A4899AFCD3.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.08.05-12.46.01:100][747]LogSavePackage: Total save time: 586.848311ms
+[2016.08.05-12.46.01:100][747]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.08.05-12.46.20:809][509]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.46.20:810][509]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.08.05-12.46.20:899][509]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.08.05-12.46.21:622][509]LogSavePackage: Save=705.195129ms
+[2016.08.05-12.46.21:623][509]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/PigCharE44B87354F5D6B9CB6548E972DACB5C1.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.08.05-12.46.21:631][509]LogSavePackage: Total save time: 729.035575ms
+[2016.08.05-12.46.21:631][509]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.08.05-12.46.21:981][533]BlueprintLog: New page: Compile PigChar
+[2016.08.05-12.46.22:570][533]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.46.22:681][533]BlueprintEditorCompileResults: Info [0947.00] Compile of PigChar successful! [in 699 ms]
+[2016.08.05-12.46.23:087][542]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.08.05-12.46.23:725][542]LogSavePackage: Save=621.240784ms
+[2016.08.05-12.46.23:726][542]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/PigCharAA01CF3F423B34D2ED5E589408768574.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.08.05-12.46.23:728][542]LogSavePackage: Total save time: 638.268687ms
+[2016.08.05-12.46.23:728][542]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.08.05-12.46.25:326][684]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.46.26:604][784]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.46.26:604][784]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.08.05-12.46.26:762][795]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_42) Not registered. Aborting.
+[2016.08.05-12.46.26:842][795]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.08.05-12.46.27:443][795]LogSavePackage: Save=583.252441ms
+[2016.08.05-12.46.27:443][795]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/PigCharAB0BD599470A45E6FBD67D80BF891A89.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.08.05-12.46.27:452][795]LogSavePackage: Total save time: 607.413325ms
+[2016.08.05-12.46.27:452][795]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.08.05-12.46.27:815][820]BlueprintLog: New page: Compile PigChar
+[2016.08.05-12.46.28:439][820]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.46.28:460][820]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.46.28:542][820]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.46.28:545][820]BlueprintEditorCompileResults: Info [0952.86] Compile of PigChar successful! [in 730 ms]
+[2016.08.05-12.46.28:735][820]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.46.29:174][841]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.46.29:175][841]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.08.05-12.46.29:288][841]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Maps/Escapig_Level" FILE="F:/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2016.08.05-12.46.29:414][841]LogSavePackage: Save=102.665428ms
+[2016.08.05-12.46.29:414][841]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/UEDPCEscapig_Level9328BD0348819EC6E3AA8B88F9C736A1.tmp' to 'F:/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap'
+[2016.08.05-12.46.29:416][841]LogSavePackage: Total save time: 124.115080ms
+[2016.08.05-12.46.29:416][841]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap
+[2016.08.05-12.46.43:883][326]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.46.57:119][528]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.46.57:242][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.08.05-12.46.57:818][531]LogSavePackage: Save=560.447510ms
+[2016.08.05-12.46.57:818][531]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/PigCharCF32D76543D6845A8B63B29025FFB897.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.08.05-12.46.57:827][531]LogSavePackage: Total save time: 581.906836ms
+[2016.08.05-12.46.57:827][531]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.08.05-12.46.58:692][605]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.46.58:946][633]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.47.09:748][542]BlueprintLog: New page: Compile PigChar
+[2016.08.05-12.47.10:357][542]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.47.10:434][542]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.47.10:437][542]BlueprintEditorCompileResults: Info [0994.76] Compile of PigChar successful! [in 689 ms]
+[2016.08.05-12.47.11:733][627]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.47.12:299][679]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.47.35:534][907]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.47.37:236][ 48]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.47.44:522][642]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.47.54:171][447]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.47.54:171][447]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.08.05-12.47.54:256][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.08.05-12.47.54:990][447]LogSavePackage: Save=657.440491ms
+[2016.08.05-12.47.54:991][447]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/PigChar11B342414F14F2C8AC7D04967271CD1D.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.08.05-12.47.55:000][447]LogSavePackage: Total save time: 740.554947ms
+[2016.08.05-12.47.55:000][447]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.08.05-12.47.56:183][586]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.47.56:246][586]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.08.05-12.47.56:893][586]LogSavePackage: Save=631.404846ms
+[2016.08.05-12.47.56:894][586]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/PigCharB368B2A945141D696B5BEE89D215649B.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.08.05-12.47.56:906][586]LogSavePackage: Total save time: 657.451298ms
+[2016.08.05-12.47.56:906][586]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.08.05-12.47.57:135][613]BlueprintLog: New page: Compile PigChar
+[2016.08.05-12.47.57:825][613]BlueprintEditorCompileResults: Info [1042.14] Compile of PigChar successful! [in 690 ms]
+[2016.08.05-12.47.58:590][650]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.47.58:590][650]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.08.05-12.47.58:698][650]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Maps/Escapig_Level" FILE="F:/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2016.08.05-12.47.58:816][650]LogSavePackage: Save=101.582939ms
+[2016.08.05-12.47.58:816][650]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/UEDPCEscapig_Level4B7382B74BF272DB82C497A4C07B55C1.tmp' to 'F:/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap'
+[2016.08.05-12.47.58:818][650]LogSavePackage: Total save time: 116.968427ms
+[2016.08.05-12.47.58:818][650]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap
+[2016.08.05-12.49.20:637][597]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.49.23:822][823]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.49.25:083][914]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.49.25:802][971]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.49.29:286][281]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_43) Not registered. Aborting.
+[2016.08.05-12.49.29:323][281]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.49.34:620][686]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.49.35:124][725]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.49.35:965][788]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.49.39:259][ 57]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_44) Not registered. Aborting.
+[2016.08.05-12.49.39:352][ 57]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.08.05-12.49.40:034][ 57]LogSavePackage: Save=665.945007ms
+[2016.08.05-12.49.40:035][ 57]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/PigChar7CBA0BF645182349FD2FCDAFB2B8EB74.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.08.05-12.49.40:044][ 57]LogSavePackage: Total save time: 688.749693ms
+[2016.08.05-12.49.40:044][ 57]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.08.05-12.49.44:146][480]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.49.44:149][480]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.49.44:337][480]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.49.45:112][537]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_45) Not registered. Aborting.
+[2016.08.05-12.50.14:803][221]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.50.17:335][455]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_46) Not registered. Aborting.
+[2016.08.05-12.50.17:423][455]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.08.05-12.50.18:120][455]LogSavePackage: Save=681.385498ms
+[2016.08.05-12.50.18:121][455]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/PigChar1883F2FF4F62B949D26F60A6A9EFE5BB.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.08.05-12.50.18:130][455]LogSavePackage: Total save time: 704.382926ms
+[2016.08.05-12.50.18:130][455]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.08.05-12.50.19:204][555]BlueprintLog: New page: Compile PigChar
+[2016.08.05-12.50.19:801][555]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.50.19:821][555]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.50.19:897][555]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.50.19:900][555]BlueprintEditorCompileResults: Info [1184.22] Compile of PigChar successful! [in 696 ms]
+[2016.08.05-12.50.20:082][555]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PigChar', cached variable property's owner is '/Game/Blueprints/Blueprints/PigChar.SKEL_PigChar_C'
+[2016.08.05-12.50.20:366][589]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.50.20:366][589]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.08.05-12.50.38:272][675]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.50.38:373][675]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.08.05-12.50.39:029][675]LogSavePackage: Save=639.541626ms
+[2016.08.05-12.50.39:030][675]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/PigCharBAFC67614925510639EB28BF05F7B674.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.08.05-12.50.39:040][675]LogSavePackage: Total save time: 663.884941ms
+[2016.08.05-12.50.39:040][675]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.08.05-12.50.39:836][759]BlueprintLog: New page: Compile PigChar
+[2016.08.05-12.50.40:426][759]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.50.40:531][759]BlueprintEditorCompileResults: Info [1204.85] Compile of PigChar successful! [in 694 ms]
+[2016.08.05-12.51.25:110][210]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.51.25:111][210]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.08.05-12.51.25:111][210]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_47) Not registered. Aborting.
+[2016.08.05-12.51.25:169][210]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Harvester', cached variable property's owner is '/Game/Blueprints/Blueprints/Harvester.SKEL_Harvester_C'
+[2016.08.05-12.51.31:679][990]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_48) Not registered. Aborting.
+[2016.08.05-12.51.31:733][990]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Harvester', cached variable property's owner is '/Game/Blueprints/Blueprints/Harvester.SKEL_Harvester_C'
+[2016.08.05-12.51.33:909][214]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_49) Not registered. Aborting.
+[2016.08.05-12.51.33:918][214]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Harvester', cached variable property's owner is '/Game/Blueprints/Blueprints/Harvester.SKEL_Harvester_C'
+[2016.08.05-12.51.33:934][214]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Harvester', cached variable property's owner is '/Game/Blueprints/Blueprints/Harvester.SKEL_Harvester_C'
+[2016.08.05-12.51.33:950][214]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Harvester', cached variable property's owner is '/Game/Blueprints/Blueprints/Harvester.SKEL_Harvester_C'
+[2016.08.05-12.51.34:003][214]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Harvester', cached variable property's owner is '/Game/Blueprints/Blueprints/Harvester.SKEL_Harvester_C'
+[2016.08.05-12.51.34:522][277]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_50) Not registered. Aborting.
+[2016.08.05-12.51.34:607][277]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/Harvester" FILE="F:/Escapig/Escapig/Content/Blueprints/Blueprints/Harvester.uasset" SILENT=true
+[2016.08.05-12.51.34:765][277]LogSavePackage: Save=120.198792ms
+[2016.08.05-12.51.34:765][277]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/HarvesterCA136FE84EE53039053661B424474445.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Blueprints/Harvester.uasset'
+[2016.08.05-12.51.34:773][277]LogSavePackage: Total save time: 162.527058ms
+[2016.08.05-12.51.34:773][277]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Blueprints/Harvester.uasset
+[2016.08.05-12.51.35:908][383]BlueprintLog: New page: Compile Harvester
+[2016.08.05-12.51.36:323][383]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.51.36:348][383]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Harvester', cached variable property's owner is '/Game/Blueprints/Blueprints/Harvester.SKEL_Harvester_C'
+[2016.08.05-12.51.36:416][383]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Harvester', cached variable property's owner is '/Game/Blueprints/Blueprints/Harvester.SKEL_Harvester_C'
+[2016.08.05-12.51.36:417][383]BlueprintEditorCompileResults: Info [1260.74] Compile of Harvester successful! [in 509 ms]
+[2016.08.05-12.51.36:464][383]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Harvester', cached variable property's owner is '/Game/Blueprints/Blueprints/Harvester.SKEL_Harvester_C'
+[2016.08.05-12.51.37:005][446]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Harvester', cached variable property's owner is '/Game/Blueprints/Blueprints/Harvester.SKEL_Harvester_C'
+[2016.08.05-12.51.40:890][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.51.40:890][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_51) Not registered. Aborting.
+[2016.08.05-12.51.40:900][892]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Harvester', cached variable property's owner is '/Game/Blueprints/Blueprints/Harvester.SKEL_Harvester_C'
+[2016.08.05-12.51.44:933][250]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Harvester', cached variable property's owner is '/Game/Blueprints/Blueprints/Harvester.SKEL_Harvester_C'
+[2016.08.05-12.51.45:423][289]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Harvester', cached variable property's owner is '/Game/Blueprints/Blueprints/Harvester.SKEL_Harvester_C'
+[2016.08.05-12.51.46:193][354]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Harvester', cached variable property's owner is '/Game/Blueprints/Blueprints/Harvester.SKEL_Harvester_C'
+[2016.08.05-12.51.47:010][426]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Harvester', cached variable property's owner is '/Game/Blueprints/Blueprints/Harvester.SKEL_Harvester_C'
+[2016.08.05-12.51.47:434][459]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Harvester', cached variable property's owner is '/Game/Blueprints/Blueprints/Harvester.SKEL_Harvester_C'
+[2016.08.05-12.51.47:969][508]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Harvester', cached variable property's owner is '/Game/Blueprints/Blueprints/Harvester.SKEL_Harvester_C'
+[2016.08.05-12.51.51:691][830]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Harvester', cached variable property's owner is '/Game/Blueprints/Blueprints/Harvester.SKEL_Harvester_C'
+[2016.08.05-12.52.18:807][925]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_52) Not registered. Aborting.
+[2016.08.05-12.52.18:877][925]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Blueprints/Maps/Escapig_Level' took 0.070
+[2016.08.05-12.52.18:885][925]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Blueprints/Harvester] ([1] browsable assets)...
+[2016.08.05-12.52.18:901][925]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Blueprints/Harvester.Harvester]
+[2016.08.05-12.52.18:901][925]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Blueprints/Harvester]
+[2016.08.05-12.52.18:901][925]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/Harvester" FILE="F:/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Blueprints/Harvester_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.08.05-12.52.19:039][925]LogSavePackage: Save=121.723740ms
+[2016.08.05-12.52.19:039][925]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/Harvester_Auto12F2765DF4AE1807D428979801EAE9F90.tmp' to 'F:/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Blueprints/Harvester_Auto1.uasset'
+[2016.08.05-12.52.19:041][925]LogSavePackage: Total save time: 136.432134ms
+[2016.08.05-12.52.19:041][925]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Blueprints/Harvester_Auto1.uasset
+[2016.08.05-12.52.19:041][925]LogFileHelpers: Auto-saving content packages took 0.163
+[2016.08.05-12.52.20:348][ 15]BlueprintLog: New page: Compile Harvester
+[2016.08.05-12.52.20:705][ 15]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.52.20:729][ 15]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Harvester', cached variable property's owner is '/Game/Blueprints/Blueprints/Harvester.SKEL_Harvester_C'
+[2016.08.05-12.52.20:831][ 15]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Harvester', cached variable property's owner is '/Game/Blueprints/Blueprints/Harvester.SKEL_Harvester_C'
+[2016.08.05-12.52.20:833][ 15]BlueprintEditorCompileResults: Info [1305.15] Compile of Harvester successful! [in 484 ms]
+[2016.08.05-12.52.20:895][ 15]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Harvester', cached variable property's owner is '/Game/Blueprints/Blueprints/Harvester.SKEL_Harvester_C'
+[2016.08.05-12.52.43:640][ 61]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.52.43:640][ 61]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_53) Not registered. Aborting.
+[2016.08.05-12.53.05:768][641]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_54) Not registered. Aborting.
+[2016.08.05-12.53.05:854][641]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/Harvester" FILE="F:/Escapig/Escapig/Content/Blueprints/Blueprints/Harvester.uasset" SILENT=true
+[2016.08.05-12.53.05:992][641]LogSavePackage: Save=122.061287ms
+[2016.08.05-12.53.05:992][641]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/Harvester1F0BC2A64C3EC8E4E55C4BB82F16FD11.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Blueprints/Harvester.uasset'
+[2016.08.05-12.53.06:000][641]LogSavePackage: Total save time: 142.549898ms
+[2016.08.05-12.53.06:000][641]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Blueprints/Harvester.uasset
+[2016.08.05-12.53.23:503][719]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.53.26:751][ 99]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_55) Not registered. Aborting.
+[2016.08.05-12.53.38:051][788]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Harvester', cached variable property's owner is '/Game/Blueprints/Blueprints/Harvester.SKEL_Harvester_C'
+[2016.08.05-12.53.39:732][963]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Harvester', cached variable property's owner is '/Game/Blueprints/Blueprints/Harvester.SKEL_Harvester_C'
+[2016.08.05-12.53.40:184][997]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Harvester', cached variable property's owner is '/Game/Blueprints/Blueprints/Harvester.SKEL_Harvester_C'
+[2016.08.05-12.53.40:789][ 49]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Harvester', cached variable property's owner is '/Game/Blueprints/Blueprints/Harvester.SKEL_Harvester_C'
+[2016.08.05-12.53.49:034][852]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Harvester', cached variable property's owner is '/Game/Blueprints/Blueprints/Harvester.SKEL_Harvester_C'
+[2016.08.05-12.53.57:256][663]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_56) Not registered. Aborting.
+[2016.08.05-12.53.57:323][663]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Harvester', cached variable property's owner is '/Game/Blueprints/Blueprints/Harvester.SKEL_Harvester_C'
+[2016.08.05-12.54.01:039][ 92]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_57) Not registered. Aborting.
+[2016.08.05-12.54.01:101][ 92]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Harvester', cached variable property's owner is '/Game/Blueprints/Blueprints/Harvester.SKEL_Harvester_C'
+[2016.08.05-12.54.01:602][133]BlueprintLog: New page: Compile Harvester
+[2016.08.05-12.54.01:957][133]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_58) Not registered. Aborting.
+[2016.08.05-12.54.01:982][133]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Harvester', cached variable property's owner is '/Game/Blueprints/Blueprints/Harvester.SKEL_Harvester_C'
+[2016.08.05-12.54.02:053][133]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Harvester', cached variable property's owner is '/Game/Blueprints/Blueprints/Harvester.SKEL_Harvester_C'
+[2016.08.05-12.54.02:054][133]BlueprintEditorCompileResults: Info [1406.38] Compile of Harvester successful! [in 452 ms]
+[2016.08.05-12.54.02:105][133]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Harvester', cached variable property's owner is '/Game/Blueprints/Blueprints/Harvester.SKEL_Harvester_C'
+[2016.08.05-12.54.03:473][294]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.54.03:473][294]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_59) Not registered. Aborting.
+[2016.08.05-12.54.04:973][465]BlueprintLog: New page: Compile Harvester
+[2016.08.05-12.54.05:135][465]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_60) Not registered. Aborting.
+[2016.08.05-12.54.05:201][465]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Harvester', cached variable property's owner is '/Game/Blueprints/Blueprints/Harvester.SKEL_Harvester_C'
+[2016.08.05-12.54.05:202][465]BlueprintEditorCompileResults: Info [1409.53] Compile of Harvester successful! [in 228 ms]
+[2016.08.05-12.54.05:216][465]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Harvester', cached variable property's owner is '/Game/Blueprints/Blueprints/Harvester.SKEL_Harvester_C'
+[2016.08.05-12.54.05:695][518]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Harvester', cached variable property's owner is '/Game/Blueprints/Blueprints/Harvester.SKEL_Harvester_C'
+[2016.08.05-12.54.07:218][680]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Harvester', cached variable property's owner is '/Game/Blueprints/Blueprints/Harvester.SKEL_Harvester_C'
+[2016.08.05-12.54.07:778][743]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Harvester', cached variable property's owner is '/Game/Blueprints/Blueprints/Harvester.SKEL_Harvester_C'
+[2016.08.05-12.54.19:438][873]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Harvester', cached variable property's owner is '/Game/Blueprints/Blueprints/Harvester.SKEL_Harvester_C'
+[2016.08.05-12.54.21:521][ 73]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Harvester', cached variable property's owner is '/Game/Blueprints/Blueprints/Harvester.SKEL_Harvester_C'
+[2016.08.05-12.54.22:071][115]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Harvester', cached variable property's owner is '/Game/Blueprints/Blueprints/Harvester.SKEL_Harvester_C'
+[2016.08.05-12.54.22:840][176]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Harvester', cached variable property's owner is '/Game/Blueprints/Blueprints/Harvester.SKEL_Harvester_C'
+[2016.08.05-12.54.24:261][289]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Harvester', cached variable property's owner is '/Game/Blueprints/Blueprints/Harvester.SKEL_Harvester_C'
+[2016.08.05-12.54.25:841][420]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Harvester', cached variable property's owner is '/Game/Blueprints/Blueprints/Harvester.SKEL_Harvester_C'
+[2016.08.05-12.54.26:783][505]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Harvester', cached variable property's owner is '/Game/Blueprints/Blueprints/Harvester.SKEL_Harvester_C'
+[2016.08.05-12.54.27:828][621]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.54.27:828][621]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_61) Not registered. Aborting.
+[2016.08.05-12.54.27:914][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/Harvester" FILE="F:/Escapig/Escapig/Content/Blueprints/Blueprints/Harvester.uasset" SILENT=true
+[2016.08.05-12.54.28:080][621]LogSavePackage: Save=149.045975ms
+[2016.08.05-12.54.28:080][621]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/Harvester0B63B3CB4DB7334D8A2C0EB0E2DBA2B8.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Blueprints/Harvester.uasset'
+[2016.08.05-12.54.28:088][621]LogSavePackage: Total save time: 171.160169ms
+[2016.08.05-12.54.28:088][621]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Blueprints/Harvester.uasset
+[2016.08.05-12.54.28:496][653]BlueprintLog: New page: Compile Harvester
+[2016.08.05-12.54.28:654][653]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.54.28:718][653]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Harvester', cached variable property's owner is '/Game/Blueprints/Blueprints/Harvester.SKEL_Harvester_C'
+[2016.08.05-12.54.28:720][653]BlueprintEditorCompileResults: Info [1433.04] Compile of Harvester successful! [in 224 ms]
+[2016.08.05-12.54.28:735][653]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Harvester', cached variable property's owner is '/Game/Blueprints/Blueprints/Harvester.SKEL_Harvester_C'
+[2016.08.05-12.54.30:712][807]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.54.30:712][807]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_62) Not registered. Aborting.
+[2016.08.05-12.55.36:040][ 96]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.55.36:128][ 96]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/Harvester" FILE="F:/Escapig/Escapig/Content/Blueprints/Blueprints/Harvester.uasset" SILENT=true
+[2016.08.05-12.55.36:280][ 96]LogSavePackage: Save=135.579437ms
+[2016.08.05-12.55.36:281][ 96]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/Harvester7B759EE4469CA5B196CC729095E82C3B.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Blueprints/Harvester.uasset'
+[2016.08.05-12.55.36:288][ 96]LogSavePackage: Total save time: 156.260476ms
+[2016.08.05-12.55.36:288][ 96]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Blueprints/Harvester.uasset
+[2016.08.05-12.55.36:799][152]BlueprintLog: New page: Compile Harvester
+[2016.08.05-12.55.36:963][152]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.55.37:030][152]BlueprintEditorCompileResults: Info [1501.35] Compile of Harvester successful! [in 230 ms]
+[2016.08.05-12.55.54:444][685]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.05-12.55.54:444][685]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_63) Not registered. Aborting.
+[2016.08.05-12.55.54:647][685]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.08.05-12.55.54:699][685]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.08.05-12.55.54:988][686]Cmd: QUIT_EDITOR
+[2016.08.05-12.55.55:207][686]LogExit: Preparing to exit.
+[2016.08.05-12.55.55:943][686]LogExit: Editor shut down
+[2016.08.05-12.55.55:943][686]LogExit: Transaction tracking system shut down
+[2016.08.05-12.55.55:950][686]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C471940
+[2016.08.05-12.55.55:951][686]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002DDAEA20
+[2016.08.05-12.55.55:951][686]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011FA16C0
+[2016.08.05-12.55.55:952][686]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000033E29620
+[2016.08.05-12.55.55:952][686]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000033CDD4E0
+[2016.08.05-12.55.55:952][686]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003B44C360
+[2016.08.05-12.55.55:959][686]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000045A02520
+[2016.08.05-12.55.55:960][686]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000008F2389A0
+[2016.08.05-12.55.56:177][686]LogExit: Object subsystem successfully closed.
+[2016.08.05-12.55.56:190][686]LogD3D11RHI: Shutdown
+[2016.08.05-12.55.56:190][686]LogD3D11RHI: CleanupD3DDevice
+[2016.08.05-12.55.56:237][686]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.08.05-12.55.56:263][686]LogModuleManager: Shutting down and abandoning module SequencerWidgets (201)
+[2016.08.05-12.55.56:263][686]LogModuleManager: Shutting down and abandoning module BlueprintGraph (200)
+[2016.08.05-12.55.56:263][686]LogModuleManager: Shutting down and abandoning module CrashTracker (199)
+[2016.08.05-12.55.56:263][686]LogModuleManager: Shutting down and abandoning module SceneOutliner (198)
+[2016.08.05-12.55.56:263][686]LogModuleManager: Shutting down and abandoning module SuperSearch (197)
+[2016.08.05-12.55.56:263][686]LogModuleManager: Shutting down and abandoning module WidgetCarousel (196)
+[2016.08.05-12.55.56:263][686]LogModuleManager: Shutting down and abandoning module AddContentDialog (195)
+[2016.08.05-12.55.56:264][686]LogModuleManager: Shutting down and abandoning module EditorWidgets (194)
+[2016.08.05-12.55.56:264][686]LogModuleManager: Shutting down and abandoning module CollectionManager (193)
+[2016.08.05-12.55.56:264][686]LogModuleManager: Shutting down and abandoning module StatsViewer (192)
+[2016.08.05-12.55.56:264][686]LogModuleManager: Shutting down and abandoning module FoliageEdit (191)
+[2016.08.05-12.55.56:264][686]LogModuleManager: Shutting down and abandoning module LandscapeEditor (190)
+[2016.08.05-12.55.56:265][686]LogModuleManager: Shutting down and abandoning module ActorPickerMode (189)
+[2016.08.05-12.55.56:265][686]LogModuleManager: Shutting down and abandoning module GeometryMode (188)
+[2016.08.05-12.55.56:265][686]LogModuleManager: Shutting down and abandoning module TextureAlignMode (187)
+[2016.08.05-12.55.56:265][686]LogModuleManager: Shutting down and abandoning module BspMode (186)
+[2016.08.05-12.55.56:265][686]LogModuleManager: Shutting down and abandoning module PlacementMode (185)
+[2016.08.05-12.55.56:265][686]LogModuleManager: Shutting down and abandoning module AutomationWorker (184)
+[2016.08.05-12.55.56:265][686]LogModuleManager: Shutting down and abandoning module CharacterAI (183)
+[2016.08.05-12.55.56:265][686]LogModuleManager: Shutting down and abandoning module SmartSnapping (182)
+[2016.08.05-12.55.56:265][686]LogModuleManager: Shutting down and abandoning module ViewportSnapping (181)
+[2016.08.05-12.55.56:265][686]LogModuleManager: Shutting down and abandoning module LogVisualizer (180)
+[2016.08.05-12.55.56:265][686]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (179)
+[2016.08.05-12.55.56:265][686]LogModuleManager: Shutting down and abandoning module IntroTutorials (178)
+[2016.08.05-12.55.56:265][686]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (177)
+[2016.08.05-12.55.56:265][686]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (176)
+[2016.08.05-12.55.56:265][686]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (175)
+[2016.08.05-12.55.56:265][686]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (174)
+[2016.08.05-12.55.57:089][686]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (173)
+[2016.08.05-12.55.57:089][686]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (172)
+[2016.08.05-12.55.57:089][686]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (171)
+[2016.08.05-12.55.57:089][686]LogModuleManager: Shutting down and abandoning module MergeActors (170)
+[2016.08.05-12.55.57:089][686]LogModuleManager: Shutting down and abandoning module SizeMap (169)
+[2016.08.05-12.55.57:089][686]LogModuleManager: Shutting down and abandoning module TreeMap (168)
+[2016.08.05-12.55.57:089][686]LogModuleManager: Shutting down and abandoning module ReferenceViewer (167)
+[2016.08.05-12.55.57:089][686]LogModuleManager: Shutting down and abandoning module LocalizationService (166)
+[2016.08.05-12.55.57:089][686]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (165)
+[2016.08.05-12.55.57:089][686]LogModuleManager: Shutting down and abandoning module HardwareTargeting (164)
+[2016.08.05-12.55.57:089][686]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (163)
+[2016.08.05-12.55.57:089][686]LogModuleManager: Shutting down and abandoning module UndoHistory (162)
+[2016.08.05-12.55.57:089][686]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (161)
+[2016.08.05-12.55.57:089][686]LogModuleManager: Shutting down and abandoning module UserFeedback (160)
+[2016.08.05-12.55.57:089][686]LogModuleManager: Shutting down and abandoning module XmlParser (159)
+[2016.08.05-12.55.57:089][686]LogModuleManager: Shutting down and abandoning module Blutility (158)
+[2016.08.05-12.55.57:089][686]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (157)
+[2016.08.05-12.55.57:089][686]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (156)
+[2016.08.05-12.55.57:089][686]LogModuleManager: Shutting down and abandoning module InputBindingEditor (155)
+[2016.08.05-12.55.57:089][686]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (154)
+[2016.08.05-12.55.57:089][686]LogModuleManager: Shutting down and abandoning module SettingsEditor (153)
+[2016.08.05-12.55.57:089][686]LogModuleManager: Shutting down and abandoning module ProjectLauncher (152)
+[2016.08.05-12.55.57:089][686]LogModuleManager: Shutting down and abandoning module SessionFrontend (151)
+[2016.08.05-12.55.57:089][686]LogModuleManager: Shutting down and abandoning module ProfilerClient (150)
+[2016.08.05-12.55.57:089][686]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (149)
+[2016.08.05-12.55.57:089][686]LogModuleManager: Shutting down and abandoning module DeviceManager (148)
+[2016.08.05-12.55.57:089][686]LogModuleManager: Shutting down and abandoning module AutomationController (147)
+[2016.08.05-12.55.57:089][686]LogModuleManager: Shutting down and abandoning module AutomationWindow (146)
+[2016.08.05-12.55.57:089][686]LogModuleManager: Shutting down and abandoning module Layers (145)
+[2016.08.05-12.55.57:089][686]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (144)
+[2016.08.05-12.55.57:089][686]LogModuleManager: Shutting down and abandoning module DetailCustomizations (143)
+[2016.08.05-12.55.57:089][686]LogModuleManager: Shutting down and abandoning module PackagesDialog (142)
+[2016.08.05-12.55.57:090][686]LogModuleManager: Shutting down and abandoning module Persona (141)
+[2016.08.05-12.55.57:090][686]LogModuleManager: Shutting down and abandoning module Kismet (140)
+[2016.08.05-12.55.57:090][686]LogModuleManager: Shutting down and abandoning module GraphEditor (139)
+[2016.08.05-12.55.57:090][686]LogModuleManager: Shutting down and abandoning module ClassViewer (138)
+[2016.08.05-12.55.57:090][686]LogModuleManager: Shutting down and abandoning module Toolbox (137)
+[2016.08.05-12.55.57:090][686]LogModuleManager: Shutting down and abandoning module ModuleUI (136)
+[2016.08.05-12.55.57:090][686]LogModuleManager: Shutting down and abandoning module MovieSceneTools (135)
+[2016.08.05-12.55.57:090][686]LogModuleManager: Shutting down and abandoning module OutputLog (134)
+[2016.08.05-12.55.57:090][686]LogModuleManager: Shutting down and abandoning module GammaUI (133)
+[2016.08.05-12.55.57:090][686]LogModuleManager: Shutting down and abandoning module Documentation (132)
+[2016.08.05-12.55.57:090][686]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (131)
+[2016.08.05-12.55.57:090][686]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (130)
+[2016.08.05-12.55.57:090][686]LogModuleManager: Shutting down and abandoning module AnalyticsET (129)
+[2016.08.05-12.55.57:090][686]LogModuleManager: Shutting down and abandoning module Analytics (128)
+[2016.08.05-12.55.57:090][686]LogModuleManager: Shutting down and abandoning module AITestSuite (127)
+[2016.08.05-12.55.57:090][686]LogModuleManager: Shutting down and abandoning module GameplayDebugger (126)
+[2016.08.05-12.55.57:090][686]LogModuleManager: Shutting down and abandoning module AIModule (125)
+[2016.08.05-12.55.57:090][686]LogModuleManager: Shutting down and abandoning module ProfilerService (124)
+[2016.08.05-12.55.57:107][686]LogModuleManager: Shutting down and abandoning module TaskGraph (123)
+[2016.08.05-12.55.57:107][686]LogModuleManager: Shutting down and abandoning module SubstanceEditor (122)
+[2016.08.05-12.55.57:107][686]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.08.05-12.55.57:107][686]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.08.05-12.55.57:107][686]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.08.05-12.55.57:107][686]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.08.05-12.55.57:107][686]LogModuleManager: Shutting down and abandoning module OculusRift (117)
+[2016.08.05-12.55.57:107][686]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
+[2016.08.05-12.55.57:107][686]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.08.05-12.55.57:116][686]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.08.05-12.55.57:116][686]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.08.05-12.55.57:116][686]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.08.05-12.55.57:116][686]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.08.05-12.55.57:116][686]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.08.05-12.55.57:116][686]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.08.05-12.55.57:116][686]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.08.05-12.55.57:116][686]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.08.05-12.55.57:116][686]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.08.05-12.55.57:116][686]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.08.05-12.55.57:116][686]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.08.05-12.55.57:116][686]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.08.05-12.55.57:116][686]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.08.05-12.55.57:116][686]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.08.05-12.55.57:116][686]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.08.05-12.55.57:116][686]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.08.05-12.55.57:116][686]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.08.05-12.55.57:116][686]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.08.05-12.55.57:116][686]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.08.05-12.55.57:116][686]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.08.05-12.55.57:116][686]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.08.05-12.55.57:116][686]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.08.05-12.55.57:116][686]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.08.05-12.55.57:116][686]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.08.05-12.55.57:117][686]LogModuleManager: Shutting down and abandoning module ContentBrowser (90)
+[2016.08.05-12.55.57:118][686]LogModuleManager: Shutting down and abandoning module Paper2DEditor (89)
+[2016.08.05-12.55.57:118][686]LogModuleManager: Shutting down and abandoning module UdpMessaging (88)
+[2016.08.05-12.55.57:218][686]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2016.08.05-12.55.57:219][686]LogModuleManager: Shutting down and abandoning module AssetRegistry (86)
+[2016.08.05-12.55.57:754][686]LogModuleManager: Shutting down and abandoning module SubstanceCore (85)
+[2016.08.05-12.55.57:754][686]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2016.08.05-12.55.57:754][686]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2016.08.05-12.55.57:754][686]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2016.08.05-12.55.57:756][686]LogModuleManager: Shutting down and abandoning module Media (81)
+[2016.08.05-12.55.57:756][686]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2016.08.05-12.55.57:756][686]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2016.08.05-12.55.57:756][686]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2016.08.05-12.55.57:756][686]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2016.08.05-12.55.57:756][686]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2016.08.05-12.55.57:756][686]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2016.08.05-12.55.57:756][686]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2016.08.05-12.55.57:756][686]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2016.08.05-12.55.57:756][686]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2016.08.05-12.55.57:757][686]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2016.08.05-12.55.57:757][686]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2016.08.05-12.55.57:757][686]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2016.08.05-12.55.57:757][686]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2016.08.05-12.55.57:757][686]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2016.08.05-12.55.57:757][686]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2016.08.05-12.55.57:758][686]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2016.08.05-12.55.57:758][686]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2016.08.05-12.55.57:758][686]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2016.08.05-12.55.57:759][686]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2016.08.05-12.55.57:759][686]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2016.08.05-12.55.57:759][686]LogModuleManager: Shutting down and abandoning module Core (59)
+[2016.08.05-12.55.57:759][686]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2016.08.05-12.55.57:759][686]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2016.08.05-12.55.57:759][686]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2016.08.05-12.55.57:759][686]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2016.08.05-12.55.57:759][686]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2016.08.05-12.55.57:860][686]LogDerivedDataCache: Shutdown
+[2016.08.05-12.55.57:860][686]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2016.08.05-12.55.57:860][686]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2016.08.05-12.55.57:860][686]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2016.08.05-12.55.57:860][686]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2016.08.05-12.55.57:860][686]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2016.08.05-12.55.57:860][686]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2016.08.05-12.55.57:860][686]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2016.08.05-12.55.57:860][686]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2016.08.05-12.55.57:860][686]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2016.08.05-12.55.57:860][686]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2016.08.05-12.55.57:860][686]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2016.08.05-12.55.57:860][686]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2016.08.05-12.55.57:860][686]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2016.08.05-12.55.57:860][686]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2016.08.05-12.55.57:860][686]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2016.08.05-12.55.57:860][686]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2016.08.05-12.55.57:860][686]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2016.08.05-12.55.57:860][686]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2016.08.05-12.55.57:860][686]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2016.08.05-12.55.57:860][686]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2016.08.05-12.55.57:860][686]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2016.08.05-12.55.57:860][686]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2016.08.05-12.55.57:860][686]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2016.08.05-12.55.57:860][686]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2016.08.05-12.55.57:860][686]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2016.08.05-12.55.57:860][686]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2016.08.05-12.55.57:860][686]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2016.08.05-12.55.57:860][686]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2016.08.05-12.55.57:860][686]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2016.08.05-12.55.57:860][686]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2016.08.05-12.55.57:860][686]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2016.08.05-12.55.57:860][686]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2016.08.05-12.55.57:860][686]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2016.08.05-12.55.57:860][686]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2016.08.05-12.55.57:860][686]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.08.05-12.55.57:860][686]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2016.08.05-12.55.58:360][686]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2016.08.05-12.55.58:360][686]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.08.05-12.55.58:360][686]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.08.05-12.55.58:360][686]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.08.05-12.55.58:360][686]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.08.05-12.55.58:360][686]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.08.05-12.55.58:363][686]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.08.05-12.55.58:364][686]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.08.05-12.55.58:364][686]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.08.05-12.55.58:364][686]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.08.05-12.55.58:364][686]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.08.05-12.55.58:364][686]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.08.05-12.55.58:364][686]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.08.05-12.55.58:364][686]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.08.05-12.55.58:364][686]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.08.05-12.55.58:364][686]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.08.05-12.55.58:364][686]LogExit: Exiting.
+[2016.08.05-12.55.58:365][686]Log file closed, 08/05/16 13:55:58
