@@ -1,0 +1,614 @@
+﻿[2016.08.05-16.01.41:324][  0]Log file open, 08/05/16 17:01:41
+[2016.08.05-16.01.41:324][  0]LogInit:Display: Running engine for game: Escapig
+[2016.08.05-16.01.41:324][  0]LogInit:Display: RandInit(1941621133) SRandInit(1941621134).
+[2016.08.05-16.01.41:324][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.08.05-16.01.41:324][  0]LogStats: Stats thread started at 0.074140
+[2016.08.05-16.01.41:324][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.08.05-16.01.41:324][  0]LogInit: API Version: 2672455
+[2016.08.05-16.01.41:324][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.08.05-16.01.41:324][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.08.05-16.01.41:324][  0]LogInit: Build Configuration: Development
+[2016.08.05-16.01.41:324][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.08.05-16.01.41:324][  0]LogInit: Command line:  /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level -game -PIEVIACONSOLE -ResX=540 -ResY=960  -Multiprocess -featureleveles2 -faketouches 
+[2016.08.05-16.01.41:324][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.08.05-16.01.41:324][  0]LogInit: Rocket: 1
+[2016.08.05-16.01.41:351][  0]LogInit: Using libcurl 7.41.0
+[2016.08.05-16.01.41:351][  0]LogInit:  - built for x86_64-pc-win32
+[2016.08.05-16.01.41:351][  0]LogInit:  - supports SSL with WinSSL
+[2016.08.05-16.01.41:351][  0]LogInit:  - other features:
+[2016.08.05-16.01.41:351][  0]LogInit:      CURL_VERSION_SSL
+[2016.08.05-16.01.41:351][  0]LogInit:      CURL_VERSION_IPV6
+[2016.08.05-16.01.41:351][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.08.05-16.01.41:351][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.08.05-16.01.41:351][  0]LogInit:      CURL_VERSION_IDN
+[2016.08.05-16.01.41:351][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.08.05-16.01.41:351][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.08.05-16.01.41:351][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.08.05-16.01.41:351][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.08.05-16.01.41:351][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.08.05-16.01.41:360][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.08.05-16.01.41:366][  0]LogInit: Object subsystem initialized
+[2016.08.05-16.01.41:367][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.05-16.01.41:367][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.08.05-16.01.41:370][  0]LogInit: Computer: CW304-45
+[2016.08.05-16.01.41:370][  0]LogInit: User: u1355345
+[2016.08.05-16.01.41:370][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.08.05-16.01.41:370][  0]LogInit: High frequency timer resolution =3.507656 MHz
+[2016.08.05-16.01.41:371][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2016.08.05-16.01.41:371][  0]LogMemory: Platform Memory Stats for Windows
+[2016.08.05-16.01.41:371][  0]LogMemory: Process Physical Memory: 54.66 MB used, 54.66 MB peak
+[2016.08.05-16.01.41:371][  0]LogMemory: Process Virtual Memory: 57.39 MB used, 57.39 MB peak
+[2016.08.05-16.01.41:371][  0]LogMemory: Physical Memory: 5569.86 MB used, 16222.36 MB total
+[2016.08.05-16.01.41:371][  0]LogMemory: Virtual Memory: 338.89 MB used, 8388608.00 MB total
+[2016.08.05-16.01.41:412][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.08.05-16.01.41:985][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.08.05-16.01.41:985][  0]LogD3D11RHI: Adapter has 4007MB of dedicated video memory, 0MB of dedicated system memory, and 7855MB of shared system memory, 2 output[s]
+[2016.08.05-16.01.41:991][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2016.08.05-16.01.41:991][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 0 output[s]
+[2016.08.05-16.01.41:991][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.08.05-16.01.41:997][  0]LogD3D11RHI: !Direct3DDevice
+[2016.08.05-16.01.41:997][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.08.05-16.01.42:004][  0]LogD3D11RHI: Async texture creation enabled
+[2016.08.05-16.01.42:016][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (F:/Escapig/Escapig/Intermediate/Shaders/WorkingDirectory/5608/).
+[2016.08.05-16.01.42:016][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'F:/Escapig/Escapig/Intermediate/Shaders/tmp/89B8D79A4CC33C92F3BB25AC0452E2FC/'.
+[2016.08.05-16.01.42:016][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.08.05-16.01.42:950][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.08.05-16.01.42:955][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.08.05-16.01.42:962][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.08.05-16.01.42:968][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.08.05-16.01.42:974][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.08.05-16.01.42:978][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.08.05-16.01.42:983][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.08.05-16.01.42:987][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.08.05-16.01.42:991][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.08.05-16.01.42:994][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.08.05-16.01.42:998][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.08.05-16.01.43:000][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.08.05-16.01.43:001][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.08.05-16.01.43:017][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.08.05-16.01.43:019][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.08.05-16.01.43:022][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.08.05-16.01.43:025][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.08.05-16.01.43:025][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.08.05-16.01.43:094][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.08.05-16.01.43:144][  0]LogDerivedDataCache: Loaded boot cache 0.05s 57MB D:/Users/u1355345/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.08.05-16.01.43:144][  0]LogDerivedDataCache:Display: Loaded Boot cache: D:/Users/u1355345/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.08.05-16.01.43:144][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/Escapig/Escapig/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.08.05-16.01.43:144][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.08.05-16.01.43:144][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/Escapig/Escapig/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.08.05-16.01.43:144][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.08.05-16.01.43:267][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.08.05-16.01.43:278][  0]LogDerivedDataCache: Using Local data cache path D:/Users/u1355345/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.08.05-16.01.43:431][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.05-16.01.43:432][  0]LogContentStreaming: Texture pool size is 1000.000000MB
+[2016.08.05-16.01.43:446][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.08.05-16.01.43:446][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.08.05-16.01.43:697][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.08.05-16.01.43:869][  0]LogWindowsMoviePlayer: Unable to load movie: F:/Escapig/Escapig/Content/Movies/Default_Startup.mp4
+[2016.08.05-16.01.43:968][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
+[2016.08.05-16.01.43:991][  0]SourceControl: Info Source control is disabled
+[2016.08.05-16.01.43:991][  0]SourceControl: Info Source control is disabled
+[2016.08.05-16.01.44:001][  0]SourceControl: Info Source control is disabled
+[2016.08.05-16.01.44:085][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.05-16.01.44:160][  0]LogObj: 27801 objects as part of root set at end of initial load.
+[2016.08.05-16.01.44:160][  0]LogUObjectAllocator: 5798192 out of 0 bytes used by permanent object pool.
+[2016.08.05-16.01.44:214][  0]LogEngine: Initializing Engine...
+[2016.08.05-16.01.44:216][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.08.05-16.01.44:216][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.08.05-16.01.44:242][  0]LogMaterial: Missing cached shader map for material MAT_LevelColorationLitLightmapUV, compiling. Is special engine material.
+[2016.08.05-16.01.44:242][  0]LogMaterial:Warning: Failed to compile Material /Engine/EngineDebugMaterials/MAT_LevelColorationLitLightmapUV.MAT_LevelColorationLitLightmapUV for platform PCD3D_ES2, Default Material will be used in game.
+[2016.08.05-16.01.44:242][  0]LogMaterial:Warning: 	(Node LightmapUVs) Node not supported in feature level ES2
+[2016.08.05-16.01.44:286][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.05-16.01.44:294][  0]LogInit: FAudioDevice initialized.
+[2016.08.05-16.01.44:296][  0]LogInit: Texture streaming: Enabled
+[2016.08.05-16.01.44:306][  0]LogMaterial: Missing cached shader map for material CustomStencil, compiling. 
+[2016.08.05-16.01.44:307][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/CustomStencil.CustomStencil for platform PCD3D_ES2, Default Material will be used in game.
+[2016.08.05-16.01.44:307][  0]LogMaterial:Warning: 	(Node SceneTexture) Node not supported in feature level ES2
+[2016.08.05-16.01.44:357][  0]LogNet: Browse: /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level?Name=Player
+[2016.08.05-16.01.44:357][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level?Name=Player
+[2016.08.05-16.01.44:365][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F566DE0
+[2016.08.05-16.01.44:372][  0]LogMemory: Platform Memory Stats for Windows
+[2016.08.05-16.01.44:372][  0]LogMemory: Process Physical Memory: 380.93 MB used, 380.93 MB peak
+[2016.08.05-16.01.44:372][  0]LogMemory: Process Virtual Memory: 398.37 MB used, 402.24 MB peak
+[2016.08.05-16.01.44:372][  0]LogMemory: Physical Memory: 5891.60 MB used, 16222.36 MB total
+[2016.08.05-16.01.44:372][  0]LogMemory: Virtual Memory: 895.51 MB used, 8388608.00 MB total
+[2016.08.05-16.01.44:372][  0]LogMemory: 
+[2016.08.05-16.01.44:372][  0]Allocator Stats for TBB: (not implemented)
+[2016.08.05-16.01.45:576][  0]LogAIModule: Creating AISystem for world Escapig_Level
+[2016.08.05-16.01.45:576][  0]LogWorld: Game class is 'Escapig_Mode_C'
+[2016.08.05-16.01.45:578][  0]LogWorld: Bringing World /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.Escapig_Level up for play (max tick rate 0) at 2016.08.05-17.01.45
+[2016.08.05-16.01.45:578][  0]LogWorld: Bringing up level for play took: 0.001155
+[2016.08.05-16.01.45:581][  0]LogInit:Display: Game Engine Initialized.
+[2016.08.05-16.01.45:795][  0]LogLoad: Full Startup: 4.78 seconds (BP compile: 0.42 seconds)
+[2016.08.05-16.01.45:860][  1]LogRenderer: Reallocating scene render targets to support 540x960 (Frame:2).
+[2016.08.05-16.01.48:868][184]LogPackageName: SearchForPackageOnDisk took   0.055s to resolve Menu.umap.
+[2016.08.05-16.01.48:920][184]LogPackageName: SearchForPackageOnDisk took   0.052s to resolve Menu.umap.
+[2016.08.05-16.01.48:920][184]LogNet: Browse: /Game/Blueprints/Maps/Menu
+[2016.08.05-16.01.48:920][184]LogLoad: LoadMap: /Game/Blueprints/Maps/Menu
+[2016.08.05-16.01.48:968][184]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011A4C180
+[2016.08.05-16.01.49:009][184]LogMemory: Platform Memory Stats for Windows
+[2016.08.05-16.01.49:009][184]LogMemory: Process Physical Memory: 424.75 MB used, 424.75 MB peak
+[2016.08.05-16.01.49:009][184]LogMemory: Process Virtual Memory: 454.01 MB used, 454.01 MB peak
+[2016.08.05-16.01.49:009][184]LogMemory: Physical Memory: 5919.43 MB used, 16222.36 MB total
+[2016.08.05-16.01.49:009][184]LogMemory: Virtual Memory: 952.41 MB used, 8388608.00 MB total
+[2016.08.05-16.01.49:009][184]LogMemory: 
+[2016.08.05-16.01.49:009][184]Allocator Stats for TBB: (not implemented)
+[2016.08.05-16.01.50:131][184]LogAIModule: Creating AISystem for world Menu
+[2016.08.05-16.01.50:132][184]LogWorld: Game class is 'Escapig_Mode_C'
+[2016.08.05-16.01.50:133][184]LogWorld: Bringing World /Game/Blueprints/Maps/Menu.Menu up for play (max tick rate 0) at 2016.08.05-17.01.50
+[2016.08.05-16.01.50:133][184]LogWorld: Bringing up level for play took: 0.000528
+[2016.08.05-16.01.50:133][184]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.08.05-16.01.51:788][284]LogPackageName: SearchForPackageOnDisk took   0.053s to resolve Leaderboards_Menu.umap.
+[2016.08.05-16.01.51:841][284]LogPackageName: SearchForPackageOnDisk took   0.052s to resolve Leaderboards_Menu.umap.
+[2016.08.05-16.01.51:841][284]LogNet: Browse: /Game/Blueprints/Maps/Leaderboards_Menu
+[2016.08.05-16.01.51:841][284]LogLoad: LoadMap: /Game/Blueprints/Maps/Leaderboards_Menu
+[2016.08.05-16.01.51:914][284]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000010489940
+[2016.08.05-16.01.51:922][284]LogMemory: Platform Memory Stats for Windows
+[2016.08.05-16.01.51:922][284]LogMemory: Process Physical Memory: 436.88 MB used, 451.10 MB peak
+[2016.08.05-16.01.51:922][284]LogMemory: Process Virtual Memory: 470.16 MB used, 489.61 MB peak
+[2016.08.05-16.01.51:922][284]LogMemory: Physical Memory: 5935.70 MB used, 16222.36 MB total
+[2016.08.05-16.01.51:922][284]LogMemory: Virtual Memory: 972.89 MB used, 8388608.00 MB total
+[2016.08.05-16.01.51:922][284]LogMemory: 
+[2016.08.05-16.01.51:922][284]Allocator Stats for TBB: (not implemented)
+[2016.08.05-16.01.53:042][284]LogAIModule: Creating AISystem for world Leaderboards_Menu
+[2016.08.05-16.01.53:042][284]LogWorld: Game class is 'Escapig_Mode_C'
+[2016.08.05-16.01.53:043][284]LogWorld: Bringing World /Game/Blueprints/Maps/Leaderboards_Menu.Leaderboards_Menu up for play (max tick rate 0) at 2016.08.05-17.01.53
+[2016.08.05-16.01.53:043][284]LogWorld: Bringing up level for play took: 0.000432
+[2016.08.05-16.01.53:043][284]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.08.05-16.01.53:046][284]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:047][285]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:064][286]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:080][287]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:096][288]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:112][289]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:128][290]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:145][291]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:161][292]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:177][293]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:193][294]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:209][295]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:225][296]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:241][297]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:257][298]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:273][299]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:290][300]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:306][301]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:322][302]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:338][303]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:354][304]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:371][305]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:386][306]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:402][307]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:419][308]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:435][309]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:451][310]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:467][311]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:483][312]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:499][313]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:516][314]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:532][315]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:548][316]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:564][317]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:580][318]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:596][319]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:613][320]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:628][321]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:645][322]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:661][323]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:677][324]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:693][325]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:709][326]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:726][327]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:741][328]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:757][329]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:774][330]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:790][331]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:806][332]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:822][333]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:838][334]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:854][335]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:871][336]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:886][337]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:903][338]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:919][339]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:935][340]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:951][341]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:967][342]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:983][343]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.53:999][344]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:016][345]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:032][346]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:048][347]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:064][348]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:080][349]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:096][350]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:112][351]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:128][352]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:145][353]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:161][354]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:177][355]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:193][356]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:209][357]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:225][358]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:241][359]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:257][360]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:274][361]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:290][362]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:306][363]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:322][364]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:338][365]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:354][366]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:371][367]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:387][368]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:403][369]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:419][370]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:435][371]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:451][372]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:467][373]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:483][374]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:499][375]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:516][376]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:532][377]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:548][378]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:564][379]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:580][380]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:596][381]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:612][382]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:628][383]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:645][384]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:661][385]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:677][386]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:693][387]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:709][388]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:725][389]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:741][390]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:758][391]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:774][392]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:790][393]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:806][394]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:822][395]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:838][396]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:854][397]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:870][398]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:886][399]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:903][400]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:919][401]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:935][402]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:951][403]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:967][404]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:983][405]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.54:999][406]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:016][407]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:032][408]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:048][409]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:064][410]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:080][411]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:096][412]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:113][413]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:128][414]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:145][415]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:161][416]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:177][417]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:193][418]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:209][419]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:225][420]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:241][421]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:258][422]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:274][423]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:290][424]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:306][425]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:322][426]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:338][427]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:354][428]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:370][429]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:387][430]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:402][431]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:419][432]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:435][433]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:451][434]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:467][435]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:483][436]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:499][437]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:516][438]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:532][439]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:548][440]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:564][441]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:580][442]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:596][443]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:612][444]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:629][445]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:645][446]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:661][447]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:677][448]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:693][449]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:709][450]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:725][451]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:741][452]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:758][453]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:774][454]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:790][455]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:806][456]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:822][457]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:838][458]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:854][459]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:870][460]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:887][461]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:902][462]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:919][463]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:935][464]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:951][465]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:967][466]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:983][467]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.55:999][468]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:016][469]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:031][470]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:048][471]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:064][472]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:080][473]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:096][474]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:112][475]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:128][476]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:145][477]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:161][478]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:177][479]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:193][480]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:209][481]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:225][482]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:241][483]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:258][484]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:274][485]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:290][486]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:306][487]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:322][488]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:338][489]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:354][490]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:370][491]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:387][492]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:403][493]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:419][494]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:435][495]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:451][496]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:467][497]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:483][498]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:500][499]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:515][500]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:532][501]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:548][502]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:564][503]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:580][504]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:601][505]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:612][506]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:629][507]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:645][508]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:661][509]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:677][510]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:693][511]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:709][512]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:725][513]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:741][514]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:758][515]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:774][516]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:790][517]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:806][518]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:822][519]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:838][520]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:854][521]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:870][522]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:887][523]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:902][524]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:919][525]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:935][526]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:951][527]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:967][528]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:983][529]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.56:999][530]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:015][531]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:032][532]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:048][533]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:064][534]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:080][535]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:096][536]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:112][537]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:128][538]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:145][539]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:161][540]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:177][541]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:193][542]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:209][543]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:225][544]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:241][545]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:257][546]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:274][547]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:290][548]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:306][549]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:322][550]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:338][551]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:354][552]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:370][553]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:387][554]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:403][555]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:419][556]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:435][557]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:451][558]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:467][559]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:483][560]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:499][561]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:515][562]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:532][563]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:548][564]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:564][565]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:580][566]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:596][567]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:612][568]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:628][569]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:644][570]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:661][571]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:677][572]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:693][573]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:709][574]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:725][575]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:741][576]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:757][577]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:774][578]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:790][579]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:806][580]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:822][581]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:838][582]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:854][583]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:870][584]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:886][585]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:903][586]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:919][587]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:935][588]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:951][589]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:967][590]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:983][591]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.57:999][592]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.58:015][593]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.58:032][594]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.58:048][595]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.58:064][596]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.58:080][597]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.58:096][598]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.58:112][599]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.58:128][600]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.58:144][601]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.58:161][602]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.58:177][603]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.58:193][604]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.58:209][605]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.58:225][606]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.58:241][607]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.58:258][608]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.58:274][609]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.58:290][610]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.58:306][611]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.58:322][612]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.58:338][613]LogScript:Warning: Attempted to get an item from array S_HighScore out of bounds [1/0]!
+[2016.08.05-16.01.58:591][614]LogEngine: All Windows Closed
+[2016.08.05-16.01.58:591][614]LogWindows: FPlatformMisc::RequestExit(0)
+[2016.08.05-16.01.59:217][615]LogExit: Preparing to exit.
+[2016.08.05-16.01.59:355][615]LogExit: Game engine shut down
+[2016.08.05-16.01.59:507][615]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000025D07A60
+[2016.08.05-16.01.59:507][615]LogExit: Object subsystem successfully closed.
+[2016.08.05-16.01.59:513][615]LogD3D11RHI: Shutdown
+[2016.08.05-16.01.59:513][615]LogD3D11RHI: CleanupD3DDevice
+[2016.08.05-16.01.59:552][615]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.08.05-16.01.59:564][615]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (117)
+[2016.08.05-16.02.00:142][615]LogModuleManager: Shutting down and abandoning module AutomationController (116)
+[2016.08.05-16.02.00:142][615]LogModuleManager: Shutting down and abandoning module AutomationWorker (115)
+[2016.08.05-16.02.00:142][615]LogModuleManager: Shutting down and abandoning module CharacterAI (114)
+[2016.08.05-16.02.00:142][615]LogModuleManager: Shutting down and abandoning module AITestSuite (113)
+[2016.08.05-16.02.00:142][615]LogModuleManager: Shutting down and abandoning module GameplayDebugger (112)
+[2016.08.05-16.02.00:142][615]LogModuleManager: Shutting down and abandoning module AIModule (111)
+[2016.08.05-16.02.00:142][615]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (110)
+[2016.08.05-16.02.00:142][615]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (109)
+[2016.08.05-16.02.00:142][615]LogModuleManager: Shutting down and abandoning module ProfilerService (108)
+[2016.08.05-16.02.00:168][615]LogModuleManager: Shutting down and abandoning module TaskGraph (107)
+[2016.08.05-16.02.00:168][615]LogModuleManager: Shutting down and abandoning module SlateRemote (106)
+[2016.08.05-16.02.00:168][615]LogModuleManager: Shutting down and abandoning module SteamVRController (105)
+[2016.08.05-16.02.00:168][615]LogModuleManager: Shutting down and abandoning module SteamVR (104)
+[2016.08.05-16.02.00:168][615]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (103)
+[2016.08.05-16.02.00:168][615]LogModuleManager: Shutting down and abandoning module OculusRift (102)
+[2016.08.05-16.02.00:168][615]LogModuleManager: Shutting down and abandoning module OculusLibrary (101)
+[2016.08.05-16.02.00:168][615]LogModuleManager: Shutting down and abandoning module LeapMotionController (100)
+[2016.08.05-16.02.00:177][615]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (99)
+[2016.08.05-16.02.00:177][615]LogModuleManager: Shutting down and abandoning module CableComponent (98)
+[2016.08.05-16.02.00:177][615]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (97)
+[2016.08.05-16.02.00:177][615]LogModuleManager: Shutting down and abandoning module HTML5Networking (96)
+[2016.08.05-16.02.00:177][615]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
+[2016.08.05-16.02.00:177][615]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (94)
+[2016.08.05-16.02.00:177][615]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.08.05-16.02.00:177][615]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (92)
+[2016.08.05-16.02.00:177][615]LogModuleManager: Shutting down and abandoning module UObjectPlugin (91)
+[2016.08.05-16.02.00:177][615]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (90)
+[2016.08.05-16.02.00:177][615]LogModuleManager: Shutting down and abandoning module SourceControl (89)
+[2016.08.05-16.02.00:177][615]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2016.08.05-16.02.00:177][615]LogModuleManager: Shutting down and abandoning module UdpMessaging (87)
+[2016.08.05-16.02.00:177][615]LogModuleManager: Shutting down and abandoning module AssetRegistry (86)
+[2016.08.05-16.02.00:177][615]LogModuleManager: Shutting down and abandoning module SubstanceCore (85)
+[2016.08.05-16.02.00:177][615]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2016.08.05-16.02.00:177][615]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2016.08.05-16.02.00:177][615]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2016.08.05-16.02.00:178][615]LogModuleManager: Shutting down and abandoning module Media (81)
+[2016.08.05-16.02.00:178][615]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2016.08.05-16.02.00:178][615]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2016.08.05-16.02.00:178][615]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2016.08.05-16.02.00:178][615]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2016.08.05-16.02.00:178][615]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2016.08.05-16.02.00:178][615]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2016.08.05-16.02.00:178][615]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2016.08.05-16.02.00:178][615]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2016.08.05-16.02.00:178][615]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2016.08.05-16.02.00:178][615]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2016.08.05-16.02.00:178][615]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2016.08.05-16.02.00:178][615]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2016.08.05-16.02.00:178][615]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2016.08.05-16.02.00:178][615]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2016.08.05-16.02.00:178][615]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2016.08.05-16.02.00:179][615]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2016.08.05-16.02.00:179][615]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2016.08.05-16.02.00:179][615]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2016.08.05-16.02.00:179][615]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2016.08.05-16.02.00:179][615]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2016.08.05-16.02.00:179][615]LogModuleManager: Shutting down and abandoning module Core (59)
+[2016.08.05-16.02.00:179][615]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2016.08.05-16.02.00:179][615]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2016.08.05-16.02.00:179][615]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2016.08.05-16.02.00:179][615]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2016.08.05-16.02.00:180][615]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2016.08.05-16.02.00:268][615]LogDerivedDataCache: Shutdown
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.08.05-16.02.00:268][615]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.08.05-16.02.00:269][615]LogExit: Exiting.
+[2016.08.05-16.02.00:270][615]Log file closed, 08/05/16 17:02:00
