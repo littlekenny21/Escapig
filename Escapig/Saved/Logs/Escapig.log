@@ -1,414 +1,832 @@
-﻿[2016.08.05-16.42.45:664][  0]Log file open, 08/05/16 17:42:45
-[2016.08.05-16.42.45:664][  0]LogInit:Display: Running engine for game: Escapig
-[2016.08.05-16.42.45:665][  0]LogInit:Display: RandInit(1995100993) SRandInit(1995100993).
-[2016.08.05-16.42.45:665][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
-[2016.08.05-16.42.45:665][  0]LogStats: Stats thread started at 0.071268
-[2016.08.05-16.42.45:665][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
-[2016.08.05-16.42.45:665][  0]LogInit: API Version: 2672455
-[2016.08.05-16.42.45:665][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
-[2016.08.05-16.42.45:665][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
-[2016.08.05-16.42.45:665][  0]LogInit: Build Configuration: Development
-[2016.08.05-16.42.45:665][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
-[2016.08.05-16.42.45:665][  0]LogInit: Command line: -HTTP=WinInet
-[2016.08.05-16.42.45:665][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
-[2016.08.05-16.42.45:665][  0]LogInit: Rocket: 1
-[2016.08.05-16.42.45:694][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2016.08.05-16.42.45:699][  0]LogInit: Object subsystem initialized
-[2016.08.05-16.42.45:700][  0]LogInit: Selected Device Profile: [Windows]
-[2016.08.05-16.42.45:700][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.08.05-16.42.45:708][  0]LogInit: Computer: CW304-45
-[2016.08.05-16.42.45:708][  0]LogInit: User: u1355345
-[2016.08.05-16.42.45:708][  0]LogInit: CPU Page size=4096, Cores=4
-[2016.08.05-16.42.45:708][  0]LogInit: High frequency timer resolution =3.507656 MHz
-[2016.08.05-16.42.45:708][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
-[2016.08.05-16.42.45:708][  0]LogMemory: Platform Memory Stats for Windows
-[2016.08.05-16.42.45:708][  0]LogMemory: Process Physical Memory: 54.78 MB used, 54.78 MB peak
-[2016.08.05-16.42.45:708][  0]LogMemory: Process Virtual Memory: 57.36 MB used, 57.36 MB peak
-[2016.08.05-16.42.45:708][  0]LogMemory: Physical Memory: 5345.12 MB used, 16222.36 MB total
-[2016.08.05-16.42.45:708][  0]LogMemory: Virtual Memory: 338.84 MB used, 8388608.00 MB total
-[2016.08.05-16.42.45:740][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2016.08.05-16.42.46:388][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
-[2016.08.05-16.42.46:388][  0]LogD3D11RHI: Adapter has 4007MB of dedicated video memory, 0MB of dedicated system memory, and 7855MB of shared system memory, 2 output[s]
-[2016.08.05-16.42.46:396][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
-[2016.08.05-16.42.46:396][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 0 output[s]
-[2016.08.05-16.42.46:396][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2016.08.05-16.42.46:403][  0]LogD3D11RHI: !Direct3DDevice
-[2016.08.05-16.42.46:405][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.08.05-16.42.46:414][  0]LogD3D11RHI: Async texture creation enabled
-[2016.08.05-16.42.46:428][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (F:/Escapig/Escapig/Intermediate/Shaders/WorkingDirectory/7616/).
-[2016.08.05-16.42.46:428][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'F:/Escapig/Escapig/Intermediate/Shaders/tmp/F6D9B82348491FA1A928179E295C40D7/'.
-[2016.08.05-16.42.46:428][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.08.05-16.42.47:455][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.08.05-16.42.47:460][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.08.05-16.42.47:464][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.08.05-16.42.47:469][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.08.05-16.42.47:474][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.08.05-16.42.47:477][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.08.05-16.42.47:480][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.08.05-16.42.47:483][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.08.05-16.42.47:485][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.08.05-16.42.47:488][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.08.05-16.42.47:491][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.08.05-16.42.47:495][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.08.05-16.42.47:496][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.08.05-16.42.47:512][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.08.05-16.42.47:515][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.08.05-16.42.47:518][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.08.05-16.42.47:521][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.08.05-16.42.47:521][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.08.05-16.42.47:600][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.08.05-16.42.47:651][  0]LogDerivedDataCache: Loaded boot cache 0.05s 57MB D:/Users/u1355345/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2016.08.05-16.42.47:651][  0]LogDerivedDataCache:Display: Loaded Boot cache: D:/Users/u1355345/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
-[2016.08.05-16.42.47:652][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/Escapig/Escapig/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.08.05-16.42.47:652][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.08.05-16.42.47:652][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/Escapig/Escapig/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.08.05-16.42.47:652][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.08.05-16.42.47:796][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.08.05-16.42.47:807][  0]LogDerivedDataCache: Using Local data cache path D:/Users/u1355345/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.08.05-16.42.47:990][  0]LogInit: Selected Device Profile: [Windows]
-[2016.08.05-16.42.47:990][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2016.08.05-16.42.48:013][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.08.05-16.42.48:013][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.08.05-16.42.48:333][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.08.05-16.42.49:046][  0]LogAssetRegistry: FAssetRegistry took 0.0098 seconds to start up
-[2016.08.05-16.42.49:060][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.08.05-16.42.49:717][  0]SourceControl: Info Source control is disabled
-[2016.08.05-16.42.49:727][  0]SourceControl: Info Source control is disabled
-[2016.08.05-16.42.49:739][  0]SourceControl: Info Source control is disabled
-[2016.08.05-16.42.49:750][  0]SourceControl: Info Source control is disabled
-[2016.08.05-16.42.49:907][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2016.08.05-16.42.50:010][  0]LogObj: 28528 objects as part of root set at end of initial load.
-[2016.08.05-16.42.50:010][  0]LogUObjectAllocator: 6068464 out of 0 bytes used by permanent object pool.
-[2016.08.05-16.42.50:061][  0]LogEngine: Initializing Engine...
-[2016.08.05-16.42.50:063][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
-[2016.08.05-16.42.50:064][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2016.08.05-16.42.50:171][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.08.05-16.42.50:175][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.08.05-16.42.50:196][  0]LogInit: FAudioDevice initialized.
-[2016.08.05-16.42.50:225][  0]LogDerivedDataCache: Saved boot cache 0.03s 57MB D:/Users/u1355345/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2016.08.05-16.42.50:229][  0]LogInit: Texture streaming: Enabled
-[2016.08.05-16.42.50:234][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2016.08.05-16.42.50:234][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
-[2016.08.05-16.42.50:234][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 8ca410e94349aeb431fa82a2e9cc4f8f|00701ac0a72a49eb8431b8c5d052984e|70ca8c48-dee3-4e5d-bf6f-cceffcc3b4db
-[2016.08.05-16.42.50:234][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2016.08.05-16.42.50:267][  0]LogInit: Transaction tracking system initialized
-[2016.08.05-16.42.50:292][  0]BlueprintLog: New page: Editor Load
-[2016.08.05-16.42.50:371][  0]LocalizationService: Info Localization service is disabled
-[2016.08.05-16.42.50:446][  0]LogConsoleResponse:Display: 
-[2016.08.05-16.42.50:580][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2016.08.05-16.42.50:635][  0]LogFileCache: Scanning file cache for directory 'F:/Escapig/Escapig/Content/' took 0.01s
-[2016.08.05-16.42.50:635][  0]SourceControl: Info Source control is disabled
-[2016.08.05-16.42.50:635][  0]Cmd: MAP LOAD FILE="F:/Escapig/Escapig/Content/Blueprints/Maps/Escapig_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.08.05-16.42.50:636][  0]LightingResults: New page: Lighting Build
-[2016.08.05-16.42.50:639][  0]MapCheck: New page: Map Check
-[2016.08.05-16.42.50:639][  0]LightingResults: New page: Lighting Build
-[2016.08.05-16.42.50:648][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000024AFFCE0
-[2016.08.05-16.42.51:824][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Blueprints/BP_Wheat_Tile.BP_Wheat_Tile_C:UserConstructionScript; removing parent information, but keeping function
-[2016.08.05-16.42.53:045][  0]LogAIModule: Creating AISystem for world Escapig_Level
-[2016.08.05-16.42.53:050][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.08.05-16.42.53:050][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.08.05-16.42.53:119][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 68.6ms to complete.
-[2016.08.05-16.42.53:119][  0]LogFileHelpers: Loading map 'Escapig_Level' took 2.484
-[2016.08.05-16.42.53:225][  0]LogCollectionManager: Loaded 0 collections in 0.001739 seconds
-[2016.08.05-16.42.53:261][  0]LogFileCache: Scanning file cache for directory 'F:/Escapig/Escapig/Saved/Collections/' took 0.01s
-[2016.08.05-16.42.53:261][  0]LogFileCache: Scanning file cache for directory 'F:/Escapig/Escapig/Content/Developers/u1355345/Collections/' took 0.01s
-[2016.08.05-16.42.53:261][  0]LogFileCache: Scanning file cache for directory 'F:/Escapig/Escapig/Content/Collections/' took 0.01s
-[2016.08.05-16.42.53:261][  0]LogContentBrowser: Native class hierarchy populated in 0.0061 seconds. Added 1882 classes and 339 folders.
-[2016.08.05-16.42.53:270][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2016.08.05-16.42.53:276][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2016.08.05-16.42.53:322][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2016.08.05-16.42.53:325][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2016.08.05-16.42.53:354][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.08.05-16.42.53:356][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.08.05-16.42.53:382][  0]LogLoad: Full Startup: 8.24 seconds (BP compile: 0.95 seconds)
-[2016.08.05-16.42.53:448][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2016.08.05-16.42.53:556][  0]LogRenderer: Reallocating scene render targets to support 1240x652 (Frame:2).
-[2016.08.05-16.42.53:921][ 10]LogAssetRegistry: Asset discovery search completed in 4.8852 seconds
-[2016.08.05-16.42.53:921][ 10]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2016.08.05-16.42.53:921][ 10]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000016 seconds (updated 0 objects)
-[2016.08.05-16.43.02:912][623]LogAIModule: Creating AISystem for world Menu
-[2016.08.05-16.43.02:924][623]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.08.05-16.43.03:013][623]Cmd: MAP LOAD FILE="F:/Escapig/Escapig/Content/Blueprints/Maps/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.08.05-16.43.03:014][623]LightingResults: New page: Lighting Build
-[2016.08.05-16.43.03:036][623]LoadErrors: New page: Loading map: Menu.umap
-[2016.08.05-16.43.03:037][623]MapCheck: New page: Map Check
-[2016.08.05-16.43.03:037][623]LightingResults: New page: Lighting Build
-[2016.08.05-16.43.03:050][623]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002CCFFA60
-[2016.08.05-16.43.03:053][623]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.08.05-16.43.03:087][623]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.08.05-16.43.03:162][623]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 74.536ms to complete.
-[2016.08.05-16.43.03:163][623]LogFileHelpers: Loading map 'Menu' took 0.150
-[2016.08.05-16.43.07:977][941]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.08.05-16.43.08:021][941]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Maps/Menu" FILE="F:/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
-[2016.08.05-16.43.08:092][941]LogSavePackage: Save=46.476337ms
-[2016.08.05-16.43.08:092][941]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/UEDPCMenu4D0C995645D3552FA517EFA9DB2B8C3D.tmp' to 'F:/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCMenu.umap'
-[2016.08.05-16.43.08:094][941]LogSavePackage: Total save time: 69.771383ms
-[2016.08.05-16.43.08:094][941]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCMenu.umap
-[2016.08.05-16.43.49:059][303]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Maps/Menu" FILE="F:/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
-[2016.08.05-16.43.49:157][303]LogSavePackage: Save=51.188316ms
-[2016.08.05-16.43.49:157][303]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/UEDPCMenu210EBE5449D90226C55F45A103EF6567.tmp' to 'F:/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCMenu.umap'
-[2016.08.05-16.43.49:159][303]LogSavePackage: Total save time: 71.101330ms
-[2016.08.05-16.43.49:159][303]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCMenu.umap
-[2016.08.05-16.44.04:764][726]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Maps/Menu" FILE="F:/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
-[2016.08.05-16.44.04:832][726]LogSavePackage: Save=48.880791ms
-[2016.08.05-16.44.04:832][726]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/UEDPCMenu68A4A86E44BC31B90D6DDCB97DF120CC.tmp' to 'F:/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCMenu.umap'
-[2016.08.05-16.44.04:834][726]LogSavePackage: Total save time: 66.770516ms
-[2016.08.05-16.44.04:834][726]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCMenu.umap
-[2016.08.05-16.44.34:862][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Maps/Menu" FILE="F:/Escapig/Escapig/Content/Blueprints/Maps/Menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2016.08.05-16.44.34:938][518]LogSavePackage: Save=44.961365ms
-[2016.08.05-16.44.34:938][518]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/MenuDC3660FF40B98FB7DD3EA3AB9D2429B2.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Maps/Menu.umap'
-[2016.08.05-16.44.34:945][518]LogSavePackage: Total save time: 68.226475ms
-[2016.08.05-16.44.34:945][518]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Maps/Menu.umap
-[2016.08.05-16.44.34:982][518]LogFileHelpers: Saving map 'Menu' took 0.189
-[2016.08.05-16.44.34:984][518]Cmd: MAP LOAD FILE="F:/Escapig/Escapig/Content/Blueprints/Maps/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.08.05-16.44.34:984][518]LightingResults: New page: Lighting Build
-[2016.08.05-16.44.35:004][518]LoadErrors: New page: Loading map: Menu.umap
-[2016.08.05-16.44.35:005][518]MapCheck: New page: Map Check
-[2016.08.05-16.44.35:005][518]LightingResults: New page: Lighting Build
-[2016.08.05-16.44.35:017][518]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000034282520
-[2016.08.05-16.44.35:033][518]LogAIModule: Creating AISystem for world Menu
-[2016.08.05-16.44.35:034][518]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.08.05-16.44.35:075][518]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.08.05-16.44.35:143][518]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 68.341ms to complete.
-[2016.08.05-16.44.35:144][518]LogFileHelpers: Loading map 'Menu' took 0.161
-[2016.08.05-16.44.39:223][918]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2016.08.05-16.44.39:635][918]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 107 classes and 0 folders.
-[2016.08.05-16.45.15:735][327]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.08.05-16.45.15:785][327]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/Menu" FILE="F:/Escapig/Escapig/Content/UMG/Menu.uasset" SILENT=true
-[2016.08.05-16.45.15:873][327]LogSavePackage: Save=59.409473ms
-[2016.08.05-16.45.15:873][327]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/MenuDBE7A49B4F81B49B7F3948BE41E9D473.tmp' to 'F:/Escapig/Escapig/Content/UMG/Menu.uasset'
-[2016.08.05-16.45.15:881][327]LogSavePackage: Total save time: 92.671860ms
-[2016.08.05-16.45.15:881][327]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/UMG/Menu.uasset
-[2016.08.05-16.45.16:392][364]BlueprintLog: New page: Compile Menu
-[2016.08.05-16.45.16:501][364]BlueprintEditorCompileResults: Info [0151.36] Compile of Menu successful! [in 108 ms]
-[2016.08.05-16.45.17:003][398]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/Menu" FILE="F:/Escapig/Escapig/Content/UMG/Menu.uasset" SILENT=true
-[2016.08.05-16.45.17:079][398]LogSavePackage: Save=57.014141ms
-[2016.08.05-16.45.17:079][398]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/Menu1D902E614BA322D7F5BA7C94D0CA621C.tmp' to 'F:/Escapig/Escapig/Content/UMG/Menu.uasset'
-[2016.08.05-16.45.17:081][398]LogSavePackage: Total save time: 74.938931ms
-[2016.08.05-16.45.17:081][398]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/UMG/Menu.uasset
-[2016.08.05-16.45.18:823][548]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Maps/Menu" FILE="F:/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
-[2016.08.05-16.45.18:903][548]LogSavePackage: Save=55.885468ms
-[2016.08.05-16.45.18:903][548]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/UEDPCMenuB4406A624C09A6C874DECA8E6171763A.tmp' to 'F:/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCMenu.umap'
-[2016.08.05-16.45.18:905][548]LogSavePackage: Total save time: 73.592737ms
-[2016.08.05-16.45.18:905][548]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCMenu.umap
-[2016.08.05-16.45.29:961][ 45]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Maps/Menu" FILE="F:/Escapig/Escapig/Content/Blueprints/Maps/Menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2016.08.05-16.45.29:985][ 45]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001207FA60
-[2016.08.05-16.45.30:058][ 45]LogSavePackage: Save=53.555424ms
-[2016.08.05-16.45.30:058][ 45]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/Menu4622BC8946B3DA45548E5D9C9CEA6A02.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Maps/Menu.umap'
-[2016.08.05-16.45.30:066][ 45]LogSavePackage: Total save time: 79.020292ms
-[2016.08.05-16.45.30:067][ 45]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Maps/Menu.umap
-[2016.08.05-16.45.43:519][645]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011E753A0
-[2016.08.05-16.45.43:862][646]Cmd: QUIT_EDITOR
-[2016.08.05-16.45.44:076][646]LogExit: Preparing to exit.
-[2016.08.05-16.45.45:122][646]LogExit: Editor shut down
-[2016.08.05-16.45.45:122][646]LogExit: Transaction tracking system shut down
-[2016.08.05-16.45.45:128][646]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000327D3880
-[2016.08.05-16.45.45:128][646]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003415C720
-[2016.08.05-16.45.45:128][646]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000037BC6B60
-[2016.08.05-16.45.45:280][646]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002A9458A0
-[2016.08.05-16.45.45:280][646]LogExit: Object subsystem successfully closed.
-[2016.08.05-16.45.45:286][646]LogD3D11RHI: Shutdown
-[2016.08.05-16.45.45:286][646]LogD3D11RHI: CleanupD3DDevice
-[2016.08.05-16.45.45:318][646]LogD3D11RHI: ~FD3D11DynamicRHI
-[2016.08.05-16.45.45:343][646]LogModuleManager: Shutting down and abandoning module SequencerWidgets (201)
-[2016.08.05-16.45.45:343][646]LogModuleManager: Shutting down and abandoning module BlueprintGraph (200)
-[2016.08.05-16.45.45:343][646]LogModuleManager: Shutting down and abandoning module CrashTracker (199)
-[2016.08.05-16.45.45:343][646]LogModuleManager: Shutting down and abandoning module SceneOutliner (198)
-[2016.08.05-16.45.45:343][646]LogModuleManager: Shutting down and abandoning module SuperSearch (197)
-[2016.08.05-16.45.45:343][646]LogModuleManager: Shutting down and abandoning module WidgetCarousel (196)
-[2016.08.05-16.45.45:343][646]LogModuleManager: Shutting down and abandoning module AddContentDialog (195)
-[2016.08.05-16.45.45:345][646]LogModuleManager: Shutting down and abandoning module EditorWidgets (194)
-[2016.08.05-16.45.45:345][646]LogModuleManager: Shutting down and abandoning module CollectionManager (193)
-[2016.08.05-16.45.45:345][646]LogModuleManager: Shutting down and abandoning module StatsViewer (192)
-[2016.08.05-16.45.45:345][646]LogModuleManager: Shutting down and abandoning module FoliageEdit (191)
-[2016.08.05-16.45.45:345][646]LogModuleManager: Shutting down and abandoning module LandscapeEditor (190)
-[2016.08.05-16.45.45:345][646]LogModuleManager: Shutting down and abandoning module ActorPickerMode (189)
-[2016.08.05-16.45.45:345][646]LogModuleManager: Shutting down and abandoning module GeometryMode (188)
-[2016.08.05-16.45.45:345][646]LogModuleManager: Shutting down and abandoning module TextureAlignMode (187)
-[2016.08.05-16.45.45:345][646]LogModuleManager: Shutting down and abandoning module BspMode (186)
-[2016.08.05-16.45.45:345][646]LogModuleManager: Shutting down and abandoning module PlacementMode (185)
-[2016.08.05-16.45.45:345][646]LogModuleManager: Shutting down and abandoning module AutomationWorker (184)
-[2016.08.05-16.45.45:345][646]LogModuleManager: Shutting down and abandoning module CharacterAI (183)
-[2016.08.05-16.45.45:345][646]LogModuleManager: Shutting down and abandoning module SmartSnapping (182)
-[2016.08.05-16.45.45:345][646]LogModuleManager: Shutting down and abandoning module ViewportSnapping (181)
-[2016.08.05-16.45.45:345][646]LogModuleManager: Shutting down and abandoning module LogVisualizer (180)
-[2016.08.05-16.45.45:345][646]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (179)
-[2016.08.05-16.45.45:345][646]LogModuleManager: Shutting down and abandoning module IntroTutorials (178)
-[2016.08.05-16.45.45:345][646]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (177)
-[2016.08.05-16.45.45:345][646]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (176)
-[2016.08.05-16.45.45:346][646]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (175)
-[2016.08.05-16.45.45:346][646]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (174)
-[2016.08.05-16.45.45:407][646]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (173)
-[2016.08.05-16.45.45:407][646]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (172)
-[2016.08.05-16.45.45:407][646]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (171)
-[2016.08.05-16.45.45:407][646]LogModuleManager: Shutting down and abandoning module MergeActors (170)
-[2016.08.05-16.45.45:407][646]LogModuleManager: Shutting down and abandoning module SizeMap (169)
-[2016.08.05-16.45.45:407][646]LogModuleManager: Shutting down and abandoning module TreeMap (168)
-[2016.08.05-16.45.45:407][646]LogModuleManager: Shutting down and abandoning module ReferenceViewer (167)
-[2016.08.05-16.45.45:407][646]LogModuleManager: Shutting down and abandoning module LocalizationService (166)
-[2016.08.05-16.45.45:407][646]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (165)
-[2016.08.05-16.45.45:407][646]LogModuleManager: Shutting down and abandoning module HardwareTargeting (164)
-[2016.08.05-16.45.45:407][646]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (163)
-[2016.08.05-16.45.45:407][646]LogModuleManager: Shutting down and abandoning module UndoHistory (162)
-[2016.08.05-16.45.45:407][646]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (161)
-[2016.08.05-16.45.45:407][646]LogModuleManager: Shutting down and abandoning module UserFeedback (160)
-[2016.08.05-16.45.45:407][646]LogModuleManager: Shutting down and abandoning module XmlParser (159)
-[2016.08.05-16.45.45:407][646]LogModuleManager: Shutting down and abandoning module Blutility (158)
-[2016.08.05-16.45.45:407][646]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (157)
-[2016.08.05-16.45.45:407][646]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (156)
-[2016.08.05-16.45.45:407][646]LogModuleManager: Shutting down and abandoning module InputBindingEditor (155)
-[2016.08.05-16.45.45:407][646]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (154)
-[2016.08.05-16.45.45:407][646]LogModuleManager: Shutting down and abandoning module SettingsEditor (153)
-[2016.08.05-16.45.45:407][646]LogModuleManager: Shutting down and abandoning module ProjectLauncher (152)
-[2016.08.05-16.45.45:407][646]LogModuleManager: Shutting down and abandoning module SessionFrontend (151)
-[2016.08.05-16.45.45:407][646]LogModuleManager: Shutting down and abandoning module ProfilerClient (150)
-[2016.08.05-16.45.45:407][646]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (149)
-[2016.08.05-16.45.45:407][646]LogModuleManager: Shutting down and abandoning module DeviceManager (148)
-[2016.08.05-16.45.45:407][646]LogModuleManager: Shutting down and abandoning module AutomationController (147)
-[2016.08.05-16.45.45:407][646]LogModuleManager: Shutting down and abandoning module AutomationWindow (146)
-[2016.08.05-16.45.45:407][646]LogModuleManager: Shutting down and abandoning module Layers (145)
-[2016.08.05-16.45.45:407][646]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (144)
-[2016.08.05-16.45.45:407][646]LogModuleManager: Shutting down and abandoning module DetailCustomizations (143)
-[2016.08.05-16.45.45:407][646]LogModuleManager: Shutting down and abandoning module PackagesDialog (142)
-[2016.08.05-16.45.45:408][646]LogModuleManager: Shutting down and abandoning module Persona (141)
-[2016.08.05-16.45.45:408][646]LogModuleManager: Shutting down and abandoning module Kismet (140)
-[2016.08.05-16.45.45:408][646]LogModuleManager: Shutting down and abandoning module GraphEditor (139)
-[2016.08.05-16.45.45:408][646]LogModuleManager: Shutting down and abandoning module ClassViewer (138)
-[2016.08.05-16.45.45:408][646]LogModuleManager: Shutting down and abandoning module Toolbox (137)
-[2016.08.05-16.45.45:408][646]LogModuleManager: Shutting down and abandoning module ModuleUI (136)
-[2016.08.05-16.45.45:408][646]LogModuleManager: Shutting down and abandoning module MovieSceneTools (135)
-[2016.08.05-16.45.45:408][646]LogModuleManager: Shutting down and abandoning module OutputLog (134)
-[2016.08.05-16.45.45:408][646]LogModuleManager: Shutting down and abandoning module GammaUI (133)
-[2016.08.05-16.45.45:408][646]LogModuleManager: Shutting down and abandoning module Documentation (132)
-[2016.08.05-16.45.45:408][646]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (131)
-[2016.08.05-16.45.45:408][646]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (130)
-[2016.08.05-16.45.45:408][646]LogModuleManager: Shutting down and abandoning module AnalyticsET (129)
-[2016.08.05-16.45.45:408][646]LogModuleManager: Shutting down and abandoning module Analytics (128)
-[2016.08.05-16.45.45:408][646]LogModuleManager: Shutting down and abandoning module AITestSuite (127)
-[2016.08.05-16.45.45:408][646]LogModuleManager: Shutting down and abandoning module GameplayDebugger (126)
-[2016.08.05-16.45.45:408][646]LogModuleManager: Shutting down and abandoning module AIModule (125)
-[2016.08.05-16.45.45:408][646]LogModuleManager: Shutting down and abandoning module ProfilerService (124)
-[2016.08.05-16.45.45:521][646]LogModuleManager: Shutting down and abandoning module TaskGraph (123)
-[2016.08.05-16.45.45:521][646]LogModuleManager: Shutting down and abandoning module SubstanceEditor (122)
-[2016.08.05-16.45.45:521][646]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
-[2016.08.05-16.45.45:521][646]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
-[2016.08.05-16.45.45:521][646]LogModuleManager: Shutting down and abandoning module SteamVR (119)
-[2016.08.05-16.45.45:521][646]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
-[2016.08.05-16.45.45:521][646]LogModuleManager: Shutting down and abandoning module OculusRift (117)
-[2016.08.05-16.45.45:521][646]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
-[2016.08.05-16.45.45:521][646]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
-[2016.08.05-16.45.45:530][646]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
-[2016.08.05-16.45.45:530][646]LogModuleManager: Shutting down and abandoning module CableComponent (113)
-[2016.08.05-16.45.45:530][646]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
-[2016.08.05-16.45.45:530][646]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
-[2016.08.05-16.45.45:530][646]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
-[2016.08.05-16.45.45:530][646]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
-[2016.08.05-16.45.45:530][646]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
-[2016.08.05-16.45.45:530][646]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
-[2016.08.05-16.45.45:530][646]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
-[2016.08.05-16.45.45:530][646]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
-[2016.08.05-16.45.45:530][646]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
-[2016.08.05-16.45.45:530][646]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
-[2016.08.05-16.45.45:530][646]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
-[2016.08.05-16.45.45:530][646]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
-[2016.08.05-16.45.45:530][646]LogModuleManager: Shutting down and abandoning module SourceControl (100)
-[2016.08.05-16.45.45:530][646]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
-[2016.08.05-16.45.45:530][646]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
-[2016.08.05-16.45.45:530][646]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
-[2016.08.05-16.45.45:530][646]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
-[2016.08.05-16.45.45:530][646]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
-[2016.08.05-16.45.45:530][646]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
-[2016.08.05-16.45.45:530][646]LogModuleManager: Shutting down and abandoning module HotReload (93)
-[2016.08.05-16.45.45:530][646]LogModuleManager: Shutting down and abandoning module MainFrame (92)
-[2016.08.05-16.45.45:530][646]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
-[2016.08.05-16.45.45:531][646]LogModuleManager: Shutting down and abandoning module ContentBrowser (90)
-[2016.08.05-16.45.45:532][646]LogModuleManager: Shutting down and abandoning module Paper2DEditor (89)
-[2016.08.05-16.45.45:532][646]LogModuleManager: Shutting down and abandoning module UdpMessaging (88)
-[2016.08.05-16.45.45:632][646]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
-[2016.08.05-16.45.45:633][646]LogModuleManager: Shutting down and abandoning module AssetRegistry (86)
-[2016.08.05-16.45.46:155][646]LogModuleManager: Shutting down and abandoning module SubstanceCore (85)
-[2016.08.05-16.45.46:155][646]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
-[2016.08.05-16.45.46:155][646]LogModuleManager: Shutting down and abandoning module Paper2D (83)
-[2016.08.05-16.45.46:155][646]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
-[2016.08.05-16.45.46:158][646]LogModuleManager: Shutting down and abandoning module Media (81)
-[2016.08.05-16.45.46:158][646]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
-[2016.08.05-16.45.46:158][646]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
-[2016.08.05-16.45.46:158][646]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
-[2016.08.05-16.45.46:158][646]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
-[2016.08.05-16.45.46:158][646]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
-[2016.08.05-16.45.46:158][646]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
-[2016.08.05-16.45.46:158][646]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
-[2016.08.05-16.45.46:158][646]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
-[2016.08.05-16.45.46:158][646]LogModuleManager: Shutting down and abandoning module MessageLog (72)
-[2016.08.05-16.45.46:158][646]LogModuleManager: Shutting down and abandoning module Sequencer (71)
-[2016.08.05-16.45.46:158][646]LogModuleManager: Shutting down and abandoning module AssetTools (70)
-[2016.08.05-16.45.46:158][646]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
-[2016.08.05-16.45.46:158][646]LogModuleManager: Shutting down and abandoning module UMG (68)
-[2016.08.05-16.45.46:158][646]LogModuleManager: Shutting down and abandoning module Slate (67)
-[2016.08.05-16.45.46:158][646]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
-[2016.08.05-16.45.46:160][646]LogModuleManager: Shutting down and abandoning module SessionServices (65)
-[2016.08.05-16.45.46:160][646]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
-[2016.08.05-16.45.46:160][646]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
-[2016.08.05-16.45.46:160][646]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
-[2016.08.05-16.45.46:160][646]LogModuleManager: Shutting down and abandoning module Networking (60)
-[2016.08.05-16.45.46:160][646]LogModuleManager: Shutting down and abandoning module Core (59)
-[2016.08.05-16.45.46:160][646]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
-[2016.08.05-16.45.46:160][646]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
-[2016.08.05-16.45.46:160][646]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
-[2016.08.05-16.45.46:160][646]LogModuleManager: Shutting down and abandoning module CookingStats (55)
-[2016.08.05-16.45.46:161][646]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
-[2016.08.05-16.45.46:197][646]LogDerivedDataCache: Shutdown
-[2016.08.05-16.45.46:197][646]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
-[2016.08.05-16.45.46:197][646]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
-[2016.08.05-16.45.46:197][646]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
-[2016.08.05-16.45.46:197][646]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
-[2016.08.05-16.45.46:197][646]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
-[2016.08.05-16.45.46:197][646]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
-[2016.08.05-16.45.46:197][646]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
-[2016.08.05-16.45.46:197][646]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
-[2016.08.05-16.45.46:197][646]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
-[2016.08.05-16.45.46:197][646]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
-[2016.08.05-16.45.46:197][646]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
-[2016.08.05-16.45.46:197][646]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
-[2016.08.05-16.45.46:197][646]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
-[2016.08.05-16.45.46:197][646]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
-[2016.08.05-16.45.46:197][646]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
-[2016.08.05-16.45.46:197][646]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
-[2016.08.05-16.45.46:197][646]LogModuleManager: Shutting down and abandoning module Messaging (37)
-[2016.08.05-16.45.46:197][646]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
-[2016.08.05-16.45.46:197][646]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
-[2016.08.05-16.45.46:197][646]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
-[2016.08.05-16.45.46:197][646]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
-[2016.08.05-16.45.46:197][646]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
-[2016.08.05-16.45.46:197][646]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
-[2016.08.05-16.45.46:197][646]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
-[2016.08.05-16.45.46:197][646]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
-[2016.08.05-16.45.46:197][646]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
-[2016.08.05-16.45.46:197][646]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
-[2016.08.05-16.45.46:197][646]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
-[2016.08.05-16.45.46:197][646]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
-[2016.08.05-16.45.46:197][646]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
-[2016.08.05-16.45.46:197][646]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
-[2016.08.05-16.45.46:197][646]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
-[2016.08.05-16.45.46:197][646]LogModuleManager: Shutting down and abandoning module InputCore (21)
-[2016.08.05-16.45.46:197][646]LogModuleManager: Shutting down and abandoning module Settings (20)
-[2016.08.05-16.45.46:197][646]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
-[2016.08.05-16.45.46:197][646]LogModuleManager: Shutting down and abandoning module HTTP (17)
-[2016.08.05-16.45.46:697][646]LogModuleManager: Shutting down and abandoning module XMPP (16)
-[2016.08.05-16.45.46:697][646]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
-[2016.08.05-16.45.46:697][646]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2016.08.05-16.45.46:697][646]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2016.08.05-16.45.46:697][646]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2016.08.05-16.45.46:697][646]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2016.08.05-16.45.46:698][646]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2016.08.05-16.45.46:698][646]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2016.08.05-16.45.46:698][646]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2016.08.05-16.45.46:698][646]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2016.08.05-16.45.46:698][646]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2016.08.05-16.45.46:698][646]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2016.08.05-16.45.46:698][646]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2016.08.05-16.45.46:698][646]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2016.08.05-16.45.46:698][646]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2016.08.05-16.45.46:698][646]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2016.08.05-16.45.46:698][646]LogExit: Exiting.
-[2016.08.05-16.45.46:700][646]Log file closed, 08/05/16 17:45:46
+﻿[2016.08.17-12.00.01:508][  0]Log file open, 08/17/16 13:00:01
+[2016.08.17-12.00.01:508][  0]LogInit:Display: Running engine for game: Escapig
+[2016.08.17-12.00.01:508][  0]LogInit:Display: RandInit(742004865) SRandInit(742004865).
+[2016.08.17-12.00.01:508][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.08.17-12.00.01:508][  0]LogStats: Stats thread started at 0.134964
+[2016.08.17-12.00.01:508][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.08.17-12.00.01:508][  0]LogInit: API Version: 2672455
+[2016.08.17-12.00.01:508][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.08.17-12.00.01:508][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.08.17-12.00.01:508][  0]LogInit: Build Configuration: Development
+[2016.08.17-12.00.01:508][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.08.17-12.00.01:508][  0]LogInit: Command line:  
+[2016.08.17-12.00.01:508][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.08.17-12.00.01:508][  0]LogInit: Rocket: 1
+[2016.08.17-12.00.01:535][  0]LogInit: Using libcurl 7.41.0
+[2016.08.17-12.00.01:535][  0]LogInit:  - built for x86_64-pc-win32
+[2016.08.17-12.00.01:535][  0]LogInit:  - supports SSL with WinSSL
+[2016.08.17-12.00.01:535][  0]LogInit:  - other features:
+[2016.08.17-12.00.01:535][  0]LogInit:      CURL_VERSION_SSL
+[2016.08.17-12.00.01:535][  0]LogInit:      CURL_VERSION_IPV6
+[2016.08.17-12.00.01:535][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.08.17-12.00.01:535][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.08.17-12.00.01:535][  0]LogInit:      CURL_VERSION_IDN
+[2016.08.17-12.00.01:535][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.08.17-12.00.01:535][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.08.17-12.00.01:535][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.08.17-12.00.01:535][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.08.17-12.00.01:535][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.08.17-12.00.01:541][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.08.17-12.00.01:547][  0]LogInit: Object subsystem initialized
+[2016.08.17-12.00.01:548][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.17-12.00.01:548][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.08.17-12.00.01:559][  0]LogInit: Computer: COMPUTE-98JEH1J
+[2016.08.17-12.00.01:559][  0]LogInit: User: TheDesigner
+[2016.08.17-12.00.01:559][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.08.17-12.00.01:559][  0]LogInit: High frequency timer resolution =3.513623 MHz
+[2016.08.17-12.00.01:559][  0]LogMemory: Memory total: Physical=23.9GB (24GB approx)
+[2016.08.17-12.00.01:559][  0]LogMemory: Platform Memory Stats for Windows
+[2016.08.17-12.00.01:559][  0]LogMemory: Process Physical Memory: 55.07 MB used, 55.07 MB peak
+[2016.08.17-12.00.01:559][  0]LogMemory: Process Virtual Memory: 57.45 MB used, 57.45 MB peak
+[2016.08.17-12.00.01:559][  0]LogMemory: Physical Memory: 3155.59 MB used, 24514.65 MB total
+[2016.08.17-12.00.01:559][  0]LogMemory: Virtual Memory: 337.63 MB used, 8388608.00 MB total
+[2016.08.17-12.00.01:714][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2016.08.17-12.00.02:323][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.08.17-12.00.02:323][  0]LogD3D11RHI: Adapter has 4007MB of dedicated video memory, 0MB of dedicated system memory, and 12001MB of shared system memory, 1 output[s]
+[2016.08.17-12.00.02:341][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.08.17-12.00.02:341][  0]LogD3D11RHI: Adapter has 4007MB of dedicated video memory, 0MB of dedicated system memory, and 12001MB of shared system memory, 1 output[s]
+[2016.08.17-12.00.02:341][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.08.17-12.00.02:366][  0]LogD3D11RHI: !Direct3DDevice
+[2016.08.17-12.00.02:370][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.08.17-12.00.02:378][  0]LogD3D11RHI: Async texture creation enabled
+[2016.08.17-12.00.02:740][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Intermediate/Shaders/WorkingDirectory/6736/).
+[2016.08.17-12.00.02:740][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Intermediate/Shaders/tmp/AA8632384FEB04390498E596817AF1BC/'.
+[2016.08.17-12.00.02:741][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.08.17-12.00.07:090][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.08.17-12.00.07:098][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.08.17-12.00.07:104][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.08.17-12.00.07:111][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.08.17-12.00.07:123][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.08.17-12.00.07:147][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.08.17-12.00.07:152][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.08.17-12.00.07:156][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.08.17-12.00.07:161][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.08.17-12.00.07:167][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.08.17-12.00.07:173][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.08.17-12.00.07:179][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.08.17-12.00.07:186][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.08.17-12.00.07:261][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.08.17-12.00.07:266][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.08.17-12.00.07:275][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.08.17-12.00.07:292][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.08.17-12.00.07:292][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.08.17-12.00.07:761][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.08.17-12.00.08:073][  0]LogDerivedDataCache: Loaded boot cache 0.31s 57MB C:/Users/TheDesigner/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.08.17-12.00.08:073][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/TheDesigner/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.08.17-12.00.08:073][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.08.17-12.00.08:073][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.08.17-12.00.08:074][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.08.17-12.00.08:074][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.08.17-12.00.08:237][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.08.17-12.00.08:264][  0]LogDerivedDataCache: Using Local data cache path C:/Users/TheDesigner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.08.17-12.00.14:609][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.17-12.00.14:658][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.08.17-12.00.15:100][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.08.17-12.00.15:100][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.08.17-12.00.19:494][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.08.17-12.00.38:149][  0]LogAssetRegistry: FAssetRegistry took 0.0130 seconds to start up
+[2016.08.17-12.00.38:299][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.08.17-12.00.42:357][  0]SourceControl: Info Source control is disabled
+[2016.08.17-12.00.42:380][  0]SourceControl: Info Source control is disabled
+[2016.08.17-12.00.42:417][  0]SourceControl: Info Source control is disabled
+[2016.08.17-12.00.42:448][  0]SourceControl: Info Source control is disabled
+[2016.08.17-12.00.43:119][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.17-12.00.43:453][  0]LogObj: 28528 objects as part of root set at end of initial load.
+[2016.08.17-12.00.43:453][  0]LogUObjectAllocator: 6068456 out of 0 bytes used by permanent object pool.
+[2016.08.17-12.00.44:086][  0]LogEngine: Initializing Engine...
+[2016.08.17-12.00.44:127][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.08.17-12.00.44:177][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.08.17-12.00.45:002][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.08.17-12.00.45:204][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.17-12.00.45:245][  0]LogInit: FAudioDevice initialized.
+[2016.08.17-12.00.45:282][  0]LogDerivedDataCache: Saved boot cache 0.04s 57MB C:/Users/TheDesigner/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.08.17-12.00.45:291][  0]LogInit: Texture streaming: Enabled
+[2016.08.17-12.00.45:311][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.08.17-12.00.45:312][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.08.17-12.00.45:312][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 9f17aa5a4edb8693b65090bbb08a6b07|b58a2ca1649743a9a1927d5a89cf58c5|063ce779-e01c-4a0d-ba26-62288f5751f4
+[2016.08.17-12.00.45:312][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.08.17-12.00.45:591][  0]LogInit: Transaction tracking system initialized
+[2016.08.17-12.00.45:925][  0]BlueprintLog: New page: Editor Load
+[2016.08.17-12.00.47:020][  0]LocalizationService: Info Localization service is disabled
+[2016.08.17-12.00.47:774][  0]LogConsoleResponse:Display: 
+[2016.08.17-12.00.51:125][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/' took 0.01s
+[2016.08.17-12.00.51:125][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.08.17-12.00.52:770][  0]SourceControl: Info Source control is disabled
+[2016.08.17-12.00.52:839][  0]Cmd: MAP LOAD FILE="../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Maps/Escapig_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.08.17-12.00.52:870][  0]LightingResults: New page: Lighting Build
+[2016.08.17-12.00.53:085][  0]MapCheck: New page: Map Check
+[2016.08.17-12.00.53:085][  0]LightingResults: New page: Lighting Build
+[2016.08.17-12.00.53:671][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002518D620
+[2016.08.17-12.00.56:894][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Blueprints/BP_Wheat_Tile.BP_Wheat_Tile_C:UserConstructionScript; removing parent information, but keeping function
+[2016.08.17-12.00.59:453][  0]LogAIModule: Creating AISystem for world Escapig_Level
+[2016.08.17-12.00.59:772][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.08.17-12.00.59:817][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.08.17-12.00.59:869][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 51.374ms to complete.
+[2016.08.17-12.00.59:880][  0]LogFileHelpers: Loading map 'Escapig_Level' took 7.055
+[2016.08.17-12.01.00:955][  0]LogCollectionManager: Loaded 0 collections in 0.002082 seconds
+[2016.08.17-12.01.01:037][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Collections/' took 0.01s
+[2016.08.17-12.01.01:037][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Developers/TheDesigner/Collections/' took 0.01s
+[2016.08.17-12.01.01:037][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Collections/' took 0.01s
+[2016.08.17-12.01.01:037][  0]LogContentBrowser: Native class hierarchy populated in 0.0138 seconds. Added 1882 classes and 339 folders.
+[2016.08.17-12.01.01:097][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.08.17-12.01.01:203][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.08.17-12.01.03:613][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.08.17-12.01.03:664][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.08.17-12.01.04:404][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.08.17-12.01.04:512][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.08.17-12.01.04:584][  0]LogLoad: Full Startup: 64.06 seconds (BP compile: 1.37 seconds)
+[2016.08.17-12.01.05:133][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.08.17-12.01.05:779][  0]LogRenderer: Reallocating scene render targets to support 1208x556 (Frame:2).
+[2016.08.17-12.01.06:777][ 12]LogAssetRegistry: Asset discovery search completed in 28.6389 seconds
+[2016.08.17-12.01.06:777][ 12]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.08.17-12.01.06:777][ 12]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
+[2016.08.17-12.01.55:093][750]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.17-12.01.55:829][750]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 107 classes and 0 folders.
+[2016.08.17-12.02.15:300][891]LogAIModule: Creating AISystem for world Harvester_Mini_Game
+[2016.08.17-12.02.15:341][891]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.17-12.02.15:341][891]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.08.17-12.02.15:341][891]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.08.17-12.02.15:421][891]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004153E480
+[2016.08.17-12.02.15:484][891]Cmd: MAP LOAD FILE="../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Maps/Harvester_Mini_Game.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.08.17-12.02.15:484][891]LightingResults: New page: Lighting Build
+[2016.08.17-12.02.15:500][891]LoadErrors: New page: Loading map: Harvester_Mini_Game.umap
+[2016.08.17-12.02.15:509][891]MapCheck: New page: Map Check
+[2016.08.17-12.02.15:509][891]LightingResults: New page: Lighting Build
+[2016.08.17-12.02.15:541][891]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002D4DD6C0
+[2016.08.17-12.02.15:682][891]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.08.17-12.02.15:719][891]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.08.17-12.02.15:764][891]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 44.682ms to complete.
+[2016.08.17-12.02.15:765][891]LogFileHelpers: Loading map 'Harvester_Mini_Game' took 0.282
+[2016.08.17-12.02.20:695][469]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.17-12.02.21:299][469]LogSavePackage: Save=154.150009ms
+[2016.08.17-12.02.21:299][469]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/UEDPCHarvester_Mini_GameEA1BCF4247211F0A86385883E7140C2A.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCHarvester_Mini_Game.umap'
+[2016.08.17-12.02.21:300][469]LogSavePackage: Total save time: 475.360334ms
+[2016.08.17-12.02.21:300][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCHarvester_Mini_Game.umap
+[2016.08.17-12.02.53:075][415]BlueprintLog: New page: Compile Harvester_Mini_Game_UI
+[2016.08.17-12.02.53:189][415]BlueprintEditorCompileResults: Info [0172.66] Compile of Harvester_Mini_Game_UI successful! [in 113 ms]
+[2016.08.17-12.02.53:605][446]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/Harvester_Mini_Game_UI" FILE="../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Harvester_Mini_Game_UI.uasset" SILENT=true
+[2016.08.17-12.02.53:730][446]LogSavePackage: Save=79.349434ms
+[2016.08.17-12.02.53:730][446]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Harvester_Mini_Game_UI3717208449B44626A7F3DE918B4C7558.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Harvester_Mini_Game_UI.uasset'
+[2016.08.17-12.02.53:731][446]LogSavePackage: Total save time: 123.940729ms
+[2016.08.17-12.02.53:731][446]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Harvester_Mini_Game_UI.uasset
+[2016.08.17-12.02.56:127][677]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000133076A0
+[2016.08.17-12.02.56:242][677]LogSavePackage: Save=114.938911ms
+[2016.08.17-12.02.56:242][677]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Harvester_Mini_Game49B51E2B4B44C2336EB76CAD56392379.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Maps/Harvester_Mini_Game.umap'
+[2016.08.17-12.02.56:244][677]LogSavePackage: Total save time: 139.592666ms
+[2016.08.17-12.02.56:244][677]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Maps/Harvester_Mini_Game.umap
+[2016.08.17-12.03.42:230][ 22]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/Harvester_Mini_Game_UI" FILE="../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Harvester_Mini_Game_UI.uasset" SILENT=true
+[2016.08.17-12.03.42:334][ 22]LogSavePackage: Save=79.681572ms
+[2016.08.17-12.03.42:334][ 22]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Harvester_Mini_Game_UIDA8DC5DD4D8975E378F224A73748A4A6.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Harvester_Mini_Game_UI.uasset'
+[2016.08.17-12.03.42:336][ 22]LogSavePackage: Total save time: 104.388546ms
+[2016.08.17-12.03.42:336][ 22]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Harvester_Mini_Game_UI.uasset
+[2016.08.17-12.04.29:313][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/Harvester_Mini_Game_UI" FILE="../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Harvester_Mini_Game_UI.uasset" SILENT=true
+[2016.08.17-12.04.29:419][926]LogSavePackage: Save=81.175468ms
+[2016.08.17-12.04.29:419][926]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Harvester_Mini_Game_UI6F4C39B64FB3A27115C7A6B9DEB078A5.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Harvester_Mini_Game_UI.uasset'
+[2016.08.17-12.04.29:420][926]LogSavePackage: Total save time: 105.732173ms
+[2016.08.17-12.04.29:420][926]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Harvester_Mini_Game_UI.uasset
+[2016.08.17-12.05.53:739][776]LogRenderer: Reallocating scene render targets to support 1208x712 (Frame:18757).
+[2016.08.17-12.07.44:400][940]BlueprintLog: New page: Compile War_Pig_UnlockBP
+[2016.08.17-12.07.44:438][940]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.17-12.07.44:438][940]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.08.17-12.07.44:438][940]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.08.17-12.07.44:462][940]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000010C43BA0
+[2016.08.17-12.07.44:463][940]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013307BA0
+[2016.08.17-12.07.44:470][940]BlueprintEditorCompileResults: Info [0463.94] Compile of War_Pig_UnlockBP successful! [in 69 ms]
+[2016.08.17-12.07.44:891][984]LogSavePackage: Save=8.456798ms
+[2016.08.17-12.07.44:891][984]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/War_Pig_UnlockBP4380A84E4B0E25D5ADF0C280B9868468.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.uasset'
+[2016.08.17-12.07.44:892][984]LogSavePackage: Total save time: 9.678330ms
+[2016.08.17-12.07.44:892][984]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.uasset
+[2016.08.17-12.08.12:427][266]BlueprintLog: New page: Compile War_Pig_UnlockBP
+[2016.08.17-12.08.12:490][266]BlueprintEditorCompileResults: Info [0491.96] Compile of War_Pig_UnlockBP successful! [in 62 ms]
+[2016.08.17-12.08.13:046][322]LogSavePackage: Save=7.340571ms
+[2016.08.17-12.08.13:046][322]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/War_Pig_UnlockBPBAAE7B7847A2DAFCFEEF75AE9DA3A219.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.uasset'
+[2016.08.17-12.08.13:048][322]LogSavePackage: Total save time: 34.409214ms
+[2016.08.17-12.08.13:048][322]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.uasset
+[2016.08.17-12.08.37:267][227]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.08.17-12.08.42:527][834]LogSavePackage: Save=4.482268ms
+[2016.08.17-12.08.42:527][834]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/War_Pig_SpriteB8DC58914DD0454BC9E93B8290F3980C.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_Sprite.uasset'
+[2016.08.17-12.08.42:528][834]LogSavePackage: Total save time: 5.716320ms
+[2016.08.17-12.08.42:528][834]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_Sprite.uasset
+[2016.08.17-12.09.35:541][637]BlueprintLog: New page: Compile SunBurnt_Pig_SpriteBP
+[2016.08.17-12.09.35:599][637]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012398360
+[2016.08.17-12.09.35:600][637]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000123999E0
+[2016.08.17-12.09.35:606][637]BlueprintEditorCompileResults: Info [0575.08] Compile of SunBurnt_Pig_SpriteBP successful! [in 64 ms]
+[2016.08.17-12.09.36:075][683]LogSavePackage: Save=9.030849ms
+[2016.08.17-12.09.36:075][683]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/SunBurnt_Pig_SpriteBP05F5DF9740AE0693138569B2B7FEFAE8.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.uasset'
+[2016.08.17-12.09.36:076][683]LogSavePackage: Total save time: 10.319546ms
+[2016.08.17-12.09.36:076][683]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.uasset
+[2016.08.17-12.09.41:308][267]LogSavePackage: Save=4.201077ms
+[2016.08.17-12.09.41:308][267]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/SunBurnt_Pig_SpriteE9AB4E354DBA43E2C6AD4E950C835CB3.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_Sprite.uasset'
+[2016.08.17-12.09.41:309][267]LogSavePackage: Total save time: 5.419478ms
+[2016.08.17-12.09.41:309][267]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_Sprite.uasset
+[2016.08.17-12.09.43:445][510]LogSavePackage: Save=5.347756ms
+[2016.08.17-12.09.43:445][510]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Camo_Pig_SpriteA257656F43559B39DA1757981885A1EA.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_Sprite.uasset'
+[2016.08.17-12.09.43:447][510]LogSavePackage: Total save time: 6.612547ms
+[2016.08.17-12.09.43:447][510]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_Sprite.uasset
+[2016.08.17-12.09.45:178][704]LogSavePackage: Save=4.207054ms
+[2016.08.17-12.09.45:178][704]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Aqua_Pig_SpriteC6E867F2442E2244BEF8E7ADF3E3A324.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_Sprite.uasset'
+[2016.08.17-12.09.45:179][704]LogSavePackage: Total save time: 5.484082ms
+[2016.08.17-12.09.45:179][704]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_Sprite.uasset
+[2016.08.17-12.10.07:859][294]BlueprintLog: New page: Compile Aqua_Pig_UnlockBP
+[2016.08.17-12.10.07:923][294]BlueprintEditorCompileResults: Info [0607.39] Compile of Aqua_Pig_UnlockBP successful! [in 64 ms]
+[2016.08.17-12.10.08:372][337]LogSavePackage: Save=8.835894ms
+[2016.08.17-12.10.08:372][337]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Aqua_Pig_UnlockBPC5F1637C49B1F8BBE84F3096572760D3.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.uasset'
+[2016.08.17-12.10.08:374][337]LogSavePackage: Total save time: 10.423429ms
+[2016.08.17-12.10.08:374][337]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.uasset
+[2016.08.17-12.10.23:586][112]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.08.17-12.10.32:727][ 98]BlueprintLog: New page: Compile Camo_Pig_UnlockBP
+[2016.08.17-12.10.32:790][ 98]BlueprintEditorCompileResults: Info [0632.26] Compile of Camo_Pig_UnlockBP successful! [in 63 ms]
+[2016.08.17-12.10.33:407][157]LogSavePackage: Save=9.155222ms
+[2016.08.17-12.10.33:407][157]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Camo_Pig_UnlockBP5535C4B744BDFC332EF745A3033C9210.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.uasset'
+[2016.08.17-12.10.33:408][157]LogSavePackage: Total save time: 10.439653ms
+[2016.08.17-12.10.33:408][157]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.uasset
+[2016.08.17-12.37.13:589][445]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.08.17-12.37.26:490][969]BlueprintLog: New page: Compile Harvester_Mini_Game_UI
+[2016.08.17-12.37.26:517][969]LogBlueprint:Error: [compiler Harvester_Mini_Game_UI] Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2016.08.17-12.37.26:536][969]LogBlueprint:Error: [compiler Harvester_Mini_Game_UI] Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2016.08.17-12.37.26:611][969]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.17-12.37.26:612][969]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.08.17-12.37.26:612][969]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.08.17-12.37.26:643][969]LogBlueprint:Warning: [compiler Harvester_Mini_Game_UI] Warning [2246.10] Compile of Harvester_Mini_Game_UI failed. 2 Fatal Issue(s) 0 Warning(s) [in 152 ms]
+[2016.08.17-12.37.26:643][969]BlueprintEditorCompileResults:Error: Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2016.08.17-12.37.26:643][969]BlueprintEditorCompileResults:Error: Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2016.08.17-12.37.26:643][969]BlueprintEditorCompileResults:Warning: Warning [2246.10] Compile of Harvester_Mini_Game_UI failed. 2 Fatal Issue(s) 0 Warning(s) [in 152 ms]
+[2016.08.17-12.37.27:029][  6]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/Harvester_Mini_Game_UI" FILE="../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Harvester_Mini_Game_UI.uasset" SILENT=true
+[2016.08.17-12.37.27:152][  6]LogSavePackage: Save=80.535103ms
+[2016.08.17-12.37.27:152][  6]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Harvester_Mini_Game_UI1E3285894F49A37529265D929DD2C721.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Harvester_Mini_Game_UI.uasset'
+[2016.08.17-12.37.27:154][  6]LogSavePackage: Total save time: 124.345440ms
+[2016.08.17-12.37.27:154][  6]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Harvester_Mini_Game_UI.uasset
+[2016.08.17-12.37.33:905][809]BlueprintLog: New page: Compile Harvester_Mini_Game_UI
+[2016.08.17-12.37.33:997][809]BlueprintEditorCompileResults: Info [2253.45] Compile of Harvester_Mini_Game_UI successful! [in 91 ms]
+[2016.08.17-12.37.34:645][882]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/Harvester_Mini_Game_UI" FILE="../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Harvester_Mini_Game_UI.uasset" SILENT=true
+[2016.08.17-12.37.34:772][882]LogSavePackage: Save=85.555565ms
+[2016.08.17-12.37.34:772][882]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Harvester_Mini_Game_UI0A83BF5043BFC6F838D6B3969C633400.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Harvester_Mini_Game_UI.uasset'
+[2016.08.17-12.37.34:773][882]LogSavePackage: Total save time: 127.866022ms
+[2016.08.17-12.37.34:773][882]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Harvester_Mini_Game_UI.uasset
+[2016.08.17-12.39.46:809][618]BlueprintLog: New page: Compile War_Pig_UnlockBP
+[2016.08.17-12.39.46:881][618]BlueprintEditorCompileResults: Info [2386.33] Compile of War_Pig_UnlockBP successful! [in 72 ms]
+[2016.08.17-12.39.47:448][677]LogSavePackage: Save=8.788650ms
+[2016.08.17-12.39.47:448][677]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/War_Pig_UnlockBPD25FCBC749CA94AE0F9694930751C004.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.uasset'
+[2016.08.17-12.39.47:449][677]LogSavePackage: Total save time: 52.263148ms
+[2016.08.17-12.39.47:449][677]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.uasset
+[2016.08.17-12.41.30:841][ 41]BlueprintLog: New page: Compile War_Pig_UnlockBP
+[2016.08.17-12.41.30:914][ 41]BlueprintEditorCompileResults: Info [2490.36] Compile of War_Pig_UnlockBP successful! [in 72 ms]
+[2016.08.17-12.41.31:368][ 85]LogSavePackage: Save=13.707219ms
+[2016.08.17-12.41.31:368][ 85]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/War_Pig_UnlockBPF95BA6E4475EFE915E242F9DA7E03310.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.uasset'
+[2016.08.17-12.41.31:370][ 85]LogSavePackage: Total save time: 56.504354ms
+[2016.08.17-12.41.31:370][ 85]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.uasset
+[2016.08.17-12.42.00:134][525]LogSavePackage: Save=13.796301ms
+[2016.08.17-12.42.00:134][525]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/War_Pig_UnlockBP970A588A466540AEAC6D619EAD9D9747.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.uasset'
+[2016.08.17-12.42.00:136][525]LogSavePackage: Total save time: 56.154575ms
+[2016.08.17-12.42.00:136][525]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.uasset
+[2016.08.17-12.42.55:084][ 29]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.08.17-12.43.07:656][510]BlueprintLog: New page: Compile War_Pig_UnlockBP
+[2016.08.17-12.43.07:731][510]BlueprintEditorCompileResults: Info [2587.18] Compile of War_Pig_UnlockBP successful! [in 74 ms]
+[2016.08.17-12.43.08:176][551]LogSavePackage: Save=21.251284ms
+[2016.08.17-12.43.08:176][551]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/War_Pig_UnlockBPE3CFADAC49B424AD957B2B976D2368DB.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.uasset'
+[2016.08.17-12.43.08:177][551]LogSavePackage: Total save time: 64.283792ms
+[2016.08.17-12.43.08:177][551]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.uasset
+[2016.08.17-12.44.09:266][771]BlueprintLog: New page: Compile War_Pig_UnlockBP
+[2016.08.17-12.44.09:340][771]BlueprintEditorCompileResults: Info [2648.79] Compile of War_Pig_UnlockBP successful! [in 73 ms]
+[2016.08.17-12.44.09:778][813]LogSavePackage: Save=24.998129ms
+[2016.08.17-12.44.09:778][813]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/War_Pig_UnlockBP958577334AA04C2C2530AB8E5DF866E7.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.uasset'
+[2016.08.17-12.44.09:780][813]LogSavePackage: Total save time: 67.342740ms
+[2016.08.17-12.44.09:780][813]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.uasset
+[2016.08.17-12.45.04:505][319]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Harvester_Mini_Game_UI', cached variable property's owner is '/Game/UMG/Harvester_Mini_Game_UI.SKEL_Harvester_Mini_Game_UI_C'
+[2016.08.17-12.45.24:461][692]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Blueprints/Maps/Harvester_Mini_Game' took 0.027
+[2016.08.17-12.45.24:467][692]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UMG/Harvester_Mini_Game_UI] ([1] browsable assets)...
+[2016.08.17-12.45.24:467][692]OBJ SavePackage: Finished generating thumbnails for package [/Game/UMG/Harvester_Mini_Game_UI]
+[2016.08.17-12.45.24:595][692]LogSavePackage: Save=84.274269ms
+[2016.08.17-12.45.24:595][692]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Harvester_Mini_Game_UI_Auto126823FA84F4A078838D9E794F2A04044.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/UMG/Harvester_Mini_Game_UI_Auto1.uasset'
+[2016.08.17-12.45.24:602][692]LogSavePackage: Total save time: 134.471741ms
+[2016.08.17-12.45.24:602][692]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/UMG/Harvester_Mini_Game_UI_Auto1.uasset
+[2016.08.17-12.45.24:602][692]LogFileHelpers: Auto-saving content packages took 0.140
+[2016.08.17-12.46.24:833][822]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4518 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4518
+[2016.08.17-12.46.24:833][822]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4518.EdGraphPin_57188) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_Timeline_4.EdGraphPin_57079).  Import failed...
+[2016.08.17-12.46.24:833][822]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4518.EdGraphPin_57188''
+[2016.08.17-12.46.24:833][822]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4496 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4496
+[2016.08.17-12.46.24:833][822]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4496.EdGraphPin_57109) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_Timeline_4.EdGraphPin_57078).  Import failed...
+[2016.08.17-12.46.24:833][822]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4496.EdGraphPin_57109''
+[2016.08.17-12.46.24:833][822]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4496 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4496
+[2016.08.17-12.46.24:833][822]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4496.EdGraphPin_57110) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_Timeline_4.EdGraphPin_57078).  Import failed...
+[2016.08.17-12.46.24:833][822]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4496.EdGraphPin_57110''
+[2016.08.17-12.46.24:833][822]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4496 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4496
+[2016.08.17-12.46.24:833][822]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4496.EdGraphPin_57111) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_Timeline_4.EdGraphPin_57078).  Import failed...
+[2016.08.17-12.46.24:833][822]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4496.EdGraphPin_57111''
+[2016.08.17-12.46.24:833][822]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_82 or K2Node_CommutativeAssociativeBinaryOperator /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_82
+[2016.08.17-12.46.24:833][822]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_82 or K2Node_CommutativeAssociativeBinaryOperator /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.RenderToTextureMacros:Array to HLSL Code.K2Node_CommutativeAssociativeBinaryOperator_82
+[2016.08.17-12.46.24:833][822]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_82.EdGraphPin_56969) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_Timeline_4.EdGraphPin_57077).  Import failed...
+[2016.08.17-12.46.24:833][822]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_82.EdGraphPin_56969''
+[2016.08.17-12.46.24:833][822]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4483 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4483
+[2016.08.17-12.46.24:833][822]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4483.EdGraphPin_56972) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_Timeline_4.EdGraphPin_57072).  Import failed...
+[2016.08.17-12.46.24:833][822]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4483.EdGraphPin_56972''
+[2016.08.17-12.46.24:833][822]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4498 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4498
+[2016.08.17-12.46.24:833][822]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4498.EdGraphPin_57119) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_Timeline_4.EdGraphPin_57067).  Import failed...
+[2016.08.17-12.46.24:833][822]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4498.EdGraphPin_57119''
+[2016.08.17-12.46.24:833][822]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4484 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4484
+[2016.08.17-12.46.24:834][822]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4484.EdGraphPin_56980) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_82.EdGraphPin_56971).  Import failed...
+[2016.08.17-12.46.24:834][822]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4484.EdGraphPin_56980''
+[2016.08.17-12.46.24:834][822]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4484 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4484
+[2016.08.17-12.46.24:834][822]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4484.EdGraphPin_56981) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4483.EdGraphPin_56975).  Import failed...
+[2016.08.17-12.46.24:834][822]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4484.EdGraphPin_56981''
+[2016.08.17-12.46.24:834][822]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4495 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4495
+[2016.08.17-12.46.24:834][822]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4495.EdGraphPin_57104) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4483.EdGraphPin_56973).  Import failed...
+[2016.08.17-12.46.24:834][822]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4495.EdGraphPin_57104''
+[2016.08.17-12.46.24:834][822]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4496 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4496
+[2016.08.17-12.46.24:834][822]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4496.EdGraphPin_57112) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4495.EdGraphPin_57107).  Import failed...
+[2016.08.17-12.46.24:834][822]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4496.EdGraphPin_57112''
+[2016.08.17-12.46.24:835][822]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4520 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4520
+[2016.08.17-12.46.24:835][822]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4520.EdGraphPin_57192) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4495.EdGraphPin_57105).  Import failed...
+[2016.08.17-12.46.24:835][822]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4520.EdGraphPin_57192''
+[2016.08.17-12.46.24:835][822]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallArrayFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallArrayFunction_98 or K2Node_CallArrayFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallArrayFunction_98
+[2016.08.17-12.46.24:835][822]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallArrayFunction_98.EdGraphPin_57125) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4498.EdGraphPin_57123).  Import failed...
+[2016.08.17-12.46.24:835][822]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallArrayFunction_98.EdGraphPin_57125''
+[2016.08.17-12.46.24:835][822]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CustomEvent_127.EdGraphPin_56279) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4498.EdGraphPin_57118).  Import failed...
+[2016.08.17-12.46.24:835][822]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CustomEvent_127.EdGraphPin_56279''
+[2016.08.17-12.46.24:835][822]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4517 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4517
+[2016.08.17-12.46.24:835][822]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4517.EdGraphPin_57183) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallArrayFunction_98.EdGraphPin_57127).  Import failed...
+[2016.08.17-12.46.24:835][822]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4517.EdGraphPin_57183''
+[2016.08.17-12.46.24:836][822]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4518 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4518
+[2016.08.17-12.46.24:836][822]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4518.EdGraphPin_57187) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4517.EdGraphPin_57184).  Import failed...
+[2016.08.17-12.46.24:836][822]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4518.EdGraphPin_57187''
+[2016.08.17-12.46.24:836][822]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4520 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4520
+[2016.08.17-12.46.24:836][822]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4520.EdGraphPin_57195) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4518.EdGraphPin_57189).  Import failed...
+[2016.08.17-12.46.24:836][822]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4520.EdGraphPin_57195''
+[2016.08.17-12.46.24:836][822]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4519 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4519
+[2016.08.17-12.46.24:836][822]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4519.EdGraphPin_57191) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4518.EdGraphPin_57186).  Import failed...
+[2016.08.17-12.46.24:836][822]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4519.EdGraphPin_57191''
+[2016.08.17-12.46.48:202][473]BlueprintLog: New page: Compile SunBurnt_Pig_SpriteBP
+[2016.08.17-12.46.48:378][473]BlueprintEditorCompileResults: Info [2807.83] Compile of SunBurnt_Pig_SpriteBP successful! [in 176 ms]
+[2016.08.17-12.46.48:844][513]LogSavePackage: Save=24.711245ms
+[2016.08.17-12.46.48:844][513]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/SunBurnt_Pig_SpriteBPE390054946EF0E2F3C8A2EA8B4FDD2EC.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.uasset'
+[2016.08.17-12.46.48:846][513]LogSavePackage: Total save time: 67.180801ms
+[2016.08.17-12.46.48:846][513]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.uasset
+[2016.08.17-12.47.03:804][140]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4518 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4518
+[2016.08.17-12.47.03:804][140]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4518 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4518
+[2016.08.17-12.47.03:804][140]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4518.EdGraphPin_57422) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_Timeline_4.EdGraphPin_57287).  Import failed...
+[2016.08.17-12.47.03:804][140]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4518.EdGraphPin_57422''
+[2016.08.17-12.47.03:804][140]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4496 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4496
+[2016.08.17-12.47.03:804][140]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4496 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4496
+[2016.08.17-12.47.03:804][140]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4496.EdGraphPin_57369) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_Timeline_4.EdGraphPin_57286).  Import failed...
+[2016.08.17-12.47.03:804][140]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4496.EdGraphPin_57369''
+[2016.08.17-12.47.03:804][140]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4496 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4496
+[2016.08.17-12.47.03:804][140]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4496 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4496
+[2016.08.17-12.47.03:804][140]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4496.EdGraphPin_57370) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_Timeline_4.EdGraphPin_57286).  Import failed...
+[2016.08.17-12.47.03:804][140]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4496.EdGraphPin_57370''
+[2016.08.17-12.47.03:804][140]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4496 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4496
+[2016.08.17-12.47.03:804][140]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4496 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4496
+[2016.08.17-12.47.03:804][140]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4496.EdGraphPin_57371) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_Timeline_4.EdGraphPin_57286).  Import failed...
+[2016.08.17-12.47.03:804][140]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4496.EdGraphPin_57371''
+[2016.08.17-12.47.03:804][140]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_82 or K2Node_CommutativeAssociativeBinaryOperator /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_82
+[2016.08.17-12.47.03:804][140]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_82 or K2Node_CommutativeAssociativeBinaryOperator /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_82
+[2016.08.17-12.47.03:804][140]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_82 or K2Node_CommutativeAssociativeBinaryOperator /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.RenderToTextureMacros:Array to HLSL Code.K2Node_CommutativeAssociativeBinaryOperator_82
+[2016.08.17-12.47.03:804][140]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_82.EdGraphPin_57315) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_Timeline_4.EdGraphPin_57285).  Import failed...
+[2016.08.17-12.47.03:804][140]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_82.EdGraphPin_57315''
+[2016.08.17-12.47.03:805][140]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4483 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4483
+[2016.08.17-12.47.03:805][140]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4483 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4483
+[2016.08.17-12.47.03:805][140]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4483.EdGraphPin_57326) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_Timeline_4.EdGraphPin_57280).  Import failed...
+[2016.08.17-12.47.03:805][140]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4483.EdGraphPin_57326''
+[2016.08.17-12.47.03:805][140]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4498 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4498
+[2016.08.17-12.47.03:805][140]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4498 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4498
+[2016.08.17-12.47.03:805][140]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4498.EdGraphPin_57384) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_Timeline_4.EdGraphPin_57275).  Import failed...
+[2016.08.17-12.47.03:805][140]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4498.EdGraphPin_57384''
+[2016.08.17-12.47.03:805][140]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4484 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4484
+[2016.08.17-12.47.03:805][140]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4484 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4484
+[2016.08.17-12.47.03:805][140]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4484.EdGraphPin_57344) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_82.EdGraphPin_57317).  Import failed...
+[2016.08.17-12.47.03:805][140]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4484.EdGraphPin_57344''
+[2016.08.17-12.47.03:805][140]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4484 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4484
+[2016.08.17-12.47.03:805][140]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4484 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4484
+[2016.08.17-12.47.03:805][140]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4484.EdGraphPin_57345) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4483.EdGraphPin_57329).  Import failed...
+[2016.08.17-12.47.03:805][140]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4484.EdGraphPin_57345''
+[2016.08.17-12.47.03:805][140]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4495 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4495
+[2016.08.17-12.47.03:805][140]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4495 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4495
+[2016.08.17-12.47.03:805][140]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4495.EdGraphPin_57356) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4483.EdGraphPin_57327).  Import failed...
+[2016.08.17-12.47.03:805][140]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4495.EdGraphPin_57356''
+[2016.08.17-12.47.03:806][140]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4496 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4496
+[2016.08.17-12.47.03:806][140]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4496 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4496
+[2016.08.17-12.47.03:806][140]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4496.EdGraphPin_57372) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4495.EdGraphPin_57359).  Import failed...
+[2016.08.17-12.47.03:806][140]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4496.EdGraphPin_57372''
+[2016.08.17-12.47.03:806][140]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4520 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4520
+[2016.08.17-12.47.03:806][140]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4520 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4520
+[2016.08.17-12.47.03:806][140]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4520.EdGraphPin_57440) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4495.EdGraphPin_57357).  Import failed...
+[2016.08.17-12.47.03:806][140]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4520.EdGraphPin_57440''
+[2016.08.17-12.47.03:807][140]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallArrayFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CallArrayFunction_98 or K2Node_CallArrayFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallArrayFunction_98
+[2016.08.17-12.47.03:807][140]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallArrayFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CallArrayFunction_98 or K2Node_CallArrayFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallArrayFunction_98
+[2016.08.17-12.47.03:807][140]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallArrayFunction_98.EdGraphPin_57402) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4498.EdGraphPin_57388).  Import failed...
+[2016.08.17-12.47.03:807][140]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallArrayFunction_98.EdGraphPin_57402''
+[2016.08.17-12.47.03:807][140]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CustomEvent /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CustomEvent_141 or K2Node_CustomEvent /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CustomEvent_141
+[2016.08.17-12.47.03:807][140]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CustomEvent_141.EdGraphPin_57479) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4498.EdGraphPin_57383).  Import failed...
+[2016.08.17-12.47.03:807][140]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CustomEvent_141.EdGraphPin_57479''
+[2016.08.17-12.47.03:807][140]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4517 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4517
+[2016.08.17-12.47.03:807][140]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4517 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4517
+[2016.08.17-12.47.03:807][140]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4517.EdGraphPin_57413) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CallArrayFunction_98.EdGraphPin_57404).  Import failed...
+[2016.08.17-12.47.03:807][140]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4517.EdGraphPin_57413''
+[2016.08.17-12.47.03:807][140]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4518 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4518
+[2016.08.17-12.47.03:807][140]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4518 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4518
+[2016.08.17-12.47.03:808][140]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4518.EdGraphPin_57421) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4517.EdGraphPin_57414).  Import failed...
+[2016.08.17-12.47.03:808][140]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4518.EdGraphPin_57421''
+[2016.08.17-12.47.03:808][140]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4520 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4520
+[2016.08.17-12.47.03:808][140]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4520 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4520
+[2016.08.17-12.47.03:808][140]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4520.EdGraphPin_57443) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4518.EdGraphPin_57423).  Import failed...
+[2016.08.17-12.47.03:808][140]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4520.EdGraphPin_57443''
+[2016.08.17-12.47.03:808][140]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4519 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4519
+[2016.08.17-12.47.03:808][140]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4519 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4519
+[2016.08.17-12.47.03:808][140]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4519.EdGraphPin_57435) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4518.EdGraphPin_57420).  Import failed...
+[2016.08.17-12.47.03:808][140]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4519.EdGraphPin_57435''
+[2016.08.17-12.47.07:922][616]BlueprintLog: New page: Compile Camo_Pig_UnlockBP
+[2016.08.17-12.47.07:991][616]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000092C2FEC0
+[2016.08.17-12.47.07:998][616]BlueprintEditorCompileResults: Info [2827.45] Compile of Camo_Pig_UnlockBP successful! [in 75 ms]
+[2016.08.17-12.47.08:476][660]LogSavePackage: Save=23.694632ms
+[2016.08.17-12.47.08:477][660]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Camo_Pig_UnlockBP4555A46C488B32CF2A131E8404AE9690.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.uasset'
+[2016.08.17-12.47.08:478][660]LogSavePackage: Total save time: 65.945037ms
+[2016.08.17-12.47.08:478][660]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.uasset
+[2016.08.17-12.47.18:496][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4518 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4518
+[2016.08.17-12.47.18:496][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4518 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4518
+[2016.08.17-12.47.18:496][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4518 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.Aqua_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4518
+[2016.08.17-12.47.18:496][756]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4518.EdGraphPin_57422) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.Aqua_Pig_UnlockBP:EventGraph.K2Node_Timeline_4.EdGraphPin_57287).  Import failed...
+[2016.08.17-12.47.18:496][756]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4518.EdGraphPin_57422''
+[2016.08.17-12.47.18:496][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4496 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4496
+[2016.08.17-12.47.18:496][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4496 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4496
+[2016.08.17-12.47.18:496][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4496 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.Aqua_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4496
+[2016.08.17-12.47.18:496][756]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4496.EdGraphPin_57369) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.Aqua_Pig_UnlockBP:EventGraph.K2Node_Timeline_4.EdGraphPin_57286).  Import failed...
+[2016.08.17-12.47.18:496][756]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4496.EdGraphPin_57369''
+[2016.08.17-12.47.18:496][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4496 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4496
+[2016.08.17-12.47.18:496][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4496 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4496
+[2016.08.17-12.47.18:496][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4496 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.Aqua_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4496
+[2016.08.17-12.47.18:496][756]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4496.EdGraphPin_57370) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.Aqua_Pig_UnlockBP:EventGraph.K2Node_Timeline_4.EdGraphPin_57286).  Import failed...
+[2016.08.17-12.47.18:496][756]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4496.EdGraphPin_57370''
+[2016.08.17-12.47.18:496][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4496 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4496
+[2016.08.17-12.47.18:496][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4496 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4496
+[2016.08.17-12.47.18:496][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4496 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.Aqua_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4496
+[2016.08.17-12.47.18:496][756]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4496.EdGraphPin_57371) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.Aqua_Pig_UnlockBP:EventGraph.K2Node_Timeline_4.EdGraphPin_57286).  Import failed...
+[2016.08.17-12.47.18:496][756]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4496.EdGraphPin_57371''
+[2016.08.17-12.47.18:496][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.Aqua_Pig_UnlockBP:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_82 or K2Node_CommutativeAssociativeBinaryOperator /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_82
+[2016.08.17-12.47.18:496][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.Aqua_Pig_UnlockBP:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_82 or K2Node_CommutativeAssociativeBinaryOperator /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_82
+[2016.08.17-12.47.18:496][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.Aqua_Pig_UnlockBP:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_82 or K2Node_CommutativeAssociativeBinaryOperator /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_82
+[2016.08.17-12.47.18:496][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.Aqua_Pig_UnlockBP:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_82 or K2Node_CommutativeAssociativeBinaryOperator /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.RenderToTextureMacros:Array to HLSL Code.K2Node_CommutativeAssociativeBinaryOperator_82
+[2016.08.17-12.47.18:496][756]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_82.EdGraphPin_57315) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.Aqua_Pig_UnlockBP:EventGraph.K2Node_Timeline_4.EdGraphPin_57285).  Import failed...
+[2016.08.17-12.47.18:496][756]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_82.EdGraphPin_57315''
+[2016.08.17-12.47.18:496][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4483 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4483
+[2016.08.17-12.47.18:496][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4483 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4483
+[2016.08.17-12.47.18:496][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4483 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.Aqua_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4483
+[2016.08.17-12.47.18:496][756]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4483.EdGraphPin_57326) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.Aqua_Pig_UnlockBP:EventGraph.K2Node_Timeline_4.EdGraphPin_57280).  Import failed...
+[2016.08.17-12.47.18:496][756]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4483.EdGraphPin_57326''
+[2016.08.17-12.47.18:497][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4498 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4498
+[2016.08.17-12.47.18:497][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4498 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4498
+[2016.08.17-12.47.18:497][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4498 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.Aqua_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4498
+[2016.08.17-12.47.18:497][756]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4498.EdGraphPin_57384) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.Aqua_Pig_UnlockBP:EventGraph.K2Node_Timeline_4.EdGraphPin_57275).  Import failed...
+[2016.08.17-12.47.18:497][756]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4498.EdGraphPin_57384''
+[2016.08.17-12.47.18:497][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4484 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4484
+[2016.08.17-12.47.18:497][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4484 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4484
+[2016.08.17-12.47.18:497][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4484 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.Aqua_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4484
+[2016.08.17-12.47.18:497][756]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4484.EdGraphPin_57344) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.Aqua_Pig_UnlockBP:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_82.EdGraphPin_57317).  Import failed...
+[2016.08.17-12.47.18:497][756]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4484.EdGraphPin_57344''
+[2016.08.17-12.47.18:497][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4484 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4484
+[2016.08.17-12.47.18:497][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4484 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4484
+[2016.08.17-12.47.18:497][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4484 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.Aqua_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4484
+[2016.08.17-12.47.18:497][756]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4484.EdGraphPin_57345) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.Aqua_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4483.EdGraphPin_57329).  Import failed...
+[2016.08.17-12.47.18:497][756]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4484.EdGraphPin_57345''
+[2016.08.17-12.47.18:497][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4495 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4495
+[2016.08.17-12.47.18:497][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4495 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4495
+[2016.08.17-12.47.18:497][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4495 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.Aqua_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4495
+[2016.08.17-12.47.18:497][756]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4495.EdGraphPin_57356) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.Aqua_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4483.EdGraphPin_57327).  Import failed...
+[2016.08.17-12.47.18:497][756]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4495.EdGraphPin_57356''
+[2016.08.17-12.47.18:498][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4496 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4496
+[2016.08.17-12.47.18:498][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4496 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4496
+[2016.08.17-12.47.18:498][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4496 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.Aqua_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4496
+[2016.08.17-12.47.18:498][756]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4496.EdGraphPin_57372) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.Aqua_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4495.EdGraphPin_57359).  Import failed...
+[2016.08.17-12.47.18:498][756]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4496.EdGraphPin_57372''
+[2016.08.17-12.47.18:498][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4520 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4520
+[2016.08.17-12.47.18:498][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4520 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4520
+[2016.08.17-12.47.18:498][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4520 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.Aqua_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4520
+[2016.08.17-12.47.18:498][756]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4520.EdGraphPin_57440) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.Aqua_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4495.EdGraphPin_57357).  Import failed...
+[2016.08.17-12.47.18:498][756]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4520.EdGraphPin_57440''
+[2016.08.17-12.47.18:499][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallArrayFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.Aqua_Pig_UnlockBP:EventGraph.K2Node_CallArrayFunction_98 or K2Node_CallArrayFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CallArrayFunction_98
+[2016.08.17-12.47.18:499][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallArrayFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.Aqua_Pig_UnlockBP:EventGraph.K2Node_CallArrayFunction_98 or K2Node_CallArrayFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallArrayFunction_98
+[2016.08.17-12.47.18:499][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallArrayFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.Aqua_Pig_UnlockBP:EventGraph.K2Node_CallArrayFunction_98 or K2Node_CallArrayFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallArrayFunction_98
+[2016.08.17-12.47.18:499][756]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallArrayFunction_98.EdGraphPin_57402) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.Aqua_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4498.EdGraphPin_57388).  Import failed...
+[2016.08.17-12.47.18:499][756]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallArrayFunction_98.EdGraphPin_57402''
+[2016.08.17-12.47.18:499][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CustomEvent /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.Aqua_Pig_UnlockBP:EventGraph.K2Node_CustomEvent_141 or K2Node_CustomEvent /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CustomEvent_141
+[2016.08.17-12.47.18:499][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CustomEvent /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.Aqua_Pig_UnlockBP:EventGraph.K2Node_CustomEvent_141 or K2Node_CustomEvent /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CustomEvent_141
+[2016.08.17-12.47.18:499][756]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CustomEvent_141.EdGraphPin_57479) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.Aqua_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4498.EdGraphPin_57383).  Import failed...
+[2016.08.17-12.47.18:499][756]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CustomEvent_141.EdGraphPin_57479''
+[2016.08.17-12.47.18:499][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4517 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4517
+[2016.08.17-12.47.18:499][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4517 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4517
+[2016.08.17-12.47.18:499][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4517 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.Aqua_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4517
+[2016.08.17-12.47.18:499][756]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4517.EdGraphPin_57413) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.Aqua_Pig_UnlockBP:EventGraph.K2Node_CallArrayFunction_98.EdGraphPin_57404).  Import failed...
+[2016.08.17-12.47.18:499][756]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4517.EdGraphPin_57413''
+[2016.08.17-12.47.18:499][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4518 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4518
+[2016.08.17-12.47.18:499][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4518 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4518
+[2016.08.17-12.47.18:499][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4518 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.Aqua_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4518
+[2016.08.17-12.47.18:500][756]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4518.EdGraphPin_57421) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.Aqua_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4517.EdGraphPin_57414).  Import failed...
+[2016.08.17-12.47.18:500][756]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4518.EdGraphPin_57421''
+[2016.08.17-12.47.18:500][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4520 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4520
+[2016.08.17-12.47.18:500][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4520 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4520
+[2016.08.17-12.47.18:500][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4520 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.Aqua_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4520
+[2016.08.17-12.47.18:500][756]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4520.EdGraphPin_57443) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.Aqua_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4518.EdGraphPin_57423).  Import failed...
+[2016.08.17-12.47.18:500][756]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4520.EdGraphPin_57443''
+[2016.08.17-12.47.18:500][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4519 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4519
+[2016.08.17-12.47.18:500][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4519 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4519
+[2016.08.17-12.47.18:500][756]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.War_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4519 or K2Node_CallFunction /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.Aqua_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4519
+[2016.08.17-12.47.18:500][756]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP:EventGraph.K2Node_CallFunction_4519.EdGraphPin_57435) from referencer (EdGraphPin /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.Aqua_Pig_UnlockBP:EventGraph.K2Node_CallFunction_4518.EdGraphPin_57420).  Import failed...
+[2016.08.17-12.47.18:500][756]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4519.EdGraphPin_57435''
+[2016.08.17-12.47.24:259][396]BlueprintLog: New page: Compile Aqua_Pig_UnlockBP
+[2016.08.17-12.47.24:336][396]BlueprintEditorCompileResults: Info [2843.78] Compile of Aqua_Pig_UnlockBP successful! [in 76 ms]
+[2016.08.17-12.47.24:912][451]LogSavePackage: Save=24.659447ms
+[2016.08.17-12.47.24:912][451]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Aqua_Pig_UnlockBP9DFD186D42D07CE3C8BA67B1FBD9CF8D.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.uasset'
+[2016.08.17-12.47.24:913][451]LogSavePackage: Total save time: 68.449005ms
+[2016.08.17-12.47.24:913][451]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.uasset
+[2016.08.17-12.47.29:294][951]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/Harvester_Mini_Game_UI" FILE="../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Harvester_Mini_Game_UI.uasset" SILENT=true
+[2016.08.17-12.47.29:418][951]LogSavePackage: Save=82.495193ms
+[2016.08.17-12.47.29:418][951]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Harvester_Mini_Game_UI39AAECBA4F0FAD58E4FC2886EAFE3565.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Harvester_Mini_Game_UI.uasset'
+[2016.08.17-12.47.29:420][951]LogSavePackage: Total save time: 124.574549ms
+[2016.08.17-12.47.29:420][951]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Harvester_Mini_Game_UI.uasset
+[2016.08.17-12.47.40:507][271]BlueprintLog: New page: Compile Harvester_Mini_Game_UI
+[2016.08.17-12.47.40:600][271]BlueprintEditorCompileResults: Info [2860.05] Compile of Harvester_Mini_Game_UI successful! [in 93 ms]
+[2016.08.17-12.47.41:046][320]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/Harvester_Mini_Game_UI" FILE="../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Harvester_Mini_Game_UI.uasset" SILENT=true
+[2016.08.17-12.47.41:172][320]LogSavePackage: Save=85.115845ms
+[2016.08.17-12.47.41:172][320]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Harvester_Mini_Game_UIA48B540C4958D45895579FB1EDC185C4.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Harvester_Mini_Game_UI.uasset'
+[2016.08.17-12.47.41:174][320]LogSavePackage: Total save time: 127.136294ms
+[2016.08.17-12.47.41:174][320]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Harvester_Mini_Game_UI.uasset
+[2016.08.17-12.47.53:729][823]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/Harvester_Mini_Game_UI" FILE="../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Harvester_Mini_Game_UI.uasset" SILENT=true
+[2016.08.17-12.47.53:852][823]LogSavePackage: Save=82.919823ms
+[2016.08.17-12.47.53:853][823]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Harvester_Mini_Game_UI284A75B645589B879DA9C89D744A6EEB.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Harvester_Mini_Game_UI.uasset'
+[2016.08.17-12.47.53:853][823]LogSavePackage: Total save time: 123.900030ms
+[2016.08.17-12.47.53:853][823]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Harvester_Mini_Game_UI.uasset
+[2016.08.17-12.47.57:768][256]LogSavePackage: Save=113.637405ms
+[2016.08.17-12.47.57:768][256]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/UEDPCHarvester_Mini_Game11CDC3234AA3FE26E457FE83CA7E42B2.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCHarvester_Mini_Game.umap'
+[2016.08.17-12.47.57:769][256]LogSavePackage: Total save time: 155.943308ms
+[2016.08.17-12.47.57:769][256]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCHarvester_Mini_Game.umap
+[2016.08.17-12.48.16:691][498]LogEditorViewport: Clicking on Actor (LMB): Mini_Game_Pawn_C (Mini_Game_Pawn)
+[2016.08.17-12.48.19:952][858]LogActorFactory: Actor Factory created Cube
+[2016.08.17-12.48.20:447][916]LogActorFactory: Actor Factory created Cube
+[2016.08.17-12.48.40:922][313]Cmd: DELETE
+[2016.08.17-12.48.40:922][313]Cmd: ACTOR DELETE
+[2016.08.17-12.48.40:960][313]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.08.17-12.48.40:961][313]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.08.17-12.48.40:988][313]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2016.08.17-12.48.45:093][805]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.08.17-12.48.56:515][166]BlueprintLog: New page: Compile Harvester_Mini_Game_UI
+[2016.08.17-12.48.56:610][166]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000025781800
+[2016.08.17-12.48.56:610][166]BlueprintEditorCompileResults: Info [2936.06] Compile of Harvester_Mini_Game_UI successful! [in 95 ms]
+[2016.08.17-12.48.57:095][219]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/Harvester_Mini_Game_UI" FILE="../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Harvester_Mini_Game_UI.uasset" SILENT=true
+[2016.08.17-12.48.57:221][219]LogSavePackage: Save=84.070770ms
+[2016.08.17-12.48.57:221][219]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Harvester_Mini_Game_UIAA8D21614003B6B7BBCEB49A87E52C18.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Harvester_Mini_Game_UI.uasset'
+[2016.08.17-12.48.57:222][219]LogSavePackage: Total save time: 126.503613ms
+[2016.08.17-12.48.57:222][219]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Harvester_Mini_Game_UI.uasset
+[2016.08.17-12.48.58:210][314]LogSavePackage: Save=112.924179ms
+[2016.08.17-12.48.58:210][314]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Harvester_Mini_Game9D2FB38547F5F9D9A044DCB97AB4D708.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Maps/Harvester_Mini_Game.umap'
+[2016.08.17-12.48.58:211][314]LogSavePackage: Total save time: 156.040929ms
+[2016.08.17-12.48.58:211][314]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Maps/Harvester_Mini_Game.umap
+[2016.08.17-12.48.59:288][424]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013CD68E0
+[2016.08.17-12.48.59:289][424]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000009209F600
+[2016.08.17-12.48.59:289][424]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001191C9A0
+[2016.08.17-12.48.59:290][424]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002578B2E0
+[2016.08.17-12.48.59:291][424]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013CD5760
+[2016.08.17-12.48.59:292][424]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000218607C0
+[2016.08.17-12.48.59:292][424]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015FC0900
+[2016.08.17-12.48.59:294][424]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005C5E9B20
+[2016.08.17-12.48.59:501][424]LogSavePackage: Save=112.809769ms
+[2016.08.17-12.48.59:501][424]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/UEDPCHarvester_Mini_Game6EB1A8DE4E844D9F42764FBE2787ED87.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCHarvester_Mini_Game.umap'
+[2016.08.17-12.48.59:502][424]LogSavePackage: Total save time: 154.631559ms
+[2016.08.17-12.48.59:502][424]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCHarvester_Mini_Game.umap
+[2016.08.17-12.49.55:543][923]BlueprintLog: New page: Compile Harvester_Mini_Game_UI
+[2016.08.17-12.49.55:636][923]BlueprintEditorCompileResults: Info [2995.08] Compile of Harvester_Mini_Game_UI successful! [in 92 ms]
+[2016.08.17-12.49.56:279][995]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/Harvester_Mini_Game_UI" FILE="../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Harvester_Mini_Game_UI.uasset" SILENT=true
+[2016.08.17-12.49.56:403][995]LogSavePackage: Save=83.181091ms
+[2016.08.17-12.49.56:403][995]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Harvester_Mini_Game_UIB26DA07344B58E364D3C608B44D935F3.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Harvester_Mini_Game_UI.uasset'
+[2016.08.17-12.49.56:405][995]LogSavePackage: Total save time: 125.011422ms
+[2016.08.17-12.49.56:405][995]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Harvester_Mini_Game_UI.uasset
+[2016.08.17-12.49.57:776][136]LogSavePackage: Save=113.814430ms
+[2016.08.17-12.49.57:776][136]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Harvester_Mini_GameF9EC88B6431CD1AEB4B915AE40E0E025.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Maps/Harvester_Mini_Game.umap'
+[2016.08.17-12.49.57:778][136]LogSavePackage: Total save time: 156.835835ms
+[2016.08.17-12.49.57:778][136]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Maps/Harvester_Mini_Game.umap
+[2016.08.17-12.49.58:500][183]LogSavePackage: Save=112.363220ms
+[2016.08.17-12.49.58:500][183]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/UEDPCHarvester_Mini_Game59177360435133604B6A2799AE523FEC.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCHarvester_Mini_Game.umap'
+[2016.08.17-12.49.58:500][183]LogSavePackage: Total save time: 154.581752ms
+[2016.08.17-12.49.58:500][183]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCHarvester_Mini_Game.umap
+[2016.08.17-12.52.14:192][943]LogSavePackage: Save=114.327003ms
+[2016.08.17-12.52.14:192][943]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Harvester_Mini_GameFDDD886147A4AD18B73BCC9A37CCE198.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Maps/Harvester_Mini_Game.umap'
+[2016.08.17-12.52.14:193][943]LogSavePackage: Total save time: 158.272248ms
+[2016.08.17-12.52.14:193][943]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Maps/Harvester_Mini_Game.umap
+[2016.08.17-12.52.14:228][943]LogFileHelpers: Saving map 'Harvester_Mini_Game' took 0.270
+[2016.08.17-12.52.14:636][944]Cmd: QUIT_EDITOR
+[2016.08.17-12.52.14:847][944]LogExit: Preparing to exit.
+[2016.08.17-12.52.15:594][944]LogExit: Editor shut down
+[2016.08.17-12.52.15:595][944]LogExit: Transaction tracking system shut down
+[2016.08.17-12.52.15:597][944]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000036797880
+[2016.08.17-12.52.15:597][944]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000020A9A840
+[2016.08.17-12.52.15:597][944]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003C1EF600
+[2016.08.17-12.52.15:597][944]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003C1EF4C0
+[2016.08.17-12.52.15:598][944]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000118C4180
+[2016.08.17-12.52.15:598][944]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000118C5260
+[2016.08.17-12.52.15:600][944]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000254C80E0
+[2016.08.17-12.52.15:602][944]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000122D8D60
+[2016.08.17-12.52.15:602][944]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005B8A94E0
+[2016.08.17-12.52.15:760][944]LogExit: Object subsystem successfully closed.
+[2016.08.17-12.52.15:770][944]LogD3D11RHI: Shutdown
+[2016.08.17-12.52.15:770][944]LogD3D11RHI: CleanupD3DDevice
+[2016.08.17-12.52.15:821][944]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.08.17-12.52.15:836][944]LogModuleManager: Shutting down and abandoning module TextureEditor (202)
+[2016.08.17-12.52.15:836][944]LogModuleManager: Shutting down and abandoning module SequencerWidgets (201)
+[2016.08.17-12.52.15:836][944]LogModuleManager: Shutting down and abandoning module BlueprintGraph (200)
+[2016.08.17-12.52.15:836][944]LogModuleManager: Shutting down and abandoning module CrashTracker (199)
+[2016.08.17-12.52.15:836][944]LogModuleManager: Shutting down and abandoning module SceneOutliner (198)
+[2016.08.17-12.52.15:836][944]LogModuleManager: Shutting down and abandoning module SuperSearch (197)
+[2016.08.17-12.52.15:836][944]LogModuleManager: Shutting down and abandoning module WidgetCarousel (196)
+[2016.08.17-12.52.15:836][944]LogModuleManager: Shutting down and abandoning module AddContentDialog (195)
+[2016.08.17-12.52.15:837][944]LogModuleManager: Shutting down and abandoning module EditorWidgets (194)
+[2016.08.17-12.52.15:837][944]LogModuleManager: Shutting down and abandoning module CollectionManager (193)
+[2016.08.17-12.52.15:837][944]LogModuleManager: Shutting down and abandoning module StatsViewer (192)
+[2016.08.17-12.52.15:837][944]LogModuleManager: Shutting down and abandoning module FoliageEdit (191)
+[2016.08.17-12.52.15:837][944]LogModuleManager: Shutting down and abandoning module LandscapeEditor (190)
+[2016.08.17-12.52.15:837][944]LogModuleManager: Shutting down and abandoning module ActorPickerMode (189)
+[2016.08.17-12.52.15:837][944]LogModuleManager: Shutting down and abandoning module GeometryMode (188)
+[2016.08.17-12.52.15:837][944]LogModuleManager: Shutting down and abandoning module TextureAlignMode (187)
+[2016.08.17-12.52.15:837][944]LogModuleManager: Shutting down and abandoning module BspMode (186)
+[2016.08.17-12.52.15:837][944]LogModuleManager: Shutting down and abandoning module PlacementMode (185)
+[2016.08.17-12.52.15:837][944]LogModuleManager: Shutting down and abandoning module AutomationWorker (184)
+[2016.08.17-12.52.15:837][944]LogModuleManager: Shutting down and abandoning module CharacterAI (183)
+[2016.08.17-12.52.15:837][944]LogModuleManager: Shutting down and abandoning module SmartSnapping (182)
+[2016.08.17-12.52.15:837][944]LogModuleManager: Shutting down and abandoning module ViewportSnapping (181)
+[2016.08.17-12.52.15:837][944]LogModuleManager: Shutting down and abandoning module LogVisualizer (180)
+[2016.08.17-12.52.15:837][944]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (179)
+[2016.08.17-12.52.15:837][944]LogModuleManager: Shutting down and abandoning module IntroTutorials (178)
+[2016.08.17-12.52.15:837][944]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (177)
+[2016.08.17-12.52.15:837][944]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (176)
+[2016.08.17-12.52.15:837][944]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (175)
+[2016.08.17-12.52.15:837][944]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (174)
+[2016.08.17-12.52.16:465][944]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (173)
+[2016.08.17-12.52.16:465][944]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (172)
+[2016.08.17-12.52.16:465][944]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (171)
+[2016.08.17-12.52.16:465][944]LogModuleManager: Shutting down and abandoning module MergeActors (170)
+[2016.08.17-12.52.16:465][944]LogModuleManager: Shutting down and abandoning module SizeMap (169)
+[2016.08.17-12.52.16:465][944]LogModuleManager: Shutting down and abandoning module TreeMap (168)
+[2016.08.17-12.52.16:465][944]LogModuleManager: Shutting down and abandoning module ReferenceViewer (167)
+[2016.08.17-12.52.16:465][944]LogModuleManager: Shutting down and abandoning module LocalizationService (166)
+[2016.08.17-12.52.16:465][944]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (165)
+[2016.08.17-12.52.16:465][944]LogModuleManager: Shutting down and abandoning module HardwareTargeting (164)
+[2016.08.17-12.52.16:465][944]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (163)
+[2016.08.17-12.52.16:465][944]LogModuleManager: Shutting down and abandoning module UndoHistory (162)
+[2016.08.17-12.52.16:465][944]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (161)
+[2016.08.17-12.52.16:465][944]LogModuleManager: Shutting down and abandoning module UserFeedback (160)
+[2016.08.17-12.52.16:465][944]LogModuleManager: Shutting down and abandoning module XmlParser (159)
+[2016.08.17-12.52.16:465][944]LogModuleManager: Shutting down and abandoning module Blutility (158)
+[2016.08.17-12.52.16:465][944]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (157)
+[2016.08.17-12.52.16:465][944]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (156)
+[2016.08.17-12.52.16:465][944]LogModuleManager: Shutting down and abandoning module InputBindingEditor (155)
+[2016.08.17-12.52.16:465][944]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (154)
+[2016.08.17-12.52.16:465][944]LogModuleManager: Shutting down and abandoning module SettingsEditor (153)
+[2016.08.17-12.52.16:465][944]LogModuleManager: Shutting down and abandoning module ProjectLauncher (152)
+[2016.08.17-12.52.16:465][944]LogModuleManager: Shutting down and abandoning module SessionFrontend (151)
+[2016.08.17-12.52.16:465][944]LogModuleManager: Shutting down and abandoning module ProfilerClient (150)
+[2016.08.17-12.52.16:465][944]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (149)
+[2016.08.17-12.52.16:465][944]LogModuleManager: Shutting down and abandoning module DeviceManager (148)
+[2016.08.17-12.52.16:466][944]LogModuleManager: Shutting down and abandoning module AutomationController (147)
+[2016.08.17-12.52.16:466][944]LogModuleManager: Shutting down and abandoning module AutomationWindow (146)
+[2016.08.17-12.52.16:466][944]LogModuleManager: Shutting down and abandoning module Layers (145)
+[2016.08.17-12.52.16:466][944]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (144)
+[2016.08.17-12.52.16:466][944]LogModuleManager: Shutting down and abandoning module DetailCustomizations (143)
+[2016.08.17-12.52.16:466][944]LogModuleManager: Shutting down and abandoning module PackagesDialog (142)
+[2016.08.17-12.52.16:466][944]LogModuleManager: Shutting down and abandoning module Persona (141)
+[2016.08.17-12.52.16:466][944]LogModuleManager: Shutting down and abandoning module Kismet (140)
+[2016.08.17-12.52.16:466][944]LogModuleManager: Shutting down and abandoning module GraphEditor (139)
+[2016.08.17-12.52.16:466][944]LogModuleManager: Shutting down and abandoning module ClassViewer (138)
+[2016.08.17-12.52.16:467][944]LogModuleManager: Shutting down and abandoning module Toolbox (137)
+[2016.08.17-12.52.16:467][944]LogModuleManager: Shutting down and abandoning module ModuleUI (136)
+[2016.08.17-12.52.16:467][944]LogModuleManager: Shutting down and abandoning module MovieSceneTools (135)
+[2016.08.17-12.52.16:467][944]LogModuleManager: Shutting down and abandoning module OutputLog (134)
+[2016.08.17-12.52.16:467][944]LogModuleManager: Shutting down and abandoning module GammaUI (133)
+[2016.08.17-12.52.16:467][944]LogModuleManager: Shutting down and abandoning module Documentation (132)
+[2016.08.17-12.52.16:467][944]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (131)
+[2016.08.17-12.52.16:467][944]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (130)
+[2016.08.17-12.52.16:467][944]LogModuleManager: Shutting down and abandoning module AnalyticsET (129)
+[2016.08.17-12.52.16:467][944]LogModuleManager: Shutting down and abandoning module Analytics (128)
+[2016.08.17-12.52.16:467][944]LogModuleManager: Shutting down and abandoning module AITestSuite (127)
+[2016.08.17-12.52.16:467][944]LogModuleManager: Shutting down and abandoning module GameplayDebugger (126)
+[2016.08.17-12.52.16:467][944]LogModuleManager: Shutting down and abandoning module AIModule (125)
+[2016.08.17-12.52.16:467][944]LogModuleManager: Shutting down and abandoning module ProfilerService (124)
+[2016.08.17-12.52.16:697][944]LogModuleManager: Shutting down and abandoning module TaskGraph (123)
+[2016.08.17-12.52.16:697][944]LogModuleManager: Shutting down and abandoning module SubstanceEditor (122)
+[2016.08.17-12.52.16:697][944]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.08.17-12.52.16:697][944]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.08.17-12.52.16:697][944]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.08.17-12.52.16:697][944]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.08.17-12.52.16:697][944]LogModuleManager: Shutting down and abandoning module OculusRift (117)
+[2016.08.17-12.52.16:697][944]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
+[2016.08.17-12.52.16:697][944]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.08.17-12.52.16:704][944]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.08.17-12.52.16:704][944]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.08.17-12.52.16:704][944]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.08.17-12.52.16:704][944]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.08.17-12.52.16:704][944]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.08.17-12.52.16:704][944]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.08.17-12.52.16:704][944]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.08.17-12.52.16:704][944]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.08.17-12.52.16:704][944]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.08.17-12.52.16:704][944]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.08.17-12.52.16:704][944]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.08.17-12.52.16:704][944]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.08.17-12.52.16:704][944]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.08.17-12.52.16:704][944]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.08.17-12.52.16:704][944]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.08.17-12.52.16:704][944]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.08.17-12.52.16:704][944]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.08.17-12.52.16:704][944]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.08.17-12.52.16:704][944]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.08.17-12.52.16:704][944]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.08.17-12.52.16:704][944]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.08.17-12.52.16:704][944]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.08.17-12.52.16:704][944]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.08.17-12.52.16:704][944]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.08.17-12.52.16:705][944]LogModuleManager: Shutting down and abandoning module ContentBrowser (90)
+[2016.08.17-12.52.16:706][944]LogModuleManager: Shutting down and abandoning module Paper2DEditor (89)
+[2016.08.17-12.52.16:706][944]LogModuleManager: Shutting down and abandoning module UdpMessaging (88)
+[2016.08.17-12.52.16:806][944]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2016.08.17-12.52.16:806][944]LogModuleManager: Shutting down and abandoning module AssetRegistry (86)
+[2016.08.17-12.52.16:890][944]LogModuleManager: Shutting down and abandoning module SubstanceCore (85)
+[2016.08.17-12.52.16:890][944]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2016.08.17-12.52.16:890][944]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2016.08.17-12.52.16:890][944]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2016.08.17-12.52.16:892][944]LogModuleManager: Shutting down and abandoning module Media (81)
+[2016.08.17-12.52.16:892][944]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2016.08.17-12.52.16:893][944]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2016.08.17-12.52.16:893][944]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2016.08.17-12.52.16:893][944]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2016.08.17-12.52.16:893][944]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2016.08.17-12.52.16:893][944]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2016.08.17-12.52.16:893][944]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2016.08.17-12.52.16:893][944]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2016.08.17-12.52.16:893][944]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2016.08.17-12.52.16:893][944]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2016.08.17-12.52.16:893][944]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2016.08.17-12.52.16:893][944]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2016.08.17-12.52.16:893][944]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2016.08.17-12.52.16:893][944]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2016.08.17-12.52.16:893][944]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2016.08.17-12.52.16:895][944]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2016.08.17-12.52.16:895][944]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2016.08.17-12.52.16:895][944]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2016.08.17-12.52.16:895][944]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2016.08.17-12.52.16:895][944]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2016.08.17-12.52.16:895][944]LogModuleManager: Shutting down and abandoning module Core (59)
+[2016.08.17-12.52.16:895][944]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2016.08.17-12.52.16:895][944]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2016.08.17-12.52.16:895][944]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2016.08.17-12.52.16:895][944]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2016.08.17-12.52.16:896][944]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2016.08.17-12.52.16:915][944]LogDerivedDataCache: Shutdown
+[2016.08.17-12.52.16:915][944]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2016.08.17-12.52.16:915][944]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2016.08.17-12.52.16:915][944]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2016.08.17-12.52.16:915][944]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2016.08.17-12.52.16:915][944]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2016.08.17-12.52.16:915][944]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2016.08.17-12.52.16:915][944]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2016.08.17-12.52.16:915][944]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2016.08.17-12.52.16:915][944]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2016.08.17-12.52.16:915][944]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2016.08.17-12.52.16:915][944]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2016.08.17-12.52.16:915][944]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2016.08.17-12.52.16:915][944]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2016.08.17-12.52.16:915][944]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2016.08.17-12.52.16:915][944]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2016.08.17-12.52.16:915][944]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2016.08.17-12.52.16:915][944]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2016.08.17-12.52.16:915][944]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2016.08.17-12.52.16:915][944]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2016.08.17-12.52.16:915][944]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2016.08.17-12.52.16:915][944]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2016.08.17-12.52.16:915][944]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2016.08.17-12.52.16:915][944]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2016.08.17-12.52.16:915][944]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2016.08.17-12.52.16:915][944]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2016.08.17-12.52.16:915][944]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2016.08.17-12.52.16:915][944]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2016.08.17-12.52.16:915][944]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2016.08.17-12.52.16:915][944]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2016.08.17-12.52.16:915][944]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2016.08.17-12.52.16:915][944]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2016.08.17-12.52.16:915][944]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2016.08.17-12.52.16:915][944]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2016.08.17-12.52.16:915][944]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2016.08.17-12.52.16:915][944]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.08.17-12.52.16:915][944]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2016.08.17-12.52.17:915][944]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2016.08.17-12.52.17:915][944]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.08.17-12.52.17:915][944]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.08.17-12.52.17:915][944]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.08.17-12.52.17:915][944]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.08.17-12.52.17:915][944]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.08.17-12.52.17:918][944]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.08.17-12.52.17:918][944]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.08.17-12.52.17:918][944]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.08.17-12.52.17:918][944]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.08.17-12.52.17:918][944]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.08.17-12.52.17:918][944]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.08.17-12.52.17:918][944]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.08.17-12.52.17:918][944]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.08.17-12.52.17:918][944]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.08.17-12.52.17:918][944]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.08.17-12.52.17:919][944]LogExit: Exiting.
+[2016.08.17-12.52.17:923][944]Log file closed, 08/17/16 13:52:17
