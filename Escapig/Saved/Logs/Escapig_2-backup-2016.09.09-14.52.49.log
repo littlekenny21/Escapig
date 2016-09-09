@@ -1,0 +1,630 @@
+﻿[2016.09.09-13.52.25:300][  0]Log file open, 09/09/16 14:52:25
+[2016.09.09-13.52.25:300][  0]LogInit:Display: Running engine for game: Escapig
+[2016.09.09-13.52.25:300][  0]LogInit:Display: RandInit(607034181) SRandInit(607034181).
+[2016.09.09-13.52.25:300][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.09.09-13.52.25:300][  0]LogStats: Stats thread started at 0.074316
+[2016.09.09-13.52.25:300][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.09.09-13.52.25:300][  0]LogInit: API Version: 2672455
+[2016.09.09-13.52.25:300][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.09.09-13.52.25:300][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.09.09-13.52.25:300][  0]LogInit: Build Configuration: Development
+[2016.09.09-13.52.25:300][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.09.09-13.52.25:300][  0]LogInit: Command line:  /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level -game -PIEVIACONSOLE -ResX=360 -ResY=640  -Multiprocess -featureleveles2 -faketouches 
+[2016.09.09-13.52.25:300][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.09.09-13.52.25:300][  0]LogInit: Rocket: 1
+[2016.09.09-13.52.25:313][  0]LogInit: Using libcurl 7.41.0
+[2016.09.09-13.52.25:313][  0]LogInit:  - built for x86_64-pc-win32
+[2016.09.09-13.52.25:313][  0]LogInit:  - supports SSL with WinSSL
+[2016.09.09-13.52.25:313][  0]LogInit:  - other features:
+[2016.09.09-13.52.25:313][  0]LogInit:      CURL_VERSION_SSL
+[2016.09.09-13.52.25:313][  0]LogInit:      CURL_VERSION_IPV6
+[2016.09.09-13.52.25:313][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.09.09-13.52.25:313][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.09.09-13.52.25:313][  0]LogInit:      CURL_VERSION_IDN
+[2016.09.09-13.52.25:313][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.09.09-13.52.25:313][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.09.09-13.52.25:313][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.09.09-13.52.25:313][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.09.09-13.52.25:313][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.09.09-13.52.25:319][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.09.09-13.52.25:324][  0]LogInit: Object subsystem initialized
+[2016.09.09-13.52.25:325][  0]LogInit: Selected Device Profile: [Windows]
+[2016.09.09-13.52.25:325][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.09.09-13.52.25:330][  0]LogInit: Computer: CW504-26
+[2016.09.09-13.52.25:330][  0]LogInit: User: u1355345
+[2016.09.09-13.52.25:330][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.09.09-13.52.25:330][  0]LogInit: High frequency timer resolution =3.507500 MHz
+[2016.09.09-13.52.25:330][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2016.09.09-13.52.25:330][  0]LogMemory: Platform Memory Stats for Windows
+[2016.09.09-13.52.25:330][  0]LogMemory: Process Physical Memory: 55.81 MB used, 55.81 MB peak
+[2016.09.09-13.52.25:330][  0]LogMemory: Process Virtual Memory: 56.61 MB used, 56.61 MB peak
+[2016.09.09-13.52.25:330][  0]LogMemory: Physical Memory: 3538.62 MB used, 16222.18 MB total
+[2016.09.09-13.52.25:330][  0]LogMemory: Virtual Memory: 392.79 MB used, 134217728.00 MB total
+[2016.09.09-13.52.25:355][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.09.09-13.52.25:863][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.09.09-13.52.25:863][  0]LogD3D11RHI: Adapter has 4008MB of dedicated video memory, 0MB of dedicated system memory, and 8111MB of shared system memory, 1 output[s]
+[2016.09.09-13.52.25:864][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.09.09-13.52.25:864][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8111MB of shared system memory, 0 output[s]
+[2016.09.09-13.52.25:864][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.09.09-13.52.25:867][  0]LogD3D11RHI: !Direct3DDevice
+[2016.09.09-13.52.25:867][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.09.09-13.52.25:876][  0]LogD3D11RHI: Async texture creation enabled
+[2016.09.09-13.52.25:885][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (E:/Escapig/Escapig/Intermediate/Shaders/WorkingDirectory/7148/).
+[2016.09.09-13.52.25:885][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'E:/Escapig/Escapig/Intermediate/Shaders/tmp/E0EEF15D4CE8323E12657AB8A175338A/'.
+[2016.09.09-13.52.25:885][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.09.09-13.52.26:694][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.09.09-13.52.26:698][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.09.09-13.52.26:703][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.09.09-13.52.26:707][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.09.09-13.52.26:714][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.09.09-13.52.26:717][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.09.09-13.52.26:720][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.09.09-13.52.26:723][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.09.09-13.52.26:726][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.09.09-13.52.26:729][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.09.09-13.52.26:733][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.09.09-13.52.26:738][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.09.09-13.52.26:739][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.09.09-13.52.26:759][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.09.09-13.52.26:761][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.09.09-13.52.26:764][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.09.09-13.52.26:767][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.09.09-13.52.26:767][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.09.09-13.52.26:847][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.09.09-13.52.26:893][  0]LogDerivedDataCache: Loaded boot cache 0.05s 57MB C:/Users/u1355345/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.09.09-13.52.26:893][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/u1355345/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.09.09-13.52.26:893][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Escapig/Escapig/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.09.09-13.52.26:893][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.09.09-13.52.26:893][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Escapig/Escapig/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.09.09-13.52.26:893][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.09.09-13.52.27:010][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.09.09-13.52.27:021][  0]LogDerivedDataCache: Using Local data cache path C:/Users/u1355345/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.09.09-13.52.27:163][  0]LogInit: Selected Device Profile: [Windows]
+[2016.09.09-13.52.27:165][  0]LogContentStreaming: Texture pool size is 1000.000000MB
+[2016.09.09-13.52.27:242][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.09.09-13.52.27:242][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.09.09-13.52.27:410][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.09.09-13.52.27:588][  0]LogWindowsMoviePlayer: Unable to load movie: E:/Escapig/Escapig/Content/Movies/Default_Startup.mp4
+[2016.09.09-13.52.27:684][  0]SourceControl: Info Source control is disabled
+[2016.09.09-13.52.27:684][  0]SourceControl: Info Source control is disabled
+[2016.09.09-13.52.27:696][  0]SourceControl: Info Source control is disabled
+[2016.09.09-13.52.27:790][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.09.09-13.52.27:874][  0]LogObj: 27669 objects as part of root set at end of initial load.
+[2016.09.09-13.52.27:874][  0]LogUObjectAllocator: 5775696 out of 0 bytes used by permanent object pool.
+[2016.09.09-13.52.27:922][  0]LogEngine: Initializing Engine...
+[2016.09.09-13.52.27:924][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.09.09-13.52.27:924][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.09.09-13.52.27:949][  0]LogMaterial: Missing cached shader map for material MAT_LevelColorationLitLightmapUV, compiling. Is special engine material.
+[2016.09.09-13.52.27:950][  0]LogMaterial:Warning: Failed to compile Material /Engine/EngineDebugMaterials/MAT_LevelColorationLitLightmapUV.MAT_LevelColorationLitLightmapUV for platform PCD3D_ES2, Default Material will be used in game.
+[2016.09.09-13.52.27:950][  0]LogMaterial:Warning: 	(Node LightmapUVs) Node not supported in feature level ES2
+[2016.09.09-13.52.27:987][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.09.09-13.52.27:993][  0]LogInit: FAudioDevice initialized.
+[2016.09.09-13.52.27:996][  0]LogInit: Texture streaming: Enabled
+[2016.09.09-13.52.28:005][  0]LogMaterial: Missing cached shader map for material CustomStencil, compiling. 
+[2016.09.09-13.52.28:005][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/CustomStencil.CustomStencil for platform PCD3D_ES2, Default Material will be used in game.
+[2016.09.09-13.52.28:005][  0]LogMaterial:Warning: 	(Node SceneTexture) Node not supported in feature level ES2
+[2016.09.09-13.52.28:048][  0]LogNet: Browse: /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level?Name=Player
+[2016.09.09-13.52.28:048][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level?Name=Player
+[2016.09.09-13.52.28:057][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EB973409A0
+[2016.09.09-13.52.28:064][  0]LogMemory: Platform Memory Stats for Windows
+[2016.09.09-13.52.28:064][  0]LogMemory: Process Physical Memory: 392.16 MB used, 392.16 MB peak
+[2016.09.09-13.52.28:064][  0]LogMemory: Process Virtual Memory: 381.93 MB used, 381.93 MB peak
+[2016.09.09-13.52.28:064][  0]LogMemory: Physical Memory: 3856.34 MB used, 16222.18 MB total
+[2016.09.09-13.52.28:064][  0]LogMemory: Virtual Memory: 947.36 MB used, 134217728.00 MB total
+[2016.09.09-13.52.28:064][  0]LogMemory: 
+[2016.09.09-13.52.28:064][  0]Allocator Stats for TBB: (not implemented)
+[2016.09.09-13.52.30:150][  0]LogAIModule: Creating AISystem for world Escapig_Level
+[2016.09.09-13.52.30:150][  0]LogWorld: Game class is 'Escapig_Mode_C'
+[2016.09.09-13.52.30:152][  0]LogWorld: Bringing World /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.Escapig_Level up for play (max tick rate 0) at 2016.09.09-14.52.30
+[2016.09.09-13.52.30:152][  0]LogWorld: Bringing up level for play took: 0.001564
+[2016.09.09-13.52.30:154][  0]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.09.09-13.52.30:156][  0]LogInit:Display: Game Engine Initialized.
+[2016.09.09-13.52.30:375][  0]LogLoad: Full Startup: 6.84 seconds (BP compile: 0.76 seconds)
+[2016.09.09-13.52.30:391][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.09.09-13.52.30:421][  1]LogRenderer: Reallocating scene render targets to support 360x640 (Frame:2).
+[2016.09.09-13.52.30:606][ 11]LogScript:Warning: Cannot access 'BP_Truffle_C_0'. It is pending kill. Property: 'CallFunc_Array_Get_Item8'
+	PigChar_C /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.Escapig_Level:PersistentLevel.PigChar_C_0
+	Function /Game/Blueprints/Blueprints/PigChar.PigChar_C:ExecuteUbergraph_PigChar:0A7C
+[2016.09.09-13.52.30:610][ 11]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.30:611][ 12]LogScript:Warning: Cannot access 'BP_Truffle_C_0'. It is pending kill. Property: 'CallFunc_Array_Get_Item8'
+	PigChar_C /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.Escapig_Level:PersistentLevel.PigChar_C_0
+	Function /Game/Blueprints/Blueprints/PigChar.PigChar_C:ExecuteUbergraph_PigChar:0A7C
+[2016.09.09-13.52.30:613][ 12]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.30:627][ 13]LogScript:Warning: Cannot access 'BP_Truffle_C_0'. It is pending kill. Property: 'CallFunc_Array_Get_Item8'
+	PigChar_C /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.Escapig_Level:PersistentLevel.PigChar_C_0
+	Function /Game/Blueprints/Blueprints/PigChar.PigChar_C:ExecuteUbergraph_PigChar:0A7C
+[2016.09.09-13.52.30:628][ 13]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.30:643][ 14]LogScript:Warning: Cannot access 'BP_Truffle_C_0'. It is pending kill. Property: 'CallFunc_Array_Get_Item8'
+	PigChar_C /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.Escapig_Level:PersistentLevel.PigChar_C_0
+	Function /Game/Blueprints/Blueprints/PigChar.PigChar_C:ExecuteUbergraph_PigChar:0A7C
+[2016.09.09-13.52.30:644][ 14]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.30:659][ 15]LogScript:Warning: Cannot access 'BP_Truffle_C_0'. It is pending kill. Property: 'CallFunc_Array_Get_Item8'
+	PigChar_C /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.Escapig_Level:PersistentLevel.PigChar_C_0
+	Function /Game/Blueprints/Blueprints/PigChar.PigChar_C:ExecuteUbergraph_PigChar:0A7C
+[2016.09.09-13.52.30:660][ 15]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.30:675][ 16]LogScript:Warning: Cannot access 'BP_Truffle_C_0'. It is pending kill. Property: 'CallFunc_Array_Get_Item8'
+	PigChar_C /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.Escapig_Level:PersistentLevel.PigChar_C_0
+	Function /Game/Blueprints/Blueprints/PigChar.PigChar_C:ExecuteUbergraph_PigChar:0A7C
+[2016.09.09-13.52.30:676][ 16]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.30:691][ 17]LogScript:Warning: Cannot access 'BP_Truffle_C_0'. It is pending kill. Property: 'CallFunc_Array_Get_Item8'
+	PigChar_C /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.Escapig_Level:PersistentLevel.PigChar_C_0
+	Function /Game/Blueprints/Blueprints/PigChar.PigChar_C:ExecuteUbergraph_PigChar:0A7C
+[2016.09.09-13.52.30:692][ 17]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.30:707][ 18]LogScript:Warning: Cannot access 'BP_Truffle_C_0'. It is pending kill. Property: 'CallFunc_Array_Get_Item8'
+	PigChar_C /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.Escapig_Level:PersistentLevel.PigChar_C_0
+	Function /Game/Blueprints/Blueprints/PigChar.PigChar_C:ExecuteUbergraph_PigChar:0A7C
+[2016.09.09-13.52.30:708][ 18]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.30:723][ 19]LogScript:Warning: Cannot access 'BP_Truffle_C_0'. It is pending kill. Property: 'CallFunc_Array_Get_Item8'
+	PigChar_C /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.Escapig_Level:PersistentLevel.PigChar_C_0
+	Function /Game/Blueprints/Blueprints/PigChar.PigChar_C:ExecuteUbergraph_PigChar:0A7C
+[2016.09.09-13.52.30:725][ 19]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.30:740][ 20]LogScript:Warning: Cannot access 'BP_Truffle_C_0'. It is pending kill. Property: 'CallFunc_Array_Get_Item8'
+	PigChar_C /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.Escapig_Level:PersistentLevel.PigChar_C_0
+	Function /Game/Blueprints/Blueprints/PigChar.PigChar_C:ExecuteUbergraph_PigChar:0A7C
+[2016.09.09-13.52.30:741][ 20]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.30:756][ 21]LogScript:Warning: Cannot access 'BP_Truffle_C_0'. It is pending kill. Property: 'CallFunc_Array_Get_Item8'
+	PigChar_C /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.Escapig_Level:PersistentLevel.PigChar_C_0
+	Function /Game/Blueprints/Blueprints/PigChar.PigChar_C:ExecuteUbergraph_PigChar:0A7C
+[2016.09.09-13.52.30:757][ 21]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.30:772][ 22]LogScript:Warning: Cannot access 'BP_Truffle_C_0'. It is pending kill. Property: 'CallFunc_Array_Get_Item8'
+	PigChar_C /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.Escapig_Level:PersistentLevel.PigChar_C_0
+	Function /Game/Blueprints/Blueprints/PigChar.PigChar_C:ExecuteUbergraph_PigChar:0A7C
+[2016.09.09-13.52.30:773][ 22]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.30:788][ 23]LogScript:Warning: Cannot access 'BP_Truffle_C_0'. It is pending kill. Property: 'CallFunc_Array_Get_Item8'
+	PigChar_C /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.Escapig_Level:PersistentLevel.PigChar_C_0
+	Function /Game/Blueprints/Blueprints/PigChar.PigChar_C:ExecuteUbergraph_PigChar:0A7C
+[2016.09.09-13.52.30:789][ 23]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.30:804][ 24]LogScript:Warning: Cannot access 'BP_Truffle_C_0'. It is pending kill. Property: 'CallFunc_Array_Get_Item8'
+	PigChar_C /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.Escapig_Level:PersistentLevel.PigChar_C_0
+	Function /Game/Blueprints/Blueprints/PigChar.PigChar_C:ExecuteUbergraph_PigChar:0A7C
+[2016.09.09-13.52.30:805][ 24]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.30:820][ 25]LogScript:Warning: Cannot access 'BP_Truffle_C_0'. It is pending kill. Property: 'CallFunc_Array_Get_Item8'
+	PigChar_C /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.Escapig_Level:PersistentLevel.PigChar_C_0
+	Function /Game/Blueprints/Blueprints/PigChar.PigChar_C:ExecuteUbergraph_PigChar:0A7C
+[2016.09.09-13.52.30:821][ 25]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.30:836][ 26]LogScript:Warning: Cannot access 'BP_Truffle_C_0'. It is pending kill. Property: 'CallFunc_Array_Get_Item8'
+	PigChar_C /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.Escapig_Level:PersistentLevel.PigChar_C_0
+	Function /Game/Blueprints/Blueprints/PigChar.PigChar_C:ExecuteUbergraph_PigChar:0A7C
+[2016.09.09-13.52.30:838][ 26]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.30:853][ 27]LogScript:Warning: Cannot access 'BP_Truffle_C_0'. It is pending kill. Property: 'CallFunc_Array_Get_Item8'
+	PigChar_C /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.Escapig_Level:PersistentLevel.PigChar_C_0
+	Function /Game/Blueprints/Blueprints/PigChar.PigChar_C:ExecuteUbergraph_PigChar:0A7C
+[2016.09.09-13.52.30:853][ 27]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.30:870][ 28]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.30:886][ 29]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.30:902][ 30]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.30:918][ 31]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.30:934][ 32]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.30:950][ 33]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.30:966][ 34]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.30:983][ 35]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.30:999][ 36]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:015][ 37]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:031][ 38]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:047][ 39]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:063][ 40]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:079][ 41]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:095][ 42]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:111][ 43]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:128][ 44]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:144][ 45]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:160][ 46]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:179][ 47]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:193][ 48]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:209][ 49]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:225][ 50]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:241][ 51]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:257][ 52]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:273][ 53]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:290][ 54]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:305][ 55]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:322][ 56]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:338][ 57]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:354][ 58]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:370][ 59]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:386][ 60]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:402][ 61]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:418][ 62]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:434][ 63]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:450][ 64]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:466][ 65]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:482][ 66]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:499][ 67]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:515][ 68]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:531][ 69]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:547][ 70]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:564][ 71]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:580][ 72]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:596][ 73]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:612][ 74]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:628][ 75]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:644][ 76]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:660][ 77]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:676][ 78]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:692][ 79]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:709][ 80]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:725][ 81]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:743][ 82]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:757][ 83]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:773][ 84]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:789][ 85]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:805][ 86]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:821][ 87]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:838][ 88]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:854][ 89]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:870][ 90]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:886][ 91]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:902][ 92]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:918][ 93]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:934][ 94]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:950][ 95]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:966][ 96]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:983][ 97]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.31:999][ 98]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:015][ 99]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:031][100]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:048][101]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:064][102]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:080][103]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:096][104]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:112][105]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:128][106]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:144][107]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:161][108]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:176][109]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:193][110]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:209][111]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:225][112]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:240][113]LogBlueprintUserMessages: [PigChar_C_0] LifeLost
+[2016.09.09-13.52.32:241][113]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:257][114]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:273][115]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:289][116]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:305][117]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:321][118]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:337][119]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:354][120]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:370][121]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:386][122]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:402][123]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:418][124]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:434][125]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:450][126]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:466][127]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:483][128]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:498][129]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:515][130]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:531][131]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:547][132]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:563][133]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:579][134]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:595][135]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:611][136]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:627][137]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:644][138]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:660][139]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:677][140]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:693][141]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:709][142]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:725][143]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:741][144]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:757][145]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:773][146]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:789][147]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:805][148]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:822][149]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:838][150]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:854][151]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:870][152]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:886][153]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:902][154]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:918][155]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:935][156]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:950][157]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:966][158]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:983][159]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.32:999][160]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:015][161]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:031][162]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:047][163]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:063][164]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:079][165]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:096][166]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:112][167]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:128][168]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:144][169]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:160][170]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:176][171]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:192][172]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:208][173]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:224][174]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:240][175]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:256][176]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:273][177]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:289][178]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:305][179]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:322][180]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:338][181]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:354][182]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:370][183]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:386][184]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:402][185]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:418][186]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:434][187]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:450][188]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:466][189]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:483][190]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:499][191]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:515][192]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:531][193]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:548][194]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:564][195]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:580][196]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:596][197]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:612][198]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:628][199]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:644][200]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:660][201]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:676][202]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:692][203]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:708][204]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:725][205]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:741][206]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:757][207]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:773][208]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:789][209]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:808][210]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:821][211]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:837][212]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:854][213]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:870][214]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:886][215]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:902][216]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:918][217]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:935][218]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:951][219]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:967][220]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:983][221]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.33:999][222]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:015][223]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:030][224]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:047][225]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:063][226]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:079][227]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:095][228]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:111][229]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:127][230]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:143][231]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:160][232]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:177][233]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:192][234]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:209][235]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:224][236]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:240][237]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:257][238]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:273][239]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:289][240]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:305][241]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:321][242]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:338][243]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:354][244]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:370][245]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:386][246]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:402][247]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:419][248]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:434][249]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:451][250]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:466][251]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:483][252]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:499][253]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:515][254]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:531][255]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:547][256]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:563][257]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:579][258]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:596][259]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:611][260]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:628][261]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:644][262]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:661][263]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:677][264]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:693][265]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:709][266]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:725][267]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:741][268]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:757][269]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:773][270]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:789][271]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:806][272]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:822][273]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:838][274]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:854][275]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:870][276]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:886][277]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:902][278]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:919][279]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:934][280]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:950][281]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:966][282]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:982][283]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.34:999][284]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:015][285]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:031][286]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:047][287]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:063][288]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:079][289]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:095][290]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:111][291]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:127][292]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:143][293]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:159][294]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:175][295]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:192][296]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:209][297]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:225][298]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:240][299]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:257][300]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:273][301]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:289][302]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:305][303]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:321][304]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:338][305]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:354][306]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:370][307]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:386][308]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:403][309]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:419][310]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:435][311]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:450][312]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:467][313]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:482][314]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:499][315]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:515][316]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:531][317]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:547][318]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:563][319]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:582][320]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:596][321]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:612][322]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:628][323]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:644][324]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:660][325]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:676][326]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:693][327]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:709][328]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:725][329]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:741][330]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:757][331]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:773][332]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:790][333]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:806][334]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:822][335]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:838][336]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:854][337]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.35:870][338]LogBlueprintUserMessages: [RunHud_C_0] 824.0
+[2016.09.09-13.52.36:008][339]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.09.09-13.52.36:010][339]LogEngine: All Windows Closed
+[2016.09.09-13.52.36:010][339]LogWindows: FPlatformMisc::RequestExit(0)
+[2016.09.09-13.52.36:930][340]LogExit: Preparing to exit.
+[2016.09.09-13.52.37:096][340]LogExit: Game engine shut down
+[2016.09.09-13.52.37:097][340]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EBACD9F7E0
+[2016.09.09-13.52.37:260][340]LogExit: Object subsystem successfully closed.
+[2016.09.09-13.52.37:269][340]LogD3D11RHI: Shutdown
+[2016.09.09-13.52.37:269][340]LogD3D11RHI: CleanupD3DDevice
+[2016.09.09-13.52.37:284][340]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.09.09-13.52.37:294][340]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (115)
+[2016.09.09-13.52.37:389][340]LogModuleManager: Shutting down and abandoning module AutomationController (114)
+[2016.09.09-13.52.37:389][340]LogModuleManager: Shutting down and abandoning module AutomationWorker (113)
+[2016.09.09-13.52.37:389][340]LogModuleManager: Shutting down and abandoning module CharacterAI (112)
+[2016.09.09-13.52.37:389][340]LogModuleManager: Shutting down and abandoning module AITestSuite (111)
+[2016.09.09-13.52.37:389][340]LogModuleManager: Shutting down and abandoning module GameplayDebugger (110)
+[2016.09.09-13.52.37:389][340]LogModuleManager: Shutting down and abandoning module AIModule (109)
+[2016.09.09-13.52.37:389][340]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (108)
+[2016.09.09-13.52.37:389][340]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (107)
+[2016.09.09-13.52.37:389][340]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2016.09.09-13.52.37:396][340]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2016.09.09-13.52.37:396][340]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2016.09.09-13.52.37:396][340]LogModuleManager: Shutting down and abandoning module SteamVRController (103)
+[2016.09.09-13.52.37:396][340]LogModuleManager: Shutting down and abandoning module SteamVR (102)
+[2016.09.09-13.52.37:396][340]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (101)
+[2016.09.09-13.52.37:396][340]LogModuleManager: Shutting down and abandoning module OculusRift (100)
+[2016.09.09-13.52.37:396][340]LogModuleManager: Shutting down and abandoning module OculusLibrary (99)
+[2016.09.09-13.52.37:396][340]LogModuleManager: Shutting down and abandoning module LeapMotionController (98)
+[2016.09.09-13.52.37:403][340]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (97)
+[2016.09.09-13.52.37:403][340]LogModuleManager: Shutting down and abandoning module CableComponent (96)
+[2016.09.09-13.52.37:403][340]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (95)
+[2016.09.09-13.52.37:403][340]LogModuleManager: Shutting down and abandoning module HTML5Networking (94)
+[2016.09.09-13.52.37:403][340]LogModuleManager: Shutting down and abandoning module DesktopPlatform (93)
+[2016.09.09-13.52.37:403][340]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (92)
+[2016.09.09-13.52.37:403][340]LogModuleManager: Shutting down and abandoning module HotReload (91)
+[2016.09.09-13.52.37:403][340]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (90)
+[2016.09.09-13.52.37:403][340]LogModuleManager: Shutting down and abandoning module UObjectPlugin (89)
+[2016.09.09-13.52.37:403][340]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (88)
+[2016.09.09-13.52.37:403][340]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2016.09.09-13.52.37:403][340]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (86)
+[2016.09.09-13.52.37:403][340]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2016.09.09-13.52.37:403][340]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2016.09.09-13.52.37:403][340]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2016.09.09-13.52.37:403][340]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2016.09.09-13.52.37:404][340]LogModuleManager: Shutting down and abandoning module Media (81)
+[2016.09.09-13.52.37:404][340]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2016.09.09-13.52.37:404][340]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2016.09.09-13.52.37:404][340]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2016.09.09-13.52.37:404][340]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2016.09.09-13.52.37:404][340]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2016.09.09-13.52.37:404][340]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2016.09.09-13.52.37:404][340]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2016.09.09-13.52.37:404][340]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2016.09.09-13.52.37:404][340]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2016.09.09-13.52.37:404][340]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2016.09.09-13.52.37:404][340]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2016.09.09-13.52.37:404][340]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2016.09.09-13.52.37:404][340]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2016.09.09-13.52.37:404][340]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2016.09.09-13.52.37:404][340]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2016.09.09-13.52.37:405][340]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2016.09.09-13.52.37:405][340]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2016.09.09-13.52.37:405][340]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2016.09.09-13.52.37:405][340]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2016.09.09-13.52.37:405][340]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2016.09.09-13.52.37:405][340]LogModuleManager: Shutting down and abandoning module Core (59)
+[2016.09.09-13.52.37:405][340]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2016.09.09-13.52.37:405][340]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2016.09.09-13.52.37:405][340]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2016.09.09-13.52.37:405][340]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2016.09.09-13.52.37:406][340]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2016.09.09-13.52.37:517][340]LogDerivedDataCache: Shutdown
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.09.09-13.52.37:517][340]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.09.09-13.52.37:518][340]LogExit: Exiting.
+[2016.09.09-13.52.37:519][340]Log file closed, 09/09/16 14:52:37
