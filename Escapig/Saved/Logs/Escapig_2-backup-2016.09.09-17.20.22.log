@@ -1,0 +1,1611 @@
+﻿[2016.09.09-16.19.45:042][  0]Log file open, 09/09/16 17:19:45
+[2016.09.09-16.19.45:042][  0]LogInit:Display: Running engine for game: Escapig
+[2016.09.09-16.19.45:042][  0]LogInit:Display: RandInit(1550560211) SRandInit(1550560212).
+[2016.09.09-16.19.45:042][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.09.09-16.19.45:042][  0]LogStats: Stats thread started at 0.074796
+[2016.09.09-16.19.45:042][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.09.09-16.19.45:042][  0]LogInit: API Version: 2672455
+[2016.09.09-16.19.45:042][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.09.09-16.19.45:042][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.09.09-16.19.45:042][  0]LogInit: Build Configuration: Development
+[2016.09.09-16.19.45:042][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.09.09-16.19.45:042][  0]LogInit: Command line:  /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level -game -PIEVIACONSOLE -ResX=540 -ResY=960  -Multiprocess -featureleveles2 -faketouches 
+[2016.09.09-16.19.45:042][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.09.09-16.19.45:042][  0]LogInit: Rocket: 1
+[2016.09.09-16.19.45:057][  0]LogInit: Using libcurl 7.41.0
+[2016.09.09-16.19.45:057][  0]LogInit:  - built for x86_64-pc-win32
+[2016.09.09-16.19.45:057][  0]LogInit:  - supports SSL with WinSSL
+[2016.09.09-16.19.45:057][  0]LogInit:  - other features:
+[2016.09.09-16.19.45:057][  0]LogInit:      CURL_VERSION_SSL
+[2016.09.09-16.19.45:057][  0]LogInit:      CURL_VERSION_IPV6
+[2016.09.09-16.19.45:057][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.09.09-16.19.45:057][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.09.09-16.19.45:057][  0]LogInit:      CURL_VERSION_IDN
+[2016.09.09-16.19.45:057][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.09.09-16.19.45:057][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.09.09-16.19.45:057][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.09.09-16.19.45:057][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.09.09-16.19.45:057][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.09.09-16.19.45:063][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.09.09-16.19.45:069][  0]LogInit: Object subsystem initialized
+[2016.09.09-16.19.45:070][  0]LogInit: Selected Device Profile: [Windows]
+[2016.09.09-16.19.45:070][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.09.09-16.19.45:074][  0]LogInit: Computer: CW504-26
+[2016.09.09-16.19.45:074][  0]LogInit: User: u1355345
+[2016.09.09-16.19.45:074][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.09.09-16.19.45:074][  0]LogInit: High frequency timer resolution =3.507500 MHz
+[2016.09.09-16.19.45:074][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2016.09.09-16.19.45:074][  0]LogMemory: Platform Memory Stats for Windows
+[2016.09.09-16.19.45:074][  0]LogMemory: Process Physical Memory: 55.79 MB used, 55.79 MB peak
+[2016.09.09-16.19.45:074][  0]LogMemory: Process Virtual Memory: 58.43 MB used, 58.43 MB peak
+[2016.09.09-16.19.45:074][  0]LogMemory: Physical Memory: 3113.95 MB used, 16222.18 MB total
+[2016.09.09-16.19.45:074][  0]LogMemory: Virtual Memory: 394.73 MB used, 134217728.00 MB total
+[2016.09.09-16.19.45:100][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.09.09-16.19.45:615][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.09.09-16.19.45:615][  0]LogD3D11RHI: Adapter has 4008MB of dedicated video memory, 0MB of dedicated system memory, and 8111MB of shared system memory, 1 output[s]
+[2016.09.09-16.19.45:616][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.09.09-16.19.45:616][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8111MB of shared system memory, 0 output[s]
+[2016.09.09-16.19.45:616][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.09.09-16.19.45:619][  0]LogD3D11RHI: !Direct3DDevice
+[2016.09.09-16.19.45:619][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.09.09-16.19.45:628][  0]LogD3D11RHI: Async texture creation enabled
+[2016.09.09-16.19.45:642][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (E:/Escapig/Escapig/Intermediate/Shaders/WorkingDirectory/5948/).
+[2016.09.09-16.19.45:642][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'E:/Escapig/Escapig/Intermediate/Shaders/tmp/5F6BBB6F4AFE060296EF0886F63967F3/'.
+[2016.09.09-16.19.45:642][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.09.09-16.19.46:453][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.09.09-16.19.46:458][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.09.09-16.19.46:462][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.09.09-16.19.46:467][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.09.09-16.19.46:471][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.09.09-16.19.46:474][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.09.09-16.19.46:477][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.09.09-16.19.46:480][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.09.09-16.19.46:483][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.09.09-16.19.46:486][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.09.09-16.19.46:489][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.09.09-16.19.46:492][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.09.09-16.19.46:492][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.09.09-16.19.46:509][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.09.09-16.19.46:511][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.09.09-16.19.46:514][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.09.09-16.19.46:517][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.09.09-16.19.46:517][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.09.09-16.19.46:595][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.09.09-16.19.46:643][  0]LogDerivedDataCache: Loaded boot cache 0.05s 57MB C:/Users/u1355345/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.09.09-16.19.46:643][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/u1355345/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.09.09-16.19.46:643][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Escapig/Escapig/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.09.09-16.19.46:643][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.09.09-16.19.46:643][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Escapig/Escapig/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.09.09-16.19.46:643][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.09.09-16.19.46:758][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.09.09-16.19.46:770][  0]LogDerivedDataCache: Using Local data cache path C:/Users/u1355345/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.09.09-16.19.46:915][  0]LogInit: Selected Device Profile: [Windows]
+[2016.09.09-16.19.46:918][  0]LogContentStreaming: Texture pool size is 1000.000000MB
+[2016.09.09-16.19.46:995][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.09.09-16.19.46:995][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.09.09-16.19.47:162][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.09.09-16.19.47:334][  0]LogWindowsMoviePlayer: Unable to load movie: E:/Escapig/Escapig/Content/Movies/Default_Startup.mp4
+[2016.09.09-16.19.47:434][  0]SourceControl: Info Source control is disabled
+[2016.09.09-16.19.47:434][  0]SourceControl: Info Source control is disabled
+[2016.09.09-16.19.47:446][  0]SourceControl: Info Source control is disabled
+[2016.09.09-16.19.47:543][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.09.09-16.19.47:626][  0]LogObj: 27669 objects as part of root set at end of initial load.
+[2016.09.09-16.19.47:626][  0]LogUObjectAllocator: 5775696 out of 0 bytes used by permanent object pool.
+[2016.09.09-16.19.47:673][  0]LogEngine: Initializing Engine...
+[2016.09.09-16.19.47:675][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.09.09-16.19.47:675][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.09.09-16.19.47:700][  0]LogMaterial: Missing cached shader map for material MAT_LevelColorationLitLightmapUV, compiling. Is special engine material.
+[2016.09.09-16.19.47:701][  0]LogMaterial:Warning: Failed to compile Material /Engine/EngineDebugMaterials/MAT_LevelColorationLitLightmapUV.MAT_LevelColorationLitLightmapUV for platform PCD3D_ES2, Default Material will be used in game.
+[2016.09.09-16.19.47:701][  0]LogMaterial:Warning: 	(Node LightmapUVs) Node not supported in feature level ES2
+[2016.09.09-16.19.47:739][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.09.09-16.19.47:745][  0]LogInit: FAudioDevice initialized.
+[2016.09.09-16.19.47:748][  0]LogInit: Texture streaming: Enabled
+[2016.09.09-16.19.47:757][  0]LogMaterial: Missing cached shader map for material CustomStencil, compiling. 
+[2016.09.09-16.19.47:757][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/CustomStencil.CustomStencil for platform PCD3D_ES2, Default Material will be used in game.
+[2016.09.09-16.19.47:757][  0]LogMaterial:Warning: 	(Node SceneTexture) Node not supported in feature level ES2
+[2016.09.09-16.19.47:800][  0]LogNet: Browse: /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level?Name=Player
+[2016.09.09-16.19.47:800][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level?Name=Player
+[2016.09.09-16.19.47:809][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D942E5C9A0
+[2016.09.09-16.19.47:817][  0]LogMemory: Platform Memory Stats for Windows
+[2016.09.09-16.19.47:817][  0]LogMemory: Process Physical Memory: 391.89 MB used, 391.89 MB peak
+[2016.09.09-16.19.47:817][  0]LogMemory: Process Virtual Memory: 387.01 MB used, 387.01 MB peak
+[2016.09.09-16.19.47:817][  0]LogMemory: Physical Memory: 3440.08 MB used, 16222.18 MB total
+[2016.09.09-16.19.47:817][  0]LogMemory: Virtual Memory: 951.36 MB used, 134217728.00 MB total
+[2016.09.09-16.19.47:817][  0]LogMemory: 
+[2016.09.09-16.19.47:817][  0]Allocator Stats for TBB: (not implemented)
+[2016.09.09-16.19.49:956][  0]LogAIModule: Creating AISystem for world Escapig_Level
+[2016.09.09-16.19.49:956][  0]LogWorld: Game class is 'Escapig_Mode_C'
+[2016.09.09-16.19.49:958][  0]LogWorld: Bringing World /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.Escapig_Level up for play (max tick rate 0) at 2016.09.09-17.19.49
+[2016.09.09-16.19.49:959][  0]LogWorld: Bringing up level for play took: 0.001609
+[2016.09.09-16.19.49:960][  0]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.09.09-16.19.49:962][  0]LogInit:Display: Game Engine Initialized.
+[2016.09.09-16.19.50:180][  0]LogLoad: Full Startup: 6.56 seconds (BP compile: 0.76 seconds)
+[2016.09.09-16.19.50:197][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.09.09-16.19.50:228][  1]LogRenderer: Reallocating scene render targets to support 540x960 (Frame:2).
+[2016.09.09-16.19.51:417][ 74]LogBlueprintUserMessages: [Harvester_C_0] 3.085714
+[2016.09.09-16.19.51:433][ 75]LogBlueprintUserMessages: [Harvester_C_0] 10.285714
+[2016.09.09-16.19.51:449][ 76]LogBlueprintUserMessages: [Harvester_C_0] 10.285714
+[2016.09.09-16.19.51:465][ 77]LogBlueprintUserMessages: [Harvester_C_0] 10.285714
+[2016.09.09-16.19.51:481][ 78]LogBlueprintUserMessages: [Harvester_C_0] 10.285714
+[2016.09.09-16.19.51:498][ 79]LogBlueprintUserMessages: [Harvester_C_0] 10.285714
+[2016.09.09-16.19.51:514][ 80]LogBlueprintUserMessages: [Harvester_C_0] 10.285714
+[2016.09.09-16.19.51:530][ 81]LogBlueprintUserMessages: [Harvester_C_0] 10.285714
+[2016.09.09-16.19.51:548][ 82]LogBlueprintUserMessages: [Harvester_C_0] 10.285714
+[2016.09.09-16.19.51:562][ 83]LogBlueprintUserMessages: [Harvester_C_0] 10.285714
+[2016.09.09-16.19.51:578][ 84]LogBlueprintUserMessages: [Harvester_C_0] 10.285714
+[2016.09.09-16.19.51:594][ 85]LogBlueprintUserMessages: [Harvester_C_0] 10.285714
+[2016.09.09-16.19.51:610][ 86]LogBlueprintUserMessages: [Harvester_C_0] 10.285714
+[2016.09.09-16.19.51:627][ 87]LogBlueprintUserMessages: [Harvester_C_0] 10.285714
+[2016.09.09-16.19.51:643][ 88]LogBlueprintUserMessages: [Harvester_C_0] 10.285714
+[2016.09.09-16.19.51:659][ 89]LogBlueprintUserMessages: [Harvester_C_0] 10.285714
+[2016.09.09-16.19.51:675][ 90]LogBlueprintUserMessages: [Harvester_C_0] 10.285714
+[2016.09.09-16.19.51:691][ 91]LogBlueprintUserMessages: [Harvester_C_0] 10.285714
+[2016.09.09-16.19.51:707][ 92]LogBlueprintUserMessages: [Harvester_C_0] 10.285714
+[2016.09.09-16.19.51:723][ 93]LogBlueprintUserMessages: [Harvester_C_0] 10.285714
+[2016.09.09-16.19.51:740][ 94]LogBlueprintUserMessages: [Harvester_C_0] 10.285714
+[2016.09.09-16.19.51:756][ 95]LogBlueprintUserMessages: [Harvester_C_0] 10.285714
+[2016.09.09-16.19.51:772][ 96]LogBlueprintUserMessages: [Harvester_C_0] 10.285714
+[2016.09.09-16.19.51:788][ 97]LogBlueprintUserMessages: [Harvester_C_0] 10.285714
+[2016.09.09-16.19.51:804][ 98]LogBlueprintUserMessages: [Harvester_C_0] 10.285714
+[2016.09.09-16.19.51:820][ 99]LogBlueprintUserMessages: [Harvester_C_0] 10.285714
+[2016.09.09-16.19.51:853][101]LogBlueprintUserMessages: [Harvester_C_0] 15.610339
+[2016.09.09-16.19.51:869][102]LogBlueprintUserMessages: [Harvester_C_0] 15.610339
+[2016.09.09-16.19.51:885][103]LogBlueprintUserMessages: [Harvester_C_0] 15.610339
+[2016.09.09-16.19.51:901][104]LogBlueprintUserMessages: [Harvester_C_0] 15.610339
+[2016.09.09-16.19.51:917][105]LogBlueprintUserMessages: [Harvester_C_0] 15.610339
+[2016.09.09-16.19.51:933][106]LogBlueprintUserMessages: [Harvester_C_0] 15.610339
+[2016.09.09-16.19.51:949][107]LogBlueprintUserMessages: [Harvester_C_0] 15.610339
+[2016.09.09-16.19.51:965][108]LogBlueprintUserMessages: [Harvester_C_0] 15.610339
+[2016.09.09-16.19.51:982][109]LogBlueprintUserMessages: [Harvester_C_0] 15.610339
+[2016.09.09-16.19.51:998][110]LogBlueprintUserMessages: [Harvester_C_0] 15.610339
+[2016.09.09-16.19.52:014][111]LogBlueprintUserMessages: [Harvester_C_0] 15.610339
+[2016.09.09-16.19.52:032][112]LogBlueprintUserMessages: [Harvester_C_0] 15.610339
+[2016.09.09-16.19.52:046][113]LogBlueprintUserMessages: [Harvester_C_0] 15.610339
+[2016.09.09-16.19.52:062][114]LogBlueprintUserMessages: [Harvester_C_0] 15.610339
+[2016.09.09-16.19.52:078][115]LogBlueprintUserMessages: [Harvester_C_0] 15.610339
+[2016.09.09-16.19.52:094][116]LogBlueprintUserMessages: [Harvester_C_0] 15.610339
+[2016.09.09-16.19.52:111][117]LogBlueprintUserMessages: [Harvester_C_0] 15.610339
+[2016.09.09-16.19.52:127][118]LogBlueprintUserMessages: [Harvester_C_0] 15.610339
+[2016.09.09-16.19.52:143][119]LogBlueprintUserMessages: [Harvester_C_0] 15.610339
+[2016.09.09-16.19.52:159][120]LogBlueprintUserMessages: [Harvester_C_0] 15.610339
+[2016.09.09-16.19.52:175][121]LogBlueprintUserMessages: [Harvester_C_0] 15.610339
+[2016.09.09-16.19.52:191][122]LogBlueprintUserMessages: [Harvester_C_0] 15.610339
+[2016.09.09-16.19.52:207][123]LogBlueprintUserMessages: [Harvester_C_0] 15.610339
+[2016.09.09-16.19.52:224][124]LogBlueprintUserMessages: [Harvester_C_0] 15.610339
+[2016.09.09-16.19.52:240][125]LogBlueprintUserMessages: [Harvester_C_0] 15.610339
+[2016.09.09-16.19.52:256][126]LogBlueprintUserMessages: [Harvester_C_0] 15.610339
+[2016.09.09-16.19.52:288][128]LogBlueprintUserMessages: [Harvester_C_0] 15.386756
+[2016.09.09-16.19.52:304][129]LogBlueprintUserMessages: [Harvester_C_0] 15.386756
+[2016.09.09-16.19.52:321][130]LogBlueprintUserMessages: [Harvester_C_0] 15.386756
+[2016.09.09-16.19.52:337][131]LogBlueprintUserMessages: [Harvester_C_0] 15.386756
+[2016.09.09-16.19.52:353][132]LogBlueprintUserMessages: [Harvester_C_0] 15.386756
+[2016.09.09-16.19.52:369][133]LogBlueprintUserMessages: [Harvester_C_0] 15.386756
+[2016.09.09-16.19.52:385][134]LogBlueprintUserMessages: [Harvester_C_0] 15.386756
+[2016.09.09-16.19.52:401][135]LogBlueprintUserMessages: [Harvester_C_0] 15.386756
+[2016.09.09-16.19.52:417][136]LogBlueprintUserMessages: [Harvester_C_0] 15.386756
+[2016.09.09-16.19.52:433][137]LogBlueprintUserMessages: [Harvester_C_0] 15.386756
+[2016.09.09-16.19.52:452][138]LogBlueprintUserMessages: [Harvester_C_0] 15.386756
+[2016.09.09-16.19.52:465][139]LogBlueprintUserMessages: [Harvester_C_0] 15.386756
+[2016.09.09-16.19.52:481][140]LogBlueprintUserMessages: [Harvester_C_0] 15.386756
+[2016.09.09-16.19.52:497][141]LogBlueprintUserMessages: [Harvester_C_0] 15.386756
+[2016.09.09-16.19.52:514][142]LogBlueprintUserMessages: [Harvester_C_0] 15.386756
+[2016.09.09-16.19.52:530][143]LogBlueprintUserMessages: [Harvester_C_0] 15.386756
+[2016.09.09-16.19.52:546][144]LogBlueprintUserMessages: [Harvester_C_0] 15.386756
+[2016.09.09-16.19.52:562][145]LogBlueprintUserMessages: [Harvester_C_0] 15.386756
+[2016.09.09-16.19.52:579][146]LogBlueprintUserMessages: [Harvester_C_0] 15.386756
+[2016.09.09-16.19.52:595][147]LogBlueprintUserMessages: [Harvester_C_0] 15.386756
+[2016.09.09-16.19.52:611][148]LogBlueprintUserMessages: [Harvester_C_0] 15.386756
+[2016.09.09-16.19.52:627][149]LogBlueprintUserMessages: [Harvester_C_0] 15.386756
+[2016.09.09-16.19.52:643][150]LogBlueprintUserMessages: [Harvester_C_0] 15.386756
+[2016.09.09-16.19.52:659][151]LogBlueprintUserMessages: [Harvester_C_0] 15.386756
+[2016.09.09-16.19.52:675][152]LogBlueprintUserMessages: [Harvester_C_0] 15.386756
+[2016.09.09-16.19.52:691][153]LogBlueprintUserMessages: [Harvester_C_0] 15.386756
+[2016.09.09-16.19.52:724][155]LogBlueprintUserMessages: [Harvester_C_0] 15.384612
+[2016.09.09-16.19.52:740][156]LogBlueprintUserMessages: [Harvester_C_0] 15.384612
+[2016.09.09-16.19.52:756][157]LogBlueprintUserMessages: [Harvester_C_0] 15.384612
+[2016.09.09-16.19.52:772][158]LogBlueprintUserMessages: [Harvester_C_0] 15.384612
+[2016.09.09-16.19.52:788][159]LogBlueprintUserMessages: [Harvester_C_0] 15.384612
+[2016.09.09-16.19.52:804][160]LogBlueprintUserMessages: [Harvester_C_0] 15.384612
+[2016.09.09-16.19.52:820][161]LogBlueprintUserMessages: [Harvester_C_0] 15.384612
+[2016.09.09-16.19.52:836][162]LogBlueprintUserMessages: [Harvester_C_0] 15.384612
+[2016.09.09-16.19.52:852][163]LogBlueprintUserMessages: [Harvester_C_0] 15.384612
+[2016.09.09-16.19.52:869][164]LogBlueprintUserMessages: [Harvester_C_0] 15.384612
+[2016.09.09-16.19.52:885][165]LogBlueprintUserMessages: [Harvester_C_0] 15.384612
+[2016.09.09-16.19.52:904][166]LogBlueprintUserMessages: [Harvester_C_0] 15.384612
+[2016.09.09-16.19.52:917][167]LogBlueprintUserMessages: [Harvester_C_0] 15.384612
+[2016.09.09-16.19.52:933][168]LogBlueprintUserMessages: [Harvester_C_0] 15.384612
+[2016.09.09-16.19.52:949][169]LogBlueprintUserMessages: [Harvester_C_0] 15.384612
+[2016.09.09-16.19.52:965][170]LogBlueprintUserMessages: [Harvester_C_0] 15.384612
+[2016.09.09-16.19.52:982][171]LogBlueprintUserMessages: [Harvester_C_0] 15.384612
+[2016.09.09-16.19.52:998][172]LogBlueprintUserMessages: [Harvester_C_0] 15.384612
+[2016.09.09-16.19.53:014][173]LogBlueprintUserMessages: [Harvester_C_0] 15.384612
+[2016.09.09-16.19.53:030][174]LogBlueprintUserMessages: [Harvester_C_0] 15.384612
+[2016.09.09-16.19.53:046][175]LogBlueprintUserMessages: [Harvester_C_0] 15.384612
+[2016.09.09-16.19.53:062][176]LogBlueprintUserMessages: [Harvester_C_0] 15.384612
+[2016.09.09-16.19.53:078][177]LogBlueprintUserMessages: [Harvester_C_0] 15.384612
+[2016.09.09-16.19.53:095][178]LogBlueprintUserMessages: [Harvester_C_0] 15.384612
+[2016.09.09-16.19.53:111][179]LogBlueprintUserMessages: [Harvester_C_0] 15.384612
+[2016.09.09-16.19.53:127][180]LogBlueprintUserMessages: [Harvester_C_0] 15.384612
+[2016.09.09-16.19.53:159][182]LogBlueprintUserMessages: [Harvester_C_0] 15.384584
+[2016.09.09-16.19.53:175][183]LogBlueprintUserMessages: [Harvester_C_0] 15.384584
+[2016.09.09-16.19.53:191][184]LogBlueprintUserMessages: [Harvester_C_0] 15.384584
+[2016.09.09-16.19.53:207][185]LogBlueprintUserMessages: [Harvester_C_0] 15.384584
+[2016.09.09-16.19.53:224][186]LogBlueprintUserMessages: [Harvester_C_0] 15.384584
+[2016.09.09-16.19.53:240][187]LogBlueprintUserMessages: [Harvester_C_0] 15.384584
+[2016.09.09-16.19.53:256][188]LogBlueprintUserMessages: [Harvester_C_0] 15.384584
+[2016.09.09-16.19.53:271][189]LogBlueprintUserMessages: [Harvester_C_0] 15.384584
+[2016.09.09-16.19.53:287][190]LogBlueprintUserMessages: [Harvester_C_0] 15.384584
+[2016.09.09-16.19.53:303][191]LogBlueprintUserMessages: [Harvester_C_0] 15.384584
+[2016.09.09-16.19.53:320][192]LogBlueprintUserMessages: [Harvester_C_0] 15.384584
+[2016.09.09-16.19.53:338][193]LogBlueprintUserMessages: [Harvester_C_0] 15.384584
+[2016.09.09-16.19.53:352][194]LogBlueprintUserMessages: [Harvester_C_0] 15.384584
+[2016.09.09-16.19.53:369][195]LogBlueprintUserMessages: [Harvester_C_0] 15.384584
+[2016.09.09-16.19.53:385][196]LogBlueprintUserMessages: [Harvester_C_0] 15.384584
+[2016.09.09-16.19.53:401][197]LogBlueprintUserMessages: [Harvester_C_0] 15.384584
+[2016.09.09-16.19.53:417][198]LogBlueprintUserMessages: [Harvester_C_0] 15.384584
+[2016.09.09-16.19.53:433][199]LogBlueprintUserMessages: [Harvester_C_0] 15.384584
+[2016.09.09-16.19.53:449][200]LogBlueprintUserMessages: [Harvester_C_0] 15.384584
+[2016.09.09-16.19.53:466][201]LogBlueprintUserMessages: [Harvester_C_0] 15.384584
+[2016.09.09-16.19.53:482][202]LogBlueprintUserMessages: [Harvester_C_0] 15.384584
+[2016.09.09-16.19.53:498][203]LogBlueprintUserMessages: [Harvester_C_0] 15.384584
+[2016.09.09-16.19.53:514][204]LogBlueprintUserMessages: [Harvester_C_0] 15.384584
+[2016.09.09-16.19.53:530][205]LogBlueprintUserMessages: [Harvester_C_0] 15.384584
+[2016.09.09-16.19.53:546][206]LogBlueprintUserMessages: [Harvester_C_0] 15.384584
+[2016.09.09-16.19.53:562][207]LogBlueprintUserMessages: [Harvester_C_0] 15.384584
+[2016.09.09-16.19.53:594][209]LogBlueprintUserMessages: [Harvester_C_0] 15.384557
+[2016.09.09-16.19.53:610][210]LogBlueprintUserMessages: [Harvester_C_0] 15.384557
+[2016.09.09-16.19.53:627][211]LogBlueprintUserMessages: [Harvester_C_0] 15.384557
+[2016.09.09-16.19.53:643][212]LogBlueprintUserMessages: [Harvester_C_0] 15.384557
+[2016.09.09-16.19.53:659][213]LogBlueprintUserMessages: [Harvester_C_0] 15.384557
+[2016.09.09-16.19.53:675][214]LogBlueprintUserMessages: [Harvester_C_0] 15.384557
+[2016.09.09-16.19.53:691][215]LogBlueprintUserMessages: [Harvester_C_0] 15.384557
+[2016.09.09-16.19.53:708][216]LogBlueprintUserMessages: [Harvester_C_0] 15.384557
+[2016.09.09-16.19.53:724][217]LogBlueprintUserMessages: [Harvester_C_0] 15.384557
+[2016.09.09-16.19.53:741][218]LogBlueprintUserMessages: [Harvester_C_0] 15.384557
+[2016.09.09-16.19.53:756][219]LogBlueprintUserMessages: [Harvester_C_0] 15.384557
+[2016.09.09-16.19.53:772][220]LogBlueprintUserMessages: [Harvester_C_0] 15.384557
+[2016.09.09-16.19.53:788][221]LogBlueprintUserMessages: [Harvester_C_0] 15.384557
+[2016.09.09-16.19.53:804][222]LogBlueprintUserMessages: [Harvester_C_0] 15.384557
+[2016.09.09-16.19.53:820][223]LogBlueprintUserMessages: [Harvester_C_0] 15.384557
+[2016.09.09-16.19.53:837][224]LogBlueprintUserMessages: [Harvester_C_0] 15.384557
+[2016.09.09-16.19.53:853][225]LogBlueprintUserMessages: [Harvester_C_0] 15.384557
+[2016.09.09-16.19.53:869][226]LogBlueprintUserMessages: [Harvester_C_0] 15.384557
+[2016.09.09-16.19.53:885][227]LogBlueprintUserMessages: [Harvester_C_0] 15.384557
+[2016.09.09-16.19.53:901][228]LogBlueprintUserMessages: [Harvester_C_0] 15.384557
+[2016.09.09-16.19.53:917][229]LogBlueprintUserMessages: [Harvester_C_0] 15.384557
+[2016.09.09-16.19.53:933][230]LogBlueprintUserMessages: [Harvester_C_0] 15.384557
+[2016.09.09-16.19.53:949][231]LogBlueprintUserMessages: [Harvester_C_0] 15.384557
+[2016.09.09-16.19.53:965][232]LogBlueprintUserMessages: [Harvester_C_0] 15.384557
+[2016.09.09-16.19.53:981][233]LogBlueprintUserMessages: [Harvester_C_0] 15.384557
+[2016.09.09-16.19.53:998][234]LogBlueprintUserMessages: [Harvester_C_0] 15.384557
+[2016.09.09-16.19.54:030][236]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.19.54:046][237]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.19.54:062][238]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.19.54:078][239]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.19.54:094][240]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.19.54:110][241]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.19.54:127][242]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.19.54:143][243]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.19.54:159][244]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.19.54:177][245]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.19.54:191][246]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.19.54:207][247]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.19.54:223][248]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.19.54:240][249]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.19.54:256][250]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.19.54:272][251]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.19.54:288][252]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.19.54:304][253]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.19.54:320][254]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.19.54:337][255]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.19.54:353][256]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.19.54:369][257]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.19.54:385][258]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.19.54:401][259]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.19.54:419][260]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.19.54:433][261]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.19.54:466][263]LogBlueprintUserMessages: [Harvester_C_0] 15.384496
+[2016.09.09-16.19.54:482][264]LogBlueprintUserMessages: [Harvester_C_0] 15.384496
+[2016.09.09-16.19.54:498][265]LogBlueprintUserMessages: [Harvester_C_0] 15.384496
+[2016.09.09-16.19.54:514][266]LogBlueprintUserMessages: [Harvester_C_0] 4.615349
+[2016.09.09-16.19.54:530][267]LogBlueprintUserMessages: [Harvester_C_0] 4.615349
+[2016.09.09-16.19.54:546][268]LogBlueprintUserMessages: [Harvester_C_0] 4.615349
+[2016.09.09-16.19.54:562][269]LogBlueprintUserMessages: [Harvester_C_0] 4.615349
+[2016.09.09-16.19.54:578][270]LogBlueprintUserMessages: [Harvester_C_0] 4.615349
+[2016.09.09-16.19.54:594][271]LogBlueprintUserMessages: [Harvester_C_0] 4.615349
+[2016.09.09-16.19.54:610][272]LogBlueprintUserMessages: [Harvester_C_0] 4.615349
+[2016.09.09-16.19.54:626][273]LogBlueprintUserMessages: [Harvester_C_0] 4.615349
+[2016.09.09-16.19.54:642][274]LogBlueprintUserMessages: [Harvester_C_0] 4.615349
+[2016.09.09-16.19.54:658][275]LogBlueprintUserMessages: [Harvester_C_0] 4.615349
+[2016.09.09-16.19.54:675][276]LogBlueprintUserMessages: [Harvester_C_0] 4.615349
+[2016.09.09-16.19.54:691][277]LogBlueprintUserMessages: [Harvester_C_0] 4.615349
+[2016.09.09-16.19.54:707][278]LogBlueprintUserMessages: [Harvester_C_0] 4.615349
+[2016.09.09-16.19.54:724][279]LogBlueprintUserMessages: [Harvester_C_0] 4.615349
+[2016.09.09-16.19.54:740][280]LogBlueprintUserMessages: [Harvester_C_0] 4.615349
+[2016.09.09-16.19.54:756][281]LogBlueprintUserMessages: [Harvester_C_0] 4.615349
+[2016.09.09-16.19.54:772][282]LogBlueprintUserMessages: [Harvester_C_0] 4.615349
+[2016.09.09-16.19.54:788][283]LogBlueprintUserMessages: [Harvester_C_0] 4.615349
+[2016.09.09-16.19.54:804][284]LogBlueprintUserMessages: [Harvester_C_0] 4.615349
+[2016.09.09-16.19.54:820][285]LogBlueprintUserMessages: [Harvester_C_0] 4.615349
+[2016.09.09-16.19.54:836][286]LogBlueprintUserMessages: [Harvester_C_0] 4.615349
+[2016.09.09-16.19.54:852][287]LogBlueprintUserMessages: [Harvester_C_0] 4.615349
+[2016.09.09-16.19.54:869][288]LogBlueprintUserMessages: [Harvester_C_0] 4.615349
+[2016.09.09-16.19.54:885][289]LogBlueprintUserMessages: [Harvester_C_0] 4.615349
+[2016.09.09-16.19.54:901][290]LogBlueprintUserMessages: [Harvester_C_0] 4.615349
+[2016.09.09-16.19.54:917][291]LogBlueprintUserMessages: [Harvester_C_0] 4.615349
+[2016.09.09-16.19.54:933][292]LogBlueprintUserMessages: [Harvester_C_0] 4.615349
+[2016.09.09-16.19.54:949][293]LogBlueprintUserMessages: [Harvester_C_0] 4.615349
+[2016.09.09-16.19.54:965][294]LogBlueprintUserMessages: [Harvester_C_0] 4.615349
+[2016.09.09-16.19.54:981][295]LogBlueprintUserMessages: [Harvester_C_0] 4.615349
+[2016.09.09-16.19.54:998][296]LogBlueprintUserMessages: [Harvester_C_0] 4.615349
+[2016.09.09-16.19.55:014][297]LogBlueprintUserMessages: [Harvester_C_0] 4.615349
+[2016.09.09-16.19.55:030][298]LogBlueprintUserMessages: [Harvester_C_0] 4.615349
+[2016.09.09-16.19.55:046][299]LogBlueprintUserMessages: [Harvester_C_0] 15.384496
+[2016.09.09-16.19.55:062][300]LogBlueprintUserMessages: [Harvester_C_0] 15.384496
+[2016.09.09-16.19.55:078][301]LogBlueprintUserMessages: [Harvester_C_0] 15.384496
+[2016.09.09-16.19.55:094][302]LogBlueprintUserMessages: [Harvester_C_0] 15.384496
+[2016.09.09-16.19.55:113][303]LogBlueprintUserMessages: [Harvester_C_0] 15.384496
+[2016.09.09-16.19.55:126][304]LogBlueprintUserMessages: [Harvester_C_0] 15.384496
+[2016.09.09-16.19.55:143][305]LogBlueprintUserMessages: [Harvester_C_0] 15.384496
+[2016.09.09-16.19.55:159][306]LogBlueprintUserMessages: [Harvester_C_0] 15.384496
+[2016.09.09-16.19.55:175][307]LogBlueprintUserMessages: [Harvester_C_0] 15.384496
+[2016.09.09-16.19.55:191][308]LogBlueprintUserMessages: [Harvester_C_0] 15.384496
+[2016.09.09-16.19.55:207][309]LogBlueprintUserMessages: [Harvester_C_0] 15.384496
+[2016.09.09-16.19.55:223][310]LogBlueprintUserMessages: [Harvester_C_0] 15.384496
+[2016.09.09-16.19.55:239][311]LogBlueprintUserMessages: [Harvester_C_0] 15.384496
+[2016.09.09-16.19.55:272][313]LogBlueprintUserMessages: [Harvester_C_0] 15.44335
+[2016.09.09-16.19.55:288][314]LogBlueprintUserMessages: [Harvester_C_0] 15.44335
+[2016.09.09-16.19.55:304][315]LogBlueprintUserMessages: [Harvester_C_0] 15.44335
+[2016.09.09-16.19.55:320][316]LogBlueprintUserMessages: [Harvester_C_0] 15.44335
+[2016.09.09-16.19.55:336][317]LogBlueprintUserMessages: [Harvester_C_0] 15.44335
+[2016.09.09-16.19.55:352][318]LogBlueprintUserMessages: [Harvester_C_0] 15.44335
+[2016.09.09-16.19.55:368][319]LogBlueprintUserMessages: [Harvester_C_0] 15.44335
+[2016.09.09-16.19.55:384][320]LogBlueprintUserMessages: [Harvester_C_0] 15.44335
+[2016.09.09-16.19.55:401][321]LogBlueprintUserMessages: [Harvester_C_0] 15.44335
+[2016.09.09-16.19.55:417][322]LogBlueprintUserMessages: [Harvester_C_0] 15.44335
+[2016.09.09-16.19.55:433][323]LogBlueprintUserMessages: [Harvester_C_0] 15.44335
+[2016.09.09-16.19.55:449][324]LogBlueprintUserMessages: [Harvester_C_0] 15.44335
+[2016.09.09-16.19.55:465][325]LogBlueprintUserMessages: [Harvester_C_0] 15.44335
+[2016.09.09-16.19.55:482][326]LogBlueprintUserMessages: [Harvester_C_0] 15.44335
+[2016.09.09-16.19.55:498][327]LogBlueprintUserMessages: [Harvester_C_0] 15.44335
+[2016.09.09-16.19.55:514][328]LogBlueprintUserMessages: [Harvester_C_0] 15.44335
+[2016.09.09-16.19.55:532][329]LogBlueprintUserMessages: [Harvester_C_0] 15.44335
+[2016.09.09-16.19.55:546][330]LogBlueprintUserMessages: [Harvester_C_0] 15.44335
+[2016.09.09-16.19.55:562][331]LogBlueprintUserMessages: [Harvester_C_0] 15.44335
+[2016.09.09-16.19.55:578][332]LogBlueprintUserMessages: [Harvester_C_0] 15.44335
+[2016.09.09-16.19.55:594][333]LogBlueprintUserMessages: [Harvester_C_0] 15.44335
+[2016.09.09-16.19.55:611][334]LogBlueprintUserMessages: [Harvester_C_0] 15.44335
+[2016.09.09-16.19.55:627][335]LogBlueprintUserMessages: [Harvester_C_0] 15.44335
+[2016.09.09-16.19.55:643][336]LogBlueprintUserMessages: [Harvester_C_0] 15.44335
+[2016.09.09-16.19.55:659][337]LogBlueprintUserMessages: [Harvester_C_0] 15.44335
+[2016.09.09-16.19.55:675][338]LogBlueprintUserMessages: [Harvester_C_0] 15.44335
+[2016.09.09-16.19.55:707][340]LogBlueprintUserMessages: [Harvester_C_0] 15.238806
+[2016.09.09-16.19.55:723][341]LogBlueprintUserMessages: [Harvester_C_0] 15.238806
+[2016.09.09-16.19.55:740][342]LogBlueprintUserMessages: [Harvester_C_0] 15.238806
+[2016.09.09-16.19.55:756][343]LogBlueprintUserMessages: [Harvester_C_0] 15.238806
+[2016.09.09-16.19.55:772][344]LogBlueprintUserMessages: [Harvester_C_0] 15.238806
+[2016.09.09-16.19.55:788][345]LogBlueprintUserMessages: [Harvester_C_0] 15.238806
+[2016.09.09-16.19.55:804][346]LogBlueprintUserMessages: [Harvester_C_0] 15.238806
+[2016.09.09-16.19.55:820][347]LogBlueprintUserMessages: [Harvester_C_0] 15.238806
+[2016.09.09-16.19.55:837][348]LogBlueprintUserMessages: [Harvester_C_0] 15.238806
+[2016.09.09-16.19.55:853][349]LogBlueprintUserMessages: [Harvester_C_0] 15.238806
+[2016.09.09-16.19.55:869][350]LogBlueprintUserMessages: [Harvester_C_0] 15.238806
+[2016.09.09-16.19.55:885][351]LogBlueprintUserMessages: [Harvester_C_0] 15.238806
+[2016.09.09-16.19.55:901][352]LogBlueprintUserMessages: [Harvester_C_0] 15.238806
+[2016.09.09-16.19.55:917][353]LogBlueprintUserMessages: [Harvester_C_0] 15.238806
+[2016.09.09-16.19.55:933][354]LogBlueprintUserMessages: [Harvester_C_0] 15.238806
+[2016.09.09-16.19.55:949][355]LogBlueprintUserMessages: [Harvester_C_0] 15.238806
+[2016.09.09-16.19.55:965][356]LogBlueprintUserMessages: [Harvester_C_0] 15.238806
+[2016.09.09-16.19.55:984][357]LogBlueprintUserMessages: [Harvester_C_0] 15.238806
+[2016.09.09-16.19.55:998][358]LogBlueprintUserMessages: [Harvester_C_0] 15.238806
+[2016.09.09-16.19.56:014][359]LogBlueprintUserMessages: [Harvester_C_0] 15.238806
+[2016.09.09-16.19.56:030][360]LogBlueprintUserMessages: [Harvester_C_0] 15.238806
+[2016.09.09-16.19.56:046][361]LogBlueprintUserMessages: [Harvester_C_0] 15.238806
+[2016.09.09-16.19.56:062][362]LogBlueprintUserMessages: [Harvester_C_0] 15.238806
+[2016.09.09-16.19.56:079][363]LogBlueprintUserMessages: [Harvester_C_0] 15.238806
+[2016.09.09-16.19.56:095][364]LogBlueprintUserMessages: [Harvester_C_0] 15.238806
+[2016.09.09-16.19.56:111][365]LogBlueprintUserMessages: [Harvester_C_0] 15.238806
+[2016.09.09-16.19.56:143][367]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.19.56:159][368]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.19.56:175][369]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.19.56:191][370]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.19.56:207][371]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.19.56:223][372]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.19.56:240][373]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.19.56:256][374]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.19.56:272][375]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.19.56:288][376]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.19.56:304][377]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.19.56:320][378]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.19.56:336][379]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.19.56:352][380]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.19.56:369][381]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.19.56:385][382]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.19.56:403][383]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.19.56:417][384]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.19.56:433][385]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.19.56:449][386]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.19.56:465][387]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.19.56:481][388]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.19.56:497][389]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.19.56:514][390]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.19.56:530][391]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.19.56:546][392]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.19.56:578][394]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.19.56:595][395]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.19.56:611][396]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.19.56:627][397]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.19.56:643][398]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.19.56:659][399]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.19.56:675][400]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.19.56:691][401]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.19.56:707][402]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.19.56:723][403]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.19.56:740][404]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.19.56:756][405]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.19.56:772][406]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.19.56:788][407]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.19.56:804][408]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.19.56:823][409]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.19.56:836][410]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.19.56:852][411]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.19.56:869][412]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.19.56:885][413]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.19.56:901][414]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.19.56:917][415]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.19.56:933][416]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.19.56:949][417]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.19.56:965][418]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.19.56:981][419]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.19.57:014][421]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.19.57:030][422]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.19.57:046][423]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.19.57:062][424]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.19.57:078][425]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.19.57:094][426]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.19.57:110][427]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.19.57:126][428]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.19.57:143][429]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.19.57:159][430]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.19.57:175][431]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.19.57:191][432]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.19.57:207][433]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.19.57:223][434]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.19.57:239][435]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.19.57:255][436]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.19.57:274][437]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.19.57:288][438]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.19.57:304][439]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.19.57:320][440]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.19.57:337][441]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.19.57:353][442]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.19.57:369][443]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.19.57:385][444]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.19.57:401][445]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.19.57:417][446]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.19.57:449][448]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.19.57:466][449]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.19.57:482][450]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.19.57:498][451]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.19.57:514][452]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.19.57:530][453]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.19.57:546][454]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.19.57:562][455]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.19.57:578][456]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.19.57:594][457]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.19.57:610][458]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.19.57:627][459]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.19.57:643][460]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.19.57:659][461]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.19.57:676][462]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.19.57:691][463]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.19.57:707][464]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.19.57:723][465]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.19.57:740][466]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.19.57:756][467]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.19.57:772][468]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.19.57:788][469]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.19.57:804][470]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.19.57:820][471]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.19.57:837][472]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.19.57:853][473]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.19.57:885][475]LogBlueprintUserMessages: [Harvester_C_0] 15.384659
+[2016.09.09-16.19.57:904][476]LogBlueprintUserMessages: [Harvester_C_0] 15.384659
+[2016.09.09-16.19.57:917][477]LogBlueprintUserMessages: [Harvester_C_0] 15.384659
+[2016.09.09-16.19.57:933][478]LogBlueprintUserMessages: [Harvester_C_0] 15.384659
+[2016.09.09-16.19.57:949][479]LogBlueprintUserMessages: [Harvester_C_0] 15.384659
+[2016.09.09-16.19.57:965][480]LogBlueprintUserMessages: [Harvester_C_0] 15.384659
+[2016.09.09-16.19.57:981][481]LogBlueprintUserMessages: [Harvester_C_0] 15.384659
+[2016.09.09-16.19.57:998][482]LogBlueprintUserMessages: [Harvester_C_0] 15.384659
+[2016.09.09-16.19.58:014][483]LogBlueprintUserMessages: [Harvester_C_0] 15.384659
+[2016.09.09-16.19.58:030][484]LogBlueprintUserMessages: [Harvester_C_0] 15.384659
+[2016.09.09-16.19.58:046][485]LogBlueprintUserMessages: [Harvester_C_0] 15.384659
+[2016.09.09-16.19.58:062][486]LogBlueprintUserMessages: [Harvester_C_0] 15.384659
+[2016.09.09-16.19.58:078][487]LogBlueprintUserMessages: [Harvester_C_0] 15.384659
+[2016.09.09-16.19.58:094][488]LogBlueprintUserMessages: [Harvester_C_0] 15.384659
+[2016.09.09-16.19.58:110][489]LogBlueprintUserMessages: [Harvester_C_0] 15.384659
+[2016.09.09-16.19.58:127][490]LogBlueprintUserMessages: [Harvester_C_0] 15.384659
+[2016.09.09-16.19.58:143][491]LogBlueprintUserMessages: [Harvester_C_0] 15.384659
+[2016.09.09-16.19.58:159][492]LogBlueprintUserMessages: [Harvester_C_0] 15.384659
+[2016.09.09-16.19.58:175][493]LogBlueprintUserMessages: [Harvester_C_0] 15.384659
+[2016.09.09-16.19.58:190][494]LogBlueprintUserMessages: [Harvester_C_0] 15.384659
+[2016.09.09-16.19.58:207][495]LogBlueprintUserMessages: [Harvester_C_0] 15.384659
+[2016.09.09-16.19.58:223][496]LogBlueprintUserMessages: [Harvester_C_0] 15.384659
+[2016.09.09-16.19.58:239][497]LogBlueprintUserMessages: [Harvester_C_0] 15.384659
+[2016.09.09-16.19.58:255][498]LogBlueprintUserMessages: [Harvester_C_0] 15.384659
+[2016.09.09-16.19.58:272][499]LogBlueprintUserMessages: [Harvester_C_0] 15.384659
+[2016.09.09-16.19.58:288][500]LogBlueprintUserMessages: [Harvester_C_0] 15.384659
+[2016.09.09-16.19.58:320][502]LogBlueprintUserMessages: [Harvester_C_0] 15.384523
+[2016.09.09-16.19.58:336][503]LogBlueprintUserMessages: [Harvester_C_0] 15.384523
+[2016.09.09-16.19.58:352][504]LogBlueprintUserMessages: [Harvester_C_0] 15.384523
+[2016.09.09-16.19.58:368][505]LogBlueprintUserMessages: [Harvester_C_0] 15.384523
+[2016.09.09-16.19.58:385][506]LogBlueprintUserMessages: [Harvester_C_0] 15.384523
+[2016.09.09-16.19.58:401][507]LogBlueprintUserMessages: [Harvester_C_0] 15.384523
+[2016.09.09-16.19.58:417][508]LogBlueprintUserMessages: [Harvester_C_0] 15.384523
+[2016.09.09-16.19.58:433][509]LogBlueprintUserMessages: [Harvester_C_0] 15.384523
+[2016.09.09-16.19.58:449][510]LogBlueprintUserMessages: [Harvester_C_0] 15.384523
+[2016.09.09-16.19.58:465][511]LogBlueprintUserMessages: [Harvester_C_0] 15.384523
+[2016.09.09-16.19.58:481][512]LogBlueprintUserMessages: [Harvester_C_0] 15.384523
+[2016.09.09-16.19.58:497][513]LogBlueprintUserMessages: [Harvester_C_0] 4.615357
+[2016.09.09-16.19.58:513][514]LogBlueprintUserMessages: [Harvester_C_0] 15.384523
+[2016.09.09-16.19.58:530][515]LogBlueprintUserMessages: [Harvester_C_0] 15.384523
+[2016.09.09-16.19.58:546][516]LogBlueprintUserMessages: [Harvester_C_0] 4.615357
+[2016.09.09-16.19.58:562][517]LogBlueprintUserMessages: [Harvester_C_0] 15.384523
+[2016.09.09-16.19.58:578][518]LogBlueprintUserMessages: [Harvester_C_0] 15.384523
+[2016.09.09-16.19.58:595][519]LogBlueprintUserMessages: [Harvester_C_0] 15.384523
+[2016.09.09-16.19.58:611][520]LogBlueprintUserMessages: [Harvester_C_0] 15.384523
+[2016.09.09-16.19.58:629][521]LogBlueprintUserMessages: [Harvester_C_0] 15.384523
+[2016.09.09-16.19.58:643][522]LogBlueprintUserMessages: [Harvester_C_0] 15.384523
+[2016.09.09-16.19.58:659][523]LogBlueprintUserMessages: [Harvester_C_0] 15.384523
+[2016.09.09-16.19.58:675][524]LogBlueprintUserMessages: [Harvester_C_0] 15.384523
+[2016.09.09-16.19.58:691][525]LogBlueprintUserMessages: [Harvester_C_0] 15.384523
+[2016.09.09-16.19.58:707][526]LogBlueprintUserMessages: [Harvester_C_0] 15.384523
+[2016.09.09-16.19.58:723][527]LogBlueprintUserMessages: [Harvester_C_0] 15.384523
+[2016.09.09-16.19.58:740][528]LogBlueprintUserMessages: [Harvester_C_0] 15.384523
+[2016.09.09-16.19.58:772][530]LogBlueprintUserMessages: [Harvester_C_0] 15.619047
+[2016.09.09-16.19.58:788][531]LogBlueprintUserMessages: [Harvester_C_0] 15.619047
+[2016.09.09-16.19.58:804][532]LogBlueprintUserMessages: [Harvester_C_0] 15.619047
+[2016.09.09-16.19.58:820][533]LogBlueprintUserMessages: [Harvester_C_0] 15.619047
+[2016.09.09-16.19.58:836][534]LogBlueprintUserMessages: [Harvester_C_0] 15.619047
+[2016.09.09-16.19.58:852][535]LogBlueprintUserMessages: [Harvester_C_0] 15.619047
+[2016.09.09-16.19.58:869][536]LogBlueprintUserMessages: [Harvester_C_0] 15.619047
+[2016.09.09-16.19.58:884][537]LogBlueprintUserMessages: [Harvester_C_0] 15.619047
+[2016.09.09-16.19.58:901][538]LogBlueprintUserMessages: [Harvester_C_0] 15.619047
+[2016.09.09-16.19.58:917][539]LogBlueprintUserMessages: [Harvester_C_0] 15.619047
+[2016.09.09-16.19.58:933][540]LogBlueprintUserMessages: [Harvester_C_0] 15.619047
+[2016.09.09-16.19.58:949][541]LogBlueprintUserMessages: [Harvester_C_0] 15.619047
+[2016.09.09-16.19.58:966][542]LogBlueprintUserMessages: [Harvester_C_0] 15.619047
+[2016.09.09-16.19.58:982][543]LogBlueprintUserMessages: [Harvester_C_0] 15.619047
+[2016.09.09-16.19.58:998][544]LogBlueprintUserMessages: [Harvester_C_0] 15.619047
+[2016.09.09-16.19.59:014][545]LogBlueprintUserMessages: [Harvester_C_0] 15.619047
+[2016.09.09-16.19.59:032][546]LogBlueprintUserMessages: [Harvester_C_0] 15.619047
+[2016.09.09-16.19.59:046][547]LogBlueprintUserMessages: [Harvester_C_0] 15.619047
+[2016.09.09-16.19.59:062][548]LogBlueprintUserMessages: [Harvester_C_0] 15.619047
+[2016.09.09-16.19.59:078][549]LogBlueprintUserMessages: [Harvester_C_0] 15.619047
+[2016.09.09-16.19.59:095][550]LogBlueprintUserMessages: [Harvester_C_0] 15.619047
+[2016.09.09-16.19.59:111][551]LogBlueprintUserMessages: [Harvester_C_0] 15.619047
+[2016.09.09-16.19.59:127][552]LogBlueprintUserMessages: [Harvester_C_0] 15.619047
+[2016.09.09-16.19.59:143][553]LogBlueprintUserMessages: [Harvester_C_0] 15.619047
+[2016.09.09-16.19.59:159][554]LogBlueprintUserMessages: [Harvester_C_0] 15.619047
+[2016.09.09-16.19.59:175][555]LogBlueprintUserMessages: [Harvester_C_0] 15.619047
+[2016.09.09-16.19.59:207][557]LogBlueprintUserMessages: [Harvester_C_0] 15.238709
+[2016.09.09-16.19.59:223][558]LogBlueprintUserMessages: [Harvester_C_0] 15.238709
+[2016.09.09-16.19.59:239][559]LogBlueprintUserMessages: [Harvester_C_0] 15.238709
+[2016.09.09-16.19.59:256][560]LogBlueprintUserMessages: [Harvester_C_0] 15.238709
+[2016.09.09-16.19.59:272][561]LogBlueprintUserMessages: [Harvester_C_0] 15.238709
+[2016.09.09-16.19.59:288][562]LogBlueprintUserMessages: [Harvester_C_0] 15.238709
+[2016.09.09-16.19.59:304][563]LogBlueprintUserMessages: [Harvester_C_0] 15.238709
+[2016.09.09-16.19.59:320][564]LogBlueprintUserMessages: [Harvester_C_0] 15.238709
+[2016.09.09-16.19.59:336][565]LogBlueprintUserMessages: [Harvester_C_0] 15.238709
+[2016.09.09-16.19.59:352][566]LogBlueprintUserMessages: [Harvester_C_0] 15.238709
+[2016.09.09-16.19.59:368][567]LogBlueprintUserMessages: [Harvester_C_0] 15.238709
+[2016.09.09-16.19.59:384][568]LogBlueprintUserMessages: [Harvester_C_0] 15.238709
+[2016.09.09-16.19.59:401][569]LogBlueprintUserMessages: [Harvester_C_0] 15.238709
+[2016.09.09-16.19.59:417][570]LogBlueprintUserMessages: [Harvester_C_0] 15.238709
+[2016.09.09-16.19.59:433][571]LogBlueprintUserMessages: [Harvester_C_0] 15.238709
+[2016.09.09-16.19.59:451][572]LogBlueprintUserMessages: [Harvester_C_0] 15.238709
+[2016.09.09-16.19.59:465][573]LogBlueprintUserMessages: [Harvester_C_0] 15.238709
+[2016.09.09-16.19.59:481][574]LogBlueprintUserMessages: [Harvester_C_0] 15.238709
+[2016.09.09-16.19.59:497][575]LogBlueprintUserMessages: [Harvester_C_0] 15.238709
+[2016.09.09-16.19.59:513][576]LogBlueprintUserMessages: [Harvester_C_0] 15.238709
+[2016.09.09-16.19.59:530][577]LogBlueprintUserMessages: [Harvester_C_0] 15.238709
+[2016.09.09-16.19.59:546][578]LogBlueprintUserMessages: [Harvester_C_0] 15.238709
+[2016.09.09-16.19.59:562][579]LogBlueprintUserMessages: [Harvester_C_0] 15.238709
+[2016.09.09-16.19.59:578][580]LogBlueprintUserMessages: [Harvester_C_0] 15.238709
+[2016.09.09-16.19.59:594][581]LogBlueprintUserMessages: [Harvester_C_0] 15.238709
+[2016.09.09-16.19.59:610][582]LogBlueprintUserMessages: [Harvester_C_0] 15.238709
+[2016.09.09-16.19.59:642][584]LogBlueprintUserMessages: [Harvester_C_0] 15.383175
+[2016.09.09-16.19.59:659][585]LogBlueprintUserMessages: [Harvester_C_0] 15.383175
+[2016.09.09-16.19.59:675][586]LogBlueprintUserMessages: [Harvester_C_0] 15.383175
+[2016.09.09-16.19.59:691][587]LogBlueprintUserMessages: [Harvester_C_0] 15.383175
+[2016.09.09-16.19.59:707][588]LogBlueprintUserMessages: [Harvester_C_0] 15.383175
+[2016.09.09-16.19.59:724][589]LogBlueprintUserMessages: [Harvester_C_0] 15.383175
+[2016.09.09-16.19.59:740][590]LogBlueprintUserMessages: [Harvester_C_0] 15.383175
+[2016.09.09-16.19.59:756][591]LogBlueprintUserMessages: [Harvester_C_0] 15.383175
+[2016.09.09-16.19.59:772][592]LogBlueprintUserMessages: [Harvester_C_0] 15.383175
+[2016.09.09-16.19.59:788][593]LogBlueprintUserMessages: [Harvester_C_0] 15.383175
+[2016.09.09-16.19.59:804][594]LogBlueprintUserMessages: [Harvester_C_0] 15.383175
+[2016.09.09-16.19.59:820][595]LogBlueprintUserMessages: [Harvester_C_0] 15.383175
+[2016.09.09-16.19.59:836][596]LogBlueprintUserMessages: [Harvester_C_0] 15.383175
+[2016.09.09-16.19.59:852][597]LogBlueprintUserMessages: [Harvester_C_0] 15.383175
+[2016.09.09-16.19.59:869][598]LogBlueprintUserMessages: [Harvester_C_0] 15.383175
+[2016.09.09-16.19.59:885][599]LogBlueprintUserMessages: [Harvester_C_0] 15.383175
+[2016.09.09-16.19.59:903][600]LogBlueprintUserMessages: [Harvester_C_0] 15.383175
+[2016.09.09-16.19.59:917][601]LogBlueprintUserMessages: [Harvester_C_0] 15.383175
+[2016.09.09-16.19.59:933][602]LogBlueprintUserMessages: [Harvester_C_0] 15.383175
+[2016.09.09-16.19.59:949][603]LogBlueprintUserMessages: [Harvester_C_0] 15.383175
+[2016.09.09-16.19.59:965][604]LogBlueprintUserMessages: [Harvester_C_0] 15.383175
+[2016.09.09-16.19.59:981][605]LogBlueprintUserMessages: [Harvester_C_0] 15.383175
+[2016.09.09-16.19.59:998][606]LogBlueprintUserMessages: [Harvester_C_0] 15.383175
+[2016.09.09-16.20.00:014][607]LogBlueprintUserMessages: [Harvester_C_0] 15.383175
+[2016.09.09-16.20.00:030][608]LogBlueprintUserMessages: [Harvester_C_0] 15.383175
+[2016.09.09-16.20.00:046][609]LogBlueprintUserMessages: [Harvester_C_0] 15.383175
+[2016.09.09-16.20.00:078][611]LogBlueprintUserMessages: [Harvester_C_0] 15.384654
+[2016.09.09-16.20.00:094][612]LogBlueprintUserMessages: [Harvester_C_0] 15.384654
+[2016.09.09-16.20.00:110][613]LogBlueprintUserMessages: [Harvester_C_0] 15.384654
+[2016.09.09-16.20.00:126][614]LogBlueprintUserMessages: [Harvester_C_0] 15.384654
+[2016.09.09-16.20.00:143][615]LogBlueprintUserMessages: [Harvester_C_0] 15.384654
+[2016.09.09-16.20.00:159][616]LogBlueprintUserMessages: [Harvester_C_0] 15.384654
+[2016.09.09-16.20.00:175][617]LogBlueprintUserMessages: [Harvester_C_0] 15.384654
+[2016.09.09-16.20.00:191][618]LogBlueprintUserMessages: [Harvester_C_0] 15.384654
+[2016.09.09-16.20.00:207][619]LogBlueprintUserMessages: [Harvester_C_0] 15.384654
+[2016.09.09-16.20.00:223][620]LogBlueprintUserMessages: [Harvester_C_0] 15.384654
+[2016.09.09-16.20.00:239][621]LogBlueprintUserMessages: [Harvester_C_0] 15.384654
+[2016.09.09-16.20.00:256][622]LogBlueprintUserMessages: [Harvester_C_0] 15.384654
+[2016.09.09-16.20.00:272][623]LogBlueprintUserMessages: [Harvester_C_0] 15.384654
+[2016.09.09-16.20.00:288][624]LogBlueprintUserMessages: [Harvester_C_0] 15.384654
+[2016.09.09-16.20.00:304][625]LogBlueprintUserMessages: [Harvester_C_0] 15.384654
+[2016.09.09-16.20.00:322][626]LogBlueprintUserMessages: [Harvester_C_0] 15.384654
+[2016.09.09-16.20.00:336][627]LogBlueprintUserMessages: [Harvester_C_0] 15.384654
+[2016.09.09-16.20.00:352][628]LogBlueprintUserMessages: [Harvester_C_0] 15.384654
+[2016.09.09-16.20.00:368][629]LogBlueprintUserMessages: [Harvester_C_0] 15.384654
+[2016.09.09-16.20.00:384][630]LogBlueprintUserMessages: [Harvester_C_0] 15.384654
+[2016.09.09-16.20.00:401][631]LogBlueprintUserMessages: [Harvester_C_0] 15.384654
+[2016.09.09-16.20.00:417][632]LogBlueprintUserMessages: [Harvester_C_0] 15.384654
+[2016.09.09-16.20.00:433][633]LogBlueprintUserMessages: [Harvester_C_0] 15.384654
+[2016.09.09-16.20.00:449][634]LogBlueprintUserMessages: [Harvester_C_0] 15.384654
+[2016.09.09-16.20.00:465][635]LogBlueprintUserMessages: [Harvester_C_0] 15.384654
+[2016.09.09-16.20.00:482][636]LogBlueprintUserMessages: [Harvester_C_0] 15.384654
+[2016.09.09-16.20.00:514][638]LogBlueprintUserMessages: [Harvester_C_0] 15.384505
+[2016.09.09-16.20.00:530][639]LogBlueprintUserMessages: [Harvester_C_0] 15.384505
+[2016.09.09-16.20.00:546][640]LogBlueprintUserMessages: [Harvester_C_0] 15.384505
+[2016.09.09-16.20.00:562][641]LogBlueprintUserMessages: [Harvester_C_0] 15.384505
+[2016.09.09-16.20.00:578][642]LogBlueprintUserMessages: [Harvester_C_0] 15.384505
+[2016.09.09-16.20.00:594][643]LogBlueprintUserMessages: [Harvester_C_0] 15.384505
+[2016.09.09-16.20.00:610][644]LogBlueprintUserMessages: [Harvester_C_0] 15.384505
+[2016.09.09-16.20.00:627][645]LogBlueprintUserMessages: [Harvester_C_0] 15.384505
+[2016.09.09-16.20.00:643][646]LogBlueprintUserMessages: [Harvester_C_0] 15.384505
+[2016.09.09-16.20.00:659][647]LogBlueprintUserMessages: [Harvester_C_0] 15.384505
+[2016.09.09-16.20.00:675][648]LogBlueprintUserMessages: [Harvester_C_0] 15.384505
+[2016.09.09-16.20.00:691][649]LogBlueprintUserMessages: [Harvester_C_0] 15.384505
+[2016.09.09-16.20.00:707][650]LogBlueprintUserMessages: [Harvester_C_0] 15.384505
+[2016.09.09-16.20.00:723][651]LogBlueprintUserMessages: [Harvester_C_0] 15.384505
+[2016.09.09-16.20.00:742][652]LogBlueprintUserMessages: [Harvester_C_0] 15.384505
+[2016.09.09-16.20.00:756][653]LogBlueprintUserMessages: [Harvester_C_0] 15.384505
+[2016.09.09-16.20.00:772][654]LogBlueprintUserMessages: [Harvester_C_0] 15.384505
+[2016.09.09-16.20.00:788][655]LogBlueprintUserMessages: [Harvester_C_0] 15.384505
+[2016.09.09-16.20.00:804][656]LogBlueprintUserMessages: [Harvester_C_0] 15.384505
+[2016.09.09-16.20.00:820][657]LogBlueprintUserMessages: [Harvester_C_0] 15.384505
+[2016.09.09-16.20.00:836][658]LogBlueprintUserMessages: [Harvester_C_0] 15.384505
+[2016.09.09-16.20.00:852][659]LogBlueprintUserMessages: [Harvester_C_0] 15.384505
+[2016.09.09-16.20.00:868][660]LogBlueprintUserMessages: [Harvester_C_0] 15.384505
+[2016.09.09-16.20.00:885][661]LogBlueprintUserMessages: [Harvester_C_0] 15.384505
+[2016.09.09-16.20.00:901][662]LogBlueprintUserMessages: [Harvester_C_0] 15.384505
+[2016.09.09-16.20.00:917][663]LogBlueprintUserMessages: [Harvester_C_0] 15.384505
+[2016.09.09-16.20.00:949][665]LogBlueprintUserMessages: [Harvester_C_0] 15.38484
+[2016.09.09-16.20.00:965][666]LogBlueprintUserMessages: [Harvester_C_0] 15.38484
+[2016.09.09-16.20.00:981][667]LogBlueprintUserMessages: [Harvester_C_0] 15.38484
+[2016.09.09-16.20.00:997][668]LogBlueprintUserMessages: [Harvester_C_0] 15.38484
+[2016.09.09-16.20.01:013][669]LogBlueprintUserMessages: [Harvester_C_0] 15.38484
+[2016.09.09-16.20.01:030][670]LogBlueprintUserMessages: [Harvester_C_0] 15.38484
+[2016.09.09-16.20.01:046][671]LogBlueprintUserMessages: [Harvester_C_0] 15.38484
+[2016.09.09-16.20.01:062][672]LogBlueprintUserMessages: [Harvester_C_0] 15.38484
+[2016.09.09-16.20.01:078][673]LogBlueprintUserMessages: [Harvester_C_0] 15.38484
+[2016.09.09-16.20.01:094][674]LogBlueprintUserMessages: [Harvester_C_0] 15.38484
+[2016.09.09-16.20.01:110][675]LogBlueprintUserMessages: [Harvester_C_0] 15.38484
+[2016.09.09-16.20.01:126][676]LogBlueprintUserMessages: [Harvester_C_0] 15.38484
+[2016.09.09-16.20.01:142][677]LogBlueprintUserMessages: [Harvester_C_0] 15.38484
+[2016.09.09-16.20.01:159][678]LogBlueprintUserMessages: [Harvester_C_0] 15.38484
+[2016.09.09-16.20.01:176][679]LogBlueprintUserMessages: [Harvester_C_0] 15.38484
+[2016.09.09-16.20.01:191][680]LogBlueprintUserMessages: [Harvester_C_0] 15.38484
+[2016.09.09-16.20.01:207][681]LogBlueprintUserMessages: [Harvester_C_0] 15.38484
+[2016.09.09-16.20.01:223][682]LogBlueprintUserMessages: [Harvester_C_0] 15.38484
+[2016.09.09-16.20.01:240][683]LogBlueprintUserMessages: [Harvester_C_0] 15.38484
+[2016.09.09-16.20.01:256][684]LogBlueprintUserMessages: [Harvester_C_0] 15.38484
+[2016.09.09-16.20.01:272][685]LogBlueprintUserMessages: [Harvester_C_0] 15.38484
+[2016.09.09-16.20.01:288][686]LogBlueprintUserMessages: [Harvester_C_0] 15.38484
+[2016.09.09-16.20.01:304][687]LogBlueprintUserMessages: [Harvester_C_0] 15.38484
+[2016.09.09-16.20.01:320][688]LogBlueprintUserMessages: [Harvester_C_0] 15.38484
+[2016.09.09-16.20.01:336][689]LogBlueprintUserMessages: [Harvester_C_0] 15.38484
+[2016.09.09-16.20.01:353][690]LogBlueprintUserMessages: [Harvester_C_0] 15.38484
+[2016.09.09-16.20.01:385][692]LogBlueprintUserMessages: [Harvester_C_0] 15.384691
+[2016.09.09-16.20.01:401][693]LogBlueprintUserMessages: [Harvester_C_0] 15.384691
+[2016.09.09-16.20.01:417][694]LogBlueprintUserMessages: [Harvester_C_0] 15.384691
+[2016.09.09-16.20.01:433][695]LogBlueprintUserMessages: [Harvester_C_0] 15.384691
+[2016.09.09-16.20.01:449][696]LogBlueprintUserMessages: [Harvester_C_0] 15.384691
+[2016.09.09-16.20.01:465][697]LogBlueprintUserMessages: [Harvester_C_0] 15.384691
+[2016.09.09-16.20.01:481][698]LogBlueprintUserMessages: [Harvester_C_0] 15.384691
+[2016.09.09-16.20.01:498][699]LogBlueprintUserMessages: [Harvester_C_0] 15.384691
+[2016.09.09-16.20.01:514][700]LogBlueprintUserMessages: [Harvester_C_0] 15.384691
+[2016.09.09-16.20.01:530][701]LogBlueprintUserMessages: [Harvester_C_0] 15.384691
+[2016.09.09-16.20.01:546][702]LogBlueprintUserMessages: [Harvester_C_0] 15.384691
+[2016.09.09-16.20.01:562][703]LogBlueprintUserMessages: [Harvester_C_0] 15.384691
+[2016.09.09-16.20.01:578][704]LogBlueprintUserMessages: [Harvester_C_0] 15.384691
+[2016.09.09-16.20.01:594][705]LogBlueprintUserMessages: [Harvester_C_0] 15.384691
+[2016.09.09-16.20.01:610][706]LogBlueprintUserMessages: [Harvester_C_0] 15.384691
+[2016.09.09-16.20.01:629][707]LogBlueprintUserMessages: [Harvester_C_0] 15.384691
+[2016.09.09-16.20.01:643][708]LogBlueprintUserMessages: [Harvester_C_0] 15.384691
+[2016.09.09-16.20.01:659][709]LogBlueprintUserMessages: [Harvester_C_0] 15.384691
+[2016.09.09-16.20.01:675][710]LogBlueprintUserMessages: [Harvester_C_0] 15.384691
+[2016.09.09-16.20.01:691][711]LogBlueprintUserMessages: [Harvester_C_0] 15.384691
+[2016.09.09-16.20.01:707][712]LogBlueprintUserMessages: [Harvester_C_0] 15.384691
+[2016.09.09-16.20.01:723][713]LogBlueprintUserMessages: [Harvester_C_0] 15.384691
+[2016.09.09-16.20.01:739][714]LogBlueprintUserMessages: [Harvester_C_0] 15.384691
+[2016.09.09-16.20.01:756][715]LogBlueprintUserMessages: [Harvester_C_0] 15.384691
+[2016.09.09-16.20.01:772][716]LogBlueprintUserMessages: [Harvester_C_0] 15.384691
+[2016.09.09-16.20.01:788][717]LogBlueprintUserMessages: [Harvester_C_0] 15.384691
+[2016.09.09-16.20.01:820][719]LogBlueprintUserMessages: [Harvester_C_0] 15.384542
+[2016.09.09-16.20.01:836][720]LogBlueprintUserMessages: [Harvester_C_0] 15.384542
+[2016.09.09-16.20.01:852][721]LogBlueprintUserMessages: [Harvester_C_0] 15.384542
+[2016.09.09-16.20.01:869][722]LogBlueprintUserMessages: [Harvester_C_0] 15.384542
+[2016.09.09-16.20.01:885][723]LogBlueprintUserMessages: [Harvester_C_0] 15.384542
+[2016.09.09-16.20.01:901][724]LogBlueprintUserMessages: [Harvester_C_0] 15.384542
+[2016.09.09-16.20.01:917][725]LogBlueprintUserMessages: [Harvester_C_0] 15.384542
+[2016.09.09-16.20.01:935][726]LogBlueprintUserMessages: [Harvester_C_0] 15.384542
+[2016.09.09-16.20.01:949][727]LogBlueprintUserMessages: [Harvester_C_0] 15.384542
+[2016.09.09-16.20.01:965][728]LogBlueprintUserMessages: [Harvester_C_0] 15.384542
+[2016.09.09-16.20.01:981][729]LogBlueprintUserMessages: [Harvester_C_0] 15.384542
+[2016.09.09-16.20.01:997][730]LogBlueprintUserMessages: [Harvester_C_0] 15.384542
+[2016.09.09-16.20.02:014][731]LogBlueprintUserMessages: [Harvester_C_0] 15.384542
+[2016.09.09-16.20.02:030][732]LogBlueprintUserMessages: [Harvester_C_0] 15.384542
+[2016.09.09-16.20.02:046][733]LogBlueprintUserMessages: [Harvester_C_0] 15.384542
+[2016.09.09-16.20.02:062][734]LogBlueprintUserMessages: [Harvester_C_0] 15.384542
+[2016.09.09-16.20.02:078][735]LogBlueprintUserMessages: [Harvester_C_0] 15.384542
+[2016.09.09-16.20.02:095][736]LogBlueprintUserMessages: [Harvester_C_0] 15.384542
+[2016.09.09-16.20.02:111][737]LogBlueprintUserMessages: [Harvester_C_0] 15.384542
+[2016.09.09-16.20.02:127][738]LogBlueprintUserMessages: [Harvester_C_0] 15.384542
+[2016.09.09-16.20.02:143][739]LogBlueprintUserMessages: [Harvester_C_0] 15.384542
+[2016.09.09-16.20.02:159][740]LogBlueprintUserMessages: [Harvester_C_0] 15.384542
+[2016.09.09-16.20.02:175][741]LogBlueprintUserMessages: [Harvester_C_0] 15.384542
+[2016.09.09-16.20.02:191][742]LogBlueprintUserMessages: [Harvester_C_0] 15.384542
+[2016.09.09-16.20.02:207][743]LogBlueprintUserMessages: [Harvester_C_0] 15.384542
+[2016.09.09-16.20.02:223][744]LogBlueprintUserMessages: [Harvester_C_0] 15.384542
+[2016.09.09-16.20.02:256][746]LogBlueprintUserMessages: [Harvester_C_0] 15.384394
+[2016.09.09-16.20.02:272][747]LogBlueprintUserMessages: [Harvester_C_0] 15.384394
+[2016.09.09-16.20.02:288][748]LogBlueprintUserMessages: [Harvester_C_0] 15.384394
+[2016.09.09-16.20.02:304][749]LogBlueprintUserMessages: [Harvester_C_0] 15.384394
+[2016.09.09-16.20.02:320][750]LogBlueprintUserMessages: [Harvester_C_0] 15.384394
+[2016.09.09-16.20.02:336][751]LogBlueprintUserMessages: [Harvester_C_0] 15.384394
+[2016.09.09-16.20.02:352][752]LogBlueprintUserMessages: [Harvester_C_0] 15.384394
+[2016.09.09-16.20.02:369][753]LogBlueprintUserMessages: [Harvester_C_0] 15.384394
+[2016.09.09-16.20.02:385][754]LogBlueprintUserMessages: [Harvester_C_0] 15.384394
+[2016.09.09-16.20.02:401][755]LogBlueprintUserMessages: [Harvester_C_0] 15.384394
+[2016.09.09-16.20.02:417][756]LogBlueprintUserMessages: [Harvester_C_0] 15.384394
+[2016.09.09-16.20.02:433][757]LogBlueprintUserMessages: [Harvester_C_0] 15.384394
+[2016.09.09-16.20.02:449][758]LogBlueprintUserMessages: [Harvester_C_0] 15.384394
+[2016.09.09-16.20.02:465][759]LogBlueprintUserMessages: [Harvester_C_0] 15.384394
+[2016.09.09-16.20.02:481][760]LogBlueprintUserMessages: [Harvester_C_0] 15.384394
+[2016.09.09-16.20.02:497][761]LogBlueprintUserMessages: [Harvester_C_0] 15.384394
+[2016.09.09-16.20.02:514][762]LogBlueprintUserMessages: [Harvester_C_0] 15.384394
+[2016.09.09-16.20.02:530][763]LogBlueprintUserMessages: [Harvester_C_0] 15.384394
+[2016.09.09-16.20.02:546][764]LogBlueprintUserMessages: [Harvester_C_0] 15.384394
+[2016.09.09-16.20.02:562][765]LogBlueprintUserMessages: [Harvester_C_0] 4.615318
+[2016.09.09-16.20.02:578][766]LogBlueprintUserMessages: [Harvester_C_0] 15.384394
+[2016.09.09-16.20.02:594][767]LogBlueprintUserMessages: [Harvester_C_0] 15.384394
+[2016.09.09-16.20.02:610][768]LogBlueprintUserMessages: [Harvester_C_0] 15.384394
+[2016.09.09-16.20.02:626][769]LogBlueprintUserMessages: [Harvester_C_0] 15.384394
+[2016.09.09-16.20.02:645][770]LogBlueprintUserMessages: [Harvester_C_0] 15.384394
+[2016.09.09-16.20.02:659][771]LogBlueprintUserMessages: [Harvester_C_0] 15.384394
+[2016.09.09-16.20.02:675][772]LogBlueprintUserMessages: [Harvester_C_0] 15.384394
+[2016.09.09-16.20.02:707][774]LogBlueprintUserMessages: [Harvester_C_0] 15.20891
+[2016.09.09-16.20.02:723][775]LogBlueprintUserMessages: [Harvester_C_0] 15.20891
+[2016.09.09-16.20.02:739][776]LogBlueprintUserMessages: [Harvester_C_0] 15.20891
+[2016.09.09-16.20.02:755][777]LogBlueprintUserMessages: [Harvester_C_0] 15.20891
+[2016.09.09-16.20.02:771][778]LogBlueprintUserMessages: [Harvester_C_0] 15.20891
+[2016.09.09-16.20.02:788][779]LogBlueprintUserMessages: [Harvester_C_0] 15.20891
+[2016.09.09-16.20.02:804][780]LogBlueprintUserMessages: [Harvester_C_0] 15.20891
+[2016.09.09-16.20.02:820][781]LogBlueprintUserMessages: [Harvester_C_0] 15.20891
+[2016.09.09-16.20.02:837][782]LogBlueprintUserMessages: [Harvester_C_0] 15.20891
+[2016.09.09-16.20.02:853][783]LogBlueprintUserMessages: [Harvester_C_0] 15.20891
+[2016.09.09-16.20.02:869][784]LogBlueprintUserMessages: [Harvester_C_0] 15.20891
+[2016.09.09-16.20.02:885][785]LogBlueprintUserMessages: [Harvester_C_0] 15.20891
+[2016.09.09-16.20.02:901][786]LogBlueprintUserMessages: [Harvester_C_0] 15.20891
+[2016.09.09-16.20.02:917][787]LogBlueprintUserMessages: [Harvester_C_0] 15.20891
+[2016.09.09-16.20.02:933][788]LogBlueprintUserMessages: [Harvester_C_0] 15.20891
+[2016.09.09-16.20.02:949][789]LogBlueprintUserMessages: [Harvester_C_0] 15.20891
+[2016.09.09-16.20.02:965][790]LogBlueprintUserMessages: [Harvester_C_0] 15.20891
+[2016.09.09-16.20.02:982][791]LogBlueprintUserMessages: [Harvester_C_0] 15.20891
+[2016.09.09-16.20.02:998][792]LogBlueprintUserMessages: [Harvester_C_0] 15.20891
+[2016.09.09-16.20.03:014][793]LogBlueprintUserMessages: [Harvester_C_0] 15.20891
+[2016.09.09-16.20.03:030][794]LogBlueprintUserMessages: [Harvester_C_0] 15.20891
+[2016.09.09-16.20.03:046][795]LogBlueprintUserMessages: [Harvester_C_0] 15.20891
+[2016.09.09-16.20.03:062][796]LogBlueprintUserMessages: [Harvester_C_0] 15.20891
+[2016.09.09-16.20.03:081][797]LogBlueprintUserMessages: [Harvester_C_0] 15.20891
+[2016.09.09-16.20.03:094][798]LogBlueprintUserMessages: [Harvester_C_0] 15.20891
+[2016.09.09-16.20.03:110][799]LogBlueprintUserMessages: [Harvester_C_0] 15.20891
+[2016.09.09-16.20.03:143][801]LogBlueprintUserMessages: [Harvester_C_0] 15.238755
+[2016.09.09-16.20.03:159][802]LogBlueprintUserMessages: [Harvester_C_0] 15.238755
+[2016.09.09-16.20.03:175][803]LogBlueprintUserMessages: [Harvester_C_0] 15.238755
+[2016.09.09-16.20.03:191][804]LogBlueprintUserMessages: [Harvester_C_0] 15.238755
+[2016.09.09-16.20.03:207][805]LogBlueprintUserMessages: [Harvester_C_0] 15.238755
+[2016.09.09-16.20.03:223][806]LogBlueprintUserMessages: [Harvester_C_0] 15.238755
+[2016.09.09-16.20.03:239][807]LogBlueprintUserMessages: [Harvester_C_0] 15.238755
+[2016.09.09-16.20.03:256][808]LogBlueprintUserMessages: [Harvester_C_0] 15.238755
+[2016.09.09-16.20.03:272][809]LogBlueprintUserMessages: [Harvester_C_0] 15.238755
+[2016.09.09-16.20.03:288][810]LogBlueprintUserMessages: [Harvester_C_0] 15.238755
+[2016.09.09-16.20.03:304][811]LogBlueprintUserMessages: [Harvester_C_0] 15.238755
+[2016.09.09-16.20.03:320][812]LogBlueprintUserMessages: [Harvester_C_0] 15.238755
+[2016.09.09-16.20.03:336][813]LogBlueprintUserMessages: [Harvester_C_0] 15.238755
+[2016.09.09-16.20.03:352][814]LogBlueprintUserMessages: [Harvester_C_0] 15.238755
+[2016.09.09-16.20.03:368][815]LogBlueprintUserMessages: [Harvester_C_0] 15.238755
+[2016.09.09-16.20.03:385][816]LogBlueprintUserMessages: [Harvester_C_0] 15.238755
+[2016.09.09-16.20.03:401][817]LogBlueprintUserMessages: [Harvester_C_0] 15.238755
+[2016.09.09-16.20.03:417][818]LogBlueprintUserMessages: [Harvester_C_0] 15.238755
+[2016.09.09-16.20.03:433][819]LogBlueprintUserMessages: [Harvester_C_0] 15.238755
+[2016.09.09-16.20.03:449][820]LogBlueprintUserMessages: [Harvester_C_0] 15.238755
+[2016.09.09-16.20.03:465][821]LogBlueprintUserMessages: [Harvester_C_0] 15.238755
+[2016.09.09-16.20.03:481][822]LogBlueprintUserMessages: [Harvester_C_0] 15.238755
+[2016.09.09-16.20.03:500][823]LogBlueprintUserMessages: [Harvester_C_0] 15.238755
+[2016.09.09-16.20.03:513][824]LogBlueprintUserMessages: [Harvester_C_0] 15.238755
+[2016.09.09-16.20.03:530][825]LogBlueprintUserMessages: [Harvester_C_0] 15.238755
+[2016.09.09-16.20.03:546][826]LogBlueprintUserMessages: [Harvester_C_0] 15.238755
+[2016.09.09-16.20.03:578][828]LogBlueprintUserMessages: [Harvester_C_0] 15.383249
+[2016.09.09-16.20.03:595][829]LogBlueprintUserMessages: [Harvester_C_0] 15.383249
+[2016.09.09-16.20.03:611][830]LogBlueprintUserMessages: [Harvester_C_0] 15.383249
+[2016.09.09-16.20.03:627][831]LogBlueprintUserMessages: [Harvester_C_0] 15.383249
+[2016.09.09-16.20.03:643][832]LogBlueprintUserMessages: [Harvester_C_0] 15.383249
+[2016.09.09-16.20.03:659][833]LogBlueprintUserMessages: [Harvester_C_0] 15.383249
+[2016.09.09-16.20.03:675][834]LogBlueprintUserMessages: [Harvester_C_0] 15.383249
+[2016.09.09-16.20.03:691][835]LogBlueprintUserMessages: [Harvester_C_0] 15.383249
+[2016.09.09-16.20.03:707][836]LogBlueprintUserMessages: [Harvester_C_0] 15.383249
+[2016.09.09-16.20.03:723][837]LogBlueprintUserMessages: [Harvester_C_0] 15.383249
+[2016.09.09-16.20.03:740][838]LogBlueprintUserMessages: [Harvester_C_0] 15.383249
+[2016.09.09-16.20.03:756][839]LogBlueprintUserMessages: [Harvester_C_0] 15.383249
+[2016.09.09-16.20.03:772][840]LogBlueprintUserMessages: [Harvester_C_0] 15.383249
+[2016.09.09-16.20.03:788][841]LogBlueprintUserMessages: [Harvester_C_0] 15.383249
+[2016.09.09-16.20.03:804][842]LogBlueprintUserMessages: [Harvester_C_0] 15.383249
+[2016.09.09-16.20.03:820][843]LogBlueprintUserMessages: [Harvester_C_0] 15.383249
+[2016.09.09-16.20.03:836][844]LogBlueprintUserMessages: [Harvester_C_0] 15.383249
+[2016.09.09-16.20.03:852][845]LogBlueprintUserMessages: [Harvester_C_0] 15.383249
+[2016.09.09-16.20.03:869][846]LogBlueprintUserMessages: [Harvester_C_0] 15.383249
+[2016.09.09-16.20.03:885][847]LogBlueprintUserMessages: [Harvester_C_0] 15.383249
+[2016.09.09-16.20.03:901][848]LogBlueprintUserMessages: [Harvester_C_0] 15.383249
+[2016.09.09-16.20.03:917][849]LogBlueprintUserMessages: [Harvester_C_0] 15.383249
+[2016.09.09-16.20.03:935][850]LogBlueprintUserMessages: [Harvester_C_0] 15.383249
+[2016.09.09-16.20.03:949][851]LogBlueprintUserMessages: [Harvester_C_0] 15.383249
+[2016.09.09-16.20.03:965][852]LogBlueprintUserMessages: [Harvester_C_0] 15.383249
+[2016.09.09-16.20.03:981][853]LogBlueprintUserMessages: [Harvester_C_0] 15.383249
+[2016.09.09-16.20.04:014][855]LogBlueprintUserMessages: [Harvester_C_0] 15.384552
+[2016.09.09-16.20.04:030][856]LogBlueprintUserMessages: [Harvester_C_0] 15.384552
+[2016.09.09-16.20.04:046][857]LogBlueprintUserMessages: [Harvester_C_0] 15.384552
+[2016.09.09-16.20.04:062][858]LogBlueprintUserMessages: [Harvester_C_0] 15.384552
+[2016.09.09-16.20.04:078][859]LogBlueprintUserMessages: [Harvester_C_0] 15.384552
+[2016.09.09-16.20.04:094][860]LogBlueprintUserMessages: [Harvester_C_0] 15.384552
+[2016.09.09-16.20.04:110][861]LogBlueprintUserMessages: [Harvester_C_0] 15.384552
+[2016.09.09-16.20.04:127][862]LogBlueprintUserMessages: [Harvester_C_0] 15.384552
+[2016.09.09-16.20.04:143][863]LogBlueprintUserMessages: [Harvester_C_0] 15.384552
+[2016.09.09-16.20.04:159][864]LogBlueprintUserMessages: [Harvester_C_0] 15.384552
+[2016.09.09-16.20.04:175][865]LogBlueprintUserMessages: [Harvester_C_0] 15.384552
+[2016.09.09-16.20.04:191][866]LogBlueprintUserMessages: [Harvester_C_0] 15.384552
+[2016.09.09-16.20.04:207][867]LogBlueprintUserMessages: [Harvester_C_0] 15.384552
+[2016.09.09-16.20.04:223][868]LogBlueprintUserMessages: [Harvester_C_0] 15.384552
+[2016.09.09-16.20.04:239][869]LogBlueprintUserMessages: [Harvester_C_0] 15.384552
+[2016.09.09-16.20.04:255][870]LogBlueprintUserMessages: [Harvester_C_0] 15.384552
+[2016.09.09-16.20.04:272][871]LogBlueprintUserMessages: [Harvester_C_0] 15.384552
+[2016.09.09-16.20.04:288][872]LogBlueprintUserMessages: [Harvester_C_0] 15.384552
+[2016.09.09-16.20.04:304][873]LogBlueprintUserMessages: [Harvester_C_0] 15.384552
+[2016.09.09-16.20.04:320][874]LogBlueprintUserMessages: [Harvester_C_0] 15.384552
+[2016.09.09-16.20.04:336][875]LogBlueprintUserMessages: [Harvester_C_0] 15.384552
+[2016.09.09-16.20.04:353][876]LogBlueprintUserMessages: [Harvester_C_0] 15.384552
+[2016.09.09-16.20.04:369][877]LogBlueprintUserMessages: [Harvester_C_0] 15.384552
+[2016.09.09-16.20.04:387][878]LogBlueprintUserMessages: [Harvester_C_0] 15.384552
+[2016.09.09-16.20.04:401][879]LogBlueprintUserMessages: [Harvester_C_0] 15.384552
+[2016.09.09-16.20.04:417][880]LogBlueprintUserMessages: [Harvester_C_0] 15.384552
+[2016.09.09-16.20.04:449][882]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.20.04:465][883]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.20.04:482][884]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.20.04:498][885]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.20.04:514][886]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.20.04:530][887]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.20.04:546][888]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.20.04:562][889]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.20.04:578][890]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.20.04:594][891]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.20.04:611][892]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.20.04:627][893]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.20.04:643][894]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.20.04:659][895]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.20.04:675][896]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.20.04:691][897]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.20.04:707][898]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.20.04:723][899]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.20.04:739][900]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.20.04:756][901]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.20.04:772][902]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.20.04:788][903]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.20.04:804][904]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.20.04:820][905]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.20.04:836][906]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.20.04:855][907]LogBlueprintUserMessages: [Harvester_C_0] 15.384645
+[2016.09.09-16.20.04:885][909]LogBlueprintUserMessages: [Harvester_C_0] 15.384617
+[2016.09.09-16.20.04:901][910]LogBlueprintUserMessages: [Harvester_C_0] 15.384617
+[2016.09.09-16.20.04:917][911]LogBlueprintUserMessages: [Harvester_C_0] 15.384617
+[2016.09.09-16.20.04:933][912]LogBlueprintUserMessages: [Harvester_C_0] 15.384617
+[2016.09.09-16.20.04:949][913]LogBlueprintUserMessages: [Harvester_C_0] 15.384617
+[2016.09.09-16.20.04:965][914]LogBlueprintUserMessages: [Harvester_C_0] 15.384617
+[2016.09.09-16.20.04:981][915]LogBlueprintUserMessages: [Harvester_C_0] 15.384617
+[2016.09.09-16.20.04:997][916]LogBlueprintUserMessages: [Harvester_C_0] 15.384617
+[2016.09.09-16.20.05:014][917]LogBlueprintUserMessages: [Harvester_C_0] 15.384617
+[2016.09.09-16.20.05:030][918]LogBlueprintUserMessages: [Harvester_C_0] 15.384617
+[2016.09.09-16.20.05:046][919]LogBlueprintUserMessages: [Harvester_C_0] 15.384617
+[2016.09.09-16.20.05:062][920]LogBlueprintUserMessages: [Harvester_C_0] 15.384617
+[2016.09.09-16.20.05:079][921]LogBlueprintUserMessages: [Harvester_C_0] 15.384617
+[2016.09.09-16.20.05:095][922]LogBlueprintUserMessages: [Harvester_C_0] 15.384617
+[2016.09.09-16.20.05:111][923]LogBlueprintUserMessages: [Harvester_C_0] 15.384617
+[2016.09.09-16.20.05:127][924]LogBlueprintUserMessages: [Harvester_C_0] 15.384617
+[2016.09.09-16.20.05:143][925]LogBlueprintUserMessages: [Harvester_C_0] 15.384617
+[2016.09.09-16.20.05:159][926]LogBlueprintUserMessages: [Harvester_C_0] 15.384617
+[2016.09.09-16.20.05:175][927]LogBlueprintUserMessages: [Harvester_C_0] 15.384617
+[2016.09.09-16.20.05:191][928]LogBlueprintUserMessages: [Harvester_C_0] 15.384617
+[2016.09.09-16.20.05:207][929]LogBlueprintUserMessages: [Harvester_C_0] 15.384617
+[2016.09.09-16.20.05:224][930]LogBlueprintUserMessages: [Harvester_C_0] 15.384617
+[2016.09.09-16.20.05:240][931]LogBlueprintUserMessages: [Harvester_C_0] 15.384617
+[2016.09.09-16.20.05:256][932]LogBlueprintUserMessages: [Harvester_C_0] 15.384617
+[2016.09.09-16.20.05:272][933]LogBlueprintUserMessages: [Harvester_C_0] 15.384617
+[2016.09.09-16.20.05:288][934]LogBlueprintUserMessages: [Harvester_C_0] 15.384617
+[2016.09.09-16.20.05:320][936]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.05:336][937]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.05:352][938]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.05:369][939]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.05:385][940]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.05:401][941]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.05:417][942]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.05:433][943]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.05:449][944]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.05:465][945]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.05:481][946]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.05:500][947]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.05:514][948]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.05:530][949]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.05:546][950]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.05:562][951]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.05:579][952]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.05:595][953]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.05:611][954]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.05:627][955]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.05:643][956]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.05:659][957]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.05:675][958]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.05:691][959]LogBlueprintUserMessages: [Harvester_C_0] 4.615376
+[2016.09.09-16.20.05:708][960]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.05:724][961]LogBlueprintUserMessages: [Harvester_C_0] 4.615376
+[2016.09.09-16.20.05:740][962]LogBlueprintUserMessages: [Harvester_C_0] 4.615376
+[2016.09.09-16.20.05:756][963]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.05:788][965]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.05:804][966]LogBlueprintUserMessages: [Harvester_C_0] 15.443206
+[2016.09.09-16.20.05:820][967]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.05:836][968]LogBlueprintUserMessages: [Harvester_C_0] 15.443206
+[2016.09.09-16.20.05:853][969]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.05:869][970]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.05:885][971]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.05:901][972]LogBlueprintUserMessages: [Harvester_C_0] 15.443206
+[2016.09.09-16.20.05:917][973]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.05:933][974]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.05:949][975]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.05:965][976]LogBlueprintUserMessages: [Harvester_C_0] 15.443206
+[2016.09.09-16.20.05:982][977]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.05:998][978]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:014][979]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:030][980]LogBlueprintUserMessages: [Harvester_C_0] 15.443206
+[2016.09.09-16.20.06:046][981]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:062][982]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:078][983]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:094][984]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:113][985]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:127][986]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:143][987]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:159][988]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:175][989]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:191][990]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:207][991]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:223][992]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:239][993]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:256][994]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:272][995]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:288][996]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:304][997]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:320][998]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:336][999]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:353][  0]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:369][  1]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:385][  2]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:401][  3]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:417][  4]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:433][  5]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:450][  6]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:466][  7]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:482][  8]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:498][  9]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:514][ 10]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:530][ 11]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:546][ 12]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:562][ 13]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:578][ 14]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:595][ 15]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:611][ 16]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:627][ 17]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:643][ 18]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:659][ 19]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:675][ 20]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:691][ 21]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:707][ 22]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:723][ 23]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:740][ 24]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:756][ 25]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:772][ 26]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:788][ 27]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:804][ 28]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:820][ 29]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:836][ 30]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:852][ 31]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:869][ 32]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:885][ 33]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:901][ 34]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:917][ 35]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:933][ 36]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:949][ 37]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:965][ 38]LogBlueprintUserMessages: [Harvester_C_0] 4.632962
+[2016.09.09-16.20.06:998][ 40]LogBlueprintUserMessages: [Harvester_C_0] 4.668515
+[2016.09.09-16.20.07:014][ 41]LogBlueprintUserMessages: [Harvester_C_0] 4.668515
+[2016.09.09-16.20.07:030][ 42]LogBlueprintUserMessages: [Harvester_C_0] 4.668515
+[2016.09.09-16.20.07:046][ 43]LogBlueprintUserMessages: [Harvester_C_0] 4.668515
+[2016.09.09-16.20.07:062][ 44]LogBlueprintUserMessages: [Harvester_C_0] 4.668515
+[2016.09.09-16.20.07:078][ 45]LogBlueprintUserMessages: [Harvester_C_0] 4.668515
+[2016.09.09-16.20.07:094][ 46]LogBlueprintUserMessages: [Harvester_C_0] 4.668515
+[2016.09.09-16.20.07:110][ 47]LogBlueprintUserMessages: [Harvester_C_0] 4.668515
+[2016.09.09-16.20.07:127][ 48]LogBlueprintUserMessages: [Harvester_C_0] 4.668515
+[2016.09.09-16.20.07:143][ 49]LogBlueprintUserMessages: [Harvester_C_0] 4.668515
+[2016.09.09-16.20.07:159][ 50]LogBlueprintUserMessages: [Harvester_C_0] 4.668515
+[2016.09.09-16.20.07:175][ 51]LogBlueprintUserMessages: [Harvester_C_0] 4.668515
+[2016.09.09-16.20.07:191][ 52]LogBlueprintUserMessages: [Harvester_C_0] 4.668515
+[2016.09.09-16.20.07:210][ 53]LogBlueprintUserMessages: [Harvester_C_0] 4.668515
+[2016.09.09-16.20.07:224][ 54]LogBlueprintUserMessages: [Harvester_C_0] 4.668515
+[2016.09.09-16.20.07:240][ 55]LogBlueprintUserMessages: [Harvester_C_0] 4.668515
+[2016.09.09-16.20.07:256][ 56]LogBlueprintUserMessages: [Harvester_C_0] 4.668515
+[2016.09.09-16.20.07:272][ 57]LogBlueprintUserMessages: [Harvester_C_0] 4.668515
+[2016.09.09-16.20.07:288][ 58]LogBlueprintUserMessages: [Harvester_C_0] 4.668515
+[2016.09.09-16.20.07:304][ 59]LogBlueprintUserMessages: [Harvester_C_0] 4.668515
+[2016.09.09-16.20.07:320][ 60]LogBlueprintUserMessages: [Harvester_C_0] 15.561716
+[2016.09.09-16.20.07:337][ 61]LogBlueprintUserMessages: [Harvester_C_0] 15.561716
+[2016.09.09-16.20.07:353][ 62]LogBlueprintUserMessages: [Harvester_C_0] 15.561716
+[2016.09.09-16.20.07:369][ 63]LogBlueprintUserMessages: [Harvester_C_0] 15.561716
+[2016.09.09-16.20.07:385][ 64]LogBlueprintUserMessages: [Harvester_C_0] 15.561716
+[2016.09.09-16.20.07:401][ 65]LogBlueprintUserMessages: [Harvester_C_0] 15.561716
+[2016.09.09-16.20.07:417][ 66]LogBlueprintUserMessages: [Harvester_C_0] 15.561716
+[2016.09.09-16.20.07:433][ 67]LogBlueprintUserMessages: [Harvester_C_0] 15.561716
+[2016.09.09-16.20.07:449][ 68]LogBlueprintUserMessages: [Harvester_C_0] 15.561716
+[2016.09.09-16.20.07:466][ 69]LogBlueprintUserMessages: [Harvester_C_0] 15.561716
+[2016.09.09-16.20.07:482][ 70]LogBlueprintUserMessages: [Harvester_C_0] 15.561716
+[2016.09.09-16.20.07:498][ 71]LogBlueprintUserMessages: [Harvester_C_0] 15.561716
+[2016.09.09-16.20.07:514][ 72]LogBlueprintUserMessages: [Harvester_C_0] 15.561716
+[2016.09.09-16.20.07:530][ 73]LogBlueprintUserMessages: [Harvester_C_0] 15.561716
+[2016.09.09-16.20.07:546][ 74]LogBlueprintUserMessages: [Harvester_C_0] 15.561716
+[2016.09.09-16.20.07:562][ 75]LogBlueprintUserMessages: [Harvester_C_0] 15.561716
+[2016.09.09-16.20.07:578][ 76]LogBlueprintUserMessages: [Harvester_C_0] 15.561716
+[2016.09.09-16.20.07:594][ 77]LogBlueprintUserMessages: [Harvester_C_0] 15.561716
+[2016.09.09-16.20.07:611][ 78]LogBlueprintUserMessages: [Harvester_C_0] 15.561716
+[2016.09.09-16.20.07:627][ 79]LogBlueprintUserMessages: [Harvester_C_0] 15.561716
+[2016.09.09-16.20.07:659][ 81]LogBlueprintUserMessages: [Harvester_C_0] 15.238705
+[2016.09.09-16.20.07:675][ 82]LogBlueprintUserMessages: [Harvester_C_0] 15.238705
+[2016.09.09-16.20.07:691][ 83]LogBlueprintUserMessages: [Harvester_C_0] 15.238705
+[2016.09.09-16.20.07:707][ 84]LogBlueprintUserMessages: [Harvester_C_0] 15.238705
+[2016.09.09-16.20.07:723][ 85]LogBlueprintUserMessages: [Harvester_C_0] 15.238705
+[2016.09.09-16.20.07:739][ 86]LogBlueprintUserMessages: [Harvester_C_0] 15.238705
+[2016.09.09-16.20.07:756][ 87]LogBlueprintUserMessages: [Harvester_C_0] 15.238705
+[2016.09.09-16.20.07:772][ 88]LogBlueprintUserMessages: [Harvester_C_0] 15.238705
+[2016.09.09-16.20.07:788][ 89]LogBlueprintUserMessages: [Harvester_C_0] 15.238705
+[2016.09.09-16.20.07:804][ 90]LogBlueprintUserMessages: [Harvester_C_0] 15.238705
+[2016.09.09-16.20.07:820][ 91]LogBlueprintUserMessages: [Harvester_C_0] 15.238705
+[2016.09.09-16.20.07:836][ 92]LogBlueprintUserMessages: [Harvester_C_0] 15.238705
+[2016.09.09-16.20.07:852][ 93]LogBlueprintUserMessages: [Harvester_C_0] 15.238705
+[2016.09.09-16.20.07:869][ 94]LogBlueprintUserMessages: [Harvester_C_0] 15.238705
+[2016.09.09-16.20.07:885][ 95]LogBlueprintUserMessages: [Harvester_C_0] 15.238705
+[2016.09.09-16.20.07:901][ 96]LogBlueprintUserMessages: [Harvester_C_0] 15.238705
+[2016.09.09-16.20.07:917][ 97]LogBlueprintUserMessages: [Harvester_C_0] 15.238705
+[2016.09.09-16.20.07:934][ 98]LogBlueprintUserMessages: [Harvester_C_0] 15.238705
+[2016.09.09-16.20.07:950][ 99]LogBlueprintUserMessages: [Harvester_C_0] 15.238705
+[2016.09.09-16.20.07:966][100]LogBlueprintUserMessages: [Harvester_C_0] 15.238705
+[2016.09.09-16.20.07:982][101]LogBlueprintUserMessages: [Harvester_C_0] 15.238705
+[2016.09.09-16.20.07:998][102]LogBlueprintUserMessages: [Harvester_C_0] 15.238705
+[2016.09.09-16.20.08:014][103]LogBlueprintUserMessages: [Harvester_C_0] 15.238705
+[2016.09.09-16.20.08:030][104]LogBlueprintUserMessages: [Harvester_C_0] 15.238705
+[2016.09.09-16.20.08:046][105]LogBlueprintUserMessages: [Harvester_C_0] 15.238705
+[2016.09.09-16.20.08:062][106]LogBlueprintUserMessages: [Harvester_C_0] 15.238705
+[2016.09.09-16.20.08:095][108]LogBlueprintUserMessages: [Harvester_C_0] 15.383408
+[2016.09.09-16.20.08:111][109]LogBlueprintUserMessages: [Harvester_C_0] 15.383408
+[2016.09.09-16.20.08:127][110]LogBlueprintUserMessages: [Harvester_C_0] 15.383408
+[2016.09.09-16.20.08:143][111]LogBlueprintUserMessages: [Harvester_C_0] 15.383408
+[2016.09.09-16.20.08:159][112]LogBlueprintUserMessages: [Harvester_C_0] 15.383408
+[2016.09.09-16.20.08:175][113]LogBlueprintUserMessages: [Harvester_C_0] 15.383408
+[2016.09.09-16.20.08:191][114]LogBlueprintUserMessages: [Harvester_C_0] 15.383408
+[2016.09.09-16.20.08:208][115]LogBlueprintUserMessages: [Harvester_C_0] 15.383408
+[2016.09.09-16.20.08:224][116]LogBlueprintUserMessages: [Harvester_C_0] 15.383408
+[2016.09.09-16.20.08:240][117]LogBlueprintUserMessages: [Harvester_C_0] 15.383408
+[2016.09.09-16.20.08:256][118]LogBlueprintUserMessages: [Harvester_C_0] 15.383408
+[2016.09.09-16.20.08:272][119]LogBlueprintUserMessages: [Harvester_C_0] 15.383408
+[2016.09.09-16.20.08:288][120]LogBlueprintUserMessages: [Harvester_C_0] 15.383408
+[2016.09.09-16.20.08:304][121]LogBlueprintUserMessages: [Harvester_C_0] 15.383408
+[2016.09.09-16.20.08:320][122]LogBlueprintUserMessages: [Harvester_C_0] 15.383408
+[2016.09.09-16.20.08:336][123]LogBlueprintUserMessages: [Harvester_C_0] 15.383408
+[2016.09.09-16.20.08:353][124]LogBlueprintUserMessages: [Harvester_C_0] 15.383408
+[2016.09.09-16.20.08:369][125]LogBlueprintUserMessages: [Harvester_C_0] 15.383408
+[2016.09.09-16.20.08:385][126]LogBlueprintUserMessages: [Harvester_C_0] 15.383408
+[2016.09.09-16.20.08:401][127]LogBlueprintUserMessages: [Harvester_C_0] 15.383408
+[2016.09.09-16.20.08:417][128]LogBlueprintUserMessages: [Harvester_C_0] 15.383408
+[2016.09.09-16.20.08:433][129]LogBlueprintUserMessages: [Harvester_C_0] 15.383408
+[2016.09.09-16.20.08:449][130]LogBlueprintUserMessages: [Harvester_C_0] 15.383408
+[2016.09.09-16.20.08:465][131]LogBlueprintUserMessages: [Harvester_C_0] 15.383408
+[2016.09.09-16.20.08:481][132]LogBlueprintUserMessages: [Harvester_C_0] 15.383408
+[2016.09.09-16.20.08:498][133]LogBlueprintUserMessages: [Harvester_C_0] 15.383408
+[2016.09.09-16.20.08:532][135]LogBlueprintUserMessages: [Harvester_C_0] 15.384709
+[2016.09.09-16.20.08:546][136]LogBlueprintUserMessages: [Harvester_C_0] 15.384709
+[2016.09.09-16.20.08:562][137]LogBlueprintUserMessages: [Harvester_C_0] 15.384709
+[2016.09.09-16.20.08:578][138]LogBlueprintUserMessages: [Harvester_C_0] 15.384709
+[2016.09.09-16.20.08:594][139]LogBlueprintUserMessages: [Harvester_C_0] 15.384709
+[2016.09.09-16.20.08:610][140]LogBlueprintUserMessages: [Harvester_C_0] 15.384709
+[2016.09.09-16.20.08:627][141]LogBlueprintUserMessages: [Harvester_C_0] 15.384709
+[2016.09.09-16.20.08:643][142]LogBlueprintUserMessages: [Harvester_C_0] 15.384709
+[2016.09.09-16.20.08:659][143]LogBlueprintUserMessages: [Harvester_C_0] 15.384709
+[2016.09.09-16.20.08:675][144]LogBlueprintUserMessages: [Harvester_C_0] 15.384709
+[2016.09.09-16.20.08:692][145]LogBlueprintUserMessages: [Harvester_C_0] 15.384709
+[2016.09.09-16.20.08:708][146]LogBlueprintUserMessages: [Harvester_C_0] 15.384709
+[2016.09.09-16.20.08:724][147]LogBlueprintUserMessages: [Harvester_C_0] 15.384709
+[2016.09.09-16.20.08:740][148]LogBlueprintUserMessages: [Harvester_C_0] 15.384709
+[2016.09.09-16.20.08:756][149]LogBlueprintUserMessages: [Harvester_C_0] 15.384709
+[2016.09.09-16.20.08:772][150]LogBlueprintUserMessages: [Harvester_C_0] 15.384709
+[2016.09.09-16.20.08:788][151]LogBlueprintUserMessages: [Harvester_C_0] 15.384709
+[2016.09.09-16.20.08:804][152]LogBlueprintUserMessages: [Harvester_C_0] 15.384709
+[2016.09.09-16.20.08:821][153]LogBlueprintUserMessages: [Harvester_C_0] 15.384709
+[2016.09.09-16.20.08:837][154]LogBlueprintUserMessages: [Harvester_C_0] 15.384709
+[2016.09.09-16.20.08:853][155]LogBlueprintUserMessages: [Harvester_C_0] 15.384709
+[2016.09.09-16.20.08:869][156]LogBlueprintUserMessages: [Harvester_C_0] 15.384709
+[2016.09.09-16.20.08:885][157]LogBlueprintUserMessages: [Harvester_C_0] 15.384709
+[2016.09.09-16.20.08:901][158]LogBlueprintUserMessages: [Harvester_C_0] 15.384709
+[2016.09.09-16.20.08:917][159]LogBlueprintUserMessages: [Harvester_C_0] 15.384709
+[2016.09.09-16.20.08:936][160]LogBlueprintUserMessages: [Harvester_C_0] 15.384709
+[2016.09.09-16.20.08:966][162]LogBlueprintUserMessages: [Harvester_C_0] 15.384561
+[2016.09.09-16.20.08:982][163]LogBlueprintUserMessages: [Harvester_C_0] 15.384561
+[2016.09.09-16.20.08:998][164]LogBlueprintUserMessages: [Harvester_C_0] 15.384561
+[2016.09.09-16.20.09:014][165]LogBlueprintUserMessages: [Harvester_C_0] 15.384561
+[2016.09.09-16.20.09:030][166]LogBlueprintUserMessages: [Harvester_C_0] 15.384561
+[2016.09.09-16.20.09:046][167]LogBlueprintUserMessages: [Harvester_C_0] 15.384561
+[2016.09.09-16.20.09:062][168]LogBlueprintUserMessages: [Harvester_C_0] 15.384561
+[2016.09.09-16.20.09:078][169]LogBlueprintUserMessages: [Harvester_C_0] 15.384561
+[2016.09.09-16.20.09:094][170]LogBlueprintUserMessages: [Harvester_C_0] 15.384561
+[2016.09.09-16.20.09:111][171]LogBlueprintUserMessages: [Harvester_C_0] 15.384561
+[2016.09.09-16.20.09:127][172]LogBlueprintUserMessages: [Harvester_C_0] 15.384561
+[2016.09.09-16.20.09:143][173]LogBlueprintUserMessages: [Harvester_C_0] 15.384561
+[2016.09.09-16.20.09:159][174]LogBlueprintUserMessages: [Harvester_C_0] 15.384561
+[2016.09.09-16.20.09:175][175]LogBlueprintUserMessages: [Harvester_C_0] 15.384561
+[2016.09.09-16.20.09:191][176]LogBlueprintUserMessages: [Harvester_C_0] 15.384561
+[2016.09.09-16.20.09:207][177]LogBlueprintUserMessages: [Harvester_C_0] 15.384561
+[2016.09.09-16.20.09:223][178]LogBlueprintUserMessages: [Harvester_C_0] 15.384561
+[2016.09.09-16.20.09:240][179]LogBlueprintUserMessages: [Harvester_C_0] 15.384561
+[2016.09.09-16.20.09:256][180]LogBlueprintUserMessages: [Harvester_C_0] 15.384561
+[2016.09.09-16.20.09:272][181]LogBlueprintUserMessages: [Harvester_C_0] 15.384561
+[2016.09.09-16.20.09:288][182]LogBlueprintUserMessages: [Harvester_C_0] 15.384561
+[2016.09.09-16.20.09:304][183]LogBlueprintUserMessages: [Harvester_C_0] 15.384561
+[2016.09.09-16.20.09:320][184]LogBlueprintUserMessages: [Harvester_C_0] 15.384561
+[2016.09.09-16.20.09:336][185]LogBlueprintUserMessages: [Harvester_C_0] 15.384561
+[2016.09.09-16.20.09:352][186]LogBlueprintUserMessages: [Harvester_C_0] 15.384561
+[2016.09.09-16.20.09:371][187]LogBlueprintUserMessages: [Harvester_C_0] 15.384561
+[2016.09.09-16.20.09:401][189]LogBlueprintUserMessages: [Harvester_C_0] 15.384412
+[2016.09.09-16.20.09:417][190]LogBlueprintUserMessages: [Harvester_C_0] 15.384412
+[2016.09.09-16.20.09:433][191]LogBlueprintUserMessages: [Harvester_C_0] 15.384412
+[2016.09.09-16.20.09:450][192]LogBlueprintUserMessages: [Harvester_C_0] 15.384412
+[2016.09.09-16.20.09:466][193]LogBlueprintUserMessages: [Harvester_C_0] 15.384412
+[2016.09.09-16.20.09:482][194]LogBlueprintUserMessages: [Harvester_C_0] 15.384412
+[2016.09.09-16.20.09:498][195]LogBlueprintUserMessages: [Harvester_C_0] 15.384412
+[2016.09.09-16.20.09:514][196]LogBlueprintUserMessages: [Harvester_C_0] 15.384412
+[2016.09.09-16.20.09:530][197]LogBlueprintUserMessages: [Harvester_C_0] 15.384412
+[2016.09.09-16.20.09:546][198]LogBlueprintUserMessages: [Harvester_C_0] 15.384412
+[2016.09.09-16.20.09:562][199]LogBlueprintUserMessages: [Harvester_C_0] 15.384412
+[2016.09.09-16.20.09:579][200]LogBlueprintUserMessages: [Harvester_C_0] 15.384412
+[2016.09.09-16.20.09:595][201]LogBlueprintUserMessages: [Harvester_C_0] 15.384412
+[2016.09.09-16.20.09:611][202]LogBlueprintUserMessages: [Harvester_C_0] 15.384412
+[2016.09.09-16.20.09:627][203]LogBlueprintUserMessages: [Harvester_C_0] 15.384412
+[2016.09.09-16.20.09:643][204]LogBlueprintUserMessages: [Harvester_C_0] 15.384412
+[2016.09.09-16.20.09:659][205]LogBlueprintUserMessages: [Harvester_C_0] 15.384412
+[2016.09.09-16.20.09:675][206]LogBlueprintUserMessages: [Harvester_C_0] 15.384412
+[2016.09.09-16.20.09:691][207]LogBlueprintUserMessages: [Harvester_C_0] 15.384412
+[2016.09.09-16.20.09:707][208]LogBlueprintUserMessages: [Harvester_C_0] 15.384412
+[2016.09.09-16.20.09:724][209]LogBlueprintUserMessages: [Harvester_C_0] 15.384412
+[2016.09.09-16.20.09:740][210]LogBlueprintUserMessages: [Harvester_C_0] 15.384412
+[2016.09.09-16.20.09:756][211]LogBlueprintUserMessages: [Harvester_C_0] 15.384412
+[2016.09.09-16.20.09:772][212]LogBlueprintUserMessages: [Harvester_C_0] 15.384412
+[2016.09.09-16.20.09:788][213]LogBlueprintUserMessages: [Harvester_C_0] 15.384412
+[2016.09.09-16.20.09:805][214]LogBlueprintUserMessages: [Harvester_C_0] 15.384412
+[2016.09.09-16.20.09:836][216]LogBlueprintUserMessages: [Harvester_C_0] 15.384747
+[2016.09.09-16.20.09:853][217]LogBlueprintUserMessages: [Harvester_C_0] 15.384747
+[2016.09.09-16.20.09:869][218]LogBlueprintUserMessages: [Harvester_C_0] 15.384747
+[2016.09.09-16.20.09:885][219]LogBlueprintUserMessages: [Harvester_C_0] 15.384747
+[2016.09.09-16.20.09:901][220]LogBlueprintUserMessages: [Harvester_C_0] 15.384747
+[2016.09.09-16.20.09:917][221]LogBlueprintUserMessages: [Harvester_C_0] 15.384747
+[2016.09.09-16.20.09:933][222]LogBlueprintUserMessages: [Harvester_C_0] 15.384747
+[2016.09.09-16.20.09:949][223]LogBlueprintUserMessages: [Harvester_C_0] 15.384747
+[2016.09.09-16.20.09:965][224]LogBlueprintUserMessages: [Harvester_C_0] 15.384747
+[2016.09.09-16.20.09:981][225]LogBlueprintUserMessages: [Harvester_C_0] 15.384747
+[2016.09.09-16.20.09:998][226]LogBlueprintUserMessages: [Harvester_C_0] 15.384747
+[2016.09.09-16.20.10:014][227]LogBlueprintUserMessages: [Harvester_C_0] 15.384747
+[2016.09.09-16.20.10:030][228]LogBlueprintUserMessages: [Harvester_C_0] 15.384747
+[2016.09.09-16.20.10:046][229]LogBlueprintUserMessages: [Harvester_C_0] 15.384747
+[2016.09.09-16.20.10:062][230]LogBlueprintUserMessages: [Harvester_C_0] 15.384747
+[2016.09.09-16.20.10:078][231]LogBlueprintUserMessages: [Harvester_C_0] 15.384747
+[2016.09.09-16.20.10:094][232]LogBlueprintUserMessages: [Harvester_C_0] 15.384747
+[2016.09.09-16.20.10:110][233]LogBlueprintUserMessages: [Harvester_C_0] 15.384747
+[2016.09.09-16.20.10:129][234]LogBlueprintUserMessages: [Harvester_C_0] 15.384747
+[2016.09.09-16.20.10:143][235]LogBlueprintUserMessages: [Harvester_C_0] 15.384747
+[2016.09.09-16.20.10:159][236]LogBlueprintUserMessages: [Harvester_C_0] 15.384747
+[2016.09.09-16.20.10:175][237]LogBlueprintUserMessages: [Harvester_C_0] 15.384747
+[2016.09.09-16.20.10:191][238]LogBlueprintUserMessages: [Harvester_C_0] 15.384747
+[2016.09.09-16.20.10:208][239]LogBlueprintUserMessages: [Harvester_C_0] 15.384747
+[2016.09.09-16.20.10:224][240]LogBlueprintUserMessages: [Harvester_C_0] 15.384747
+[2016.09.09-16.20.10:240][241]LogBlueprintUserMessages: [Harvester_C_0] 15.384747
+[2016.09.09-16.20.10:272][243]LogBlueprintUserMessages: [Harvester_C_0] 15.384598
+[2016.09.09-16.20.10:288][244]LogBlueprintUserMessages: [Harvester_C_0] 15.384598
+[2016.09.09-16.20.10:304][245]LogBlueprintUserMessages: [Harvester_C_0] 15.384598
+[2016.09.09-16.20.10:320][246]LogBlueprintUserMessages: [Harvester_C_0] 15.384598
+[2016.09.09-16.20.10:337][247]LogBlueprintUserMessages: [Harvester_C_0] 15.384598
+[2016.09.09-16.20.10:353][248]LogBlueprintUserMessages: [Harvester_C_0] 15.384598
+[2016.09.09-16.20.10:369][249]LogBlueprintUserMessages: [Harvester_C_0] 15.384598
+[2016.09.09-16.20.10:385][250]LogBlueprintUserMessages: [Harvester_C_0] 15.384598
+[2016.09.09-16.20.10:401][251]LogBlueprintUserMessages: [Harvester_C_0] 15.384598
+[2016.09.09-16.20.10:417][252]LogBlueprintUserMessages: [Harvester_C_0] 15.384598
+[2016.09.09-16.20.10:433][253]LogBlueprintUserMessages: [Harvester_C_0] 4.615379
+[2016.09.09-16.20.10:449][254]LogBlueprintUserMessages: [Harvester_C_0] 4.615379
+[2016.09.09-16.20.10:465][255]LogBlueprintUserMessages: [Harvester_C_0] 4.615379
+[2016.09.09-16.20.10:482][256]LogBlueprintUserMessages: [Harvester_C_0] 4.615379
+[2016.09.09-16.20.10:498][257]LogBlueprintUserMessages: [Harvester_C_0] 4.615379
+[2016.09.09-16.20.10:514][258]LogBlueprintUserMessages: [Harvester_C_0] 4.615379
+[2016.09.09-16.20.10:530][259]LogBlueprintUserMessages: [Harvester_C_0] 4.615379
+[2016.09.09-16.20.10:546][260]LogBlueprintUserMessages: [Harvester_C_0] 4.615379
+[2016.09.09-16.20.10:562][261]LogBlueprintUserMessages: [Harvester_C_0] 4.615379
+[2016.09.09-16.20.10:578][262]LogBlueprintUserMessages: [Harvester_C_0] 4.615379
+[2016.09.09-16.20.10:594][263]LogBlueprintUserMessages: [Harvester_C_0] 4.615379
+[2016.09.09-16.20.10:611][264]LogBlueprintUserMessages: [Harvester_C_0] 4.615379
+[2016.09.09-16.20.10:627][265]LogBlueprintUserMessages: [Harvester_C_0] 4.615379
+[2016.09.09-16.20.10:643][266]LogBlueprintUserMessages: [Harvester_C_0] 4.615379
+[2016.09.09-16.20.10:659][267]LogBlueprintUserMessages: [Harvester_C_0] 4.615379
+[2016.09.09-16.20.10:675][268]LogBlueprintUserMessages: [Harvester_C_0] 15.384598
+[2016.09.09-16.20.10:691][269]LogBlueprintUserMessages: [Harvester_C_0] 4.615379
+[2016.09.09-16.20.10:707][270]LogBlueprintUserMessages: [Harvester_C_0] 15.384598
+[2016.09.09-16.20.10:723][271]LogBlueprintUserMessages: [Harvester_C_0] 4.615379
+[2016.09.09-16.20.10:739][272]LogBlueprintUserMessages: [Harvester_C_0] 15.384598
+[2016.09.09-16.20.10:756][273]LogBlueprintUserMessages: [Harvester_C_0] 15.384598
+[2016.09.09-16.20.10:772][274]LogBlueprintUserMessages: [Harvester_C_0] 4.615379
+[2016.09.09-16.20.10:788][275]LogBlueprintUserMessages: [Harvester_C_0] 15.384598
+[2016.09.09-16.20.10:804][276]LogBlueprintUserMessages: [Harvester_C_0] 15.384598
+[2016.09.09-16.20.10:820][277]LogBlueprintUserMessages: [Harvester_C_0] 15.384598
+[2016.09.09-16.20.10:836][278]LogBlueprintUserMessages: [Harvester_C_0] 15.384598
+[2016.09.09-16.20.10:855][279]LogBlueprintUserMessages: [Harvester_C_0] 15.384598
+[2016.09.09-16.20.10:868][280]LogBlueprintUserMessages: [Harvester_C_0] 15.384598
+[2016.09.09-16.20.10:885][281]LogBlueprintUserMessages: [Harvester_C_0] 15.384598
+[2016.09.09-16.20.10:917][283]LogBlueprintUserMessages: [Harvester_C_0] 15.150148
+[2016.09.09-16.20.10:933][284]LogBlueprintUserMessages: [Harvester_C_0] 15.150148
+[2016.09.09-16.20.10:949][285]LogBlueprintUserMessages: [Harvester_C_0] 15.150148
+[2016.09.09-16.20.10:965][286]LogBlueprintUserMessages: [Harvester_C_0] 15.150148
+[2016.09.09-16.20.10:982][287]LogBlueprintUserMessages: [Harvester_C_0] 15.150148
+[2016.09.09-16.20.10:998][288]LogBlueprintUserMessages: [Harvester_C_0] 15.150148
+[2016.09.09-16.20.11:014][289]LogBlueprintUserMessages: [Harvester_C_0] 15.150148
+[2016.09.09-16.20.11:030][290]LogBlueprintUserMessages: [Harvester_C_0] 15.150148
+[2016.09.09-16.20.11:046][291]LogBlueprintUserMessages: [Harvester_C_0] 15.150148
+[2016.09.09-16.20.11:062][292]LogBlueprintUserMessages: [Harvester_C_0] 15.150148
+[2016.09.09-16.20.11:078][293]LogBlueprintUserMessages: [Harvester_C_0] 15.150148
+[2016.09.09-16.20.11:095][294]LogBlueprintUserMessages: [Harvester_C_0] 15.150148
+[2016.09.09-16.20.11:111][295]LogBlueprintUserMessages: [Harvester_C_0] 15.150148
+[2016.09.09-16.20.11:127][296]LogBlueprintUserMessages: [Harvester_C_0] 15.150148
+[2016.09.09-16.20.11:143][297]LogBlueprintUserMessages: [Harvester_C_0] 15.150148
+[2016.09.09-16.20.11:159][298]LogBlueprintUserMessages: [Harvester_C_0] 15.150148
+[2016.09.09-16.20.11:175][299]LogBlueprintUserMessages: [Harvester_C_0] 15.150148
+[2016.09.09-16.20.11:191][300]LogBlueprintUserMessages: [Harvester_C_0] 15.150148
+[2016.09.09-16.20.11:207][301]LogBlueprintUserMessages: [Harvester_C_0] 15.150148
+[2016.09.09-16.20.11:224][302]LogBlueprintUserMessages: [Harvester_C_0] 15.150148
+[2016.09.09-16.20.11:240][303]LogBlueprintUserMessages: [Harvester_C_0] 15.150148
+[2016.09.09-16.20.11:256][304]LogBlueprintUserMessages: [Harvester_C_0] 15.150148
+[2016.09.09-16.20.11:272][305]LogBlueprintUserMessages: [Harvester_C_0] 15.150148
+[2016.09.09-16.20.11:290][306]LogBlueprintUserMessages: [Harvester_C_0] 15.150148
+[2016.09.09-16.20.11:304][307]LogBlueprintUserMessages: [Harvester_C_0] 15.150148
+[2016.09.09-16.20.11:320][308]LogBlueprintUserMessages: [Harvester_C_0] 15.150148
+[2016.09.09-16.20.11:353][310]LogBlueprintUserMessages: [Harvester_C_0] 15.238779
+[2016.09.09-16.20.11:369][311]LogBlueprintUserMessages: [Harvester_C_0] 15.238779
+[2016.09.09-16.20.11:385][312]LogBlueprintUserMessages: [Harvester_C_0] 15.238779
+[2016.09.09-16.20.11:401][313]LogBlueprintUserMessages: [Harvester_C_0] 15.238779
+[2016.09.09-16.20.11:417][314]LogBlueprintUserMessages: [Harvester_C_0] 15.238779
+[2016.09.09-16.20.11:433][315]LogBlueprintUserMessages: [Harvester_C_0] 15.238779
+[2016.09.09-16.20.11:449][316]LogBlueprintUserMessages: [Harvester_C_0] 15.238779
+[2016.09.09-16.20.11:465][317]LogBlueprintUserMessages: [Harvester_C_0] 15.238779
+[2016.09.09-16.20.11:481][318]LogBlueprintUserMessages: [Harvester_C_0] 15.238779
+[2016.09.09-16.20.11:498][319]LogBlueprintUserMessages: [Harvester_C_0] 15.238779
+[2016.09.09-16.20.11:514][320]LogBlueprintUserMessages: [Harvester_C_0] 15.238779
+[2016.09.09-16.20.11:530][321]LogBlueprintUserMessages: [Harvester_C_0] 15.238779
+[2016.09.09-16.20.11:546][322]LogBlueprintUserMessages: [Harvester_C_0] 15.238779
+[2016.09.09-16.20.11:562][323]LogBlueprintUserMessages: [Harvester_C_0] 15.238779
+[2016.09.09-16.20.11:578][324]LogBlueprintUserMessages: [Harvester_C_0] 15.238779
+[2016.09.09-16.20.11:594][325]LogBlueprintUserMessages: [Harvester_C_0] 15.238779
+[2016.09.09-16.20.11:610][326]LogBlueprintUserMessages: [Harvester_C_0] 15.238779
+[2016.09.09-16.20.11:627][327]LogBlueprintUserMessages: [Harvester_C_0] 15.238779
+[2016.09.09-16.20.11:643][328]LogBlueprintUserMessages: [Harvester_C_0] 15.238779
+[2016.09.09-16.20.11:659][329]LogBlueprintUserMessages: [Harvester_C_0] 15.238779
+[2016.09.09-16.20.11:675][330]LogBlueprintUserMessages: [Harvester_C_0] 15.238779
+[2016.09.09-16.20.11:691][331]LogBlueprintUserMessages: [Harvester_C_0] 15.238779
+[2016.09.09-16.20.11:709][332]LogBlueprintUserMessages: [Harvester_C_0] 15.238779
+[2016.09.09-16.20.11:723][333]LogBlueprintUserMessages: [Harvester_C_0] 15.238779
+[2016.09.09-16.20.11:739][334]LogBlueprintUserMessages: [Harvester_C_0] 15.238779
+[2016.09.09-16.20.11:756][335]LogBlueprintUserMessages: [Harvester_C_0] 15.238779
+[2016.09.09-16.20.11:788][337]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.20.11:804][338]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.20.11:820][339]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.20.11:836][340]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.20.11:853][341]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.20.11:869][342]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.20.11:885][343]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.20.11:901][344]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.20.11:917][345]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.20.11:933][346]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.20.11:949][347]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.20.11:965][348]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.20.11:982][349]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.20.11:998][350]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.20.12:014][351]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.20.12:030][352]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.20.12:046][353]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.20.12:062][354]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.20.12:078][355]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.20.12:094][356]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.20.12:110][357]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.20.12:129][358]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.20.12:143][359]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.20.12:159][360]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.20.12:175][361]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.20.12:191][362]LogBlueprintUserMessages: [Harvester_C_0] 15.383218
+[2016.09.09-16.20.12:223][364]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.12:240][365]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.12:256][366]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.12:272][367]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.12:288][368]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.12:304][369]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.12:320][370]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.12:336][371]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.12:352][372]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.12:368][373]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.12:385][374]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.12:401][375]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.12:417][376]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.12:433][377]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.12:449][378]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.12:465][379]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.12:481][380]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.12:497][381]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.12:513][382]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.12:530][383]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.12:546][384]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.12:562][385]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.12:578][386]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.12:595][387]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.12:611][388]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.12:627][389]LogBlueprintUserMessages: [Harvester_C_0] 15.384589
+[2016.09.09-16.20.12:662][391]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.20.12:675][392]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.20.12:691][393]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.20.12:707][394]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.20.12:724][395]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.20.12:740][396]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.20.12:756][397]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.20.12:772][398]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.20.12:788][399]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.20.12:804][400]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.20.12:820][401]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.20.12:836][402]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.20.12:853][403]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.20.12:869][404]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.20.12:885][405]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.20.12:901][406]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.20.12:917][407]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.20.12:933][408]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.20.12:949][409]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.20.12:965][410]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.20.12:981][411]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.20.12:997][412]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.20.13:014][413]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.20.13:030][414]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.20.13:046][415]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.20.13:062][416]LogBlueprintUserMessages: [Harvester_C_0] 15.384594
+[2016.09.09-16.20.13:094][418]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.20.13:111][419]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.20.13:126][420]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.20.13:143][421]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.20.13:159][422]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.20.13:175][423]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.20.13:191][424]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.20.13:207][425]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.20.13:224][426]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.20.13:239][427]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.20.13:256][428]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.20.13:272][429]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.20.13:288][430]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.20.13:304][431]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.20.13:320][432]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.20.13:340][433]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.20.13:353][434]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.20.13:369][435]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.20.13:385][436]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.20.13:401][437]LogBlueprintUserMessages: [Harvester_C_0] 4.61537
+[2016.09.09-16.20.13:418][438]LogBlueprintUserMessages: [Harvester_C_0] 4.61537
+[2016.09.09-16.20.13:434][439]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.20.13:450][440]LogBlueprintUserMessages: [Harvester_C_0] 4.61537
+[2016.09.09-16.20.13:466][441]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.20.13:482][442]LogBlueprintUserMessages: [Harvester_C_0] 4.61537
+[2016.09.09-16.20.13:498][443]LogBlueprintUserMessages: [Harvester_C_0] 4.61537
+[2016.09.09-16.20.13:514][444]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.20.13:530][445]LogBlueprintUserMessages: [Harvester_C_0] 4.61537
+[2016.09.09-16.20.13:546][446]LogBlueprintUserMessages: [Harvester_C_0] 4.61537
+[2016.09.09-16.20.13:563][447]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.20.13:579][448]LogBlueprintUserMessages: [Harvester_C_0] 4.61537
+[2016.09.09-16.20.13:595][449]LogBlueprintUserMessages: [Harvester_C_0] 15.384565
+[2016.09.09-16.20.13:627][451]LogBlueprintUserMessages: [Harvester_C_0] 4.545068
+[2016.09.09-16.20.13:643][452]LogBlueprintUserMessages: [Harvester_C_0] 15.150228
+[2016.09.09-16.20.13:659][453]LogBlueprintUserMessages: [Harvester_C_0] 4.545068
+[2016.09.09-16.20.13:675][454]LogBlueprintUserMessages: [Harvester_C_0] 15.150228
+[2016.09.09-16.20.13:692][455]LogBlueprintUserMessages: [Harvester_C_0] 4.545068
+[2016.09.09-16.20.13:708][456]LogBlueprintUserMessages: [Harvester_C_0] 4.545068
+[2016.09.09-16.20.13:724][457]LogBlueprintUserMessages: [Harvester_C_0] 15.150228
+[2016.09.09-16.20.13:740][458]LogBlueprintUserMessages: [Harvester_C_0] 4.545068
+[2016.09.09-16.20.13:756][459]LogBlueprintUserMessages: [Harvester_C_0] 15.150228
+[2016.09.09-16.20.13:772][460]LogBlueprintUserMessages: [Harvester_C_0] 4.545068
+[2016.09.09-16.20.13:788][461]LogBlueprintUserMessages: [Harvester_C_0] 4.545068
+[2016.09.09-16.20.13:804][462]LogBlueprintUserMessages: [Harvester_C_0] 15.150228
+[2016.09.09-16.20.13:821][463]LogBlueprintUserMessages: [Harvester_C_0] 4.545068
+[2016.09.09-16.20.13:837][464]LogBlueprintUserMessages: [Harvester_C_0] 4.545068
+[2016.09.09-16.20.13:853][465]LogBlueprintUserMessages: [Harvester_C_0] 15.150228
+[2016.09.09-16.20.13:869][466]LogBlueprintUserMessages: [Harvester_C_0] 4.545068
+[2016.09.09-16.20.13:885][467]LogBlueprintUserMessages: [Harvester_C_0] 4.545068
+[2016.09.09-16.20.13:901][468]LogBlueprintUserMessages: [Harvester_C_0] 15.150228
+[2016.09.09-16.20.13:917][469]LogBlueprintUserMessages: [Harvester_C_0] 4.545068
+[2016.09.09-16.20.13:933][470]LogBlueprintUserMessages: [Harvester_C_0] 4.545068
+[2016.09.09-16.20.13:950][471]LogBlueprintUserMessages: [Harvester_C_0] 15.150228
+[2016.09.09-16.20.13:966][472]LogBlueprintUserMessages: [Harvester_C_0] 4.545068
+[2016.09.09-16.20.13:982][473]LogBlueprintUserMessages: [Harvester_C_0] 4.545068
+[2016.09.09-16.20.14:452][474]LogBlueprintUserMessages: [Harvester_C_0] 15.150228
+[2016.09.09-16.20.14:457][475]LogBlueprintUserMessages: [Harvester_C_0] 4.545068
+[2016.09.09-16.20.14:470][476]LogBlueprintUserMessages: [Harvester_C_0] 15.150228
+[2016.09.09-16.20.14:486][477]LogBlueprintUserMessages: [Harvester_C_0] 15.150228
+[2016.09.09-16.20.14:503][478]LogBlueprintUserMessages: [Harvester_C_0] 15.150228
+[2016.09.09-16.20.14:519][479]LogBlueprintUserMessages: [Harvester_C_0] 15.150228
+[2016.09.09-16.20.14:535][480]LogBlueprintUserMessages: [Harvester_C_0] 15.150228
+[2016.09.09-16.20.14:551][481]LogBlueprintUserMessages: [Harvester_C_0] 15.150228
+[2016.09.09-16.20.14:671][482]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.09.09-16.20.14:672][482]LogEngine: All Windows Closed
+[2016.09.09-16.20.14:672][482]LogWindows: FPlatformMisc::RequestExit(0)
+[2016.09.09-16.20.14:685][483]LogExit: Preparing to exit.
+[2016.09.09-16.20.14:855][483]LogExit: Game engine shut down
+[2016.09.09-16.20.14:856][483]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D9545AEF20
+[2016.09.09-16.20.15:024][483]LogExit: Object subsystem successfully closed.
+[2016.09.09-16.20.15:032][483]LogD3D11RHI: Shutdown
+[2016.09.09-16.20.15:032][483]LogD3D11RHI: CleanupD3DDevice
+[2016.09.09-16.20.15:048][483]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.09.09-16.20.15:058][483]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (115)
+[2016.09.09-16.20.15:199][483]LogModuleManager: Shutting down and abandoning module AutomationController (114)
+[2016.09.09-16.20.15:199][483]LogModuleManager: Shutting down and abandoning module AutomationWorker (113)
+[2016.09.09-16.20.15:199][483]LogModuleManager: Shutting down and abandoning module CharacterAI (112)
+[2016.09.09-16.20.15:199][483]LogModuleManager: Shutting down and abandoning module AITestSuite (111)
+[2016.09.09-16.20.15:199][483]LogModuleManager: Shutting down and abandoning module GameplayDebugger (110)
+[2016.09.09-16.20.15:199][483]LogModuleManager: Shutting down and abandoning module AIModule (109)
+[2016.09.09-16.20.15:199][483]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (108)
+[2016.09.09-16.20.15:199][483]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (107)
+[2016.09.09-16.20.15:199][483]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2016.09.09-16.20.15:408][483]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2016.09.09-16.20.15:408][483]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2016.09.09-16.20.15:408][483]LogModuleManager: Shutting down and abandoning module SteamVRController (103)
+[2016.09.09-16.20.15:408][483]LogModuleManager: Shutting down and abandoning module SteamVR (102)
+[2016.09.09-16.20.15:408][483]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (101)
+[2016.09.09-16.20.15:408][483]LogModuleManager: Shutting down and abandoning module OculusRift (100)
+[2016.09.09-16.20.15:408][483]LogModuleManager: Shutting down and abandoning module OculusLibrary (99)
+[2016.09.09-16.20.15:408][483]LogModuleManager: Shutting down and abandoning module LeapMotionController (98)
+[2016.09.09-16.20.15:416][483]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (97)
+[2016.09.09-16.20.15:416][483]LogModuleManager: Shutting down and abandoning module CableComponent (96)
+[2016.09.09-16.20.15:416][483]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (95)
+[2016.09.09-16.20.15:416][483]LogModuleManager: Shutting down and abandoning module HTML5Networking (94)
+[2016.09.09-16.20.15:416][483]LogModuleManager: Shutting down and abandoning module DesktopPlatform (93)
+[2016.09.09-16.20.15:416][483]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (92)
+[2016.09.09-16.20.15:416][483]LogModuleManager: Shutting down and abandoning module HotReload (91)
+[2016.09.09-16.20.15:416][483]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (90)
+[2016.09.09-16.20.15:416][483]LogModuleManager: Shutting down and abandoning module UObjectPlugin (89)
+[2016.09.09-16.20.15:416][483]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (88)
+[2016.09.09-16.20.15:416][483]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2016.09.09-16.20.15:416][483]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (86)
+[2016.09.09-16.20.15:416][483]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2016.09.09-16.20.15:416][483]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2016.09.09-16.20.15:416][483]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2016.09.09-16.20.15:416][483]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2016.09.09-16.20.15:416][483]LogModuleManager: Shutting down and abandoning module Media (81)
+[2016.09.09-16.20.15:416][483]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2016.09.09-16.20.15:417][483]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2016.09.09-16.20.15:417][483]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2016.09.09-16.20.15:417][483]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2016.09.09-16.20.15:417][483]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2016.09.09-16.20.15:417][483]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2016.09.09-16.20.15:417][483]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2016.09.09-16.20.15:417][483]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2016.09.09-16.20.15:417][483]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2016.09.09-16.20.15:417][483]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2016.09.09-16.20.15:417][483]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2016.09.09-16.20.15:417][483]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2016.09.09-16.20.15:417][483]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2016.09.09-16.20.15:417][483]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2016.09.09-16.20.15:417][483]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2016.09.09-16.20.15:418][483]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2016.09.09-16.20.15:418][483]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2016.09.09-16.20.15:418][483]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2016.09.09-16.20.15:418][483]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2016.09.09-16.20.15:418][483]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2016.09.09-16.20.15:418][483]LogModuleManager: Shutting down and abandoning module Core (59)
+[2016.09.09-16.20.15:418][483]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2016.09.09-16.20.15:418][483]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2016.09.09-16.20.15:418][483]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2016.09.09-16.20.15:418][483]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2016.09.09-16.20.15:418][483]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2016.09.09-16.20.15:781][483]LogDerivedDataCache: Shutdown
+[2016.09.09-16.20.15:781][483]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2016.09.09-16.20.15:781][483]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2016.09.09-16.20.15:781][483]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2016.09.09-16.20.15:781][483]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2016.09.09-16.20.15:781][483]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2016.09.09-16.20.15:781][483]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2016.09.09-16.20.15:781][483]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2016.09.09-16.20.15:781][483]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2016.09.09-16.20.15:781][483]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2016.09.09-16.20.15:781][483]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2016.09.09-16.20.15:781][483]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2016.09.09-16.20.15:781][483]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2016.09.09-16.20.15:781][483]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2016.09.09-16.20.15:781][483]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2016.09.09-16.20.15:782][483]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2016.09.09-16.20.15:782][483]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2016.09.09-16.20.15:782][483]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2016.09.09-16.20.15:782][483]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2016.09.09-16.20.15:782][483]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2016.09.09-16.20.15:782][483]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2016.09.09-16.20.15:782][483]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2016.09.09-16.20.15:782][483]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2016.09.09-16.20.15:782][483]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2016.09.09-16.20.15:782][483]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2016.09.09-16.20.15:782][483]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2016.09.09-16.20.15:782][483]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2016.09.09-16.20.15:782][483]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2016.09.09-16.20.15:782][483]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2016.09.09-16.20.15:782][483]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2016.09.09-16.20.15:782][483]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2016.09.09-16.20.15:782][483]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2016.09.09-16.20.15:782][483]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2016.09.09-16.20.15:782][483]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2016.09.09-16.20.15:782][483]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2016.09.09-16.20.15:782][483]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.09.09-16.20.15:782][483]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2016.09.09-16.20.15:782][483]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2016.09.09-16.20.15:782][483]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.09.09-16.20.15:782][483]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.09.09-16.20.15:782][483]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.09.09-16.20.15:782][483]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.09.09-16.20.15:782][483]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.09.09-16.20.15:782][483]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.09.09-16.20.15:782][483]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.09.09-16.20.15:782][483]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.09.09-16.20.15:782][483]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.09.09-16.20.15:782][483]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.09.09-16.20.15:782][483]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.09.09-16.20.15:782][483]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.09.09-16.20.15:782][483]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.09.09-16.20.15:782][483]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.09.09-16.20.15:782][483]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.09.09-16.20.15:783][483]LogExit: Exiting.
+[2016.09.09-16.20.15:784][483]Log file closed, 09/09/16 17:20:15
