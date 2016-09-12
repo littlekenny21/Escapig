@@ -1,0 +1,1078 @@
+﻿[2016.09.12-16.39.47:326][  0]Log file open, 09/12/16 17:39:47
+[2016.09.12-16.39.47:326][  0]LogInit:Display: Running engine for game: Escapig
+[2016.09.12-16.39.47:326][  0]LogInit:Display: RandInit(499318084) SRandInit(499318085).
+[2016.09.12-16.39.47:326][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.09.12-16.39.47:326][  0]LogStats: Stats thread started at 0.078146
+[2016.09.12-16.39.47:326][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.09.12-16.39.47:326][  0]LogInit: API Version: 2672455
+[2016.09.12-16.39.47:326][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.09.12-16.39.47:326][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.09.12-16.39.47:326][  0]LogInit: Build Configuration: Development
+[2016.09.12-16.39.47:326][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.09.12-16.39.47:326][  0]LogInit: Command line: 
+[2016.09.12-16.39.47:326][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.09.12-16.39.47:326][  0]LogInit: Rocket: 1
+[2016.09.12-16.39.47:341][  0]LogInit: Using libcurl 7.41.0
+[2016.09.12-16.39.47:341][  0]LogInit:  - built for x86_64-pc-win32
+[2016.09.12-16.39.47:341][  0]LogInit:  - supports SSL with WinSSL
+[2016.09.12-16.39.47:341][  0]LogInit:  - other features:
+[2016.09.12-16.39.47:341][  0]LogInit:      CURL_VERSION_SSL
+[2016.09.12-16.39.47:341][  0]LogInit:      CURL_VERSION_IPV6
+[2016.09.12-16.39.47:341][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.09.12-16.39.47:341][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.09.12-16.39.47:341][  0]LogInit:      CURL_VERSION_IDN
+[2016.09.12-16.39.47:341][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.09.12-16.39.47:341][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.09.12-16.39.47:341][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.09.12-16.39.47:341][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.09.12-16.39.47:341][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.09.12-16.39.47:347][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.09.12-16.39.47:353][  0]LogInit: Object subsystem initialized
+[2016.09.12-16.39.47:354][  0]LogInit: Selected Device Profile: [Windows]
+[2016.09.12-16.39.47:354][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.09.12-16.39.47:364][  0]LogInit: Computer: CE215-03
+[2016.09.12-16.39.47:364][  0]LogInit: User: u1355345
+[2016.09.12-16.39.47:364][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.09.12-16.39.47:364][  0]LogInit: High frequency timer resolution =3.507506 MHz
+[2016.09.12-16.39.47:364][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2016.09.12-16.39.47:364][  0]LogMemory: Platform Memory Stats for Windows
+[2016.09.12-16.39.47:364][  0]LogMemory: Process Physical Memory: 56.40 MB used, 56.40 MB peak
+[2016.09.12-16.39.47:364][  0]LogMemory: Process Virtual Memory: 58.41 MB used, 58.41 MB peak
+[2016.09.12-16.39.47:364][  0]LogMemory: Physical Memory: 5549.71 MB used, 16221.47 MB total
+[2016.09.12-16.39.47:364][  0]LogMemory: Virtual Memory: 400.88 MB used, 134217728.00 MB total
+[2016.09.12-16.39.47:394][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.09.12-16.39.48:120][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.09.12-16.39.48:120][  0]LogD3D11RHI: Adapter has 4008MB of dedicated video memory, 0MB of dedicated system memory, and 8110MB of shared system memory, 1 output[s]
+[2016.09.12-16.39.48:126][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2016.09.12-16.39.48:126][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 8110MB of shared system memory, 0 output[s]
+[2016.09.12-16.39.48:127][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.09.12-16.39.48:127][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8110MB of shared system memory, 0 output[s]
+[2016.09.12-16.39.48:127][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.09.12-16.39.48:131][  0]LogD3D11RHI: !Direct3DDevice
+[2016.09.12-16.39.48:131][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.09.12-16.39.48:143][  0]LogD3D11RHI: Async texture creation enabled
+[2016.09.12-16.39.48:158][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (F:/Escapig/Escapig/Intermediate/Shaders/WorkingDirectory/21344/).
+[2016.09.12-16.39.48:158][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'F:/Escapig/Escapig/Intermediate/Shaders/tmp/C3EB8A5E4F9C5A52C8024085692A7E04/'.
+[2016.09.12-16.39.48:158][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.09.12-16.39.49:179][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.09.12-16.39.49:184][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.09.12-16.39.49:194][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.09.12-16.39.49:200][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.09.12-16.39.49:206][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.09.12-16.39.49:210][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.09.12-16.39.49:213][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.09.12-16.39.49:218][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.09.12-16.39.49:223][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.09.12-16.39.49:228][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.09.12-16.39.49:231][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.09.12-16.39.49:235][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.09.12-16.39.49:235][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.09.12-16.39.49:253][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.09.12-16.39.49:257][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.09.12-16.39.49:260][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.09.12-16.39.49:264][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.09.12-16.39.49:264][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.09.12-16.39.49:366][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.09.12-16.39.49:424][  0]LogDerivedDataCache: Loaded boot cache 0.06s 57MB C:/Users/u1355345/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.09.12-16.39.49:424][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/u1355345/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.09.12-16.39.49:424][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/Escapig/Escapig/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.09.12-16.39.49:424][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.09.12-16.39.49:424][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/Escapig/Escapig/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.09.12-16.39.49:424][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.09.12-16.39.49:555][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.09.12-16.39.49:567][  0]LogDerivedDataCache: Using Local data cache path C:/Users/u1355345/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.09.12-16.39.49:748][  0]LogInit: Selected Device Profile: [Windows]
+[2016.09.12-16.39.49:750][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.09.12-16.39.49:867][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.09.12-16.39.49:867][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.09.12-16.39.50:095][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.09.12-16.39.50:894][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.09.12-16.39.50:992][  0]LogAssetRegistry: FAssetRegistry took 0.0105 seconds to start up
+[2016.09.12-16.39.51:207][  0]SourceControl: Info Source control is disabled
+[2016.09.12-16.39.51:208][  0]SourceControl: Info Source control is disabled
+[2016.09.12-16.39.51:228][  0]SourceControl: Info Source control is disabled
+[2016.09.12-16.39.51:245][  0]SourceControl: Info Source control is disabled
+[2016.09.12-16.39.51:442][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.09.12-16.39.51:555][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2016.09.12-16.39.51:555][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
+[2016.09.12-16.39.51:608][  0]LogEngine: Initializing Engine...
+[2016.09.12-16.39.51:611][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.09.12-16.39.51:611][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.09.12-16.39.51:711][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.09.12-16.39.51:719][  0]LogInit: XAudio2 using 'BenQ BL3200-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.09.12-16.39.51:724][  0]LogInit: FAudioDevice initialized.
+[2016.09.12-16.39.51:751][  0]LogDerivedDataCache: Saved boot cache 0.03s 57MB C:/Users/u1355345/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.09.12-16.39.51:754][  0]LogInit: Texture streaming: Enabled
+[2016.09.12-16.39.51:761][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.09.12-16.39.51:761][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.09.12-16.39.51:761][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId accc51a24ff71153305a8e93d6b12f26|00701ac0a72a49eb8431b8c5d052984e|73c7b1dc-5d0d-425a-9737-f9cf1294d9e5
+[2016.09.12-16.39.51:762][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.09.12-16.39.51:777][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.09.12-16.39.51:798][  0]LogInit: Transaction tracking system initialized
+[2016.09.12-16.39.51:835][  0]BlueprintLog: New page: Editor Load
+[2016.09.12-16.39.51:932][  0]LocalizationService: Info Localization service is disabled
+[2016.09.12-16.39.52:020][  0]LogConsoleResponse:Display: 
+[2016.09.12-16.39.52:139][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.09.12-16.39.52:209][  0]LogFileCache: Scanning file cache for directory 'F:/Escapig/Escapig/Content/' took 0.01s
+[2016.09.12-16.39.52:209][  0]SourceControl: Info Source control is disabled
+[2016.09.12-16.39.52:209][  0]Cmd: MAP LOAD FILE="F:/Escapig/Escapig/Content/Blueprints/Maps/Escapig_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.09.12-16.39.52:209][  0]LightingResults: New page: Lighting Build
+[2016.09.12-16.39.52:212][  0]MapCheck: New page: Map Check
+[2016.09.12-16.39.52:212][  0]LightingResults: New page: Lighting Build
+[2016.09.12-16.39.52:226][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006EC0C11620
+[2016.09.12-16.39.54:268][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Blueprints/BP_Wheat_Tile.BP_Wheat_Tile_C:UserConstructionScript; removing parent information, but keeping function
+[2016.09.12-16.39.57:016][  0]LogAIModule: Creating AISystem for world Escapig_Level
+[2016.09.12-16.39.57:021][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.09.12-16.39.57:022][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.09.12-16.39.57:137][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 115.28ms to complete.
+[2016.09.12-16.39.57:137][  0]LogFileHelpers: Loading map 'Escapig_Level' took 4.929
+[2016.09.12-16.39.57:223][  0]LogCollectionManager: Loaded 0 collections in 0.002019 seconds
+[2016.09.12-16.39.57:264][  0]LogFileCache: Scanning file cache for directory 'F:/Escapig/Escapig/Saved/Collections/' took 0.01s
+[2016.09.12-16.39.57:264][  0]LogFileCache: Scanning file cache for directory 'F:/Escapig/Escapig/Content/Developers/u1355345/Collections/' took 0.01s
+[2016.09.12-16.39.57:264][  0]LogFileCache: Scanning file cache for directory 'F:/Escapig/Escapig/Content/Collections/' took 0.01s
+[2016.09.12-16.39.57:264][  0]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 1867 classes and 333 folders.
+[2016.09.12-16.39.57:269][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.09.12-16.39.57:275][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.09.12-16.39.57:331][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.09.12-16.39.57:337][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.09.12-16.39.57:380][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.09.12-16.39.57:382][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.09.12-16.39.57:404][  0]LogLoad: Full Startup: 12.71 seconds (BP compile: 1.94 seconds)
+[2016.09.12-16.39.57:461][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.09.12-16.39.57:597][  1]LogRenderer: Reallocating scene render targets to support 884x600 (Frame:2).
+[2016.09.12-16.39.57:677][  2]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.39.57:677][  2]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.SkeletalMeshComponent_0:Pig_Anim_BP_C_0
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.39.57:678][  2]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.39.57:678][  2]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.SkeletalMeshComponent_0:Pig_Anim_BP_C_0
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.39.58:319][ 20]LogAssetRegistry: Asset discovery search completed in 7.3382 seconds
+[2016.09.12-16.39.58:319][ 20]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.09.12-16.39.58:319][ 20]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
+[2016.09.12-16.40.00:411][213]LogRenderer: Reallocating scene render targets to support 884x796 (Frame:249).
+[2016.09.12-16.40.08:651][495]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.08:651][495]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_1
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.08:667][497]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.08:667][497]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_2
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.08:686][499]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.08:686][499]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_3
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.08:702][501]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.08:702][501]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_4
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.08:719][503]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.08:719][503]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_5
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.08:738][505]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.08:738][505]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_6
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.08:754][507]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.08:754][507]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_7
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.08:771][509]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.08:771][509]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_8
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.08:788][511]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.08:788][511]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_9
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.08:806][513]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.08:807][513]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_10
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.08:823][515]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.08:823][515]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_11
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.08:842][517]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.08:842][517]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_12
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.08:861][519]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.08:861][519]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_13
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.08:881][521]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.08:881][521]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_14
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.08:898][523]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.08:898][523]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_15
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.08:915][525]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.08:915][525]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_16
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.08:932][527]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.08:932][527]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_17
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.08:948][529]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.08:948][529]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_18
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.08:964][531]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.08:964][531]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_19
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.08:982][533]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.08:982][533]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_20
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.08:998][535]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.08:998][535]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_21
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.09:015][537]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.09:015][537]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_22
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.09:032][539]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.09:032][539]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_23
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.09:048][541]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.09:048][541]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_24
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.09:065][543]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.09:065][543]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_25
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.09:082][545]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.09:082][545]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_26
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.09:098][547]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.09:098][547]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_27
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.09:115][549]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.09:115][549]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_28
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.09:132][551]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.09:132][551]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_29
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.09:148][553]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.09:149][553]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_30
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.09:165][555]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.09:165][555]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_31
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.09:182][557]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.09:182][557]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_32
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.09:198][559]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.09:198][559]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_33
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.09:215][561]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.09:215][561]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_34
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.09:231][563]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.09:231][563]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_35
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.09:248][565]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.09:248][565]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_36
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.09:265][567]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.09:265][567]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_37
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.09:282][569]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.09:282][569]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_38
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.09:298][571]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.09:298][571]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_39
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.09:315][573]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.09:315][573]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_40
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.09:332][575]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.09:332][575]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_41
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.09:349][577]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.09:349][577]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_42
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.09:365][579]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.09:365][579]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_43
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.09:381][581]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.09:382][581]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_44
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.09:398][583]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.09:398][583]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_45
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.09:415][585]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.09:415][585]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_46
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.09:432][587]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.09:432][587]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_47
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.09:448][589]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.09:448][589]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_48
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.09:465][591]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.09:465][591]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_49
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.09:481][593]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.09:481][593]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_50
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.09:498][595]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.09:498][595]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_51
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.09:515][597]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.09:515][597]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_52
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.09:531][599]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.09:532][599]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_53
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.09:548][601]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.09:548][601]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_54
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.09:565][603]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.09:565][603]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_55
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.09:581][605]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.09:581][605]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_56
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.09:598][607]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.09:598][607]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_57
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.09:615][609]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.09:615][609]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_58
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.09:631][611]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.09:631][611]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_59
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.09:648][613]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.09:648][613]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_60
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.09:765][627]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.09:765][627]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_61
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.09:782][629]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.09:782][629]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_62
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.09:799][631]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.09:799][631]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_63
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.13:347][779]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\u1355345\Downloads\Pig_bash (1).fbx)
+[2016.09.12-16.40.13:356][779]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.09.12-16.40.13:356][779]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.09.12-16.40.13:356][779]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.09.12-16.40.13:356][779]LogFbx: ItemName: NodeAttribute, ItemCount : 24
+[2016.09.12-16.40.13:356][779]LogFbx: ItemName: Model, ItemCount : 24
+[2016.09.12-16.40.13:356][779]LogFbx: ItemName: AnimationCurveNode, ItemCount : 119
+[2016.09.12-16.40.13:356][779]LogFbx: ItemName: CollectionExclusive, ItemCount : 1
+[2016.09.12-16.40.13:356][779]LogFbx: ItemName: AnimationCurve, ItemCount : 240
+[2016.09.12-16.40.13:362][779]LogFbx: Loading FBX Scene from C:\Users\u1355345\Downloads\Pig_bash (1).fbx
+[2016.09.12-16.40.13:380][779]LogFbx: FBX Scene Loaded Succesfully
+[2016.09.12-16.40.16:913][779]LogFbx: Loading FBX Scene from C:\Users\u1355345\Downloads\Pig_bash (1).fbx
+[2016.09.12-16.40.16:928][779]LogFbx: FBX Scene Loaded Succesfully
+[2016.09.12-16.40.16:931][779]LogFbx: SortedLinks :(0) root_hip_GRP
+[2016.09.12-16.40.16:931][779]LogFbx: SortedLinks :(1) Root_hip_result_JNT
+[2016.09.12-16.40.16:931][779]LogFbx: SortedLinks :(2) spin_result_JNT
+[2016.09.12-16.40.16:931][779]LogFbx: SortedLinks :(3) shoulder_result_JNT
+[2016.09.12-16.40.16:931][779]LogFbx: SortedLinks :(4) neck_result_JNT
+[2016.09.12-16.40.16:931][779]LogFbx: SortedLinks :(5) face_result_JNT
+[2016.09.12-16.40.16:931][779]LogFbx: SortedLinks :(6) joint20
+[2016.09.12-16.40.16:931][779]LogFbx: SortedLinks :(7) joint24
+[2016.09.12-16.40.16:931][779]LogFbx: SortedLinks :(8) joint25
+[2016.09.12-16.40.16:931][779]LogFbx: SortedLinks :(9) joint21
+[2016.09.12-16.40.16:931][779]LogFbx: SortedLinks :(10) joint22
+[2016.09.12-16.40.16:931][779]LogFbx: SortedLinks :(11) joint23
+[2016.09.12-16.40.16:931][779]LogFbx: SortedLinks :(12) front_left_thigh_result_JNT
+[2016.09.12-16.40.16:931][779]LogFbx: SortedLinks :(13) front_left_shin_result_JNT
+[2016.09.12-16.40.16:931][779]LogFbx: SortedLinks :(14) front_left_foot_result_JNT
+[2016.09.12-16.40.16:931][779]LogFbx: SortedLinks :(15) front_right_thigh_result_JNT
+[2016.09.12-16.40.16:931][779]LogFbx: SortedLinks :(16) front_right_shin_result_JNT
+[2016.09.12-16.40.16:931][779]LogFbx: SortedLinks :(17) front_right_foot_result_JNT
+[2016.09.12-16.40.16:931][779]LogFbx: SortedLinks :(18) tail_base_result_JNT
+[2016.09.12-16.40.16:931][779]LogFbx: SortedLinks :(19) tail_tip_result_JNT
+[2016.09.12-16.40.16:931][779]LogFbx: SortedLinks :(20) back_left_thigh_result_JNT
+[2016.09.12-16.40.16:931][779]LogFbx: SortedLinks :(21) back_left_shin_result_JNT
+[2016.09.12-16.40.16:931][779]LogFbx: SortedLinks :(22) back_right_thigh_result_JNT
+[2016.09.12-16.40.16:931][779]LogFbx: SortedLinks :(23) back_right_shin_result_JNT
+[2016.09.12-16.40.16:931][779]LogFbx: Parsing AnimStack Take 001
+[2016.09.12-16.40.16:932][779]LogLinker:Warning: Can't find file '/Game/Assets/Pig_Asset/Pig_anims/Pig_bash__1_'
+[2016.09.12-16.40.16:932][779]LogLinker:Warning: Can't find file '/Game/Assets/Pig_Asset/Pig_anims/Pig_bash__1_'
+[2016.09.12-16.40.16:932][779]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Assets/Pig_Asset/Pig_anims/Pig_bash__1_.Pig_bash__1_'
+[2016.09.12-16.40.24:371][657]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.09.12-16.40.24:371][657]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.09.12-16.40.24:372][657]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.09.12-16.40.26:786][657]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.26:786][657]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.SkeletalMeshComponent_1:Pig_Anim_BP_C_64
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.26:787][657]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.26:787][657]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.SkeletalMeshComponent_1:Pig_Anim_BP_C_64
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.28:631][865]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Maps/Escapig_Level" FILE="F:/Escapig/Escapig/Content/Blueprints/Maps/Escapig_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.09.12-16.40.28:635][865]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.09.12-16.40.28:635][865]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.09.12-16.40.28:761][865]LogSavePackage: Save=69.177361ms
+[2016.09.12-16.40.28:761][865]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/Escapig_Level5083607044539354B338AD9FDB680609.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Maps/Escapig_Level.umap'
+[2016.09.12-16.40.28:762][865]LogSavePackage: Total save time: 101.783432ms
+[2016.09.12-16.40.28:762][865]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Maps/Escapig_Level.umap
+[2016.09.12-16.40.34:731][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Pig_Asset/Pig_anims/Pig_bash" FILE="F:/Escapig/Escapig/Content/Assets/Pig_Asset/Pig_anims/Pig_bash.uasset" SILENT=true
+[2016.09.12-16.40.34:746][537]LogSavePackage: Save=11.394135ms
+[2016.09.12-16.40.34:746][537]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/Pig_bash2C21EC2C46A52EDA59E9CD9E4919CF87.tmp' to 'F:/Escapig/Escapig/Content/Assets/Pig_Asset/Pig_anims/Pig_bash.uasset'
+[2016.09.12-16.40.34:754][537]LogSavePackage: Total save time: 19.842017ms
+[2016.09.12-16.40.34:754][537]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Assets/Pig_Asset/Pig_anims/Pig_bash.uasset
+[2016.09.12-16.40.36:417][718]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Maps/Escapig_Level" FILE="F:/Escapig/Escapig/Content/Blueprints/Maps/Escapig_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.09.12-16.40.36:421][718]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.09.12-16.40.36:543][718]LogSavePackage: Save=70.455193ms
+[2016.09.12-16.40.36:543][718]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/Escapig_LevelD910589847F9DAFFF097A29157D82351.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Maps/Escapig_Level.umap'
+[2016.09.12-16.40.36:545][718]LogSavePackage: Total save time: 96.135259ms
+[2016.09.12-16.40.36:545][718]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Maps/Escapig_Level.umap
+[2016.09.12-16.40.40:171][932]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Pig_Asset/Pig_anims/Pig_bash__1_" FILE="F:/Escapig/Escapig/Content/Assets/Pig_Asset/Pig_anims/Pig_bash__1_.uasset" SILENT=true
+[2016.09.12-16.40.40:211][932]LogSavePackage: Save=3.618526ms
+[2016.09.12-16.40.40:211][932]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/Pig_bash__1_B41B780E408689CFCF8B83828E134EB3.tmp' to 'F:/Escapig/Escapig/Content/Assets/Pig_Asset/Pig_anims/Pig_bash__1_.uasset'
+[2016.09.12-16.40.40:218][932]LogSavePackage: Total save time: 10.486938ms
+[2016.09.12-16.40.40:218][932]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Assets/Pig_Asset/Pig_anims/Pig_bash__1_.uasset
+[2016.09.12-16.40.40:229][932]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.40:229][932]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.CharacterMesh0:Pig_Anim_BP_C_65
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.40:229][932]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.40.40:229][932]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.CharacterMesh0:Pig_Anim_BP_C_65
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.40.40:245][932]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.09.12-16.40.41:529][932]LogSavePackage: Save=1171.275513ms
+[2016.09.12-16.40.41:529][932]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/PigChar1E1D709F4BC20677A8E36AA462BC5C40.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.09.12-16.40.41:537][932]LogSavePackage: Total save time: 1287.854105ms
+[2016.09.12-16.40.41:537][932]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.09.12-16.40.41:540][932]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.09.12-16.40.41:573][932]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Maps/Escapig_Level" FILE="F:/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2016.09.12-16.40.41:674][932]LogSavePackage: Save=74.959244ms
+[2016.09.12-16.40.41:674][932]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/UEDPCEscapig_Level1B1765454A3883AC160909AE29C38018.tmp' to 'F:/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap'
+[2016.09.12-16.40.41:676][932]LogSavePackage: Total save time: 99.893771ms
+[2016.09.12-16.40.41:676][932]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap
+[2016.09.12-16.40.57:304][132]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.09.12-16.40.57:305][132]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2016.09.12-16.40.57:421][132]LogUObjectGlobals:Warning: Failed to find object 'Object /Engine/Tutorial/SubEditors/PersonaAnimEditorTutorial.PersonaAnimEditorTutorial_C'
+[2016.09.12-16.40.57:493][132]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.09.12-16.41.23:923][260]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.41.23:923][260]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.CharacterMesh0:Pig_Anim_BP_C_66
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.41.23:923][260]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.41.23:923][260]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.CharacterMesh0:Pig_Anim_BP_C_66
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.41.25:421][418]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.09.12-16.41.25:960][418]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 107 classes and 0 folders.
+[2016.09.12-16.41.26:337][418]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.09.12-16.41.31:185][738]BlueprintLog: New page: Compile PigChar
+[2016.09.12-16.41.32:437][738]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.09.12-16.41.32:551][738]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.09.12-16.41.32:553][738]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.09.12-16.41.32:554][738]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.09.12-16.41.32:554][738]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.09.12-16.41.32:615][738]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006ED749A480
+[2016.09.12-16.41.32:616][738]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006ED766B6A0
+[2016.09.12-16.41.32:617][738]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006ED83C3C40
+[2016.09.12-16.41.32:618][738]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006ED83C14E0
+[2016.09.12-16.41.32:647][738]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.09.12-16.41.32:652][738]BlueprintEditorCompileResults: Info [0107.96] Compile of PigChar successful! [in 1,467 ms]
+[2016.09.12-16.41.32:653][738]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.41.32:653][738]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.CharacterMesh0:Pig_Anim_BP_C_0
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.41.32:653][738]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.41.32:653][738]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.CharacterMesh0:Pig_Anim_BP_C_0
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.41.33:856][778]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.09.12-16.41.34:973][778]LogSavePackage: Save=1092.436646ms
+[2016.09.12-16.41.34:973][778]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/PigCharAD8D8E994953A54500DE7FADC47A2175.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.09.12-16.41.34:980][778]LogSavePackage: Total save time: 1120.541207ms
+[2016.09.12-16.41.34:980][778]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.09.12-16.41.35:567][829]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.09.12-16.41.35:655][829]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Maps/Escapig_Level" FILE="F:/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2016.09.12-16.41.35:760][829]LogSavePackage: Save=79.667145ms
+[2016.09.12-16.41.35:760][829]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/UEDPCEscapig_Level777A5E0545DBC33B18CF89AF87A6E3F6.tmp' to 'F:/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap'
+[2016.09.12-16.41.35:762][829]LogSavePackage: Total save time: 102.977157ms
+[2016.09.12-16.41.35:762][829]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap
+[2016.09.12-16.42.35:565][280]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.42.35:565][280]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.CharacterMesh0:Pig_Anim_BP_C_1
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.42.35:566][280]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.42.35:566][280]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.CharacterMesh0:Pig_Anim_BP_C_1
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.42.36:676][375]BlueprintLog: New page: Compile PigChar
+[2016.09.12-16.42.37:752][375]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.09.12-16.42.37:861][375]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.09.12-16.42.37:862][375]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.09.12-16.42.37:950][375]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.09.12-16.42.37:955][375]BlueprintEditorCompileResults: Info [0173.26] Compile of PigChar successful! [in 1,279 ms]
+[2016.09.12-16.42.37:956][375]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.42.37:956][375]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.CharacterMesh0:Pig_Anim_BP_C_0
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.42.37:956][375]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.42.37:956][375]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.CharacterMesh0:Pig_Anim_BP_C_0
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.42.39:110][423]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.09.12-16.42.40:322][423]LogSavePackage: Save=1147.523315ms
+[2016.09.12-16.42.40:322][423]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/PigChar3E34F5C54513B5DE8E7C6DB51EAFC4C2.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.09.12-16.42.40:331][423]LogSavePackage: Total save time: 1179.769043ms
+[2016.09.12-16.42.40:331][423]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.09.12-16.42.40:665][443]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.09.12-16.42.40:745][443]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Maps/Escapig_Level" FILE="F:/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2016.09.12-16.42.40:858][443]LogSavePackage: Save=80.830650ms
+[2016.09.12-16.42.40:858][443]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/UEDPCEscapig_Level4D4CBC734EEA46B29C6F9BA7F56BDFF5.tmp' to 'F:/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap'
+[2016.09.12-16.42.40:859][443]LogSavePackage: Total save time: 104.951780ms
+[2016.09.12-16.42.40:859][443]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap
+[2016.09.12-16.48.33:801][ 49]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.48.33:801][ 49]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.CharacterMesh0:Pig_Anim_BP_C_1
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.48.33:801][ 49]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.48.33:801][ 49]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.CharacterMesh0:Pig_Anim_BP_C_1
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.48.36:585][373]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.48.36:585][373]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_2
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.48.36:601][375]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.48.36:601][375]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_3
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.48.36:617][377]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.48.36:617][377]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_4
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.48.36:634][379]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.48.36:634][379]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_5
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.48.36:651][381]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.48.36:651][381]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_6
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.48.36:667][383]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.48.36:667][383]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_7
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.48.36:684][385]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.48.36:684][385]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_8
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.48.36:701][387]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.48.36:701][387]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_9
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.48.36:718][389]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.48.36:718][389]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_10
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.48.36:734][391]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.48.36:734][391]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_11
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.48.37:210][448]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.48.37:210][448]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_12
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.48.37:226][450]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.48.37:226][450]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_13
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.48.37:243][452]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.48.37:243][452]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_14
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.48.37:260][454]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.48.37:260][454]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_15
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.48.37:276][456]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.48.37:276][456]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_16
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.48.37:293][458]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.48.37:293][458]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_17
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.48.37:310][460]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.48.37:310][460]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_18
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.48.37:327][462]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.48.37:327][462]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_19
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.48.37:343][464]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.48.37:343][464]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_20
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.48.37:360][466]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.48.37:360][466]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_21
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.48.37:376][468]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.48.37:376][468]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_22
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.48.37:393][470]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.48.37:393][470]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_23
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.48.37:409][472]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.48.37:409][472]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_24
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.48.37:434][475]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.48.37:434][475]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_25
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.48.37:451][477]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.48.37:451][477]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_26
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.48.37:468][479]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.48.37:468][479]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_27
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.48.37:484][481]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.48.37:484][481]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_28
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.48.37:501][483]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.48.37:501][483]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_29
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.48.37:517][485]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.48.37:517][485]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_30
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.48.37:535][487]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.48.37:535][487]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_31
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.48.37:551][489]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.48.37:551][489]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_32
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.48.37:568][491]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.48.37:568][491]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_33
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.48.37:585][493]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.48.37:585][493]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_34
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.48.37:660][502]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.48.37:660][502]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_35
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.48.37:676][504]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.48.37:676][504]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_36
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.48.37:693][506]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.48.37:693][506]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_37
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.48.37:709][508]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.48.37:709][508]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Pig_Anim_BP_C_38
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.48.42:151][638]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\u1355345\Downloads\Pig_bash.fbx)
+[2016.09.12-16.48.42:160][638]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.09.12-16.48.42:160][638]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.09.12-16.48.42:160][638]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.09.12-16.48.42:160][638]LogFbx: ItemName: NodeAttribute, ItemCount : 24
+[2016.09.12-16.48.42:160][638]LogFbx: ItemName: Model, ItemCount : 24
+[2016.09.12-16.48.42:160][638]LogFbx: ItemName: AnimationCurveNode, ItemCount : 119
+[2016.09.12-16.48.42:160][638]LogFbx: ItemName: CollectionExclusive, ItemCount : 1
+[2016.09.12-16.48.42:160][638]LogFbx: ItemName: AnimationCurve, ItemCount : 240
+[2016.09.12-16.48.42:164][638]LogFbx: Loading FBX Scene from C:\Users\u1355345\Downloads\Pig_bash.fbx
+[2016.09.12-16.48.42:180][638]LogFbx: FBX Scene Loaded Succesfully
+[2016.09.12-16.48.45:817][638]LogFbx: Loading FBX Scene from C:\Users\u1355345\Downloads\Pig_bash.fbx
+[2016.09.12-16.48.45:836][638]LogFbx: FBX Scene Loaded Succesfully
+[2016.09.12-16.48.45:839][638]LogFbx: SortedLinks :(0) root_hip_GRP
+[2016.09.12-16.48.45:839][638]LogFbx: SortedLinks :(1) Root_hip_result_JNT
+[2016.09.12-16.48.45:839][638]LogFbx: SortedLinks :(2) spin_result_JNT
+[2016.09.12-16.48.45:839][638]LogFbx: SortedLinks :(3) shoulder_result_JNT
+[2016.09.12-16.48.45:839][638]LogFbx: SortedLinks :(4) neck_result_JNT
+[2016.09.12-16.48.45:839][638]LogFbx: SortedLinks :(5) face_result_JNT
+[2016.09.12-16.48.45:839][638]LogFbx: SortedLinks :(6) joint20
+[2016.09.12-16.48.45:839][638]LogFbx: SortedLinks :(7) joint24
+[2016.09.12-16.48.45:839][638]LogFbx: SortedLinks :(8) joint25
+[2016.09.12-16.48.45:839][638]LogFbx: SortedLinks :(9) joint21
+[2016.09.12-16.48.45:839][638]LogFbx: SortedLinks :(10) joint22
+[2016.09.12-16.48.45:839][638]LogFbx: SortedLinks :(11) joint23
+[2016.09.12-16.48.45:839][638]LogFbx: SortedLinks :(12) front_left_thigh_result_JNT
+[2016.09.12-16.48.45:839][638]LogFbx: SortedLinks :(13) front_left_shin_result_JNT
+[2016.09.12-16.48.45:839][638]LogFbx: SortedLinks :(14) front_left_foot_result_JNT
+[2016.09.12-16.48.45:839][638]LogFbx: SortedLinks :(15) front_right_thigh_result_JNT
+[2016.09.12-16.48.45:839][638]LogFbx: SortedLinks :(16) front_right_shin_result_JNT
+[2016.09.12-16.48.45:839][638]LogFbx: SortedLinks :(17) front_right_foot_result_JNT
+[2016.09.12-16.48.45:839][638]LogFbx: SortedLinks :(18) tail_base_result_JNT
+[2016.09.12-16.48.45:839][638]LogFbx: SortedLinks :(19) tail_tip_result_JNT
+[2016.09.12-16.48.45:839][638]LogFbx: SortedLinks :(20) back_left_thigh_result_JNT
+[2016.09.12-16.48.45:839][638]LogFbx: SortedLinks :(21) back_left_shin_result_JNT
+[2016.09.12-16.48.45:839][638]LogFbx: SortedLinks :(22) back_right_thigh_result_JNT
+[2016.09.12-16.48.45:839][638]LogFbx: SortedLinks :(23) back_right_shin_result_JNT
+[2016.09.12-16.48.45:839][638]LogFbx: Parsing AnimStack Take 001
+[2016.09.12-16.48.48:146][890]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.09.12-16.48.48:146][890]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2016.09.12-16.48.48:146][890]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.09.12-16.48.49:527][890]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Pig_Asset/Pig_anims/Pig_bash" FILE="F:/Escapig/Escapig/Content/Assets/Pig_Asset/Pig_anims/Pig_bash.uasset" SILENT=true
+[2016.09.12-16.48.49:565][890]LogSavePackage: Save=9.044603ms
+[2016.09.12-16.48.49:565][890]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/Pig_bash3918CEEE4A59888EB830EF81F4D25934.tmp' to 'F:/Escapig/Escapig/Content/Assets/Pig_Asset/Pig_anims/Pig_bash.uasset'
+[2016.09.12-16.48.49:571][890]LogSavePackage: Total save time: 40.500857ms
+[2016.09.12-16.48.49:571][890]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Assets/Pig_Asset/Pig_anims/Pig_bash.uasset
+[2016.09.12-16.48.49:632][890]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Maps/Escapig_Level" FILE="F:/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2016.09.12-16.48.49:744][890]LogSavePackage: Save=80.839493ms
+[2016.09.12-16.48.49:744][890]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/UEDPCEscapig_Level71FBB2914ECEFAD5EB3BB4A32649D199.tmp' to 'F:/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap'
+[2016.09.12-16.48.49:747][890]LogSavePackage: Total save time: 111.883488ms
+[2016.09.12-16.48.49:747][890]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap
+[2016.09.12-16.49.57:069][599]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.09.12-16.49.57:130][599]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.49.57:130][599]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.CharacterMesh0:Pig_Anim_BP_C_39
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.49.57:130][599]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.49.57:130][599]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.CharacterMesh0:Pig_Anim_BP_C_39
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.50.06:730][575]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.09.12-16.50.06:731][575]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.09.12-16.50.06:782][575]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.50.06:782][575]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.SkeletalMeshComponent_4:Pig_Anim_BP_C_40
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.50.06:783][575]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.50.06:783][575]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.SkeletalMeshComponent_4:Pig_Anim_BP_C_40
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.50.42:037][287]BlueprintLog: New page: Compile PigChar
+[2016.09.12-16.50.43:250][287]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.09.12-16.50.43:370][287]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.09.12-16.50.43:371][287]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2016.09.12-16.50.43:472][287]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.09.12-16.50.43:477][287]BlueprintEditorCompileResults: Info [0658.80] Compile of PigChar successful! [in 1,439 ms]
+[2016.09.12-16.50.43:479][287]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.50.43:479][287]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.CharacterMesh0:Pig_Anim_BP_C_0
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.50.43:479][287]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.50.43:479][287]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.CharacterMesh0:Pig_Anim_BP_C_0
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.50.44:197][320]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.09.12-16.50.45:616][320]LogSavePackage: Save=1242.813843ms
+[2016.09.12-16.50.45:617][320]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/PigChar134F62634D2C49FF4543998DEF8FED11.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.09.12-16.50.45:627][320]LogSavePackage: Total save time: 1387.400337ms
+[2016.09.12-16.50.45:627][320]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.09.12-16.50.49:046][677]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.09.12-16.50.49:047][677]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.09.12-16.50.49:103][677]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.50.49:103][677]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.SkeletalMeshComponent_5:Pig_Anim_BP_C_1
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.50.49:103][677]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.50.49:103][677]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.SkeletalMeshComponent_5:Pig_Anim_BP_C_1
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.51.13:891][462]BlueprintLog: New page: Compile PigChar
+[2016.09.12-16.51.15:014][462]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.09.12-16.51.15:143][462]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.09.12-16.51.15:144][462]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2016.09.12-16.51.15:253][462]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.09.12-16.51.15:260][462]BlueprintEditorCompileResults: Info [0690.58] Compile of PigChar successful! [in 1,369 ms]
+[2016.09.12-16.51.15:261][462]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.51.15:261][462]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.CharacterMesh0:Pig_Anim_BP_C_0
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.51.15:261][462]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.12-16.51.15:261][462]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Engine/Transient.CharacterMesh0:Pig_Anim_BP_C_0
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.12-16.51.15:680][463]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.09.12-16.51.16:892][463]LogSavePackage: Save=1183.962036ms
+[2016.09.12-16.51.16:892][463]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/PigChar291F366E4C8C21BCD20C318B0AC794FE.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.09.12-16.51.16:899][463]LogSavePackage: Total save time: 1216.541894ms
+[2016.09.12-16.51.16:899][463]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.09.12-16.51.17:214][485]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.09.12-16.51.18:351][485]LogSavePackage: Save=1110.006714ms
+[2016.09.12-16.51.18:351][485]LogSavePackage: Moving 'F:/Escapig/Escapig/Saved/PigChar9B138D7A4584AB0CBF11109F00D364CD.tmp' to 'F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.09.12-16.51.18:354][485]LogSavePackage: Total save time: 1136.644386ms
+[2016.09.12-16.51.18:354][485]LogSavePackage:Warning: Finished SavePackage F:/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.09.12-16.51.19:764][618]LogRenderer: Reallocating scene render targets to support 1616x808 (Frame:13341).
+[2016.09.12-16.51.25:903][352]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.09.12-16.51.26:074][352]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.09.12-16.51.26:359][353]Cmd: QUIT_EDITOR
+[2016.09.12-16.51.26:625][353]LogExit: Preparing to exit.
+[2016.09.12-16.51.27:188][353]LogExit: Editor shut down
+[2016.09.12-16.51.27:189][353]LogExit: Transaction tracking system shut down
+[2016.09.12-16.51.27:205][353]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006ED710EC00
+[2016.09.12-16.51.27:205][353]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006EDFC58720
+[2016.09.12-16.51.27:206][353]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006EDF2AE3E0
+[2016.09.12-16.51.27:206][353]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006EE9BB2FC0
+[2016.09.12-16.51.27:206][353]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006EEEEE77E0
+[2016.09.12-16.51.27:206][353]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006EDFC5A980
+[2016.09.12-16.51.27:206][353]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006EDFC5B7E0
+[2016.09.12-16.51.27:206][353]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006EDFC5AE80
+[2016.09.12-16.51.27:206][353]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006EDF8F54E0
+[2016.09.12-16.51.27:206][353]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006ECF6BC360
+[2016.09.12-16.51.27:461][353]LogExit: Object subsystem successfully closed.
+[2016.09.12-16.51.27:475][353]LogD3D11RHI: Shutdown
+[2016.09.12-16.51.27:475][353]LogD3D11RHI: CleanupD3DDevice
+[2016.09.12-16.51.27:533][353]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.09.12-16.51.27:553][353]LogModuleManager: Shutting down and abandoning module BlueprintGraph (198)
+[2016.09.12-16.51.27:553][353]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2016.09.12-16.51.27:553][353]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2016.09.12-16.51.27:553][353]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2016.09.12-16.51.27:553][353]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2016.09.12-16.51.27:553][353]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2016.09.12-16.51.27:560][353]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2016.09.12-16.51.27:560][353]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2016.09.12-16.51.27:560][353]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2016.09.12-16.51.27:560][353]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2016.09.12-16.51.27:560][353]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2016.09.12-16.51.27:560][353]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2016.09.12-16.51.27:560][353]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2016.09.12-16.51.27:560][353]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2016.09.12-16.51.27:560][353]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2016.09.12-16.51.27:560][353]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2016.09.12-16.51.27:560][353]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2016.09.12-16.51.27:560][353]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2016.09.12-16.51.27:560][353]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2016.09.12-16.51.27:560][353]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2016.09.12-16.51.27:560][353]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2016.09.12-16.51.27:561][353]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2016.09.12-16.51.27:561][353]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2016.09.12-16.51.27:561][353]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2016.09.12-16.51.27:561][353]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2016.09.12-16.51.27:561][353]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2016.09.12-16.51.27:561][353]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2016.09.12-16.51.28:125][353]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2016.09.12-16.51.28:125][353]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2016.09.12-16.51.28:125][353]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2016.09.12-16.51.28:125][353]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2016.09.12-16.51.28:125][353]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2016.09.12-16.51.28:125][353]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2016.09.12-16.51.28:125][353]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2016.09.12-16.51.28:125][353]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2016.09.12-16.51.28:125][353]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2016.09.12-16.51.28:125][353]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2016.09.12-16.51.28:125][353]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2016.09.12-16.51.28:125][353]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2016.09.12-16.51.28:125][353]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2016.09.12-16.51.28:125][353]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2016.09.12-16.51.28:125][353]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2016.09.12-16.51.28:125][353]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2016.09.12-16.51.28:125][353]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2016.09.12-16.51.28:125][353]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2016.09.12-16.51.28:125][353]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2016.09.12-16.51.28:125][353]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2016.09.12-16.51.28:125][353]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2016.09.12-16.51.28:125][353]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2016.09.12-16.51.28:126][353]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2016.09.12-16.51.28:126][353]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2016.09.12-16.51.28:126][353]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2016.09.12-16.51.28:126][353]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2016.09.12-16.51.28:126][353]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2016.09.12-16.51.28:126][353]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2016.09.12-16.51.28:126][353]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2016.09.12-16.51.28:126][353]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2016.09.12-16.51.28:126][353]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2016.09.12-16.51.28:126][353]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2016.09.12-16.51.28:126][353]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2016.09.12-16.51.28:126][353]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2016.09.12-16.51.28:126][353]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2016.09.12-16.51.28:126][353]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2016.09.12-16.51.28:126][353]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2016.09.12-16.51.28:126][353]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2016.09.12-16.51.28:126][353]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2016.09.12-16.51.28:126][353]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2016.09.12-16.51.28:126][353]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2016.09.12-16.51.28:126][353]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2016.09.12-16.51.28:127][353]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2016.09.12-16.51.28:127][353]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2016.09.12-16.51.28:127][353]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2016.09.12-16.51.28:127][353]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2016.09.12-16.51.28:127][353]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2016.09.12-16.51.28:127][353]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2016.09.12-16.51.28:127][353]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2016.09.12-16.51.28:127][353]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2016.09.12-16.51.28:354][353]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2016.09.12-16.51.28:354][353]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2016.09.12-16.51.28:354][353]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2016.09.12-16.51.28:354][353]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2016.09.12-16.51.28:354][353]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2016.09.12-16.51.28:354][353]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2016.09.12-16.51.28:354][353]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2016.09.12-16.51.28:354][353]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2016.09.12-16.51.28:367][353]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2016.09.12-16.51.28:367][353]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2016.09.12-16.51.28:367][353]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2016.09.12-16.51.28:367][353]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2016.09.12-16.51.28:368][353]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2016.09.12-16.51.28:368][353]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2016.09.12-16.51.28:368][353]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2016.09.12-16.51.28:368][353]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2016.09.12-16.51.28:368][353]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2016.09.12-16.51.28:368][353]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2016.09.12-16.51.28:368][353]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2016.09.12-16.51.28:368][353]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2016.09.12-16.51.28:368][353]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2016.09.12-16.51.28:368][353]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2016.09.12-16.51.28:368][353]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2016.09.12-16.51.28:368][353]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2016.09.12-16.51.28:368][353]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2016.09.12-16.51.28:368][353]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2016.09.12-16.51.28:368][353]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2016.09.12-16.51.28:368][353]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2016.09.12-16.51.28:368][353]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2016.09.12-16.51.28:368][353]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2016.09.12-16.51.28:368][353]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2016.09.12-16.51.28:369][353]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2016.09.12-16.51.28:370][353]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2016.09.12-16.51.28:374][353]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2016.09.12-16.51.29:077][353]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2016.09.12-16.51.29:078][353]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2016.09.12-16.51.29:078][353]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2016.09.12-16.51.29:179][353]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2016.09.12-16.51.29:179][353]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2016.09.12-16.51.29:179][353]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2016.09.12-16.51.29:181][353]LogModuleManager: Shutting down and abandoning module Media (81)
+[2016.09.12-16.51.29:181][353]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2016.09.12-16.51.29:181][353]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2016.09.12-16.51.29:181][353]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2016.09.12-16.51.29:181][353]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2016.09.12-16.51.29:181][353]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2016.09.12-16.51.29:181][353]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2016.09.12-16.51.29:181][353]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2016.09.12-16.51.29:181][353]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2016.09.12-16.51.29:181][353]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2016.09.12-16.51.29:181][353]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2016.09.12-16.51.29:181][353]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2016.09.12-16.51.29:181][353]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2016.09.12-16.51.29:181][353]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2016.09.12-16.51.29:181][353]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2016.09.12-16.51.29:181][353]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2016.09.12-16.51.29:183][353]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2016.09.12-16.51.29:183][353]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2016.09.12-16.51.29:183][353]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2016.09.12-16.51.29:183][353]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2016.09.12-16.51.29:183][353]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2016.09.12-16.51.29:183][353]LogModuleManager: Shutting down and abandoning module Core (59)
+[2016.09.12-16.51.29:183][353]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2016.09.12-16.51.29:183][353]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2016.09.12-16.51.29:183][353]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2016.09.12-16.51.29:183][353]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2016.09.12-16.51.29:185][353]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2016.09.12-16.51.29:264][353]LogDerivedDataCache: Shutdown
+[2016.09.12-16.51.29:264][353]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2016.09.12-16.51.29:264][353]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2016.09.12-16.51.29:264][353]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2016.09.12-16.51.29:264][353]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2016.09.12-16.51.29:264][353]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2016.09.12-16.51.29:264][353]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2016.09.12-16.51.29:264][353]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2016.09.12-16.51.29:264][353]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2016.09.12-16.51.29:264][353]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2016.09.12-16.51.29:264][353]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2016.09.12-16.51.29:264][353]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2016.09.12-16.51.29:264][353]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2016.09.12-16.51.29:264][353]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2016.09.12-16.51.29:264][353]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2016.09.12-16.51.29:264][353]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2016.09.12-16.51.29:264][353]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2016.09.12-16.51.29:264][353]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2016.09.12-16.51.29:264][353]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2016.09.12-16.51.29:264][353]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2016.09.12-16.51.29:264][353]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2016.09.12-16.51.29:264][353]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2016.09.12-16.51.29:264][353]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2016.09.12-16.51.29:264][353]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2016.09.12-16.51.29:264][353]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2016.09.12-16.51.29:264][353]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2016.09.12-16.51.29:264][353]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2016.09.12-16.51.29:264][353]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2016.09.12-16.51.29:264][353]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2016.09.12-16.51.29:264][353]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2016.09.12-16.51.29:264][353]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2016.09.12-16.51.29:264][353]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2016.09.12-16.51.29:264][353]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2016.09.12-16.51.29:264][353]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2016.09.12-16.51.29:265][353]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2016.09.12-16.51.29:265][353]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.09.12-16.51.29:265][353]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2016.09.12-16.51.30:266][353]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2016.09.12-16.51.30:266][353]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.09.12-16.51.30:266][353]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.09.12-16.51.30:266][353]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.09.12-16.51.30:266][353]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.09.12-16.51.30:266][353]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.09.12-16.51.30:269][353]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.09.12-16.51.30:269][353]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.09.12-16.51.30:269][353]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.09.12-16.51.30:269][353]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.09.12-16.51.30:269][353]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.09.12-16.51.30:269][353]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.09.12-16.51.30:269][353]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.09.12-16.51.30:269][353]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.09.12-16.51.30:269][353]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.09.12-16.51.30:269][353]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.09.12-16.51.30:271][353]LogExit: Exiting.
+[2016.09.12-16.51.30:274][353]Log file closed, 09/12/16 17:51:30
