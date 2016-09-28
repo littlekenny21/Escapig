@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<Version>1</Version>
+<ProcessId>11920</ProcessId>
+<IsInternalBuild>0</IsInternalBuild>
+<IsPerforceBuild>0</IsPerforceBuild>
+<IsSourceDistribution>0</IsSourceDistribution>
+<GameName>Escapig</GameName>
+<ExecutableName>UE4Editor</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<PlatformName>Windows</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Editor</EngineMode>
+<EngineVersion>4.9.2-2707645+++depot+UE4-Releases+4.9</EngineVersion>
+<CommandLine> </CommandLine>
+<LanguageLCID>2057</LanguageLCID>
+<DefaultLocale>en_GB</DefaultLocale>
+<IsUE4Release>1</IsUE4Release>
+<UserName></UserName>
+<BaseDir>C:/Program Files (x86)/Epic Games/4.9/Engine/Binaries/Win64/</BaseDir>
+<RootDir>C:/Program Files (x86)/Epic Games/4.9/</RootDir>
+<MachineId>DBE92233464F45EBC7E25F992DC4C27A</MachineId>
+<EpicAccountId>1585fa4d5cad45089f41d7213611afa3</EpicAccountId>
+<CallStack></CallStack>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<ErrorMessage>Fatal error: [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.9\Engine\Source\Runtime\Engine\Private\ShaderCompiler\ShaderCompiler.cpp] [Line: 552] 
+Could not rename the shader compiler transfer filename to 'C:/Users/Phill/Google Drive/Escapig_Local/Escapig/Escapig/Escapig/Intermediate/Shaders/tmp/14D6448A4FDD4A90EEE59E852B622D34/0/WorkerInputOnly.in' from 'C:/Users/Phill/Google Drive/Escapig_Local/Escapig/Escapig/Escapig/Intermediate/Shaders/tmp/14D6448A4FDD4A90EEE59E852B622D34/0F3B8147D49D8EFC583F7EFA026191105'.
+</ErrorMessage>
+<MiscNumberOfCores>2</MiscNumberOfCores>
+<MiscNumberOfCoresIncludingHyperthreads>4</MiscNumberOfCoresIncludingHyperthreads>
+<MiscIs64bitOperatingSystem>1</MiscIs64bitOperatingSystem>
+<MiscCPUVendor>GenuineIntel</MiscCPUVendor>
+<MiscCPUBrand>Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz</MiscCPUBrand>
+<MiscPrimaryGPUBrand>Intel(R) HD Graphics 520</MiscPrimaryGPUBrand>
+<MiscOSVersionMajor>Windows 10</MiscOSVersionMajor>
+<MiscOSVersionMinor></MiscOSVersionMinor>
+<CrashDumpMode>0</CrashDumpMode>
+<MemoryStatsTotalPhysical>8447459328</MemoryStatsTotalPhysical>
+<MemoryStatsTotalVirtual>140737488224256</MemoryStatsTotalVirtual>
+<MemoryStatsPageSize>4096</MemoryStatsPageSize>
+<MemoryStatsTotalPhysicalGB>8</MemoryStatsTotalPhysicalGB>
+<MemoryStatsAvailablePhysical>2646888448</MemoryStatsAvailablePhysical>
+<MemoryStatsAvailableVirtual>140734859685888</MemoryStatsAvailableVirtual>
+<MemoryStatsUsedPhysical>569860096</MemoryStatsUsedPhysical>
+<MemoryStatsPeakUsedPhysical>1357451264</MemoryStatsPeakUsedPhysical>
+<MemoryStatsUsedVirtual>1837469696</MemoryStatsUsedVirtual>
+<MemoryStatsPeakUsedVirtual>1969119232</MemoryStatsPeakUsedVirtual>
+<MemoryStatsbIsOOM>0</MemoryStatsbIsOOM>
+<MemoryStatsOOMAllocationSize>0</MemoryStatsOOMAllocationSize>
+<MemoryStatsOOMAllocationAlignment>0</MemoryStatsOOMAllocationAlignment>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+</PlatformProperties>
+</FGenericCrashContext>
