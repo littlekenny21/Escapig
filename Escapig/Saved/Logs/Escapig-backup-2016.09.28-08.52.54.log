@@ -1,0 +1,910 @@
+﻿[2016.09.25-16.58.30:404][  0]Log file open, 09/25/16 17:58:30
+[2016.09.25-16.58.30:404][  0]LogInit:Display: Running engine for game: Escapig
+[2016.09.25-16.58.30:404][  0]LogInit:Display: RandInit(-459501133) SRandInit(-459501132).
+[2016.09.25-16.58.30:404][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.09.25-16.58.30:404][  0]LogStats: Stats thread started at 0.067472
+[2016.09.25-16.58.30:404][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.09.25-16.58.30:404][  0]LogInit: API Version: 2672455
+[2016.09.25-16.58.30:404][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.09.25-16.58.30:404][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.09.25-16.58.30:404][  0]LogInit: Build Configuration: Development
+[2016.09.25-16.58.30:404][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.09.25-16.58.30:404][  0]LogInit: Command line:  
+[2016.09.25-16.58.30:404][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.09.25-16.58.30:404][  0]LogInit: Rocket: 1
+[2016.09.25-16.58.30:415][  0]LogInit: Using libcurl 7.41.0
+[2016.09.25-16.58.30:415][  0]LogInit:  - built for x86_64-pc-win32
+[2016.09.25-16.58.30:415][  0]LogInit:  - supports SSL with WinSSL
+[2016.09.25-16.58.30:415][  0]LogInit:  - other features:
+[2016.09.25-16.58.30:415][  0]LogInit:      CURL_VERSION_SSL
+[2016.09.25-16.58.30:415][  0]LogInit:      CURL_VERSION_IPV6
+[2016.09.25-16.58.30:415][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.09.25-16.58.30:415][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.09.25-16.58.30:415][  0]LogInit:      CURL_VERSION_IDN
+[2016.09.25-16.58.30:415][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.09.25-16.58.30:415][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.09.25-16.58.30:415][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.09.25-16.58.30:415][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.09.25-16.58.30:415][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.09.25-16.58.30:421][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.09.25-16.58.30:426][  0]LogInit: Object subsystem initialized
+[2016.09.25-16.58.30:427][  0]LogInit: Selected Device Profile: [Windows]
+[2016.09.25-16.58.30:428][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.09.25-16.58.30:439][  0]LogInit: Computer: COMPUTE-98JEH1J
+[2016.09.25-16.58.30:439][  0]LogInit: User: TheDesigner
+[2016.09.25-16.58.30:439][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.09.25-16.58.30:439][  0]LogInit: High frequency timer resolution =3.513642 MHz
+[2016.09.25-16.58.30:439][  0]LogMemory: Memory total: Physical=23.9GB (24GB approx)
+[2016.09.25-16.58.30:439][  0]LogMemory: Platform Memory Stats for Windows
+[2016.09.25-16.58.30:439][  0]LogMemory: Process Physical Memory: 55.16 MB used, 55.16 MB peak
+[2016.09.25-16.58.30:439][  0]LogMemory: Process Virtual Memory: 57.41 MB used, 57.41 MB peak
+[2016.09.25-16.58.30:439][  0]LogMemory: Physical Memory: 3755.92 MB used, 24514.65 MB total
+[2016.09.25-16.58.30:439][  0]LogMemory: Virtual Memory: 337.63 MB used, 8388608.00 MB total
+[2016.09.25-16.58.30:601][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2016.09.25-16.58.31:218][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.09.25-16.58.31:218][  0]LogD3D11RHI: Adapter has 4007MB of dedicated video memory, 0MB of dedicated system memory, and 12001MB of shared system memory, 1 output[s]
+[2016.09.25-16.58.31:236][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.09.25-16.58.31:236][  0]LogD3D11RHI: Adapter has 4007MB of dedicated video memory, 0MB of dedicated system memory, and 12001MB of shared system memory, 1 output[s]
+[2016.09.25-16.58.31:236][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.09.25-16.58.31:240][  0]LogD3D11RHI: !Direct3DDevice
+[2016.09.25-16.58.31:240][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.09.25-16.58.31:249][  0]LogD3D11RHI: Async texture creation enabled
+[2016.09.25-16.58.31:263][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Intermediate/Shaders/WorkingDirectory/2536/).
+[2016.09.25-16.58.31:263][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Intermediate/Shaders/tmp/47073DB34CBF8FD75C9C7489652AEB0C/'.
+[2016.09.25-16.58.31:263][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.09.25-16.58.39:314][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.09.25-16.58.39:319][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.09.25-16.58.39:323][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.09.25-16.58.39:327][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.09.25-16.58.39:332][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.09.25-16.58.39:361][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.09.25-16.58.39:364][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.09.25-16.58.39:367][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.09.25-16.58.39:369][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.09.25-16.58.39:372][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.09.25-16.58.39:375][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.09.25-16.58.39:378][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.09.25-16.58.39:379][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.09.25-16.58.39:420][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.09.25-16.58.39:423][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.09.25-16.58.39:426][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.09.25-16.58.39:431][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.09.25-16.58.39:431][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.09.25-16.58.39:676][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.09.25-16.58.39:891][  0]LogDerivedDataCache: Loaded boot cache 0.21s 37MB C:/Users/TheDesigner/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.09.25-16.58.39:891][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/TheDesigner/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.09.25-16.58.39:891][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.09.25-16.58.39:891][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.09.25-16.58.39:891][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.09.25-16.58.39:891][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.09.25-16.58.40:112][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.09.25-16.58.40:123][  0]LogDerivedDataCache: Using Local data cache path C:/Users/TheDesigner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.09.25-16.58.42:286][  0]LogInit: Selected Device Profile: [Windows]
+[2016.09.25-16.58.42:287][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.09.25-16.58.42:451][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.09.25-16.58.42:451][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.09.25-16.58.44:400][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.09.25-16.59.05:615][  0]LogAssetRegistry: FAssetRegistry took 0.0097 seconds to start up
+[2016.09.25-16.59.05:663][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.09.25-16.59.07:317][  0]SourceControl: Info Source control is disabled
+[2016.09.25-16.59.07:318][  0]SourceControl: Info Source control is disabled
+[2016.09.25-16.59.07:326][  0]SourceControl: Info Source control is disabled
+[2016.09.25-16.59.07:333][  0]SourceControl: Info Source control is disabled
+[2016.09.25-16.59.08:196][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.09.25-16.59.08:358][  0]LogObj: 28528 objects as part of root set at end of initial load.
+[2016.09.25-16.59.08:358][  0]LogUObjectAllocator: 6068456 out of 0 bytes used by permanent object pool.
+[2016.09.25-16.59.08:590][  0]LogEngine: Initializing Engine...
+[2016.09.25-16.59.08:593][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.09.25-16.59.08:618][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.09.25-16.59.09:392][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.09.25-16.59.09:400][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.25-16.59.09:409][  0]LogInit: FAudioDevice initialized.
+[2016.09.25-16.59.09:426][  0]LogDerivedDataCache: Saved boot cache 0.02s 37MB C:/Users/TheDesigner/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.09.25-16.59.09:429][  0]LogInit: Texture streaming: Enabled
+[2016.09.25-16.59.09:433][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.09.25-16.59.09:433][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.09.25-16.59.09:433][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 9f17aa5a4edb8693b65090bbb08a6b07|b58a2ca1649743a9a1927d5a89cf58c5|063ce779-e01c-4a0d-ba26-62288f5751f4
+[2016.09.25-16.59.09:433][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.09.25-16.59.09:449][  0]LogInit: Transaction tracking system initialized
+[2016.09.25-16.59.09:471][  0]BlueprintLog: New page: Editor Load
+[2016.09.25-16.59.09:687][  0]LocalizationService: Info Localization service is disabled
+[2016.09.25-16.59.10:291][  0]LogConsoleResponse:Display: 
+[2016.09.25-16.59.13:022][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.09.25-16.59.13:782][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/' took 0.01s
+[2016.09.25-16.59.13:782][  0]SourceControl: Info Source control is disabled
+[2016.09.25-16.59.13:782][  0]Cmd: MAP LOAD FILE="../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Maps/Escapig_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.09.25-16.59.13:783][  0]LightingResults: New page: Lighting Build
+[2016.09.25-16.59.13:785][  0]MapCheck: New page: Map Check
+[2016.09.25-16.59.13:785][  0]LightingResults: New page: Lighting Build
+[2016.09.25-16.59.13:794][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000251E89A0
+[2016.09.25-16.59.20:152][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Blueprints/BP_Wheat_Tile.BP_Wheat_Tile_C:UserConstructionScript; removing parent information, but keeping function
+[2016.09.25-16.59.24:884][  0]LogTexture:Display: Building textures: Cobble_Stone_Floor (AutoDXT)
+[2016.09.25-16.59.24:963][  0]LogMaterial: Missing cached shader map for material Cobblestone2, compiling. 
+[2016.09.25-16.59.24:982][  0]LogStaticMesh: Building static mesh Hay_kart...
+[2016.09.25-16.59.25:161][  0]LogStaticMesh: Built static mesh [0.178742.2s] /Game/Assets/Obsticles/Hay_kart.Hay_kart
+[2016.09.25-16.59.25:317][  0]LogTexture:Display: Building textures: Hay_Kart_0 (AutoDXT)
+[2016.09.25-16.59.25:645][  0]LogMaterial: Missing cached shader map for material Hay_Kart_mat, compiling. 
+[2016.09.25-16.59.25:742][  0]LogTexture:Display: Building textures: Dirt_Floor (AutoDXT)
+[2016.09.25-16.59.26:201][  0]LogTexture:Display: Building textures: bush02_diff (AutoDXT)
+[2016.09.25-16.59.28:058][  0]LogMaterial: Missing cached shader map for material bush_diff_Mat, compiling. 
+[2016.09.25-16.59.28:071][  0]LogTexture:Display: Building textures: Foresty_floor (AutoDXT)
+[2016.09.25-16.59.28:858][  0]LogTexture:Display: Building textures: grassy_floor (AutoDXT)
+[2016.09.25-16.59.29:013][  0]LogMaterial: Missing cached shader map for material Grass_floor_Mat, compiling. 
+[2016.09.25-16.59.29:320][  0]LogTexture:Display: Building textures: LOadingSCreen (AutoDXT)
+[2016.09.25-16.59.29:624][  0]LogTexture:Display: Building textures: Cobble_Stone_Floor_01 (AutoDXT)
+[2016.09.25-16.59.29:721][  0]LogMaterial: Missing cached shader map for material Cobblestone, compiling. 
+[2016.09.25-16.59.30:278][  0]LogMaterial: Missing cached shader map for material Forest_floor, compiling. 
+[2016.09.25-16.59.31:168][  0]LogTexture:Display: Building textures: Pig_Meatpig (AutoDXT)
+[2016.09.25-16.59.31:761][  0]LogAIModule: Creating AISystem for world Escapig_Level
+[2016.09.25-16.59.31:799][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.09.25-16.59.31:799][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.09.25-16.59.31:866][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 66.832ms to complete.
+[2016.09.25-16.59.31:866][  0]LogFileHelpers: Loading map 'Escapig_Level' took 18.083
+[2016.09.25-16.59.32:247][  0]LogCollectionManager: Loaded 0 collections in 0.001809 seconds
+[2016.09.25-16.59.32:283][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Collections/' took 0.01s
+[2016.09.25-16.59.32:283][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Developers/TheDesigner/Collections/' took 0.01s
+[2016.09.25-16.59.32:283][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Collections/' took 0.01s
+[2016.09.25-16.59.32:283][  0]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 1882 classes and 339 folders.
+[2016.09.25-16.59.32:291][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.09.25-16.59.32:296][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.09.25-16.59.33:994][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.09.25-16.59.33:997][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.09.25-16.59.34:234][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.09.25-16.59.34:240][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.09.25-16.59.34:260][  0]LogLoad: Full Startup: 64.54 seconds (BP compile: 1.92 seconds)
+[2016.09.25-16.59.34:519][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.09.25-16.59.34:656][  0]LogRenderer: Reallocating scene render targets to support 1208x556 (Frame:2).
+[2016.09.25-16.59.35:449][ 20]LogAssetRegistry: Asset discovery search completed in 29.8438 seconds
+[2016.09.25-16.59.35:449][ 20]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.09.25-16.59.35:449][ 20]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
+[2016.09.25-17.08.59:257][776]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\TheDesigner\Desktop\Images\Winter_Pig.png)
+[2016.09.25-17.08.59:479][776]LogTexture:Display: Building textures: Winter_Pig (AutoDXT)
+[2016.09.25-17.08.59:990][776]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\TheDesigner\Desktop\Images\Aqua_Pig.png)
+[2016.09.25-17.09.00:187][776]LogTexture:Display: Building textures: Aqua_Pig (AutoDXT)
+[2016.09.25-17.09.00:609][776]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\TheDesigner\Desktop\Images\Camo_Pig.png)
+[2016.09.25-17.09.00:859][776]LogTexture:Display: Building textures: Camo_Pig (AutoDXT)
+[2016.09.25-17.09.03:110][776]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\TheDesigner\Desktop\Images\Dark_Pig.png)
+[2016.09.25-17.09.03:308][776]LogTexture:Display: Building textures: Dark_Pig (AutoDXT)
+[2016.09.25-17.09.03:653][776]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\TheDesigner\Desktop\Images\Egypt_Pig.png)
+[2016.09.25-17.09.03:853][776]LogTexture:Display: Building textures: Egypt_Pig (AutoDXT)
+[2016.09.25-17.09.04:312][776]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\TheDesigner\Desktop\Images\Neon_Pig.png)
+[2016.09.25-17.09.04:507][776]LogTexture:Display: Building textures: Neon_Pig (AutoDXT)
+[2016.09.25-17.09.04:779][776]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\TheDesigner\Desktop\Images\SunBurnt_Pig.png)
+[2016.09.25-17.09.04:978][776]LogTexture:Display: Building textures: SunBurnt_Pig (AutoDXT)
+[2016.09.25-17.09.35:259][866]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.09.25-17.09.35:259][866]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.09.25-17.09.35:447][866]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Blueprints/Maps/Escapig_Level' took 0.188
+[2016.09.25-17.09.35:452][866]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Pig_Asset/Skins/Winter_Pig] ([1] browsable assets)...
+[2016.09.25-17.09.35:464][866]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/Pig_Asset/Skins/Winter_Pig.Winter_Pig]
+[2016.09.25-17.09.35:464][866]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Pig_Asset/Skins/Winter_Pig]
+[2016.09.25-17.09.35:476][866]LogSavePackage: Save=9.873516ms
+[2016.09.25-17.09.35:476][866]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Winter_Pig_Auto106D2C2E144A18C53DFDF0E897B917BCD.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Assets/Pig_Asset/Skins/Winter_Pig_Auto1.uasset'
+[2016.09.25-17.09.35:477][866]LogSavePackage: Total save time: 11.020474ms
+[2016.09.25-17.09.35:477][866]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Assets/Pig_Asset/Skins/Winter_Pig_Auto1.uasset
+[2016.09.25-17.09.35:481][866]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Pig_Asset/Skins/Aqua_Pig] ([1] browsable assets)...
+[2016.09.25-17.09.35:490][866]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/Pig_Asset/Skins/Aqua_Pig.Aqua_Pig]
+[2016.09.25-17.09.35:490][866]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Pig_Asset/Skins/Aqua_Pig]
+[2016.09.25-17.09.35:499][866]LogSavePackage: Save=8.489482ms
+[2016.09.25-17.09.35:500][866]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Aqua_Pig_Auto16DEE1905401DEC6FEEC8DD96DA1A9E69.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Assets/Pig_Asset/Skins/Aqua_Pig_Auto1.uasset'
+[2016.09.25-17.09.35:500][866]LogSavePackage: Total save time: 9.588342ms
+[2016.09.25-17.09.35:500][866]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Assets/Pig_Asset/Skins/Aqua_Pig_Auto1.uasset
+[2016.09.25-17.09.35:504][866]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Pig_Asset/Skins/Camo_Pig] ([1] browsable assets)...
+[2016.09.25-17.09.35:512][866]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/Pig_Asset/Skins/Camo_Pig.Camo_Pig]
+[2016.09.25-17.09.35:512][866]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Pig_Asset/Skins/Camo_Pig]
+[2016.09.25-17.09.35:528][866]LogSavePackage: Save=14.846418ms
+[2016.09.25-17.09.35:528][866]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Camo_Pig_Auto1347825974BE6DD8849D8E9A30BFAA4FB.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Assets/Pig_Asset/Skins/Camo_Pig_Auto1.uasset'
+[2016.09.25-17.09.35:529][866]LogSavePackage: Total save time: 16.389545ms
+[2016.09.25-17.09.35:529][866]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Assets/Pig_Asset/Skins/Camo_Pig_Auto1.uasset
+[2016.09.25-17.09.35:533][866]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Pig_Asset/Skins/Dark_Pig] ([1] browsable assets)...
+[2016.09.25-17.09.35:540][866]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/Pig_Asset/Skins/Dark_Pig.Dark_Pig]
+[2016.09.25-17.09.35:540][866]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Pig_Asset/Skins/Dark_Pig]
+[2016.09.25-17.09.35:550][866]LogSavePackage: Save=9.605988ms
+[2016.09.25-17.09.35:550][866]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Dark_Pig_Auto1F07018044EA97D4F4E80C5948B881C42.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Assets/Pig_Asset/Skins/Dark_Pig_Auto1.uasset'
+[2016.09.25-17.09.35:551][866]LogSavePackage: Total save time: 10.773152ms
+[2016.09.25-17.09.35:551][866]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Assets/Pig_Asset/Skins/Dark_Pig_Auto1.uasset
+[2016.09.25-17.09.35:555][866]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Pig_Asset/Skins/Egypt_Pig] ([1] browsable assets)...
+[2016.09.25-17.09.35:563][866]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/Pig_Asset/Skins/Egypt_Pig.Egypt_Pig]
+[2016.09.25-17.09.35:563][866]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Pig_Asset/Skins/Egypt_Pig]
+[2016.09.25-17.09.35:574][866]LogSavePackage: Save=9.225185ms
+[2016.09.25-17.09.35:574][866]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Egypt_Pig_Auto15FDAC93048432A98ADD711BDCDC0D0B5.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Assets/Pig_Asset/Skins/Egypt_Pig_Auto1.uasset'
+[2016.09.25-17.09.35:575][866]LogSavePackage: Total save time: 10.273386ms
+[2016.09.25-17.09.35:575][866]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Assets/Pig_Asset/Skins/Egypt_Pig_Auto1.uasset
+[2016.09.25-17.09.35:578][866]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Pig_Asset/Skins/Neon_Pig] ([1] browsable assets)...
+[2016.09.25-17.09.35:584][866]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/Pig_Asset/Skins/Neon_Pig.Neon_Pig]
+[2016.09.25-17.09.35:584][866]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Pig_Asset/Skins/Neon_Pig]
+[2016.09.25-17.09.35:594][866]LogSavePackage: Save=8.432561ms
+[2016.09.25-17.09.35:594][866]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Neon_Pig_Auto1ABC541784CEC869B50769BB107D69041.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Assets/Pig_Asset/Skins/Neon_Pig_Auto1.uasset'
+[2016.09.25-17.09.35:595][866]LogSavePackage: Total save time: 9.488162ms
+[2016.09.25-17.09.35:595][866]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Assets/Pig_Asset/Skins/Neon_Pig_Auto1.uasset
+[2016.09.25-17.09.35:598][866]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Pig_Asset/Skins/SunBurnt_Pig] ([1] browsable assets)...
+[2016.09.25-17.09.35:607][866]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/Pig_Asset/Skins/SunBurnt_Pig.SunBurnt_Pig]
+[2016.09.25-17.09.35:607][866]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Pig_Asset/Skins/SunBurnt_Pig]
+[2016.09.25-17.09.35:617][866]LogSavePackage: Save=8.828731ms
+[2016.09.25-17.09.35:617][866]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/SunBurnt_Pig_Auto13D533821453B324682D07CBDC5A2FBA1.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Assets/Pig_Asset/Skins/SunBurnt_Pig_Auto1.uasset'
+[2016.09.25-17.09.35:618][866]LogSavePackage: Total save time: 9.838797ms
+[2016.09.25-17.09.35:618][866]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Assets/Pig_Asset/Skins/SunBurnt_Pig_Auto1.uasset
+[2016.09.25-17.09.35:618][866]LogFileHelpers: Auto-saving content packages took 0.170
+[2016.09.25-17.18.32:641][971]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.09.25-17.18.32:641][971]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.09.25-17.18.58:326][660]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.09.25-17.18.58:326][660]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.09.25-17.19.10:466][ 88]LogTexture:Display: Building textures: Pig_BarCode (AutoDXT)
+[2016.09.25-17.19.19:057][808]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.09.25-17.19.19:057][808]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2016.09.25-17.19.35:077][454]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.09.25-17.19.35:077][454]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2016.09.25-17.20.05:728][885]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.09.25-17.20.05:728][885]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2016.09.25-17.20.16:687][143]LogRenderer: Reallocating scene render targets to support 1528x920 (Frame:78201).
+[2016.09.25-17.20.34:205][949]LogSavePackage: Save=3.993008ms
+[2016.09.25-17.20.34:205][949]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/SunBurnt_Pig_Sprite13F285454CD0D529040808839244C74D.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_Sprite.uasset'
+[2016.09.25-17.20.34:207][949]LogSavePackage: Total save time: 32.405976ms
+[2016.09.25-17.20.34:207][949]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_Sprite.uasset
+[2016.09.25-17.20.49:993][813]LogLinker:Warning: Can't find file '/Game/Assets/Pig_Asset/Skins/SunBurnt_Pig'
+[2016.09.25-17.20.49:993][813]LogLinker:Warning: Can't find file for asset '/Game/Assets/Pig_Asset/Skins/SunBurnt_Pig' while loading ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_Sprite.uasset.
+[2016.09.25-17.20.49:993][813]LoadErrors:Error: Error /Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_Sprite : Can't find file for asset. /Game/Assets/Pig_Asset/Skins/SunBurnt_Pig
+[2016.09.25-17.20.49:993][813]LogLinker:Warning: Can't find file '/Game/Assets/Pig_Asset/Skins/SunBurnt_Pig'
+[2016.09.25-17.20.49:994][813]LogLinker:Warning: Can't find file for asset '/Game/Assets/Pig_Asset/Skins/SunBurnt_Pig' while loading ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_Sprite.uasset.
+[2016.09.25-17.21.01:674][143]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.09.25-17.21.01:674][143]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2016.09.25-17.21.01:699][143]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F0EC860
+[2016.09.25-17.21.01:706][143]LogMetaData: Removing '/Game/Assets/Pig_Asset/Skins/War_Pig_UnlockBP.War_Pig_UnlockBP:UserConstructionScript.K2Node_FunctionEntry_398' ref from Metadata '/Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.PackageMetaData'
+[2016.09.25-17.21.01:706][143]LogMetaData: Removing '/Game/Assets/Pig_Asset/Skins/War_Pig_UnlockBP.War_Pig_UnlockBP_C' ref from Metadata '/Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.PackageMetaData'
+[2016.09.25-17.21.01:706][143]LogMetaData: Removing '/Game/Assets/Pig_Asset/Skins/War_Pig_UnlockBP.SKEL_War_Pig_UnlockBP_C' ref from Metadata '/Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/War_Pig_UnlockBP.PackageMetaData'
+[2016.09.25-17.21.01:811][143]LogMetaData: Removing '/Game/Assets/Pig_Asset/Skins/Aqua_Pig_UnlockBP.Aqua_Pig_UnlockBP_C' ref from Metadata '/Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.PackageMetaData'
+[2016.09.25-17.21.01:811][143]LogMetaData: Removing '/Game/Assets/Pig_Asset/Skins/Aqua_Pig_UnlockBP.SKEL_Aqua_Pig_UnlockBP_C' ref from Metadata '/Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Aqua_Pig_UnlockBP.PackageMetaData'
+[2016.09.25-17.21.01:897][143]LogMetaData: Removing '/Game/Assets/Pig_Asset/Skins/BarCode_PigBP.BarCode_PigBP:UserConstructionScript.K2Node_FunctionEntry_1360' ref from Metadata '/Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/BarCode_PigBP.PackageMetaData'
+[2016.09.25-17.21.01:897][143]LogMetaData: Removing '/Game/Assets/Pig_Asset/Skins/BarCode_PigBP.BarCode_PigBP_C' ref from Metadata '/Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/BarCode_PigBP.PackageMetaData'
+[2016.09.25-17.21.01:897][143]LogMetaData: Removing '/Game/Assets/Pig_Asset/Skins/BarCode_PigBP.SKEL_BarCode_PigBP_C' ref from Metadata '/Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/BarCode_PigBP.PackageMetaData'
+[2016.09.25-17.21.02:001][143]LogMetaData: Removing '/Game/Assets/Pig_Asset/Skins/Camo_Pig_UnlockBP.Camo_Pig_UnlockBP_C' ref from Metadata '/Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.PackageMetaData'
+[2016.09.25-17.21.02:001][143]LogMetaData: Removing '/Game/Assets/Pig_Asset/Skins/Camo_Pig_UnlockBP.SKEL_Camo_Pig_UnlockBP_C' ref from Metadata '/Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Camo_Pig_UnlockBP.PackageMetaData'
+[2016.09.25-17.21.02:086][143]LogMetaData: Removing '/Game/Assets/Pig_Asset/Skins/Meat_PigBP.Meat_PigBP:UserConstructionScript.K2Node_FunctionEntry_1361' ref from Metadata '/Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Meat_PigBP.PackageMetaData'
+[2016.09.25-17.21.02:086][143]LogMetaData: Removing '/Game/Assets/Pig_Asset/Skins/Meat_PigBP.Meat_PigBP_C' ref from Metadata '/Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Meat_PigBP.PackageMetaData'
+[2016.09.25-17.21.02:086][143]LogMetaData: Removing '/Game/Assets/Pig_Asset/Skins/Meat_PigBP.SKEL_Meat_PigBP_C' ref from Metadata '/Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/Meat_PigBP.PackageMetaData'
+[2016.09.25-17.21.02:224][143]LogMetaData: Removing '/Game/Assets/Pig_Asset/Skins/SunBurnt_Pig_SpriteBP.SunBurnt_Pig_SpriteBP_C' ref from Metadata '/Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.PackageMetaData'
+[2016.09.25-17.21.02:224][143]LogMetaData: Removing '/Game/Assets/Pig_Asset/Skins/SunBurnt_Pig_SpriteBP.SKEL_SunBurnt_Pig_SpriteBP_C' ref from Metadata '/Game/Assets/Pig_Asset/PigSkins/Basic_For_Testing/SunBurnt_Pig_SpriteBP.PackageMetaData'
+[2016.09.25-17.21.02:348][143]LogSavePackage: Save=47.360546ms
+[2016.09.25-17.21.02:348][143]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/War_Pig_UnlockBPAA9CB574439F95BFB06BA3AE6691C614.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/War_Pig_UnlockBP.uasset'
+[2016.09.25-17.21.02:350][143]LogSavePackage: Total save time: 49.324319ms
+[2016.09.25-17.21.02:350][143]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/War_Pig_UnlockBP.uasset
+[2016.09.25-17.21.02:368][143]LogSavePackage: Save=3.882581ms
+[2016.09.25-17.21.02:368][143]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Aqua_Pig_Sprite9F04D9E54CF0054F316DE4BFFF9AB7E3.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Aqua_Pig_Sprite.uasset'
+[2016.09.25-17.21.02:369][143]LogSavePackage: Total save time: 5.555492ms
+[2016.09.25-17.21.02:369][143]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Aqua_Pig_Sprite.uasset
+[2016.09.25-17.21.02:426][143]LogSavePackage: Save=47.846649ms
+[2016.09.25-17.21.02:426][143]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Aqua_Pig_UnlockBP6F82C3154652CEA80B9E25A5C17E85FB.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Aqua_Pig_UnlockBP.uasset'
+[2016.09.25-17.21.02:427][143]LogSavePackage: Total save time: 50.516814ms
+[2016.09.25-17.21.02:427][143]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Aqua_Pig_UnlockBP.uasset
+[2016.09.25-17.21.02:481][143]LogSavePackage: Save=46.889523ms
+[2016.09.25-17.21.02:481][143]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/BarCode_PigBP6F475F5347EDEF58F15FAE89F58196B3.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/BarCode_PigBP.uasset'
+[2016.09.25-17.21.02:482][143]LogSavePackage: Total save time: 48.621345ms
+[2016.09.25-17.21.02:482][143]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/BarCode_PigBP.uasset
+[2016.09.25-17.21.02:507][143]LogSavePackage: Save=9.963451ms
+[2016.09.25-17.21.02:507][143]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Camo_Pig_SpriteA8D07D874FEC3A1D1FDB6C80ECE22039.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Camo_Pig_Sprite.uasset'
+[2016.09.25-17.21.02:508][143]LogSavePackage: Total save time: 11.773821ms
+[2016.09.25-17.21.02:508][143]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Camo_Pig_Sprite.uasset
+[2016.09.25-17.21.02:564][143]LogSavePackage: Save=47.679871ms
+[2016.09.25-17.21.02:564][143]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Camo_Pig_UnlockBP9CA82F444822A7DCE3FCE79B6E591F17.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Camo_Pig_UnlockBP.uasset'
+[2016.09.25-17.21.02:566][143]LogSavePackage: Total save time: 49.719922ms
+[2016.09.25-17.21.02:566][143]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Camo_Pig_UnlockBP.uasset
+[2016.09.25-17.21.02:620][143]LogSavePackage: Save=46.625126ms
+[2016.09.25-17.21.02:620][143]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Meat_PigBP1EC626294BD1CC2BDF5F079A2E3B9841.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Meat_PigBP.uasset'
+[2016.09.25-17.21.02:622][143]LogSavePackage: Total save time: 48.396222ms
+[2016.09.25-17.21.02:622][143]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Meat_PigBP.uasset
+[2016.09.25-17.21.02:640][143]LogSavePackage: Save=3.835052ms
+[2016.09.25-17.21.02:640][143]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Pig_BarCode_Sprite4BAAE89B4B841C057B83D5A9C8BCDD37.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Pig_BarCode_Sprite.uasset'
+[2016.09.25-17.21.02:642][143]LogSavePackage: Total save time: 5.585089ms
+[2016.09.25-17.21.02:642][143]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Pig_BarCode_Sprite.uasset
+[2016.09.25-17.21.02:661][143]LogSavePackage: Save=4.122219ms
+[2016.09.25-17.21.02:661][143]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Pig_Meatpig_Sprite397C48234FDC5F813C270A821E6C939E.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Pig_Meatpig_Sprite.uasset'
+[2016.09.25-17.21.02:663][143]LogSavePackage: Total save time: 5.859446ms
+[2016.09.25-17.21.02:663][143]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Pig_Meatpig_Sprite.uasset
+[2016.09.25-17.21.02:682][143]LogSavePackage: Save=4.050213ms
+[2016.09.25-17.21.02:682][143]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/SunBurnt_Pig_Sprite78CB678A40FDDD14A1FB159B1EA55B2B.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/SunBurnt_Pig_Sprite.uasset'
+[2016.09.25-17.21.02:683][143]LogSavePackage: Total save time: 5.768090ms
+[2016.09.25-17.21.02:683][143]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/SunBurnt_Pig_Sprite.uasset
+[2016.09.25-17.21.02:740][143]LogSavePackage: Save=49.385223ms
+[2016.09.25-17.21.02:740][143]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/SunBurnt_Pig_SpriteBP919721C0480A761DABD334912C8032B8.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/SunBurnt_Pig_SpriteBP.uasset'
+[2016.09.25-17.21.02:741][143]LogSavePackage: Total save time: 51.283255ms
+[2016.09.25-17.21.02:741][143]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/SunBurnt_Pig_SpriteBP.uasset
+[2016.09.25-17.21.02:754][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Pig_Asset/Skins/War_Pig" FILE="../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/War_Pig.uasset" SILENT=true
+[2016.09.25-17.21.02:762][143]LogSavePackage: Save=6.740015ms
+[2016.09.25-17.21.02:762][143]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/War_PigE4CC22E04F8762EB3E07E99DB7420268.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/War_Pig.uasset'
+[2016.09.25-17.21.02:764][143]LogSavePackage: Total save time: 8.509688ms
+[2016.09.25-17.21.02:764][143]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/War_Pig.uasset
+[2016.09.25-17.21.02:784][143]LogSavePackage: Save=5.812488ms
+[2016.09.25-17.21.02:784][143]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/War_Pig_SpriteECB638D240697F0759BC09996898011F.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/War_Pig_Sprite.uasset'
+[2016.09.25-17.21.02:786][143]LogSavePackage: Total save time: 7.604927ms
+[2016.09.25-17.21.02:786][143]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/War_Pig_Sprite.uasset
+[2016.09.25-17.21.03:749][143]LogSavePackage: Save=39.427750ms
+[2016.09.25-17.21.03:749][143]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/SunBurnt_Pig_SpriteBPDC6D67754EECDD611B1652AE665821EF.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/PigSkins/Icons/SunBurnt_Pig_SpriteBP.uasset'
+[2016.09.25-17.21.03:750][143]LogSavePackage: Total save time: 66.658754ms
+[2016.09.25-17.21.03:750][143]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/PigSkins/Icons/SunBurnt_Pig_SpriteBP.uasset
+[2016.09.25-17.21.03:773][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blueprints/PigChar" FILE="../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset" SILENT=true
+[2016.09.25-17.21.04:456][143]LogSavePackage: Save=664.510193ms
+[2016.09.25-17.21.04:456][143]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/PigChar75158E4A437610A4783C0A8BC5DADFB7.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset'
+[2016.09.25-17.21.04:459][143]LogSavePackage: Total save time: 684.872277ms
+[2016.09.25-17.21.04:459][143]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Blueprints/PigChar.uasset
+[2016.09.25-17.21.04:466][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/Customise" FILE="../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Customise.uasset" SILENT=true
+[2016.09.25-17.21.04:889][143]LogSavePackage: Save=404.786835ms
+[2016.09.25-17.21.04:889][143]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Customise9C353AD8434C1BD6D1781A8042B1CA38.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Customise.uasset'
+[2016.09.25-17.21.04:892][143]LogSavePackage: Total save time: 424.725115ms
+[2016.09.25-17.21.04:892][143]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Customise.uasset
+[2016.09.25-17.21.04:953][143]LogSavePackage: Save=39.186405ms
+[2016.09.25-17.21.04:953][143]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/War_Pig_UnlockBP88D5346E4D68647F8BFCD491F70611EE.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/PigSkins/Icons/War_Pig_UnlockBP.uasset'
+[2016.09.25-17.21.04:954][143]LogSavePackage: Total save time: 56.012534ms
+[2016.09.25-17.21.04:954][143]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/PigSkins/Icons/War_Pig_UnlockBP.uasset
+[2016.09.25-17.21.14:291][228]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.09.25-17.21.14:291][228]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2016.09.25-17.23.30:826][109]LogLinker:Warning: Can't find file '/Game/Assets/Pig_Asset/Skins/Aqua_Pig'
+[2016.09.25-17.23.30:826][109]LogLinker:Warning: Can't find file for asset '/Game/Assets/Pig_Asset/Skins/Aqua_Pig' while loading ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Customise.uasset.
+[2016.09.25-17.23.30:826][109]LoadErrors:Error: Error /Game/UMG/Customise : Can't find file for asset. /Game/Assets/Pig_Asset/Skins/Aqua_Pig
+[2016.09.25-17.23.30:826][109]LogLinker:Warning: Can't find file '/Game/Assets/Pig_Asset/Skins/Camo_Pig'
+[2016.09.25-17.23.30:827][109]LogLinker:Warning: Can't find file for asset '/Game/Assets/Pig_Asset/Skins/Camo_Pig' while loading ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Customise.uasset.
+[2016.09.25-17.23.30:827][109]LoadErrors:Error: Error /Game/UMG/Customise : Can't find file for asset. /Game/Assets/Pig_Asset/Skins/Camo_Pig
+[2016.09.25-17.23.30:827][109]LogLinker:Warning: Can't find file '/Game/Assets/Pig_Asset/Skins/SunBurnt_Pig'
+[2016.09.25-17.23.30:827][109]LogLinker:Warning: Can't find file for asset '/Game/Assets/Pig_Asset/Skins/SunBurnt_Pig' while loading ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Customise.uasset.
+[2016.09.25-17.23.30:827][109]LoadErrors:Error: Error /Game/UMG/Customise : Can't find file for asset. /Game/Assets/Pig_Asset/Skins/SunBurnt_Pig
+[2016.09.25-17.23.30:829][109]LogLinker:Warning: Can't find file '/Game/Assets/Pig_Asset/Skins/Aqua_Pig'
+[2016.09.25-17.23.30:829][109]LogLinker:Warning: Can't find file for asset '/Game/Assets/Pig_Asset/Skins/Aqua_Pig' while loading ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Customise.uasset.
+[2016.09.25-17.23.30:829][109]LogLinker:Warning: Can't find file '/Game/Assets/Pig_Asset/Skins/Camo_Pig'
+[2016.09.25-17.23.30:829][109]LogLinker:Warning: Can't find file for asset '/Game/Assets/Pig_Asset/Skins/Camo_Pig' while loading ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Customise.uasset.
+[2016.09.25-17.23.30:830][109]LogLinker:Warning: Can't find file '/Game/Assets/Pig_Asset/Skins/SunBurnt_Pig'
+[2016.09.25-17.23.30:830][109]LogLinker:Warning: Can't find file for asset '/Game/Assets/Pig_Asset/Skins/SunBurnt_Pig' while loading ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Customise.uasset.
+[2016.09.25-17.23.30:917][109]LogSavePackage: Save=26.641588ms
+[2016.09.25-17.23.30:917][109]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Factory_Pig27AE17FB46CCDAFA51DC768ED8EE06D1.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Factory_Pig.uasset'
+[2016.09.25-17.23.30:919][109]LogSavePackage: Total save time: 28.541327ms
+[2016.09.25-17.23.30:919][109]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Factory_Pig.uasset
+[2016.09.25-17.23.30:944][109]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.09.25-17.23.30:944][109]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2016.09.25-17.23.31:083][109]LogSavePackage: Save=1.952959ms
+[2016.09.25-17.23.31:083][109]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Pig_BarCode_Sprite618FCE2341E8D7BB7F7D668D6B207525.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Pig_BarCode_Sprite.uasset'
+[2016.09.25-17.23.31:084][109]LogSavePackage: Total save time: 18.330555ms
+[2016.09.25-17.23.31:084][109]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Pig_BarCode_Sprite.uasset
+[2016.09.25-17.23.31:090][109]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/Customise" FILE="../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Customise.uasset" SILENT=true
+[2016.09.25-17.23.31:486][109]LogSavePackage: Save=381.181976ms
+[2016.09.25-17.23.31:486][109]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Customise83ED86674E7A79EA2E0DF3BA47D0D84D.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Customise.uasset'
+[2016.09.25-17.23.31:488][109]LogSavePackage: Total save time: 397.451136ms
+[2016.09.25-17.23.31:488][109]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Customise.uasset
+[2016.09.25-17.23.42:413][405]LogSavePackage: Save=4.420200ms
+[2016.09.25-17.23.42:413][405]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Factory_Pig_Sprite89531B534EE2423946EDA3B86AA9E9BF.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Factory_Pig_Sprite.uasset'
+[2016.09.25-17.23.42:415][405]LogSavePackage: Total save time: 6.638695ms
+[2016.09.25-17.23.42:415][405]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Factory_Pig_Sprite.uasset
+[2016.09.25-17.23.42:440][405]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.09.25-17.23.42:440][405]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2016.09.25-17.23.42:603][405]LogSavePackage: Save=39.015072ms
+[2016.09.25-17.23.42:603][405]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/BarCode_PigBP12774BE7436AC861352D61AD2D016130.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/BarCode_PigBP.uasset'
+[2016.09.25-17.23.42:605][405]LogSavePackage: Total save time: 55.770621ms
+[2016.09.25-17.23.42:605][405]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/BarCode_PigBP.uasset
+[2016.09.25-17.23.53:486][690]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.09.25-17.23.53:486][690]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2016.09.25-17.23.53:509][690]LogMetaData: Removing '/Game/Assets/Pig_Asset/Skins/Factory_PigBP.Factory_PigBP_C' ref from Metadata '/Game/Assets/Pig_Asset/Skins/BarCode_PigBP.PackageMetaData'
+[2016.09.25-17.23.53:509][690]LogMetaData: Removing '/Game/Assets/Pig_Asset/Skins/Factory_PigBP.SKEL_Factory_PigBP_C' ref from Metadata '/Game/Assets/Pig_Asset/Skins/BarCode_PigBP.PackageMetaData'
+[2016.09.25-17.23.53:509][690]LogMetaData: Removing '/Game/Assets/Pig_Asset/Skins/Factory_PigBP.Factory_PigBP:UserConstructionScript.K2Node_FunctionEntry_1360' ref from Metadata '/Game/Assets/Pig_Asset/Skins/BarCode_PigBP.PackageMetaData'
+[2016.09.25-17.23.53:599][690]LogSavePackage: Save=48.321373ms
+[2016.09.25-17.23.53:599][690]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Factory_PigBP9FAE683B44FB57B0577A8EA999A9749D.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Factory_PigBP.uasset'
+[2016.09.25-17.23.53:601][690]LogSavePackage: Total save time: 50.330114ms
+[2016.09.25-17.23.53:601][690]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Factory_PigBP.uasset
+[2016.09.25-17.24.27:374][695]LogLinker:Warning: Can't find file '/Game/Assets/Pig_Asset/Skins/Aqua_Pig'
+[2016.09.25-17.24.27:374][695]LogLinker:Warning: Can't find file for asset '/Game/Assets/Pig_Asset/Skins/Aqua_Pig' while loading ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Customise.uasset.
+[2016.09.25-17.24.27:374][695]LogLinker:Warning: Can't find file '/Game/Assets/Pig_Asset/Skins/Camo_Pig'
+[2016.09.25-17.24.27:375][695]LogLinker:Warning: Can't find file for asset '/Game/Assets/Pig_Asset/Skins/Camo_Pig' while loading ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Customise.uasset.
+[2016.09.25-17.24.27:375][695]LogLinker:Warning: Can't find file '/Game/Assets/Pig_Asset/Skins/SunBurnt_Pig'
+[2016.09.25-17.24.27:375][695]LogLinker:Warning: Can't find file for asset '/Game/Assets/Pig_Asset/Skins/SunBurnt_Pig' while loading ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Customise.uasset.
+[2016.09.25-17.24.27:376][695]LogLinker:Warning: Can't find file '/Game/Assets/Pig_Asset/Skins/Aqua_Pig'
+[2016.09.25-17.24.27:377][695]LogLinker:Warning: Can't find file for asset '/Game/Assets/Pig_Asset/Skins/Aqua_Pig' while loading ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Customise.uasset.
+[2016.09.25-17.24.27:377][695]LogLinker:Warning: Can't find file '/Game/Assets/Pig_Asset/Skins/Camo_Pig'
+[2016.09.25-17.24.27:377][695]LogLinker:Warning: Can't find file for asset '/Game/Assets/Pig_Asset/Skins/Camo_Pig' while loading ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Customise.uasset.
+[2016.09.25-17.24.27:377][695]LogLinker:Warning: Can't find file '/Game/Assets/Pig_Asset/Skins/SunBurnt_Pig'
+[2016.09.25-17.24.27:377][695]LogLinker:Warning: Can't find file for asset '/Game/Assets/Pig_Asset/Skins/SunBurnt_Pig' while loading ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Customise.uasset.
+[2016.09.25-17.24.27:441][695]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Pig_Asset/Skins/Meat_Pig" FILE="../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Meat_Pig.uasset" SILENT=true
+[2016.09.25-17.24.27:451][695]LogSavePackage: Save=8.744488ms
+[2016.09.25-17.24.27:451][695]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Meat_Pig2D700F85431504AD172EE79A9ECA49DC.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Meat_Pig.uasset'
+[2016.09.25-17.24.27:453][695]LogSavePackage: Total save time: 10.810718ms
+[2016.09.25-17.24.27:453][695]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Meat_Pig.uasset
+[2016.09.25-17.24.27:478][695]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.09.25-17.24.27:478][695]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2016.09.25-17.24.27:600][695]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/Customise" FILE="../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Customise.uasset" SILENT=true
+[2016.09.25-17.24.28:007][695]LogSavePackage: Save=392.236877ms
+[2016.09.25-17.24.28:008][695]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/CustomiseBD8B5BE34B84178937A61792A066726F.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Customise.uasset'
+[2016.09.25-17.24.28:010][695]LogSavePackage: Total save time: 408.882294ms
+[2016.09.25-17.24.28:010][695]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Customise.uasset
+[2016.09.25-17.24.28:033][695]LogSavePackage: Save=1.847940ms
+[2016.09.25-17.24.28:033][695]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Pig_Meatpig_Sprite9A1C2A414917A3C4707A4386C00D2FBA.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Pig_Meatpig_Sprite.uasset'
+[2016.09.25-17.24.28:034][695]LogSavePackage: Total save time: 18.065017ms
+[2016.09.25-17.24.28:034][695]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Pig_Meatpig_Sprite.uasset
+[2016.09.25-17.24.38:946][981]LogSavePackage: Save=4.734973ms
+[2016.09.25-17.24.38:946][981]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Meat_Pig_Sprite12AA8C764E303AF67D7E008647F5F894.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Meat_Pig_Sprite.uasset'
+[2016.09.25-17.24.38:948][981]LogSavePackage: Total save time: 6.640974ms
+[2016.09.25-17.24.38:948][981]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Meat_Pig_Sprite.uasset
+[2016.09.25-17.24.38:971][981]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.09.25-17.24.38:971][981]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2016.09.25-17.24.39:136][981]LogSavePackage: Save=37.964882ms
+[2016.09.25-17.24.39:136][981]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Meat_PigBP67EC4A1C437AA18EF2D5FF9CD91659F4.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Meat_PigBP.uasset'
+[2016.09.25-17.24.39:137][981]LogSavePackage: Total save time: 54.940142ms
+[2016.09.25-17.24.39:137][981]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Meat_PigBP.uasset
+[2016.09.25-17.25.05:885][150]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.09.25-17.25.05:885][150]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2016.09.25-17.25.05:978][150]LogSavePackage: Save=56.385086ms
+[2016.09.25-17.25.05:978][150]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Escapig_Level7B0BA16A4A64CC1D12821DBA1C75E69D.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Maps/Escapig_Level.umap'
+[2016.09.25-17.25.05:980][150]LogSavePackage: Total save time: 73.669430ms
+[2016.09.25-17.25.05:980][150]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Maps/Escapig_Level.umap
+[2016.09.25-17.26.07:446][611]LogSavePackage: Save=4.405116ms
+[2016.09.25-17.26.07:446][611]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Egypt_Pig_Sprite0C0F38AD497280C9B01959AB72BC576D.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Egypt_Pig_Sprite.uasset'
+[2016.09.25-17.26.07:448][611]LogSavePackage: Total save time: 6.290909ms
+[2016.09.25-17.26.07:448][611]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Egypt_Pig_Sprite.uasset
+[2016.09.25-17.26.07:459][611]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Pig_Asset/Skins/Dark_Pig" FILE="../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Dark_Pig.uasset" SILENT=true
+[2016.09.25-17.26.07:579][611]LogSavePackage: Save=119.753807ms
+[2016.09.25-17.26.07:579][611]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Dark_Pig40AA0D9444AF3D847C3B6594928AE31E.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Dark_Pig.uasset'
+[2016.09.25-17.26.07:581][611]LogSavePackage: Total save time: 121.717010ms
+[2016.09.25-17.26.07:581][611]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Dark_Pig.uasset
+[2016.09.25-17.26.07:598][611]LogSavePackage: Save=3.967109ms
+[2016.09.25-17.26.07:598][611]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Dark_Pig_Sprite28DD3AFD4C612882B771C5A187ABDC44.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Dark_Pig_Sprite.uasset'
+[2016.09.25-17.26.07:600][611]LogSavePackage: Total save time: 6.213494ms
+[2016.09.25-17.26.07:600][611]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Dark_Pig_Sprite.uasset
+[2016.09.25-17.26.07:735][611]LogSavePackage: Save=121.310310ms
+[2016.09.25-17.26.07:735][611]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Egypt_PigD589364648226776643F6F89D438B20A.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Egypt_Pig.uasset'
+[2016.09.25-17.26.07:737][611]LogSavePackage: Total save time: 123.451110ms
+[2016.09.25-17.26.07:737][611]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Egypt_Pig.uasset
+[2016.09.25-17.26.07:749][611]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Pig_Asset/Skins/Aqua_Pig" FILE="../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Aqua_Pig.uasset" SILENT=true
+[2016.09.25-17.26.07:867][611]LogSavePackage: Save=117.069977ms
+[2016.09.25-17.26.07:867][611]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Aqua_Pig567223F648FC294B4281AC84BBCB3CA7.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Aqua_Pig.uasset'
+[2016.09.25-17.26.07:869][611]LogSavePackage: Total save time: 118.979678ms
+[2016.09.25-17.26.07:869][611]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Aqua_Pig.uasset
+[2016.09.25-17.26.07:893][611]LogSavePackage: Save=1.972882ms
+[2016.09.25-17.26.07:893][611]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Aqua_Pig_SpriteAC0D50DE405A36AE96DFD2926F1975C9.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Aqua_Pig_Sprite.uasset'
+[2016.09.25-17.26.07:894][611]LogSavePackage: Total save time: 18.822350ms
+[2016.09.25-17.26.07:895][611]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Aqua_Pig_Sprite.uasset
+[2016.09.25-17.26.07:955][611]LogSavePackage: Save=38.960712ms
+[2016.09.25-17.26.07:955][611]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Aqua_Pig_UnlockBPE361F32D4EEFC38B898CD398295C8A9C.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Aqua_Pig_UnlockBP.uasset'
+[2016.09.25-17.26.07:957][611]LogSavePackage: Total save time: 55.752691ms
+[2016.09.25-17.26.07:957][611]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Aqua_Pig_UnlockBP.uasset
+[2016.09.25-17.26.07:970][611]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Pig_Asset/Skins/Camo_Pig" FILE="../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Camo_Pig.uasset" SILENT=true
+[2016.09.25-17.26.08:427][611]LogSavePackage: Save=456.150909ms
+[2016.09.25-17.26.08:427][611]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Camo_Pig40998ABF43CB48F2904D4587D266F441.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Camo_Pig.uasset'
+[2016.09.25-17.26.08:429][611]LogSavePackage: Total save time: 458.077971ms
+[2016.09.25-17.26.08:429][611]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Camo_Pig.uasset
+[2016.09.25-17.26.08:453][611]LogSavePackage: Save=1.808665ms
+[2016.09.25-17.26.08:453][611]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Camo_Pig_Sprite36EB98264F47322C7B934296FA6BE99D.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Camo_Pig_Sprite.uasset'
+[2016.09.25-17.26.08:454][611]LogSavePackage: Total save time: 18.480539ms
+[2016.09.25-17.26.08:454][611]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Camo_Pig_Sprite.uasset
+[2016.09.25-17.26.08:515][611]LogSavePackage: Save=37.859863ms
+[2016.09.25-17.26.08:515][611]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Camo_Pig_UnlockBP3F0FFE7543DD7A1F0871AABF0A62FB35.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Camo_Pig_UnlockBP.uasset'
+[2016.09.25-17.26.08:516][611]LogSavePackage: Total save time: 55.055410ms
+[2016.09.25-17.26.08:516][611]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Camo_Pig_UnlockBP.uasset
+[2016.09.25-17.26.11:951][  3]LogSavePackage: Save=26.424719ms
+[2016.09.25-17.26.11:951][  3]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Factory_Pig5A224CB948E94244F3616D90926129ED.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Factory_Pig.uasset'
+[2016.09.25-17.26.11:953][  3]LogSavePackage: Total save time: 44.701196ms
+[2016.09.25-17.26.11:953][  3]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Factory_Pig.uasset
+[2016.09.25-17.26.11:977][  3]LogSavePackage: Save=1.923360ms
+[2016.09.25-17.26.11:977][  3]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Factory_Pig_SpriteC269114341F52AE8E567FABF8E776AB6.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Factory_Pig_Sprite.uasset'
+[2016.09.25-17.26.11:978][  3]LogSavePackage: Total save time: 19.010473ms
+[2016.09.25-17.26.11:978][  3]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Factory_Pig_Sprite.uasset
+[2016.09.25-17.26.12:040][  3]LogSavePackage: Save=39.260117ms
+[2016.09.25-17.26.12:040][  3]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Factory_PigBP0F565CAD41F9E84DBC497CA13F978893.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Factory_PigBP.uasset'
+[2016.09.25-17.26.12:041][  3]LogSavePackage: Total save time: 56.565236ms
+[2016.09.25-17.26.12:041][  3]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Factory_PigBP.uasset
+[2016.09.25-17.26.12:055][  3]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Pig_Asset/Skins/Meat_Pig" FILE="../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Meat_Pig.uasset" SILENT=true
+[2016.09.25-17.26.12:081][  3]LogSavePackage: Save=8.481228ms
+[2016.09.25-17.26.12:081][  3]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Meat_Pig4A2EAF6844736D3517D4778CEC12D5EC.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Meat_Pig.uasset'
+[2016.09.25-17.26.12:082][  3]LogSavePackage: Total save time: 26.513230ms
+[2016.09.25-17.26.12:082][  3]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Meat_Pig.uasset
+[2016.09.25-17.26.12:107][  3]LogSavePackage: Save=1.806388ms
+[2016.09.25-17.26.12:107][  3]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Meat_Pig_Sprite0EDC5FB2494EC633B65129807741F4A2.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Meat_Pig_Sprite.uasset'
+[2016.09.25-17.26.12:108][  3]LogSavePackage: Total save time: 19.382454ms
+[2016.09.25-17.26.12:108][  3]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Meat_Pig_Sprite.uasset
+[2016.09.25-17.26.12:168][  3]LogSavePackage: Save=37.893162ms
+[2016.09.25-17.26.12:168][  3]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Meat_PigBP61FBA21747C44571288C4DB30E2720D1.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Meat_PigBP.uasset'
+[2016.09.25-17.26.12:169][  3]LogSavePackage: Total save time: 54.060146ms
+[2016.09.25-17.26.12:169][  3]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Meat_PigBP.uasset
+[2016.09.25-17.26.12:180][  3]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Pig_Asset/Skins/Neon_Pig" FILE="../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Neon_Pig.uasset" SILENT=true
+[2016.09.25-17.26.12:299][  3]LogSavePackage: Save=117.550964ms
+[2016.09.25-17.26.12:299][  3]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Neon_Pig2BC8EA4A49A505C355F98F8A3062F411.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Neon_Pig.uasset'
+[2016.09.25-17.26.12:300][  3]LogSavePackage: Total save time: 119.446147ms
+[2016.09.25-17.26.12:300][  3]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Neon_Pig.uasset
+[2016.09.25-17.26.12:316][  3]LogSavePackage: Save=3.947471ms
+[2016.09.25-17.26.12:316][  3]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Neon_Pig_Sprite8E3AD2DE48F82CBD728DB9B46424D4D4.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Neon_Pig_Sprite.uasset'
+[2016.09.25-17.26.12:318][  3]LogSavePackage: Total save time: 6.057248ms
+[2016.09.25-17.26.12:318][  3]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Neon_Pig_Sprite.uasset
+[2016.09.25-17.26.12:331][  3]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Pig_Asset/Skins/Pig_Base" FILE="../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Pig_Base.uasset" SILENT=true
+[2016.09.25-17.26.12:413][  3]LogSavePackage: Save=44.328648ms
+[2016.09.25-17.26.12:413][  3]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Pig_Base4DCD9F264372A247400E1DAE66865F97.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Pig_Base.uasset'
+[2016.09.25-17.26.12:414][  3]LogSavePackage: Total save time: 63.456096ms
+[2016.09.25-17.26.12:414][  3]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Pig_Base.uasset
+[2016.09.25-17.26.12:548][  3]LogSavePackage: Save=119.092667ms
+[2016.09.25-17.26.12:548][  3]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/SunBurnt_Pig4B28462C44C6BCF33E7B22BFDB09700F.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/SunBurnt_Pig.uasset'
+[2016.09.25-17.26.12:550][  3]LogSavePackage: Total save time: 121.154632ms
+[2016.09.25-17.26.12:550][  3]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/SunBurnt_Pig.uasset
+[2016.09.25-17.26.12:574][  3]LogSavePackage: Save=1.907138ms
+[2016.09.25-17.26.12:574][  3]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/SunBurnt_Pig_SpriteA0C9F36E44E160D0873D1EBC6068694C.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/SunBurnt_Pig_Sprite.uasset'
+[2016.09.25-17.26.12:575][  3]LogSavePackage: Total save time: 19.321546ms
+[2016.09.25-17.26.12:575][  3]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/SunBurnt_Pig_Sprite.uasset
+[2016.09.25-17.26.12:640][  3]LogSavePackage: Save=40.941849ms
+[2016.09.25-17.26.12:640][  3]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/SunBurnt_Pig_SpriteBPE61BE4CE436875BD3DF75BB00DC95FB8.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/SunBurnt_Pig_SpriteBP.uasset'
+[2016.09.25-17.26.12:641][  3]LogSavePackage: Total save time: 58.316696ms
+[2016.09.25-17.26.12:641][  3]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/SunBurnt_Pig_SpriteBP.uasset
+[2016.09.25-17.26.12:655][  3]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Pig_Asset/Skins/War_Pig" FILE="../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/War_Pig.uasset" SILENT=true
+[2016.09.25-17.26.12:678][  3]LogSavePackage: Save=6.204673ms
+[2016.09.25-17.26.12:678][  3]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/War_Pig8A922D2740D1F4AB5546758B51330F5D.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/War_Pig.uasset'
+[2016.09.25-17.26.12:679][  3]LogSavePackage: Total save time: 23.455437ms
+[2016.09.25-17.26.12:679][  3]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/War_Pig.uasset
+[2016.09.25-17.26.12:703][  3]LogSavePackage: Save=1.750605ms
+[2016.09.25-17.26.12:703][  3]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/War_Pig_SpriteD8DA01304FBD5A6F16876E89240CD4EF.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/War_Pig_Sprite.uasset'
+[2016.09.25-17.26.12:704][  3]LogSavePackage: Total save time: 19.041497ms
+[2016.09.25-17.26.12:704][  3]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/War_Pig_Sprite.uasset
+[2016.09.25-17.26.12:770][  3]LogSavePackage: Save=39.335537ms
+[2016.09.25-17.26.12:770][  3]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/War_Pig_UnlockBP6EF4C4454899FFE2015E66B63964DA63.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/War_Pig_UnlockBP.uasset'
+[2016.09.25-17.26.12:772][  3]LogSavePackage: Total save time: 59.786681ms
+[2016.09.25-17.26.12:772][  3]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/War_Pig_UnlockBP.uasset
+[2016.09.25-17.26.12:909][  3]LogSavePackage: Save=119.883018ms
+[2016.09.25-17.26.12:909][  3]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Winter_Pig20E06D2D412F912BB3C627AC24EB8576.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Winter_Pig.uasset'
+[2016.09.25-17.26.12:914][  3]LogSavePackage: Total save time: 125.390407ms
+[2016.09.25-17.26.12:914][  3]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Winter_Pig.uasset
+[2016.09.25-17.26.12:935][  3]LogSavePackage: Save=5.197456ms
+[2016.09.25-17.26.12:935][  3]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Winter_Pig_SpriteA8174D0340F264E5FDEB3A82D4F1ACB1.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Winter_Pig_Sprite.uasset'
+[2016.09.25-17.26.12:939][  3]LogSavePackage: Total save time: 10.032896ms
+[2016.09.25-17.26.12:939][  3]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Winter_Pig_Sprite.uasset
+[2016.09.25-17.29.03:549][377]LogSavePackage: Save=49.464912ms
+[2016.09.25-17.29.03:549][377]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Winter_Pig_UnlockBPAADBACD84C457B389C019AA0420A4677.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Winter_Pig_UnlockBP.uasset'
+[2016.09.25-17.29.03:551][377]LogSavePackage: Total save time: 51.399089ms
+[2016.09.25-17.29.03:551][377]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Winter_Pig_UnlockBP.uasset
+[2016.09.25-17.29.03:557][377]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Pig_Asset/Skins/Dark_Pig" FILE="../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Dark_Pig.uasset" SILENT=true
+[2016.09.25-17.29.03:583][377]LogSavePackage: Save=5.245839ms
+[2016.09.25-17.29.03:583][377]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Dark_Pig3E05702044DD989EE6BD5D99A9B89E50.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Dark_Pig.uasset'
+[2016.09.25-17.29.03:584][377]LogSavePackage: Total save time: 26.188210ms
+[2016.09.25-17.29.03:584][377]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Dark_Pig.uasset
+[2016.09.25-17.29.03:609][377]LogSavePackage: Save=1.841963ms
+[2016.09.25-17.29.03:609][377]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Dark_Pig_Sprite297F564745C9AA56430A028EA43F61E3.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Dark_Pig_Sprite.uasset'
+[2016.09.25-17.29.03:610][377]LogSavePackage: Total save time: 18.953837ms
+[2016.09.25-17.29.03:610][377]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Dark_Pig_Sprite.uasset
+[2016.09.25-17.29.03:663][377]LogSavePackage: Save=46.616589ms
+[2016.09.25-17.29.03:663][377]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Dark_Pig_UnlockBP9B3DC2CE4F5E7220CE4844BBDF89CDA1.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Dark_Pig_UnlockBP.uasset'
+[2016.09.25-17.29.03:665][377]LogSavePackage: Total save time: 48.502378ms
+[2016.09.25-17.29.03:665][377]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Dark_Pig_UnlockBP.uasset
+[2016.09.25-17.29.03:694][377]LogSavePackage: Save=5.129720ms
+[2016.09.25-17.29.03:694][377]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Egypt_PigA010058D45B2708C141515A6EA25FD00.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Egypt_Pig.uasset'
+[2016.09.25-17.29.03:695][377]LogSavePackage: Total save time: 22.985268ms
+[2016.09.25-17.29.03:695][377]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Egypt_Pig.uasset
+[2016.09.25-17.29.03:719][377]LogSavePackage: Save=2.060540ms
+[2016.09.25-17.29.03:719][377]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Egypt_Pig_Sprite57E657D144F24EDEC95902A2118CD611.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Egypt_Pig_Sprite.uasset'
+[2016.09.25-17.29.03:720][377]LogSavePackage: Total save time: 19.284833ms
+[2016.09.25-17.29.03:720][377]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Egypt_Pig_Sprite.uasset
+[2016.09.25-17.29.03:777][377]LogSavePackage: Save=49.044552ms
+[2016.09.25-17.29.03:777][377]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Egypt_Pig_UnlockBPAAABDF724350F3BC3FFF02975F2D0B86.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Egypt_Pig_UnlockBP.uasset'
+[2016.09.25-17.29.03:779][377]LogSavePackage: Total save time: 50.884239ms
+[2016.09.25-17.29.03:779][377]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Egypt_Pig_UnlockBP.uasset
+[2016.09.25-17.29.03:835][377]LogSavePackage: Save=25.297113ms
+[2016.09.25-17.29.03:835][377]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Factory_Pig313ED1F54566DCC19A4DCBAC1EA6BE35.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Factory_Pig.uasset'
+[2016.09.25-17.29.03:836][377]LogSavePackage: Total save time: 42.153411ms
+[2016.09.25-17.29.03:836][377]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Factory_Pig.uasset
+[2016.09.25-17.29.03:861][377]LogSavePackage: Save=1.854201ms
+[2016.09.25-17.29.03:861][377]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Factory_Pig_SpriteF49BFF52490DFF46BE25F3B5508BAB3D.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Factory_Pig_Sprite.uasset'
+[2016.09.25-17.29.03:862][377]LogSavePackage: Total save time: 18.525507ms
+[2016.09.25-17.29.03:862][377]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Factory_Pig_Sprite.uasset
+[2016.09.25-17.29.03:922][377]LogSavePackage: Save=37.649254ms
+[2016.09.25-17.29.03:922][377]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Factory_PigBP25C9B3AB4C9F8074F9E87E9E1DEF6881.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Factory_PigBP.uasset'
+[2016.09.25-17.29.03:923][377]LogSavePackage: Total save time: 54.367803ms
+[2016.09.25-17.29.03:923][377]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Factory_PigBP.uasset
+[2016.09.25-17.29.03:937][377]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Pig_Asset/Skins/Meat_Pig" FILE="../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Meat_Pig.uasset" SILENT=true
+[2016.09.25-17.29.03:961][377]LogSavePackage: Save=7.969224ms
+[2016.09.25-17.29.03:961][377]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Meat_Pig1C3409BF4CE86986D4A6CB80C08BDCCC.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Meat_Pig.uasset'
+[2016.09.25-17.29.03:962][377]LogSavePackage: Total save time: 24.299856ms
+[2016.09.25-17.29.03:962][377]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Meat_Pig.uasset
+[2016.09.25-17.29.03:987][377]LogSavePackage: Save=2.258910ms
+[2016.09.25-17.29.03:987][377]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Meat_Pig_Sprite03E20F7646C935EF0CF5B9A9B03883CB.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Meat_Pig_Sprite.uasset'
+[2016.09.25-17.29.03:988][377]LogSavePackage: Total save time: 18.282454ms
+[2016.09.25-17.29.03:988][377]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Meat_Pig_Sprite.uasset
+[2016.09.25-17.29.04:049][377]LogSavePackage: Save=38.822109ms
+[2016.09.25-17.29.04:049][377]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Meat_PigBPFA3DA4A74B6407597AAE0684BE581A8B.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Meat_PigBP.uasset'
+[2016.09.25-17.29.04:050][377]LogSavePackage: Total save time: 55.329770ms
+[2016.09.25-17.29.04:050][377]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Meat_PigBP.uasset
+[2016.09.25-17.29.04:056][377]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Pig_Asset/Skins/Neon_Pig" FILE="../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Neon_Pig.uasset" SILENT=true
+[2016.09.25-17.29.04:077][377]LogSavePackage: Save=3.611922ms
+[2016.09.25-17.29.04:077][377]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Neon_Pig4D3FBB954A3F552184CC46911BBCD024.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Neon_Pig.uasset'
+[2016.09.25-17.29.04:078][377]LogSavePackage: Total save time: 21.367002ms
+[2016.09.25-17.29.04:078][377]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Neon_Pig.uasset
+[2016.09.25-17.29.04:102][377]LogSavePackage: Save=1.752028ms
+[2016.09.25-17.29.04:102][377]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Neon_Pig_SpriteE992A7414A369B1FEEFC81B656045AD7.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Neon_Pig_Sprite.uasset'
+[2016.09.25-17.29.04:103][377]LogSavePackage: Total save time: 18.740669ms
+[2016.09.25-17.29.04:103][377]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Neon_Pig_Sprite.uasset
+[2016.09.25-17.29.04:159][377]LogSavePackage: Save=47.360828ms
+[2016.09.25-17.29.04:159][377]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Neon_Pig_UnlockBP8312744745489DE260AC5DB349EE5EFA.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Neon_Pig_UnlockBP.uasset'
+[2016.09.25-17.29.04:161][377]LogSavePackage: Total save time: 49.411122ms
+[2016.09.25-17.29.04:161][377]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Neon_Pig_UnlockBP.uasset
+[2016.09.25-17.29.04:174][377]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Pig_Asset/Skins/Pig_Base" FILE="../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Pig_Base.uasset" SILENT=true
+[2016.09.25-17.29.04:233][377]LogSavePackage: Save=42.689610ms
+[2016.09.25-17.29.04:233][377]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Pig_Base7292F66E4086713948C4C089293F8D25.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Pig_Base.uasset'
+[2016.09.25-17.29.04:234][377]LogSavePackage: Total save time: 59.416413ms
+[2016.09.25-17.29.04:234][377]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Pig_Base.uasset
+[2016.09.25-17.29.04:262][377]LogSavePackage: Save=4.998517ms
+[2016.09.25-17.29.04:262][377]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/SunBurnt_Pig5F373F934939274B86A257981D57D9FD.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/SunBurnt_Pig.uasset'
+[2016.09.25-17.29.04:263][377]LogSavePackage: Total save time: 21.996550ms
+[2016.09.25-17.29.04:263][377]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/SunBurnt_Pig.uasset
+[2016.09.25-17.29.04:287][377]LogSavePackage: Save=2.007603ms
+[2016.09.25-17.29.04:287][377]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/SunBurnt_Pig_Sprite30B07D3341A3F8C03E8933A5F6AAD290.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/SunBurnt_Pig_Sprite.uasset'
+[2016.09.25-17.29.04:288][377]LogSavePackage: Total save time: 19.001082ms
+[2016.09.25-17.29.04:288][377]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/SunBurnt_Pig_Sprite.uasset
+[2016.09.25-17.29.04:350][377]LogSavePackage: Save=39.702110ms
+[2016.09.25-17.29.04:350][377]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/SunBurnt_Pig_SpriteBPB95FD1F04BFC07986D64D2B38F9AD0B9.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/SunBurnt_Pig_SpriteBP.uasset'
+[2016.09.25-17.29.04:351][377]LogSavePackage: Total save time: 56.134917ms
+[2016.09.25-17.29.04:351][377]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/SunBurnt_Pig_SpriteBP.uasset
+[2016.09.25-17.29.04:363][377]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Pig_Asset/Skins/War_Pig" FILE="../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/War_Pig.uasset" SILENT=true
+[2016.09.25-17.29.04:386][377]LogSavePackage: Save=5.749590ms
+[2016.09.25-17.29.04:386][377]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/War_Pig1BD08ED142498FBC4A5DECBE81FD5C19.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/War_Pig.uasset'
+[2016.09.25-17.29.04:387][377]LogSavePackage: Total save time: 22.601619ms
+[2016.09.25-17.29.04:387][377]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/War_Pig.uasset
+[2016.09.25-17.29.04:411][377]LogSavePackage: Save=1.899169ms
+[2016.09.25-17.29.04:411][377]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/War_Pig_Sprite867B1EE34CE1A6594582A7B7ACFB95B9.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/War_Pig_Sprite.uasset'
+[2016.09.25-17.29.04:412][377]LogSavePackage: Total save time: 18.573891ms
+[2016.09.25-17.29.04:412][377]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/War_Pig_Sprite.uasset
+[2016.09.25-17.29.04:473][377]LogSavePackage: Save=38.345398ms
+[2016.09.25-17.29.04:473][377]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/War_Pig_UnlockBP8AA2EE334E695373E24BC5A635D40CA1.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/War_Pig_UnlockBP.uasset'
+[2016.09.25-17.29.04:474][377]LogSavePackage: Total save time: 54.591790ms
+[2016.09.25-17.29.04:474][377]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/War_Pig_UnlockBP.uasset
+[2016.09.25-17.29.04:503][377]LogSavePackage: Save=4.866460ms
+[2016.09.25-17.29.04:503][377]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Winter_PigEA0629064E7DB51489B7AAB98BD45691.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Winter_Pig.uasset'
+[2016.09.25-17.29.04:504][377]LogSavePackage: Total save time: 23.040764ms
+[2016.09.25-17.29.04:504][377]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Winter_Pig.uasset
+[2016.09.25-17.29.04:528][377]LogSavePackage: Save=1.793011ms
+[2016.09.25-17.29.04:528][377]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Winter_Pig_Sprite17BF77BA40E81C9C16286A9DDBD9DAC1.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Winter_Pig_Sprite.uasset'
+[2016.09.25-17.29.04:529][377]LogSavePackage: Total save time: 18.803567ms
+[2016.09.25-17.29.04:529][377]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Winter_Pig_Sprite.uasset
+[2016.09.25-17.29.06:667][620]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.09.25-17.29.07:198][620]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 107 classes and 0 folders.
+[2016.09.25-17.29.22:279][ 64]BlueprintLog: New page: Compile Dark_Pig_UnlockBP
+[2016.09.25-17.29.22:384][ 64]BlueprintEditorCompileResults: Info [1852.64] Compile of Dark_Pig_UnlockBP successful! [in 105 ms]
+[2016.09.25-17.29.22:882][102]LogSavePackage: Save=56.533363ms
+[2016.09.25-17.29.22:882][102]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Dark_Pig_UnlockBP36AE59954C42DF793BCD56BDA1DA5626.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Dark_Pig_UnlockBP.uasset'
+[2016.09.25-17.29.22:883][102]LogSavePackage: Total save time: 81.601083ms
+[2016.09.25-17.29.22:883][102]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Dark_Pig_UnlockBP.uasset
+[2016.09.25-17.29.40:206][724]BlueprintLog: New page: Compile Egypt_Pig_UnlockBP
+[2016.09.25-17.29.40:302][724]BlueprintEditorCompileResults: Info [1870.56] Compile of Egypt_Pig_UnlockBP successful! [in 96 ms]
+[2016.09.25-17.29.40:859][763]LogSavePackage: Save=39.665966ms
+[2016.09.25-17.29.40:859][763]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Egypt_Pig_UnlockBPB99A6CB142EF851A503760969A516C65.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Egypt_Pig_UnlockBP.uasset'
+[2016.09.25-17.29.40:861][763]LogSavePackage: Total save time: 58.392119ms
+[2016.09.25-17.29.40:861][763]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Egypt_Pig_UnlockBP.uasset
+[2016.09.25-17.31.21:246][801]BlueprintLog: New page: Compile Neon_Pig_UnlockBP
+[2016.09.25-17.31.21:334][801]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002B97AC00
+[2016.09.25-17.31.21:335][801]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001159B740
+[2016.09.25-17.31.21:336][801]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002F545940
+[2016.09.25-17.31.21:345][801]BlueprintEditorCompileResults: Info [1971.60] Compile of Neon_Pig_UnlockBP successful! [in 98 ms]
+[2016.09.25-17.31.21:919][841]LogSavePackage: Save=40.204437ms
+[2016.09.25-17.31.21:919][841]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Neon_Pig_UnlockBP3CA4F31E47E14AC94650329F18B5D2F4.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Neon_Pig_UnlockBP.uasset'
+[2016.09.25-17.31.21:921][841]LogSavePackage: Total save time: 69.416292ms
+[2016.09.25-17.31.21:921][841]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/Skins/Neon_Pig_UnlockBP.uasset
+[2016.09.25-17.35.25:893][ 47]LogMetaData: Removing '/Game/Assets/Pig_Asset/PigSkins/Icons/Factory_Setting_Pig_UnlockBP.Factory_Setting_Pig_UnlockBP_C' ref from Metadata '/Game/Assets/Pig_Asset/PigSkins/Icons/Factory_Setting_SpriteBP.PackageMetaData'
+[2016.09.25-17.35.25:893][ 47]LogMetaData: Removing '/Game/Assets/Pig_Asset/PigSkins/Icons/Factory_Setting_Pig_UnlockBP.SKEL_Factory_Setting_Pig_UnlockBP_C' ref from Metadata '/Game/Assets/Pig_Asset/PigSkins/Icons/Factory_Setting_SpriteBP.PackageMetaData'
+[2016.09.25-17.35.25:985][ 47]LogSavePackage: Save=49.624008ms
+[2016.09.25-17.35.25:985][ 47]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Factory_Setting_Pig_UnlockBP3E63FB8342AB9ACB99218282449C2431.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/PigSkins/Icons/Factory_Setting_Pig_UnlockBP.uasset'
+[2016.09.25-17.35.25:987][ 47]LogSavePackage: Total save time: 51.596038ms
+[2016.09.25-17.35.25:987][ 47]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Assets/Pig_Asset/PigSkins/Icons/Factory_Setting_Pig_UnlockBP.uasset
+[2016.09.25-17.35.26:185][ 47]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/Harvester_Mini_Game_UI" FILE="../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Harvester_Mini_Game_UI.uasset" SILENT=true
+[2016.09.25-17.35.26:555][ 47]LogSavePackage: Save=350.505829ms
+[2016.09.25-17.35.26:555][ 47]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Harvester_Mini_Game_UI3AAA65C74CC6581614885A822BB75C29.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Harvester_Mini_Game_UI.uasset'
+[2016.09.25-17.35.26:556][ 47]LogSavePackage: Total save time: 370.521531ms
+[2016.09.25-17.35.26:556][ 47]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Harvester_Mini_Game_UI.uasset
+[2016.09.25-17.39.21:387][  9]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.09.25-17.39.21:387][  9]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2016.09.25-17.39.21:387][  9]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.09.25-17.39.21:549][  9]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000321AAC00
+[2016.09.25-17.39.21:773][ 10]Cmd: QUIT_EDITOR
+[2016.09.25-17.39.22:009][ 10]LogExit: Preparing to exit.
+[2016.09.25-17.39.22:965][ 10]LogExit: Editor shut down
+[2016.09.25-17.39.22:965][ 10]LogExit: Transaction tracking system shut down
+[2016.09.25-17.39.22:968][ 10]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000108937E0
+[2016.09.25-17.39.22:974][ 10]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000117E9080
+[2016.09.25-17.39.22:975][ 10]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002D90BC40
+[2016.09.25-17.39.22:975][ 10]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000037C136A0
+[2016.09.25-17.39.22:975][ 10]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000044B2B880
+[2016.09.25-17.39.22:975][ 10]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000382607C0
+[2016.09.25-17.39.22:975][ 10]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000044AA6660
+[2016.09.25-17.39.22:976][ 10]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000044AA6700
+[2016.09.25-17.39.22:976][ 10]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000044712E80
+[2016.09.25-17.39.22:976][ 10]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000044713600
+[2016.09.25-17.39.22:976][ 10]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000447122A0
+[2016.09.25-17.39.22:976][ 10]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002C2505E0
+[2016.09.25-17.39.23:167][ 10]LogExit: Object subsystem successfully closed.
+[2016.09.25-17.39.23:181][ 10]LogD3D11RHI: Shutdown
+[2016.09.25-17.39.23:181][ 10]LogD3D11RHI: CleanupD3DDevice
+[2016.09.25-17.39.23:230][ 10]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.09.25-17.39.23:247][ 10]LogModuleManager: Shutting down and abandoning module BlueprintGraph (200)
+[2016.09.25-17.39.23:247][ 10]LogModuleManager: Shutting down and abandoning module CrashTracker (199)
+[2016.09.25-17.39.23:247][ 10]LogModuleManager: Shutting down and abandoning module SceneOutliner (198)
+[2016.09.25-17.39.23:247][ 10]LogModuleManager: Shutting down and abandoning module SuperSearch (197)
+[2016.09.25-17.39.23:247][ 10]LogModuleManager: Shutting down and abandoning module WidgetCarousel (196)
+[2016.09.25-17.39.23:247][ 10]LogModuleManager: Shutting down and abandoning module AddContentDialog (195)
+[2016.09.25-17.39.23:248][ 10]LogModuleManager: Shutting down and abandoning module EditorWidgets (194)
+[2016.09.25-17.39.23:248][ 10]LogModuleManager: Shutting down and abandoning module CollectionManager (193)
+[2016.09.25-17.39.23:248][ 10]LogModuleManager: Shutting down and abandoning module StatsViewer (192)
+[2016.09.25-17.39.23:248][ 10]LogModuleManager: Shutting down and abandoning module FoliageEdit (191)
+[2016.09.25-17.39.23:248][ 10]LogModuleManager: Shutting down and abandoning module LandscapeEditor (190)
+[2016.09.25-17.39.23:248][ 10]LogModuleManager: Shutting down and abandoning module ActorPickerMode (189)
+[2016.09.25-17.39.23:248][ 10]LogModuleManager: Shutting down and abandoning module GeometryMode (188)
+[2016.09.25-17.39.23:248][ 10]LogModuleManager: Shutting down and abandoning module TextureAlignMode (187)
+[2016.09.25-17.39.23:248][ 10]LogModuleManager: Shutting down and abandoning module BspMode (186)
+[2016.09.25-17.39.23:248][ 10]LogModuleManager: Shutting down and abandoning module PlacementMode (185)
+[2016.09.25-17.39.23:248][ 10]LogModuleManager: Shutting down and abandoning module AutomationWorker (184)
+[2016.09.25-17.39.23:248][ 10]LogModuleManager: Shutting down and abandoning module CharacterAI (183)
+[2016.09.25-17.39.23:248][ 10]LogModuleManager: Shutting down and abandoning module SmartSnapping (182)
+[2016.09.25-17.39.23:248][ 10]LogModuleManager: Shutting down and abandoning module ViewportSnapping (181)
+[2016.09.25-17.39.23:248][ 10]LogModuleManager: Shutting down and abandoning module LogVisualizer (180)
+[2016.09.25-17.39.23:248][ 10]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (179)
+[2016.09.25-17.39.23:248][ 10]LogModuleManager: Shutting down and abandoning module IntroTutorials (178)
+[2016.09.25-17.39.23:248][ 10]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (177)
+[2016.09.25-17.39.23:248][ 10]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (176)
+[2016.09.25-17.39.23:248][ 10]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (175)
+[2016.09.25-17.39.23:248][ 10]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (174)
+[2016.09.25-17.39.24:023][ 10]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (173)
+[2016.09.25-17.39.24:023][ 10]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (172)
+[2016.09.25-17.39.24:023][ 10]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (171)
+[2016.09.25-17.39.24:023][ 10]LogModuleManager: Shutting down and abandoning module MergeActors (170)
+[2016.09.25-17.39.24:023][ 10]LogModuleManager: Shutting down and abandoning module SizeMap (169)
+[2016.09.25-17.39.24:023][ 10]LogModuleManager: Shutting down and abandoning module TreeMap (168)
+[2016.09.25-17.39.24:023][ 10]LogModuleManager: Shutting down and abandoning module ReferenceViewer (167)
+[2016.09.25-17.39.24:023][ 10]LogModuleManager: Shutting down and abandoning module LocalizationService (166)
+[2016.09.25-17.39.24:023][ 10]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (165)
+[2016.09.25-17.39.24:023][ 10]LogModuleManager: Shutting down and abandoning module HardwareTargeting (164)
+[2016.09.25-17.39.24:023][ 10]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (163)
+[2016.09.25-17.39.24:023][ 10]LogModuleManager: Shutting down and abandoning module UndoHistory (162)
+[2016.09.25-17.39.24:023][ 10]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (161)
+[2016.09.25-17.39.24:023][ 10]LogModuleManager: Shutting down and abandoning module UserFeedback (160)
+[2016.09.25-17.39.24:023][ 10]LogModuleManager: Shutting down and abandoning module XmlParser (159)
+[2016.09.25-17.39.24:023][ 10]LogModuleManager: Shutting down and abandoning module Blutility (158)
+[2016.09.25-17.39.24:023][ 10]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (157)
+[2016.09.25-17.39.24:023][ 10]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (156)
+[2016.09.25-17.39.24:023][ 10]LogModuleManager: Shutting down and abandoning module InputBindingEditor (155)
+[2016.09.25-17.39.24:023][ 10]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (154)
+[2016.09.25-17.39.24:023][ 10]LogModuleManager: Shutting down and abandoning module SettingsEditor (153)
+[2016.09.25-17.39.24:023][ 10]LogModuleManager: Shutting down and abandoning module ProjectLauncher (152)
+[2016.09.25-17.39.24:023][ 10]LogModuleManager: Shutting down and abandoning module SessionFrontend (151)
+[2016.09.25-17.39.24:023][ 10]LogModuleManager: Shutting down and abandoning module ProfilerClient (150)
+[2016.09.25-17.39.24:023][ 10]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (149)
+[2016.09.25-17.39.24:023][ 10]LogModuleManager: Shutting down and abandoning module DeviceManager (148)
+[2016.09.25-17.39.24:024][ 10]LogModuleManager: Shutting down and abandoning module AutomationController (147)
+[2016.09.25-17.39.24:024][ 10]LogModuleManager: Shutting down and abandoning module AutomationWindow (146)
+[2016.09.25-17.39.24:024][ 10]LogModuleManager: Shutting down and abandoning module Layers (145)
+[2016.09.25-17.39.24:024][ 10]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (144)
+[2016.09.25-17.39.24:024][ 10]LogModuleManager: Shutting down and abandoning module DetailCustomizations (143)
+[2016.09.25-17.39.24:024][ 10]LogModuleManager: Shutting down and abandoning module PackagesDialog (142)
+[2016.09.25-17.39.24:024][ 10]LogModuleManager: Shutting down and abandoning module Persona (141)
+[2016.09.25-17.39.24:024][ 10]LogModuleManager: Shutting down and abandoning module Kismet (140)
+[2016.09.25-17.39.24:024][ 10]LogModuleManager: Shutting down and abandoning module GraphEditor (139)
+[2016.09.25-17.39.24:024][ 10]LogModuleManager: Shutting down and abandoning module ClassViewer (138)
+[2016.09.25-17.39.24:024][ 10]LogModuleManager: Shutting down and abandoning module Toolbox (137)
+[2016.09.25-17.39.24:024][ 10]LogModuleManager: Shutting down and abandoning module ModuleUI (136)
+[2016.09.25-17.39.24:024][ 10]LogModuleManager: Shutting down and abandoning module MovieSceneTools (135)
+[2016.09.25-17.39.24:024][ 10]LogModuleManager: Shutting down and abandoning module OutputLog (134)
+[2016.09.25-17.39.24:024][ 10]LogModuleManager: Shutting down and abandoning module GammaUI (133)
+[2016.09.25-17.39.24:024][ 10]LogModuleManager: Shutting down and abandoning module Documentation (132)
+[2016.09.25-17.39.24:024][ 10]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (131)
+[2016.09.25-17.39.24:024][ 10]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (130)
+[2016.09.25-17.39.24:024][ 10]LogModuleManager: Shutting down and abandoning module AnalyticsET (129)
+[2016.09.25-17.39.24:024][ 10]LogModuleManager: Shutting down and abandoning module Analytics (128)
+[2016.09.25-17.39.24:024][ 10]LogModuleManager: Shutting down and abandoning module AITestSuite (127)
+[2016.09.25-17.39.24:024][ 10]LogModuleManager: Shutting down and abandoning module GameplayDebugger (126)
+[2016.09.25-17.39.24:024][ 10]LogModuleManager: Shutting down and abandoning module AIModule (125)
+[2016.09.25-17.39.24:024][ 10]LogModuleManager: Shutting down and abandoning module ProfilerService (124)
+[2016.09.25-17.39.24:031][ 10]LogModuleManager: Shutting down and abandoning module TaskGraph (123)
+[2016.09.25-17.39.24:031][ 10]LogModuleManager: Shutting down and abandoning module SubstanceEditor (122)
+[2016.09.25-17.39.24:031][ 10]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.09.25-17.39.24:031][ 10]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.09.25-17.39.24:031][ 10]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.09.25-17.39.24:031][ 10]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.09.25-17.39.24:031][ 10]LogModuleManager: Shutting down and abandoning module OculusRift (117)
+[2016.09.25-17.39.24:031][ 10]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
+[2016.09.25-17.39.24:031][ 10]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.09.25-17.39.24:038][ 10]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.09.25-17.39.24:038][ 10]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.09.25-17.39.24:038][ 10]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.09.25-17.39.24:038][ 10]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.09.25-17.39.24:038][ 10]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.09.25-17.39.24:038][ 10]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.09.25-17.39.24:038][ 10]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.09.25-17.39.24:038][ 10]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.09.25-17.39.24:038][ 10]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.09.25-17.39.24:038][ 10]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.09.25-17.39.24:038][ 10]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.09.25-17.39.24:038][ 10]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.09.25-17.39.24:038][ 10]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.09.25-17.39.24:038][ 10]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.09.25-17.39.24:038][ 10]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.09.25-17.39.24:038][ 10]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.09.25-17.39.24:038][ 10]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.09.25-17.39.24:038][ 10]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.09.25-17.39.24:038][ 10]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.09.25-17.39.24:038][ 10]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.09.25-17.39.24:038][ 10]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.09.25-17.39.24:038][ 10]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.09.25-17.39.24:038][ 10]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.09.25-17.39.24:038][ 10]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.09.25-17.39.24:039][ 10]LogModuleManager: Shutting down and abandoning module ContentBrowser (90)
+[2016.09.25-17.39.24:040][ 10]LogModuleManager: Shutting down and abandoning module Paper2DEditor (89)
+[2016.09.25-17.39.24:040][ 10]LogModuleManager: Shutting down and abandoning module UdpMessaging (88)
+[2016.09.25-17.39.24:140][ 10]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2016.09.25-17.39.24:140][ 10]LogModuleManager: Shutting down and abandoning module AssetRegistry (86)
+[2016.09.25-17.39.24:312][ 10]LogModuleManager: Shutting down and abandoning module SubstanceCore (85)
+[2016.09.25-17.39.24:312][ 10]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2016.09.25-17.39.24:312][ 10]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2016.09.25-17.39.24:312][ 10]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2016.09.25-17.39.24:315][ 10]LogModuleManager: Shutting down and abandoning module Media (81)
+[2016.09.25-17.39.24:315][ 10]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2016.09.25-17.39.24:315][ 10]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2016.09.25-17.39.24:315][ 10]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2016.09.25-17.39.24:315][ 10]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2016.09.25-17.39.24:315][ 10]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2016.09.25-17.39.24:315][ 10]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2016.09.25-17.39.24:315][ 10]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2016.09.25-17.39.24:315][ 10]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2016.09.25-17.39.24:315][ 10]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2016.09.25-17.39.24:315][ 10]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2016.09.25-17.39.24:315][ 10]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2016.09.25-17.39.24:315][ 10]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2016.09.25-17.39.24:315][ 10]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2016.09.25-17.39.24:315][ 10]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2016.09.25-17.39.24:315][ 10]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2016.09.25-17.39.24:317][ 10]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2016.09.25-17.39.24:317][ 10]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2016.09.25-17.39.24:317][ 10]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2016.09.25-17.39.24:317][ 10]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2016.09.25-17.39.24:317][ 10]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2016.09.25-17.39.24:317][ 10]LogModuleManager: Shutting down and abandoning module Core (59)
+[2016.09.25-17.39.24:317][ 10]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2016.09.25-17.39.24:317][ 10]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2016.09.25-17.39.24:317][ 10]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2016.09.25-17.39.24:317][ 10]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2016.09.25-17.39.24:319][ 10]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2016.09.25-17.39.24:367][ 10]LogDerivedDataCache: Shutdown
+[2016.09.25-17.39.24:367][ 10]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2016.09.25-17.39.24:367][ 10]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2016.09.25-17.39.24:367][ 10]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2016.09.25-17.39.24:367][ 10]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2016.09.25-17.39.24:367][ 10]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2016.09.25-17.39.24:367][ 10]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2016.09.25-17.39.24:367][ 10]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2016.09.25-17.39.24:367][ 10]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2016.09.25-17.39.24:367][ 10]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2016.09.25-17.39.24:367][ 10]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2016.09.25-17.39.24:367][ 10]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2016.09.25-17.39.24:367][ 10]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2016.09.25-17.39.24:367][ 10]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2016.09.25-17.39.24:367][ 10]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2016.09.25-17.39.24:367][ 10]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2016.09.25-17.39.24:367][ 10]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2016.09.25-17.39.24:367][ 10]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2016.09.25-17.39.24:367][ 10]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2016.09.25-17.39.24:367][ 10]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2016.09.25-17.39.24:367][ 10]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2016.09.25-17.39.24:367][ 10]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2016.09.25-17.39.24:367][ 10]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2016.09.25-17.39.24:367][ 10]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2016.09.25-17.39.24:367][ 10]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2016.09.25-17.39.24:367][ 10]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2016.09.25-17.39.24:367][ 10]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2016.09.25-17.39.24:367][ 10]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2016.09.25-17.39.24:367][ 10]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2016.09.25-17.39.24:367][ 10]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2016.09.25-17.39.24:367][ 10]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2016.09.25-17.39.24:367][ 10]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2016.09.25-17.39.24:367][ 10]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2016.09.25-17.39.24:367][ 10]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2016.09.25-17.39.24:367][ 10]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2016.09.25-17.39.24:367][ 10]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.09.25-17.39.24:367][ 10]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2016.09.25-17.39.26:367][ 10]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2016.09.25-17.39.26:367][ 10]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.09.25-17.39.26:367][ 10]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.09.25-17.39.26:367][ 10]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.09.25-17.39.26:367][ 10]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.09.25-17.39.26:367][ 10]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.09.25-17.39.26:369][ 10]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.09.25-17.39.26:369][ 10]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.09.25-17.39.26:369][ 10]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.09.25-17.39.26:369][ 10]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.09.25-17.39.26:369][ 10]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.09.25-17.39.26:369][ 10]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.09.25-17.39.26:369][ 10]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.09.25-17.39.26:369][ 10]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.09.25-17.39.26:369][ 10]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.09.25-17.39.26:369][ 10]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.09.25-17.39.26:370][ 10]LogExit: Exiting.
+[2016.09.25-17.39.26:394][ 10]Log file closed, 09/25/16 18:39:26

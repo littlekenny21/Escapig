@@ -1,0 +1,415 @@
+﻿[2016.09.28-10.24.20:580][  0]Log file open, 09/28/16 11:24:20
+[2016.09.28-10.24.20:580][  0]LogInit:Display: Running engine for game: Escapig
+[2016.09.28-10.24.20:580][  0]LogInit:Display: RandInit(789175806) SRandInit(789175807).
+[2016.09.28-10.24.20:580][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.09.28-10.24.20:580][  0]LogStats: Stats thread started at 0.065982
+[2016.09.28-10.24.20:580][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.09.28-10.24.20:580][  0]LogInit: API Version: 2672455
+[2016.09.28-10.24.20:580][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.09.28-10.24.20:580][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.09.28-10.24.20:580][  0]LogInit: Build Configuration: Development
+[2016.09.28-10.24.20:580][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.09.28-10.24.20:580][  0]LogInit: Command line:  
+[2016.09.28-10.24.20:580][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.09.28-10.24.20:580][  0]LogInit: Rocket: 1
+[2016.09.28-10.24.20:593][  0]LogInit: Using libcurl 7.41.0
+[2016.09.28-10.24.20:593][  0]LogInit:  - built for x86_64-pc-win32
+[2016.09.28-10.24.20:593][  0]LogInit:  - supports SSL with WinSSL
+[2016.09.28-10.24.20:593][  0]LogInit:  - other features:
+[2016.09.28-10.24.20:593][  0]LogInit:      CURL_VERSION_SSL
+[2016.09.28-10.24.20:593][  0]LogInit:      CURL_VERSION_IPV6
+[2016.09.28-10.24.20:593][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.09.28-10.24.20:593][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.09.28-10.24.20:593][  0]LogInit:      CURL_VERSION_IDN
+[2016.09.28-10.24.20:593][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.09.28-10.24.20:593][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.09.28-10.24.20:593][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.09.28-10.24.20:593][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.09.28-10.24.20:593][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.09.28-10.24.20:598][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.09.28-10.24.20:604][  0]LogInit: Object subsystem initialized
+[2016.09.28-10.24.20:605][  0]LogInit: Selected Device Profile: [Windows]
+[2016.09.28-10.24.20:605][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.09.28-10.24.20:612][  0]LogInit: Computer: COMPUTE-98JEH1J
+[2016.09.28-10.24.20:612][  0]LogInit: User: TheDesigner
+[2016.09.28-10.24.20:612][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.09.28-10.24.20:612][  0]LogInit: High frequency timer resolution =3.513623 MHz
+[2016.09.28-10.24.20:612][  0]LogMemory: Memory total: Physical=23.9GB (24GB approx)
+[2016.09.28-10.24.20:612][  0]LogMemory: Platform Memory Stats for Windows
+[2016.09.28-10.24.20:612][  0]LogMemory: Process Physical Memory: 55.50 MB used, 55.50 MB peak
+[2016.09.28-10.24.20:612][  0]LogMemory: Process Virtual Memory: 57.43 MB used, 57.43 MB peak
+[2016.09.28-10.24.20:612][  0]LogMemory: Physical Memory: 3698.41 MB used, 24514.65 MB total
+[2016.09.28-10.24.20:612][  0]LogMemory: Virtual Memory: 337.63 MB used, 8388608.00 MB total
+[2016.09.28-10.24.20:644][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2016.09.28-10.24.21:268][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.09.28-10.24.21:268][  0]LogD3D11RHI: Adapter has 4007MB of dedicated video memory, 0MB of dedicated system memory, and 12001MB of shared system memory, 1 output[s]
+[2016.09.28-10.24.21:285][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.09.28-10.24.21:285][  0]LogD3D11RHI: Adapter has 4007MB of dedicated video memory, 0MB of dedicated system memory, and 12001MB of shared system memory, 1 output[s]
+[2016.09.28-10.24.21:285][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.09.28-10.24.21:291][  0]LogD3D11RHI: !Direct3DDevice
+[2016.09.28-10.24.21:291][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.09.28-10.24.21:299][  0]LogD3D11RHI: Async texture creation enabled
+[2016.09.28-10.24.21:313][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Intermediate/Shaders/WorkingDirectory/7932/).
+[2016.09.28-10.24.21:313][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Intermediate/Shaders/tmp/9EB71D2844B3EA68B8E4BB9EFC902726/'.
+[2016.09.28-10.24.21:313][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.09.28-10.24.22:221][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.09.28-10.24.22:226][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.09.28-10.24.22:230][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.09.28-10.24.22:234][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.09.28-10.24.22:238][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.09.28-10.24.22:241][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.09.28-10.24.22:243][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.09.28-10.24.22:246][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.09.28-10.24.22:249][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.09.28-10.24.22:251][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.09.28-10.24.22:254][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.09.28-10.24.22:257][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.09.28-10.24.22:258][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.09.28-10.24.22:273][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.09.28-10.24.22:276][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.09.28-10.24.22:279][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.09.28-10.24.22:281][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.09.28-10.24.22:281][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.09.28-10.24.22:344][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.09.28-10.24.22:378][  0]LogDerivedDataCache: Loaded boot cache 0.03s 37MB C:/Users/TheDesigner/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.09.28-10.24.22:378][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/TheDesigner/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.09.28-10.24.22:378][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.09.28-10.24.22:379][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.09.28-10.24.22:379][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.09.28-10.24.22:379][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.09.28-10.24.22:499][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.09.28-10.24.22:510][  0]LogDerivedDataCache: Using Local data cache path C:/Users/TheDesigner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.09.28-10.24.22:648][  0]LogInit: Selected Device Profile: [Windows]
+[2016.09.28-10.24.22:648][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.09.28-10.24.22:670][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.09.28-10.24.22:670][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.09.28-10.24.22:952][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.09.28-10.24.23:506][  0]LogAssetRegistry: FAssetRegistry took 0.0096 seconds to start up
+[2016.09.28-10.24.23:518][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.09.28-10.24.23:730][  0]SourceControl: Info Source control is disabled
+[2016.09.28-10.24.23:731][  0]SourceControl: Info Source control is disabled
+[2016.09.28-10.24.23:738][  0]SourceControl: Info Source control is disabled
+[2016.09.28-10.24.23:745][  0]SourceControl: Info Source control is disabled
+[2016.09.28-10.24.23:843][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.09.28-10.24.23:908][  0]LogObj: 28528 objects as part of root set at end of initial load.
+[2016.09.28-10.24.23:908][  0]LogUObjectAllocator: 6068464 out of 0 bytes used by permanent object pool.
+[2016.09.28-10.24.23:954][  0]LogEngine: Initializing Engine...
+[2016.09.28-10.24.23:955][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.09.28-10.24.23:956][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.09.28-10.24.24:050][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.09.28-10.24.24:057][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.28-10.24.24:065][  0]LogInit: FAudioDevice initialized.
+[2016.09.28-10.24.24:082][  0]LogDerivedDataCache: Saved boot cache 0.02s 37MB C:/Users/TheDesigner/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.09.28-10.24.24:084][  0]LogInit: Texture streaming: Enabled
+[2016.09.28-10.24.24:088][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.09.28-10.24.24:088][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.09.28-10.24.24:088][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 9f17aa5a4edb8693b65090bbb08a6b07|b58a2ca1649743a9a1927d5a89cf58c5|063ce779-e01c-4a0d-ba26-62288f5751f4
+[2016.09.28-10.24.24:088][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.09.28-10.24.24:102][  0]LogInit: Transaction tracking system initialized
+[2016.09.28-10.24.24:124][  0]BlueprintLog: New page: Editor Load
+[2016.09.28-10.24.24:190][  0]LocalizationService: Info Localization service is disabled
+[2016.09.28-10.24.24:248][  0]LogConsoleResponse:Display: 
+[2016.09.28-10.24.24:345][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.09.28-10.24.24:387][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/' took 0.01s
+[2016.09.28-10.24.24:387][  0]SourceControl: Info Source control is disabled
+[2016.09.28-10.24.24:387][  0]Cmd: MAP LOAD FILE="../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Maps/Escapig_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.09.28-10.24.24:387][  0]LightingResults: New page: Lighting Build
+[2016.09.28-10.24.24:389][  0]MapCheck: New page: Map Check
+[2016.09.28-10.24.24:390][  0]LightingResults: New page: Lighting Build
+[2016.09.28-10.24.24:398][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000241AD620
+[2016.09.28-10.24.26:044][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Blueprints/BP_Wheat_Tile.BP_Wheat_Tile_C:UserConstructionScript; removing parent information, but keeping function
+[2016.09.28-10.24.28:962][  0]LogAIModule: Creating AISystem for world Escapig_Level
+[2016.09.28-10.24.28:966][  0]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.09.28-10.24.28:969][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.09.28-10.24.28:970][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.09.28-10.24.29:032][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 62.695ms to complete.
+[2016.09.28-10.24.29:032][  0]LogFileHelpers: Loading map 'Escapig_Level' took 4.645
+[2016.09.28-10.24.29:127][  0]LogCollectionManager: Loaded 0 collections in 0.001633 seconds
+[2016.09.28-10.24.29:164][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Collections/' took 0.01s
+[2016.09.28-10.24.29:164][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Developers/TheDesigner/Collections/' took 0.01s
+[2016.09.28-10.24.29:164][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Collections/' took 0.01s
+[2016.09.28-10.24.29:164][  0]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 1882 classes and 339 folders.
+[2016.09.28-10.24.29:172][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.09.28-10.24.29:176][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.09.28-10.24.29:209][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.09.28-10.24.29:212][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2016.09.28-10.24.29:323][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.09.28-10.24.29:328][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.09.28-10.24.29:348][  0]LogLoad: Full Startup: 9.24 seconds (BP compile: 1.63 seconds)
+[2016.09.28-10.24.29:404][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.09.28-10.24.29:509][  0]LogRenderer: Reallocating scene render targets to support 1208x556 (Frame:2).
+[2016.09.28-10.24.30:234][ 20]LogAssetRegistry: Asset discovery search completed in 6.7374 seconds
+[2016.09.28-10.24.30:234][ 20]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.09.28-10.24.30:234][ 20]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000017 seconds (updated 0 objects)
+[2016.09.28-10.24.41:438][327]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.09.28-10.24.41:439][327]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.09.28-10.24.41:773][327]LogSavePackage: Save=68.554314ms
+[2016.09.28-10.24.41:774][327]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/UEDPCEscapig_LevelAF0AD15F491F54741AAD158954CFFAD8.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap'
+[2016.09.28-10.24.41:774][327]LogSavePackage: Total save time: 111.103553ms
+[2016.09.28-10.24.41:774][327]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap
+[2016.09.28-10.28.25:358][791]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.09.28-10.28.25:793][791]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 107 classes and 0 folders.
+[2016.09.28-10.28.51:189][607]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.09.28-10.28.51:924][693]LogEditorViewport: Clicking on Actor (LMB): Bar_C (Bar)
+[2016.09.28-10.28.52:272][733]Cmd: DELETE
+[2016.09.28-10.28.52:272][733]Cmd: ACTOR DELETE
+[2016.09.28-10.28.52:273][733]LogEditorActor: Deleted Actor: Bar_C
+[2016.09.28-10.28.52:273][733]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.09.28-10.28.52:274][733]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.09.28-10.28.52:302][733]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000308E0220
+[2016.09.28-10.28.52:303][733]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012645080
+[2016.09.28-10.28.52:309][733]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2016.09.28-10.28.53:945][909]LogSavePackage: Save=74.140854ms
+[2016.09.28-10.28.53:945][909]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Escapig_Level9A84ABE84562EBFC92B8199B64DCA4A6.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Maps/Escapig_Level.umap'
+[2016.09.28-10.28.53:946][909]LogSavePackage: Total save time: 119.253546ms
+[2016.09.28-10.28.53:946][909]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Maps/Escapig_Level.umap
+[2016.09.28-10.29.33:105][441]BlueprintLog: New page: Compile Escapig_Level
+[2016.09.28-10.29.33:151][441]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.09.28-10.29.33:152][441]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.09.28-10.29.33:186][441]BlueprintEditorCompileResults: Info [0313.08] Compile of Escapig_Level successful! [in 80 ms]
+[2016.09.28-10.29.35:290][681]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000024827560
+[2016.09.28-10.29.35:417][681]LogSavePackage: Save=80.750839ms
+[2016.09.28-10.29.35:417][681]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Escapig_Level3FAA58C946A40B8671D4B085625918E1.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Maps/Escapig_Level.umap'
+[2016.09.28-10.29.35:419][681]LogSavePackage: Total save time: 124.482621ms
+[2016.09.28-10.29.35:419][681]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Maps/Escapig_Level.umap
+[2016.09.28-10.29.36:718][795]LogSavePackage: Save=81.177460ms
+[2016.09.28-10.29.36:718][795]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/UEDPCEscapig_Level1B1DB5864FA2DE7015A305A463E9574C.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap'
+[2016.09.28-10.29.36:719][795]LogSavePackage: Total save time: 124.157883ms
+[2016.09.28-10.29.36:719][795]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap
+[2016.09.28-10.29.50:329][449]LogEditorViewport: Clicking on Actor (LMB): PigChar_C (PigChar)
+[2016.09.28-10.30.11:805][913]LogSavePackage: Save=81.037155ms
+[2016.09.28-10.30.11:805][913]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Escapig_Level19F5377D4549FC8A78D7A192AC45BA0A.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Maps/Escapig_Level.umap'
+[2016.09.28-10.30.11:806][913]LogSavePackage: Total save time: 124.170978ms
+[2016.09.28-10.30.11:806][913]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Maps/Escapig_Level.umap
+[2016.09.28-10.30.13:300][ 51]LogSavePackage: Save=80.207237ms
+[2016.09.28-10.30.13:300][ 51]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/UEDPCEscapig_Level9A0498724A1E5A0203A30091488B88D1.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap'
+[2016.09.28-10.30.13:301][ 51]LogSavePackage: Total save time: 122.556403ms
+[2016.09.28-10.30.13:301][ 51]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap
+[2016.09.28-10.30.43:584][571]LogSavePackage: Save=82.386185ms
+[2016.09.28-10.30.43:584][571]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Escapig_LevelE535DAF745680905D9E408B2CB36199C.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Maps/Escapig_Level.umap'
+[2016.09.28-10.30.43:585][571]LogSavePackage: Total save time: 124.795686ms
+[2016.09.28-10.30.43:585][571]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Maps/Escapig_Level.umap
+[2016.09.28-10.30.44:302][618]LogSavePackage: Save=80.866959ms
+[2016.09.28-10.30.44:302][618]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/UEDPCEscapig_Level31E71F4C462E2951B201D093BE5CB459.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap'
+[2016.09.28-10.30.44:303][618]LogSavePackage: Total save time: 124.330923ms
+[2016.09.28-10.30.44:303][618]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap
+[2016.09.28-10.31.47:610][ 73]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.09.28-10.31.47:611][ 73]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.09.28-10.31.52:286][634]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.09.28-10.31.52:287][634]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.09.28-10.31.55:561][ 27]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.09.28-10.31.55:563][ 27]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.09.28-10.31.58:485][355]LogSavePackage: Save=82.334389ms
+[2016.09.28-10.31.58:485][355]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Escapig_Level1741F8C44B027415A3ED18BC2DB44F75.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Maps/Escapig_Level.umap'
+[2016.09.28-10.31.58:486][355]LogSavePackage: Total save time: 126.162935ms
+[2016.09.28-10.31.58:486][355]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Maps/Escapig_Level.umap
+[2016.09.28-10.31.59:269][410]LogSavePackage: Save=81.316917ms
+[2016.09.28-10.31.59:269][410]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/UEDPCEscapig_Level6F87F9E248FD40EF4E03D8B97E8FAD0D.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap'
+[2016.09.28-10.31.59:270][410]LogSavePackage: Total save time: 125.045855ms
+[2016.09.28-10.31.59:270][410]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap
+[2016.09.28-10.34.55:173][207]LogActor:Warning: GameNetworkManager /Engine/Transient.World_8:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.09.28-10.35.17:511][850]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Escapig_Mode', cached variable property's owner is '/Script/Engine.GameMode'
+[2016.09.28-10.35.29:472][263]BlueprintLog: New page: Compile Escapig_Mode
+[2016.09.28-10.35.29:593][263]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.09.28-10.35.29:594][263]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.09.28-10.35.29:594][263]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.09.28-10.35.29:625][263]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000003BE58A0
+[2016.09.28-10.35.29:637][263]BlueprintEditorCompileResults: Info [0669.53] Compile of Escapig_Mode successful! [in 165 ms]
+[2016.09.28-10.35.30:379][320]LogSavePackage: Save=170.593430ms
+[2016.09.28-10.35.30:379][320]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Escapig_Mode87294B074C7F1B0C71E6EA9AF5C52C0D.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Blueprints/Escapig_Mode.uasset'
+[2016.09.28-10.35.30:381][320]LogSavePackage: Total save time: 215.523694ms
+[2016.09.28-10.35.30:381][320]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Blueprints/Escapig_Mode.uasset
+[2016.09.28-10.35.31:702][457]LogSavePackage: Save=81.196815ms
+[2016.09.28-10.35.31:702][457]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Escapig_Level0C0CDE044D57FFC44D52318C0233C342.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Maps/Escapig_Level.umap'
+[2016.09.28-10.35.31:703][457]LogSavePackage: Total save time: 124.133125ms
+[2016.09.28-10.35.31:703][457]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Maps/Escapig_Level.umap
+[2016.09.28-10.35.47:425][293]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Escapig_Mode', cached variable property's owner is '/Script/Engine.GameMode'
+[2016.09.28-10.35.49:432][532]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.09.28-10.36.07:273][617]BlueprintLog: New page: Compile Escapig_Mode
+[2016.09.28-10.36.07:824][617]BlueprintEditorCompileResults: Info [0707.71] Compile of Escapig_Mode successful! [in 550 ms]
+[2016.09.28-10.36.08:475][660]LogSavePackage: Save=169.638580ms
+[2016.09.28-10.36.08:475][660]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Escapig_Mode316FBF1D45EF48719A83EBA87E7F2140.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Blueprints/Escapig_Mode.uasset'
+[2016.09.28-10.36.08:476][660]LogSavePackage: Total save time: 213.300917ms
+[2016.09.28-10.36.08:476][660]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Blueprints/Escapig_Mode.uasset
+[2016.09.28-10.42.22:660][938]LogAIModule: Creating AISystem for world Menu
+[2016.09.28-10.42.22:662][938]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.09.28-10.42.22:663][938]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.09.28-10.42.22:663][938]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.09.28-10.42.22:696][938]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000064F62AC0
+[2016.09.28-10.42.22:706][938]Cmd: MAP LOAD FILE="../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Maps/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.09.28-10.42.22:706][938]LightingResults: New page: Lighting Build
+[2016.09.28-10.42.22:724][938]LoadErrors: New page: Loading map: Menu.umap
+[2016.09.28-10.42.22:749][938]MapCheck: New page: Map Check
+[2016.09.28-10.42.22:749][938]LightingResults: New page: Lighting Build
+[2016.09.28-10.42.22:781][938]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000030B89080
+[2016.09.28-10.42.22:781][938]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000032C4A160
+[2016.09.28-10.42.22:866][938]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.28-10.42.22:866][938]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.PigChar_415.CharacterMesh0.Pig_Anim_BP_C_4
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.28-10.42.22:866][938]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.09.28-10.42.22:958][938]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.09.28-10.42.23:001][938]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.09.28-10.42.23:065][938]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 63.4ms to complete.
+[2016.09.28-10.42.23:065][938]LogFileHelpers: Loading map 'Menu' took 0.360
+[2016.09.28-10.42.24:080][ 56]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.09.28-10.42.24:080][ 56]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2016.09.28-10.42.24:223][ 56]LogSavePackage: Save=65.213028ms
+[2016.09.28-10.42.24:223][ 56]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/MenuCE67046C4892C4F6F1ED1192A9C1DD72.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Maps/Menu.umap'
+[2016.09.28-10.42.24:224][ 56]LogSavePackage: Total save time: 109.342691ms
+[2016.09.28-10.42.24:224][ 56]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Maps/Menu.umap
+[2016.09.28-10.42.25:602][181]LogSavePackage: Save=64.597427ms
+[2016.09.28-10.42.25:602][181]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/UEDPCMenu866ACCE3460AC666794A8BAAD98D0F22.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCMenu.umap'
+[2016.09.28-10.42.25:603][181]LogSavePackage: Total save time: 107.118491ms
+[2016.09.28-10.42.25:603][181]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCMenu.umap
+[2016.09.28-10.42.25:681][181]LogSavePackage: Save=9.198198ms
+[2016.09.28-10.42.25:681][181]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/UEDPCLoad_Screen096F71AF4626C1CE5EF497BC3F28CE07.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCLoad_Screen.umap'
+[2016.09.28-10.42.25:682][181]LogSavePackage: Total save time: 51.769927ms
+[2016.09.28-10.42.25:682][181]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCLoad_Screen.umap
+[2016.09.28-10.42.25:837][181]LogSavePackage: Save=81.954437ms
+[2016.09.28-10.42.25:837][181]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/UEDPCEscapig_Level64B23F3B469D5BD6330ACA8716A26C07.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap'
+[2016.09.28-10.42.25:838][181]LogSavePackage: Total save time: 124.773771ms
+[2016.09.28-10.42.25:838][181]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap
+[2016.09.28-10.43.10:605][662]BlueprintLog: New page: Compile Menu
+[2016.09.28-10.43.10:734][662]BlueprintEditorCompileResults: Info [1130.62] Compile of Menu successful! [in 128 ms]
+[2016.09.28-10.43.11:362][733]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/Menu" FILE="../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Menu.uasset" SILENT=true
+[2016.09.28-10.43.11:542][733]LogSavePackage: Save=136.488754ms
+[2016.09.28-10.43.11:542][733]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/MenuB612DE5B4C071302F81DCE96986409E4.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Menu.uasset'
+[2016.09.28-10.43.11:544][733]LogSavePackage: Total save time: 181.359526ms
+[2016.09.28-10.43.11:544][733]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Menu.uasset
+[2016.09.28-10.43.12:718][854]LogSavePackage: Save=63.953075ms
+[2016.09.28-10.43.12:718][854]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Menu9F8A90E449093B16508558B63120A597.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Maps/Menu.umap'
+[2016.09.28-10.43.12:719][854]LogSavePackage: Total save time: 106.692437ms
+[2016.09.28-10.43.12:719][854]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Maps/Menu.umap
+[2016.09.28-10.43.13:735][937]LogSavePackage: Save=64.146324ms
+[2016.09.28-10.43.13:735][937]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/UEDPCMenu9BA822934CAEAF66431E2ABE5910FA06.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCMenu.umap'
+[2016.09.28-10.43.13:736][937]LogSavePackage: Total save time: 107.192773ms
+[2016.09.28-10.43.13:736][937]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCMenu.umap
+[2016.09.28-10.43.13:813][937]LogSavePackage: Save=8.901354ms
+[2016.09.28-10.43.13:813][937]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/UEDPCLoad_Screen2A000CDD4F919010C1490EB4E1B2416B.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCLoad_Screen.umap'
+[2016.09.28-10.43.13:814][937]LogSavePackage: Total save time: 51.451165ms
+[2016.09.28-10.43.13:814][937]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCLoad_Screen.umap
+[2016.09.28-10.43.13:970][937]LogSavePackage: Save=81.695732ms
+[2016.09.28-10.43.13:970][937]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/UEDPCEscapig_LevelF0A6EE2B40FB019638D880B9F037F30C.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap'
+[2016.09.28-10.43.13:971][937]LogSavePackage: Total save time: 124.843217ms
+[2016.09.28-10.43.13:971][937]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap
+[2016.09.28-10.45.23:145][ 36]BlueprintLog: New page: Compile Menu
+[2016.09.28-10.45.23:283][ 36]BlueprintEditorCompileResults: Info [1263.17] Compile of Menu successful! [in 137 ms]
+[2016.09.28-10.45.23:830][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/Menu" FILE="../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Menu.uasset" SILENT=true
+[2016.09.28-10.45.24:019][ 89]LogSavePackage: Save=145.349686ms
+[2016.09.28-10.45.24:019][ 89]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Menu07BF184A4B6155F5FC3B549DB8E785E8.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Menu.uasset'
+[2016.09.28-10.45.24:020][ 89]LogFileManager:Warning: DeleteFile was unable to delete '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Menu.uasset', retrying in .5s...
+[2016.09.28-10.45.24:520][ 89]LogFileManager:Error: Error deleting file '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Menu.uasset'.
+[2016.09.28-10.45.24:520][ 89]LogSavePackage:Error: Error saving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Menu.uasset'
+[2016.09.28-10.45.24:521][ 89]LogSavePackage: Total save time: 690.766484ms
+[2016.09.28-10.45.24:521][ 89]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Menu.uasset
+[2016.09.28-10.45.32:082][ 89]EditorErrors: New page: Save Output
+[2016.09.28-10.45.32:082][ 89]EditorErrors:Warning: Warning Error saving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Menu.uasset'
+[2016.09.28-10.45.38:878][542]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/Menu" FILE="../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Menu.uasset" SILENT=true
+[2016.09.28-10.45.39:058][542]LogSavePackage: Save=137.114883ms
+[2016.09.28-10.45.39:058][542]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/MenuF2DBE74741EEAEBA3144F985F185110F.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Menu.uasset'
+[2016.09.28-10.45.39:059][542]LogSavePackage: Total save time: 180.266351ms
+[2016.09.28-10.45.39:059][542]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/UMG/Menu.uasset
+[2016.09.28-10.45.41:000][741]LogSavePackage: Save=64.544777ms
+[2016.09.28-10.45.41:000][741]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Menu644E32664580042A7B9DA7AE87FC548E.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Maps/Menu.umap'
+[2016.09.28-10.45.41:001][741]LogSavePackage: Total save time: 106.776394ms
+[2016.09.28-10.45.41:001][741]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Maps/Menu.umap
+[2016.09.28-10.45.52:728][115]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0003 seconds. Added 1 classes and 3 folders.
+[2016.09.28-10.45.58:909][852]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.28-10.45.58:909][852]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.PigChar_415.CharacterMesh0.Pig_Anim_BP_C_4
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.28-10.45.58:909][852]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.09.28-10.45.58:911][852]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.09.28-10.46.06:248][732]LogEditorViewport: Clicking on Actor (LMB): Mini_Game_Pawn_C (Mini_Game_Pawn)
+[2016.09.28-10.46.07:680][892]LogEditorViewport: Clicking on Actor (CTRL LMB): Danananaa_C (Danananaa)
+[2016.09.28-10.46.13:185][530]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2016.09.28-10.46.16:683][919]LogSavePackage: Save=62.979439ms
+[2016.09.28-10.46.16:683][919]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/MenuDD7F55024D8AE2D34E52FCA02836E133.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Maps/Menu.umap'
+[2016.09.28-10.46.16:684][919]LogSavePackage: Total save time: 106.352616ms
+[2016.09.28-10.46.16:684][919]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Maps/Menu.umap
+[2016.09.28-10.46.22:185][539]LogSavePackage: Save=63.961330ms
+[2016.09.28-10.46.22:185][539]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/UEDPCMenu62FA49A54C9006B1A6683E957FA0DBFD.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCMenu.umap'
+[2016.09.28-10.46.22:186][539]LogSavePackage: Total save time: 106.867753ms
+[2016.09.28-10.46.22:186][539]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCMenu.umap
+[2016.09.28-10.46.22:264][539]LogSavePackage: Save=8.773280ms
+[2016.09.28-10.46.22:264][539]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/UEDPCLoad_Screen685D49A2412ECA579906A092E7547852.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCLoad_Screen.umap'
+[2016.09.28-10.46.22:265][539]LogSavePackage: Total save time: 51.311422ms
+[2016.09.28-10.46.22:265][539]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCLoad_Screen.umap
+[2016.09.28-10.46.22:384][539]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.28-10.46.22:384][539]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.PigChar_415.CharacterMesh0.Pig_Anim_BP_C_4
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.28-10.46.22:420][539]LogSavePackage: Save=81.998550ms
+[2016.09.28-10.46.22:420][539]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/UEDPCEscapig_LevelCCFFF8404627D78019210799E6C522BC.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap'
+[2016.09.28-10.46.22:421][539]LogSavePackage: Total save time: 124.696363ms
+[2016.09.28-10.46.22:421][539]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.umap
+[2016.09.28-10.47.48:877][ 92]LogSavePackage: Save=66.030701ms
+[2016.09.28-10.47.48:877][ 92]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Menu55446C6A495A4B98A115B395F506491A.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Maps/Menu.umap'
+[2016.09.28-10.47.48:878][ 92]LogSavePackage: Total save time: 112.526018ms
+[2016.09.28-10.47.48:878][ 92]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Maps/Menu.umap
+[2016.09.28-10.47.51:089][155]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.28-10.47.51:089][155]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel.PigChar_415.CharacterMesh0.Pig_Anim_BP_C_4
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:008C
+[2016.09.28-10.47.51:127][155]LogSavePackage: Save=85.150002ms
+[2016.09.28-10.47.51:127][155]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Escapig_Level2A7C59D940C7EBEA072EA3A3AF801A22.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Maps/Escapig_Level.umap'
+[2016.09.28-10.47.51:128][155]LogSavePackage: Total save time: 129.932553ms
+[2016.09.28-10.47.51:128][155]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Maps/Escapig_Level.umap
+[2016.09.28-10.47.51:128][155]LogFileHelpers: Saving map 'Escapig_Level' took 0.229
+[2016.09.28-10.47.51:279][155]LogSavePackage: Save=9.009504ms
+[2016.09.28-10.47.51:279][155]LogSavePackage: Moving '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Saved/Load_Screen55E10F6E4841DE32A04D74A2C6E1282A.tmp' to '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Maps/Load_Screen.umap'
+[2016.09.28-10.47.51:280][155]LogSavePackage: Total save time: 52.361056ms
+[2016.09.28-10.47.51:280][155]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Maps/Load_Screen.umap
+[2016.09.28-10.47.51:280][155]LogFileHelpers: Saving map 'Load_Screen' took 0.152
+[2016.09.28-10.47.51:285][155]Cmd: MAP LOAD FILE="../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Maps/Load_Screen.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.09.28-10.47.51:285][155]LightingResults: New page: Lighting Build
+[2016.09.28-10.47.51:304][155]LoadErrors: New page: Loading map: Load_Screen.umap
+[2016.09.28-10.47.51:305][155]MapCheck: New page: Map Check
+[2016.09.28-10.47.51:305][155]LightingResults: New page: Lighting Build
+[2016.09.28-10.47.51:336][155]LogReferenceChain: Searching referencers for Escapig_Level. This may take several minutes.
+[2016.09.28-10.47.51:661][155]LogReferenceChain: Generating reference graph ...
+[2016.09.28-10.47.51:670][155]LogReferenceChain: Level 0 has 2 nodes ...
+[2016.09.28-10.47.51:688][155]LogReferenceChain: Level 1 added 17 nodes ...
+[2016.09.28-10.47.51:707][155]LogReferenceChain: Level 2 added 55 nodes ...
+[2016.09.28-10.47.51:727][155]LogReferenceChain: Level 3 added 103 nodes ...
+[2016.09.28-10.47.51:747][155]LogReferenceChain: Level 4 added 131 nodes ...
+[2016.09.28-10.47.51:765][155]LogReferenceChain: Level 5 added 162 nodes ...
+[2016.09.28-10.47.51:785][155]LogReferenceChain: Level 6 added 113 nodes ...
+[2016.09.28-10.47.51:804][155]LogReferenceChain: Level 7 added 82 nodes ...
+[2016.09.28-10.47.51:824][155]LogReferenceChain: Level 8 added 0 nodes ...
+[2016.09.28-10.47.51:824][155]LogReferenceChain: Generating reference chains ...
+[2016.09.28-10.47.51:824][155]LogReferenceChain:   
+[2016.09.28-10.47.51:824][155]LogReferenceChain: External Referencers:
+[2016.09.28-10.47.51:824][155]LogReferenceChain:   
+[2016.09.28-10.47.51:824][155]LogReferenceChain: (standalone) World /Game/Blueprints/Maps/Load_Screen.Load_Screen->CurrentLevel
+[2016.09.28-10.47.53:713][155]LogReferenceChain:   Level /Game/Blueprints/Maps/Load_Screen.Load_Screen:PersistentLevel->UE4Editor-Engine.dll!ULevel::AddReferencedObjects() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\engine\private\level.cpp:255]
+[2016.09.28-10.47.53:713][155]LogReferenceChain:     AbstractNavData /Game/Blueprints/Maps/Load_Screen.Load_Screen:PersistentLevel.AbstractNavData-Default->CachedWorld
+[2016.09.28-10.47.53:713][155]LogReferenceChain:       World /Game/Blueprints/Maps/Menu.Menu->Levels
+[2016.09.28-10.47.53:713][155]LogReferenceChain:         Level /Game/Blueprints/Maps/Escapig_Level.Escapig_Level:PersistentLevel->Outer
+[2016.09.28-10.47.53:713][155]LogReferenceChain:           (target) World /Game/Blueprints/Maps/Escapig_Level.Escapig_Level
+[2016.09.28-10.47.53:885][155]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2016.09.28-10.47.54:013][155]LogCrashTracker: 
+
+
+[2016.09.28-10.47.54:013][155]LogCrashTracker: 
+
+
+[2016.09.28-10.47.54:013][155]LogWindows: === Critical error: ===
+Fatal error: [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.9\Engine\Source\Editor\UnrealEd\Private\EditorServer.cpp] [Line: 1773] 
+/Game/Blueprints/Maps/Escapig_Level.Escapig_Level still around trying to load ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Blueprints/Maps/Load_Screen.umap
+   (Object is not currently rooted)
+
+
+
+
+
+[2016.09.28-10.47.54:116][155]LogExit: Executing StaticShutdownAfterError
+[2016.09.28-10.47.54:121][155]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.09.28-10.47.54:121][155]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.09.28-10.47.54:121][155]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.09.28-10.47.54:121][155]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.09.28-10.47.54:122][155]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.09.28-10.47.54:122][155]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.09.28-10.47.54:122][155]LogWindows: FPlatformMisc::RequestExit(1)
+[2016.09.28-10.47.54:122][155]Log file closed, 09/28/16 11:47:54

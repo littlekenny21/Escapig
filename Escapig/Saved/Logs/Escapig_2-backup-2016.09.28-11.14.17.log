@@ -1,0 +1,733 @@
+﻿[2016.09.28-10.10.22:332][  0]Log file open, 09/28/16 11:10:22
+[2016.09.28-10.10.22:332][  0]LogInit:Display: Running engine for game: Escapig
+[2016.09.28-10.10.22:333][  0]LogInit:Display: RandInit(2139516148) SRandInit(2139516149).
+[2016.09.28-10.10.22:333][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.09.28-10.10.22:333][  0]LogStats: Stats thread started at 0.073019
+[2016.09.28-10.10.22:333][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.09.28-10.10.22:333][  0]LogInit: API Version: 2672455
+[2016.09.28-10.10.22:333][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.09.28-10.10.22:333][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.09.28-10.10.22:333][  0]LogInit: Build Configuration: Development
+[2016.09.28-10.10.22:333][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.09.28-10.10.22:333][  0]LogInit: Command line:  /Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu -game -PIEVIACONSOLE -ResX=540 -ResY=960  -Multiprocess -featureleveles2 -faketouches 
+[2016.09.28-10.10.22:333][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.09.28-10.10.22:333][  0]LogInit: Rocket: 1
+[2016.09.28-10.10.22:345][  0]LogInit: Using libcurl 7.41.0
+[2016.09.28-10.10.22:345][  0]LogInit:  - built for x86_64-pc-win32
+[2016.09.28-10.10.22:345][  0]LogInit:  - supports SSL with WinSSL
+[2016.09.28-10.10.22:345][  0]LogInit:  - other features:
+[2016.09.28-10.10.22:345][  0]LogInit:      CURL_VERSION_SSL
+[2016.09.28-10.10.22:345][  0]LogInit:      CURL_VERSION_IPV6
+[2016.09.28-10.10.22:345][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.09.28-10.10.22:345][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.09.28-10.10.22:345][  0]LogInit:      CURL_VERSION_IDN
+[2016.09.28-10.10.22:345][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.09.28-10.10.22:345][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.09.28-10.10.22:345][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.09.28-10.10.22:345][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.09.28-10.10.22:345][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.09.28-10.10.22:351][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.09.28-10.10.22:357][  0]LogInit: Object subsystem initialized
+[2016.09.28-10.10.22:358][  0]LogInit: Selected Device Profile: [Windows]
+[2016.09.28-10.10.22:358][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.09.28-10.10.22:361][  0]LogInit: Computer: COMPUTE-98JEH1J
+[2016.09.28-10.10.22:361][  0]LogInit: User: TheDesigner
+[2016.09.28-10.10.22:361][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.09.28-10.10.22:361][  0]LogInit: High frequency timer resolution =3.513623 MHz
+[2016.09.28-10.10.22:361][  0]LogMemory: Memory total: Physical=23.9GB (24GB approx)
+[2016.09.28-10.10.22:361][  0]LogMemory: Platform Memory Stats for Windows
+[2016.09.28-10.10.22:361][  0]LogMemory: Process Physical Memory: 55.57 MB used, 55.57 MB peak
+[2016.09.28-10.10.22:361][  0]LogMemory: Process Virtual Memory: 57.46 MB used, 57.46 MB peak
+[2016.09.28-10.10.22:361][  0]LogMemory: Physical Memory: 5582.39 MB used, 24514.65 MB total
+[2016.09.28-10.10.22:361][  0]LogMemory: Virtual Memory: 337.63 MB used, 8388608.00 MB total
+[2016.09.28-10.10.22:393][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2016.09.28-10.10.22:942][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.09.28-10.10.22:942][  0]LogD3D11RHI: Adapter has 4007MB of dedicated video memory, 0MB of dedicated system memory, and 12001MB of shared system memory, 1 output[s]
+[2016.09.28-10.10.22:958][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.09.28-10.10.22:958][  0]LogD3D11RHI: Adapter has 4007MB of dedicated video memory, 0MB of dedicated system memory, and 12001MB of shared system memory, 1 output[s]
+[2016.09.28-10.10.22:958][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.09.28-10.10.22:962][  0]LogD3D11RHI: !Direct3DDevice
+[2016.09.28-10.10.22:962][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.09.28-10.10.22:969][  0]LogD3D11RHI: Async texture creation enabled
+[2016.09.28-10.10.22:982][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Intermediate/Shaders/WorkingDirectory/7296/).
+[2016.09.28-10.10.22:982][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Intermediate/Shaders/tmp/946458F043C04B142C350698BF75E52C/'.
+[2016.09.28-10.10.22:982][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.09.28-10.10.23:831][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.09.28-10.10.23:836][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.09.28-10.10.23:840][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.09.28-10.10.23:844][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.09.28-10.10.23:848][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.09.28-10.10.23:851][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.09.28-10.10.23:853][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.09.28-10.10.23:856][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.09.28-10.10.23:859][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.09.28-10.10.23:862][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.09.28-10.10.23:864][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.09.28-10.10.23:867][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.09.28-10.10.23:867][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.09.28-10.10.23:882][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.09.28-10.10.23:884][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.09.28-10.10.23:887][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.09.28-10.10.23:890][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.09.28-10.10.23:890][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.09.28-10.10.23:947][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.09.28-10.10.23:984][  0]LogDerivedDataCache: Loaded boot cache 0.04s 37MB C:/Users/TheDesigner/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.09.28-10.10.23:984][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/TheDesigner/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.09.28-10.10.23:984][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.09.28-10.10.23:984][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.09.28-10.10.23:984][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.09.28-10.10.23:984][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.09.28-10.10.24:102][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.09.28-10.10.24:113][  0]LogDerivedDataCache: Using Local data cache path C:/Users/TheDesigner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.09.28-10.10.24:253][  0]LogInit: Selected Device Profile: [Windows]
+[2016.09.28-10.10.24:253][  0]LogContentStreaming: Texture pool size is 1000.000000MB
+[2016.09.28-10.10.24:265][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.09.28-10.10.24:265][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.09.28-10.10.24:505][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.09.28-10.10.24:644][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../../Users/TheDesigner/Desktop/Projects/Escapig/Escapig/Content/Movies/Default_Startup.mp4
+[2016.09.28-10.10.24:725][  0]LogAssetRegistry: FAssetRegistry took 0.0002 seconds to start up
+[2016.09.28-10.10.24:744][  0]SourceControl: Info Source control is disabled
+[2016.09.28-10.10.24:744][  0]SourceControl: Info Source control is disabled
+[2016.09.28-10.10.24:751][  0]SourceControl: Info Source control is disabled
+[2016.09.28-10.10.24:815][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.09.28-10.10.24:876][  0]LogObj: 27801 objects as part of root set at end of initial load.
+[2016.09.28-10.10.24:876][  0]LogUObjectAllocator: 5798192 out of 0 bytes used by permanent object pool.
+[2016.09.28-10.10.24:928][  0]LogEngine: Initializing Engine...
+[2016.09.28-10.10.24:930][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.09.28-10.10.24:930][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.09.28-10.10.24:956][  0]LogMaterial: Missing cached shader map for material MAT_LevelColorationLitLightmapUV, compiling. Is special engine material.
+[2016.09.28-10.10.24:956][  0]LogMaterial:Warning: Failed to compile Material /Engine/EngineDebugMaterials/MAT_LevelColorationLitLightmapUV.MAT_LevelColorationLitLightmapUV for platform PCD3D_ES2, Default Material will be used in game.
+[2016.09.28-10.10.24:956][  0]LogMaterial:Warning: 	(Node LightmapUVs) Node not supported in feature level ES2
+[2016.09.28-10.10.24:998][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.28-10.10.25:006][  0]LogInit: FAudioDevice initialized.
+[2016.09.28-10.10.25:011][  0]LogInit: Texture streaming: Enabled
+[2016.09.28-10.10.25:020][  0]LogMaterial: Missing cached shader map for material CustomStencil, compiling. 
+[2016.09.28-10.10.25:020][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/CustomStencil.CustomStencil for platform PCD3D_ES2, Default Material will be used in game.
+[2016.09.28-10.10.25:020][  0]LogMaterial:Warning: 	(Node SceneTexture) Node not supported in feature level ES2
+[2016.09.28-10.10.25:067][  0]LogNet: Browse: /Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu?Name=Player
+[2016.09.28-10.10.25:067][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu?Name=Player
+[2016.09.28-10.10.25:075][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E9E3740
+[2016.09.28-10.10.25:082][  0]LogMemory: Platform Memory Stats for Windows
+[2016.09.28-10.10.25:082][  0]LogMemory: Process Physical Memory: 360.84 MB used, 363.58 MB peak
+[2016.09.28-10.10.25:082][  0]LogMemory: Process Virtual Memory: 364.43 MB used, 370.48 MB peak
+[2016.09.28-10.10.25:082][  0]LogMemory: Physical Memory: 5841.26 MB used, 24514.65 MB total
+[2016.09.28-10.10.25:082][  0]LogMemory: Virtual Memory: 877.17 MB used, 8388608.00 MB total
+[2016.09.28-10.10.25:082][  0]LogMemory: 
+[2016.09.28-10.10.25:082][  0]Allocator Stats for TBB: (not implemented)
+[2016.09.28-10.10.28:106][  0]LogAIModule: Creating AISystem for world Menu
+[2016.09.28-10.10.28:106][  0]LogWorld: Game class is 'Escapig_Mode_C'
+[2016.09.28-10.10.28:108][  0]LogWorld: Bringing World /Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu up for play (max tick rate 0) at 2016.09.28-11.10.28
+[2016.09.28-10.10.28:109][  0]LogWorld: Bringing up level for play took: 0.001775
+[2016.09.28-10.10.28:111][  0]LogBlueprintUserMessages: [Menu_C_0] false
+[2016.09.28-10.10.28:111][  0]LogBlueprintUserMessages: [Menu_C_0] false
+[2016.09.28-10.10.28:111][  0]LogBlueprintUserMessages: [Menu_C_0] true
+[2016.09.28-10.10.28:112][  0]LogInit:Display: Game Engine Initialized.
+[2016.09.28-10.10.28:323][  0]LogLoad: Full Startup: 6.29 seconds (BP compile: 1.06 seconds)
+[2016.09.28-10.10.28:342][  0]PIE:Warning: Warning Scale ''X=0.100 Y=0.000 Z=0.100'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:383][  1]LogRenderer: Reallocating scene render targets to support 540x960 (Frame:2).
+[2016.09.28-10.10.28:385][  1]PIE:Warning: Warning Scale ''X=0.100 Y=0.000 Z=0.100'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:385][  1]PIE:Warning: Warning Scale ''X=0.200 Y=0.000 Z=0.200'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:400][  2]PIE:Warning: Warning Scale ''X=0.200 Y=0.000 Z=0.200'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:400][  2]PIE:Warning: Warning Scale ''X=0.300 Y=0.000 Z=0.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:417][  3]PIE:Warning: Warning Scale ''X=0.300 Y=0.000 Z=0.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:417][  3]PIE:Warning: Warning Scale ''X=0.400 Y=0.000 Z=0.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:433][  4]PIE:Warning: Warning Scale ''X=0.400 Y=0.000 Z=0.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:433][  4]PIE:Warning: Warning Scale ''X=0.500 Y=0.000 Z=0.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:449][  5]PIE:Warning: Warning Scale ''X=0.500 Y=0.000 Z=0.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:449][  5]PIE:Warning: Warning Scale ''X=0.600 Y=0.000 Z=0.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:465][  6]PIE:Warning: Warning Scale ''X=0.600 Y=0.000 Z=0.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:465][  6]PIE:Warning: Warning Scale ''X=0.700 Y=0.000 Z=0.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:481][  7]PIE:Warning: Warning Scale ''X=0.700 Y=0.000 Z=0.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:481][  7]PIE:Warning: Warning Scale ''X=0.800 Y=0.000 Z=0.800'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:497][  8]PIE:Warning: Warning Scale ''X=0.800 Y=0.000 Z=0.800'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:497][  8]PIE:Warning: Warning Scale ''X=0.900 Y=0.000 Z=0.900'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:513][  9]PIE:Warning: Warning Scale ''X=0.900 Y=0.000 Z=0.900'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:513][  9]PIE:Warning: Warning Scale ''X=1.000 Y=0.000 Z=1.000'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:529][ 10]PIE:Warning: Warning Scale ''X=1.000 Y=0.000 Z=1.000'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:530][ 10]PIE:Warning: Warning Scale ''X=1.100 Y=0.000 Z=1.100'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:546][ 11]PIE:Warning: Warning Scale ''X=1.100 Y=0.000 Z=1.100'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:546][ 11]PIE:Warning: Warning Scale ''X=1.200 Y=0.000 Z=1.200'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:562][ 12]PIE:Warning: Warning Scale ''X=1.200 Y=0.000 Z=1.200'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:562][ 12]PIE:Warning: Warning Scale ''X=1.300 Y=0.000 Z=1.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:578][ 13]PIE:Warning: Warning Scale ''X=1.300 Y=0.000 Z=1.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:578][ 13]PIE:Warning: Warning Scale ''X=1.400 Y=0.000 Z=1.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:594][ 14]PIE:Warning: Warning Scale ''X=1.400 Y=0.000 Z=1.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:594][ 14]PIE:Warning: Warning Scale ''X=1.500 Y=0.000 Z=1.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:610][ 15]PIE:Warning: Warning Scale ''X=1.500 Y=0.000 Z=1.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:610][ 15]PIE:Warning: Warning Scale ''X=1.600 Y=0.000 Z=1.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:626][ 16]PIE:Warning: Warning Scale ''X=1.600 Y=0.000 Z=1.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:626][ 16]PIE:Warning: Warning Scale ''X=1.700 Y=0.000 Z=1.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:642][ 17]PIE:Warning: Warning Scale ''X=1.700 Y=0.000 Z=1.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:642][ 17]PIE:Warning: Warning Scale ''X=1.800 Y=0.000 Z=1.800'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:658][ 18]PIE:Warning: Warning Scale ''X=1.800 Y=0.000 Z=1.800'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:659][ 18]PIE:Warning: Warning Scale ''X=1.900 Y=0.000 Z=1.900'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:674][ 19]PIE:Warning: Warning Scale ''X=1.900 Y=0.000 Z=1.900'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:675][ 19]PIE:Warning: Warning Scale ''X=2.000 Y=0.000 Z=2.000'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:691][ 20]PIE:Warning: Warning Scale ''X=2.000 Y=0.000 Z=2.000'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:691][ 20]PIE:Warning: Warning Scale ''X=2.100 Y=0.000 Z=2.100'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:707][ 21]PIE:Warning: Warning Scale ''X=2.100 Y=0.000 Z=2.100'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:707][ 21]PIE:Warning: Warning Scale ''X=2.200 Y=0.000 Z=2.200'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:723][ 22]PIE:Warning: Warning Scale ''X=2.200 Y=0.000 Z=2.200'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:723][ 22]PIE:Warning: Warning Scale ''X=2.300 Y=0.000 Z=2.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:739][ 23]PIE:Warning: Warning Scale ''X=2.300 Y=0.000 Z=2.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:739][ 23]PIE:Warning: Warning Scale ''X=2.400 Y=0.000 Z=2.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:755][ 24]PIE:Warning: Warning Scale ''X=2.400 Y=0.000 Z=2.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:755][ 24]PIE:Warning: Warning Scale ''X=2.500 Y=0.000 Z=2.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:771][ 25]PIE:Warning: Warning Scale ''X=2.500 Y=0.000 Z=2.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:771][ 25]PIE:Warning: Warning Scale ''X=2.600 Y=0.000 Z=2.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:788][ 26]PIE:Warning: Warning Scale ''X=2.600 Y=0.000 Z=2.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:788][ 26]PIE:Warning: Warning Scale ''X=2.700 Y=0.000 Z=2.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:804][ 27]PIE:Warning: Warning Scale ''X=2.700 Y=0.000 Z=2.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:804][ 27]PIE:Warning: Warning Scale ''X=2.800 Y=0.000 Z=2.800'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:820][ 28]PIE:Warning: Warning Scale ''X=2.800 Y=0.000 Z=2.800'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:820][ 28]PIE:Warning: Warning Scale ''X=2.900 Y=0.000 Z=2.900'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:836][ 29]PIE:Warning: Warning Scale ''X=2.900 Y=0.000 Z=2.900'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:836][ 29]PIE:Warning: Warning Scale ''X=3.000 Y=0.000 Z=3.000'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:852][ 30]PIE:Warning: Warning Scale ''X=3.000 Y=0.000 Z=3.000'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:852][ 30]PIE:Warning: Warning Scale ''X=3.100 Y=0.000 Z=3.100'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:868][ 31]PIE:Warning: Warning Scale ''X=3.100 Y=0.000 Z=3.100'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:868][ 31]PIE:Warning: Warning Scale ''X=3.200 Y=0.000 Z=3.200'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:884][ 32]PIE:Warning: Warning Scale ''X=3.200 Y=0.000 Z=3.200'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:885][ 32]PIE:Warning: Warning Scale ''X=3.300 Y=0.000 Z=3.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:901][ 33]PIE:Warning: Warning Scale ''X=3.300 Y=0.000 Z=3.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:901][ 33]PIE:Warning: Warning Scale ''X=3.400 Y=0.000 Z=3.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:916][ 34]PIE:Warning: Warning Scale ''X=3.400 Y=0.000 Z=3.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:916][ 34]PIE:Warning: Warning Scale ''X=3.500 Y=0.000 Z=3.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:933][ 35]PIE:Warning: Warning Scale ''X=3.500 Y=0.000 Z=3.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:933][ 35]PIE:Warning: Warning Scale ''X=3.600 Y=0.000 Z=3.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:949][ 36]PIE:Warning: Warning Scale ''X=3.600 Y=0.000 Z=3.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:949][ 36]PIE:Warning: Warning Scale ''X=3.700 Y=0.000 Z=3.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:965][ 37]PIE:Warning: Warning Scale ''X=3.700 Y=0.000 Z=3.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:965][ 37]PIE:Warning: Warning Scale ''X=3.800 Y=0.000 Z=3.800'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:981][ 38]PIE:Warning: Warning Scale ''X=3.800 Y=0.000 Z=3.800'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:981][ 38]PIE:Warning: Warning Scale ''X=3.900 Y=0.000 Z=3.900'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:997][ 39]PIE:Warning: Warning Scale ''X=3.900 Y=0.000 Z=3.900'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.28:997][ 39]PIE:Warning: Warning Scale ''X=4.000 Y=0.000 Z=4.000'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:013][ 40]PIE:Warning: Warning Scale ''X=4.000 Y=0.000 Z=4.000'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:014][ 40]PIE:Warning: Warning Scale ''X=4.100 Y=0.000 Z=4.100'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:029][ 41]PIE:Warning: Warning Scale ''X=4.100 Y=0.000 Z=4.100'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:029][ 41]PIE:Warning: Warning Scale ''X=4.200 Y=0.000 Z=4.200'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:046][ 42]PIE:Warning: Warning Scale ''X=4.200 Y=0.000 Z=4.200'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:046][ 42]PIE:Warning: Warning Scale ''X=4.300 Y=0.000 Z=4.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:062][ 43]PIE:Warning: Warning Scale ''X=4.300 Y=0.000 Z=4.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:062][ 43]PIE:Warning: Warning Scale ''X=4.400 Y=0.000 Z=4.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:078][ 44]PIE:Warning: Warning Scale ''X=4.400 Y=0.000 Z=4.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:078][ 44]PIE:Warning: Warning Scale ''X=4.500 Y=0.000 Z=4.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:094][ 45]PIE:Warning: Warning Scale ''X=4.500 Y=0.000 Z=4.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:094][ 45]PIE:Warning: Warning Scale ''X=4.600 Y=0.000 Z=4.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:110][ 46]PIE:Warning: Warning Scale ''X=4.600 Y=0.000 Z=4.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:110][ 46]PIE:Warning: Warning Scale ''X=4.700 Y=0.000 Z=4.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:126][ 47]PIE:Warning: Warning Scale ''X=4.700 Y=0.000 Z=4.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:126][ 47]PIE:Warning: Warning Scale ''X=4.600 Y=0.000 Z=4.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:142][ 48]PIE:Warning: Warning Scale ''X=4.600 Y=0.000 Z=4.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:142][ 48]PIE:Warning: Warning Scale ''X=4.500 Y=0.000 Z=4.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:158][ 49]PIE:Warning: Warning Scale ''X=4.500 Y=0.000 Z=4.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:158][ 49]PIE:Warning: Warning Scale ''X=4.400 Y=0.000 Z=4.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:174][ 50]PIE:Warning: Warning Scale ''X=4.400 Y=0.000 Z=4.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:174][ 50]PIE:Warning: Warning Scale ''X=4.300 Y=0.000 Z=4.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:191][ 51]PIE:Warning: Warning Scale ''X=4.300 Y=0.000 Z=4.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:191][ 51]PIE:Warning: Warning Scale ''X=4.200 Y=0.000 Z=4.200'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:207][ 52]PIE:Warning: Warning Scale ''X=4.200 Y=0.000 Z=4.200'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:207][ 52]PIE:Warning: Warning Scale ''X=4.100 Y=0.000 Z=4.100'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:222][ 53]LogLevel: ActivateLevel /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level 1 1 0
+[2016.09.28-10.10.29:223][ 53]PIE:Warning: Warning Scale ''X=4.100 Y=0.000 Z=4.100'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:223][ 53]PIE:Warning: Warning Scale ''X=4.000 Y=0.000 Z=4.000'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:244][ 54]PIE:Warning: Warning Scale ''X=4.000 Y=0.000 Z=4.000'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:244][ 54]PIE:Warning: Warning Scale ''X=3.900 Y=0.000 Z=3.900'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:259][ 55]PIE:Warning: Warning Scale ''X=3.900 Y=0.000 Z=3.900'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:260][ 55]PIE:Warning: Warning Scale ''X=3.800 Y=0.000 Z=3.800'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:276][ 56]PIE:Warning: Warning Scale ''X=3.800 Y=0.000 Z=3.800'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:276][ 56]PIE:Warning: Warning Scale ''X=3.700 Y=0.000 Z=3.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:290][ 57]PIE:Warning: Warning Scale ''X=3.700 Y=0.000 Z=3.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:290][ 57]PIE:Warning: Warning Scale ''X=3.600 Y=0.000 Z=3.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:364][ 58]PIE:Warning: Warning Scale ''X=3.600 Y=0.000 Z=3.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:364][ 58]PIE:Warning: Warning Scale ''X=3.500 Y=0.000 Z=3.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:368][ 59]PIE:Warning: Warning Scale ''X=3.500 Y=0.000 Z=3.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:368][ 59]PIE:Warning: Warning Scale ''X=3.400 Y=0.000 Z=3.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:390][ 60]PIE:Warning: Warning Scale ''X=3.400 Y=0.000 Z=3.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:390][ 60]PIE:Warning: Warning Scale ''X=3.300 Y=0.000 Z=3.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:400][ 61]PIE:Warning: Warning Scale ''X=3.300 Y=0.000 Z=3.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:400][ 61]PIE:Warning: Warning Scale ''X=3.200 Y=0.000 Z=3.200'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:414][ 62]PIE:Warning: Warning Scale ''X=3.200 Y=0.000 Z=3.200'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:414][ 62]PIE:Warning: Warning Scale ''X=3.100 Y=0.000 Z=3.100'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:414][ 62]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.28-10.10.29:415][ 62]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.Escapig_Level:PersistentLevel.PigChar_415.CharacterMesh0.Pig_Anim_BP_C_0
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:0089
+[2016.09.28-10.10.29:415][ 62]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.09.28-10.10.29:416][ 62]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.09.28-10.10.29:416][ 62]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	Pig_Anim_BP_C /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.Escapig_Level:PersistentLevel.PigChar_415.CharacterMesh0.Pig_Anim_BP_C_0
+	Function /Game/Assets/Pig_Asset/Pig_Anim_BP.Pig_Anim_BP_C:ExecuteUbergraph_Pig_Anim_BP:0089
+[2016.09.28-10.10.29:416][ 62]LogLevel:Warning: Failed to find streaming level object associated with 'Menu'
+[2016.09.28-10.10.29:417][ 62]LogLevel:Warning: Failed to find streaming level object associated with 'Menu'
+[2016.09.28-10.10.29:430][ 63]LogBlueprintUserMessages: [PigChar_415] oinkoink
+[2016.09.28-10.10.29:430][ 63]PIE:Warning: Warning Scale ''X=3.100 Y=0.000 Z=3.100'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:430][ 63]PIE:Warning: Warning Scale ''X=3.000 Y=0.000 Z=3.000'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:431][ 63]LogAudio:Warning: Detected orphaned looping sound 'Run_Music'.
+[2016.09.28-10.10.29:446][ 64]PIE:Warning: Warning Scale ''X=3.000 Y=0.000 Z=3.000'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:446][ 64]PIE:Warning: Warning Scale ''X=2.900 Y=0.000 Z=2.900'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:462][ 65]PIE:Warning: Warning Scale ''X=2.900 Y=0.000 Z=2.900'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:462][ 65]PIE:Warning: Warning Scale ''X=2.800 Y=0.000 Z=2.800'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:478][ 66]PIE:Warning: Warning Scale ''X=2.800 Y=0.000 Z=2.800'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:478][ 66]PIE:Warning: Warning Scale ''X=2.700 Y=0.000 Z=2.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:494][ 67]PIE:Warning: Warning Scale ''X=2.700 Y=0.000 Z=2.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:494][ 67]PIE:Warning: Warning Scale ''X=2.600 Y=0.000 Z=2.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:511][ 68]PIE:Warning: Warning Scale ''X=2.600 Y=0.000 Z=2.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:511][ 68]PIE:Warning: Warning Scale ''X=2.500 Y=0.000 Z=2.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:527][ 69]PIE:Warning: Warning Scale ''X=2.500 Y=0.000 Z=2.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:527][ 69]PIE:Warning: Warning Scale ''X=2.400 Y=0.000 Z=2.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:543][ 70]PIE:Warning: Warning Scale ''X=2.400 Y=0.000 Z=2.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:543][ 70]PIE:Warning: Warning Scale ''X=2.300 Y=0.000 Z=2.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:559][ 71]PIE:Warning: Warning Scale ''X=2.300 Y=0.000 Z=2.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:559][ 71]PIE:Warning: Warning Scale ''X=2.200 Y=0.000 Z=2.200'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:575][ 72]PIE:Warning: Warning Scale ''X=2.200 Y=0.000 Z=2.200'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:575][ 72]PIE:Warning: Warning Scale ''X=2.100 Y=0.000 Z=2.100'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:592][ 73]PIE:Warning: Warning Scale ''X=2.100 Y=0.000 Z=2.100'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:592][ 73]PIE:Warning: Warning Scale ''X=2.000 Y=0.000 Z=2.000'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:608][ 74]PIE:Warning: Warning Scale ''X=2.000 Y=0.000 Z=2.000'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:608][ 74]PIE:Warning: Warning Scale ''X=1.900 Y=0.000 Z=1.900'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:624][ 75]PIE:Warning: Warning Scale ''X=1.900 Y=0.000 Z=1.900'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:624][ 75]PIE:Warning: Warning Scale ''X=1.800 Y=0.000 Z=1.800'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:640][ 76]PIE:Warning: Warning Scale ''X=1.800 Y=0.000 Z=1.800'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:640][ 76]PIE:Warning: Warning Scale ''X=1.700 Y=0.000 Z=1.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:656][ 77]PIE:Warning: Warning Scale ''X=1.700 Y=0.000 Z=1.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:656][ 77]PIE:Warning: Warning Scale ''X=1.600 Y=0.000 Z=1.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:672][ 78]PIE:Warning: Warning Scale ''X=1.600 Y=0.000 Z=1.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:672][ 78]PIE:Warning: Warning Scale ''X=1.500 Y=0.000 Z=1.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:688][ 79]PIE:Warning: Warning Scale ''X=1.500 Y=0.000 Z=1.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:688][ 79]PIE:Warning: Warning Scale ''X=1.400 Y=0.000 Z=1.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:704][ 80]PIE:Warning: Warning Scale ''X=1.400 Y=0.000 Z=1.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:705][ 80]PIE:Warning: Warning Scale ''X=1.300 Y=0.000 Z=1.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:721][ 81]PIE:Warning: Warning Scale ''X=1.300 Y=0.000 Z=1.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:721][ 81]PIE:Warning: Warning Scale ''X=1.200 Y=0.000 Z=1.200'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:737][ 82]PIE:Warning: Warning Scale ''X=1.200 Y=0.000 Z=1.200'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:737][ 82]PIE:Warning: Warning Scale ''X=1.100 Y=0.000 Z=1.100'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:753][ 83]PIE:Warning: Warning Scale ''X=1.100 Y=0.000 Z=1.100'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:753][ 83]PIE:Warning: Warning Scale ''X=1.000 Y=0.000 Z=1.000'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:769][ 84]PIE:Warning: Warning Scale ''X=1.000 Y=0.000 Z=1.000'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:769][ 84]PIE:Warning: Warning Scale ''X=0.900 Y=0.000 Z=0.900'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:785][ 85]PIE:Warning: Warning Scale ''X=0.900 Y=0.000 Z=0.900'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:785][ 85]PIE:Warning: Warning Scale ''X=0.800 Y=0.000 Z=0.800'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:801][ 86]PIE:Warning: Warning Scale ''X=0.800 Y=0.000 Z=0.800'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:801][ 86]PIE:Warning: Warning Scale ''X=0.700 Y=0.000 Z=0.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:817][ 87]PIE:Warning: Warning Scale ''X=0.700 Y=0.000 Z=0.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:817][ 87]PIE:Warning: Warning Scale ''X=0.600 Y=0.000 Z=0.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:833][ 88]PIE:Warning: Warning Scale ''X=0.600 Y=0.000 Z=0.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:834][ 88]PIE:Warning: Warning Scale ''X=0.500 Y=0.000 Z=0.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:849][ 89]PIE:Warning: Warning Scale ''X=0.500 Y=0.000 Z=0.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:850][ 89]PIE:Warning: Warning Scale ''X=0.600 Y=0.000 Z=0.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:866][ 90]PIE:Warning: Warning Scale ''X=0.600 Y=0.000 Z=0.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:866][ 90]PIE:Warning: Warning Scale ''X=0.700 Y=0.000 Z=0.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:882][ 91]PIE:Warning: Warning Scale ''X=0.700 Y=0.000 Z=0.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:882][ 91]PIE:Warning: Warning Scale ''X=0.800 Y=0.000 Z=0.800'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:898][ 92]PIE:Warning: Warning Scale ''X=0.800 Y=0.000 Z=0.800'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:898][ 92]PIE:Warning: Warning Scale ''X=0.900 Y=0.000 Z=0.900'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:914][ 93]PIE:Warning: Warning Scale ''X=0.900 Y=0.000 Z=0.900'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:914][ 93]PIE:Warning: Warning Scale ''X=1.000 Y=0.000 Z=1.000'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:930][ 94]PIE:Warning: Warning Scale ''X=1.000 Y=0.000 Z=1.000'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:931][ 94]PIE:Warning: Warning Scale ''X=1.100 Y=0.000 Z=1.100'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:946][ 95]PIE:Warning: Warning Scale ''X=1.100 Y=0.000 Z=1.100'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:946][ 95]PIE:Warning: Warning Scale ''X=1.200 Y=0.000 Z=1.200'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:963][ 96]PIE:Warning: Warning Scale ''X=1.200 Y=0.000 Z=1.200'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:963][ 96]PIE:Warning: Warning Scale ''X=1.300 Y=0.000 Z=1.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:979][ 97]PIE:Warning: Warning Scale ''X=1.300 Y=0.000 Z=1.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:979][ 97]PIE:Warning: Warning Scale ''X=1.400 Y=0.000 Z=1.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:995][ 98]PIE:Warning: Warning Scale ''X=1.400 Y=0.000 Z=1.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.29:995][ 98]PIE:Warning: Warning Scale ''X=1.500 Y=0.000 Z=1.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:011][ 99]PIE:Warning: Warning Scale ''X=1.500 Y=0.000 Z=1.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:011][ 99]PIE:Warning: Warning Scale ''X=1.600 Y=0.000 Z=1.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:027][100]PIE:Warning: Warning Scale ''X=1.600 Y=0.000 Z=1.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:027][100]PIE:Warning: Warning Scale ''X=1.700 Y=0.000 Z=1.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:043][101]PIE:Warning: Warning Scale ''X=1.700 Y=0.000 Z=1.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:043][101]PIE:Warning: Warning Scale ''X=1.800 Y=0.000 Z=1.800'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:059][102]PIE:Warning: Warning Scale ''X=1.800 Y=0.000 Z=1.800'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:059][102]PIE:Warning: Warning Scale ''X=1.900 Y=0.000 Z=1.900'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:075][103]PIE:Warning: Warning Scale ''X=1.900 Y=0.000 Z=1.900'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:075][103]PIE:Warning: Warning Scale ''X=2.000 Y=0.000 Z=2.000'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:092][104]PIE:Warning: Warning Scale ''X=2.000 Y=0.000 Z=2.000'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:092][104]PIE:Warning: Warning Scale ''X=2.100 Y=0.000 Z=2.100'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:108][105]PIE:Warning: Warning Scale ''X=2.100 Y=0.000 Z=2.100'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:108][105]PIE:Warning: Warning Scale ''X=2.200 Y=0.000 Z=2.200'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:124][106]PIE:Warning: Warning Scale ''X=2.200 Y=0.000 Z=2.200'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:124][106]PIE:Warning: Warning Scale ''X=2.300 Y=0.000 Z=2.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:140][107]PIE:Warning: Warning Scale ''X=2.300 Y=0.000 Z=2.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:140][107]PIE:Warning: Warning Scale ''X=2.400 Y=0.000 Z=2.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:156][108]PIE:Warning: Warning Scale ''X=2.400 Y=0.000 Z=2.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:156][108]PIE:Warning: Warning Scale ''X=2.500 Y=0.000 Z=2.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:172][109]PIE:Warning: Warning Scale ''X=2.500 Y=0.000 Z=2.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:172][109]PIE:Warning: Warning Scale ''X=2.600 Y=0.000 Z=2.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:188][110]LogBlueprintUserMessages: [PigChar_415] LifeLost
+[2016.09.28-10.10.30:188][110]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors4 out of bounds [0/0]!
+[2016.09.28-10.10.30:188][110]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item6'
+	PigChar_C /Temp/Autosaves/Game/Blueprints/Maps/UEDPCEscapig_Level.Escapig_Level:PersistentLevel.PigChar_415
+	Function /Game/Blueprints/Blueprints/PigChar.PigChar_C:ExecuteUbergraph_PigChar:3E10
+[2016.09.28-10.10.30:189][110]PIE:Warning: Warning Scale ''X=2.600 Y=0.000 Z=2.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:189][110]PIE:Warning: Warning Scale ''X=2.700 Y=0.000 Z=2.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:204][111]PIE:Warning: Warning Scale ''X=2.700 Y=0.000 Z=2.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:205][111]PIE:Warning: Warning Scale ''X=2.800 Y=0.000 Z=2.800'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:221][112]PIE:Warning: Warning Scale ''X=2.800 Y=0.000 Z=2.800'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:221][112]PIE:Warning: Warning Scale ''X=2.900 Y=0.000 Z=2.900'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:237][113]PIE:Warning: Warning Scale ''X=2.900 Y=0.000 Z=2.900'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:237][113]PIE:Warning: Warning Scale ''X=3.000 Y=0.000 Z=3.000'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:253][114]PIE:Warning: Warning Scale ''X=3.000 Y=0.000 Z=3.000'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:253][114]PIE:Warning: Warning Scale ''X=3.100 Y=0.000 Z=3.100'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:269][115]PIE:Warning: Warning Scale ''X=3.100 Y=0.000 Z=3.100'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:269][115]PIE:Warning: Warning Scale ''X=3.200 Y=0.000 Z=3.200'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:285][116]PIE:Warning: Warning Scale ''X=3.200 Y=0.000 Z=3.200'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:285][116]PIE:Warning: Warning Scale ''X=3.300 Y=0.000 Z=3.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:301][117]PIE:Warning: Warning Scale ''X=3.300 Y=0.000 Z=3.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:301][117]PIE:Warning: Warning Scale ''X=3.400 Y=0.000 Z=3.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:317][118]PIE:Warning: Warning Scale ''X=3.400 Y=0.000 Z=3.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:318][118]PIE:Warning: Warning Scale ''X=3.500 Y=0.000 Z=3.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:333][119]PIE:Warning: Warning Scale ''X=3.500 Y=0.000 Z=3.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:333][119]PIE:Warning: Warning Scale ''X=3.600 Y=0.000 Z=3.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:349][120]PIE:Warning: Warning Scale ''X=3.600 Y=0.000 Z=3.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:350][120]PIE:Warning: Warning Scale ''X=3.700 Y=0.000 Z=3.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:366][121]PIE:Warning: Warning Scale ''X=3.700 Y=0.000 Z=3.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:366][121]PIE:Warning: Warning Scale ''X=3.800 Y=0.000 Z=3.800'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:382][122]PIE:Warning: Warning Scale ''X=3.800 Y=0.000 Z=3.800'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:382][122]PIE:Warning: Warning Scale ''X=3.900 Y=0.000 Z=3.900'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:398][123]PIE:Warning: Warning Scale ''X=3.900 Y=0.000 Z=3.900'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:398][123]PIE:Warning: Warning Scale ''X=4.000 Y=0.000 Z=4.000'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:414][124]PIE:Warning: Warning Scale ''X=4.000 Y=0.000 Z=4.000'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:414][124]PIE:Warning: Warning Scale ''X=4.100 Y=0.000 Z=4.100'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:430][125]PIE:Warning: Warning Scale ''X=4.100 Y=0.000 Z=4.100'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:430][125]PIE:Warning: Warning Scale ''X=4.200 Y=0.000 Z=4.200'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:446][126]PIE:Warning: Warning Scale ''X=4.200 Y=0.000 Z=4.200'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:447][126]PIE:Warning: Warning Scale ''X=4.300 Y=0.000 Z=4.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:463][127]PIE:Warning: Warning Scale ''X=4.300 Y=0.000 Z=4.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:463][127]PIE:Warning: Warning Scale ''X=4.400 Y=0.000 Z=4.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:479][128]PIE:Warning: Warning Scale ''X=4.400 Y=0.000 Z=4.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:479][128]PIE:Warning: Warning Scale ''X=4.500 Y=0.000 Z=4.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:495][129]PIE:Warning: Warning Scale ''X=4.500 Y=0.000 Z=4.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:495][129]PIE:Warning: Warning Scale ''X=4.600 Y=0.000 Z=4.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:511][130]PIE:Warning: Warning Scale ''X=4.600 Y=0.000 Z=4.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:511][130]PIE:Warning: Warning Scale ''X=4.700 Y=0.000 Z=4.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:527][131]PIE:Warning: Warning Scale ''X=4.700 Y=0.000 Z=4.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:527][131]PIE:Warning: Warning Scale ''X=4.600 Y=0.000 Z=4.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:543][132]PIE:Warning: Warning Scale ''X=4.600 Y=0.000 Z=4.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:543][132]PIE:Warning: Warning Scale ''X=4.500 Y=0.000 Z=4.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:559][133]PIE:Warning: Warning Scale ''X=4.500 Y=0.000 Z=4.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:559][133]PIE:Warning: Warning Scale ''X=4.400 Y=0.000 Z=4.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:575][134]PIE:Warning: Warning Scale ''X=4.400 Y=0.000 Z=4.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:575][134]PIE:Warning: Warning Scale ''X=4.300 Y=0.000 Z=4.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:591][135]PIE:Warning: Warning Scale ''X=4.300 Y=0.000 Z=4.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:592][135]PIE:Warning: Warning Scale ''X=4.200 Y=0.000 Z=4.200'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:608][136]PIE:Warning: Warning Scale ''X=4.200 Y=0.000 Z=4.200'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:608][136]PIE:Warning: Warning Scale ''X=4.100 Y=0.000 Z=4.100'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:624][137]PIE:Warning: Warning Scale ''X=4.100 Y=0.000 Z=4.100'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:624][137]PIE:Warning: Warning Scale ''X=4.000 Y=0.000 Z=4.000'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:640][138]PIE:Warning: Warning Scale ''X=4.000 Y=0.000 Z=4.000'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:640][138]PIE:Warning: Warning Scale ''X=3.900 Y=0.000 Z=3.900'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:656][139]PIE:Warning: Warning Scale ''X=3.900 Y=0.000 Z=3.900'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:656][139]PIE:Warning: Warning Scale ''X=3.800 Y=0.000 Z=3.800'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:672][140]PIE:Warning: Warning Scale ''X=3.800 Y=0.000 Z=3.800'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:672][140]PIE:Warning: Warning Scale ''X=3.700 Y=0.000 Z=3.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:688][141]PIE:Warning: Warning Scale ''X=3.700 Y=0.000 Z=3.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:688][141]PIE:Warning: Warning Scale ''X=3.600 Y=0.000 Z=3.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:704][142]PIE:Warning: Warning Scale ''X=3.600 Y=0.000 Z=3.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:704][142]PIE:Warning: Warning Scale ''X=3.500 Y=0.000 Z=3.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:721][143]PIE:Warning: Warning Scale ''X=3.500 Y=0.000 Z=3.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:721][143]PIE:Warning: Warning Scale ''X=3.400 Y=0.000 Z=3.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:737][144]PIE:Warning: Warning Scale ''X=3.400 Y=0.000 Z=3.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:737][144]PIE:Warning: Warning Scale ''X=3.300 Y=0.000 Z=3.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:753][145]PIE:Warning: Warning Scale ''X=3.300 Y=0.000 Z=3.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:753][145]PIE:Warning: Warning Scale ''X=3.200 Y=0.000 Z=3.200'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:769][146]PIE:Warning: Warning Scale ''X=3.200 Y=0.000 Z=3.200'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:769][146]PIE:Warning: Warning Scale ''X=3.100 Y=0.000 Z=3.100'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:785][147]PIE:Warning: Warning Scale ''X=3.100 Y=0.000 Z=3.100'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:785][147]PIE:Warning: Warning Scale ''X=3.000 Y=0.000 Z=3.000'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:801][148]PIE:Warning: Warning Scale ''X=3.000 Y=0.000 Z=3.000'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:801][148]PIE:Warning: Warning Scale ''X=2.900 Y=0.000 Z=2.900'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:817][149]PIE:Warning: Warning Scale ''X=2.900 Y=0.000 Z=2.900'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:817][149]PIE:Warning: Warning Scale ''X=2.800 Y=0.000 Z=2.800'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:833][150]PIE:Warning: Warning Scale ''X=2.800 Y=0.000 Z=2.800'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:834][150]PIE:Warning: Warning Scale ''X=2.700 Y=0.000 Z=2.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:849][151]PIE:Warning: Warning Scale ''X=2.700 Y=0.000 Z=2.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:850][151]PIE:Warning: Warning Scale ''X=2.600 Y=0.000 Z=2.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:866][152]PIE:Warning: Warning Scale ''X=2.600 Y=0.000 Z=2.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:866][152]PIE:Warning: Warning Scale ''X=2.500 Y=0.000 Z=2.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:882][153]PIE:Warning: Warning Scale ''X=2.500 Y=0.000 Z=2.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:882][153]PIE:Warning: Warning Scale ''X=2.400 Y=0.000 Z=2.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:898][154]PIE:Warning: Warning Scale ''X=2.400 Y=0.000 Z=2.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:898][154]PIE:Warning: Warning Scale ''X=2.300 Y=0.000 Z=2.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:914][155]PIE:Warning: Warning Scale ''X=2.300 Y=0.000 Z=2.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:914][155]PIE:Warning: Warning Scale ''X=2.200 Y=0.000 Z=2.200'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:930][156]PIE:Warning: Warning Scale ''X=2.200 Y=0.000 Z=2.200'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:931][156]PIE:Warning: Warning Scale ''X=2.100 Y=0.000 Z=2.100'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:946][157]PIE:Warning: Warning Scale ''X=2.100 Y=0.000 Z=2.100'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:946][157]PIE:Warning: Warning Scale ''X=2.000 Y=0.000 Z=2.000'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:963][158]PIE:Warning: Warning Scale ''X=2.000 Y=0.000 Z=2.000'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:963][158]PIE:Warning: Warning Scale ''X=1.900 Y=0.000 Z=1.900'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:978][159]LogBlueprintUserMessages: [PigChar_415] Check lives
+[2016.09.28-10.10.30:979][159]LogBlueprintUserMessages: [PigChar_415] 0
+[2016.09.28-10.10.30:979][159]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllWidgetsOfClass_FoundWidgets4 out of bounds [0/0]!
+[2016.09.28-10.10.30:980][159]PIE:Warning: Warning Scale ''X=1.900 Y=0.000 Z=1.900'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:980][159]PIE:Warning: Warning Scale ''X=1.800 Y=0.000 Z=1.800'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:995][160]PIE:Warning: Warning Scale ''X=1.800 Y=0.000 Z=1.800'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.30:995][160]PIE:Warning: Warning Scale ''X=1.700 Y=0.000 Z=1.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:011][161]PIE:Warning: Warning Scale ''X=1.700 Y=0.000 Z=1.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:011][161]PIE:Warning: Warning Scale ''X=1.600 Y=0.000 Z=1.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:027][162]PIE:Warning: Warning Scale ''X=1.600 Y=0.000 Z=1.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:027][162]PIE:Warning: Warning Scale ''X=1.500 Y=0.000 Z=1.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:043][163]PIE:Warning: Warning Scale ''X=1.500 Y=0.000 Z=1.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:043][163]PIE:Warning: Warning Scale ''X=1.400 Y=0.000 Z=1.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:059][164]PIE:Warning: Warning Scale ''X=1.400 Y=0.000 Z=1.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:059][164]PIE:Warning: Warning Scale ''X=1.300 Y=0.000 Z=1.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:075][165]PIE:Warning: Warning Scale ''X=1.300 Y=0.000 Z=1.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:075][165]PIE:Warning: Warning Scale ''X=1.200 Y=0.000 Z=1.200'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:092][166]PIE:Warning: Warning Scale ''X=1.200 Y=0.000 Z=1.200'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:092][166]PIE:Warning: Warning Scale ''X=1.100 Y=0.000 Z=1.100'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:108][167]PIE:Warning: Warning Scale ''X=1.100 Y=0.000 Z=1.100'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:108][167]PIE:Warning: Warning Scale ''X=1.000 Y=0.000 Z=1.000'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:124][168]PIE:Warning: Warning Scale ''X=1.000 Y=0.000 Z=1.000'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:124][168]PIE:Warning: Warning Scale ''X=0.900 Y=0.000 Z=0.900'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:140][169]PIE:Warning: Warning Scale ''X=0.900 Y=0.000 Z=0.900'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:140][169]PIE:Warning: Warning Scale ''X=0.800 Y=0.000 Z=0.800'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:156][170]PIE:Warning: Warning Scale ''X=0.800 Y=0.000 Z=0.800'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:156][170]PIE:Warning: Warning Scale ''X=0.700 Y=0.000 Z=0.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:172][171]PIE:Warning: Warning Scale ''X=0.700 Y=0.000 Z=0.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:172][171]PIE:Warning: Warning Scale ''X=0.600 Y=0.000 Z=0.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:188][172]PIE:Warning: Warning Scale ''X=0.600 Y=0.000 Z=0.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:188][172]PIE:Warning: Warning Scale ''X=0.500 Y=0.000 Z=0.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:204][173]PIE:Warning: Warning Scale ''X=0.500 Y=0.000 Z=0.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:204][173]PIE:Warning: Warning Scale ''X=0.600 Y=0.000 Z=0.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:220][174]PIE:Warning: Warning Scale ''X=0.600 Y=0.000 Z=0.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:221][174]PIE:Warning: Warning Scale ''X=0.700 Y=0.000 Z=0.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:237][175]PIE:Warning: Warning Scale ''X=0.700 Y=0.000 Z=0.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:237][175]PIE:Warning: Warning Scale ''X=0.800 Y=0.000 Z=0.800'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:253][176]PIE:Warning: Warning Scale ''X=0.800 Y=0.000 Z=0.800'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:253][176]PIE:Warning: Warning Scale ''X=0.900 Y=0.000 Z=0.900'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:269][177]PIE:Warning: Warning Scale ''X=0.900 Y=0.000 Z=0.900'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:269][177]PIE:Warning: Warning Scale ''X=1.000 Y=0.000 Z=1.000'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:285][178]PIE:Warning: Warning Scale ''X=1.000 Y=0.000 Z=1.000'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:285][178]PIE:Warning: Warning Scale ''X=1.100 Y=0.000 Z=1.100'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:301][179]PIE:Warning: Warning Scale ''X=1.100 Y=0.000 Z=1.100'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:301][179]PIE:Warning: Warning Scale ''X=1.200 Y=0.000 Z=1.200'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:317][180]PIE:Warning: Warning Scale ''X=1.200 Y=0.000 Z=1.200'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:317][180]PIE:Warning: Warning Scale ''X=1.300 Y=0.000 Z=1.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:333][181]PIE:Warning: Warning Scale ''X=1.300 Y=0.000 Z=1.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:333][181]PIE:Warning: Warning Scale ''X=1.400 Y=0.000 Z=1.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:349][182]PIE:Warning: Warning Scale ''X=1.400 Y=0.000 Z=1.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:349][182]PIE:Warning: Warning Scale ''X=1.500 Y=0.000 Z=1.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:366][183]PIE:Warning: Warning Scale ''X=1.500 Y=0.000 Z=1.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:366][183]PIE:Warning: Warning Scale ''X=1.600 Y=0.000 Z=1.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:382][184]PIE:Warning: Warning Scale ''X=1.600 Y=0.000 Z=1.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:382][184]PIE:Warning: Warning Scale ''X=1.700 Y=0.000 Z=1.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:398][185]PIE:Warning: Warning Scale ''X=1.700 Y=0.000 Z=1.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:398][185]PIE:Warning: Warning Scale ''X=1.800 Y=0.000 Z=1.800'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:415][186]PIE:Warning: Warning Scale ''X=1.800 Y=0.000 Z=1.800'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:415][186]PIE:Warning: Warning Scale ''X=1.900 Y=0.000 Z=1.900'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:430][187]PIE:Warning: Warning Scale ''X=1.900 Y=0.000 Z=1.900'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:430][187]PIE:Warning: Warning Scale ''X=2.000 Y=0.000 Z=2.000'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:446][188]PIE:Warning: Warning Scale ''X=2.000 Y=0.000 Z=2.000'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:446][188]PIE:Warning: Warning Scale ''X=2.100 Y=0.000 Z=2.100'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:463][189]PIE:Warning: Warning Scale ''X=2.100 Y=0.000 Z=2.100'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:463][189]PIE:Warning: Warning Scale ''X=2.200 Y=0.000 Z=2.200'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:479][190]PIE:Warning: Warning Scale ''X=2.200 Y=0.000 Z=2.200'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:479][190]PIE:Warning: Warning Scale ''X=2.300 Y=0.000 Z=2.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:495][191]PIE:Warning: Warning Scale ''X=2.300 Y=0.000 Z=2.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:495][191]PIE:Warning: Warning Scale ''X=2.400 Y=0.000 Z=2.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:511][192]PIE:Warning: Warning Scale ''X=2.400 Y=0.000 Z=2.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:511][192]PIE:Warning: Warning Scale ''X=2.500 Y=0.000 Z=2.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:527][193]PIE:Warning: Warning Scale ''X=2.500 Y=0.000 Z=2.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:527][193]PIE:Warning: Warning Scale ''X=2.600 Y=0.000 Z=2.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:543][194]PIE:Warning: Warning Scale ''X=2.600 Y=0.000 Z=2.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:543][194]PIE:Warning: Warning Scale ''X=2.700 Y=0.000 Z=2.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:559][195]PIE:Warning: Warning Scale ''X=2.700 Y=0.000 Z=2.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:559][195]PIE:Warning: Warning Scale ''X=2.800 Y=0.000 Z=2.800'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:575][196]PIE:Warning: Warning Scale ''X=2.800 Y=0.000 Z=2.800'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:575][196]PIE:Warning: Warning Scale ''X=2.900 Y=0.000 Z=2.900'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:592][197]PIE:Warning: Warning Scale ''X=2.900 Y=0.000 Z=2.900'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:592][197]PIE:Warning: Warning Scale ''X=3.000 Y=0.000 Z=3.000'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:608][198]PIE:Warning: Warning Scale ''X=3.000 Y=0.000 Z=3.000'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:608][198]PIE:Warning: Warning Scale ''X=3.100 Y=0.000 Z=3.100'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:624][199]PIE:Warning: Warning Scale ''X=3.100 Y=0.000 Z=3.100'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:624][199]PIE:Warning: Warning Scale ''X=3.200 Y=0.000 Z=3.200'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:640][200]PIE:Warning: Warning Scale ''X=3.200 Y=0.000 Z=3.200'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:640][200]PIE:Warning: Warning Scale ''X=3.300 Y=0.000 Z=3.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:656][201]PIE:Warning: Warning Scale ''X=3.300 Y=0.000 Z=3.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:656][201]PIE:Warning: Warning Scale ''X=3.400 Y=0.000 Z=3.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:672][202]PIE:Warning: Warning Scale ''X=3.400 Y=0.000 Z=3.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:672][202]PIE:Warning: Warning Scale ''X=3.500 Y=0.000 Z=3.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:688][203]PIE:Warning: Warning Scale ''X=3.500 Y=0.000 Z=3.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:688][203]PIE:Warning: Warning Scale ''X=3.600 Y=0.000 Z=3.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:704][204]PIE:Warning: Warning Scale ''X=3.600 Y=0.000 Z=3.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:704][204]PIE:Warning: Warning Scale ''X=3.700 Y=0.000 Z=3.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:721][205]PIE:Warning: Warning Scale ''X=3.700 Y=0.000 Z=3.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:721][205]PIE:Warning: Warning Scale ''X=3.800 Y=0.000 Z=3.800'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:737][206]PIE:Warning: Warning Scale ''X=3.800 Y=0.000 Z=3.800'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:737][206]PIE:Warning: Warning Scale ''X=3.900 Y=0.000 Z=3.900'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:753][207]PIE:Warning: Warning Scale ''X=3.900 Y=0.000 Z=3.900'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:753][207]PIE:Warning: Warning Scale ''X=4.000 Y=0.000 Z=4.000'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:769][208]PIE:Warning: Warning Scale ''X=4.000 Y=0.000 Z=4.000'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:769][208]PIE:Warning: Warning Scale ''X=4.100 Y=0.000 Z=4.100'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:785][209]PIE:Warning: Warning Scale ''X=4.100 Y=0.000 Z=4.100'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:785][209]PIE:Warning: Warning Scale ''X=4.200 Y=0.000 Z=4.200'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:801][210]PIE:Warning: Warning Scale ''X=4.200 Y=0.000 Z=4.200'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:801][210]PIE:Warning: Warning Scale ''X=4.300 Y=0.000 Z=4.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:817][211]PIE:Warning: Warning Scale ''X=4.300 Y=0.000 Z=4.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:817][211]PIE:Warning: Warning Scale ''X=4.400 Y=0.000 Z=4.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:833][212]PIE:Warning: Warning Scale ''X=4.400 Y=0.000 Z=4.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:834][212]PIE:Warning: Warning Scale ''X=4.500 Y=0.000 Z=4.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:849][213]PIE:Warning: Warning Scale ''X=4.500 Y=0.000 Z=4.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:849][213]PIE:Warning: Warning Scale ''X=4.600 Y=0.000 Z=4.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:866][214]PIE:Warning: Warning Scale ''X=4.600 Y=0.000 Z=4.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:866][214]PIE:Warning: Warning Scale ''X=4.700 Y=0.000 Z=4.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:882][215]PIE:Warning: Warning Scale ''X=4.700 Y=0.000 Z=4.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:882][215]PIE:Warning: Warning Scale ''X=4.600 Y=0.000 Z=4.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:898][216]PIE:Warning: Warning Scale ''X=4.600 Y=0.000 Z=4.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:898][216]PIE:Warning: Warning Scale ''X=4.500 Y=0.000 Z=4.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:914][217]PIE:Warning: Warning Scale ''X=4.500 Y=0.000 Z=4.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:914][217]PIE:Warning: Warning Scale ''X=4.400 Y=0.000 Z=4.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:931][218]PIE:Warning: Warning Scale ''X=4.400 Y=0.000 Z=4.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:931][218]PIE:Warning: Warning Scale ''X=4.300 Y=0.000 Z=4.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:946][219]PIE:Warning: Warning Scale ''X=4.300 Y=0.000 Z=4.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:946][219]PIE:Warning: Warning Scale ''X=4.200 Y=0.000 Z=4.200'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:962][220]PIE:Warning: Warning Scale ''X=4.200 Y=0.000 Z=4.200'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:963][220]PIE:Warning: Warning Scale ''X=4.100 Y=0.000 Z=4.100'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:979][221]PIE:Warning: Warning Scale ''X=4.100 Y=0.000 Z=4.100'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:979][221]PIE:Warning: Warning Scale ''X=4.000 Y=0.000 Z=4.000'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:995][222]PIE:Warning: Warning Scale ''X=4.000 Y=0.000 Z=4.000'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.31:995][222]PIE:Warning: Warning Scale ''X=3.900 Y=0.000 Z=3.900'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.32:011][223]PIE:Warning: Warning Scale ''X=3.900 Y=0.000 Z=3.900'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.32:011][223]PIE:Warning: Warning Scale ''X=3.800 Y=0.000 Z=3.800'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.32:027][224]PIE:Warning: Warning Scale ''X=3.800 Y=0.000 Z=3.800'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.32:027][224]PIE:Warning: Warning Scale ''X=3.700 Y=0.000 Z=3.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.32:043][225]PIE:Warning: Warning Scale ''X=3.700 Y=0.000 Z=3.700'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.32:043][225]PIE:Warning: Warning Scale ''X=3.600 Y=0.000 Z=3.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.32:059][226]PIE:Warning: Warning Scale ''X=3.600 Y=0.000 Z=3.600'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.32:059][226]PIE:Warning: Warning Scale ''X=3.500 Y=0.000 Z=3.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.32:075][227]PIE:Warning: Warning Scale ''X=3.500 Y=0.000 Z=3.500'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.32:075][227]PIE:Warning: Warning Scale ''X=3.400 Y=0.000 Z=3.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.32:091][228]PIE:Warning: Warning Scale ''X=3.400 Y=0.000 Z=3.400'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.32:091][228]PIE:Warning: Warning Scale ''X=3.300 Y=0.000 Z=3.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.32:108][229]PIE:Warning: Warning Scale ''X=3.300 Y=0.000 Z=3.300'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.32:108][229]PIE:Warning: Warning Scale ''X=3.200 Y=0.000 Z=3.200'' is not valid on object '/Temp/Autosaves/Game/Blueprints/Maps/UEDPCMenu.Menu:PersistentLevel.Danananaa_114.PaperSprite Pig_UI_BUTTON_Sprite'.
+[2016.09.28-10.10.32:226][230]LogEngine: All Windows Closed
+[2016.09.28-10.10.32:226][230]LogWindows: FPlatformMisc::RequestExit(0)
+[2016.09.28-10.10.32:933][231]LogExit: Preparing to exit.
+[2016.09.28-10.10.33:174][231]LogExit: Game engine shut down
+[2016.09.28-10.10.33:175][231]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000254725C0
+[2016.09.28-10.10.33:383][231]LogExit: Object subsystem successfully closed.
+[2016.09.28-10.10.33:392][231]LogD3D11RHI: Shutdown
+[2016.09.28-10.10.33:392][231]LogD3D11RHI: CleanupD3DDevice
+[2016.09.28-10.10.33:408][231]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.09.28-10.10.33:416][231]LogModuleManager: Shutting down and abandoning module AutomationController (116)
+[2016.09.28-10.10.33:416][231]LogModuleManager: Shutting down and abandoning module AutomationWorker (115)
+[2016.09.28-10.10.33:416][231]LogModuleManager: Shutting down and abandoning module CharacterAI (114)
+[2016.09.28-10.10.33:416][231]LogModuleManager: Shutting down and abandoning module AITestSuite (113)
+[2016.09.28-10.10.33:416][231]LogModuleManager: Shutting down and abandoning module GameplayDebugger (112)
+[2016.09.28-10.10.33:416][231]LogModuleManager: Shutting down and abandoning module AIModule (111)
+[2016.09.28-10.10.33:416][231]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (110)
+[2016.09.28-10.10.33:416][231]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (109)
+[2016.09.28-10.10.33:416][231]LogModuleManager: Shutting down and abandoning module ProfilerService (108)
+[2016.09.28-10.10.33:633][231]LogModuleManager: Shutting down and abandoning module TaskGraph (107)
+[2016.09.28-10.10.33:633][231]LogModuleManager: Shutting down and abandoning module SlateRemote (106)
+[2016.09.28-10.10.33:633][231]LogModuleManager: Shutting down and abandoning module SteamVRController (105)
+[2016.09.28-10.10.33:633][231]LogModuleManager: Shutting down and abandoning module SteamVR (104)
+[2016.09.28-10.10.33:633][231]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (103)
+[2016.09.28-10.10.33:633][231]LogModuleManager: Shutting down and abandoning module OculusRift (102)
+[2016.09.28-10.10.33:633][231]LogModuleManager: Shutting down and abandoning module OculusLibrary (101)
+[2016.09.28-10.10.33:633][231]LogModuleManager: Shutting down and abandoning module LeapMotionController (100)
+[2016.09.28-10.10.33:641][231]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (99)
+[2016.09.28-10.10.33:641][231]LogModuleManager: Shutting down and abandoning module CableComponent (98)
+[2016.09.28-10.10.33:641][231]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (97)
+[2016.09.28-10.10.33:641][231]LogModuleManager: Shutting down and abandoning module HTML5Networking (96)
+[2016.09.28-10.10.33:641][231]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
+[2016.09.28-10.10.33:641][231]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (94)
+[2016.09.28-10.10.33:641][231]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.09.28-10.10.33:641][231]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (92)
+[2016.09.28-10.10.33:641][231]LogModuleManager: Shutting down and abandoning module UObjectPlugin (91)
+[2016.09.28-10.10.33:641][231]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (90)
+[2016.09.28-10.10.33:641][231]LogModuleManager: Shutting down and abandoning module SourceControl (89)
+[2016.09.28-10.10.33:641][231]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2016.09.28-10.10.33:641][231]LogModuleManager: Shutting down and abandoning module UdpMessaging (87)
+[2016.09.28-10.10.33:641][231]LogModuleManager: Shutting down and abandoning module AssetRegistry (86)
+[2016.09.28-10.10.33:641][231]LogModuleManager: Shutting down and abandoning module SubstanceCore (85)
+[2016.09.28-10.10.33:641][231]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2016.09.28-10.10.33:641][231]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2016.09.28-10.10.33:641][231]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2016.09.28-10.10.33:642][231]LogModuleManager: Shutting down and abandoning module Media (81)
+[2016.09.28-10.10.33:642][231]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2016.09.28-10.10.33:642][231]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2016.09.28-10.10.33:642][231]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2016.09.28-10.10.33:642][231]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2016.09.28-10.10.33:642][231]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2016.09.28-10.10.33:642][231]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2016.09.28-10.10.33:642][231]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2016.09.28-10.10.33:642][231]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2016.09.28-10.10.33:642][231]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2016.09.28-10.10.33:642][231]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2016.09.28-10.10.33:642][231]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2016.09.28-10.10.33:642][231]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2016.09.28-10.10.33:642][231]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2016.09.28-10.10.33:642][231]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2016.09.28-10.10.33:642][231]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2016.09.28-10.10.33:644][231]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2016.09.28-10.10.33:644][231]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2016.09.28-10.10.33:644][231]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2016.09.28-10.10.33:644][231]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2016.09.28-10.10.33:644][231]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2016.09.28-10.10.33:644][231]LogModuleManager: Shutting down and abandoning module Core (59)
+[2016.09.28-10.10.33:644][231]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2016.09.28-10.10.33:644][231]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2016.09.28-10.10.33:644][231]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2016.09.28-10.10.33:644][231]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2016.09.28-10.10.33:645][231]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2016.09.28-10.10.34:104][231]LogDerivedDataCache: Shutdown
+[2016.09.28-10.10.34:104][231]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2016.09.28-10.10.34:104][231]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2016.09.28-10.10.34:104][231]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2016.09.28-10.10.34:104][231]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2016.09.28-10.10.34:104][231]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2016.09.28-10.10.34:104][231]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2016.09.28-10.10.34:104][231]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2016.09.28-10.10.34:104][231]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2016.09.28-10.10.34:104][231]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2016.09.28-10.10.34:104][231]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2016.09.28-10.10.34:104][231]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2016.09.28-10.10.34:104][231]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2016.09.28-10.10.34:104][231]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2016.09.28-10.10.34:104][231]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2016.09.28-10.10.34:104][231]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2016.09.28-10.10.34:104][231]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2016.09.28-10.10.34:104][231]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2016.09.28-10.10.34:104][231]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2016.09.28-10.10.34:104][231]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2016.09.28-10.10.34:104][231]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2016.09.28-10.10.34:104][231]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2016.09.28-10.10.34:104][231]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2016.09.28-10.10.34:104][231]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2016.09.28-10.10.34:104][231]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2016.09.28-10.10.34:104][231]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2016.09.28-10.10.34:104][231]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2016.09.28-10.10.34:104][231]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2016.09.28-10.10.34:104][231]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2016.09.28-10.10.34:104][231]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2016.09.28-10.10.34:104][231]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2016.09.28-10.10.34:104][231]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2016.09.28-10.10.34:104][231]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2016.09.28-10.10.34:104][231]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2016.09.28-10.10.34:104][231]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2016.09.28-10.10.34:104][231]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.09.28-10.10.34:104][231]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2016.09.28-10.10.34:104][231]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2016.09.28-10.10.34:104][231]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.09.28-10.10.34:104][231]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.09.28-10.10.34:104][231]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.09.28-10.10.34:104][231]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.09.28-10.10.34:104][231]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.09.28-10.10.34:105][231]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.09.28-10.10.34:105][231]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.09.28-10.10.34:105][231]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.09.28-10.10.34:105][231]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.09.28-10.10.34:105][231]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.09.28-10.10.34:105][231]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.09.28-10.10.34:105][231]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.09.28-10.10.34:105][231]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.09.28-10.10.34:105][231]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.09.28-10.10.34:105][231]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.09.28-10.10.34:105][231]LogExit: Exiting.
+[2016.09.28-10.10.34:106][231]Log file closed, 09/28/16 11:10:34
